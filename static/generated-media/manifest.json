@@ -1,33 +1,48 @@
 {
-	"generatedAt": "2026-05-08T08:22:38.539Z",
-	"note": "Medios POC generados localmente con ffmpeg. En produccion, ObstetraScroll llama a AIServices text2video/text2audio/text2image/image2video desde src/lib/server/aiservices.ts.",
-	"items": [
-		{
-			"slug": "reel-01-delayed-cord-clamping-preterm",
-			"title": "Clampeo tardio",
-			"subtitle": "Contexto, no frase suelta",
-			"color": "0x265f46",
-			"accent": "0xe2b84b",
-			"frequency": "220",
-			"x": "36"
-		},
-		{
-			"slug": "reel-02-silent-postpartum-urinary-retention",
-			"title": "Retencion urinaria silenciosa",
-			"subtitle": "Evaluacion del puerperio",
-			"color": "0x263f77",
-			"accent": "0xd9ead9",
-			"frequency": "260",
-			"x": "180"
-		},
-		{
-			"slug": "reel-03-skin-to-skin-temperature",
-			"title": "Piel con piel tambien abriga",
-			"subtitle": "Contacto mas monitoreo",
-			"color": "0x8f3329",
-			"accent": "0xe2b84b",
-			"frequency": "196",
-			"x": "324"
-		}
-	]
+  "generatedAt": "2026-05-08T12:24:48.519Z",
+  "note": "Medios POC generados localmente con ffmpeg. En produccion, ObstetraScroll llama a AIServices text2video/text2audio/text2image/image2video desde src/lib/server/aiservices.ts.",
+  "items": [
+    {
+      "slug": "reel-01-delayed-cord-clamping-preterm",
+      "durationSec": 8,
+      "videoPath": "/generated-media/reels/reel-01-delayed-cord-clamping-preterm.mp4",
+      "audioPath": "/generated-media/audio/reel-01-delayed-cord-clamping-preterm.wav",
+      "posterPath": "/generated-media/posters/reel-01-delayed-cord-clamping-preterm.png"
+    },
+    {
+      "slug": "reel-02-silent-postpartum-urinary-retention",
+      "durationSec": 8,
+      "videoPath": "/generated-media/reels/reel-02-silent-postpartum-urinary-retention.mp4",
+      "audioPath": "/generated-media/audio/reel-02-silent-postpartum-urinary-retention.wav",
+      "posterPath": "/generated-media/posters/reel-02-silent-postpartum-urinary-retention.png"
+    },
+    {
+      "slug": "reel-03-skin-to-skin-temperature",
+      "durationSec": 8,
+      "videoPath": "/generated-media/reels/reel-03-skin-to-skin-temperature.mp4",
+      "audioPath": "/generated-media/audio/reel-03-skin-to-skin-temperature.wav",
+      "posterPath": "/generated-media/posters/reel-03-skin-to-skin-temperature.png"
+    },
+    {
+      "slug": "reel-04-oxytocin-context-matters",
+      "durationSec": 8,
+      "videoPath": "/generated-media/reels/reel-04-oxytocin-context-matters.mp4",
+      "audioPath": "/generated-media/audio/reel-04-oxytocin-context-matters.wav",
+      "posterPath": "/generated-media/posters/reel-04-oxytocin-context-matters.png"
+    },
+    {
+      "slug": "reel-05-meconium-risk-gradient",
+      "durationSec": 8,
+      "videoPath": "/generated-media/reels/reel-05-meconium-risk-gradient.mp4",
+      "audioPath": "/generated-media/audio/reel-05-meconium-risk-gradient.wav",
+      "posterPath": "/generated-media/posters/reel-05-meconium-risk-gradient.png"
+    },
+    {
+      "slug": "reel-06-hand-expression-antenatal",
+      "durationSec": 8,
+      "videoPath": "/generated-media/reels/reel-06-hand-expression-antenatal.mp4",
+      "audioPath": "/generated-media/audio/reel-06-hand-expression-antenatal.wav",
+      "posterPath": "/generated-media/posters/reel-06-hand-expression-antenatal.png"
+    }
+  ]
 }

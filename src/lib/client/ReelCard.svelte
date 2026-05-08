@@ -21,6 +21,7 @@ type Props = {
 	swipeOffset: number;
 	onAnswerQuiz: (answerKey: string, optionIndex: number) => void;
 	onTogglePause: (key: string) => void;
+	onNextReel: (key: string) => void;
 	onBindReel: (node: HTMLElement, key: string) => ActionReturn;
 	onBindVideo: (node: HTMLVideoElement, key: string) => ActionReturn;
 };
@@ -32,11 +33,29 @@ let {
 	swipeOffset,
 	onAnswerQuiz,
 	onTogglePause,
+	onNextReel,
 	onBindReel,
 	onBindVideo,
 }: Props = $props();
 
 const item = $derived(reel.item);
+let videoProgress = $state(0);
+let videoError = $state(false);
+
+function handleTimeUpdate(e: Event) {
+	const video = e.currentTarget as HTMLVideoElement;
+	if (video.duration > 0) {
+		videoProgress = (video.currentTime / video.duration) * 100;
+	}
+}
+
+function handleVideoEnded() {
+	onNextReel(reel.key);
+}
+
+function handleVideoError() {
+	videoError = true;
+}
 
 function assetIcon(kind: "audio" | "image" | "video") {
 	if (kind === "audio") return FileAudio;
@@ -53,11 +72,13 @@ function assetIcon(kind: "audio" | "image" | "video") {
 	aria-label={item.title}
 >
 	{#if reel.shouldRender}
-		<button
+		<div
 			class="phone"
-			type="button"
+			role="button"
+			tabindex="0"
 			aria-label={isPaused ? "Reproducir video" : "Pausar video"}
 			onclick={() => onTogglePause(reel.key)}
+			onkeydown={(e) => { if (e.key === 'Enter' || e.key === ' ') onTogglePause(reel.key); }}
 		>
 			<video
 				src={reel.shouldPreload ? item.videoPath : undefined}
@@ -66,10 +87,24 @@ function assetIcon(kind: "audio" | "image" | "video") {
 				muted
 				playsinline
 				preload={reel.shouldPreload ? "metadata" : "none"}
+				ontimeupdate={handleTimeUpdate}
+				onended={handleVideoEnded}
+				onerror={handleVideoError}
 				use:onBindVideo={reel.key}
 			>
 				<track kind="captions" />
 			</video>
+
+			{#if videoError && reel.isActive}
+				<div class="video-error" aria-label="Error al cargar video">
+					<p>Video no disponible</p>
+					<small>El medio no se pudo cargar. Probá con el siguiente reel.</small>
+				</div>
+			{/if}
+
+			<div class="progress-bar">
+				<div class="progress-fill" style="width: {videoProgress}%"></div>
+			</div>
 
 			<div class="video-overlay">
 				<div>
@@ -86,10 +121,22 @@ function assetIcon(kind: "audio" | "image" | "video") {
 				</div>
 			</div>
 
+			<button
+				class="next-btn"
+				type="button"
+				aria-label="Próximo video"
+				onclick={(e) => {
+					e.stopPropagation();
+					onNextReel(reel.key);
+				}}
+			>
+				<ChevronDown size={24} />
+			</button>
+
 			{#if isPaused && reel.isActive}
 				<div class="pause-indicator" aria-label="Video pausado">▌▌</div>
 			{/if}
-		</button>
+		</div>
 
 		<aside class="lesson">
 			<div class="lesson-head">
@@ -205,6 +252,47 @@ function assetIcon(kind: "audio" | "image" | "video") {
 		object-fit: cover;
 	}
 
+	.progress-bar {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 3px;
+		background: rgb(255 250 241 / 22%);
+		z-index: 3;
+		pointer-events: none;
+	}
+
+	.progress-fill {
+		height: 100%;
+		background: var(--yellow);
+		transition: width 0.1s linear;
+	}
+
+	.next-btn {
+		position: absolute;
+		bottom: 12px;
+		right: 12px;
+		z-index: 3;
+		display: grid;
+		width: 40px;
+		height: 40px;
+		place-items: center;
+		padding: 0;
+		border: 1px solid rgb(255 250 241 / 62%);
+		border-radius: 50%;
+		background: rgb(0 0 0 / 52%);
+		color: #fffaf1;
+		cursor: pointer;
+		backdrop-filter: blur(4px);
+		transition: transform 0.15s ease;
+	}
+
+	.next-btn:hover {
+		transform: scale(1.12);
+		background: rgb(0 0 0 / 72%);
+	}
+
 	.video-overlay {
 		position: absolute;
 		inset: auto 0 0;
@@ -294,6 +382,30 @@ function assetIcon(kind: "audio" | "image" | "video") {
 		to {
 			opacity: 1;
 		}
+	}
+
+	.video-error {
+		position: absolute;
+		inset: 0;
+		display: grid;
+		place-items: center;
+		padding: 24px;
+		background: var(--ink);
+		color: #fffaf1;
+		text-align: center;
+		animation: fade-in 0.2s ease;
+	}
+
+	.video-error p {
+		margin: 0 0 8px;
+		font-size: 1.2rem;
+		font-weight: 700;
+	}
+
+	.video-error small {
+		color: var(--line);
+		font-family: var(--font-mono);
+		font-size: 0.75rem;
 	}
 
 	.lesson {

@@ -98,10 +98,17 @@ function togglePause(key: string) {
 }
 
 function scrollToReel(index: number) {
-	const key = loopedFeedItems[index]?.key;
+	const safeIndex = Math.max(0, Math.min(index, loopedFeedItems.length - 1));
+	const key = loopedFeedItems[safeIndex]?.key;
 	if (!key) return;
 	const el = reelElements[key];
 	if (el) el.scrollIntoView({ behavior: "smooth" });
+}
+
+function skipToNext() {
+	const nextIdx = activeReelIndex + 1;
+	const safeNext = nextIdx >= loopedFeedItems.length ? 0 : nextIdx;
+	scrollToReel(safeNext);
 }
 
 function handleKeydown(e: KeyboardEvent) {
@@ -110,6 +117,7 @@ function handleKeydown(e: KeyboardEvent) {
 	switch (e.key) {
 		case "ArrowDown":
 		case "j":
+		case "n":
 			e.preventDefault();
 			scrollToReel(Math.min(activeReelIndex + 1, loopedFeedItems.length - 1));
 			break;
@@ -217,11 +225,27 @@ function displayCounter(loopedReels: LoopedReel[]) {
 				{swipeOffset}
 				onAnswerQuiz={answerQuiz}
 				onTogglePause={togglePause}
+				onNextReel={skipToNext}
 				onBindReel={bindReel}
 				onBindVideo={bindVideo}
 			/>
 		{/each}
 	</section>
+
+	<nav class="dot-nav" aria-label="Navegación de reels">
+		{#each feedItems as _, i}
+			{@const activeLoopIdx = activeReelIndex % feedItems.length}
+			<button
+				type="button"
+				class:active={i === activeLoopIdx}
+				aria-label={`Video ${i + 1}`}
+				onclick={() => {
+					const targetIdx = Math.floor(activeReelIndex / feedItems.length) * feedItems.length + i;
+					scrollToReel(targetIdx);
+				}}
+			></button>
+		{/each}
+	</nav>
 </main>
 
 <style>
@@ -335,5 +359,40 @@ function displayCounter(loopedReels: LoopedReel[]) {
 			overflow: visible;
 			scroll-snap-type: none;
 		}
+
+		.dot-nav {
+			display: none;
+		}
+	}
+
+	.dot-nav {
+		position: fixed;
+		right: 16px;
+		top: 50%;
+		transform: translateY(-50%);
+		z-index: 9;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.dot-nav button {
+		width: 10px;
+		height: 10px;
+		padding: 0;
+		border: 1px solid var(--ink);
+		border-radius: 50%;
+		background: #fffdf8;
+		cursor: pointer;
+		transition: background 0.15s, transform 0.15s;
+	}
+
+	.dot-nav button.active {
+		background: var(--yellow);
+		transform: scale(1.35);
+	}
+
+	.dot-nav button:hover {
+		background: var(--yellow);
 	}
 </style>

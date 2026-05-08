@@ -39,6 +39,33 @@ const items = [
 		frequency: "196",
 		x: "324",
 	},
+	{
+		slug: "reel-04-oxytocin-context-matters",
+		title: "Oxitocina con contexto",
+		subtitle: "Ambiente y comunicacion",
+		color: "0x4a3060",
+		accent: "0xd9ead9",
+		frequency: "280",
+		x: "90",
+	},
+	{
+		slug: "reel-05-meconium-risk-gradient",
+		title: "Meconio: senal de contexto",
+		subtitle: "Patron clinico, no alarma aislada",
+		color: "0x5c3d2e",
+		accent: "0xe2b84b",
+		frequency: "240",
+		x: "252",
+	},
+	{
+		slug: "reel-06-hand-expression-antenatal",
+		title: "Calostro antes del parto",
+		subtitle: "Consejeria prenatal",
+		color: "0x1e4a5c",
+		accent: "0xd9ead9",
+		frequency: "300",
+		x: "180",
+	},
 ];
 
 function runFfmpeg(args) {
@@ -105,15 +132,24 @@ for (const item of items) {
 	]);
 }
 
+const manifestItems = items.map((item) => ({
+	slug: item.slug,
+	durationSec: 8,
+	videoPath: `/generated-media/reels/${item.slug}.mp4`,
+	audioPath: `/generated-media/audio/${item.slug}.wav`,
+	posterPath: `/generated-media/posters/${item.slug}.png`,
+}));
+
 writeFileSync(
 	join(outRoot, "manifest.json"),
 	JSON.stringify(
 		{
 			generatedAt: new Date().toISOString(),
 			note: "Medios POC generados localmente con ffmpeg. En produccion, ObstetraScroll llama a AIServices text2video/text2audio/text2image/image2video desde src/lib/server/aiservices.ts.",
-			items,
+			items: manifestItems,
 		},
 		null,
 		2,
 	),
+	"utf8",
 );
