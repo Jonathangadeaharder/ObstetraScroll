@@ -43,6 +43,42 @@ const quizzes: Record<string, QuizQuestion> = {
 		explanation:
 			"El reel tiene que unir cercanía emocional con función fisiológica y cuidado clínico.",
 	},
+	"oxytocin-context-matters": {
+		id: "quiz-oxytocin-context",
+		question: "¿Qué cambia la manera de acompañar el trabajo de parto?",
+		options: [
+			"Entender que la oxitocina trabaja sola, sin influencia del entorno.",
+			"Sumar ambiente, seguridad y comunicación al manejo fisiológico.",
+			"Delegar el manejo del entorno solo al equipo de enfermería.",
+		],
+		answerIndex: 1,
+		explanation:
+			"Luz, palabras, ritmo y seguridad son herramientas concretas de la partera, no solo conceptos.",
+	},
+	"meconium-risk-gradient": {
+		id: "quiz-meconium-risk",
+		question: "¿Cómo debería leerse el líquido amniótico meconial?",
+		options: [
+			"Como una alarma que siempre requiere intervención inmediata.",
+			"Como señal a interpretar dentro del patrón clínico completo.",
+			"Como dato que solo importa en el expulsivo.",
+		],
+		answerIndex: 1,
+		explanation:
+			"Color, cantidad, EG, monitoreo fetal, signos infecciosos y evolución: el significado está en el conjunto.",
+	},
+	"hand-expression-antenatal": {
+		id: "quiz-hand-expression",
+		question: "¿Cuándo puede conversarse la extracción antenatal de calostro?",
+		options: [
+			"En cualquier persona gestante, sin evaluación previa.",
+			"En personas seleccionadas, con indicación clara y acompañamiento.",
+			"Solo después del parto, nunca en el prenatal.",
+		],
+		answerIndex: 1,
+		explanation:
+			"La consejería prenatal existe, pero necesita indicación precisa y revisión de contraindicaciones.",
+	},
 };
 
 type GeneratedManifest = {
@@ -68,7 +104,11 @@ function readGeneratedManifest(): GeneratedManifest {
 	return JSON.parse(readFileSync(manifestPath, "utf8")) as GeneratedManifest;
 }
 
-function feedItem(fact: Fact, index: number): ReelFeedItem {
+function feedItem(
+	fact: Fact,
+	index: number,
+	manifest: GeneratedManifest,
+): ReelFeedItem {
 	const brief = planReel(
 		fact,
 		reelRequestSchema.parse({
@@ -78,9 +118,7 @@ function feedItem(fact: Fact, index: number): ReelFeedItem {
 		}),
 	);
 	const slug = `reel-${String(index + 1).padStart(2, "0")}-${fact.id}`;
-	const generated = readGeneratedManifest().items?.find(
-		(item) => item.slug === slug,
-	);
+	const generated = manifest.items?.find((item) => item.slug === slug);
 
 	return {
 		id: slug,
@@ -128,5 +166,6 @@ function feedItem(fact: Fact, index: number): ReelFeedItem {
 }
 
 export function listFeedItems() {
-	return facts.slice(0, 3).map(feedItem);
+	const manifest = readGeneratedManifest();
+	return facts.map((fact, i) => feedItem(fact, i, manifest));
 }

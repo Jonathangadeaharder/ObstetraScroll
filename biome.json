@@ -4,7 +4,14 @@
 		"enabled": false
 	},
 	"files": {
-		"ignore": [".svelte-kit", "build", "node_modules", "pnpm-lock.yaml"]
+		"ignore": [
+			".svelte-kit",
+			"build",
+			"node_modules",
+			"pnpm-lock.yaml",
+			"static/generated-media",
+			"coverage"
+		]
 	},
 	"formatter": {
 		"enabled": true,
