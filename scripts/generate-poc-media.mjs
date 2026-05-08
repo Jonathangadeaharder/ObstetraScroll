@@ -6,6 +6,7 @@ const outRoot = "static/generated-media";
 const reelsDir = join(outRoot, "reels");
 const audioDir = join(outRoot, "audio");
 const postersDir = join(outRoot, "posters");
+const DURATION_SEC = 8;
 
 mkdirSync(reelsDir, { recursive: true });
 mkdirSync(audioDir, { recursive: true });
@@ -92,7 +93,7 @@ for (const item of items) {
 		"-f",
 		"lavfi",
 		"-i",
-		`sine=frequency=${item.frequency}:duration=8:sample_rate=44100`,
+		`sine=frequency=${item.frequency}:duration=${DURATION_SEC}:sample_rate=44100`,
 		"-filter:a",
 		"volume=0.16",
 		audioPath,
@@ -102,7 +103,7 @@ for (const item of items) {
 		"-f",
 		"lavfi",
 		"-i",
-		`color=c=${item.color}:s=720x1280:r=30:d=8`,
+		`color=c=${item.color}:s=720x1280:r=30:d=${DURATION_SEC}`,
 		"-i",
 		audioPath,
 		"-vf",
@@ -134,7 +135,7 @@ for (const item of items) {
 
 const manifestItems = items.map((item) => ({
 	slug: item.slug,
-	durationSec: 8,
+	durationSec: DURATION_SEC,
 	videoPath: `/generated-media/reels/${item.slug}.mp4`,
 	audioPath: `/generated-media/audio/${item.slug}.wav`,
 	posterPath: `/generated-media/posters/${item.slug}.png`,

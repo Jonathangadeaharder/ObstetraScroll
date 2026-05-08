@@ -119,12 +119,12 @@ function handleKeydown(e: KeyboardEvent) {
 		case "j":
 		case "n":
 			e.preventDefault();
-			scrollToReel(Math.min(activeReelIndex + 1, loopedFeedItems.length - 1));
+			skipToNext();
 			break;
 		case "ArrowUp":
 		case "k":
 			e.preventDefault();
-			scrollToReel(Math.max(activeReelIndex - 1, 0));
+			scrollToReel(activeReelIndex - 1);
 			break;
 		case " ":
 			e.preventDefault();

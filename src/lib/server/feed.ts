@@ -104,7 +104,11 @@ function readGeneratedManifest(): GeneratedManifest {
 	return JSON.parse(readFileSync(manifestPath, "utf8")) as GeneratedManifest;
 }
 
-function feedItem(fact: Fact, index: number): ReelFeedItem {
+function feedItem(
+	fact: Fact,
+	index: number,
+	manifest: GeneratedManifest,
+): ReelFeedItem {
 	const brief = planReel(
 		fact,
 		reelRequestSchema.parse({
@@ -114,9 +118,7 @@ function feedItem(fact: Fact, index: number): ReelFeedItem {
 		}),
 	);
 	const slug = `reel-${String(index + 1).padStart(2, "0")}-${fact.id}`;
-	const generated = readGeneratedManifest().items?.find(
-		(item) => item.slug === slug,
-	);
+	const generated = manifest.items?.find((item) => item.slug === slug);
 
 	return {
 		id: slug,
@@ -164,5 +166,6 @@ function feedItem(fact: Fact, index: number): ReelFeedItem {
 }
 
 export function listFeedItems() {
-	return facts.map(feedItem);
+	const manifest = readGeneratedManifest();
+	return facts.map((fact, i) => feedItem(fact, i, manifest));
 }

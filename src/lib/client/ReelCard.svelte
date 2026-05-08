@@ -41,16 +41,19 @@ let {
 const item = $derived(reel.item);
 let videoProgress = $state(0);
 let videoError = $state(false);
+const END_THRESHOLD = 0.3;
 
 function handleTimeUpdate(e: Event) {
 	const video = e.currentTarget as HTMLVideoElement;
 	if (video.duration > 0) {
 		videoProgress = (video.currentTime / video.duration) * 100;
+		if (video.duration - video.currentTime <= END_THRESHOLD) {
+			onNextReel(reel.key);
+		}
 	}
-}
-
-function handleVideoEnded() {
-	onNextReel(reel.key);
+	if (videoError) {
+		videoError = false;
+	}
 }
 
 function handleVideoError() {
@@ -78,7 +81,12 @@ function assetIcon(kind: "audio" | "image" | "video") {
 			tabindex="0"
 			aria-label={isPaused ? "Reproducir video" : "Pausar video"}
 			onclick={() => onTogglePause(reel.key)}
-			onkeydown={(e) => { if (e.key === 'Enter' || e.key === ' ') onTogglePause(reel.key); }}
+			onkeydown={(e) => {
+				if (e.key === 'Enter' || e.key === ' ') {
+					e.preventDefault();
+					onTogglePause(reel.key);
+				}
+			}}
 		>
 			<video
 				src={reel.shouldPreload ? item.videoPath : undefined}
@@ -88,7 +96,6 @@ function assetIcon(kind: "audio" | "image" | "video") {
 				playsinline
 				preload={reel.shouldPreload ? "metadata" : "none"}
 				ontimeupdate={handleTimeUpdate}
-				onended={handleVideoEnded}
 				onerror={handleVideoError}
 				use:onBindVideo={reel.key}
 			>

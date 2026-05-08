@@ -142,7 +142,7 @@ describe("AIServices command builder", () => {
 		}
 	});
 
-	it("generates unique env for each invocation", () => {
+	it("includes env for each invocation", () => {
 		const cmd1 = buildAIServicesCommand("text2video", {
 			prompt: "a",
 			output: "1.mp4",
