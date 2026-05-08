@@ -1,0 +1,46 @@
+{
+	"name": "obstetrascroll",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+	"description": "SvelteKit proof of concept para generar reels revisados para parteras y obstétricas.",
+	"packageManager": "pnpm@10.33.2",
+	"engines": {
+		"node": ">=20.10"
+	},
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"typecheck": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"lint": "biome check .",
+		"format": "biome format --write .",
+		"media:ai": "node scripts/generate-ai-media.mjs",
+		"media:poc": "node scripts/generate-poc-media.mjs",
+		"test": "vitest run",
+		"test:watch": "vitest"
+	},
+	"dependencies": {
+		"@fontsource-variable/jetbrains-mono": "^5.2.8",
+		"@fontsource-variable/newsreader": "^5.2.8",
+		"lucide-svelte": "^1.0.1",
+		"zod": "^3.24.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@sveltejs/adapter-node": "^5.2.9",
+		"@sveltejs/kit": "^2.11.1",
+		"@sveltejs/vite-plugin-svelte": "^5.0.3",
+		"@types/node": "^22.10.2",
+		"jsdom": "^25.0.1",
+		"svelte": "^5.15.0",
+		"svelte-check": "^4.1.1",
+		"typescript": "^5.7.2",
+		"vite": "^6.0.5",
+		"vitest": "^3.2.4"
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": ["@biomejs/biome", "esbuild"]
+	}
+}
