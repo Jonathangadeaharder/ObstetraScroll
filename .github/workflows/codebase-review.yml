@@ -1,0 +1,27 @@
+name: Codebase Review
+
+on:
+  workflow_dispatch:
+
+jobs:
+  review:
+    runs-on: self-hosted
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run codebase review
+        env:
+          OPENAI.KEY: ${{ secrets.CROFAI_API_KEY }}
+          OPENAI.API_BASE: https://crof.ai/v1
+          CONFIG.MODEL: "openai/glm-5.1"
+        run: |
+          VENV=/tmp/pr-agent-venv-py313
+          if [ ! -f "$VENV/bin/python" ]; then
+            python3.13 -m venv "$VENV"
+            "$VENV/bin/pip" install --upgrade pip
+            "$VENV/bin/pip" install pr-agent
+          fi
+          INITIAL_COMMIT=$(git rev-list --max-parents=0 HEAD)
+          PR_URL="https://github.com/${{ github.repository }}/compare/$INITIAL_COMMIT...$(git rev-parse HEAD)"
+          "$VENV/bin/python" -m pr_agent.cli describe --pr_url="$PR_URL"
