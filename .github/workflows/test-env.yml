@@ -1,0 +1,14 @@
+name: Test Env
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: [self-hosted, macOS]
+    steps:
+      - uses: actions/checkout@v4
+      - name: test
+        env:
+          CROFAI_API_KEY: ${{ secrets.CROFAI_API_KEY }}
+        run: echo "hello" > /tmp/test.txt
