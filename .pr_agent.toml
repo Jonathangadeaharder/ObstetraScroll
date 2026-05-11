@@ -1,6 +1,6 @@
 [config]
-model = "openai/qwen3.6-27b-mlx"
-fallback_models = ["openai/qwen3.6-27b-mlx"]
+model = "openai/glm-5.1"
+fallback_models = ["openai/glm-5.1"]
 custom_model_max_tokens = 32768
 custom_reasoning_model = true
 verbosity_level = 2
