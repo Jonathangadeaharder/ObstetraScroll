@@ -5,7 +5,7 @@ on:
 
 jobs:
   review:
-    runs-on: self-hosted
+    runs-on: [self-hosted, macOS]
     permissions:
       contents: write
       pull-requests: write
@@ -22,11 +22,9 @@ jobs:
         run: |
           DEFAULT_BRANCH="${{ github.event.repository.default_branch }}"
 
-          VENV=/tmp/pr-agent-venv-py313
-          if [ ! -f "$VENV/bin/python" ]; then
-            python3.13 -m venv "$VENV"
-            "$VENV/bin/pip" install --upgrade pip
-            "$VENV/bin/pip" install pr-agent
+          if ! command -v pr-agent &>/dev/null; then
+            echo "ERROR: pr-agent not installed globally. Run: uv tool install pr-agent --with tiktoken --python 3.12"
+            exit 1
           fi
 
           BRANCH="tmp/codebase-review-$(date +%s)"
@@ -37,10 +35,10 @@ jobs:
           git commit -m "empty"
           git push origin "$BRANCH"
 
-          PR_URL=$(gh pr create --base "$BRANCH" --head "$DEFAULT_BRANCH" --title "Codebase Review $(date -u +%Y-%m-%d)" --body "Automated full codebase review" --json url --jq '.url')
+          PR_URL=$(gh pr create --base "$BRANCH" --head "$DEFAULT_BRANCH" --title "Codebase Review $(date -u +%Y-%m-%d)" --body "Automated full codebase review")
 
-          "$VENV/bin/python" -m pr_agent.cli describe --pr_url="$PR_URL"
-          "$VENV/bin/python" -m pr_agent.cli review --pr_url="$PR_URL"
+          pr-agent describe --pr_url="$PR_URL"
+          pr-agent review --pr_url="$PR_URL"
 
           gh pr close "$PR_URL" -d
           git push origin --delete "$BRANCH" || true
