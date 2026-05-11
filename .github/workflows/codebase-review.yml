@@ -22,6 +22,6 @@ jobs:
             "$VENV/bin/pip" install --upgrade pip
             "$VENV/bin/pip" install pr-agent
           fi
-          INITIAL_COMMIT=$(git rev-list --max-parents=0 HEAD)
-          PR_URL="https://github.com/${{ github.repository }}/compare/$INITIAL_COMMIT...$(git rev-parse HEAD)"
+          EMPTY_TREE=$(git hash-object -t tree /dev/null)
+          PR_URL="https://github.com/${{ github.repository }}/compare/$EMPTY_TREE...$(git rev-parse HEAD)"
           "$VENV/bin/python" -m pr_agent.cli describe --pr_url="$PR_URL"
