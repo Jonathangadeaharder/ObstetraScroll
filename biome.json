@@ -1,24 +1,25 @@
 {
-	"$schema": "https://biomejs.dev/schemas/2.4.15/schema.json",
+	"$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
 	"vcs": {
 		"enabled": false
 	},
 	"files": {
-		"includes": [
-			"**",
-			"!**/.svelte-kit",
-			"!**/build",
-			"!**/node_modules",
-			"!**/pnpm-lock.yaml",
-			"!**/static/generated-media",
-			"!**/coverage"
+		"ignore": [
+			".svelte-kit",
+			"build",
+			"node_modules",
+			"pnpm-lock.yaml",
+			"static/generated-media",
+			"coverage"
 		]
 	},
 	"formatter": {
 		"enabled": true,
 		"indentStyle": "tab"
 	},
-	"assist": { "actions": { "source": { "organizeImports": "on" } } },
+	"organizeImports": {
+		"enabled": true
+	},
 	"linter": {
 		"enabled": true,
 		"rules": {

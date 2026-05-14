@@ -1,6 +1,6 @@
 import { findFact } from "$lib/server/facts";
 import { planReel, reelRequestSchema } from "$lib/server/reelPlanner";
-import { error, json, type RequestEvent } from "@sveltejs/kit";
+import { type RequestEvent, error, json } from "@sveltejs/kit";
 
 export async function POST({ request }: RequestEvent) {
 	const parsed = reelRequestSchema.safeParse(await request.json());
