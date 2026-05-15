@@ -109,7 +109,7 @@ function assetIcon(kind: "audio" | "image" | "video") {
 			</aside>
 		{/if}
 	{:else if pageType === "quiz"}
-		<div class="quiz-full">
+		<div class="quiz-full" class:answered={selectedAnswer !== undefined}>
 			<div class="quiz-header">
 				<p class="eyebrow">Después del video</p>
 				<h2>Pregunta rápida</h2>
@@ -134,8 +134,8 @@ function assetIcon(kind: "audio" | "image" | "video") {
 					{/each}
 				</div>
 
-				{#if selectedAnswer !== undefined}
-					<p class="explanation">
+			{#if selectedAnswer !== undefined}
+					<p class="explanation" onclick={() => onNextReel(reel.key)}>
 						<BadgeCheck size={18} />
 						{item.quiz.explanation}
 					</p>
@@ -294,7 +294,7 @@ function assetIcon(kind: "audio" | "image" | "video") {
 				</div>
 
 				{#if selectedAnswer !== undefined}
-					<p class="explanation">
+					<p class="explanation" onclick={() => onNextReel(reel.key)}>
 						<BadgeCheck size={18} />
 						{item.quiz.explanation}
 					</p>
@@ -674,6 +674,7 @@ function assetIcon(kind: "audio" | "image" | "video") {
 		font-weight: 700;
 		overflow-wrap: break-word;
 		word-break: break-word;
+		cursor: pointer;
 	}
 
 	.pipeline {
@@ -732,6 +733,10 @@ function assetIcon(kind: "audio" | "image" | "video") {
 
 	.quiz-header h2 {
 		margin-top: 4px;
+	}
+
+	.quiz-full.answered {
+		overflow-y: hidden;
 	}
 
 	.next-page-btn {
