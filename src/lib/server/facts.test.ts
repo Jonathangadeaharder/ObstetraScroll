@@ -1,5 +1,5 @@
-import { describe, expect, it } from "vitest";
 import { findFact, listFacts } from "$lib/server/facts";
+import { describe, expect, it } from "vitest";
 
 describe("listFacts", () => {
 	it("returns 94 facts", () => {

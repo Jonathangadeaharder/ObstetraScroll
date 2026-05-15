@@ -1,6 +1,6 @@
 <script lang="ts">
-import { Sparkles } from "lucide-svelte";
 import { page } from "$app/stores";
+import { Sparkles } from "lucide-svelte";
 
 const status = $derived($page.status);
 const errorMessage = $derived($page.error?.message);

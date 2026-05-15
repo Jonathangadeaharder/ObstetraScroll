@@ -1,6 +1,6 @@
-import { describe, expect, it } from "vitest";
 import { facts, findFact } from "$lib/server/facts";
 import { planReel, reelRequestSchema } from "$lib/server/reelPlanner";
+import { describe, expect, it } from "vitest";
 
 describe("POST /api/reels", () => {
 	it("validates the reel request schema", () => {
