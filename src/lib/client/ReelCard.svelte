@@ -55,6 +55,12 @@ let videoError = $state(false);
 let isMuted = $state(!hasInteracted);
 const END_THRESHOLD = 0.3;
 
+$effect(() => {
+	if (hasInteracted && isMuted) {
+		isMuted = false;
+	}
+});
+
 function handleTimeUpdate(e: Event) {
 	const video = e.currentTarget as HTMLVideoElement;
 	if (video.duration > 0) {

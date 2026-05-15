@@ -110,6 +110,10 @@ function activateReel(key: string, index: number) {
 	}
 	activeReelIndex = index;
 	lastActiveIndex = index;
+	const video = videoRefs[key];
+	if (video && hasInteracted && video.muted) {
+		video.muted = false;
+	}
 	if (!isMobile) {
 		playVideo(key);
 		return;
@@ -209,6 +213,9 @@ function answerQuiz(answerKey: string, optionIndex: number) {
 
 function bindVideo(node: HTMLVideoElement, key: string) {
 	videoRefs[key] = node;
+	if (hasInteracted && node.muted) {
+		node.muted = false;
+	}
 	return {
 		destroy() {
 			delete videoRefs[key];
