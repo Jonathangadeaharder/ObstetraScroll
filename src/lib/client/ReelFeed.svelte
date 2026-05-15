@@ -7,6 +7,7 @@ import {
 	buildInfoItems,
 	buildLoopedFeedItems,
 	buildReelPages,
+	virtualizePages,
 	virtualizeReels,
 } from "$lib/client/reelFeed";
 import type { Fact, ReelFeedItem } from "$lib/types";
@@ -48,6 +49,9 @@ const activePageType = $derived(
 
 const virtualItems = $derived(
 	virtualizeReels(loopedFeedItems, activeReelIndex, scrollDirection),
+);
+const virtualPages = $derived(
+	virtualizePages(mobilePages, activeReelIndex, scrollDirection),
 );
 
 const openInfoItems = $derived.by(() => {
@@ -102,10 +106,12 @@ function activateReel(key: string, index: number) {
 	}
 	activeReelIndex = index;
 	lastActiveIndex = index;
-	const page = mobilePages[index];
-	if (page?.pageType === "video") {
+	if (!isMobile) {
 		playVideo(key);
+		return;
 	}
+	const page = mobilePages[index];
+	if (page?.pageType === "video") playVideo(key);
 }
 
 function playVideo(key: string) {
@@ -220,12 +226,6 @@ function bindReel(node: HTMLElement, key: string) {
 function displayCounter(items: (LoopedReel | ReelPage)[]) {
 	const current = items[activeReelIndex];
 	if (!current) return "0/0";
-	if ("pageType" in current) {
-		const vidCount = items.filter(
-			(p) => "pageType" in p && p.pageType === "video",
-		).length;
-		return `${current.reelNumber}/${feedItems.length}`;
-	}
 	return `${current.reelNumber}/${feedItems.length}`;
 }
 </script>
@@ -263,12 +263,12 @@ function displayCounter(items: (LoopedReel | ReelPage)[]) {
 		ontouchend={handleTouchEnd}
 	>
 		{#if isMobile}
-			{#each mobilePages as page (page.key)}
+			{#each virtualPages as page (page.key)}
 				<ReelCard
 					reel={page}
 					pageType={page.pageType}
 					selectedAnswer={selectedAnswers[page.key]}
-					isPaused={false}
+					isPaused={isPaused[page.key] ?? false}
 					{swipeOffset}
 					onAnswerQuiz={answerQuiz}
 					onTogglePause={togglePause}

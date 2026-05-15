@@ -82,15 +82,19 @@ function assetIcon(kind: "audio" | "image" | "video") {
 	aria-label={item.title}
 >
 	{#if "shouldRender" in reel && !reel.shouldRender}
-		<div class="phone placeholder"></div>
-		<aside class="lesson placeholder">
-			<div class="lesson-head">
-				<div>
-					<p class="eyebrow">Cargando...</p>
-					<h2>-</h2>
+		{#if pageType}
+			<div class="page-placeholder"></div>
+		{:else}
+			<div class="phone placeholder"></div>
+			<aside class="lesson placeholder">
+				<div class="lesson-head">
+					<div>
+						<p class="eyebrow">Cargando...</p>
+						<h2>-</h2>
+					</div>
 				</div>
-			</div>
-		</aside>
+			</aside>
+		{/if}
 	{:else if pageType === "quiz"}
 		<div class="quiz-full">
 			<div class="quiz-header">
@@ -151,12 +155,12 @@ function assetIcon(kind: "audio" | "image" | "video") {
 			}}
 		>
 			<video
-				src={("shouldPreload" in reel && reel.shouldPreload) || pageType === "video" ? item.videoPath : undefined}
+				src={"shouldPreload" in reel && reel.shouldPreload ? item.videoPath : undefined}
 				poster={item.posterPath}
 				loop
 				muted
 				playsinline
-				preload={("shouldPreload" in reel && reel.shouldPreload) || pageType === "video" ? "metadata" : "none"}
+				preload={"shouldPreload" in reel && reel.shouldPreload ? "metadata" : "none"}
 				ontimeupdate={handleTimeUpdate}
 				onerror={handleVideoError}
 				use:onBindVideo={reel.key}
@@ -718,6 +722,10 @@ function assetIcon(kind: "audio" | "image" | "video") {
 
 		.page-quiz .lesson {
 			display: none;
+		}
+
+		.page-placeholder {
+			height: 100dvh;
 		}
 	}
 </style>

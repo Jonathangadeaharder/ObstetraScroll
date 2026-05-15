@@ -76,6 +76,31 @@ export function buildReelPages(
 	).flat(2);
 }
 
+export type VirtualPage = ReelPage & {
+	shouldRender: boolean;
+	shouldPreload: boolean;
+	isActive: boolean;
+};
+
+export function virtualizePages(
+	pages: ReelPage[],
+	activeIndex: number,
+	scrollDirection: "up" | "down",
+): VirtualPage[] {
+	return pages.map((page, index) => {
+		const distance = Math.abs(index - activeIndex);
+		const isAhead =
+			scrollDirection === "down" ? index > activeIndex : index < activeIndex;
+		return {
+			...page,
+			shouldRender: distance <= VISIBLE_WINDOW,
+			shouldPreload:
+				isAhead && distance <= PRELOAD_AHEAD && page.pageType === "video",
+			isActive: index === activeIndex,
+		};
+	});
+}
+
 export function buildInfoItems(item: ReelFeedItem, fact?: Fact): InfoItem[] {
 	const items: InfoItem[] = [];
 
