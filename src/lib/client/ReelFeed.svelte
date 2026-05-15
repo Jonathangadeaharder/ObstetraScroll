@@ -25,6 +25,7 @@ let selectedAnswers = $state<Record<string, number | undefined>>({});
 let activeReelIndex = $state(0);
 let scrollDirection = $state<"up" | "down">("down");
 let isPaused = $state<Record<string, boolean>>({});
+let hasInteracted = $state(false);
 let swipeOffset = $state(0);
 let openInfoKey = $state<string | null>(null);
 
@@ -272,12 +273,16 @@ function displayCounter(items: (LoopedReel | ReelPage)[]) {
 					pageType={page.pageType}
 					selectedAnswer={selectedAnswers[page.key]}
 					isPaused={isPaused[page.key] ?? false}
+					{hasInteracted}
 					{swipeOffset}
 					onAnswerQuiz={answerQuiz}
 					onTogglePause={togglePause}
 					onNextReel={skipToNext}
 					onBindReel={bindReel}
 					onBindVideo={bindVideo}
+					onFirstInteraction={() => {
+						hasInteracted = true;
+					}}
 					onInfoOpen={(key) => {
 						openInfoKey = key;
 					}}
@@ -289,12 +294,16 @@ function displayCounter(items: (LoopedReel | ReelPage)[]) {
 					{reel}
 					selectedAnswer={selectedAnswers[reel.key]}
 					isPaused={isPaused[reel.key] ?? false}
+					{hasInteracted}
 					{swipeOffset}
 					onAnswerQuiz={answerQuiz}
 					onTogglePause={togglePause}
 					onNextReel={skipToNext}
 					onBindReel={bindReel}
 					onBindVideo={bindVideo}
+					onFirstInteraction={() => {
+						hasInteracted = true;
+					}}
 				/>
 			{/each}
 		{/if}
