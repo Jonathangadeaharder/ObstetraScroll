@@ -60,15 +60,17 @@ for fact in facts[6..99]:
 
 Cada brief produce:
 - `hook`: frase inicial que engancha
-- `script`: narración completa (≈40 palabras)
-- `beats`: 5 segmentos (visual + voiceover)
+- `script`: narración completa (60-400 palabras según duración)
+- `beats`: 5-10 segmentos (visual + voiceover)
 - `imagePrompts`: prompts para generación de imágenes
 - `editorialChecks`: checklist de verificación
 - `caption`: texto para publicación
 - `hashtags`: tags para SEO social
 - `renderPlan`: secuencia de assets a compilar
 
-**Tiempo estimado:** ~30s por brief → ~50min para 94 briefs.
+**targetDurationSec:** 30-180 según densidad del tema (no 8s).
+
+**Tiempo estimado:** ~45s por brief → ~70min para 94 briefs.
 
 ## Fase 3: Audio (TTS)
 
@@ -88,7 +90,7 @@ for each brief:
     run text2audio con voice + speed
 ```
 
-**Tiempo estimado:** ~8s de audio → ~15s reales por reel → ~25min para 94.
+**Tiempo estimado:** 30-180s de audio → ~1.5x wall time → ~45min-4.5h para 94.
 
 **Output:** 94 × WAV files en `static/generated-media/audio/`.
 
@@ -97,16 +99,16 @@ for each brief:
 **Stack:** `AIServices/packages/text2image/` con modelo local FLUX / SDXL.
 
 Por reel:
-- 5 imágenes (una por beat)
+- 5-12 imágenes según duración (1 cada ~8s de video)
 - Resolución: 1080×1920 (9:16 reel)
 - Prompt desde `imagePrompts[i]`
 - Seed fijo por imagen (reproducibilidad)
 
-**Tiempo estimado:** ~20s por imagen → 100s por reel → ~2.6h para 94 reels.
+**Tiempo estimado:** ~20s por imagen → 100-240s por reel → ~2.6-6.3h para 94 reels.
 
-**Optimización:** Paralelizar con subagentes (4 workers → ~40min).
+**Optimización:** Paralelizar con subagentes (4 workers → ~40min-1.5h).
 
-**Output:** 470 × PNG en `static/generated-media/images/`.
+**Output:** 500-1200 × PNG en `static/generated-media/images/`.
 
 ## Fase 5: Video (compilación)
 
@@ -116,19 +118,19 @@ Dos enfoques:
 
 | Opción | Pros | Contras | Tiempo/reel |
 |--------|------|---------|-------------|
-| **A) image2video** | Cada beat es imagen + motion | Más assets, compilación | ~30s |
-| **B) text2video** | Pipeline directo | Control fino limitado | ~60s |
+| **A) image2video** | Cada beat es imagen + motion | Más assets, compilación | ~1-2x duración |
+| **B) text2video** | Pipeline directo | Control fino limitado | ~2-3x duración |
 
 **Opción recomendada:** A) image2video para reels finales. Usar B como fallback.
 
 Pipeline:
 ```
-input: 5 images (1080×1920) + audio WAV
-output: MP4 (1080×1920, 30fps, 8-10s)
+input: 5-12 images (1080×1920) + audio WAV (30-180s)
+output: MP4 (1080×1920, 30fps, duración completa)
 params: fade transitions, Ken Burns zoom, subtitles opcionales
 ```
 
-**Tiempo estimado:** ~30s por reel → ~47min para 94.
+**Tiempo estimado:** ~30s-3min por reel (1x duración) → ~1-5h para 94.
 
 **Output:** 94 × MP4 en `static/generated-media/reels/`.
 
@@ -165,11 +167,11 @@ Generar junto con el brief en Fase 2.
 
 | Asset | Cantidad | Tamaño unitario | Total |
 |-------|----------|-----------------|-------|
-| Audio WAV | 100 | ~200KB | ~20MB |
-| Imágenes PNG | 500 | ~500KB | ~250MB |
-| Videos MP4 | 100 | ~1MB | ~100MB |
+| Audio WAV | 100 | ~200KB-5MB | ~20-500MB |
+| Imágenes PNG | 500-1200 | ~500KB | ~250-600MB |
+| Videos MP4 | 100 | ~5-50MB | ~500-5000MB |
 | Posters PNG | 100 | ~100KB | ~10MB |
-| **Total** | | | **~380MB** |
+| **Total** | | | **~800MB-6GB** |
 
 ### Cómputo
 
@@ -196,13 +198,13 @@ Batch 10: facts 94-100 → ...
 | Fase | Tiempo | Dependencias |
 |------|--------|--------------|
 | 1. Facts (94) | 2 días | Investigación bibliográfica |
-| 2. Briefs (94) | 1 hora | Fase 1 |
-| 3. Audio (94) | 25 min | Fase 2 |
-| 4. Imágenes (470) | 40 min (4 workers) | Fase 2 |
-| 5. Video (94) | 47 min | Fase 3 + 4 |
-| 6. QA | 3 horas | Fase 5 |
+| 2. Briefs (94) | 1-2 horas | Fase 1 |
+| 3. Audio (94) | 45min-4.5h | Fase 2 |
+| 4. Imágenes (500-1200) | 40min-1.5h (4 workers) | Fase 2 |
+| 5. Video (94) | 1-5h | Fase 3 + 4 |
+| 6. QA | 6 horas | Fase 5 |
 | 7. Quiz (94) | automático con brief | Fase 2 |
-| **Total** | **~3 días** | |
+| **Total** | **~3-5 días** | |
 
 ## Archivos a modificar
 
