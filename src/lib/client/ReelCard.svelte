@@ -22,12 +22,14 @@ type Props = {
 	pageType?: PageType;
 	selectedAnswer: number | undefined;
 	isPaused: boolean;
+	hasInteracted: boolean;
 	swipeOffset: number;
 	onAnswerQuiz: (answerKey: string, optionIndex: number) => void;
 	onTogglePause: (key: string) => void;
 	onNextReel: (key: string) => void;
 	onBindReel: (node: HTMLElement, key: string) => ActionReturn;
 	onBindVideo: (node: HTMLVideoElement, key: string) => ActionReturn;
+	onFirstInteraction: () => void;
 	onInfoOpen?: (key: string) => void;
 };
 
@@ -36,20 +38,21 @@ let {
 	pageType,
 	selectedAnswer,
 	isPaused,
+	hasInteracted,
 	swipeOffset,
 	onAnswerQuiz,
 	onTogglePause,
 	onNextReel,
 	onBindReel,
 	onBindVideo,
+	onFirstInteraction,
 	onInfoOpen,
 }: Props = $props();
 
 const item = $derived(reel.item);
 let videoProgress = $state(0);
 let videoError = $state(false);
-let isMuted = $state(true);
-let hasInteracted = $state(false);
+let isMuted = $state(!hasInteracted);
 const END_THRESHOLD = 0.3;
 
 function handleTimeUpdate(e: Event) {
@@ -152,7 +155,7 @@ function assetIcon(kind: "audio" | "image" | "video") {
 			aria-label={isPaused ? "Reproducir video" : "Pausar video"}
 			onclick={() => {
 				if (!hasInteracted) {
-					hasInteracted = true;
+					onFirstInteraction();
 					isMuted = false;
 					return;
 				}
@@ -162,7 +165,7 @@ function assetIcon(kind: "audio" | "image" | "video") {
 				if (e.key === 'Enter' || e.key === ' ') {
 					e.preventDefault();
 					if (!hasInteracted) {
-						hasInteracted = true;
+						onFirstInteraction();
 						isMuted = false;
 						return;
 					}
