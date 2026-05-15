@@ -23,7 +23,7 @@ console.log(`Generated ${briefs.length} briefs`);
 
 const manifest = {
 	generatedAt: new Date().toISOString(),
-	note: "Sesión 2: Briefs generados para 94 facts usando planReel. Quizzes pendientes de enriquecer con LLM.",
+	note: "Sesión 3: 100 briefs generados con planReel. Quizzes dinámicos via enrichQuiz en feed.ts.",
 	totalFacts: briefs.length,
 	totalBriefs: briefs.length,
 	items: briefs,
