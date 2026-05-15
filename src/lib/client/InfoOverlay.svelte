@@ -1,6 +1,6 @@
 <script lang="ts">
-import { Heart, MessageCircle, X } from "lucide-svelte";
 import type { InfoItem } from "$lib/types";
+import { Heart, MessageCircle, X } from "lucide-svelte";
 
 type Props = {
 	items: InfoItem[];

@@ -1,4 +1,5 @@
 <script lang="ts">
+import type { PageType, ReelPage, VirtualReel } from "$lib/client/reelFeed";
 import {
 	BadgeCheck,
 	BookOpenCheck,
@@ -11,7 +12,6 @@ import {
 	Volume2,
 	VolumeX,
 } from "lucide-svelte";
-import type { PageType, ReelPage, VirtualReel } from "$lib/client/reelFeed";
 
 type ActionReturn = {
 	destroy?: () => void;
