@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-15T16:39:12.334Z",
-  "note": "Sesión 2: Briefs generados para 94 facts usando planReel. Quizzes pendientes de enriquecer con LLM.",
-  "totalFacts": 94,
-  "totalBriefs": 94,
+  "generatedAt": "2026-05-15T19:48:06.681Z",
+  "note": "Sesión 3: 100 briefs generados con planReel. Quizzes dinámicos via enrichQuiz en feed.ts.",
+  "totalFacts": 100,
+  "totalBriefs": 100,
   "items": [
     {
       "slug": "reel-01-hpp-oxitocina-profilaxis-10ui",
@@ -10302,6 +10302,666 @@
           "Placa final con espacio para fuentes y sello de revisión., placa final estática, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles"
         ],
         "caption": "El acompañamiento continuo por doula reduce cesáreas un 30%\n\nEl apoyo continuo durante el trabajo de parto por una doula (mujer entrenada sin funciones clínicas) reduce la probabilidad de cesárea en un 30%, el uso de analgesia farmacológica en un 35% y la duración del trabajo de parto en 40 minutos en promedio.\n\nNota editorial: Cochrane Review CD012667 (Bohren et al., 2020); WHO, Companionship during Labor (2021)",
+        "hashtags": [
+          "#Parteria",
+          "#Obstetricia",
+          "#Puerperio",
+          "#EducacionClinica",
+          "#ObstetraScroll"
+        ],
+        "editorialChecks": [
+          "Poner el estado de fuentes en approved antes de exportar",
+          "No usar escenas identificables ni detalles de pacientes",
+          "Sumar contraindicaciones y protocolo local en la descripción",
+          "Revisar risk-level antes del render automático por lote"
+        ],
+        "renderPlan": [
+          {
+            "id": "script",
+            "label": "Guion cerrado",
+            "status": "ready",
+            "detail": "Hook, voiceover y overlays salen del brief clínico del fact."
+          },
+          {
+            "id": "keyframes",
+            "label": "Keyframes",
+            "status": "queued",
+            "detail": "Como en sitcom_pilot: cada beat tiene un prompt 9:16 como unidad de render."
+          },
+          {
+            "id": "voice",
+            "label": "Voz en off",
+            "status": "queued",
+            "detail": "En facts high-risk, text2audio queda bloqueado hasta la revisión clínica."
+          },
+          {
+            "id": "assemble",
+            "label": "Ensamblar reel",
+            "status": "blocked",
+            "detail": "ffmpeg espera video, audio y subtítulos para cerrar el MP4."
+          }
+        ],
+        "status": "ready_for_pipeline"
+      }
+    },
+    {
+      "slug": "reel-95-diversos-tamizaje-neonatal-talon",
+      "factId": "diversos-tamizaje-neonatal-talon",
+      "rank": 95,
+      "title": "El tamizaje neonatal metabólico detecta 30+ enfermedades antes de los síntomas",
+      "brief": {
+        "id": "reel_diversos-tamizaje-neonatal-talon",
+        "factId": "diversos-tamizaje-neonatal-talon",
+        "title": "Reel: El tamizaje neonatal metabólico detecta 30+ enfermedades antes de los síntomas",
+        "format": "instagram_reel_9x16",
+        "durationSec": 60,
+        "hook": "Un detalle de partería que se aprende con cancha: El tamizaje neonatal metabólico detecta 30+ enfermedades antes de los síntomas.",
+        "script": "Un detalle de partería que se aprende con cancha: El tamizaje neonatal metabólico detecta 30+ enfermedades antes de los síntomas.\n\nA pesar de ser obligatorio por ley en la mayoría de los países, hasta un 30% de los recién nacidos no reciben el tamizaje dentro de la ventana óptima, ya sea por alta precoz (<48h), falta de coordinación con el laboratorio o desconocimiento de los padres sobre su importancia.\n\nLa prueba del talón (tamizaje neonatal básico ampliado) detecta más de 30 enfermedades metabólicas, endocrinas y genéticas en las primeras 48-72 horas de vida, permitiendo intervención temprana antes de que aparezcan síntomas irreversibles como retraso mental, discapacidad o muerte. La ventana de detección óptima es entre las 48 horas y los 7 días de vida, con una sensibilidad >99% para la mayoría de las condiciones.\n\nPara la práctica: convertí la idea en un mini-check, usá las mismas palabras de escalamiento con tu equipo y no lo publiques separado de guía o protocolo local.\n\nAntes de publicar: revisión clínica, fuentes completas y límites bien nombrados.",
+        "beats": [
+          {
+            "id": "b00_hook",
+            "startSec": 0,
+            "durationSec": 4,
+            "visual": "Partera haciendo una pausa antes de registrar; luz de sala de parto, mirada enfocada.",
+            "voiceover": "Un detalle de partería que se aprende con cancha: El tamizaje neonatal metabólico detecta 30+ enfermedades antes de los síntomas.",
+            "overlay": "El tamizaje neonatal metabólico detecta 30+ enf…",
+            "camera": "primer plano, acercamiento lento"
+          },
+          {
+            "id": "b01_reframe",
+            "startSec": 4,
+            "durationSec": 6,
+            "visual": "Placa vertical con pantalla dividida: regla obvia a la izquierda, contexto clínico a la derecha.",
+            "voiceover": "A pesar de ser obligatorio por ley en la mayoría de los países, hasta un 30% de los recién nacidos no reciben el tamizaje dentro de la ventana óptima, ya sea por alta precoz (<48h), falta de coordinación con el laboratorio o desconocimiento de los padres sobre su importancia.",
+            "overlay": "No memorices la regla. Leé el patrón.",
+            "camera": "placa gráfica 9:16 fija"
+          },
+          {
+            "id": "b02_clinical_point",
+            "startSec": 10,
+            "durationSec": 8,
+            "visual": "Manos tranquilas marcando tres puntos de chequeo en una pizarra; sin pacientes visibles.",
+            "voiceover": "La prueba del talón (tamizaje neonatal básico ampliado) detecta más de 30 enfermedades metabólicas, endocrinas y genéticas en las primeras 48-72 horas de vida, permitiendo intervención temprana antes de que aparezcan síntomas irreversibles como retraso mental, discapacidad o muerte. La ventana de detección óptima es entre las 48 horas y los 7 días de vida, con una sensibilidad >99% para la mayoría de las condiciones.",
+            "overlay": "Contexto + evolución + protocolo",
+            "camera": "sobre el hombro, profundidad de campo suave"
+          },
+          {
+            "id": "b03_action",
+            "startSec": 18,
+            "durationSec": 37,
+            "visual": "Tarjeta de checklist junto a documentación de sala o puerperio.",
+            "voiceover": "Para la práctica: convertí la idea en un mini-check, usá las mismas palabras de escalamiento con tu equipo y no lo publiques separado de guía o protocolo local.",
+            "overlay": "Mini-check, no frase suelta",
+            "camera": "toma cenital, luz editorial nítida"
+          },
+          {
+            "id": "b04_safety",
+            "startSec": 55,
+            "durationSec": 5,
+            "visual": "Placa final con espacio para fuentes y sello de revisión.",
+            "voiceover": "Antes de publicar: revisión clínica, fuentes completas y límites bien nombrados.",
+            "overlay": "Revisión pendiente",
+            "camera": "placa final estática"
+          }
+        ],
+        "imagePrompts": [
+          "Partera haciendo una pausa antes de registrar; luz de sala de parto, mirada enfocada., primer plano, acercamiento lento, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles",
+          "Placa vertical con pantalla dividida: regla obvia a la izquierda, contexto clínico a la derecha., placa gráfica 9:16 fija, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles",
+          "Manos tranquilas marcando tres puntos de chequeo en una pizarra; sin pacientes visibles., sobre el hombro, profundidad de campo suave, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles",
+          "Tarjeta de checklist junto a documentación de sala o puerperio., toma cenital, luz editorial nítida, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles",
+          "Placa final con espacio para fuentes y sello de revisión., placa final estática, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles"
+        ],
+        "caption": "El tamizaje neonatal metabólico detecta 30+ enfermedades antes de los síntomas\n\nLa prueba del talón (tamizaje neonatal básico ampliado) detecta más de 30 enfermedades metabólicas, endocrinas y genéticas en las primeras 48-72 horas de vida, permitiendo intervención temprana antes de que aparezcan síntomas irreversibles como retraso mental, discapacidad o muerte. La ventana de detección óptima es entre las 48 horas y los 7 días de vida, con una sensibilidad >99% para la mayoría de las condiciones.\n\nNota editorial: WHO, Newborn Health Guidelines (2023); AAP Newborn Screening Task Force; MSAL Argentina, Ley 26.279",
+        "hashtags": [
+          "#Parteria",
+          "#Obstetricia",
+          "#Puerperio",
+          "#EducacionClinica",
+          "#ObstetraScroll"
+        ],
+        "editorialChecks": [
+          "Poner el estado de fuentes en approved antes de exportar",
+          "No usar escenas identificables ni detalles de pacientes",
+          "Sumar contraindicaciones y protocolo local en la descripción",
+          "Revisar risk-level antes del render automático por lote"
+        ],
+        "renderPlan": [
+          {
+            "id": "script",
+            "label": "Guion cerrado",
+            "status": "ready",
+            "detail": "Hook, voiceover y overlays salen del brief clínico del fact."
+          },
+          {
+            "id": "keyframes",
+            "label": "Keyframes",
+            "status": "queued",
+            "detail": "Como en sitcom_pilot: cada beat tiene un prompt 9:16 como unidad de render."
+          },
+          {
+            "id": "voice",
+            "label": "Voz en off",
+            "status": "blocked",
+            "detail": "En facts high-risk, text2audio queda bloqueado hasta la revisión clínica."
+          },
+          {
+            "id": "assemble",
+            "label": "Ensamblar reel",
+            "status": "blocked",
+            "detail": "ffmpeg espera video, audio y subtítulos para cerrar el MP4."
+          }
+        ],
+        "status": "ready_for_pipeline"
+      }
+    },
+    {
+      "slug": "reel-96-diversos-lactancia-farmacos-compatibles",
+      "factId": "diversos-lactancia-farmacos-compatibles",
+      "rank": 96,
+      "title": "Más del 90% de los fármacos son compatibles con la lactancia materna",
+      "brief": {
+        "id": "reel_diversos-lactancia-farmacos-compatibles",
+        "factId": "diversos-lactancia-farmacos-compatibles",
+        "title": "Reel: Más del 90% de los fármacos son compatibles con la lactancia materna",
+        "format": "instagram_reel_9x16",
+        "durationSec": 45,
+        "hook": "Un detalle de partería que se aprende con cancha: Más del 90% de los fármacos son compatibles con la lactancia materna.",
+        "script": "Un detalle de partería que se aprende con cancha: Más del 90% de los fármacos son compatibles con la lactancia materna.\n\nMuchos profesionales indican 'cortar lactancia' ante cualquier medicación por precaución excesiva, cuando las guías internacionales (LactMed, AAP, WHO) muestran que la gran mayoría de los fármacos tienen perfil de seguridad favorable y el riesgo de no amamantar supera al riesgo de la medicación.\n\nMenos del 10% de los fármacos prescritos en el puerperio son realmente incompatibles con la lactancia materna. La mayoría de los antibióticos (amoxicilina, cefalexina), analgésicos (paracetamol, ibuprofeno) y antidepresivos (sertralina, paroxetina) pasan a la leche en concentraciones insignificantes (<2% de la dosis materna) y son seguros para el lactante. El mito del 'corte de lactancia por medicación' lleva a abandonos innecesarios.\n\nPara la práctica: convertí la idea en un mini-check, usá las mismas palabras de escalamiento con tu equipo y no lo publiques separado de guía o protocolo local.\n\nAntes de publicar: revisión clínica, fuentes completas y límites bien nombrados.",
+        "beats": [
+          {
+            "id": "b00_hook",
+            "startSec": 0,
+            "durationSec": 4,
+            "visual": "Partera haciendo una pausa antes de registrar; luz de sala de parto, mirada enfocada.",
+            "voiceover": "Un detalle de partería que se aprende con cancha: Más del 90% de los fármacos son compatibles con la lactancia materna.",
+            "overlay": "Más del 90% de los fármacos son compatibles con…",
+            "camera": "primer plano, acercamiento lento"
+          },
+          {
+            "id": "b01_reframe",
+            "startSec": 4,
+            "durationSec": 6,
+            "visual": "Placa vertical con pantalla dividida: regla obvia a la izquierda, contexto clínico a la derecha.",
+            "voiceover": "Muchos profesionales indican 'cortar lactancia' ante cualquier medicación por precaución excesiva, cuando las guías internacionales (LactMed, AAP, WHO) muestran que la gran mayoría de los fármacos tienen perfil de seguridad favorable y el riesgo de no amamantar supera al riesgo de la medicación.",
+            "overlay": "No memorices la regla. Leé el patrón.",
+            "camera": "placa gráfica 9:16 fija"
+          },
+          {
+            "id": "b02_clinical_point",
+            "startSec": 10,
+            "durationSec": 8,
+            "visual": "Manos tranquilas marcando tres puntos de chequeo en una pizarra; sin pacientes visibles.",
+            "voiceover": "Menos del 10% de los fármacos prescritos en el puerperio son realmente incompatibles con la lactancia materna. La mayoría de los antibióticos (amoxicilina, cefalexina), analgésicos (paracetamol, ibuprofeno) y antidepresivos (sertralina, paroxetina) pasan a la leche en concentraciones insignificantes (<2% de la dosis materna) y son seguros para el lactante. El mito del 'corte de lactancia por medicación' lleva a abandonos innecesarios.",
+            "overlay": "Contexto + evolución + protocolo",
+            "camera": "sobre el hombro, profundidad de campo suave"
+          },
+          {
+            "id": "b03_action",
+            "startSec": 18,
+            "durationSec": 22,
+            "visual": "Tarjeta de checklist junto a documentación de sala o puerperio.",
+            "voiceover": "Para la práctica: convertí la idea en un mini-check, usá las mismas palabras de escalamiento con tu equipo y no lo publiques separado de guía o protocolo local.",
+            "overlay": "Mini-check, no frase suelta",
+            "camera": "toma cenital, luz editorial nítida"
+          },
+          {
+            "id": "b04_safety",
+            "startSec": 40,
+            "durationSec": 5,
+            "visual": "Placa final con espacio para fuentes y sello de revisión.",
+            "voiceover": "Antes de publicar: revisión clínica, fuentes completas y límites bien nombrados.",
+            "overlay": "Revisión pendiente",
+            "camera": "placa final estática"
+          }
+        ],
+        "imagePrompts": [
+          "Partera haciendo una pausa antes de registrar; luz de sala de parto, mirada enfocada., primer plano, acercamiento lento, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles",
+          "Placa vertical con pantalla dividida: regla obvia a la izquierda, contexto clínico a la derecha., placa gráfica 9:16 fija, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles",
+          "Manos tranquilas marcando tres puntos de chequeo en una pizarra; sin pacientes visibles., sobre el hombro, profundidad de campo suave, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles",
+          "Tarjeta de checklist junto a documentación de sala o puerperio., toma cenital, luz editorial nítida, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles",
+          "Placa final con espacio para fuentes y sello de revisión., placa final estática, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles"
+        ],
+        "caption": "Más del 90% de los fármacos son compatibles con la lactancia materna\n\nMenos del 10% de los fármacos prescritos en el puerperio son realmente incompatibles con la lactancia materna. La mayoría de los antibióticos (amoxicilina, cefalexina), analgésicos (paracetamol, ibuprofeno) y antidepresivos (sertralina, paroxetina) pasan a la leche en concentraciones insignificantes (<2% de la dosis materna) y son seguros para el lactante. El mito del 'corte de lactancia por medicación' lleva a abandonos innecesarios.\n\nNota editorial: LactMed (NIH, 2024); WHO, Breastfeeding and Maternal Medication (2022); AAP, Transfer of Drugs into Human Milk",
+        "hashtags": [
+          "#Parteria",
+          "#Obstetricia",
+          "#Puerperio",
+          "#EducacionClinica",
+          "#ObstetraScroll"
+        ],
+        "editorialChecks": [
+          "Poner el estado de fuentes en approved antes de exportar",
+          "No usar escenas identificables ni detalles de pacientes",
+          "Sumar contraindicaciones y protocolo local en la descripción",
+          "Revisar risk-level antes del render automático por lote"
+        ],
+        "renderPlan": [
+          {
+            "id": "script",
+            "label": "Guion cerrado",
+            "status": "ready",
+            "detail": "Hook, voiceover y overlays salen del brief clínico del fact."
+          },
+          {
+            "id": "keyframes",
+            "label": "Keyframes",
+            "status": "queued",
+            "detail": "Como en sitcom_pilot: cada beat tiene un prompt 9:16 como unidad de render."
+          },
+          {
+            "id": "voice",
+            "label": "Voz en off",
+            "status": "queued",
+            "detail": "En facts high-risk, text2audio queda bloqueado hasta la revisión clínica."
+          },
+          {
+            "id": "assemble",
+            "label": "Ensamblar reel",
+            "status": "blocked",
+            "detail": "ffmpeg espera video, audio y subtítulos para cerrar el MP4."
+          }
+        ],
+        "status": "ready_for_pipeline"
+      }
+    },
+    {
+      "slug": "reel-97-diversos-posicion-vertical-parto",
+      "factId": "diversos-posicion-vertical-parto",
+      "rank": 97,
+      "title": "La posición vertical en el parto reduce el segundo período en 25 minutos",
+      "brief": {
+        "id": "reel_diversos-posicion-vertical-parto",
+        "factId": "diversos-posicion-vertical-parto",
+        "title": "Reel: La posición vertical en el parto reduce el segundo período en 25 minutos",
+        "format": "instagram_reel_9x16",
+        "durationSec": 30,
+        "hook": "Un detalle de partería que se aprende con cancha: La posición vertical en el parto reduce el segundo período en 25 minutos.",
+        "script": "Un detalle de partería que se aprende con cancha: La posición vertical en el parto reduce el segundo período en 25 minutos.\n\nA pesar de la evidencia abrumadora, la litotomía sigue siendo la posición estándar en la mayoría de los hospitales por comodidad del personal, facilidad de monitoreo y tradición, no por beneficio materno-fetal.\n\nAdoptar posiciones verticales (bipedestación, cuclillas, sentada) durante el trabajo de parto reduce la duración del segundo período en aproximadamente 25 minutos, disminuye un 25% la probabilidad de episiotomía y un 30% la de parto instrumental, sin aumentar riesgos perinatales, en comparación con la posición de litotomía (acostada). La gravedad favorece el descenso fetal y las contracciones son más eficaces.\n\nPara la práctica: convertí la idea en un mini-check, usá las mismas palabras de escalamiento con tu equipo y no lo publiques separado de guía o protocolo local.\n\nAntes de publicar: revisión clínica, fuentes completas y límites bien nombrados.",
+        "beats": [
+          {
+            "id": "b00_hook",
+            "startSec": 0,
+            "durationSec": 4,
+            "visual": "Partera haciendo una pausa antes de registrar; luz de sala de parto, mirada enfocada.",
+            "voiceover": "Un detalle de partería que se aprende con cancha: La posición vertical en el parto reduce el segundo período en 25 minutos.",
+            "overlay": "La posición vertical en el parto reduce el segu…",
+            "camera": "primer plano, acercamiento lento"
+          },
+          {
+            "id": "b01_reframe",
+            "startSec": 4,
+            "durationSec": 6,
+            "visual": "Placa vertical con pantalla dividida: regla obvia a la izquierda, contexto clínico a la derecha.",
+            "voiceover": "A pesar de la evidencia abrumadora, la litotomía sigue siendo la posición estándar en la mayoría de los hospitales por comodidad del personal, facilidad de monitoreo y tradición, no por beneficio materno-fetal.",
+            "overlay": "No memorices la regla. Leé el patrón.",
+            "camera": "placa gráfica 9:16 fija"
+          },
+          {
+            "id": "b02_clinical_point",
+            "startSec": 10,
+            "durationSec": 8,
+            "visual": "Manos tranquilas marcando tres puntos de chequeo en una pizarra; sin pacientes visibles.",
+            "voiceover": "Adoptar posiciones verticales (bipedestación, cuclillas, sentada) durante el trabajo de parto reduce la duración del segundo período en aproximadamente 25 minutos, disminuye un 25% la probabilidad de episiotomía y un 30% la de parto instrumental, sin aumentar riesgos perinatales, en comparación con la posición de litotomía (acostada). La gravedad favorece el descenso fetal y las contracciones son más eficaces.",
+            "overlay": "Contexto + evolución + protocolo",
+            "camera": "sobre el hombro, profundidad de campo suave"
+          },
+          {
+            "id": "b03_action",
+            "startSec": 18,
+            "durationSec": 7,
+            "visual": "Tarjeta de checklist junto a documentación de sala o puerperio.",
+            "voiceover": "Para la práctica: convertí la idea en un mini-check, usá las mismas palabras de escalamiento con tu equipo y no lo publiques separado de guía o protocolo local.",
+            "overlay": "Mini-check, no frase suelta",
+            "camera": "toma cenital, luz editorial nítida"
+          },
+          {
+            "id": "b04_safety",
+            "startSec": 25,
+            "durationSec": 5,
+            "visual": "Placa final con espacio para fuentes y sello de revisión.",
+            "voiceover": "Antes de publicar: revisión clínica, fuentes completas y límites bien nombrados.",
+            "overlay": "Revisión pendiente",
+            "camera": "placa final estática"
+          }
+        ],
+        "imagePrompts": [
+          "Partera haciendo una pausa antes de registrar; luz de sala de parto, mirada enfocada., primer plano, acercamiento lento, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles",
+          "Placa vertical con pantalla dividida: regla obvia a la izquierda, contexto clínico a la derecha., placa gráfica 9:16 fija, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles",
+          "Manos tranquilas marcando tres puntos de chequeo en una pizarra; sin pacientes visibles., sobre el hombro, profundidad de campo suave, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles",
+          "Tarjeta de checklist junto a documentación de sala o puerperio., toma cenital, luz editorial nítida, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles",
+          "Placa final con espacio para fuentes y sello de revisión., placa final estática, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles"
+        ],
+        "caption": "La posición vertical en el parto reduce el segundo período en 25 minutos\n\nAdoptar posiciones verticales (bipedestación, cuclillas, sentada) durante el trabajo de parto reduce la duración del segundo período en aproximadamente 25 minutos, disminuye un 25% la probabilidad de episiotomía y un 30% la de parto instrumental, sin aumentar riesgos perinatales, en comparación con la posición de litotomía (acostada). La gravedad favorece el descenso fetal y las contracciones son más eficaces.\n\nNota editorial: Cochrane Review CD002006 (Gupta et al., 2022); WHO, Intrapartum Care Guidelines (2023)",
+        "hashtags": [
+          "#Parteria",
+          "#Obstetricia",
+          "#Puerperio",
+          "#EducacionClinica",
+          "#ObstetraScroll"
+        ],
+        "editorialChecks": [
+          "Poner el estado de fuentes en approved antes de exportar",
+          "No usar escenas identificables ni detalles de pacientes",
+          "Sumar contraindicaciones y protocolo local en la descripción",
+          "Revisar risk-level antes del render automático por lote"
+        ],
+        "renderPlan": [
+          {
+            "id": "script",
+            "label": "Guion cerrado",
+            "status": "ready",
+            "detail": "Hook, voiceover y overlays salen del brief clínico del fact."
+          },
+          {
+            "id": "keyframes",
+            "label": "Keyframes",
+            "status": "queued",
+            "detail": "Como en sitcom_pilot: cada beat tiene un prompt 9:16 como unidad de render."
+          },
+          {
+            "id": "voice",
+            "label": "Voz en off",
+            "status": "queued",
+            "detail": "En facts high-risk, text2audio queda bloqueado hasta la revisión clínica."
+          },
+          {
+            "id": "assemble",
+            "label": "Ensamblar reel",
+            "status": "blocked",
+            "detail": "ffmpeg espera video, audio y subtítulos para cerrar el MP4."
+          }
+        ],
+        "status": "ready_for_pipeline"
+      }
+    },
+    {
+      "slug": "reel-98-diversos-pinzamiento-tardio-prematuros",
+      "factId": "diversos-pinzamiento-tardio-prematuros",
+      "rank": 98,
+      "title": "El pinzamiento tardío del cordón en prematuros reduce transfusiones un 40%",
+      "brief": {
+        "id": "reel_diversos-pinzamiento-tardio-prematuros",
+        "factId": "diversos-pinzamiento-tardio-prematuros",
+        "title": "Reel: El pinzamiento tardío del cordón en prematuros reduce transfusiones un 40%",
+        "format": "instagram_reel_9x16",
+        "durationSec": 45,
+        "hook": "Un detalle de partería que se aprende con cancha: El pinzamiento tardío del cordón en prematuros reduce transfusiones un 40%.",
+        "script": "Un detalle de partería que se aprende con cancha: El pinzamiento tardío del cordón en prematuros reduce transfusiones un 40%.\n\nMuchos equipos neonatales pinzan el cordón inmediatamente en prematuros para facilitar la reanimación, pero el pinzamiento tardío con reanimación junto a la madre (cuidados madre-canguro inmediatos) es factible y ofrece beneficios que superan ampliamente el mínimo retraso en la atención.\n\nEl pinzamiento diferido del cordón umbilical (30-60 segundos después del nacimiento) en recién nacidos prematuros (<37 semanas) reduce la necesidad de transfusiones por anemia en un 40%, disminuye la hemorragia intraventricular en un 30% y mejora la estabilidad hemodinámica neonatal, sin aumentar el riesgo de ictericia que requiera fototerapia. El aporte placentario adicional es de 30-40 mL/kg de sangre.\n\nPara la práctica: convertí la idea en un mini-check, usá las mismas palabras de escalamiento con tu equipo y no lo publiques separado de guía o protocolo local.\n\nAntes de publicar: revisión clínica, fuentes completas y límites bien nombrados.",
+        "beats": [
+          {
+            "id": "b00_hook",
+            "startSec": 0,
+            "durationSec": 4,
+            "visual": "Partera haciendo una pausa antes de registrar; luz de sala de parto, mirada enfocada.",
+            "voiceover": "Un detalle de partería que se aprende con cancha: El pinzamiento tardío del cordón en prematuros reduce transfusiones un 40%.",
+            "overlay": "El pinzamiento tardío del cordón en prematuros…",
+            "camera": "primer plano, acercamiento lento"
+          },
+          {
+            "id": "b01_reframe",
+            "startSec": 4,
+            "durationSec": 6,
+            "visual": "Placa vertical con pantalla dividida: regla obvia a la izquierda, contexto clínico a la derecha.",
+            "voiceover": "Muchos equipos neonatales pinzan el cordón inmediatamente en prematuros para facilitar la reanimación, pero el pinzamiento tardío con reanimación junto a la madre (cuidados madre-canguro inmediatos) es factible y ofrece beneficios que superan ampliamente el mínimo retraso en la atención.",
+            "overlay": "No memorices la regla. Leé el patrón.",
+            "camera": "placa gráfica 9:16 fija"
+          },
+          {
+            "id": "b02_clinical_point",
+            "startSec": 10,
+            "durationSec": 8,
+            "visual": "Manos tranquilas marcando tres puntos de chequeo en una pizarra; sin pacientes visibles.",
+            "voiceover": "El pinzamiento diferido del cordón umbilical (30-60 segundos después del nacimiento) en recién nacidos prematuros (<37 semanas) reduce la necesidad de transfusiones por anemia en un 40%, disminuye la hemorragia intraventricular en un 30% y mejora la estabilidad hemodinámica neonatal, sin aumentar el riesgo de ictericia que requiera fototerapia. El aporte placentario adicional es de 30-40 mL/kg de sangre.",
+            "overlay": "Contexto + evolución + protocolo",
+            "camera": "sobre el hombro, profundidad de campo suave"
+          },
+          {
+            "id": "b03_action",
+            "startSec": 18,
+            "durationSec": 22,
+            "visual": "Tarjeta de checklist junto a documentación de sala o puerperio.",
+            "voiceover": "Para la práctica: convertí la idea en un mini-check, usá las mismas palabras de escalamiento con tu equipo y no lo publiques separado de guía o protocolo local.",
+            "overlay": "Mini-check, no frase suelta",
+            "camera": "toma cenital, luz editorial nítida"
+          },
+          {
+            "id": "b04_safety",
+            "startSec": 40,
+            "durationSec": 5,
+            "visual": "Placa final con espacio para fuentes y sello de revisión.",
+            "voiceover": "Antes de publicar: revisión clínica, fuentes completas y límites bien nombrados.",
+            "overlay": "Revisión pendiente",
+            "camera": "placa final estática"
+          }
+        ],
+        "imagePrompts": [
+          "Partera haciendo una pausa antes de registrar; luz de sala de parto, mirada enfocada., primer plano, acercamiento lento, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles",
+          "Placa vertical con pantalla dividida: regla obvia a la izquierda, contexto clínico a la derecha., placa gráfica 9:16 fija, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles",
+          "Manos tranquilas marcando tres puntos de chequeo en una pizarra; sin pacientes visibles., sobre el hombro, profundidad de campo suave, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles",
+          "Tarjeta de checklist junto a documentación de sala o puerperio., toma cenital, luz editorial nítida, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles",
+          "Placa final con espacio para fuentes y sello de revisión., placa final estática, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles"
+        ],
+        "caption": "El pinzamiento tardío del cordón en prematuros reduce transfusiones un 40%\n\nEl pinzamiento diferido del cordón umbilical (30-60 segundos después del nacimiento) en recién nacidos prematuros (<37 semanas) reduce la necesidad de transfusiones por anemia en un 40%, disminuye la hemorragia intraventricular en un 30% y mejora la estabilidad hemodinámica neonatal, sin aumentar el riesgo de ictericia que requiera fototerapia. El aporte placentario adicional es de 30-40 mL/kg de sangre.\n\nNota editorial: Cochrane Review CD003248 (Rabe et al., 2023); WHO, Delayed Cord Clamping (2022); AAP/ACOG Guidelines",
+        "hashtags": [
+          "#Parteria",
+          "#Obstetricia",
+          "#Puerperio",
+          "#EducacionClinica",
+          "#ObstetraScroll"
+        ],
+        "editorialChecks": [
+          "Poner el estado de fuentes en approved antes de exportar",
+          "No usar escenas identificables ni detalles de pacientes",
+          "Sumar contraindicaciones y protocolo local en la descripción",
+          "Revisar risk-level antes del render automático por lote"
+        ],
+        "renderPlan": [
+          {
+            "id": "script",
+            "label": "Guion cerrado",
+            "status": "ready",
+            "detail": "Hook, voiceover y overlays salen del brief clínico del fact."
+          },
+          {
+            "id": "keyframes",
+            "label": "Keyframes",
+            "status": "queued",
+            "detail": "Como en sitcom_pilot: cada beat tiene un prompt 9:16 como unidad de render."
+          },
+          {
+            "id": "voice",
+            "label": "Voz en off",
+            "status": "queued",
+            "detail": "En facts high-risk, text2audio queda bloqueado hasta la revisión clínica."
+          },
+          {
+            "id": "assemble",
+            "label": "Ensamblar reel",
+            "status": "blocked",
+            "detail": "ffmpeg espera video, audio y subtítulos para cerrar el MP4."
+          }
+        ],
+        "status": "ready_for_pipeline"
+      }
+    },
+    {
+      "slug": "reel-99-diversos-mgso4-neuroproteccion-prematuro",
+      "factId": "diversos-mgso4-neuroproteccion-prematuro",
+      "rank": 99,
+      "title": "Sulfato de magnesio antenatal reduce parálisis cerebral un 30% en prematuros",
+      "brief": {
+        "id": "reel_diversos-mgso4-neuroproteccion-prematuro",
+        "factId": "diversos-mgso4-neuroproteccion-prematuro",
+        "title": "Reel: Sulfato de magnesio antenatal reduce parálisis cerebral un 30% en prematuros",
+        "format": "instagram_reel_9x16",
+        "durationSec": 45,
+        "hook": "Un detalle de partería que se aprende con cancha: Sulfato de magnesio antenatal reduce parálisis cerebral un 30% en prematuros.",
+        "script": "Un detalle de partería que se aprende con cancha: Sulfato de magnesio antenatal reduce parálisis cerebral un 30% en prematuros.\n\nEl sulfato de magnesio se usa históricamente para prevenir convulsiones en preeclampsia, pero muchos servicios obstétricos aún no incorporan su indicación específica como neuroprotector fetal en trabajo de parto prematuro, perdiendo una intervención de bajo costo y alto impacto neurológico.\n\nLa administración de sulfato de magnesio a la gestante antes de un parto prematuro inminente (<32 semanas) reduce significativamente la incidencia de parálisis cerebral en un 30% y la disfunción motora gruesa en un 40% en el recién nacido, sin aumentar la mortalidad neonatal. El efecto neuroprotector es dosis-dependiente y el beneficio máximo se obtiene cuando la infusión comienza al menos 4 horas antes del parto. El número necesario a tratar (NNT) es de solo 50 para prevenir un caso de parálisis cerebral.\n\nPara la práctica: convertí la idea en un mini-check, usá las mismas palabras de escalamiento con tu equipo y no lo publiques separado de guía o protocolo local.\n\nAntes de publicar: revisión clínica, fuentes completas y límites bien nombrados.",
+        "beats": [
+          {
+            "id": "b00_hook",
+            "startSec": 0,
+            "durationSec": 4,
+            "visual": "Partera haciendo una pausa antes de registrar; luz de sala de parto, mirada enfocada.",
+            "voiceover": "Un detalle de partería que se aprende con cancha: Sulfato de magnesio antenatal reduce parálisis cerebral un 30% en prematuros.",
+            "overlay": "Sulfato de magnesio antenatal reduce parálisis…",
+            "camera": "primer plano, acercamiento lento"
+          },
+          {
+            "id": "b01_reframe",
+            "startSec": 4,
+            "durationSec": 6,
+            "visual": "Placa vertical con pantalla dividida: regla obvia a la izquierda, contexto clínico a la derecha.",
+            "voiceover": "El sulfato de magnesio se usa históricamente para prevenir convulsiones en preeclampsia, pero muchos servicios obstétricos aún no incorporan su indicación específica como neuroprotector fetal en trabajo de parto prematuro, perdiendo una intervención de bajo costo y alto impacto neurológico.",
+            "overlay": "No memorices la regla. Leé el patrón.",
+            "camera": "placa gráfica 9:16 fija"
+          },
+          {
+            "id": "b02_clinical_point",
+            "startSec": 10,
+            "durationSec": 8,
+            "visual": "Manos tranquilas marcando tres puntos de chequeo en una pizarra; sin pacientes visibles.",
+            "voiceover": "La administración de sulfato de magnesio a la gestante antes de un parto prematuro inminente (<32 semanas) reduce significativamente la incidencia de parálisis cerebral en un 30% y la disfunción motora gruesa en un 40% en el recién nacido, sin aumentar la mortalidad neonatal. El efecto neuroprotector es dosis-dependiente y el beneficio máximo se obtiene cuando la infusión comienza al menos 4 horas antes del parto. El número necesario a tratar (NNT) es de solo 50 para prevenir un caso de parálisis cerebral.",
+            "overlay": "Contexto + evolución + protocolo",
+            "camera": "sobre el hombro, profundidad de campo suave"
+          },
+          {
+            "id": "b03_action",
+            "startSec": 18,
+            "durationSec": 22,
+            "visual": "Tarjeta de checklist junto a documentación de sala o puerperio.",
+            "voiceover": "Para la práctica: convertí la idea en un mini-check, usá las mismas palabras de escalamiento con tu equipo y no lo publiques separado de guía o protocolo local.",
+            "overlay": "Mini-check, no frase suelta",
+            "camera": "toma cenital, luz editorial nítida"
+          },
+          {
+            "id": "b04_safety",
+            "startSec": 40,
+            "durationSec": 5,
+            "visual": "Placa final con espacio para fuentes y sello de revisión.",
+            "voiceover": "Antes de publicar: revisión clínica, fuentes completas y límites bien nombrados.",
+            "overlay": "Revisión pendiente",
+            "camera": "placa final estática"
+          }
+        ],
+        "imagePrompts": [
+          "Partera haciendo una pausa antes de registrar; luz de sala de parto, mirada enfocada., primer plano, acercamiento lento, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles",
+          "Placa vertical con pantalla dividida: regla obvia a la izquierda, contexto clínico a la derecha., placa gráfica 9:16 fija, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles",
+          "Manos tranquilas marcando tres puntos de chequeo en una pizarra; sin pacientes visibles., sobre el hombro, profundidad de campo suave, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles",
+          "Tarjeta de checklist junto a documentación de sala o puerperio., toma cenital, luz editorial nítida, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles",
+          "Placa final con espacio para fuentes y sello de revisión., placa final estática, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles"
+        ],
+        "caption": "Sulfato de magnesio antenatal reduce parálisis cerebral un 30% en prematuros\n\nLa administración de sulfato de magnesio a la gestante antes de un parto prematuro inminente (<32 semanas) reduce significativamente la incidencia de parálisis cerebral en un 30% y la disfunción motora gruesa en un 40% en el recién nacido, sin aumentar la mortalidad neonatal. El efecto neuroprotector es dosis-dependiente y el beneficio máximo se obtiene cuando la infusión comienza al menos 4 horas antes del parto. El número necesario a tratar (NNT) es de solo 50 para prevenir un caso de parálisis cerebral.\n\nNota editorial: Cochrane Review CD004661 (Shepherd et al., 2023); WHO, Magnesium Sulphate for Preterm Labour (2021); NICE Guideline NG25",
+        "hashtags": [
+          "#Parteria",
+          "#Obstetricia",
+          "#Puerperio",
+          "#EducacionClinica",
+          "#ObstetraScroll"
+        ],
+        "editorialChecks": [
+          "Poner el estado de fuentes en approved antes de exportar",
+          "No usar escenas identificables ni detalles de pacientes",
+          "Sumar contraindicaciones y protocolo local en la descripción",
+          "Revisar risk-level antes del render automático por lote"
+        ],
+        "renderPlan": [
+          {
+            "id": "script",
+            "label": "Guion cerrado",
+            "status": "ready",
+            "detail": "Hook, voiceover y overlays salen del brief clínico del fact."
+          },
+          {
+            "id": "keyframes",
+            "label": "Keyframes",
+            "status": "queued",
+            "detail": "Como en sitcom_pilot: cada beat tiene un prompt 9:16 como unidad de render."
+          },
+          {
+            "id": "voice",
+            "label": "Voz en off",
+            "status": "queued",
+            "detail": "En facts high-risk, text2audio queda bloqueado hasta la revisión clínica."
+          },
+          {
+            "id": "assemble",
+            "label": "Ensamblar reel",
+            "status": "blocked",
+            "detail": "ffmpeg espera video, audio y subtítulos para cerrar el MP4."
+          }
+        ],
+        "status": "ready_for_pipeline"
+      }
+    },
+    {
+      "slug": "reel-100-diversos-induccion-39-semanas-bajo-riesgo",
+      "factId": "diversos-induccion-39-semanas-bajo-riesgo",
+      "rank": 100,
+      "title": "Inducir a las 39 semanas en bajo riesgo reduce cesáreas sin aumentar riesgos",
+      "brief": {
+        "id": "reel_diversos-induccion-39-semanas-bajo-riesgo",
+        "factId": "diversos-induccion-39-semanas-bajo-riesgo",
+        "title": "Reel: Inducir a las 39 semanas en bajo riesgo reduce cesáreas sin aumentar riesgos",
+        "format": "instagram_reel_9x16",
+        "durationSec": 45,
+        "hook": "Un detalle de partería que se aprende con cancha: Inducir a las 39 semanas en bajo riesgo reduce cesáreas sin aumentar riesgos.",
+        "script": "Un detalle de partería que se aprende con cancha: Inducir a las 39 semanas en bajo riesgo reduce cesáreas sin aumentar riesgos.\n\nHistóricamente se consideró que inducir a una primigesta con cuello desfavorable aumentaba el riesgo de cesárea, pero el manejo activo con métodos modernos de maduración cervical (balón, PGE2, misoprostol) combinado con monitoreo continuo logra tasas de parto vaginal similares a la conducta expectante, con menos complicaciones maternas por prolongación del embarazo.\n\nLa inducción electiva del trabajo de parto a las 39 semanas en gestantes de bajo riesgo no aumenta la tasa de cesáreas (la reduce del 22% al 19%) y disminuye la incidencia de preeclampsia, hipertensión gestacional y corioamnionitis, en comparación con la conducta expectante (esperar hasta 41 semanas). El estudio ARRIVE (2018) con 6,100 gestantes demostró que no hubo diferencia en el compuesto de resultados neonatales adversos entre ambos grupos. La tasa de hipertensión gestacional/preeclampsia se redujo del 14% al 9%.\n\nPara la práctica: convertí la idea en un mini-check, usá las mismas palabras de escalamiento con tu equipo y no lo publiques separado de guía o protocolo local.\n\nAntes de publicar: revisión clínica, fuentes completas y límites bien nombrados.",
+        "beats": [
+          {
+            "id": "b00_hook",
+            "startSec": 0,
+            "durationSec": 4,
+            "visual": "Partera haciendo una pausa antes de registrar; luz de sala de parto, mirada enfocada.",
+            "voiceover": "Un detalle de partería que se aprende con cancha: Inducir a las 39 semanas en bajo riesgo reduce cesáreas sin aumentar riesgos.",
+            "overlay": "Inducir a las 39 semanas en bajo riesgo reduce…",
+            "camera": "primer plano, acercamiento lento"
+          },
+          {
+            "id": "b01_reframe",
+            "startSec": 4,
+            "durationSec": 6,
+            "visual": "Placa vertical con pantalla dividida: regla obvia a la izquierda, contexto clínico a la derecha.",
+            "voiceover": "Históricamente se consideró que inducir a una primigesta con cuello desfavorable aumentaba el riesgo de cesárea, pero el manejo activo con métodos modernos de maduración cervical (balón, PGE2, misoprostol) combinado con monitoreo continuo logra tasas de parto vaginal similares a la conducta expectante, con menos complicaciones maternas por prolongación del embarazo.",
+            "overlay": "No memorices la regla. Leé el patrón.",
+            "camera": "placa gráfica 9:16 fija"
+          },
+          {
+            "id": "b02_clinical_point",
+            "startSec": 10,
+            "durationSec": 8,
+            "visual": "Manos tranquilas marcando tres puntos de chequeo en una pizarra; sin pacientes visibles.",
+            "voiceover": "La inducción electiva del trabajo de parto a las 39 semanas en gestantes de bajo riesgo no aumenta la tasa de cesáreas (la reduce del 22% al 19%) y disminuye la incidencia de preeclampsia, hipertensión gestacional y corioamnionitis, en comparación con la conducta expectante (esperar hasta 41 semanas). El estudio ARRIVE (2018) con 6,100 gestantes demostró que no hubo diferencia en el compuesto de resultados neonatales adversos entre ambos grupos. La tasa de hipertensión gestacional/preeclampsia se redujo del 14% al 9%.",
+            "overlay": "Contexto + evolución + protocolo",
+            "camera": "sobre el hombro, profundidad de campo suave"
+          },
+          {
+            "id": "b03_action",
+            "startSec": 18,
+            "durationSec": 22,
+            "visual": "Tarjeta de checklist junto a documentación de sala o puerperio.",
+            "voiceover": "Para la práctica: convertí la idea en un mini-check, usá las mismas palabras de escalamiento con tu equipo y no lo publiques separado de guía o protocolo local.",
+            "overlay": "Mini-check, no frase suelta",
+            "camera": "toma cenital, luz editorial nítida"
+          },
+          {
+            "id": "b04_safety",
+            "startSec": 40,
+            "durationSec": 5,
+            "visual": "Placa final con espacio para fuentes y sello de revisión.",
+            "voiceover": "Antes de publicar: revisión clínica, fuentes completas y límites bien nombrados.",
+            "overlay": "Revisión pendiente",
+            "camera": "placa final estática"
+          }
+        ],
+        "imagePrompts": [
+          "Partera haciendo una pausa antes de registrar; luz de sala de parto, mirada enfocada., primer plano, acercamiento lento, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles",
+          "Placa vertical con pantalla dividida: regla obvia a la izquierda, contexto clínico a la derecha., placa gráfica 9:16 fija, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles",
+          "Manos tranquilas marcando tres puntos de chequeo en una pizarra; sin pacientes visibles., sobre el hombro, profundidad de campo suave, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles",
+          "Tarjeta de checklist junto a documentación de sala o puerperio., toma cenital, luz editorial nítida, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles",
+          "Placa final con espacio para fuentes y sello de revisión., placa final estática, estilo documental editorial latinoamericano, tonos de piel naturales, educación clínica clara, vertical 9:16, sin datos de pacientes legibles"
+        ],
+        "caption": "Inducir a las 39 semanas en bajo riesgo reduce cesáreas sin aumentar riesgos\n\nLa inducción electiva del trabajo de parto a las 39 semanas en gestantes de bajo riesgo no aumenta la tasa de cesáreas (la reduce del 22% al 19%) y disminuye la incidencia de preeclampsia, hipertensión gestacional y corioamnionitis, en comparación con la conducta expectante (esperar hasta 41 semanas). El estudio ARRIVE (2018) con 6,100 gestantes demostró que no hubo diferencia en el compuesto de resultados neonatales adversos entre ambos grupos. La tasa de hipertensión gestacional/preeclampsia se redujo del 14% al 9%.\n\nNota editorial: NEJM ARRIVE Trial (Grobman et al., 2018); Cochrane Review CD004945 (Middleton et al., 2020); ACOG Committee Opinion 691 (2023)",
         "hashtags": [
           "#Parteria",
           "#Obstetricia",

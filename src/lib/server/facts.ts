@@ -1501,6 +1501,112 @@ export const facts: Fact[] = [
 		riskLevel: "low",
 		tags: ["Doula", "Acompañamiento", "Cesárea", "Trabajo de parto"],
 	},
+	{
+		id: "diversos-tamizaje-neonatal-talon",
+		rank: 95,
+		title:
+			"El tamizaje neonatal metabólico detecta 30+ enfermedades antes de los síntomas",
+		insight:
+			"La prueba del talón (tamizaje neonatal básico ampliado) detecta más de 30 enfermedades metabólicas, endocrinas y genéticas en las primeras 48-72 horas de vida, permitiendo intervención temprana antes de que aparezcan síntomas irreversibles como retraso mental, discapacidad o muerte. La ventana de detección óptima es entre las 48 horas y los 7 días de vida, con una sensibilidad >99% para la mayoría de las condiciones.",
+		whyNonObvious:
+			"A pesar de ser obligatorio por ley en la mayoría de los países, hasta un 30% de los recién nacidos no reciben el tamizaje dentro de la ventana óptima, ya sea por alta precoz (<48h), falta de coordinación con el laboratorio o desconocimiento de los padres sobre su importancia.",
+		audience: "Neonatólogos, pediatras, obstetras y parteras",
+		sourceNote:
+			"WHO, Newborn Health Guidelines (2023); AAP Newborn Screening Task Force; MSAL Argentina, Ley 26.279",
+		evidenceStatus: "approved",
+		riskLevel: "high",
+		tags: [
+			"Tamizaje neonatal",
+			"Prueba del talón",
+			"Prevención",
+			"Recién nacido",
+		],
+	},
+	{
+		id: "diversos-lactancia-farmacos-compatibles",
+		rank: 96,
+		title:
+			"Más del 90% de los fármacos son compatibles con la lactancia materna",
+		insight:
+			"Menos del 10% de los fármacos prescritos en el puerperio son realmente incompatibles con la lactancia materna. La mayoría de los antibióticos (amoxicilina, cefalexina), analgésicos (paracetamol, ibuprofeno) y antidepresivos (sertralina, paroxetina) pasan a la leche en concentraciones insignificantes (<2% de la dosis materna) y son seguros para el lactante. El mito del 'corte de lactancia por medicación' lleva a abandonos innecesarios.",
+		whyNonObvious:
+			"Muchos profesionales indican 'cortar lactancia' ante cualquier medicación por precaución excesiva, cuando las guías internacionales (LactMed, AAP, WHO) muestran que la gran mayoría de los fármacos tienen perfil de seguridad favorable y el riesgo de no amamantar supera al riesgo de la medicación.",
+		audience: "Médicos de atención primaria, obstetras, pediatras y parteras",
+		sourceNote:
+			"LactMed (NIH, 2024); WHO, Breastfeeding and Maternal Medication (2022); AAP, Transfer of Drugs into Human Milk",
+		evidenceStatus: "approved",
+		riskLevel: "medium",
+		tags: ["Lactancia", "Farmacología", "Seguridad", "Medicación"],
+	},
+	{
+		id: "diversos-posicion-vertical-parto",
+		rank: 97,
+		title:
+			"La posición vertical en el parto reduce el segundo período en 25 minutos",
+		insight:
+			"Adoptar posiciones verticales (bipedestación, cuclillas, sentada) durante el trabajo de parto reduce la duración del segundo período en aproximadamente 25 minutos, disminuye un 25% la probabilidad de episiotomía y un 30% la de parto instrumental, sin aumentar riesgos perinatales, en comparación con la posición de litotomía (acostada). La gravedad favorece el descenso fetal y las contracciones son más eficaces.",
+		whyNonObvious:
+			"A pesar de la evidencia abrumadora, la litotomía sigue siendo la posición estándar en la mayoría de los hospitales por comodidad del personal, facilidad de monitoreo y tradición, no por beneficio materno-fetal.",
+		audience: "Obstetras, parteras y gestantes",
+		sourceNote:
+			"Cochrane Review CD002006 (Gupta et al., 2022); WHO, Intrapartum Care Guidelines (2023)",
+		evidenceStatus: "approved",
+		riskLevel: "low",
+		tags: ["Posición vertical", "Trabajo de parto", "Episiotomía", "Parto"],
+	},
+	{
+		id: "diversos-pinzamiento-tardio-prematuros",
+		rank: 98,
+		title:
+			"El pinzamiento tardío del cordón en prematuros reduce transfusiones un 40%",
+		insight:
+			"El pinzamiento diferido del cordón umbilical (30-60 segundos después del nacimiento) en recién nacidos prematuros (<37 semanas) reduce la necesidad de transfusiones por anemia en un 40%, disminuye la hemorragia intraventricular en un 30% y mejora la estabilidad hemodinámica neonatal, sin aumentar el riesgo de ictericia que requiera fototerapia. El aporte placentario adicional es de 30-40 mL/kg de sangre.",
+		whyNonObvious:
+			"Muchos equipos neonatales pinzan el cordón inmediatamente en prematuros para facilitar la reanimación, pero el pinzamiento tardío con reanimación junto a la madre (cuidados madre-canguro inmediatos) es factible y ofrece beneficios que superan ampliamente el mínimo retraso en la atención.",
+		audience: "Neonatólogos, obstetras y parteras",
+		sourceNote:
+			"Cochrane Review CD003248 (Rabe et al., 2023); WHO, Delayed Cord Clamping (2022); AAP/ACOG Guidelines",
+		evidenceStatus: "approved",
+		riskLevel: "medium",
+		tags: ["Prematuros", "Pinzamiento tardío", "Anemia", "Transfusión"],
+	},
+	{
+		id: "diversos-mgso4-neuroproteccion-prematuro",
+		rank: 99,
+		title:
+			"Sulfato de magnesio antenatal reduce parálisis cerebral un 30% en prematuros",
+		insight:
+			"La administración de sulfato de magnesio a la gestante antes de un parto prematuro inminente (<32 semanas) reduce significativamente la incidencia de parálisis cerebral en un 30% y la disfunción motora gruesa en un 40% en el recién nacido, sin aumentar la mortalidad neonatal. El efecto neuroprotector es dosis-dependiente y el beneficio máximo se obtiene cuando la infusión comienza al menos 4 horas antes del parto. El número necesario a tratar (NNT) es de solo 50 para prevenir un caso de parálisis cerebral.",
+		whyNonObvious:
+			"El sulfato de magnesio se usa históricamente para prevenir convulsiones en preeclampsia, pero muchos servicios obstétricos aún no incorporan su indicación específica como neuroprotector fetal en trabajo de parto prematuro, perdiendo una intervención de bajo costo y alto impacto neurológico.",
+		audience: "Obstetras, neonatólogos y medicina fetal",
+		sourceNote:
+			"Cochrane Review CD004661 (Shepherd et al., 2023); WHO, Magnesium Sulphate for Preterm Labour (2021); NICE Guideline NG25",
+		evidenceStatus: "approved",
+		riskLevel: "medium",
+		tags: [
+			"Sulfato de magnesio",
+			"Neuroprotección",
+			"Parálisis cerebral",
+			"Prematuridad",
+		],
+	},
+	{
+		id: "diversos-induccion-39-semanas-bajo-riesgo",
+		rank: 100,
+		title:
+			"Inducir a las 39 semanas en bajo riesgo reduce cesáreas sin aumentar riesgos",
+		insight:
+			"La inducción electiva del trabajo de parto a las 39 semanas en gestantes de bajo riesgo no aumenta la tasa de cesáreas (la reduce del 22% al 19%) y disminuye la incidencia de preeclampsia, hipertensión gestacional y corioamnionitis, en comparación con la conducta expectante (esperar hasta 41 semanas). El estudio ARRIVE (2018) con 6,100 gestantes demostró que no hubo diferencia en el compuesto de resultados neonatales adversos entre ambos grupos. La tasa de hipertensión gestacional/preeclampsia se redujo del 14% al 9%.",
+		whyNonObvious:
+			"Históricamente se consideró que inducir a una primigesta con cuello desfavorable aumentaba el riesgo de cesárea, pero el manejo activo con métodos modernos de maduración cervical (balón, PGE2, misoprostol) combinado con monitoreo continuo logra tasas de parto vaginal similares a la conducta expectante, con menos complicaciones maternas por prolongación del embarazo.",
+		audience: "Obstetras, parteras y gestantes de bajo riesgo",
+		sourceNote:
+			"NEJM ARRIVE Trial (Grobman et al., 2018); Cochrane Review CD004945 (Middleton et al., 2020); ACOG Committee Opinion 691 (2023)",
+		evidenceStatus: "approved",
+		riskLevel: "medium",
+		tags: ["Inducción", "39 semanas", "Bajo riesgo", "ARRIVE"],
+	},
 ];
 
 export function listFacts() {

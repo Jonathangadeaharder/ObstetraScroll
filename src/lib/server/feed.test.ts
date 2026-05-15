@@ -2,9 +2,9 @@ import { listFeedItems } from "$lib/server/feed";
 import { describe, expect, it } from "vitest";
 
 describe("listFeedItems", () => {
-	it("returns 94 feed items from the facts", () => {
+	it("returns 100 feed items from the facts", () => {
 		const items = listFeedItems();
-		expect(items).toHaveLength(94);
+		expect(items).toHaveLength(100);
 	});
 
 	it("each feed item has required fields", () => {

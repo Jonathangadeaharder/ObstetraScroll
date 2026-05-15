@@ -2,8 +2,8 @@ import { findFact, listFacts } from "$lib/server/facts";
 import { describe, expect, it } from "vitest";
 
 describe("listFacts", () => {
-	it("returns 94 facts", () => {
-		expect(listFacts()).toHaveLength(94);
+	it("returns 100 facts", () => {
+		expect(listFacts()).toHaveLength(100);
 	});
 
 	it("all facts have required shape", () => {
