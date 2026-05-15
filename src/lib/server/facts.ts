@@ -1536,12 +1536,7 @@ export const facts: Fact[] = [
 			"LactMed (NIH, 2024); WHO, Breastfeeding and Maternal Medication (2022); AAP, Transfer of Drugs into Human Milk",
 		evidenceStatus: "approved",
 		riskLevel: "medium",
-		tags: [
-			"Lactancia",
-			"Farmacología",
-			"Seguridad",
-			"Medicación",
-		],
+		tags: ["Lactancia", "Farmacología", "Seguridad", "Medicación"],
 	},
 	{
 		id: "diversos-posicion-vertical-parto",
@@ -1557,12 +1552,7 @@ export const facts: Fact[] = [
 			"Cochrane Review CD002006 (Gupta et al., 2022); WHO, Intrapartum Care Guidelines (2023)",
 		evidenceStatus: "approved",
 		riskLevel: "low",
-		tags: [
-			"Posición vertical",
-			"Trabajo de parto",
-			"Episiotomía",
-			"Parto",
-		],
+		tags: ["Posición vertical", "Trabajo de parto", "Episiotomía", "Parto"],
 	},
 	{
 		id: "diversos-pinzamiento-tardio-prematuros",
@@ -1578,12 +1568,7 @@ export const facts: Fact[] = [
 			"Cochrane Review CD003248 (Rabe et al., 2023); WHO, Delayed Cord Clamping (2022); AAP/ACOG Guidelines",
 		evidenceStatus: "approved",
 		riskLevel: "medium",
-		tags: [
-			"Prematuros",
-			"Pinzamiento tardío",
-			"Anemia",
-			"Transfusión",
-		],
+		tags: ["Prematuros", "Pinzamiento tardío", "Anemia", "Transfusión"],
 	},
 	{
 		id: "diversos-mgso4-neuroproteccion-prematuro",
@@ -1620,12 +1605,7 @@ export const facts: Fact[] = [
 			"NEJM ARRIVE Trial (Grobman et al., 2018); Cochrane Review CD004945 (Middleton et al., 2020); ACOG Committee Opinion 691 (2023)",
 		evidenceStatus: "approved",
 		riskLevel: "medium",
-		tags: [
-			"Inducción",
-			"39 semanas",
-			"Bajo riesgo",
-			"ARRIVE",
-		],
+		tags: ["Inducción", "39 semanas", "Bajo riesgo", "ARRIVE"],
 	},
 ];
 
