@@ -1,0 +1,158 @@
+[
+  {
+    "id": "quiz-sepsis-neonatal-lactobacillus-oral-prematuro",
+    "factId": "sepsis-neonatal-lactobacillus-oral-prematuro",
+    "question": "Un recién nacido prematuro de 28 semanas ingresa a UCI neonatal sin signos de infección. El equipo discute iniciar probióticos orales para prevenir enterocolitis necrotizante. Un colega se opone argumentando riesgo de sepsis por bacterias vivas en un paciente inmunocomprometido. ¿Cuál es la mejor respuesta basada en la evidencia actual?",
+    "options": [
+      "El riesgo de sepsis por probióticos es significativo y deben evitarse en menores de 32 semanas",
+      "Con cepas específicas de Lactobacillus y Bifidobacterium, el perfil de seguridad es excelente y reducen NEC en un 50%",
+      "Los probióticos solo benefician a prematuros mayores de 34 semanas",
+      "Es preferible esperar a que el neonato cumpla 7 días de vida para iniciar probióticos"
+    ],
+    "answerIndex": 1,
+    "explanation": "Aunque existe el temor teórico de sepsis por probióticos en inmunocomprometidos, la evidencia Cochrane muestra un perfil de seguridad excelente con cepas específicas, reduciendo la incidencia de NEC en un 50% y la mortalidad en un 25%."
+  },
+  {
+    "id": "quiz-sepsis-neonatal-pcr-diagnostico",
+    "factId": "sepsis-neonatal-pcr-diagnostico",
+    "question": "Un neonato de 4 horas de vida presenta taquipnea transitoria. Se toma una PCR que resulta en 2 mg/L (valor normal <10). El equipo decide no iniciar antibióticos porque el marcador es normal. ¿Cuál es el problema principal con esta decisión?",
+    "options": [
+      "La PCR tiene excelente sensibilidad pero el punto de corte debe ser 5 mg/L en neonatos",
+      "La PCR en las primeras 6 horas de vida tiene una sensibilidad menor al 50%, por lo que un valor normal no descarta sepsis neonatal",
+      "La PCR solo es útil si se combina con procalcitonina, independientemente del tiempo de toma",
+      "El valor de PCR de 2 mg/L es en realidad anormal para un neonato de 4 horas"
+    ],
+    "answerIndex": 1,
+    "explanation": "La PCR en las primeras 6 horas de vida tiene sensibilidad menor al 50% incluso para sepsis confirmada por cultivo. Un resultado normal crea falsa seguridad y retrasa antibióticos necesarios."
+  },
+  {
+    "id": "quiz-sepsis-neonatal-lactancia-materna-prevencion",
+    "factId": "sepsis-neonatal-lactancia-materna-prevencion",
+    "question": "Un neonato de 36 semanas en UCIN sin condiciones para succionar. La madre desea dar leche materna extraída, pero una enfermera sugiere fórmula fortificada argumentando que la leche materna no tiene suficiente protección inmunológica para un prematuro. ¿Qué dice la evidencia?",
+    "options": [
+      "La fórmula fortificada tiene mejor perfil inmunológico que la leche materna extraída",
+      "La leche materna pasteurizada pierde sus propiedades inmunológicas, por lo que da igual usar fórmula",
+      "La leche materna exclusiva reduce el riesgo de sepsis neonatal tardía en un 50% comparada con la fórmula, gracias a IgA secretora y oligosacáridos",
+      "La protección inmunológica de la leche materna solo aplica a neonatos a término sanos"
+    ],
+    "answerIndex": 2,
+    "explanation": "La leche materna transfiere IgA secretora y oligosacáridos con función inmunológica tan potente que supera a muchos antibióticos profilácticos en prevención de sepsis tardía, con una reducción del 50% del riesgo."
+  },
+  {
+    "id": "quiz-sepsis-neonatal-algoritmo-kaiser",
+    "factId": "sepsis-neonatal-algoritmo-kaiser",
+    "question": "Un neonato asintomático de 38 semanas nace de madre con corioamnionitis clínica tratada. El equipo propone iniciar antibióticos empíricos por el factor de riesgo. ¿Cuál alternativa está respaldada por la evidencia actual?",
+    "options": [
+      "Iniciar antibióticos por 7 días ante cualquier factor de riesgo materno es el estándar de oro",
+      "Solo los neonatos con PCR elevada al nacer pueden manejarse con observación",
+      "El algoritmo de Kaiser solo aplica a neonatos con sospecha de sepsis temprana por GBS",
+      "La observación clínica seriada cada 4 horas con el algoritmo de Kaiser reduce antibióticos en un 50% sin aumentar sepsis confirmada"
+    ],
+    "answerIndex": 3,
+    "explanation": "El algoritmo de Kaiser Permanente (evaluación seriada con examen físico + signos vitales + biomarcadores cada 4 horas) reduce la exposición a antibióticos en un 50% sin aumentar la sepsis confirmada, incluso con factores de riesgo."
+  },
+  {
+    "id": "quiz-sepsis-neonatal-liquido-amniotico-meconial",
+    "factId": "sepsis-neonatal-liquido-amniotico-meconial",
+    "question": "Un neonato de 40 semanas nace con líquido amniótico meconial espeso. El pediatra indica antibióticos por riesgo de sepsis. El neonato está asintomático con signos vitales normales. ¿Cuál afirmación es correcta?",
+    "options": [
+      "La especificidad del líquido meconial para sepsis es 65-70%, lo que significa que 1 de cada 3 neonatos recibe antibióticos innecesarios",
+      "El líquido meconial tiene una especificidad del 90% para sepsis, por lo que los antibióticos están indicados",
+      "El líquido meconial espeso tiene correlación directa con bacteriemia neonatal y siempre requiere antibióticos",
+      "La presencia de meconio indica sufrimiento fetal agudo que predice sepsis en el 80% de los casos"
+    ],
+    "answerIndex": 0,
+    "explanation": "El líquido meconial tiene especificidad de solo 65-70% para sepsis neonatal. La mayoría de los neonatos a término con líquido meconial no tienen sepsis y no requieren antibióticos, resultando en tratamiento innecesario en 1 de cada 3 casos."
+  },
+  {
+    "id": "quiz-sepsis-neonatal-clorhexidina-cordon-oms",
+    "factId": "sepsis-neonatal-clorhexidina-cordon-oms",
+    "question": "En una comunidad rural con alta tasa de partos domiciliarios, se debate implementar la aplicación de clorhexidina en el cordón umbilical. Un gestor de salud duda porque parece una intervención menor comparada con otras prioridades. ¿Qué evidencia debe considerar?",
+    "options": [
+      "La clorhexidina tópica reduce la mortalidad neonatal en un 34% en contextos de alto riesgo de infección como parto domiciliario",
+      "La clorhexidina solo es efectiva si se combina con antibióticos sistémicos",
+      "El beneficio de la clorhexidina es marginal (<5% de reducción de mortalidad) y no justifica el costo logístico",
+      "La clorhexidina en el cordón solo funciona en partos institucionales con personal capacitado"
+    ],
+    "answerIndex": 0,
+    "explanation": "Aunque el cuidado del cordón parece una intervención menor, la clorhexidina al 7.1% en las primeras 24 horas reduce la mortalidad neonatal en un 34% en contextos de parto domiciliario, salvando más vidas que muchas intervenciones tecnológicas costosas."
+  },
+  {
+    "id": "quiz-sepsis-neonatal-bacterias-multirresistentes-uci",
+    "factId": "sepsis-neonatal-bacterias-multirresistentes-uci",
+    "question": "En una UCIN de un hospital de ingresos medios, un neonato presenta sepsis de inicio tardío. Se inicia ampicilina + gentamicina según guías estándar. El cultivo muestra Klebsiella pneumoniae resistente a ambos antibióticos. ¿Cuál es la explicación más probable para este fracaso terapéutico?",
+    "options": [
+      "Se trata de una cepa atípica y no representa un patrón general de resistencia",
+      "La resistencia se debe a que no se añadió un tercer antibiótico de forma empírica",
+      "En UCIN de ingresos medios y bajos, el 70% de las sepsis neonatales son causadas por bacterias resistentes a antibióticos de primera línea como ampicilina + gentamicina",
+      "La ampicilina + gentamicina sigue cubriendo >90% de patógenos si se administran por 48 horas antes de leer el cultivo"
+    ],
+    "answerIndex": 2,
+    "explanation": "En UCIN de ingresos medios y bajos, el 70% de las sepsis confirmadas son por bacterias multirresistentes. La combinación ampicilina + gentamicina no cubre el 50% de los patógenos en unidades con alta prevalencia de resistencia."
+  },
+  {
+    "id": "quiz-sepsis-neonatal-rmn-pretermino-profilaxis",
+    "factId": "sepsis-neonatal-rmn-pretermino-profilaxis",
+    "question": "Gestante de 30 semanas con ruptura prematura de membranas. El equipo está dividido: unos quieren inducción inmediata para evitar infección neonatal y otros proponen manejo expectante 48 horas con corticoides y antibióticos. ¿Cuál opción tiene mejor evidencia?",
+    "options": [
+      "La inducción inmediata reduce el riesgo de sepsis neonatal al eliminar la exposición a bacterias ascendentes",
+      "Ambas opciones tienen resultados equivalentes en sepsis neonatal, pero la inducción acorta la estancia hospitalaria",
+      "La ventaja del manejo expectante solo aplica si la gestación es mayor de 32 semanas",
+      "El manejo expectante 48 horas con corticoides + eritromicina reduce la sepsis neonatal en un 30% comparado con inducción inmediata"
+    ],
+    "answerIndex": 3,
+    "explanation": "Aunque la reacción intuitiva es 'sacar al bebé para evitar infección', 48 horas de latencia con corticoides permiten madurar el pulmón fetal y reducen la sepsis neonatal global en un 30% comparado con la inducción inmediata."
+  },
+  {
+    "id": "quiz-sepsis-neonatal-piel-con-piel-infeccion",
+    "factId": "sepsis-neonatal-piel-con-piel-infeccion",
+    "question": "Un neonato prematuro de 34 semanas nace estable. La neonatóloga sugiere retrasar el contacto piel con piel hasta completar la evaluación y los procedimientos de rutina para 'mantener la asepsia'. La madre pregunta si puede tener a su bebé. ¿Cuál es la conducta correcta?",
+    "options": [
+      "El contacto piel con piel no aumenta la incidencia de sepsis neonatal, incluso en prematuros, y la colonización temprana con microbiota materna es protectora",
+      "Es correcto retrasar el contacto hasta completar la evaluación neonatal completa por riesgo de infección",
+      "El contacto piel con piel solo es seguro en neonatos a término con peso mayor a 3000 gramos",
+      "Se debe esperar al menos 6 horas postparto para iniciar el contacto piel con piel en prematuros"
+    ],
+    "answerIndex": 0,
+    "explanation": "El contacto piel con piel inmediato no aumenta sepsis neonatal confirmada ni sospechada, incluso en prematuros. La colonización temprana con la microbiota materna es protectora, no riesgosa, contradiciendo la creencia de que separar al neonato reduce infecciones."
+  },
+  {
+    "id": "quiz-prematuro-progesterona-vaginal-prevencion",
+    "factId": "prematuro-progesterona-vaginal-prevencion",
+    "question": "Gestante de 20 semanas, sin antecedente de parto prematuro, asintomática. En la ecografía del segundo trimestre se encuentra longitud cervical de 22 mm. ¿Cuál es la mejor conducta basada en la evidencia?",
+    "options": [
+      "No requiere intervención porque no tiene antecedente de parto prematuro",
+      "Realizar cerclaje cervical de urgencia porque la longitud cervical es menor a 25 mm",
+      "Iniciar progesterona vaginal 200 mg/día, que reduce el parto prematuro antes de 34 semanas en un 45% incluso en pacientes asintomáticas sin antecedente",
+      "El manejo es solo con reposo; la progesterona está indicada únicamente si hay antecedente de parto prematuro"
+    ],
+    "answerIndex": 2,
+    "explanation": "El cribado ecográfico universal de longitud cervical identifica gestantes asintomáticas sin antecedente que se benefician de progesterona vaginal. Reduce el parto prematuro antes de 34 semanas en un 45% y la morbilidad neonatal en un 60%."
+  },
+  {
+    "id": "quiz-prematuro-cerclaje-cervical-emergencia",
+    "factId": "prematuro-cerclaje-cervical-emergencia",
+    "question": "Gestante de 22 semanas con dilatación cervical de 3 cm y membranas ovulares visibles en el orificio cervical. Sin contracciones. Un colega opina que la situación es irreversible y recomienda reposo y preparación para parto inminente. ¿Cuál es la evidencia actual?",
+    "options": [
+      "El reposo absoluto tiene resultados similares al cerclaje de emergencia cuando hay membranas visibles",
+      "El cerclaje de emergencia solo funciona si se realiza antes de las 20 semanas",
+      "La tasa de supervivencia neonatal con cerclaje de emergencia es menor al 30% y no justifica el riesgo quirúrgico",
+      "El cerclaje cervical de emergencia prolonga el embarazo en promedio 9-10 semanas con tasa de supervivencia neonatal del 70-80%"
+    ],
+    "answerIndex": 3,
+    "explanation": "Aunque la tendencia es diagnosticar incompetencia cervical irreversible cuando el cuello ya está dilatado con membranas visibles, el cerclaje urgente prolonga el embarazo 9-10 semanas con una supervivencia neonatal sorprendentemente buena del 70-80%."
+  },
+  {
+    "id": "quiz-prematuro-corticoides-antenatales-sobrevida",
+    "factId": "prematuro-corticoides-antenatales-sobrevida",
+    "question": "Gestante de 28 semanas con amenaza de parto prematuro. Un médico residente sugiere no administrar corticoides porque 'una sola tanda no hace diferencia significativa y los corticoides tienen efectos adversos a largo plazo'. ¿Cuál es la respuesta correcta?",
+    "options": [
+      "Es correcto: los corticoides antenatales tienen más riesgos que beneficios a largo plazo",
+      "Los corticoides antenatales solo reducen el síndrome de dificultad respiratoria, no la mortalidad neonatal",
+      "Un solo curso de corticoides antenatales reduce la mortalidad neonatal en un 40%, la SDR en un 35% y la hemorragia intraventricular en un 45%, con un perfil beneficio-riesgo abrumadoramente favorable",
+      "La betametasona es efectiva pero la dexametasona no ha demostrado beneficio en la reducción de mortalidad"
+    ],
+    "answerIndex": 2,
+    "explanation": "Aunque existe preocupación por efectos adversos a largo plazo de los corticoides, un único curso antenatal tiene un perfil beneficio-riesgo abrumadoramente favorable: reduce mortalidad neonatal 40%, SDR 35% y hemorragia intraventricular 45%."
+  }
+]

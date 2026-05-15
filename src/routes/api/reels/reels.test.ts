@@ -5,9 +5,9 @@ import { describe, expect, it } from "vitest";
 describe("POST /api/reels", () => {
 	it("validates the reel request schema", () => {
 		const valid = reelRequestSchema.safeParse({
-			factId: "skin-to-skin-temperature",
+			factId: "hpp-oxitocina-profilaxis-10ui",
 			tone: "mentor",
-			targetDurationSec: 28,
+			targetDurationSec: 30,
 		});
 		expect(valid.success).toBe(true);
 	});
@@ -16,7 +16,7 @@ describe("POST /api/reels", () => {
 		const result = reelRequestSchema.safeParse({
 			factId: "test",
 			tone: "invalid_tone",
-			targetDurationSec: 28,
+			targetDurationSec: 30,
 		});
 		expect(result.success).toBe(false);
 	});
@@ -39,7 +39,7 @@ describe("POST /api/reels", () => {
 		const tones = ["calm", "urgent", "mentor"];
 		for (const tone of tones) {
 			const result = reelRequestSchema.safeParse({
-				factId: "skin-to-skin-temperature",
+				factId: "hpp-oxitocina-profilaxis-10ui",
 				tone,
 				targetDurationSec: 30,
 			});
@@ -48,14 +48,14 @@ describe("POST /api/reels", () => {
 	});
 
 	it("returns brief for valid fact", () => {
-		const fact = findFact("skin-to-skin-temperature");
+		const fact = findFact("hpp-oxitocina-profilaxis-10ui");
 		expect(fact).toBeTruthy();
 		if (!fact) return;
 
 		const brief = planReel(fact, {
 			factId: fact.id,
 			tone: "mentor",
-			targetDurationSec: 28,
+			targetDurationSec: 60,
 		});
 		expect(brief.factId).toBe(fact.id);
 		expect(brief.format).toBe("instagram_reel_9x16");
@@ -66,12 +66,12 @@ describe("POST /api/reels", () => {
 		expect(fact).toBeUndefined();
 	});
 
-	it("all 6 seeded facts produce valid briefs", () => {
+	it("all facts produce valid briefs", () => {
 		for (const fact of facts) {
 			const brief = planReel(fact, {
 				factId: fact.id,
 				tone: "mentor",
-				targetDurationSec: 28,
+				targetDurationSec: 60,
 			});
 			expect(brief.factId).toBe(fact.id);
 			expect(brief.beats).toHaveLength(5);

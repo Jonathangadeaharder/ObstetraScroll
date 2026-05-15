@@ -2,8 +2,8 @@ import { findFact, listFacts } from "$lib/server/facts";
 import { describe, expect, it } from "vitest";
 
 describe("listFacts", () => {
-	it("returns 6 seeded facts", () => {
-		expect(listFacts()).toHaveLength(6);
+	it("returns 94 facts", () => {
+		expect(listFacts()).toHaveLength(94);
 	});
 
 	it("all facts have required shape", () => {
@@ -34,9 +34,9 @@ describe("listFacts", () => {
 	});
 
 	it("findFact returns the correct fact by id", () => {
-		const fact = findFact("skin-to-skin-temperature");
+		const fact = findFact("hpp-oxitocina-profilaxis-10ui");
 		expect(fact).toBeTruthy();
-		expect(fact?.title).toContain("Piel con piel");
+		expect(fact?.title).toContain("oxitocina");
 	});
 
 	it("findFact returns undefined for unknown id", () => {

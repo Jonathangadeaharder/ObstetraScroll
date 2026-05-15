@@ -1,0 +1,158 @@
+[
+  {
+    "id": "quiz-prematuro-sulfato-magnesio-neuroproteccion",
+    "factId": "prematuro-sulfato-magnesio-neuroproteccion",
+    "question": "Una gestante de 28 semanas ingresa con amenaza de parto prematuro. No tiene criterios de preeclampsia. ¿Cuál es la indicación correcta del sulfato de magnesio en este contexto?",
+    "options": [
+      "Administrar dosis de carga de 4 g más mantenimiento de 1 g/h para neuroprotección fetal antes de las 32 semanas",
+      "Administrar solo si desarrolla criterios de eclampsia, ya que su indicación principal es anticonvulsivante",
+      "Administrar 2 g en bolo único, suficiente para neuroprotección fetal según evidencia actual",
+      "Administrar solo si hay actividad uterina documentada, porque el magnesio actúa como tocolítico"
+    ],
+    "answerIndex": 0,
+    "explanation": "El sulfato de magnesio antenatal reduce la parálisis cerebral en prematuros un 30% (NNT 56). Su indicación no es tocolítica ni anticonvulsivante en este caso, sino neuroprotectora fetal."
+  },
+  {
+    "id": "quiz-prematuro-tocoliticos-bloqueo-canales-calcio",
+    "factId": "prematuro-tocoliticos-bloqueo-canales-calcio",
+    "question": "Una gestante de 32 semanas requiere tocólisis para completar corticoides. ¿Qué fármaco elegir como primera línea considerando eficacia y perfil de efectos adversos?",
+    "options": [
+      "Terbutalina, por su larga trayectoria de uso y alta disponibilidad en salas de parto",
+      "Nifedipina o atosiban, con eficacia del 86-90% y menor riesgo de efectos adversos maternos",
+      "Indometacina, por su doble efecto tocolítico y antiinflamatorio",
+      "Sulfato de magnesio, por su perfil de seguridad materno y efecto neuroprotector"
+    ],
+    "answerIndex": 1,
+    "explanation": "Nifedipina y atosiban tienen eficacia equivalente (86-90%) y efectos adversos maternos <5%, frente al 40% de los beta-miméticos como terbutalina. Son la primera línea actual."
+  },
+  {
+    "id": "quiz-prematuro-longitud-cervical-universal",
+    "factId": "prematuro-longitud-cervical-universal",
+    "question": "En un sistema de salud que solo mide la longitud cervical a gestantes con antecedente de parto prematuro, ¿qué proporción de pacientes con riesgo real se está perdiendo?",
+    "options": [
+      "Ninguna, porque el antecedente de parto prematuro es el principal factor de riesgo y captura casi todos los casos",
+      "Aproximadamente el 30%, equivalente a la tasa de falsos negativos del cribado selectivo",
+      "Aproximadamente el 60%, porque la mayoría de los partos prematuros ocurren en gestantes sin ese antecedente",
+      "Aproximadamente el 10%, porque los otros factores de riesgo son menos relevantes"
+    ],
+    "answerIndex": 2,
+    "explanation": "El cribado selectivo (solo con antecedente) pierde al 60% de las gestantes que tendrán parto prematuro. El cribado universal entre 20-24 semanas detecta significativamente más casos de riesgo."
+  },
+  {
+    "id": "quiz-prematuro-fibronectina-fetal-triaje",
+    "factId": "prematuro-fibronectina-fetal-triaje",
+    "question": "Una gestante de 30 semanas llega al triaje con contracciones irregulares. La fibronectina fetal (fFN) resulta negativa. ¿Cuál es la conducta más apropiada?",
+    "options": [
+      "Ingresar para administrar corticoides y vigilancia fetal por 48 horas, independientemente del resultado",
+      "Ingresar para tocólisis profiláctica porque la fFN tiene bajo valor predictivo positivo",
+      "Considerar alta con indicaciones de alerta, pues el valor predictivo negativo supera el 97% para parto en 7-14 días",
+      "Repetir la fFN en 24 horas para confirmar el resultado antes de tomar decisiones"
+    ],
+    "answerIndex": 2,
+    "explanation": "Una fFN negativa tiene VPN del 97-99% para descartar parto prematuro en 7-14 días. Permite evitar hospitalizaciones innecesarias y administrar intervenciones solo cuando hay riesgo real."
+  },
+  {
+    "id": "quiz-prematuro-cesarea-sistematica-no-mejora",
+    "factId": "prematuro-cesarea-sistematica-no-mejora",
+    "question": "Una gestante de 35 semanas con feto en presentación de nalgas ingresa en trabajo de parto. El equipo propone cesárea electiva argumentando que protege al prematuro. ¿Cuál es la mejor respuesta basada en evidencia?",
+    "options": [
+      "La cesárea electiva no mejora la mortalidad ni morbilidad neonatal severa comparada con el parto vaginal en centros con experiencia en parto pélvico",
+      "La cesárea está indicada porque en prematuros la vía vaginal duplica el riesgo de hemorragia intraventricular",
+      "La cesárea debe realizarse solo si el peso estimado es menor de 2000 gramos",
+      "La cesárea es superior porque evita la compresión del cordón durante el expulsivo en prematuros"
+    ],
+    "answerIndex": 0,
+    "explanation": "El estudio PREMODA y la revisión Cochrane muestran que la cesárea electiva en prematuros con nalgas no mejora resultados neonatales comparada con el parto vaginal en centros con experiencia."
+  },
+  {
+    "id": "quiz-prematuro-periodontal-enfermedad-riesgo",
+    "factId": "prematuro-periodontal-enfermedad-riesgo",
+    "question": "Durante el control prenatal de una gestante asintomática, se observa encías inflamadas con sangrado al sondaje. ¿Cuál es la implicación obstétrica más relevante?",
+    "options": [
+      "No tiene relevancia obstétrica, ya que la cavidad oral no está relacionada con el embarazo",
+      "La periodontitis moderada a severa duplica el riesgo de parto prematuro y bajo peso al nacer, independientemente de otros factores",
+      "Requiere antibióticos profilácticos para prevenir endocarditis bacteriana durante el parto",
+      "Solo es relevante si la paciente reporta dolor dental, porque la inflamación local no produce efecto sistémico"
+    ],
+    "answerIndex": 1,
+    "explanation": "La periodontitis genera mediadores inflamatorios sistémicos que pueden desencadenar trabajo de parto prematuro. Se asocia con riesgo 2.2x de parto <37 semanas y 2.5x de bajo peso al nacer."
+  },
+  {
+    "id": "quiz-prematuro-brecha-global-mortalidad",
+    "factId": "prematuro-brecha-global-mortalidad",
+    "question": "Al diseñar una estrategia nacional para reducir la mortalidad infantil, ¿dónde deben concentrarse los recursos si el objetivo es prevenir muertes por prematuridad?",
+    "options": [
+      "En unidades de cuidados intensivos neonatales de alta tecnología, porque la prematuridad es un problema de países de altos ingresos",
+      "En países de ingresos bajos y medios, donde ocurre el 85% de los partos prematuros y la mortalidad es más alta",
+      "En mejorar la nutrición materna exclusivamente, pues es la causa principal de prematuridad global",
+      "En programas de fertilización asistida, porque la edad materna avanzada es el principal factor de riesgo"
+    ],
+    "answerIndex": 1,
+    "explanation": "El 85% de los partos prematuros ocurren en países de ingresos bajos y medios. El 75% de las 900,000 muertes anuales son prevenibles con intervenciones costo-efectivas como corticoides, método kanguro y antibióticos."
+  },
+  {
+    "id": "quiz-asfixia-reanimacion-90-segundos-cordon",
+    "factId": "asfixia-reanimacion-90-segundos-cordon",
+    "question": "Nace un neonato de 34 semanas con respiración irregular y tono disminuido. El líquido amniótico es claro. ¿Cuál es el manejo del cordón umbilical más adecuado según la evidencia actual?",
+    "options": [
+      "Pinzar y cortar el cordón inmediatamente para trasladar al neonato a la cuna de reanimación, que es el estándar del NRP tradicional",
+      "Iniciar la reanimación con el cordón intacto durante 60-90 segundos antes de pinzar, combinando ventilación y circulación placentaria",
+      "Pinzar el cordón a los 30 segundos y luego iniciar reanimación, ya que esperar más retrasa la ventilación",
+      "Realizar ordeño del cordón antes de pinzar para transfundir sangre y luego pinzar inmediatamente"
+    ],
+    "answerIndex": 1,
+    "explanation": "La reanimación con cordón intacto por 60-90 segundos mejora la estabilidad hemodinámica y reduce la hemorragia intraventricular. Separar al neonato inmediatamente interrumpe el soporte placentario."
+  },
+  {
+    "id": "quiz-asfixia-hipotermia-terapeutica-neuroproteccion",
+    "factId": "asfixia-hipotermia-terapeutica-neuroproteccion",
+    "question": "Un neonato de término presenta encefalopatía hipóxico-isquémica moderada a las 2 horas de vida. El equipo neonatal duda entre calentarlo o iniciar hipotermia. ¿Cuál es la decisión correcta?",
+    "options": [
+      "Iniciar hipotermia terapéutica a 33-34°C durante 72 horas, iniciada dentro de las primeras 6 horas, pues reduce muerte o discapacidad grave un 30%",
+      "Calentar al neonato activamente, porque la hipotermia neonatal aumenta el riesgo de arritmias cardiacas fatales",
+      "Iniciar hipotermia solo si hay convulsiones clínicas o eléctricas documentadas",
+      "Mantener temperatura normal y administrar fenobarbital profiláctico, que ha demostrado beneficio neuroprotector superior"
+    ],
+    "answerIndex": 0,
+    "explanation": "La hipotermia terapéutica (33-34°C/72h, iniciada dentro de las 6h) reduce la cascada excitotóxica post-asfixia, con NNT de 7 para prevenir muerte o discapacidad neurológica mayor."
+  },
+  {
+    "id": "quiz-asfixia-magnestio-no-neuroproteccion",
+    "factId": "asfixia-magnestio-no-neuroproteccion",
+    "question": "Un neonato con asfixia perinatal severa está recibiendo hipotermia terapéutica. Un colega sugiere agregar sulfato de magnesio porque 'funciona en prematuros'. ¿Cuál es la respuesta correcta?",
+    "options": [
+      "Agregar magnesio es razonable, ya que los mecanismos de neuroprotección son similares en ambas poblaciones",
+      "Administrar magnesio solo si el neonato presenta hipertensión pulmonar persistente",
+      "El magnesio posnatal no reduce muerte ni discapacidad severa en asfixia perinatal (RR 1.01), por lo que no está indicado",
+      "El magnesio está indicado como adyuvante para potenciar el efecto de la hipotermia terapéutica"
+    ],
+    "answerIndex": 2,
+    "explanation": "A pesar de su eficacia antenatal, el sulfato de magnesio posnatal en asfixia no mostró beneficio (RR 1.01, IC 95% 0.92-1.11). El MagNet Trial y la Cochrane no apoyan su uso en este contexto."
+  },
+  {
+    "id": "quiz-asfixia-liquido-meconial-aspiracion-no",
+    "factId": "asfixia-liquido-meconial-aspiracion-no",
+    "question": "Nace un neonato de término con líquido amniótico meconial espeso. El neonato tiene respiración espontánea y llanto vigoroso. ¿Cuál es la conducta recomendada basada en la evidencia actual?",
+    "options": [
+      "Realizar aspiración endotraqueal rutinaria para prevenir el síndrome de aspiración meconial",
+      "No aspirar la vía aérea rutinariamente, pues no reduce la incidencia de SAM ni la mortalidad, y puede retrasar la ventilación",
+      "Aspirar solo si el meconio es espeso, porque el riesgo de SAM es mayor que con meconio líquido",
+      "Realizar aspiración de orofaringe con el neonato en la mesa de parto antes de pinzar el cordón"
+    ],
+    "answerIndex": 1,
+    "explanation": "La aspiración endotraqueal rutinaria fue estándar por 30 años, pero la evidencia actual muestra que no beneficia y retrasa la ventilación. Solo considerar aspiración si hay obstrucción evidente de la vía aérea."
+  },
+  {
+    "id": "quiz-asfixia-pH-arterial-cordon-umbilical",
+    "factId": "asfixia-pH-arterial-cordon-umbilical",
+    "question": "Un neonato nace con pH de arteria umbilical de 6.95. El equipo está preocupado por el riesgo de parálisis cerebral futura y la familia pregunta sobre el pronóstico. ¿Cuál es la información más precisa?",
+    "options": [
+      "El pH <7.0 confirma daño neurológico irreversible y la mayoría desarrollará parálisis cerebral",
+      "El pH bajo tiene un valor predictivo positivo menor al 1% para parálisis cerebral, aunque detecta asfixia con sensibilidad del 70%",
+      "El pH <7.0 tiene especificidad del 99% para parálisis cerebral, por lo que el riesgo es mínimo mientras la base de la madre sea normal",
+      "Se necesita un pH <6.9 más Apgar bajo a los 10 minutos para predecir parálisis cerebral confiablemente"
+    ],
+    "answerIndex": 1,
+    "explanation": "El pH <7.0 tiene sensibilidad del 70% para detectar asfixia pero VPP <1% para parálisis cerebral. La mayoría de los neonatos con acidosis severa no desarrollan secuelas neurológicas."
+  }
+]

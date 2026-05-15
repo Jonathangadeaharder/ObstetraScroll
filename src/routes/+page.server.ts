@@ -7,7 +7,7 @@ export function load() {
 	const request = reelRequestSchema.parse({
 		factId: facts[0]?.id ?? "",
 		tone: "mentor",
-		targetDurationSec: 28,
+		targetDurationSec: 60,
 	});
 
 	return {

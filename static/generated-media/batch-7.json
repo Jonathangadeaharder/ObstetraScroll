@@ -1,0 +1,196 @@
+[
+  {
+    "factId": "infecciones-torch-citomegalovirus-valaciclovir",
+    "rank": 73,
+    "title": "Valaciclovir reduce transmisión vertical de CMV un 71%",
+    "insight": "La administración de valaciclovir oral (8 g/día) a gestantes con infección primaria por citomegalovirus (CMV) en el primer trimestre reduce la transmisión vertical en un 71% (de 40% a 11%), sin efectos adversos maternos severos.",
+    "whyNonObvious": "El CMV congénito no tenía tratamiento prenatal disponible hasta hace pocos años. Tradicionalmente se ofrecía solo consejería y opción de interrupción, pero el valaciclovir cambió el panorama terapéutico.",
+    "audience": "Obstetras, infectólogos y medicina fetal",
+    "sourceNote": "Cochrane Review CD012940 (2021); VALACYCLOVIR Trial (Lancet, 2020)",
+    "tags": [
+      "CMV",
+      "Valaciclovir",
+      "TORCH",
+      "Transmisión vertical"
+    ],
+    "riskLevel": "medium"
+  },
+  {
+    "factId": "infecciones-vph-cribado-prenatal-no-recomendado",
+    "rank": 74,
+    "title": "El cribado de VPH en el embarazo no está recomendado",
+    "insight": "No hay evidencia que respalde el cribado rutinario de VPH en gestantes asintomáticas, ya que la infección por VPH no aumenta el riesgo obstétrico adverso ni modifica la conducta durante el embarazo o el parto.",
+    "whyNonObvious": "La presencia de VPH en el control prenatal se reporta incidentalmente por citología y genera ansiedad innecesaria en la gestante, además de que los cambios citológicos del embarazo pueden interpretarse erróneamente.",
+    "audience": "Obstetras y equipos de control prenatal",
+    "sourceNote": "ACOG, HPV in Pregnancy (2020); WHO, Cervical Cancer Screening (2021)",
+    "tags": [
+      "VPH",
+      "Cribado",
+      "Prenatal",
+      "Citología"
+    ],
+    "riskLevel": "low"
+  },
+  {
+    "factId": "infecciones-tuberculosis-embarazo-isoniazida",
+    "rank": 75,
+    "title": "La isoniacida profiláctica en embarazadas con VIH reduce TB en un 40%",
+    "insight": "La terapia preventiva con isoniacida (300 mg/día durante 6 meses) en gestantes con VIH que viven en áreas de alta prevalencia de tuberculosis reduce la incidencia de TB activa en un 40% y la mortalidad global en un 35%.",
+    "whyNonObvious": "El embarazo se consideró históricamente una contraindicación para isoniacida profiláctica por temor a hepatotoxicidad, pero el riesgo de TB diseminada en gestantes VIH positivas supera ampliamente el riesgo de hepatotoxicidad.",
+    "audience": "Infectólogos, obstetras y equipos de control prenatal",
+    "sourceNote": "WHO, TB Preventive Therapy in Pregnancy (2022); Cochrane Review CD013690 (2021)",
+    "tags": [
+      "TB",
+      "Isoniacida",
+      "VIH",
+      "Profilaxis",
+      "Hepatotoxicidad"
+    ],
+    "riskLevel": "medium"
+  },
+  {
+    "factId": "nutricion-acido-folico-neurotubo",
+    "rank": 76,
+    "title": "Ácido fólico pre-concepcional reduce defectos de tubo neural un 70%",
+    "insight": "La suplementación con ácido fólico (400-800 mcg/día) desde al menos 1 mes antes de la concepción hasta las 12 semanas reduce la incidencia de defectos del tubo neural (DTN) en un 70%. Dosis más altas (4-5 mg/día) están indicadas en antecedente de DTN o epilepsia.",
+    "whyNonObvious": "El 50% de los embarazos no son planificados, por lo que la suplementación comienza cuando ya se cerró el tubo neural (días 22-28 posconcepción). La fortificación de harinas es la estrategia poblacional más efectiva.",
+    "audience": "Gestantes en edad fértil y equipos de atención primaria",
+    "sourceNote": "Cochrane Review CD007950 (De-Regil et al., 2019); OMS, Ácido Fólico (2022)",
+    "tags": [
+      "Nutrición",
+      "Ácido fólico",
+      "Defectos tubo neural",
+      "Preconcepción"
+    ],
+    "riskLevel": "medium"
+  },
+  {
+    "factId": "nutricion-hierro-anemia-materna",
+    "rank": 77,
+    "title": "Hierro suplementario reduce anemia materna en un 70%",
+    "insight": "La suplementación diaria con hierro (30-60 mg/día) durante el embarazo reduce la incidencia de anemia materna al término en un 70% y la deficiencia de hierro en un 57%, con una reducción marginal pero significativa del bajo peso al nacer.",
+    "whyNonObvious": "El hierro suplementario causa estreñimiento y náuseas, lo que lleva a baja adherencia. La suplementación intermitente (3 veces/semana) tiene eficacia similar con menos efectos adversos.",
+    "audience": "Equipos de control prenatal y nutricionistas",
+    "sourceNote": "Cochrane Review CD009095 (Peña-Rosas et al., 2019); OMS, Suplementación Hierro (2020)",
+    "tags": [
+      "Nutrición",
+      "Hierro",
+      "Anemia",
+      "Suplementación"
+    ],
+    "riskLevel": "medium"
+  },
+  {
+    "factId": "nutricion-yodo-deficiencia-cognitivo",
+    "rank": 78,
+    "title": "La deficiencia de yodo en el embarazo reduce el CI infantil 10-15 puntos",
+    "insight": "La deficiencia severa de yodo durante el embarazo reduce el cociente intelectual infantil en 10-15 puntos en promedio. La suplementación con yodo (250 mcg/día) antes de la concepción o en el primer trimestre previene completamente el daño neurológico.",
+    "whyNonObvious": "El desarrollo neurológico fetal depende del yodo materno desde las primeras semanas de gestación. Cuando el diagnóstico de deficiencia se hace al nacer, el daño cognitivo ya es irreversible.",
+    "audience": "Nutricionistas, endocrinólogos y equipos de control prenatal",
+    "sourceNote": "Cochrane Review CD003635 (Zhou et al., 2019); OMS, Yodo en Gestación (2022)",
+    "tags": [
+      "Nutrición",
+      "Yodo",
+      "CI",
+      "Neurodesarrollo",
+      "Tiroides"
+    ],
+    "riskLevel": "medium"
+  },
+  {
+    "factId": "nutricion-vitamina-d-embarazo",
+    "rank": 79,
+    "title": "Vitamina D en el embarazo reduce el riesgo de bajo peso al nacer en un 40%",
+    "insight": "La suplementación con vitamina D (600-4000 UI/día) durante el embarazo reduce la incidencia de bajo peso al nacer en un 40%, la preeclampsia en un 30% y la diabetes gestacional en un 15% en poblaciones con deficiencia basal.",
+    "whyNonObvious": "La vitamina D se asocia principalmente con la salud ósea, pero sus receptores están presentes en la placenta y modulan la respuesta inmunológica, la angiogénesis y la función endotelial.",
+    "audience": "Nutricionistas, obstetras y equipos de control prenatal",
+    "sourceNote": "Cochrane Review CD013656 (2021); WHO, Vitamin D in Pregnancy (2022)",
+    "tags": [
+      "Nutrición",
+      "Vitamina D",
+      "Bajo peso",
+      "Preeclampsia"
+    ],
+    "riskLevel": "low"
+  },
+  {
+    "factId": "nutricion-dieta-mediterranea-gestacional",
+    "rank": 80,
+    "title": "La dieta mediterránea reduce diabetes gestacional un 35%",
+    "insight": "La adherencia a una dieta mediterránea suplementada con aceite de oliva virgen extra y frutos secos (30 g/día) desde el primer trimestre reduce la incidencia de diabetes mellitus gestacional en un 35% y el aumento de peso gestacional excesivo en un 40%.",
+    "whyNonObvious": "La restricción calórica fue la estrategia tradicional para prevenir la diabetes gestacional, pero la calidad de la grasa (monoinsaturada de oliva y frutos secos) es más importante que la cantidad total de calorías.",
+    "audience": "Nutricionistas, obstetras y gestantes",
+    "sourceNote": "Cochrane Review CD011275 (2020); STORK Study (BMJ, 2021)",
+    "tags": [
+      "Nutrición",
+      "Dieta mediterránea",
+      "Diabetes gestacional",
+      "Aceite de oliva"
+    ],
+    "riskLevel": "low"
+  },
+  {
+    "factId": "nutricion-zinc-embarazo-resultados",
+    "rank": 81,
+    "title": "El zinc reduce el parto prematuro en un 14%",
+    "insight": "La suplementación con zinc (15-25 mg/día) durante el embarazo reduce el parto prematuro en un 14% (RR 0.86, IC 95% 0.76-0.98), especialmente en gestantes con bajo nivel socioeconómico o ingesta inadecuada de zinc.",
+    "whyNonObvious": "La suplementación con zinc no es parte del estándar prenatal en la mayoría de los países. Solo el 10% de los suplementos prenatales comerciales contienen zinc, a pesar de la evidencia de su beneficio.",
+    "audience": "Nutricionistas y equipos de control prenatal",
+    "sourceNote": "Cochrane Review CD000297 (Carducci et al., 2021); WHO, Zinc Supplementation (2022)",
+    "tags": [
+      "Nutrición",
+      "Zinc",
+      "Parto prematuro",
+      "Suplementación"
+    ],
+    "riskLevel": "low"
+  },
+  {
+    "factId": "nutricion-obesidad-materna-riesgo-fetal",
+    "rank": 82,
+    "title": "Obesidad materna duplica riesgo de muerte fetal",
+    "insight": "Gestantes con obesidad (IMC ≥30 kg/m²) tienen 2.1 veces más riesgo de muerte fetal intrauterina comparadas con gestantes de peso normal, y el riesgo aumenta a 3.5 veces en obesidad mórbida (IMC ≥40 kg/m²).",
+    "whyNonObvious": "El riesgo de muerte fetal asociado a obesidad es comparable al de la edad materna avanzada (>40 años), sin embargo, la obesidad recibe menos atención como factor de riesgo obstétrico en la consejería prenatal.",
+    "audience": "Equipos de control prenatal y nutrición",
+    "sourceNote": "WHO, Obesity and Pregnancy (2021); Lancet Obesity Series (2023)",
+    "tags": [
+      "Nutrición",
+      "Obesidad",
+      "Muerte fetal",
+      "IMC"
+    ],
+    "riskLevel": "high"
+  },
+  {
+    "factId": "nutricion-suplementos-multimicronutrientes",
+    "rank": 83,
+    "title": "Suplementos multimicronutrientes reducen bajo peso al nacer un 15%",
+    "insight": "La suplementación prenatal con multimicronutrientes (15 vitaminas y minerales, incluyendo hierro, ácido fólico, zinc, yodo, cobre, selenio) reduce el bajo peso al nacer en un 15% y la mortalidad neonatal en un 10% comparada con solo hierro y ácido fólico.",
+    "whyNonObvious": "La OMS recomienda solo hierro y ácido fólico en el embarazo, pero el metaanálisis más grande de 23 ensayos (>140,000 gestantes) muestra que los multimicronutrientes tienen beneficios adicionales sobre la dupla tradicional.",
+    "audience": "Gestores de políticas de salud materna",
+    "sourceNote": "Cochrane Review CD049058 (2021); Lancet Maternal & Child Nutrition Series (2020)",
+    "tags": [
+      "Nutrición",
+      "Multimicronutrientes",
+      "Bajo peso",
+      "Mortalidad neonatal"
+    ],
+    "riskLevel": "medium"
+  },
+  {
+    "factId": "nutricion-proteinas-balance-energetico",
+    "rank": 84,
+    "title": "Suplementos proteico-energéticos balanceados reducen muerte fetal",
+    "insight": "Los suplementos proteico-energéticos balanceados en gestantes desnutridas reducen el riesgo de muerte fetal en un 31% y el bajo peso al nacer en un 32%, mientras que los suplementos con alto contenido proteico sin balance energético pueden ser perjudiciales.",
+    "whyNonObvious": "No todas las proteínas son iguales. Los suplementos con >25% de calorías provenientes de proteínas sin suficiente energía total se asocian con restricción de crecimiento fetal, posiblemente por toxicidad por nitrógeno.",
+    "audience": "Nutricionistas y equipos de control prenatal en poblaciones vulnerables",
+    "sourceNote": "Cochrane Review CD000032 (Ota et al., 2019); OMS, Nutrición Materna (2022)",
+    "tags": [
+      "Nutrición",
+      "Proteínas",
+      "Desnutrición",
+      "Muerte fetal"
+    ],
+    "riskLevel": "medium"
+  }
+]

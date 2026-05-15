@@ -8,6 +8,7 @@
 			".svelte-kit",
 			"build",
 			"node_modules",
+			".venv",
 			"pnpm-lock.yaml",
 			"static/generated-media",
 			"coverage"
@@ -16,9 +17,6 @@
 	"formatter": {
 		"enabled": true,
 		"indentStyle": "tab"
-	},
-	"organizeImports": {
-		"enabled": true
 	},
 	"linter": {
 		"enabled": true,

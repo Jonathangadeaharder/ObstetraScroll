@@ -1,0 +1,195 @@
+[
+  {
+    "factId": "preeclampsia-ecografia-arterias-uterinas",
+    "rank": 25,
+    "title": "Ecografía de arterias uterinas predice preeclampsia desde el primer trimestre",
+    "insight": "El índice de pulsatilidad (IP) promedio de arterias uterinas > percentil 95 junto con factores clínicos permite detectar el 75% de casos de preeclampsia pretérmino antes de las 16 semanas.",
+    "whyNonObvious": "La preeclampsia se considera una enfermedad de diagnóstico clínico tardío, pero la ecografía Doppler de primer trimestre puede identificar a las gestantes en riesgo 20 semanas antes de que aparezcan los síntomas.",
+    "audience": "Ecografistas y obstetras de alto riesgo",
+    "sourceNote": "ISUOG Guidelines, Doppler Uterine Artery (2021); FMF Algorithm (NEJM, 2017)",
+    "tags": [
+      "Preeclampsia",
+      "Ecografía Doppler",
+      "Arterias uterinas",
+      "Predicción"
+    ],
+    "riskLevel": "medium"
+  },
+  {
+    "factId": "preeclampsia-plgf-sflt1-diagnostico",
+    "rank": 26,
+    "title": "Cociente sFlt-1/PlGF descarta preeclampsia con 99% de certeza",
+    "insight": "El cociente sFlt-1/PlGF ≤38 tiene un valor predictivo negativo del 99.3% para preeclampsia en las siguientes 4 semanas, permitiendo evitar hospitalizaciones innecesarias en casos de sospecha clínica.",
+    "whyNonObvious": "La proteína en orina de 24 horas sigue siendo el estándar diagnóstico en muchos centros, pero los biomarcadores angiogénicos son superiores para descartar la enfermedad rápidamente.",
+    "audience": "Obstetras, emergenciólogos y equipos de diagnóstico",
+    "sourceNote": "PROGNOSIS Study (Zeisler et al., Circulation 2016); SOGC Guidelines (2022)",
+    "tags": [
+      "Preeclampsia",
+      "sFlt-1",
+      "PlGF",
+      "Biomarcadores",
+      "Triage"
+    ],
+    "riskLevel": "medium"
+  },
+  {
+    "factId": "preeclampsia-pedales-tipico-atipico",
+    "rank": 27,
+    "title": "El edema de miembros inferiores no es criterio diagnóstico de preeclampsia",
+    "insight": "El edema generalizado fue eliminado como criterio diagnóstico de preeclampsia en 2013. El diagnóstico requiere presión arterial ≥140/90 mmHg más proteinuria u otro marcador de daño orgánico.",
+    "whyNonObvious": "El edema de piernas es casi universal en el tercer trimestre (>80% de gestantes sanas lo presentan) y no predice preeclampsia, pero sigue generando consultas de urgencia innecesarias.",
+    "audience": "Gestantes, atención primaria y admisión hospitalaria",
+    "sourceNote": "ACOG Practice Bulletin #222 (2020); ISSHP Guidelines (2021)",
+    "tags": [
+      "Preeclampsia",
+      "Edema",
+      "Criterios diagnósticos",
+      "Triage"
+    ],
+    "riskLevel": "low"
+  },
+  {
+    "factId": "preeclampsia-hellp-mortalidad",
+    "rank": 28,
+    "title": "Síndrome HELLP tiene mortalidad materna del 1-3%",
+    "insight": "El síndrome HELLP complica el 10-20% de los casos de preeclampsia severa, con una mortalidad materna del 1-3% y una mortalidad perinatal del 7-20%, y no se resuelve con solo suspender el embarazo.",
+    "whyNonObvious": "A diferencia de la preeclampsia que mejora rápidamente posparto, el HELLP puede empeorar en las primeras 24-48 horas después del parto, requiriendo vigilancia en UCI.",
+    "audience": "Cuidados intensivos obstétricos",
+    "sourceNote": "Cochrane Review CD004659 (Duley et al., 2019); ACOG HELLP Guidelines (2022)",
+    "tags": [
+      "Preeclampsia",
+      "HELLP",
+      "Mortalidad materna",
+      "UCI"
+    ],
+    "riskLevel": "high"
+  },
+  {
+    "factId": "preeclampsia-ejercicio-prevencion",
+    "rank": 29,
+    "title": "Ejercicio aeróbico en el embarazo reduce riesgo de preeclampsia",
+    "insight": "La realización de ejercicio aeróbico supervisado (150 min/semana de actividad moderada) reduce la incidencia de preeclampsia en un 30-40% en gestantes con sobrepeso u obesidad.",
+    "whyNonObvious": "El reposo y la disminución de actividad física eran recomendaciones tradicionales para prevenir preeclampsia, pero la evidencia muestra que el sedentarismo es un factor de riesgo modificable significativo.",
+    "audience": "Gestantes, obstetras y educadores prenatales",
+    "sourceNote": "Cochrane Review CD011440 (Davenport et al., 2020); OMS, Actividad Física en Gestación (2021)",
+    "tags": [
+      "Preeclampsia",
+      "Ejercicio",
+      "Prevención",
+      "Obesidad"
+    ],
+    "riskLevel": "low"
+  },
+  {
+    "factId": "preeclampsia-obesidad-riesgo-triple",
+    "rank": 30,
+    "title": "Obesidad pregestacional triplica riesgo de preeclampsia",
+    "insight": "Gestantes con IMC pregestacional ≥30 kg/m² tienen un riesgo 3.4 veces mayor de desarrollar preeclampsia y 2.7 veces mayor de desarrollar eclampsia comparadas con gestantes con IMC normal.",
+    "whyNonObvious": "La obesidad se asocia con inflamación crónica y disfunción endotelial que exacerban la fisiopatología placentaria, no es solo un factor de riesgo mecánico o metabólico.",
+    "audience": "Equipos de control prenatal y nutrición",
+    "sourceNote": "WHO, Obesity and Pregnancy (2021); Cochrane Review CD004659 (Duley et al., 2019)",
+    "tags": [
+      "Preeclampsia",
+      "Obesidad",
+      "IMC",
+      "Riesgo pregestacional"
+    ],
+    "riskLevel": "medium"
+  },
+  {
+    "factId": "preeclampsia-seguimiento-posparto-cardiovascular",
+    "rank": 31,
+    "title": "Preeclampsia quintuplica riesgo cardiovascular futuro",
+    "insight": "Las mujeres que desarrollan preeclampsia tienen 5 veces más riesgo de hipertensión crónica, 2 veces más riesgo de enfermedad coronaria y 1.8 veces más riesgo de accidente cerebrovascular en los 10-20 años posteriores.",
+    "whyNonObvious": "La preeclampsia no termina con el parto. Es una señal de alerta cardiovascular temprana que debería iniciar seguimiento cardiológico de por vida, pero rara vez se implementa.",
+    "audience": "Médicos de atención primaria, cardiólogos y obstetras",
+    "sourceNote": "AHA/ACC Guidelines, Preeclampsia and CVD (2021); Circulation Review (2022)",
+    "tags": [
+      "Preeclampsia",
+      "Cardiovascular",
+      "Posparto",
+      "Seguimiento"
+    ],
+    "riskLevel": "medium"
+  },
+  {
+    "factId": "preeclampsia-progesterona-no-previene",
+    "rank": 32,
+    "title": "La progesterona no previene ni trata la preeclampsia",
+    "insight": "A pesar de la hipótesis de que la progesterona podría mejorar la placentación, múltiples ensayos clínicos aleatorizados muestran que la progesterona no reduce la incidencia ni la severidad de la preeclampsia.",
+    "whyNonObvious": "La progesterona se prescribe ampliamente en el primer trimestre por diversos motivos, y existe la creencia no respaldada de que podría tener un efecto protector sobre la placenta.",
+    "audience": "Obstetras y equipos de reproducción asistida",
+    "sourceNote": "Cochrane Review CD004659 (Duley et al., 2019); OPPTION Trial (BJOG, 2020)",
+    "tags": [
+      "Preeclampsia",
+      "Progesterona",
+      "Prevención",
+      "Mitología"
+    ],
+    "riskLevel": "low"
+  },
+  {
+    "factId": "preeclampsia-presion-arterial-135-85",
+    "rank": 33,
+    "title": "PA 135/85 mmHg merece vigilancia, no esperar a 140/90",
+    "insight": "Las gestantes con presión arterial ≥135/85 mmHg antes de las 20 semanas tienen 4 veces más riesgo de desarrollar preeclampsia que aquellas con PA <120/80 mmHg.",
+    "whyNonObvious": "Las tablas diagnósticas tradicionales usan 140/90 como umbral, pero valores prehipertensivos tempranos son predictores más potentes que cualquier otro factor clínico aislado.",
+    "audience": "Equipos de control prenatal",
+    "sourceNote": "ALSPAC Study (Lancet, 2020); ISSHP Diagnostic Criteria (2021)",
+    "tags": [
+      "Preeclampsia",
+      "Presión arterial",
+      "Prehipertensión",
+      "Vigilancia"
+    ],
+    "riskLevel": "medium"
+  },
+  {
+    "factId": "preeclampsia-episiotomia-no-recomendada",
+    "rank": 34,
+    "title": "La episiotomía no está indicada en preeclampsia severa",
+    "insight": "No hay evidencia que respalde la episiotomía rutinaria en gestantes con preeclampsia severa para 'acortar el expulsivo'. La episiotomía selectiva tiene iguales resultados perinatales sin mayor riesgo de desgarros.",
+    "whyNonObvious": "Muchos obstetras realizan episiotomía en pacientes con preeclampsia bajo el supuesto de reducir el esfuerzo materno y la elevación de la PA, pero la evidencia no respalda esta práctica.",
+    "audience": "Obstetras y parteras",
+    "sourceNote": "Cochrane Review CD000081 (Jiang et al., 2021); WHO, Episiotomy Guidelines (2022)",
+    "tags": [
+      "Preeclampsia",
+      "Episiotomía",
+      "Expulsivo",
+      "Manejo de parto"
+    ],
+    "riskLevel": "medium"
+  },
+  {
+    "factId": "preeclampsia-urale-muerte-evitable",
+    "rank": 35,
+    "title": "La preeclampsia sigue siendo una de las principales causas de muerte materna evitable",
+    "insight": "A pesar de los avances en prevención y tratamiento, la preeclampsia/eclampsia causa 46,000 muertes maternas al año globalmente, y el 90% ocurren en países de ingresos bajos y medios.",
+    "whyNonObvious": "En países de altos ingresos la mortalidad por preeclampsia es casi nula, pero las brechas en detección temprana, acceso a sulfato de magnesio y parto oportuno perpetúan la inequidad sanitaria.",
+    "audience": "Gestores de salud pública y organismos internacionales",
+    "sourceNote": "WHO, Maternal Mortality Report (2023); Lancet Preeclampsia Series (2021)",
+    "tags": [
+      "Preeclampsia",
+      "Eclampsia",
+      "Mortalidad materna",
+      "Equidad sanitaria"
+    ],
+    "riskLevel": "high"
+  },
+  {
+    "factId": "sepsis-neonatal-gbs-profilaxis-intraparto",
+    "rank": 36,
+    "title": "Profilaxis intraparto con penicilina reduce sepsis por GBS un 80%",
+    "insight": "La administración de penicilina G intravenosa al menos 4 horas antes del parto reduce la transmisión vertical de Streptococcus agalactiae (GBS) y la sepsis neonatal temprana en un 80-86%.",
+    "whyNonObvious": "El cribado universal de GBS a las 35-37 semanas se implementa en muchos países, pero la ventana mínima de 4 horas de profilaxis antes del parto frecuentemente no se logra en partos rápidos.",
+    "audience": "Equipos de sala de parto y neonatología",
+    "sourceNote": "Cochrane Review CD001256 (Ohlsson et al., 2020); CDC GBS Guidelines (2019)",
+    "tags": [
+      "Sepsis neonatal",
+      "GBS",
+      "Profilaxis",
+      "Penicilina"
+    ],
+    "riskLevel": "high"
+  }
+]

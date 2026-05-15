@@ -28,13 +28,18 @@ describe("reel planner", () => {
 	});
 
 	it("blocks risky unreviewed facts before rendering", () => {
+		const fact = {
+			...facts[0],
+			evidenceStatus: "seeded" as const,
+			riskLevel: "high" as const,
+		};
 		const request = reelRequestSchema.parse({
-			factId: facts[0].id,
+			factId: fact.id,
 			tone: "urgent",
-			targetDurationSec: 28,
+			targetDurationSec: 30,
 		});
 
-		const brief = planReel(facts[0], request);
+		const brief = planReel(fact, request);
 
 		expect(brief.status).toBe("review_required");
 		expect(brief.renderPlan.some((step) => step.status === "blocked")).toBe(

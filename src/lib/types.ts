@@ -66,6 +66,7 @@ export type QuizQuestion = {
 	options: string[];
 	answerIndex: number;
 	explanation: string;
+	optionNotes: string[];
 };
 
 export type InfoReply = {

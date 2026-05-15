@@ -42,6 +42,7 @@ function item(id: string): ReelFeedItem {
 			options: [],
 			answerIndex: 0,
 			explanation: "",
+			optionNotes: [],
 		},
 	};
 }

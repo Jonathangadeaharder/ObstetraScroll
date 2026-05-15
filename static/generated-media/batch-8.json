@@ -1,0 +1,164 @@
+[
+  {
+    "factId": "nutricion-cafeina-embarazo-límite",
+    "rank": 85,
+    "title": "Más de 200 mg/día de cafeína duplica riesgo de restricción de crecimiento fetal",
+    "insight": "El consumo materno de cafeína >200 mg/día (equivalente a 2 tazas de café) se asocia con un riesgo 2 veces mayor de restricción de crecimiento fetal y un 20% más de riesgo de bajo peso al nacer, con una relación dosis-respuesta lineal.",
+    "whyNonObvious": "El café y los energizantes se consideran sustancias de bajo riesgo durante el embarazo, pero la cafeína atraviesa la barrera placentaria sin metabolizarse (el feto carece de CYP1A2), acumulándose en el compartimento fetal.",
+    "audience": "Gestantes y equipos de consejería prenatal",
+    "sourceNote": "Cochrane Review CD013612 (2021); ACOG, Caffeine in Pregnancy (2020)",
+    "tags": [
+      "Nutrición",
+      "Cafeína",
+      "Crecimiento fetal",
+      "Bajo peso"
+    ],
+    "riskLevel": "low"
+  },
+  {
+    "factId": "diversos-lactancia-exclusiva-6-meses",
+    "rank": 86,
+    "title": "Lactancia materna exclusiva 6 meses reduce mortalidad infantil un 80%",
+    "insight": "La lactancia materna exclusiva durante los primeros 6 meses de vida reduce la mortalidad infantil por infecciones (diarrea, neumonía) en un 80% comparada con la alimentación con fórmula en países de ingresos bajos y medios.",
+    "whyNonObvious": "La leche materna se considera un alimento, pero su función como primera 'vacuna' (IgA secretora, factor bífido, lactoferrina) es biológicamente más relevante que su aporte calórico en los primeros meses.",
+    "audience": "Gestantes, familiares y profesionales de la salud",
+    "sourceNote": "Cochrane Review CD009644 (2019); OMS, Lactancia Materna (2021)",
+    "tags": [
+      "Lactancia",
+      "Mortalidad infantil",
+      "Inmunidad",
+      "6 meses"
+    ],
+    "riskLevel": "medium"
+  },
+  {
+    "factId": "diversos-tabaco-placenta-insuficiencia",
+    "rank": 87,
+    "title": "Fumar en el embarazo reduce el peso al nacer 200 gramos en promedio",
+    "insight": "El tabaquismo materno durante el embarazo reduce el peso al nacer en 150-250 gramos en promedio y duplica el riesgo de parto prematuro y bajo peso al nacer, con un efecto dosis-dependiente (a más cigarrillos, menor peso).",
+    "whyNonObvious": "La nicotina es vasoconstrictora placentaria potente, pero muchas gestantes creen que 'un cigarrillo menos' es suficiente. No hay umbral seguro: incluso 1-4 cigarrillos/día reducen significativamente el peso fetal.",
+    "audience": "Gestantes y equipos de cesación tabáquica prenatal",
+    "sourceNote": "Cochrane Review CD012078 (Claire et al., 2020); OMS, Tabaco y Embarazo (2022)",
+    "tags": [
+      "Tabaco",
+      "Bajo peso",
+      "Nicotina",
+      "Cesación",
+      "Placenta"
+    ],
+    "riskLevel": "medium"
+  },
+  {
+    "factId": "diversos-salud-mental-depresion-posparto-edimburgo",
+    "rank": 88,
+    "title": "La escala de Edimburgo detecta depresión posparto con 86% de sensibilidad",
+    "insight": "La Escala de Depresión Postnatal de Edimburgo (EPDS) con un punto de corte ≥10 tiene una sensibilidad del 86% y una especificidad del 87% para detectar depresión posparto mayor en las primeras 6-8 semanas posparto.",
+    "whyNonObvious": "La depresión posparto se diagnostica clínicamente en menos del 50% de los casos en países de ingresos altos. El cribado sistemático con EPDS no se implementa universalmente a pesar de su validación en >50 idiomas.",
+    "audience": "Equipos de puerperio y atención primaria",
+    "sourceNote": "Cochrane Review CD013319 (2021); OMS, Salud Mental Perinatal (2022)",
+    "tags": [
+      "Salud mental",
+      "Depresión posparto",
+      "EPDS",
+      "Cribado"
+    ],
+    "riskLevel": "medium"
+  },
+  {
+    "factId": "diversos-lactancia-cancer-materno",
+    "rank": 89,
+    "title": "Lactancia materna reduce cáncer de mama un 6% por cada año acumulado",
+    "insight": "Cada 12 meses acumulados de lactancia materna reduce el riesgo de cáncer de mama invasivo en un 6%, independientemente de otros factores de riesgo. La lactancia de 12 meses o más reduce el cáncer ovárico epitelial en un 30%.",
+    "whyNonObvious": "La lactancia beneficia principalmente al bebé en el imaginario social, pero su efecto protector contra cánceres hormonales es comparable al de la ooforectomía profiláctica en algunos subgrupos de riesgo.",
+    "audience": "Gestantes y equipos de consejería en lactancia",
+    "sourceNote": "Lancet Breastfeeding Series (2023); WHO/IARC, Lactancia y Cáncer (2021)",
+    "tags": [
+      "Lactancia",
+      "Cáncer de mama",
+      "Cáncer de ovario",
+      "Prevención"
+    ],
+    "riskLevel": "low"
+  },
+  {
+    "factId": "diversos-alcohol-sindrome-fetal-alcoholico",
+    "rank": 90,
+    "title": "No hay umbral seguro de alcohol en el embarazo",
+    "insight": "El consumo de alcohol en cualquier trimestre del embarazo se asocia con alteraciones del neurodesarrollo fetal (trastornos del espectro alcohólico fetal, TEAF) sin un umbral mínimo establecido. El patrón de consumo intenso episódico (binge drinking) es el más lesivo.",
+    "whyNonObvious": "La creencia popular de que 'una copa de vino ocasional no hace daño' persiste incluso entre profesionales de la salud, pero la evidencia no identifica un nivel seguro y el TEAF es 100% prevenible.",
+    "audience": "Gestantes y equipos de consejería prenatal",
+    "sourceNote": "Cochrane Review CD013684 (2021); OMS, Alcohol y Embarazo (2022)",
+    "tags": [
+      "Alcohol",
+      "TEAF",
+      "Síndrome alcohólico fetal",
+      "Neurodesarrollo"
+    ],
+    "riskLevel": "medium"
+  },
+  {
+    "factId": "diversos-ejercicio-piso-pelvico-incontinencia",
+    "rank": 91,
+    "title": "Ejercicios de piso pélvico en el embarazo reducen incontinencia urinaria posparto un 50%",
+    "insight": "El entrenamiento supervisado de los músculos del piso pélvico (3 series de 8-12 contracciones máximas por día) iniciado en el segundo trimestre reduce la incontinencia urinaria posparto en un 50% (NNT 4), con beneficio mantenido a 12 meses.",
+    "whyNonObvious": "La incontinencia urinaria posparto se considera una 'consecuencia inevitable' del embarazo y el parto, pero es prevenible con un programa de entrenamiento simple y de bajo costo durante el control prenatal.",
+    "audience": "Gestantes, kinesiólogas y parteras",
+    "sourceNote": "Cochrane Review CD007471 (Woodley et al., 2020); IUGA Guidelines (2021)",
+    "tags": [
+      "Piso pélvico",
+      "Incontinencia",
+      "Kinesiología",
+      "Prevención"
+    ],
+    "riskLevel": "low"
+  },
+  {
+    "factId": "diversos-parto-en-agua-no-mejora-resultados",
+    "rank": 92,
+    "title": "El parto en agua no mejora resultados perinatales comparado con parto fuera del agua",
+    "insight": "El parto en agua (inmersión durante el expulsivo) no reduce la duración del trabajo de parto, la necesidad de analgesia, ni las tasas de cesárea comparado con la inmersión solo durante la dilatación. Tampoco se ha asociado con mayor riesgo neonatal grave en embarazos de bajo riesgo con estrictos criterios de selección.",
+    "whyNonObvious": "El parto en agua ganó popularidad como alternativa 'más fisiológica y menos dolorosa', pero los ensayos clínicos aleatorizados no demuestran beneficios obstétricos cuantificables sobre la inmersión en agua solo durante la dilatación.",
+    "audience": "Parteras, obstetras y gestantes",
+    "sourceNote": "Cochrane Review CD009886 (Cluett et al., 2020); NICE Intrapartum Care (2022)",
+    "tags": [
+      "Parto en agua",
+      "Inmersión",
+      "Dilatación",
+      "Expulsivo",
+      "Evidencia"
+    ],
+    "riskLevel": "low"
+  },
+  {
+    "factId": "diversos-continuidad-partera-mortalidad",
+    "rank": 93,
+    "title": "Modelo de continuidad de partera reduce mortalidad perinatal un 20%",
+    "insight": "El modelo de atención con continuidad de partera (misma partera durante todo el embarazo, parto y puerperio) reduce la mortalidad perinatal en un 20% y las intervenciones obstétricas (episiotomía, parto instrumental) en un 30%, comparado con el modelo médico fragmentado de baja y mediana complejidad.",
+    "whyNonObvious": "La atención obstétrica se organiza crecientemente en equipos médicos rotativos por eficiencia hospitalaria, pero el vínculo continuo con una partera conocida mejora resultados perinatales más que muchas tecnologías de alto costo.",
+    "audience": "Gestores de servicios de obstetricia y parteras",
+    "sourceNote": "Cochrane Review CD012667 (Sandall et al., 2020); WHO, Midwifery Model (2021)",
+    "tags": [
+      "Partería",
+      "Continuidad de cuidados",
+      "Mortalidad perinatal",
+      "Modelo de atención"
+    ],
+    "riskLevel": "medium"
+  },
+  {
+    "factId": "diversos-doulas-resultados-perinatales",
+    "rank": 94,
+    "title": "El acompañamiento continuo por doula reduce cesáreas un 30%",
+    "insight": "El apoyo continuo durante el trabajo de parto por una doula (mujer entrenada sin funciones clínicas) reduce la probabilidad de cesárea en un 30%, el uso de analgesia farmacológica en un 35% y la duración del trabajo de parto en 40 minutos en promedio.",
+    "whyNonObvious": "Las doulas no reemplazan al personal médico ni realizan intervenciones clínicas, pero su presencia continua y soporte emocional modifica significativamente los resultados obstétricos medibles.",
+    "audience": "Gestantes, gestores hospitalarios y equipos obstétricos",
+    "sourceNote": "Cochrane Review CD012667 (Bohren et al., 2020); WHO, Companionship during Labor (2021)",
+    "tags": [
+      "Doula",
+      "Acompañamiento",
+      "Cesárea",
+      "Trabajo de parto"
+    ],
+    "riskLevel": "low"
+  }
+]
