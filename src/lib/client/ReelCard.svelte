@@ -158,36 +158,6 @@ function assetIcon(kind: "audio" | "image" | "video") {
 			class:page-mode={pageType === "video"}
 			role="button"
 			tabindex="0"
-			onclick={() => {
-				if (!hasInteracted) {
-					onFirstInteraction();
-					isMuted = false;
-					return;
-				}
-				onTogglePause(reel.key);
-			}}
-			onkeydown={(e) => {
-				if (e.key === 'Enter' || e.key === ' ') {
-					e.preventDefault();
-					if (!hasInteracted) {
-						onFirstInteraction();
-						isMuted = false;
-						return;
-					}
-					onTogglePause(reel.key);
-				}
-			}}
-		>
-				Siguiente video
-				<ChevronDown size={18} />
-			</button>
-		</div>
-	{:else}
-		<div
-			class="phone"
-			class:page-mode={pageType === "video"}
-			role="button"
-			tabindex="0"
 			aria-label={isPaused ? "Reproducir video" : "Pausar video"}
 			onclick={() => {
 				if (!hasInteracted) {
