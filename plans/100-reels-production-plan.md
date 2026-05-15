@@ -1,187 +1,218 @@
-# Plan: 100 Reels (30s-3min cada uno) ✅ COMPLETADO
+# Plan: Producción de 100 Reels (Video + Audio)
 
-Cada sesión produce un resultado desplegable e independiente.
-
-## Pipeline real (AIServices)
+## Pipeline actual
 
 ```
-facts → planReel() → brief (guion + quiz)
+fact.ts → planReel() → brief (guion, beats, imagePrompts, editorialChecks)
                          ↓
-                   text2audio → WAV
+                   text2audio (TTS → WAV)
                          ↓
-                   text2image → first frame PNG
+                   text2image (prompts → PNG)
                          ↓
-                   image2video → segmentos MP4 (8s c/u)
+                   image2video / text2video (compila → MP4 + poster PNG)
                          ↓
-                   ffmpeg concat + mux → reel MP4 + poster PNG
+                   static/generated-media/{audio,reels,posters}/
 ```
 
-## Estado actual ✅
+Hay 6 reals en producción. Escalar a 100 requiere 94 más.
 
-| Sesión | Descripción | Estado | Assets |
-|--------|-------------|--------|--------|
-| 1 | Facts OMS/Cochrane | ✅ Completo | `src/lib/server/facts.ts` — 94 facts |
-| 2 | Briefs + quizzes | ✅ Completo | `manifest.json` — 94 briefs |
-| 3 | Audio TTS | ✅ Completo | 94 WAV en `static/generated-media/audio/` |
-| 4 | Imágenes (text2image) | ✅ Integrado en pipeline | Generadas on-the-fly por AIServices, no almacenadas como PNG independientes |
-| 5 | Video MP4 | ✅ Completo | 94 MP4 + 94 posters |
-| 6 | QA + polaco | 🔲 Pendiente | Verificar en app real |
+## Fase 1: Fuente de datos (100 facts)
 
-## Sesiones ejecutadas
+**Fuente:** Guías OMS y Cochrane para obstetricia/partería.
 
-### Sesión 1: 94 facts ✅
+94 temas adicionales, priorizados por:
 
-**Qué:** Investigar y escribir 94 facts de OMS/Cochrane para obstetricia.
+| Lote | # | Tema | Ejemplos |
+|------|---|------|----------|
+| 1 | 20 | Hemorragia postparto | Prevención, oxitocina, masaje uterino, ácido tranexámico |
+| 2 | 15 | Preeclampsia/eclampsia | Prevención con calcio, MgSO4, criterios diagnósticos |
+| 3 | 10 | Sepsis neonatal | Prevención, clorhexidina, antibióticos intraparto |
+| 4 | 10 | Parto prematuro | Betametasona, sulfato de magnesio, prevención |
+| 5 | 10 | Asfixia perinatal | Reanimación neonatal, hipotermia terapéutica |
+| 6 | 10 | Infecciones | VIH, sífilis, estreptococo B, malaria en embarazo |
+| 7 | 10 | Nutrición materna | Suplementación, anemia, yodo, ácido fólico |
+| 8 | 9 | Temas diversos | LM, tabaco, ejercicio, salud mental perinatal |
 
-| Lote | # | Tema |
-|------|---|------|
-| 1 | 20 | Hemorragia postparto |
-| 2 | 15 | Preeclampsia/eclampsia |
-| 3 | 10 | Sepsis neonatal |
-| 4 | 10 | Parto prematuro |
-| 5 | 10 | Asfixia perinatal |
-| 6 | 10 | Infecciones (VIH, sífilis, malaria) |
-| 7 | 10 | Nutrición materna |
-| 8 | 9 | Diversos (LM, tabaco, salud mental) |
+**Formato de cada fact:**
+- `id`: slug corto (kebab-case)
+- `rank`: 1-100 por impacto clínico
+- `title`: título gancho ≤80 chars
+- `insight`: 1-2 oraciones (20-30s lectura)
+- `whyNonObvious`: por qué no es práctica común
+- `audience`: tipo de profesional
+- `sourceNote`: con cita
+- `evidenceStatus`: needs_review / evidence_based / consensus
+- `riskLevel`: low / medium / high
+- `tags`: sistema, intervención, contexto
 
-**Output:** `src/lib/server/facts.ts` — 94 facts con id, title, insight, whyNonObvious, audience, sourceNote, evidenceStatus, riskLevel, tags.
+**Acción:** Crear `facts-batch-2.ts` a `facts-batch-8.ts` y mergear a `facts.ts`.
 
-### Sesión 2: 94 briefs + quizzes ✅
+## Fase 2: Generación de briefs (guiones)
 
-**Qué:** Generar guiones y quizzes para todos los facts via `planReel()` + batch scripts.
-
-`scripts/generate-briefs.mjs` llama `POST /api/reels` para cada fact.
-
-Cada brief incluye:
-- script (narración completa, ~60-400 palabras)
-- beats (5-10 segmentos visual+voiceover)
-- editorialChecks (verificación clínica)
-- quiz (pregunta, 4 opciones, explicación)
-
-**Output:** `static/generated-media/manifest.json` — 94 items con briefs completos.
-Archivos batch intermedios: `batch-1.json` a `batch-8.json`, `quizzes-batch-1.json` a `quizzes-batch-5.json`.
-
-**Nota:** Quizzes generados pero pendientes de enriquecer con LLM (campo `note` en manifest.json).
-
-### Sesión 3: 94 audios ✅
-
-**Qué:** Generar TTS para cada brief vía `scripts/generate-ai-media.mjs` → `AIServices/packages/text2audio/`.
+Usar `POST /api/reels` o script batch:
 
 ```
-voice = "partera-rioplatense" (voz personalizada, no ElenaNeural)
-speed = 1.0
-seed = fijo por reel (reproducibilidad)
+for fact in facts[6..99]:
+    request = { factId: fact.id, tone: "mentor", targetDurationSec: 28 }
+    brief = planReel(fact, request)
+    save brief to database/manifest
 ```
 
-**Output:** 94 × WAV en `static/generated-media/audio/`.
+Cada brief produce:
+- `hook`: frase inicial que engancha
+- `script`: narración completa (≈40 palabras)
+- `beats`: 5 segmentos (visual + voiceover)
+- `imagePrompts`: prompts para generación de imágenes
+- `editorialChecks`: checklist de verificación
+- `caption`: texto para publicación
+- `hashtags`: tags para SEO social
+- `renderPlan`: secuencia de assets a compilar
 
-### Sesión 4: Backgrounds + keyframes ✅ (integrado en pipeline)
+**Tiempo estimado:** ~30s por brief → ~50min para 94 briefs.
 
-No se generan imágenes PNG independientes. El pipeline AIServices hace:
-1. `text2image` → genera primer frame (keyframe) del background continuo
-2. `image2video` → genera segmentos de ~8s desde cada keyframe, preservando continuidad visual (último frame del segmento anterior como input del siguiente)
-3. Seeds incrementalmente por segmento para variedad controlada
+## Fase 3: Audio (TTS)
 
-**Output intermedio:** Keyframes en `static/generated-media/keyframes/`, segmentos en `static/generated-media/segments/`.
+**Stack:** `AIServices/packages/text2audio/` con Edge TTS.
 
-Resolución de segmentos: 384×672 (se escala a 720×1280 en compilación final).
-
-### Sesión 5: 94 videos ✅
-
-**Qué:** Compilar segmentos + audio en MP4 vía ffmpeg.
-
-Pipeline por reel (`scripts/generate-ai-media.mjs`):
-1. `ffmpeg concat` — une segmentos MP4 en video continuo
-2. `ffmpeg mux` — mezcla video continuo + audio WAV, escala a 720×1280, codec h264 + aac
-3. `ffmpeg poster` — extrae frame a los 2s como poster PNG
-
-**Output:**
-- 94 × MP4 en `static/generated-media/reels/` (720×1280, h264, aac 160k)
-- 94 × PNG posters en `static/generated-media/posters/`
-
-### Sesión 6: QA + polaco 🔲 PENDIENTE
-
-**Qué:** Verificar cada reel en app real (iPhone + desktop).
-
-Checklist por lote de 10:
-
-| # | Check | Criterio |
-|---|-------|----------|
-| 1 | Sincronía audio/video | Voz sincronizada, sin cortes ni glitches |
-| 2 | Duración correcta | 30-180s, coherente con brief |
-| 3 | Contenido clínico | Facts precisos, fuentes correctas, riesgo apropiado |
-| 4 | Quiz funcional | Pregunta visible, 4 opciones, explicación correcta |
-| 5 | Reproducción móvil | Autoplay + sound toggle funcional en iOS |
-| 6 | Scroll/swipe | Navegación entre reels fluida |
-| 7 | Poster | Poster visible en feed/feed de tarjetas |
-| 8 | Performance | Sin lag en carga de video |
-
-Flujo de corrección:
+Parámetros por reel:
 ```
-detectar error → editar fact/brief → regenerar audio + video → push
+voice = "es-AR-ElenaNeural" o "es-MX-DaliaNeural"
+speed = 0.95  # ligeramente más lento que natural
 ```
 
-**Tiempo estimado:** ~3-6h (10-15 min por lote de 10 reels).
-
-### Sesión 7: Enriquecer quizzes con LLM 🔲 PENDIENTE
-
-**Qué:** Los quizzes actuales tienen estructura básica. Enriquecer:
-- Explicaciones más detalladas
-- Referencias a fuente específica
-- Trampas pedagógicas en opciones incorrectas
-
-**Output:** `manifest.json` actualizado con quizzes enriquecidos.
-
-**Tiempo:** ~15min (batch con LLM).
-
-## Almacenamiento real
-
-| Asset | Cantidad | Total |
-|-------|----------|-------|
-| Audio WAV | 94 | ~200MB |
-| Keyframes PNG | ~1000 | ~500MB |
-| Segmentos MP4 | ~1500 | ~3GB |
-| Videos MP4 finales | 94 | ~500MB-2GB |
-| Posters PNG | 94 | ~10MB |
-| **Total** | | **~4-6GB** (incluyendo intermedios) |
-
-Los keyframes y segmentos son intermedios; solo audios, reels MP4 y posters van a producción.
-
-## Archivos
-
+Pipeline batch:
 ```
-src/lib/server/facts.ts                    ← 94 facts (sesión 1)
-scripts/generate-briefs.mjs                ← batch brief generator (sesión 2)
-scripts/generate-ai-media.mjs              ← pipeline completo audio+video (sesiones 3-5)
-static/generated-media/manifest.json       ← 94 briefs + quizzes (sesión 2)
-static/generated-media/audio/*.wav         ← 94 archivos (sesión 3)
-static/generated-media/keyframes/*.png     ← frames intermedios (sesión 4)
-static/generated-media/segments/*.mp4      ← segmentos intermedios (sesión 4)
-static/generated-media/reels/*.mp4         ← 94 videos finales (sesión 5)
-static/generated-media/posters/*.png       ← 94 posters (sesión 5)
-static/generated-media/batch-*.json        ← batches intermedios de briefs
-static/generated-media/quizzes-batch-*.json ← batches de quizzes
+for each brief:
+    text = brief.script
+    output = static/generated-media/audio/reel-{NN}-{factId}.wav
+    run text2audio con voice + speed
 ```
 
-## Pipeline completo para regenerar un reel
+**Tiempo estimado:** ~8s de audio → ~15s reales por reel → ~25min para 94.
 
-```bash
-# 1. Brief
-curl -X POST /api/reels \
-  -H "Content-Type: application/json" \
-  -d '{"factId": "hpp-oxitocina-profilaxis-10ui", "tone": "mentor", "targetDurationSec": 60}'
+**Output:** 94 × WAV files en `static/generated-media/audio/`.
 
-# 2. Audio + Video (full pipeline)
-uv run --package text2audio text2audio --text "$script" --output audio.wav --voice partera-rioplatense --speed 1.0 --seed 3101
+## Fase 4: Imágenes (text2image)
 
-# 3. Primer frame
-uv run --package text2image text2image --prompt "$backgroundPrompt" --output first-frame.png --width 384 --height 672 --steps 20 --seed 3101
+**Stack:** `AIServices/packages/text2image/` con modelo local FLUX / SDXL.
 
-# 4. Segmentos (por cada 8s de audio)
-uv run --package image2video image2video --input frame.png --prompt "$continuityPrompt" --output segment.mp4 --seconds 8 --fps 8 --width 384 --height 672 --steps 4
+Por reel:
+- 5 imágenes (una por beat)
+- Resolución: 1080×1920 (9:16 reel)
+- Prompt desde `imagePrompts[i]`
+- Seed fijo por imagen (reproducibilidad)
 
-# 5. Compilar
-ffmpeg -y -f concat -safe 0 -i segments.txt -t $duration -c copy continuous.mp4
-ffmpeg -y -i continuous.mp4 -i audio.wav -t $duration -vf "scale=720:1280:force_original_aspect_ratio=increase,crop=720:1280,format=yuv420p" -c:v libx264 -preset medium -crf 23 -c:a aac -b:a 160k reel-final.mp4
-ffmpeg -y -ss 00:00:02 -i reel-final.mp4 -frames:v 1 poster.png
+**Tiempo estimado:** ~20s por imagen → 100s por reel → ~2.6h para 94 reels.
+
+**Optimización:** Paralelizar con subagentes (4 workers → ~40min).
+
+**Output:** 470 × PNG en `static/generated-media/images/`.
+
+## Fase 5: Video (compilación)
+
+**Stack:** `AIServices/packages/image2video/` o `text2video/`.
+
+Dos enfoques:
+
+| Opción | Pros | Contras | Tiempo/reel |
+|--------|------|---------|-------------|
+| **A) image2video** | Cada beat es imagen + motion | Más assets, compilación | ~30s |
+| **B) text2video** | Pipeline directo | Control fino limitado | ~60s |
+
+**Opción recomendada:** A) image2video para reels finales. Usar B como fallback.
+
+Pipeline:
+```
+input: 5 images (1080×1920) + audio WAV
+output: MP4 (1080×1920, 30fps, 8-10s)
+params: fade transitions, Ken Burns zoom, subtitles opcionales
+```
+
+**Tiempo estimado:** ~30s por reel → ~47min para 94.
+
+**Output:** 94 × MP4 en `static/generated-media/reels/`.
+
+## Fase 6: Post-producción
+
+Por reel generado:
+1. Verificar sincronía labial/audio
+2. Validar contenido clínico vs brief
+3. Generar poster PNG (frame 0 del video)
+4. Actualizar `manifest.json`
+5. Prueba visual en la app (iPhone + desktop)
+
+**Control de calidad por lote de 10 reels:**
+- Revisión clínica de facts
+- Escuchar audio (pronunciación, entonación)
+- Ver video completo en la app
+- Verificar quiz asociado
+
+## Fase 7: Quiz
+
+Cada reel necesita un quiz:
+```
+question: (pregunta sobre el fact)
+options: [4 opciones]
+answerIndex: (0-3)
+explanation: (por qué es correcta)
+```
+
+Generar junto con el brief en Fase 2.
+
+## Infraestructura
+
+### Requisitos de almacenamiento
+
+| Asset | Cantidad | Tamaño unitario | Total |
+|-------|----------|-----------------|-------|
+| Audio WAV | 100 | ~200KB | ~20MB |
+| Imágenes PNG | 500 | ~500KB | ~250MB |
+| Videos MP4 | 100 | ~1MB | ~100MB |
+| Posters PNG | 100 | ~100KB | ~10MB |
+| **Total** | | | **~380MB** |
+
+### Cómputo
+
+- Generación de briefs: CPU only, despreciable
+- TTS: CPU only, ~15s por reel
+- Imágenes: GPU required (FLUX/SDXL), ~20s por imagen
+- Video: GPU recommended, ~30s por reel
+
+**Hardware:** Mac Studio M2 Ultra o servidor con NVIDIA RTX 4090 para Fase 4-5.
+
+### Ejecución
+
+Lotes de 10 reels → pipeline completo por lote:
+
+```
+Batch 1: facts 7-16  → briefs → audio → images → video → qa
+Batch 2: facts 17-26 → briefs → audio → images → video → qa
+...
+Batch 10: facts 94-100 → ...
+```
+
+## Timeline estimado
+
+| Fase | Tiempo | Dependencias |
+|------|--------|--------------|
+| 1. Facts (94) | 2 días | Investigación bibliográfica |
+| 2. Briefs (94) | 1 hora | Fase 1 |
+| 3. Audio (94) | 25 min | Fase 2 |
+| 4. Imágenes (470) | 40 min (4 workers) | Fase 2 |
+| 5. Video (94) | 47 min | Fase 3 + 4 |
+| 6. QA | 3 horas | Fase 5 |
+| 7. Quiz (94) | automático con brief | Fase 2 |
+| **Total** | **~3 días** | |
+
+## Archivos a modificar
+
+```
+src/lib/server/facts.ts         ← +94 facts
+src/lib/server/reelPlanner.ts   ← tocar? config
+src/lib/client/reelFeed.ts      ← nada
+static/generated-media/audio/   ← +94 WAV
+static/generated-media/images/  ← +470 PNG
+static/generated-media/reels/   ← +94 MP4
+static/generated-media/posters/ ← +94 PNG
+static/generated-media/manifest.json ← actualizar
 ```
