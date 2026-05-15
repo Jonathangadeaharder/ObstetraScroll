@@ -1,18 +1,18 @@
 <script lang="ts">
+import { Sparkles } from "lucide-svelte";
 import { browser } from "$app/environment";
 import InfoOverlay from "$lib/client/InfoOverlay.svelte";
 import ReelCard from "$lib/client/ReelCard.svelte";
 import {
-	type LoopedReel,
-	type ReelPage,
 	buildInfoItems,
 	buildLoopedFeedItems,
 	buildReelPages,
+	type LoopedReel,
+	type ReelPage,
 	virtualizePages,
 	virtualizeReels,
 } from "$lib/client/reelFeed";
 import type { Fact, ReelFeedItem } from "$lib/types";
-import { Sparkles } from "lucide-svelte";
 
 type Props = {
 	facts: Fact[];

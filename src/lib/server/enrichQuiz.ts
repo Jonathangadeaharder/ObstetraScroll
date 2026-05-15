@@ -1,14 +1,10 @@
 import type { Fact, QuizQuestion } from "$lib/types";
 
 const questionTemplates = [
-	(t: string) =>
-		`Según la evidencia, ${t.slice(0, 1).toLowerCase()}${t.slice(1)}?`,
-	(t: string) =>
-		`En la práctica clínica, ¿cuál es la conducta correcta respecto a ${t.toLowerCase()}?`,
-	(t: string) =>
-		`¿Cuál de estas afirmaciones sobre ${t.toLowerCase()} está respaldada por la evidencia?`,
-	(t: string) =>
-		`Frente a ${t.toLowerCase()}, ¿qué dice la evidencia que debería hacerse?`,
+	(t: string) => `Según la evidencia, ${t.slice(0, 1).toLowerCase()}${t.slice(1)}?`,
+	(t: string) => `En la práctica clínica, ¿cuál es la conducta correcta respecto a ${t.toLowerCase()}?`,
+	(t: string) => `¿Cuál de estas afirmaciones sobre ${t.toLowerCase()} está respaldada por la evidencia?`,
+	(t: string) => `Frente a ${t.toLowerCase()}, ¿qué dice la evidencia que debería hacerse?`,
 ];
 
 function pick<T>(arr: T[], idx: number): T {

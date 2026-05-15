@@ -2,8 +2,8 @@ import { execSync } from "node:child_process";
 import { existsSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import type { Fact, ReelFeedItem } from "$lib/types";
-import { enrichQuiz } from "./enrichQuiz";
 import { facts } from "./facts";
+import { enrichQuiz } from "./enrichQuiz";
 import { planReel, reelRequestSchema } from "./reelPlanner";
 
 const generatedAt = "2026-05-08T10:04:00+02:00";
@@ -14,9 +14,7 @@ function getQuiz(fact: Fact) {
 	if (!quizCache.has(fact.id)) {
 		quizCache.set(fact.id, enrichQuiz(fact));
 	}
-	const q = quizCache.get(fact.id);
-	if (!q) throw new Error("unreachable");
-	return q;
+	return quizCache.get(fact.id)!;
 }
 
 type GeneratedManifest = {
@@ -45,7 +43,7 @@ function readGeneratedManifest(): GeneratedManifest {
 const audioDurations = new Map<string, number>();
 
 function getAudioDuration(slug: string): number {
-	if (audioDurations.has(slug)) return audioDurations.get(slug) ?? 8;
+	if (audioDurations.has(slug)) return audioDurations.get(slug)!;
 	const audioPath = resolve(
 		process.cwd(),
 		"static",

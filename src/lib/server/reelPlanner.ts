@@ -1,5 +1,5 @@
-import type { Fact, ReelBeat, ReelBrief } from "$lib/types";
 import { z } from "zod";
+import type { Fact, ReelBeat, ReelBrief } from "$lib/types";
 
 export const reelRequestSchema = z.object({
 	factId: z.string().min(1),
