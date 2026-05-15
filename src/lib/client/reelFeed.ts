@@ -95,7 +95,8 @@ export function virtualizePages(
 			...page,
 			shouldRender: distance <= VISIBLE_WINDOW,
 			shouldPreload:
-				isAhead && distance <= PRELOAD_AHEAD && page.pageType === "video",
+				(index === activeIndex || (isAhead && distance <= PRELOAD_AHEAD)) &&
+				page.pageType === "video",
 			isActive: index === activeIndex,
 		};
 	});
@@ -166,7 +167,8 @@ export function virtualizeReels(
 		return {
 			...reel,
 			shouldRender: distance <= VISIBLE_WINDOW,
-			shouldPreload,
+			shouldPreload:
+				(isAhead && distance <= PRELOAD_AHEAD) || (!isAhead && distance <= 1),
 			isActive: index === activeReelIndex,
 		};
 	});
