@@ -49,6 +49,7 @@ const item = $derived(reel.item);
 let videoProgress = $state(0);
 let videoError = $state(false);
 let isMuted = $state(true);
+let hasInteracted = $state(false);
 const END_THRESHOLD = 0.3;
 
 function handleTimeUpdate(e: Event) {
@@ -149,10 +150,22 @@ function assetIcon(kind: "audio" | "image" | "video") {
 			role="button"
 			tabindex="0"
 			aria-label={isPaused ? "Reproducir video" : "Pausar video"}
-			onclick={() => onTogglePause(reel.key)}
+			onclick={() => {
+				if (!hasInteracted) {
+					hasInteracted = true;
+					isMuted = false;
+					return;
+				}
+				onTogglePause(reel.key);
+			}}
 			onkeydown={(e) => {
 				if (e.key === 'Enter' || e.key === ' ') {
 					e.preventDefault();
+					if (!hasInteracted) {
+						hasInteracted = true;
+						isMuted = false;
+						return;
+					}
 					onTogglePause(reel.key);
 				}
 			}}
@@ -486,8 +499,7 @@ function assetIcon(kind: "audio" | "image" | "video") {
 		margin-bottom: 0;
 		font-size: clamp(2rem, 4.4vw, 4rem);
 		line-height: 0.92;
-		overflow-wrap: anywhere;
-		hyphens: auto;
+		overflow-wrap: break-word;
 	}
 
 	h2 {
@@ -615,6 +627,8 @@ function assetIcon(kind: "audio" | "image" | "video") {
 		background: #fffdf8;
 		color: var(--ink);
 		text-align: left;
+		overflow-wrap: break-word;
+		word-break: break-word;
 	}
 
 	.answers button:hover,
@@ -649,6 +663,8 @@ function assetIcon(kind: "audio" | "image" | "video") {
 		margin: 14px 0 0;
 		color: var(--green);
 		font-weight: 700;
+		overflow-wrap: break-word;
+		word-break: break-word;
 	}
 
 	.pipeline {
@@ -697,10 +713,12 @@ function assetIcon(kind: "audio" | "image" | "video") {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		min-height: 100dvh;
 		height: 100dvh;
 		padding: 32px 24px;
 		background: var(--paper);
 		gap: 24px;
+		overflow-y: auto;
 	}
 
 	.quiz-header h2 {
