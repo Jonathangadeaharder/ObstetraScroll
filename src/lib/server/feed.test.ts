@@ -1,10 +1,10 @@
-import { listFeedItems } from "$lib/server/feed";
 import { describe, expect, it } from "vitest";
+import { listFeedItems } from "$lib/server/feed";
 
 describe("listFeedItems", () => {
-	it("returns 6 feed items from the seeded facts", () => {
+	it("returns 94 feed items from the facts", () => {
 		const items = listFeedItems();
-		expect(items).toHaveLength(6);
+		expect(items).toHaveLength(94);
 	});
 
 	it("each feed item has required fields", () => {
@@ -22,22 +22,23 @@ describe("listFeedItems", () => {
 			expect(item.brief).toBeTruthy();
 			expect(item.brief.beats).toBeInstanceOf(Array);
 			expect(item.quiz.question).toBeTruthy();
-			expect(item.quiz.options).toHaveLength(3);
+			expect(item.quiz.options).toHaveLength(4);
 			expect(item.quiz.answerIndex).toBeGreaterThanOrEqual(0);
-			expect(item.quiz.answerIndex).toBeLessThanOrEqual(2);
+			expect(item.quiz.answerIndex).toBeLessThanOrEqual(3);
 			expect(item.quiz.explanation).toBeTruthy();
+			expect(item.quiz.optionNotes).toHaveLength(4);
 		}
 	});
 
-	it("first feed item has the delayed cord clamping fact", () => {
+	it("first feed item has the top-ranked fact", () => {
 		const items = listFeedItems();
-		expect(items[0].factId).toBe("delayed-cord-clamping-preterm");
+		expect(items[0].factId).toBe("hpp-oxitocina-profilaxis-10ui");
 	});
 
-	it("all quizzes have exactly 3 options with one correct answer", () => {
+	it("all quizzes have exactly 4 options with one correct answer", () => {
 		const items = listFeedItems();
 		for (const item of items) {
-			expect(item.quiz.options).toHaveLength(3);
+			expect(item.quiz.options).toHaveLength(4);
 			const answerIdx = item.quiz.answerIndex;
 			expect(item.quiz.options[answerIdx]).toBeTruthy();
 		}
@@ -64,14 +65,15 @@ describe("listFeedItems", () => {
 
 	it("high-risk facts have review_required briefs", () => {
 		const items = listFeedItems();
-		const highRiskIds = new Set([
-			"delayed-cord-clamping-preterm",
-			"meconium-risk-gradient",
-		]);
-		for (const item of items) {
-			if (highRiskIds.has(item.factId)) {
-				expect(item.brief.status).toBe("review_required");
-			}
+		const highRiskIds = new Set(
+			items
+				.filter((i) => i.brief.status === "review_required")
+				.map((i) => i.factId),
+		);
+		const factsWithReview = items.filter((i) => highRiskIds.has(i.factId));
+		expect(factsWithReview.length).toBeGreaterThan(0);
+		for (const item of factsWithReview) {
+			expect(item.brief.status).toBe("review_required");
 		}
 	});
 

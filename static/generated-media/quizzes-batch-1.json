@@ -1,0 +1,158 @@
+[
+  {
+    "id": "quiz-hpp-oxitocina-profilaxis-10ui",
+    "factId": "hpp-oxitocina-profilaxis-10ui",
+    "question": "Una primigesta de 25 años acaba de tener un parto eutócico sin complicaciones. El equipo decide esperar a ver signos de separación placentaria antes de administrar oxitocina. ¿Cuál es el problema con esta conducta?",
+    "options": [
+      "La oxitocina debe administrarse dentro del minuto posterior al parto, independientemente de los signos de separación placentaria, para prevenir HPP",
+      "Es correcto esperar signos de separación porque la oxitocina precoz puede causar retención placentaria",
+      "La oxitocina solo debe administrarse si hay sangrado activo, no como profilaxis",
+      "La oxitocina debe administrarse después de la salida de la placenta para evitar contracciones tetánicas"
+    ],
+    "answerIndex": 0,
+    "explanation": "La evidencia muestra que la ventana óptima de prevención es inmediata (primer minuto posparto), no esperar signos de separación placentaria. La demora reduce la eficacia profiláctica en un 60%."
+  },
+  {
+    "id": "quiz-hpp-amtsl-vs-expectante",
+    "factId": "hpp-amtsl-vs-expectante",
+    "question": "Una colega argumenta que el manejo expectante del tercer periodo es más 'fisiológico' y debería ser la primera opción en partos de bajo riesgo. ¿Qué evidencia le presentaría?",
+    "options": [
+      "El manejo activo reduce el riesgo de HPP en más del 50% comparado con el manejo expectante, sin aumentar complicaciones maternas",
+      "El manejo expectante tiene razón: la intervención farmacológica altera el vínculo madre-hijo y aumenta las complicaciones",
+      "El manejo activo reduce HPP pero aumenta significativamente el riesgo de náuseas e hipertensión materna",
+      "Ambos manejos tienen resultados equivalentes; la elección depende de la preferencia de la paciente"
+    ],
+    "answerIndex": 0,
+    "explanation": "El manejo activo (oxitocina + tracción controlada + masaje) reduce HPP más del 50% comparado con el expectante, con NNT de 14 para prevenir HPP severa. La evidencia no muestra aumento de complicaciones."
+  },
+  {
+    "id": "quiz-hpp-acido-tranexamico-woman",
+    "factId": "hpp-acido-tranexamico-woman",
+    "question": "Una paciente presenta HPP por atonía que no cede a la oxitocina. El equipo prepara ácido tranexámico como 'último recurso' después de probar todos los uterotónicos. ¿Qué indica la evidencia?",
+    "options": [
+      "El ácido tranexámico debe administrarse dentro de las 3 horas del inicio de la HPP; cuanto antes mejor, logrando reducción del 68% si se da en la primera hora",
+      "Es correcto reservarlo como última opción, ya que su eficacia es marginal y se asocia con trombosis",
+      "El ácido tranexámico solo es efectivo si se combina con factor VII activado recombinante",
+      "Debe administrarse solo si la HPP supera los 1500 mL de pérdida sanguínea estimada"
+    ],
+    "answerIndex": 0,
+    "explanation": "El WOMAN Trial demostró que el ATX reduce muerte por sangrado un 31% si se da dentro de 3 horas, y hasta un 68% en la primera hora. Es fármaco de primera línea, no última opción."
+  },
+  {
+    "id": "quiz-hpp-masaje-uterano-post-parto",
+    "factId": "hpp-masaje-uterano-post-parto",
+    "question": "En su servicio tienen el protocolo de masaje uterino programado cada 15 minutos durante las primeras 2 horas posparto en todas las pacientes. ¿Debe mantener esta práctica?",
+    "options": [
+      "No, el masaje uterino programado sin signos de alerta no reduce significativamente la incidencia de HPP ni la pérdida sanguínea",
+      "Sí, es la práctica estándar basada en evidencia para prevenir HPP en todas las puérperas",
+      "Sí, pero solo debe realizarse si se combina con oxitocina profiláctica adicional",
+      "No, debe realizarse cada 30 minutos, no cada 15, para permitir la recuperación uterina fisiológica"
+    ],
+    "answerIndex": 0,
+    "explanation": "La evidencia no respalda el masaje uterino programado sin signos de alerta. Debe realizarse evaluación clínica a demanda y masaje solo si se detecta hipotonía o sangrado anormal."
+  },
+  {
+    "id": "quiz-hpp-carbetocina-paises-ingresos-medios",
+    "factId": "hpp-carbetocina-paises-ingresos-medios",
+    "question": "Un hospital en una región tropical sin cadena de frío confiable está decidiendo entre oxitocina y carbetocina para profilaxis de HPP. ¿Cuál es la mejor elección y por qué?",
+    "options": [
+      "Carbetocina, porque es estable a temperatura ambiente (hasta 30°C) y no es inferior a la oxitocina para prevenir HPP",
+      "Oxitocina, porque la carbetocina es menos eficaz y tiene más efectos adversos cardiovasculares",
+      "Carbetocina, pero solo por vía intravenosa porque intramuscular no está aprobada",
+      "Oxitocina, porque la pérdida de eficacia por falta de refrigeración es mínima (menos del 5%)"
+    ],
+    "answerIndex": 0,
+    "explanation": "La carbetocina es estable hasta 30°C sin cadena de frío, mientras que la oxitocina pierde eficacia hasta en 40% sin refrigeración. Ambas tienen eficacia similar para prevenir HPP."
+  },
+  {
+    "id": "quiz-hpp-misoprostol-segunda-linea",
+    "factId": "hpp-misoprostol-segunda-linea",
+    "question": "Una partera comunitaria atiende un parto domiciliario y no tiene acceso a oxitocina inyectable. La paciente presenta HPP. ¿Debe usar misoprostol sublingual?",
+    "options": [
+      "Sí, 800 mcg sublingual es eficaz como segunda línea reduciendo la necesidad de transfusiones en un 30%, con perfil beneficio-riesgo favorable",
+      "No, el misoprostol causa hipertermia y escalofríos que pueden confundir el cuadro clínico y empeorar el pronóstico",
+      "Sí, pero solo por vía rectal porque la absorción sublingual es impredecible en HPP",
+      "No, el misoprostol no está recomendado en ninguna guía para tratamiento de HPP activa"
+    ],
+    "answerIndex": 0,
+    "explanation": "El misoprostol sublingual 800 mcg es eficaz cuando no hay oxitocina. Aunque produce escalofríos e hipertermia, su beneficio-riesgo es favorable y está en la lista de medicamentos esenciales de la OMS."
+  },
+  {
+    "id": "quiz-hpp-traccion-controlada-cordon",
+    "factId": "hpp-traccion-controlada-cordon",
+    "question": "Un residente pregunta si la tracción controlada del cordón por sí sola (sin oxitocina) es efectiva para prevenir HPP. ¿Qué le responde?",
+    "options": [
+      "Sin oxitocina profiláctica, la tracción controlada sola no reduce HPP severa ni necesidad de transfusión comparada con esperar sin tracción",
+      "Sí, la tracción controlada es el componente más importante del manejo activo del tercer periodo",
+      "La tracción controlada por sí sola reduce HPP en un 40%, similar a la oxitocina sola",
+      "La tracción controlada es necesaria para evitar la retención placentaria, que es la principal causa de HPP"
+    ],
+    "answerIndex": 0,
+    "explanation": "El beneficio principal del manejo activo proviene de la oxitocina, no de la tracción. Cuando se administra oxitocina, la tracción controlada no añade beneficio significativo para prevenir HPP."
+  },
+  {
+    "id": "quiz-hpp-compresion-bimanual-uterina",
+    "factId": "hpp-compresion-bimanual-uterina",
+    "question": "Durante una HPP severa por atonía, mientras espera que llegue la oxitocina del almacén, el útero está blando y sangra activamente. ¿Cuál es su siguiente acción?",
+    "options": [
+      "Iniciar compresión bimanual uterina (masaje + compresión transvaginal del istmo) como maniobra temporal mientras llegan los uterotónicos",
+      "Solicitar la oxitocina y mientras tanto observar si el sangrado se detiene espontáneamente",
+      "Realizar legrado uterino diagnóstico por posible retención de restos placentarios",
+      "Iniciar compresión aórtica abdominal, que tiene mayor efectividad que la compresión bimanual"
+    ],
+    "answerIndex": 0,
+    "explanation": "La compresión bimanual es una maniobra efectiva de bajo costo para ganar tiempo mientras se preparan uterotónicos o traslado quirúrgico. No requiere insumos y debería estar protocolizada."
+  },
+  {
+    "id": "quiz-hpp-taponamiento-balón-uterino",
+    "factId": "hpp-taponamiento-balón-uterino",
+    "question": "En un hospital de segundo nivel de atención, una paciente presenta HPP por atonía que no responde a uterotónicos. No tienen balón de Bakri disponible. ¿Qué opción tienen?",
+    "options": [
+      "Usar un balón de condón artesanal como alternativa de taponamiento, con eficacia similar reportada en estudios observacionales",
+      "No hay alternativa; deben proceder directamente a laparotomía e histerectomía",
+      "Repetir la dosis de oxitocina hasta que el útero responda, ya que el taponamiento es la última opción",
+      "Realizar taponamiento con gasas intrauterinas, que tienen mejores resultados que los balones"
+    ],
+    "answerIndex": 0,
+    "explanation": "Existen alternativas artesanales (balón de condón) con eficacia del 85-95% reportada en estudios observacionales, evitando laparotomía e histerectomía. El costo no debe ser barrera para el taponamiento."
+  },
+  {
+    "id": "quiz-hpp-ligadura-arterias-uterinas",
+    "factId": "hpp-ligadura-arterias-uterinas",
+    "question": "Una paciente de 28 años con HPP refractaria a uterotónicos y taponamiento con balón. El equipo quirúrgico propone histerectomía. ¿Hay alternativa conservadora viable?",
+    "options": [
+      "Sí, la ligadura bilateral de arterias uterinas (técnica de O'Leary) tiene éxito del 80-90% y preserva la fertilidad",
+      "No, una vez que fallan los uterotónicos y el balón, la histerectomía es la única opción segura",
+      "Sí, pero la ligadura arterial solo es efectiva si se combina con histerectomía subtotal",
+      "No, las técnicas de devascularización tienen alta tasa de fracaso y mayor mortalidad que la histerectomía"
+    ],
+    "answerIndex": 0,
+    "explanation": "La ligadura de O'Leary tiene éxito del 80-90% y preserva el útero y la fertilidad futura. Ante HPP refractaria, las técnicas de devascularización deben considerarse antes de la histerectomía."
+  },
+  {
+    "id": "quiz-hpp-hemoglobina-predictor-riesgo",
+    "factId": "hpp-hemoglobina-predictor-riesgo",
+    "question": "Una gestante de 32 semanas tiene hemoglobina de 10.8 g/dL. El equipo de control prenatal considera que es anemia leve sin importancia. ¿Debe preocupar este hallazgo de cara al parto?",
+    "options": [
+      "Sí, hemoglobina preparto <11 g/dL triplica el riesgo de HPP severa y cuadruplica el riesgo de transfusión, independientemente de la vía del parto",
+      "No, la anemia leve no se asocia con complicaciones obstétricas; solo la anemia severa (Hb <7 g/dL) es relevante",
+      "Sí, pero solo si el parto es por cesárea, ya que en parto vaginal la pérdida es mínima",
+      "No, porque la hemoglobina se recupera rápidamente con hierro oral y no hay riesgo si se inicia tratamiento"
+    ],
+    "answerIndex": 0,
+    "explanation": "La anemia leve (Hb <11 g/dL) es uno de los predictores más fuertes de HPP severa, no es un hallazgo menor. El riesgo persiste independientemente de la vía del parto."
+  },
+  {
+    "id": "quiz-hpp-atonia-causa-principal",
+    "factId": "hpp-atonia-causa-principal",
+    "question": "Durante una guardia, el equipo discute sobre la causa más frecuente de HPP. Algunos mencionan desgarros del canal del parto. ¿Cuál es la causa real más prevalente?",
+    "options": [
+      "La atonía uterina es responsable del 70-80% de todas las HPP, y la sobredistención uterina es el principal factor de riesgo",
+      "Los desgarros del canal del parto son la causa más frecuente, especialmente en primigestas",
+      "La retención de restos placentarios es la causa más común de HPP, representando más del 50% de los casos",
+      "La coagulopatía de consumo es la principal causa, desencadenada por la propia hemorragia"
+    ],
+    "answerIndex": 0,
+    "explanation": "La atonía causa 70-80% de las HPP. Los desgarros son menos frecuentes. La sobredistención uterina (macrosomía, gemelar, polihidramnios) es el factor de riesgo más importante y es prevenible con uterotónicos profilácticos."
+  }
+]

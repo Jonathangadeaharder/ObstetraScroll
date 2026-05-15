@@ -1,10 +1,10 @@
-import type { Fact, ReelBeat, ReelBrief } from "$lib/types";
 import { z } from "zod";
+import type { Fact, ReelBeat, ReelBrief } from "$lib/types";
 
 export const reelRequestSchema = z.object({
 	factId: z.string().min(1),
 	tone: z.enum(["calm", "urgent", "mentor"]).default("mentor"),
-	targetDurationSec: z.number().min(18).max(45).default(28),
+	targetDurationSec: z.number().min(30).max(180).default(60),
 });
 
 export type ReelRequest = z.infer<typeof reelRequestSchema>;

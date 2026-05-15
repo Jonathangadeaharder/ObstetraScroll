@@ -1,5 +1,5 @@
-import type { ReelFeedItem } from "$lib/types";
 import { describe, expect, it } from "vitest";
+import type { ReelFeedItem } from "$lib/types";
 import type { VirtualPage } from "./reelFeed";
 import {
 	buildInfoItems,
@@ -42,6 +42,7 @@ function item(id: string): ReelFeedItem {
 			options: [],
 			answerIndex: 0,
 			explanation: "",
+			optionNotes: [],
 		},
 	};
 }
