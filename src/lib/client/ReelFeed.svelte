@@ -1,4 +1,5 @@
 <script lang="ts">
+import { browser } from "$app/environment";
 import InfoOverlay from "$lib/client/InfoOverlay.svelte";
 import ReelCard from "$lib/client/ReelCard.svelte";
 import {
@@ -33,7 +34,9 @@ const reelElements: Record<string, HTMLElement> = {};
 let observer: IntersectionObserver | undefined;
 let lastActiveIndex = 0;
 let touchStartY = 0;
-let isMobile = $state(false);
+let isMobile = $state(
+	browser ? matchMedia("(max-width: 900px)").matches : false,
+);
 
 const totalFacts = $derived(facts.length);
 const highRiskCount = $derived(
@@ -429,6 +432,7 @@ function displayCounter(items: (LoopedReel | ReelPage)[]) {
 		scroll-snap-type: y mandatory;
 		-webkit-overflow-scrolling: touch;
 		scrollbar-width: none;
+		touch-action: pan-y;
 	}
 
 	.feed::-webkit-scrollbar {
