@@ -37,34 +37,40 @@ const genericWrong3 = [
 	"Realizar el manejo habitual sin ajustes basados en el riesgo individual.",
 ];
 
+function cap(s: string): string {
+	return s ? `${s.charAt(0).toUpperCase()}${s.slice(1)}` : s;
+}
+
 export function enrichQuiz(fact: Fact): QuizQuestion {
 	const question = pick(questionTemplates, fact.rank)(fact.title);
 
-	const correct = trunc(fact.insight, 160);
+	const correct = cap(trunc(fact.insight, 140));
 
-	const wrongFromWhy = trunc(fact.whyNonObvious, 140);
+	const wrongFromWhy = cap(trunc(fact.whyNonObvious, 120));
 
 	const negPrefix = fact.insight.includes("no") ? "" : "No ";
-	const wrongNegated = trunc(
-		`${negPrefix}${fact.insight.charAt(0).toLowerCase()}${fact.insight.slice(1)}`,
-		140,
+	const wrongNegated = cap(
+		trunc(
+			`${negPrefix}${fact.insight.charAt(0).toLowerCase()}${fact.insight.slice(1)}`,
+			120,
+		),
 	);
 
-	const wrongGeneral = pick(genericWrong3, fact.rank + 3);
+	const wrongGeneral = cap(pick(genericWrong3, fact.rank + 3));
 
 	const options = [correct, wrongFromWhy, wrongNegated, wrongGeneral];
 	const correctIndex = 1 + (fact.rank % 3);
 	const shuffled = shuffleCorrect(options, correctIndex);
 
-	const maxExpl = 350;
-	const explanation = `${trunc(fact.insight, maxExpl)}\n\nFuente: ${fact.sourceNote}`;
+	const maxExpl = 250;
+	const explanation = `${cap(trunc(fact.insight, maxExpl))}\n\nFuente: ${fact.sourceNote}`;
 
 	const optionNotes = shuffled.options.map((opt, i) => {
 		if (i === shuffled.answerIndex) {
-			return `Correcto: ${trunc(fact.insight, 200)}`;
+			return `Correcto: ${cap(trunc(fact.insight, 200))}`;
 		}
 		if (opt === wrongFromWhy) {
-			return `Incorrecto: esto describe una práctica o creencia común, pero la evidencia muestra que no es lo óptimo. ${trunc(fact.whyNonObvious, 150)}`;
+			return `Incorrecto: esto describe una práctica o creencia común, pero la evidencia muestra que no es lo óptimo. ${cap(trunc(fact.whyNonObvious, 120))}`;
 		}
 		if (opt === wrongNegated) {
 			return "Incorrecto: la afirmación contradice directamente la evidencia actual. Revisá el dato clínico.";
