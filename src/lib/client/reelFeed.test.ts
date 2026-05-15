@@ -1,6 +1,11 @@
 import type { ReelFeedItem } from "$lib/types";
 import { describe, expect, it } from "vitest";
-import { buildLoopedFeedItems, virtualizeReels } from "./reelFeed";
+import {
+	buildInfoItems,
+	buildLoopedFeedItems,
+	buildReelPages,
+	virtualizeReels,
+} from "./reelFeed";
 
 function item(id: string): ReelFeedItem {
 	return {
@@ -100,7 +105,6 @@ describe("reel feed helpers", () => {
 	it("scrollDirection up preloads items before active", () => {
 		const looped = buildLoopedFeedItems([item("a"), item("b"), item("c")], 3);
 		const virtual = virtualizeReels(looped, 6, "up");
-		// scrolling up: items with lower indices than active should preload
 		expect(virtual[5].shouldPreload).toBe(true);
 		expect(virtual[4].shouldPreload).toBe(true);
 	});
@@ -115,9 +119,7 @@ describe("reel feed helpers", () => {
 	it("last item handles edge boundaries", () => {
 		const looped = buildLoopedFeedItems([item("a"), item("b")], 3);
 		const virtual = virtualizeReels(looped, 5, "down");
-		// last item is at index 5
 		expect(virtual[5].isActive).toBe(true);
-		// no preload beyond bounds
 		const preloaded = virtual.filter((r) => r.shouldPreload && r.loopIndex > 5);
 		expect(preloaded).toHaveLength(0);
 	});
@@ -130,6 +132,99 @@ describe("reel feed helpers", () => {
 
 	it("default cycles constant is used when not specified", () => {
 		const looped = buildLoopedFeedItems([item("a"), item("b")]);
-		expect(looped).toHaveLength(24); // 2 items * 12 cycles
+		expect(looped).toHaveLength(24);
+	});
+});
+
+describe("buildReelPages", () => {
+	it("interleaves video and quiz pages", () => {
+		const pages = buildReelPages([item("a"), item("b")], 1);
+
+		expect(pages).toHaveLength(4);
+		expect(pages[0].pageType).toBe("video");
+		expect(pages[0].item.id).toBe("a");
+		expect(pages[1].pageType).toBe("quiz");
+		expect(pages[1].item.id).toBe("a");
+		expect(pages[2].pageType).toBe("video");
+		expect(pages[2].item.id).toBe("b");
+		expect(pages[3].pageType).toBe("quiz");
+		expect(pages[3].item.id).toBe("b");
+	});
+
+	it("assigns correct reel numbers", () => {
+		const pages = buildReelPages([item("a"), item("b")], 1);
+		expect(pages[0].reelNumber).toBe(1);
+		expect(pages[1].reelNumber).toBe(1);
+		expect(pages[2].reelNumber).toBe(2);
+		expect(pages[3].reelNumber).toBe(2);
+	});
+
+	it("generates unique keys per page", () => {
+		const pages = buildReelPages([item("a"), item("b")], 2);
+		const keys = pages.map((p) => p.key);
+		expect(new Set(keys).size).toBe(8);
+	});
+
+	it("cycles through pages", () => {
+		const pages = buildReelPages([item("a")], 3);
+		expect(pages).toHaveLength(6);
+		expect(pages[0].key).toContain("c0");
+		expect(pages[2].key).toContain("c1");
+		expect(pages[4].key).toContain("c2");
+	});
+
+	it("returns empty array for empty feed", () => {
+		expect(buildReelPages([])).toEqual([]);
+	});
+});
+
+describe("buildInfoItems", () => {
+	it("builds items from editorial checks and beats", () => {
+		const feedItem = item("test");
+		feedItem.brief.editorialChecks = ["Verify OMS data"];
+		feedItem.brief.beats = [
+			{
+				id: "b1",
+				startSec: 0,
+				durationSec: 10,
+				visual: "Animation",
+				voiceover: "Voice",
+				overlay: "",
+				camera: "",
+			},
+		];
+
+		const infoItems = buildInfoItems(feedItem);
+
+		expect(infoItems.length).toBeGreaterThanOrEqual(2);
+		expect(infoItems.some((i) => i.author === "Check editorial")).toBe(true);
+		expect(infoItems.some((i) => i.author.startsWith("Momento"))).toBe(true);
+	});
+
+	it("includes fact data when fact is provided", () => {
+		const feedItem = item("test-id");
+		const fact = {
+			id: "test-id",
+			rank: 1,
+			title: "Test",
+			insight: "Key insight",
+			whyNonObvious: "Why",
+			audience: "Midwives",
+			sourceNote: "Source note",
+			evidenceStatus: "needs_review" as const,
+			riskLevel: "low" as const,
+			tags: [],
+		};
+
+		const infoItems = buildInfoItems(feedItem, fact);
+
+		expect(infoItems.some((i) => i.author === "Dato clave")).toBe(true);
+		expect(infoItems.some((i) => i.author === "Fuente")).toBe(true);
+	});
+
+	it("returns empty array for item with no data", () => {
+		const feedItem = item("empty");
+		const infoItems = buildInfoItems(feedItem);
+		expect(infoItems).toEqual([]);
 	});
 });

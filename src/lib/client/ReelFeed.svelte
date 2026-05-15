@@ -1,8 +1,12 @@
 <script lang="ts">
+import InfoOverlay from "$lib/client/InfoOverlay.svelte";
 import ReelCard from "$lib/client/ReelCard.svelte";
 import {
 	type LoopedReel,
+	type ReelPage,
+	buildInfoItems,
 	buildLoopedFeedItems,
+	buildReelPages,
 	virtualizeReels,
 } from "$lib/client/reelFeed";
 import type { Fact, ReelFeedItem } from "$lib/types";
@@ -13,13 +17,14 @@ type Props = {
 	feedItems: ReelFeedItem[];
 };
 
-const { facts, feedItems }: Props = $props();
+let { facts, feedItems }: Props = $props();
 
 let selectedAnswers = $state<Record<string, number | undefined>>({});
 let activeReelIndex = $state(0);
 let scrollDirection = $state<"up" | "down">("down");
 let isPaused = $state<Record<string, boolean>>({});
 let swipeOffset = $state(0);
+let openInfoKey = $state<string | null>(null);
 
 let feedEl: HTMLElement | undefined = $state();
 const videoRefs: Record<string, HTMLVideoElement> = {};
@@ -27,15 +32,40 @@ const reelElements: Record<string, HTMLElement> = {};
 let observer: IntersectionObserver | undefined;
 let lastActiveIndex = 0;
 let touchStartY = 0;
+let isMobile = $state(false);
 
 const totalFacts = $derived(facts.length);
 const highRiskCount = $derived(
 	facts.filter((fact) => fact.riskLevel === "high").length,
 );
+const factMap = $derived(Object.fromEntries(facts.map((f) => [f.id, f])));
+
 const loopedFeedItems = $derived(buildLoopedFeedItems(feedItems));
+const mobilePages = $derived(buildReelPages(feedItems));
+const activePageType = $derived(
+	mobilePages[activeReelIndex]?.pageType ?? "video",
+);
+
 const virtualItems = $derived(
 	virtualizeReels(loopedFeedItems, activeReelIndex, scrollDirection),
 );
+
+const openInfoItems = $derived.by(() => {
+	if (!openInfoKey) return [];
+	const page = mobilePages.find((p) => p.key === openInfoKey);
+	if (!page) return [];
+	return buildInfoItems(page.item, factMap[page.item.factId]);
+});
+
+$effect(() => {
+	const mq = matchMedia("(max-width: 900px)");
+	isMobile = mq.matches;
+	const handler = () => {
+		isMobile = mq.matches;
+	};
+	mq.addEventListener("change", handler);
+	return () => mq.removeEventListener("change", handler);
+});
 
 $effect(() => {
 	if (!feedEl) return;
@@ -43,6 +73,7 @@ $effect(() => {
 		root: feedEl,
 		threshold: [0.6],
 	});
+	const items = isMobile ? mobilePages : loopedFeedItems;
 	for (const key of Object.keys(reelElements)) {
 		const el = reelElements[key];
 		if (el) observer.observe(el);
@@ -51,10 +82,11 @@ $effect(() => {
 });
 
 function handleIntersection(entries: IntersectionObserverEntry[]) {
+	const items = isMobile ? mobilePages : loopedFeedItems;
 	for (const entry of entries) {
 		const key = entry.target.getAttribute("data-reel-key");
 		if (!key) continue;
-		const index = loopedFeedItems.findIndex((reel) => reel.key === key);
+		const index = items.findIndex((reel) => reel.key === key);
 		if (index === -1) continue;
 		if (entry.isIntersecting && entry.intersectionRatio >= 0.6) {
 			activateReel(key, index);
@@ -70,7 +102,10 @@ function activateReel(key: string, index: number) {
 	}
 	activeReelIndex = index;
 	lastActiveIndex = index;
-	playVideo(key);
+	const page = mobilePages[index];
+	if (page?.pageType === "video") {
+		playVideo(key);
+	}
 }
 
 function playVideo(key: string) {
@@ -98,16 +133,18 @@ function togglePause(key: string) {
 }
 
 function scrollToReel(index: number) {
-	const safeIndex = Math.max(0, Math.min(index, loopedFeedItems.length - 1));
-	const key = loopedFeedItems[safeIndex]?.key;
+	const items = isMobile ? mobilePages : loopedFeedItems;
+	const safeIndex = Math.max(0, Math.min(index, items.length - 1));
+	const key = items[safeIndex]?.key;
 	if (!key) return;
 	const el = reelElements[key];
 	if (el) el.scrollIntoView({ behavior: "smooth" });
 }
 
 function skipToNext() {
+	const items = isMobile ? mobilePages : loopedFeedItems;
 	const nextIdx = activeReelIndex + 1;
-	const safeNext = nextIdx >= loopedFeedItems.length ? 0 : nextIdx;
+	const safeNext = nextIdx >= items.length ? 0 : nextIdx;
 	scrollToReel(safeNext);
 }
 
@@ -128,7 +165,9 @@ function handleKeydown(e: KeyboardEvent) {
 			break;
 		case " ":
 			e.preventDefault();
-			togglePause(loopedFeedItems[activeReelIndex]?.key ?? "");
+			togglePause(
+				(isMobile ? mobilePages : loopedFeedItems)[activeReelIndex]?.key ?? "",
+			);
 			break;
 		case "Home":
 			e.preventDefault();
@@ -136,7 +175,7 @@ function handleKeydown(e: KeyboardEvent) {
 			break;
 		case "End":
 			e.preventDefault();
-			scrollToReel(loopedFeedItems.length - 1);
+			scrollToReel((isMobile ? mobilePages : loopedFeedItems).length - 1);
 			break;
 	}
 }
@@ -178,10 +217,15 @@ function bindReel(node: HTMLElement, key: string) {
 	};
 }
 
-function displayCounter(loopedReels: LoopedReel[]) {
-	const current = loopedReels[activeReelIndex];
+function displayCounter(items: (LoopedReel | ReelPage)[]) {
+	const current = items[activeReelIndex];
 	if (!current) return "0/0";
-
+	if ("pageType" in current) {
+		const vidCount = items.filter(
+			(p) => "pageType" in p && p.pageType === "video",
+		).length;
+		return `${current.reelNumber}/${feedItems.length}`;
+	}
 	return `${current.reelNumber}/${feedItems.length}`;
 }
 </script>
@@ -205,48 +249,94 @@ function displayCounter(loopedReels: LoopedReel[]) {
 		</nav>
 
 		<div class="reel-counter">
-			<span class="mono">Video {displayCounter(loopedFeedItems)}</span>
+			<span class="mono">Video {displayCounter(isMobile ? mobilePages : loopedFeedItems)}</span>
 		</div>
 	</header>
 
 	<section
 		class="feed"
+		class:mobile={isMobile}
 		bind:this={feedEl}
 		aria-label="Feed de reels estilo Instagram"
 		ontouchstart={handleTouchStart}
 		ontouchmove={handleTouchMove}
 		ontouchend={handleTouchEnd}
 	>
-		{#each virtualItems as reel (reel.key)}
-			<ReelCard
-				{reel}
-				selectedAnswer={selectedAnswers[reel.key]}
-				isPaused={isPaused[reel.key] ?? false}
-				{swipeOffset}
-				onAnswerQuiz={answerQuiz}
-				onTogglePause={togglePause}
-				onNextReel={skipToNext}
-				onBindReel={bindReel}
-				onBindVideo={bindVideo}
-			/>
-		{/each}
+		{#if isMobile}
+			{#each mobilePages as page (page.key)}
+				<ReelCard
+					reel={page}
+					pageType={page.pageType}
+					selectedAnswer={selectedAnswers[page.key]}
+					isPaused={false}
+					{swipeOffset}
+					onAnswerQuiz={answerQuiz}
+					onTogglePause={togglePause}
+					onNextReel={skipToNext}
+					onBindReel={bindReel}
+					onBindVideo={bindVideo}
+					onInfoOpen={(key) => {
+						openInfoKey = key;
+					}}
+				/>
+			{/each}
+		{:else}
+			{#each virtualItems as reel (reel.key)}
+				<ReelCard
+					{reel}
+					selectedAnswer={selectedAnswers[reel.key]}
+					isPaused={isPaused[reel.key] ?? false}
+					{swipeOffset}
+					onAnswerQuiz={answerQuiz}
+					onTogglePause={togglePause}
+					onNextReel={skipToNext}
+					onBindReel={bindReel}
+					onBindVideo={bindVideo}
+				/>
+			{/each}
+		{/if}
 	</section>
 
-	<nav class="dot-nav" aria-label="Navegación de reels">
-		{#each feedItems as _, i}
-			{@const activeLoopIdx = activeReelIndex % feedItems.length}
-			<button
-				type="button"
-				class:active={i === activeLoopIdx}
-				aria-label={`Video ${i + 1}`}
-				onclick={() => {
-					const targetIdx = Math.floor(activeReelIndex / feedItems.length) * feedItems.length + i;
-					scrollToReel(targetIdx);
-				}}
-			></button>
-		{/each}
-	</nav>
+	{#if isMobile}
+		<nav class="dot-nav" aria-label="Navegación de reels">
+			{#each feedItems as _, i}
+				{@const activeBase = Math.floor(activeReelIndex / 2)}
+				<button
+					type="button"
+					class:active={i === activeBase % feedItems.length}
+					aria-label={`Video ${i + 1}`}
+					onclick={() => {
+						const targetIdx = i * 2;
+						scrollToReel(targetIdx);
+					}}
+				></button>
+			{/each}
+		</nav>
+	{:else}
+		<nav class="dot-nav" aria-label="Navegación de reels">
+			{#each feedItems as _, i}
+				{@const activeLoopIdx = activeReelIndex % feedItems.length}
+				<button
+					type="button"
+					class:active={i === activeLoopIdx}
+					aria-label={`Video ${i + 1}`}
+					onclick={() => {
+						const targetIdx = Math.floor(activeReelIndex / feedItems.length) * feedItems.length + i;
+						scrollToReel(targetIdx);
+					}}
+				></button>
+			{/each}
+		</nav>
+	{/if}
 </main>
+
+<InfoOverlay
+	items={openInfoItems}
+	open={openInfoKey !== null}
+	onClose={() => {
+		openInfoKey = null;
+	}}
+/>
 
 <style>
 	:global(html) {
@@ -347,17 +437,13 @@ function displayCounter(loopedReels: LoopedReel[]) {
 
 	@media (max-width: 900px) {
 		.topbar {
-			position: sticky;
-		}
-
-		nav {
 			display: none;
 		}
 
-		.feed {
-			height: auto;
-			overflow: visible;
-			scroll-snap-type: none;
+		.feed.mobile {
+			height: 100dvh;
+			scroll-snap-type: y mandatory;
+			-webkit-overflow-scrolling: touch;
 		}
 
 		.dot-nav {
@@ -365,34 +451,36 @@ function displayCounter(loopedReels: LoopedReel[]) {
 		}
 	}
 
-	.dot-nav {
-		position: fixed;
-		right: 16px;
-		top: 50%;
-		transform: translateY(-50%);
-		z-index: 9;
-		display: flex;
-		flex-direction: column;
-		gap: 10px;
-	}
+	@media (min-width: 901px) {
+		.dot-nav {
+			position: fixed;
+			right: 16px;
+			top: 50%;
+			transform: translateY(-50%);
+			z-index: 9;
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+		}
 
-	.dot-nav button {
-		width: 10px;
-		height: 10px;
-		padding: 0;
-		border: 1px solid var(--ink);
-		border-radius: 50%;
-		background: #fffdf8;
-		cursor: pointer;
-		transition: background 0.15s, transform 0.15s;
-	}
+		.dot-nav button {
+			width: 10px;
+			height: 10px;
+			padding: 0;
+			border: 1px solid var(--ink);
+			border-radius: 50%;
+			background: #fffdf8;
+			cursor: pointer;
+			transition: background 0.15s, transform 0.15s;
+		}
 
-	.dot-nav button.active {
-		background: var(--yellow);
-		transform: scale(1.35);
-	}
+		.dot-nav button.active {
+			background: var(--yellow);
+			transform: scale(1.35);
+		}
 
-	.dot-nav button:hover {
-		background: var(--yellow);
+		.dot-nav button:hover {
+			background: var(--yellow);
+		}
 	}
 </style>

@@ -1,10 +1,1 @@
-.DS_Store
-node_modules
-.svelte-kit
-build
-.env
-.env.*
-!.env.example
-coverage
-dist
-output
+.superpowers/

@@ -1,5 +1,5 @@
 <script lang="ts">
-import type { VirtualReel } from "$lib/client/reelFeed";
+import type { PageType, ReelPage, VirtualReel } from "$lib/client/reelFeed";
 import {
 	BadgeCheck,
 	BookOpenCheck,
@@ -8,6 +8,7 @@ import {
 	FileAudio,
 	FileVideo,
 	Images,
+	MessageCircle,
 } from "lucide-svelte";
 
 type ActionReturn = {
@@ -15,7 +16,8 @@ type ActionReturn = {
 };
 
 type Props = {
-	reel: VirtualReel;
+	reel: ReelPage | VirtualReel;
+	pageType?: PageType;
 	selectedAnswer: number | undefined;
 	isPaused: boolean;
 	swipeOffset: number;
@@ -24,10 +26,12 @@ type Props = {
 	onNextReel: (key: string) => void;
 	onBindReel: (node: HTMLElement, key: string) => ActionReturn;
 	onBindVideo: (node: HTMLVideoElement, key: string) => ActionReturn;
+	onInfoOpen?: (key: string) => void;
 };
 
 let {
 	reel,
+	pageType,
 	selectedAnswer,
 	isPaused,
 	swipeOffset,
@@ -36,6 +40,7 @@ let {
 	onNextReel,
 	onBindReel,
 	onBindVideo,
+	onInfoOpen,
 }: Props = $props();
 
 const item = $derived(reel.item);
@@ -69,14 +74,71 @@ function assetIcon(kind: "audio" | "image" | "video") {
 
 <article
 	class="reel"
+	class:page-video={pageType === "video"}
+	class:page-quiz={pageType === "quiz"}
 	id={`reel-${reel.loopIndex}`}
 	data-reel-key={reel.key}
 	use:onBindReel={reel.key}
 	aria-label={item.title}
 >
-	{#if reel.shouldRender}
+	{#if "shouldRender" in reel && !reel.shouldRender}
+		<div class="phone placeholder"></div>
+		<aside class="lesson placeholder">
+			<div class="lesson-head">
+				<div>
+					<p class="eyebrow">Cargando...</p>
+					<h2>-</h2>
+				</div>
+			</div>
+		</aside>
+	{:else if pageType === "quiz"}
+		<div class="quiz-full">
+			<div class="quiz-header">
+				<p class="eyebrow">Después del video</p>
+				<h2>Pregunta rápida</h2>
+			</div>
+
+			<div class="question">
+				<h3>{item.quiz.question}</h3>
+				<div class="answers">
+					{#each item.quiz.options as option, optionIndex}
+						<button
+							type="button"
+							class:chosen={selectedAnswer === optionIndex}
+							class:correct={selectedAnswer !== undefined &&
+								optionIndex === item.quiz.answerIndex}
+							class:wrong={selectedAnswer === optionIndex &&
+								optionIndex !== item.quiz.answerIndex}
+							onclick={() => onAnswerQuiz(reel.key, optionIndex)}
+						>
+							<span class="mono">{String.fromCharCode(65 + optionIndex)}</span>
+							{option}
+						</button>
+					{/each}
+				</div>
+
+				{#if selectedAnswer !== undefined}
+					<p class="explanation">
+						<BadgeCheck size={18} />
+						{item.quiz.explanation}
+					</p>
+				{/if}
+			</div>
+
+			<button
+				class="next-page-btn"
+				type="button"
+				aria-label="Siguiente video"
+				onclick={() => onNextReel(reel.key)}
+			>
+				Siguiente video
+				<ChevronDown size={18} />
+			</button>
+		</div>
+	{:else}
 		<div
 			class="phone"
+			class:page-mode={pageType === "video"}
 			role="button"
 			tabindex="0"
 			aria-label={isPaused ? "Reproducir video" : "Pausar video"}
@@ -89,12 +151,12 @@ function assetIcon(kind: "audio" | "image" | "video") {
 			}}
 		>
 			<video
-				src={reel.shouldPreload ? item.videoPath : undefined}
+				src={("shouldPreload" in reel && reel.shouldPreload) || pageType === "video" ? item.videoPath : undefined}
 				poster={item.posterPath}
 				loop
 				muted
 				playsinline
-				preload={reel.shouldPreload ? "metadata" : "none"}
+				preload={("shouldPreload" in reel && reel.shouldPreload) || pageType === "video" ? "metadata" : "none"}
 				ontimeupdate={handleTimeUpdate}
 				onerror={handleVideoError}
 				use:onBindVideo={reel.key}
@@ -102,7 +164,7 @@ function assetIcon(kind: "audio" | "image" | "video") {
 				<track kind="captions" />
 			</video>
 
-			{#if videoError && reel.isActive}
+			{#if videoError && ("isActive" in reel && reel.isActive)}
 				<div class="video-error" aria-label="Error al cargar video">
 					<p>Video no disponible</p>
 					<small>El medio no se pudo cargar. Probá con el siguiente reel.</small>
@@ -129,6 +191,18 @@ function assetIcon(kind: "audio" | "image" | "video") {
 			</div>
 
 			<button
+				class="info-btn"
+				type="button"
+				aria-label="Información adicional"
+				onclick={(e) => {
+					e.stopPropagation();
+					onInfoOpen?.(reel.key);
+				}}
+			>
+				<MessageCircle size={22} />
+			</button>
+
+			<button
 				class="next-btn"
 				type="button"
 				aria-label="Próximo video"
@@ -140,7 +214,7 @@ function assetIcon(kind: "audio" | "image" | "video") {
 				<ChevronDown size={24} />
 			</button>
 
-			{#if isPaused && reel.isActive}
+			{#if isPaused && ("isActive" in reel && reel.isActive)}
 				<div class="pause-indicator" aria-label="Video pausado">▌▌</div>
 			{/if}
 		</div>
@@ -207,16 +281,6 @@ function assetIcon(kind: "audio" | "image" | "video") {
 				<p>{item.brief.script}</p>
 			</div>
 		</aside>
-	{:else}
-		<div class="phone placeholder"></div>
-		<aside class="lesson placeholder">
-			<div class="lesson-head">
-				<div>
-					<p class="eyebrow">Cargando...</p>
-					<h2>-</h2>
-				</div>
-			</div>
-		</aside>
 	{/if}
 </article>
 
@@ -233,6 +297,13 @@ function assetIcon(kind: "audio" | "image" | "video") {
 		overflow: hidden;
 	}
 
+	.reel.page-video,
+	.reel.page-quiz {
+		grid-template-columns: minmax(0, 1fr);
+		padding: 0;
+		height: 100dvh;
+	}
+
 	.phone {
 		position: relative;
 		overflow: hidden;
@@ -247,6 +318,16 @@ function assetIcon(kind: "audio" | "image" | "video") {
 		box-shadow: 10px 10px 0 var(--blue);
 		color: inherit;
 		cursor: pointer;
+	}
+
+	.phone.page-mode {
+		width: 100%;
+		max-height: 100dvh;
+		height: 100dvh;
+		aspect-ratio: auto;
+		border: none;
+		box-shadow: none;
+		border-radius: 0;
 	}
 
 	.phone.placeholder {
@@ -274,6 +355,30 @@ function assetIcon(kind: "audio" | "image" | "video") {
 		height: 100%;
 		background: var(--yellow);
 		transition: width 0.1s linear;
+	}
+
+	.info-btn {
+		position: absolute;
+		bottom: 12px;
+		left: 12px;
+		z-index: 3;
+		display: grid;
+		width: 44px;
+		height: 44px;
+		place-items: center;
+		padding: 0;
+		border: 1px solid rgb(255 250 241 / 62%);
+		border-radius: 50%;
+		background: rgb(0 0 0 / 52%);
+		color: #fffaf1;
+		cursor: pointer;
+		backdrop-filter: blur(4px);
+		transition: transform 0.15s ease;
+	}
+
+	.info-btn:hover {
+		transform: scale(1.12);
+		background: rgb(0 0 0 / 72%);
 	}
 
 	.next-btn {
@@ -540,6 +645,43 @@ function assetIcon(kind: "audio" | "image" | "video") {
 		-webkit-line-clamp: 5;
 	}
 
+	.quiz-full {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 100dvh;
+		padding: 32px 24px;
+		background: var(--paper);
+		gap: 24px;
+	}
+
+	.quiz-header h2 {
+		margin-top: 4px;
+	}
+
+	.next-page-btn {
+		display: inline-flex;
+		gap: 8px;
+		align-items: center;
+		align-self: center;
+		padding: 12px 24px;
+		border: 1px solid var(--ink);
+		background: var(--yellow);
+		color: var(--ink);
+		font-family: var(--font-mono);
+		font-size: 0.85rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		box-shadow: 4px 4px 0 var(--ink);
+		cursor: pointer;
+		transition: transform 0.1s;
+	}
+
+	.next-page-btn:hover {
+		transform: translate(-1px, -1px);
+		box-shadow: 6px 6px 0 var(--ink);
+	}
+
 	@media (max-width: 900px) {
 		.reel {
 			grid-template-columns: minmax(0, 1fr);
@@ -547,9 +689,35 @@ function assetIcon(kind: "audio" | "image" | "video") {
 			scroll-snap-align: none;
 		}
 
+		.reel.page-video,
+		.reel.page-quiz {
+			grid-template-columns: minmax(0, 1fr);
+			padding: 0;
+			height: 100dvh;
+			scroll-snap-align: start;
+		}
+
 		.phone {
 			width: min(100%, 420px);
 			justify-self: center;
+		}
+
+		.phone.page-mode {
+			width: 100%;
+			max-height: none;
+			aspect-ratio: auto;
+			height: 100dvh;
+			border: none;
+			box-shadow: none;
+			border-radius: 0;
+		}
+
+		.lesson {
+			display: none;
+		}
+
+		.page-quiz .lesson {
+			display: none;
 		}
 	}
 </style>
