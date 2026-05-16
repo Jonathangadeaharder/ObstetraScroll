@@ -1,0 +1,348 @@
+[
+  {
+    "type": "kling-video",
+    "slug": "reel-01-clip-1",
+    "model": "kling-v1-6",
+    "prompt": "10 UI de oxitocina en el 3er periodo reduce HPP un 60%, médica obstetra latina hablando a cámara, gestos suaves con manos, expresión profesional, fondo clínico",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "queued"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-01-clip-2",
+    "model": "kling-v1-6",
+    "prompt": "Médica obstetra explicando un concepto clínico a cámara, tono serio pero accesible, manos gesticulando, consultorio obstetricia",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "done",
+    "taskId": "884603546288169005",
+    "filePath": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/reel-poc/reel-01-clip-2.mp4"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-01-clip-3",
+    "model": "kling-v1-6",
+    "prompt": "Obstetra profesional mirando a cámara, fondo con ecógrafo y materiales clínicos, expresión de enseñanza, ambiente médico",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "done",
+    "taskId": "884603547118489669",
+    "filePath": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/reel-poc/reel-01-clip-3.mp4"
+  },
+  {
+    "type": "elevenlabs-audio",
+    "slug": "reel-01-audio",
+    "voice": "D6fGRDoSy1WFiaIpAbC7",
+    "text": "Diez unidades de oxitocina intramuscular dentro del minuto posterior al parto. Eso es todo lo que separa una hemorragia prevenible de una emergencia obstétrica. Sesenta por ciento menos de hemorragia postparto comparado con manejo expectante. Y sin embargo muchos equipos esperan signos de separación placentaria antes de administrarla. La ventana óptima es el primer minuto. No esperes. Oxitocina profiláctica: el minuto uno salva vidas.",
+    "status": "done",
+    "filePath": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/reel-poc/reel-01-audio.mp3"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-02-clip-1",
+    "model": "kling-v1-6",
+    "prompt": "El manejo activo del 3er periodo duplica la protección contra HPP, médica obstetra latina hablando a cámara, gestos suaves con manos, expresión profesional, fondo clínico",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "queued"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-02-clip-2",
+    "model": "kling-v1-6",
+    "prompt": "Médica obstetra explicando un concepto clínico a cámara, tono serio pero accesible, manos gesticulando, consultorio obstetricia",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "done",
+    "taskId": "884603547118637152",
+    "filePath": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/reel-poc/reel-02-clip-2.mp4"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-02-clip-3",
+    "model": "kling-v1-6",
+    "prompt": "Obstetra profesional mirando a cámara, fondo con ecógrafo y materiales clínicos, expresión de enseñanza, ambiente médico",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "queued"
+  },
+  {
+    "type": "elevenlabs-audio",
+    "slug": "reel-02-audio",
+    "voice": "D6fGRDoSy1WFiaIpAbC7",
+    "text": "Manejo activo versus expectante. Oxitocina más tracción controlada del cordón más masaje uterino. Reduce HPP severa en más del 50 por ciento. Solo necesitas tratar a 14 pacientes para prevenir una hemorragia severa. Persiste el mito de que el manejo expectante es más fisiológico. Pero la evidencia es clara. El manejo activo reduce mortalidad y no aumenta complicaciones. Tres pasos. Una vida.",
+    "status": "done",
+    "filePath": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/reel-poc/reel-02-audio.mp3"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-03-clip-1",
+    "model": "kling-v1-6",
+    "prompt": "Ácido tranexámico en HPP: cada minuto cuenta, médica obstetra latina hablando a cámara, gestos suaves con manos, expresión profesional, fondo clínico",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "queued"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-03-clip-2",
+    "model": "kling-v1-6",
+    "prompt": "Médica obstetra explicando un concepto clínico a cámara, tono serio pero accesible, manos gesticulando, consultorio obstetricia",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "done",
+    "taskId": "884603547122679855",
+    "filePath": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/reel-poc/reel-03-clip-2.mp4"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-03-clip-3",
+    "model": "kling-v1-6",
+    "prompt": "Obstetra profesional mirando a cámara, fondo con ecógrafo y materiales clínicos, expresión de enseñanza, ambiente médico",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "queued"
+  },
+  {
+    "type": "elevenlabs-audio",
+    "slug": "reel-03-audio",
+    "voice": "D6fGRDoSy1WFiaIpAbC7",
+    "text": "Ácido tranexámico. Un gramo intravenoso. Dentro de las primeras tres horas reduce muerte por sangrado treinta y uno por ciento. Pero si lo das dentro de la primera hora la reducción llega al sesenta y ocho por ciento. El estudio WOMAN Trial lo demostró con más de veinte mil pacientes. Y aún así muchos equipos lo usan como última opción. No esperes. El TXA es primera línea en HPP. Cada minuto que pasa, pierdes protección.",
+    "status": "done",
+    "filePath": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/reel-poc/reel-03-audio.mp3"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-04-clip-1",
+    "model": "kling-v1-6",
+    "prompt": "El masaje uterino cada 15 minutos no previene HPP, médica obstetra latina hablando a cámara, gestos suaves con manos, expresión profesional, fondo clínico",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "queued"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-04-clip-2",
+    "model": "kling-v1-6",
+    "prompt": "Médica obstetra explicando un concepto clínico a cámara, tono serio pero accesible, manos gesticulando, consultorio obstetricia",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "queued"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-04-clip-3",
+    "model": "kling-v1-6",
+    "prompt": "Obstetra profesional mirando a cámara, fondo con ecógrafo y materiales clínicos, expresión de enseñanza, ambiente médico",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "done",
+    "taskId": "884603547143655425",
+    "filePath": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/reel-poc/reel-04-clip-3.mp4"
+  },
+  {
+    "type": "elevenlabs-audio",
+    "slug": "reel-04-audio",
+    "voice": "D6fGRDoSy1WFiaIpAbC7",
+    "text": "Masaje uterino cada quince minutos durante dos horas. Suena a protocolo estricto. Pero la evidencia dice que no reduce la incidencia de hemorragia. No. Tiene. Más. Efecto. Que evaluar a demanda cuando hay signos de alerta. Esto no significa que el masaje no sirva. Significa que hacerlo programado sin indicación no agrega beneficio. Evalúa el tono uterino cuando toca. No cada quince minutos por rutina.",
+    "status": "done",
+    "filePath": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/reel-poc/reel-04-audio.mp3"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-05-clip-1",
+    "model": "kling-v1-6",
+    "prompt": "Carbetocina estable supera a oxitocina termolábil, médica obstetra latina hablando a cámara, gestos suaves con manos, expresión profesional, fondo clínico",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "queued"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-05-clip-2",
+    "model": "kling-v1-6",
+    "prompt": "Médica obstetra explicando un concepto clínico a cámara, tono serio pero accesible, manos gesticulando, consultorio obstetricia",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "queued"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-05-clip-3",
+    "model": "kling-v1-6",
+    "prompt": "Obstetra profesional mirando a cámara, fondo con ecógrafo y materiales clínicos, expresión de enseñanza, ambiente médico",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "done",
+    "taskId": "884603547118637153",
+    "filePath": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/reel-poc/reel-05-clip-3.mp4"
+  },
+  {
+    "type": "elevenlabs-audio",
+    "slug": "reel-05-audio",
+    "voice": "D6fGRDoSy1WFiaIpAbC7",
+    "text": "La oxitocina necesita refrigeración constante entre dos y ocho grados. En países de ingresos bajos y medios, hasta cuarenta por ciento pierde eficacia por ruptura de la cadena de frío. La carbetocina es estable a temperatura ambiente hasta treinta grados. Y no es inferior a la oxitocina para prevenir hemorragia. Cien microgramos intravenosos o intramusculares. Sin nevera. Sin excusas.",
+    "status": "done",
+    "filePath": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/reel-poc/reel-05-audio.mp3"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-06-clip-1",
+    "model": "kling-v1-6",
+    "prompt": "Misoprostol sublingual salva vidas donde no hay oxitocina, médica obstetra latina hablando a cámara, gestos suaves con manos, expresión profesional, fondo clínico",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "done",
+    "taskId": "884603547126874158",
+    "filePath": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/reel-poc/reel-06-clip-1.mp4"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-06-clip-2",
+    "model": "kling-v1-6",
+    "prompt": "Médica obstetra explicando un concepto clínico a cámara, tono serio pero accesible, manos gesticulando, consultorio obstetricia",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "queued"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-06-clip-3",
+    "model": "kling-v1-6",
+    "prompt": "Obstetra profesional mirando a cámara, fondo con ecógrafo y materiales clínicos, expresión de enseñanza, ambiente médico",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "queued"
+  },
+  {
+    "type": "elevenlabs-audio",
+    "slug": "reel-06-audio",
+    "voice": "D6fGRDoSy1WFiaIpAbC7",
+    "text": "Ochocientos microgramos de misoprostol sublingual. Cuando no hay oxitocina inyectable, esta pastilla reduce la necesidad de transfusiones en treinta por ciento. Sí, produce escalofríos y a veces fiebre. Pero el perfil beneficio riesgo en contextos sin acceso a oxitocina es abrumadoramente favorable. El misoprostol no es ideal. Es lo que tienes cuando no hay nada más. Y salva vidas.",
+    "status": "done",
+    "filePath": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/reel-poc/reel-06-audio.mp3"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-07-clip-1",
+    "model": "kling-v1-6",
+    "prompt": "La tracción controlada del cordón no previene HPP por sí sola, médica obstetra latina hablando a cámara, gestos suaves con manos, expresión profesional, fondo clínico",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "queued"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-07-clip-2",
+    "model": "kling-v1-6",
+    "prompt": "Médica obstetra explicando un concepto clínico a cámara, tono serio pero accesible, manos gesticulando, consultorio obstetricia",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "queued"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-07-clip-3",
+    "model": "kling-v1-6",
+    "prompt": "Obstetra profesional mirando a cámara, fondo con ecógrafo y materiales clínicos, expresión de enseñanza, ambiente médico",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "done",
+    "taskId": "884603547122835487",
+    "filePath": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/reel-poc/reel-07-clip-3.mp4"
+  },
+  {
+    "type": "elevenlabs-audio",
+    "slug": "reel-07-audio",
+    "voice": "D6fGRDoSy1WFiaIpAbC7",
+    "text": "La tracción controlada del cordón se enseña como paso esencial del manejo activo. Pero el beneficio principal viene de la oxitocina, no de la tracción. Estudiado: tracción controlada sin oxitocina no reduce hemorragia severa ni necesidad de transfusión. Esto no es teoría. Es Cochrane. La oxitocina es la heroína. La tracción es el acompañante. No inviertas el orden.",
+    "status": "done",
+    "filePath": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/reel-poc/reel-07-audio.mp3"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-08-clip-1",
+    "model": "kling-v1-6",
+    "prompt": "Compresión bimanual uterina: la maniobra que todos deberían conocer, médica obstetra latina hablando a cámara, gestos suaves con manos, expresión profesional, fondo clínico",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "queued"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-08-clip-2",
+    "model": "kling-v1-6",
+    "prompt": "Médica obstetra explicando un concepto clínico a cámara, tono serio pero accesible, manos gesticulando, consultorio obstetricia",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "done",
+    "taskId": "884603546296406103",
+    "filePath": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/reel-poc/reel-08-clip-2.mp4"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-08-clip-3",
+    "model": "kling-v1-6",
+    "prompt": "Obstetra profesional mirando a cámara, fondo con ecógrafo y materiales clínicos, expresión de enseñanza, ambiente médico",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "done",
+    "taskId": "884603547118628913",
+    "filePath": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/reel-poc/reel-08-clip-3.mp4"
+  },
+  {
+    "type": "elevenlabs-audio",
+    "slug": "reel-08-audio",
+    "voice": "D6fGRDoSy1WFiaIpAbC7",
+    "text": "Cuando no tienes uterotónicos a mano y el útero sangra, tienes diez segundos para actuar. Compresión bimanual del útero: una mano en el abdomen, la otra en la vagina, comprimes el istmo. No requiere insumos. No requiere electricidad. Solo conocimiento. Pero muchos equipos nunca la practican en simulaciones. Es el puente entre el sangrado y la cirugía. Practícala antes de que la necesites.",
+    "status": "done",
+    "filePath": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/reel-poc/reel-08-audio.mp3"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-09-clip-1",
+    "model": "kling-v1-6",
+    "prompt": "El balón de taponamiento uterino evita cirugías mayores en HPP, médica obstetra latina hablando a cámara, gestos suaves con manos, expresión profesional, fondo clínico",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "done",
+    "taskId": "884603547122683928",
+    "filePath": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/reel-poc/reel-09-clip-1.mp4"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-09-clip-2",
+    "model": "kling-v1-6",
+    "prompt": "Médica obstetra explicando un concepto clínico a cámara, tono serio pero accesible, manos gesticulando, consultorio obstetricia",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "done",
+    "taskId": "884603546288013314",
+    "filePath": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/reel-poc/reel-09-clip-2.mp4"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-09-clip-3",
+    "model": "kling-v1-6",
+    "prompt": "Obstetra profesional mirando a cámara, fondo con ecógrafo y materiales clínicos, expresión de enseñanza, ambiente médico",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "queued"
+  },
+  {
+    "type": "elevenlabs-audio",
+    "slug": "reel-09-audio",
+    "voice": "D6fGRDoSy1WFiaIpAbC7",
+    "text": "Balón de Bakri o balón de condón. Tienen ochenta y cinco a noventa y cinco por ciento de éxito para controlar hemorragia por atonía. Evitan laparotomía. Evitan histerectomía. Su costo es la principal barrera pero existen alternativas artesanales con eficacia similar. Un balón de condón con suero fisiológico. Cuesta centavos. Puede salvar un útero y una vida. El taponamiento no es la última opción. Es la oportunidad.",
+    "status": "done",
+    "filePath": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/reel-poc/reel-09-audio.mp3"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-10-clip-1",
+    "model": "kling-v1-6",
+    "prompt": "Ligadura de arterias uterinas preserva fertilidad en HPP refractaria, médica obstetra latina hablando a cámara, gestos suaves con manos, expresión profesional, fondo clínico",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "done",
+    "taskId": "884603547106045966",
+    "filePath": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/reel-poc/reel-10-clip-1.mp4"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-10-clip-2",
+    "model": "kling-v1-6",
+    "prompt": "Médica obstetra explicando un concepto clínico a cámara, tono serio pero accesible, manos gesticulando, consultorio obstetricia",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "queued"
+  },
+  {
+    "type": "kling-video",
+    "slug": "reel-10-clip-3",
+    "model": "kling-v1-6",
+    "prompt": "Obstetra profesional mirando a cámara, fondo con ecógrafo y materiales clínicos, expresión de enseñanza, ambiente médico",
+    "image": "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png",
+    "status": "queued"
+  },
+  {
+    "type": "elevenlabs-audio",
+    "slug": "reel-10-audio",
+    "voice": "D6fGRDoSy1WFiaIpAbC7",
+    "text": "Hemorragia que no responde a uterotónicos. La tentación es histerectomía. Pero la ligadura bilateral de arterias uterinas técnica de O'Leary tiene ochenta a noventa por ciento de éxito. Preserva el útero. Preserva la fertilidad. Es cirugía, sí. Pero es cirugía conservadora. No toda HPP que no cede con fármacos necesita histerectomía. La devascularización es una opción. Y debe estar en tu arsenal.",
+    "status": "done",
+    "filePath": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/reel-poc/reel-10-audio.mp3"
+  }
+]

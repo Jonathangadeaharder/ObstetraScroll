@@ -119,6 +119,44 @@ jobs:
           fi
           echo "PostHog host check passed."
 
+  mutation-testing:
+    name: Mutation Testing (Incremental)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Download previous incremental cache
+        uses: actions/cache/restore@v4
+        id: stryker-cache
+        with:
+          path: reports/stryker-incremental.json
+          key: stryker-incremental-${{ github.base_ref }}
+
+      - name: Run Stryker incremental
+        run: pnpm exec stryker run --incremental
+
+      - name: Upload new incremental cache
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: reports/stryker-incremental.json
+          key: stryker-incremental-${{ github.base_ref }}-${{ github.sha }}
+          restore-keys: |
+            stryker-incremental-${{ github.base_ref }}-
+
   required-checks:
     name: Required Checks (PR)
     runs-on: ubuntu-latest
@@ -128,6 +166,7 @@ jobs:
       - dependency-scan
       - secret-scanning
       - infra-validation
+      - mutation-testing
     if: always()
     steps:
       - name: Verify all jobs passed
@@ -136,7 +175,8 @@ jobs:
              [ "${{ needs.node-quality.result }}" != "success" ] || \
              [ "${{ needs.dependency-scan.result }}" != "success" ] || \
              [ "${{ needs.secret-scanning.result }}" != "success" ] || \
-             [ "${{ needs.infra-validation.result }}" != "success" ]; then
+             [ "${{ needs.infra-validation.result }}" != "success" ] || \
+             [ "${{ needs.mutation-testing.result }}" != "success" ]; then
             echo "One or more PR gate jobs failed."
             exit 1
           fi
