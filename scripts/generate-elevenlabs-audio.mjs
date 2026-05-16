@@ -77,7 +77,7 @@ for (const [idx, item] of items.entries()) {
         voice_settings: {
           stability: 0.35,
           similarity_boost: 0.85,
-          speed: 1.0,
+          speed: 1,
         },
       }),
     },

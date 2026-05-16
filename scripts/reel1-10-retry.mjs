@@ -1,4 +1,4 @@
-import { mkdirSync, writeFileSync, readFileSync } from "node:fs";
+import { writeFileSync, readFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 
 const projectRoot = resolve(import.meta.dirname, "..");
@@ -6,7 +6,8 @@ const outDir = join(projectRoot, "static", "generated-media", "reel-poc");
 const manifestPath = join(outDir, "manifest.json");
 const manifest = JSON.parse(readFileSync(manifestPath, "utf8"));
 
-const CRAZY_TOKEN = "sk-CGkQU7BHDRWamWo7btwJ5ZVYgemSKY7eIYTMdklaf8qjH8Ru";
+const CRAZY_TOKEN = process.env.CRAZY_TOKEN;
+if (!CRAZY_TOKEN) throw new Error("CRAZY_TOKEN not set");
 const API_KEY = process.env.ELEVENLABS_TOKEN;
 
 // Retry kling tasks that got undefined taskId
@@ -35,10 +36,10 @@ for (const item of failedAudio) {
     body: JSON.stringify({
       model_id: "eleven_multilingual_v2",
       text: item.text,
-      voice_settings: { stability: 0.35, similarity_boost: 0.85, speed: 1.0 }
+      voice_settings: { stability: 0.35, similarity_boost: 0.85, speed: 1 }
     })
   });
-  if (!resp.ok) { console.error(`  ${item.slug} FAILED: ${await resp.text()}`); continue; }
+  if (!resp.ok) { console.error(`  ${item.slug} FAILED: HTTP ${resp.status}`); continue; }
   const buffer = await resp.arrayBuffer();
   const outPath = join(outDir, `${item.slug}.mp3`);
   writeFileSync(outPath, Buffer.from(buffer));

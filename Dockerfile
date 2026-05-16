@@ -15,9 +15,8 @@ RUN pnpm prune --prod --ignore-scripts
 FROM node:22-slim AS runner
 
 RUN apt-get update && apt-get install -y --no-install-recommends tini curl && \
-    rm -rf /var/lib/apt/lists/*
-
-RUN groupadd -r app && useradd -r -g app -d /app -s /sbin/nologin app
+    rm -rf /var/lib/apt/lists/* && \
+    groupadd -r app && useradd -r -g app -d /app -s /sbin/nologin app
 
 WORKDIR /app
 

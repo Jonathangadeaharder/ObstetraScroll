@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, mkdirSync, createWriteStream } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { execSync } from "node:child_process";
 
@@ -7,7 +7,8 @@ const outDir = join(projectRoot, "static", "generated-media", "reel-poc");
 const manifestPath = join(outDir, "manifest.json");
 const manifest = JSON.parse(readFileSync(manifestPath, "utf8"));
 
-const CRAZY_TOKEN = "sk-CGkQU7BHDRWamWo7btwJ5ZVYgemSKY7eIYTMdklaf8qjH8Ru";
+const CRAZY_TOKEN = process.env.CRAZY_TOKEN;
+if (!CRAZY_TOKEN) throw new Error("CRAZY_TOKEN not set");
 
 // Poll kling tasks until done
 const klingTasks = manifest.filter(m => m.type === "kling-video" && m.taskId);
@@ -61,7 +62,7 @@ console.log("\nProcessing final reels...");
 // Get audio durations
 function getDuration(filePath) {
   const out = execSync(`ffprobe -v quiet -print_format json -show_format "${filePath}"`, { encoding: "utf8" });
-  return parseFloat(JSON.parse(out).format.duration);
+  return Number.parseFloat(JSON.parse(out).format.duration);
 }
 
 // Get video info
@@ -89,7 +90,7 @@ for (const item of manifest) {
 const finalsDir = join(outDir, "final");
 mkdirSync(finalsDir, { recursive: true });
 
-for (const [num, reel] of Object.entries(reels).sort()) {
+for (const [num, reel] of Object.entries(reels).sort((a, b) => a[0].localeCompare(b[0]))) {
   if (!reel.audio || reel.clips.length === 0) {
     console.log(`  reel-${num}: SKIP (audio=${!!reel.audio}, clips=${reel.clips.length})`);
     continue;

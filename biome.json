@@ -5,16 +5,7 @@
 	},
 	"files": {
 		"include": ["src"],
-		"ignore": [
-			".svelte-kit",
-			".stryker-tmp",
-			"build",
-			"node_modules",
-			".venv",
-			"pnpm-lock.yaml",
-			"static/generated-media",
-			"coverage"
-		]
+		"ignore": [".svelte-kit"]
 	},
 	"formatter": {
 		"enabled": true,

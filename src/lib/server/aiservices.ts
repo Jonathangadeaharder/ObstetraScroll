@@ -35,63 +35,63 @@ export type AIServicesCommand = {
 	output: string;
 };
 
-function pushOption(
-	args: string[],
-	name: string,
-	value: string | number | undefined,
-) {
-	if (value === undefined) return;
-	args.push(name, String(value));
+function option(name: string, value: string | number | undefined): string[] {
+	if (value === undefined) return [];
+	return [name, String(value)];
 }
 
 export function buildAIServicesCommand(
 	operation: AIServicesOperation,
 	request: AIServicesRequest,
 ): AIServicesCommand {
-	const args = ["run"];
+	type ParamValue =
+		| keyof AIServicesRequest
+		| ((r: AIServicesRequest) => string | undefined);
+	const paramMap: Record<AIServicesOperation, Array<[string, ParamValue]>> = {
+		text2video: [
+			["--prompt", "prompt"],
+			["--output", "output"],
+			["--seconds", "seconds"],
+			["--fps", "fps"],
+			["--width", "width"],
+			["--height", "height"],
+			["--steps", "steps"],
+			["--seed", "seed"],
+		],
+		image2video: [
+			["--input", "input"],
+			["--prompt", "prompt"],
+			["--output", "output"],
+			["--seconds", "seconds"],
+			["--fps", "fps"],
+			["--width", "width"],
+			["--height", "height"],
+			["--steps", "steps"],
+			["--seed", "seed"],
+		],
+		text2image: [
+			["--prompt", "prompt"],
+			["--output", "output"],
+			["--width", "width"],
+			["--height", "height"],
+			["--steps", "steps"],
+			["--seed", "seed"],
+		],
+		text2audio: [
+			["--text", (r) => r.text ?? r.prompt],
+			["--output", "output"],
+			["--voice", "voice"],
+			["--speed", "speed"],
+			["--seed", "seed"],
+		],
+		"kling-v1-6": [],
+		elevenlabs: [],
+	};
 
-	if (operation === "text2video") {
-		args.push("--package", "text2video", "text2video");
-		pushOption(args, "--prompt", request.prompt);
-		pushOption(args, "--output", request.output);
-		pushOption(args, "--seconds", request.seconds);
-		pushOption(args, "--fps", request.fps);
-		pushOption(args, "--width", request.width);
-		pushOption(args, "--height", request.height);
-		pushOption(args, "--steps", request.steps);
-		pushOption(args, "--seed", request.seed);
-	}
-
-	if (operation === "image2video") {
-		args.push("--package", "image2video", "image2video");
-		pushOption(args, "--input", request.input);
-		pushOption(args, "--prompt", request.prompt);
-		pushOption(args, "--output", request.output);
-		pushOption(args, "--seconds", request.seconds);
-		pushOption(args, "--fps", request.fps);
-		pushOption(args, "--width", request.width);
-		pushOption(args, "--height", request.height);
-		pushOption(args, "--steps", request.steps);
-		pushOption(args, "--seed", request.seed);
-	}
-
-	if (operation === "text2image") {
-		args.push("--package", "text2image", "text2image");
-		pushOption(args, "--prompt", request.prompt);
-		pushOption(args, "--output", request.output);
-		pushOption(args, "--width", request.width);
-		pushOption(args, "--height", request.height);
-		pushOption(args, "--steps", request.steps);
-		pushOption(args, "--seed", request.seed);
-	}
-
-	if (operation === "text2audio") {
-		args.push("--package", "text2audio", "text2audio");
-		pushOption(args, "--text", request.text ?? request.prompt);
-		pushOption(args, "--output", request.output);
-		pushOption(args, "--voice", request.voice);
-		pushOption(args, "--speed", request.speed);
-		pushOption(args, "--seed", request.seed);
+	const args = ["run", "--package", operation, operation];
+	for (const [flag, key] of paramMap[operation]) {
+		const value = typeof key === "function" ? key(request) : request[key];
+		args.push(...option(flag, value));
 	}
 
 	return {
