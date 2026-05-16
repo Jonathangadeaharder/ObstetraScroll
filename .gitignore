@@ -9,3 +9,5 @@ coverage
 dist
 output
 .superpowers/
+reports/
+.stryker-tmp/
