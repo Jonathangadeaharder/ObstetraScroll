@@ -4,7 +4,8 @@
 		"enabled": false
 	},
 	"files": {
-		"includes": ["src"]
+		"include": ["src"],
+		"ignore": [".svelte-kit"]
 	},
 	"formatter": {
 		"enabled": true,
