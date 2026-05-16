@@ -14,7 +14,7 @@ describe("listFeedItems", () => {
 			expect(item.factId).toBeTruthy();
 			expect(item.title).toBeTruthy();
 			expect(item.videoPath).toContain("reel-");
-			expect(item.audioPath).toContain("audio/");
+			expect(item.audioPath).toMatch(/audio\/|reel-poc\//);
 			expect(item.posterPath).toContain("posters/");
 			expect(item.durationSec).toBeGreaterThan(0);
 			expect(item.assets).toBeInstanceOf(Array);
