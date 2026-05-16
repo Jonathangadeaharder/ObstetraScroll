@@ -51,7 +51,9 @@ export type AIServicesOperation =
 	| "text2video"
 	| "image2video"
 	| "text2image"
-	| "text2audio";
+	| "text2audio"
+	| "kling-v1-6"
+	| "elevenlabs";
 
 export type MediaAsset = {
 	kind: "video" | "audio" | "image";
