@@ -19,7 +19,8 @@
 		"media:ai": "node scripts/generate-ai-media.mjs",
 		"media:poc": "node scripts/generate-poc-media.mjs",
 		"test": "vitest run",
-		"test:watch": "vitest"
+		"test:watch": "vitest",
+		"prepare": "husky"
 	},
 	"dependencies": {
 		"@fontsource-variable/jetbrains-mono": "^5.2.8",
@@ -30,19 +31,32 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
+		"@commitlint/cli": "^21.0.1",
+		"@commitlint/config-conventional": "^21.0.1",
 		"@stryker-mutator/core": "^9.6.1",
 		"@sveltejs/adapter-node": "^5.2.9",
 		"@sveltejs/kit": "^2.11.1",
 		"@sveltejs/vite-plugin-svelte": "^5.0.3",
 		"@types/node": "^22.10.2",
 		"@vitest/coverage-v8": "^3.2.4",
+		"husky": "^9.1.7",
 		"jsdom": "^25.0.1",
+		"lint-staged": "^17.0.4",
 		"svelte": "^5.15.0",
 		"svelte-check": "^4.1.1",
 		"tsx": "^4.22.0",
 		"typescript": "^5.7.2",
 		"vite": "^6.0.5",
 		"vitest": "^3.2.4"
+	},
+	"lint-staged": {
+		"src/**/*.{js,ts,svelte}": [
+			"pnpm exec biome check --write --unsafe",
+			"pnpm exec biome format --write"
+		],
+		"src/**/*.{json,css,md}": [
+			"pnpm exec biome format --write"
+		]
 	},
 	"pnpm": {
 		"onlyBuiltDependencies": [
