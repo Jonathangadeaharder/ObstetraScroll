@@ -34,7 +34,8 @@ const VOICE_ID = "D6fGRDoSy1WFiaIpAbC7";
 const API_KEY = process.env.ELEVENLABS_TOKEN;
 if (!API_KEY) throw new Error("ELEVENLABS_TOKEN not set");
 
-const CRAZY_TOKEN = "sk-CGkQU7BHDRWamWo7btwJ5ZVYgemSKY7eIYTMdklaf8qjH8Ru";
+const CRAZY_TOKEN = process.env.CRAZY_TOKEN;
+if (!CRAZY_TOKEN) throw new Error("CRAZY_TOKEN not set");
 const BASE_IMAGE = "https://media.crazyrouter.com/task-artifacts/2026/05/16/sync-image/20260516122138357856396qZBjAPRm-1.png";
 
 const manifest = [];
@@ -119,8 +120,7 @@ async function fireElevenLabs(item) {
     })
   });
   if (!resp.ok) {
-    const err = await resp.text();
-    console.error(`  ${item.slug} FAILED: ${err}`);
+    console.error(`  ${item.slug} FAILED: HTTP ${resp.status}`);
     item.status = "failed";
     return;
   }

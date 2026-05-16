@@ -161,8 +161,6 @@ export function virtualizeReels(
 			scrollDirection === "down"
 				? index > activeReelIndex
 				: index < activeReelIndex;
-		const shouldPreload =
-			(isAhead && distance <= PRELOAD_AHEAD) || (!isAhead && distance <= 1);
 
 		return {
 			...reel,

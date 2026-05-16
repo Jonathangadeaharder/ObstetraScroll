@@ -139,7 +139,7 @@ function concatFilePath(slug) {
 }
 
 function shellEscapeForConcat(path) {
-	return path.replaceAll("'", "'\\''");
+	return path.replaceAll("'", String.raw`'\''`);
 }
 
 function writeConcatFile(slug, segmentPaths) {
@@ -173,7 +173,7 @@ for (const item of items) {
 		"--voice",
 		"partera-rioplatense",
 		"--speed",
-		"1.0",
+		"1",
 		"--seed",
 		String(item.seed),
 	]);

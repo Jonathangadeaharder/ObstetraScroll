@@ -35,63 +35,79 @@ export type AIServicesCommand = {
 	output: string;
 };
 
-function pushOption(
-	args: string[],
-	name: string,
-	value: string | number | undefined,
-) {
-	if (value === undefined) return;
-	args.push(name, String(value));
+function option(name: string, value: string | number | undefined): string[] {
+	if (value === undefined) return [];
+	return [name, String(value)];
 }
 
 export function buildAIServicesCommand(
 	operation: AIServicesOperation,
 	request: AIServicesRequest,
 ): AIServicesCommand {
-	const args = ["run"];
+	const args: string[] = [];
 
 	if (operation === "text2video") {
-		args.push("--package", "text2video", "text2video");
-		pushOption(args, "--prompt", request.prompt);
-		pushOption(args, "--output", request.output);
-		pushOption(args, "--seconds", request.seconds);
-		pushOption(args, "--fps", request.fps);
-		pushOption(args, "--width", request.width);
-		pushOption(args, "--height", request.height);
-		pushOption(args, "--steps", request.steps);
-		pushOption(args, "--seed", request.seed);
+		args.push(
+			"run",
+			"--package",
+			"text2video",
+			"text2video",
+			...option("--prompt", request.prompt),
+			...option("--output", request.output),
+			...option("--seconds", request.seconds),
+			...option("--fps", request.fps),
+			...option("--width", request.width),
+			...option("--height", request.height),
+			...option("--steps", request.steps),
+			...option("--seed", request.seed),
+		);
 	}
 
 	if (operation === "image2video") {
-		args.push("--package", "image2video", "image2video");
-		pushOption(args, "--input", request.input);
-		pushOption(args, "--prompt", request.prompt);
-		pushOption(args, "--output", request.output);
-		pushOption(args, "--seconds", request.seconds);
-		pushOption(args, "--fps", request.fps);
-		pushOption(args, "--width", request.width);
-		pushOption(args, "--height", request.height);
-		pushOption(args, "--steps", request.steps);
-		pushOption(args, "--seed", request.seed);
+		args.push(
+			"run",
+			"--package",
+			"image2video",
+			"image2video",
+			...option("--input", request.input),
+			...option("--prompt", request.prompt),
+			...option("--output", request.output),
+			...option("--seconds", request.seconds),
+			...option("--fps", request.fps),
+			...option("--width", request.width),
+			...option("--height", request.height),
+			...option("--steps", request.steps),
+			...option("--seed", request.seed),
+		);
 	}
 
 	if (operation === "text2image") {
-		args.push("--package", "text2image", "text2image");
-		pushOption(args, "--prompt", request.prompt);
-		pushOption(args, "--output", request.output);
-		pushOption(args, "--width", request.width);
-		pushOption(args, "--height", request.height);
-		pushOption(args, "--steps", request.steps);
-		pushOption(args, "--seed", request.seed);
+		args.push(
+			"run",
+			"--package",
+			"text2image",
+			"text2image",
+			...option("--prompt", request.prompt),
+			...option("--output", request.output),
+			...option("--width", request.width),
+			...option("--height", request.height),
+			...option("--steps", request.steps),
+			...option("--seed", request.seed),
+		);
 	}
 
 	if (operation === "text2audio") {
-		args.push("--package", "text2audio", "text2audio");
-		pushOption(args, "--text", request.text ?? request.prompt);
-		pushOption(args, "--output", request.output);
-		pushOption(args, "--voice", request.voice);
-		pushOption(args, "--speed", request.speed);
-		pushOption(args, "--seed", request.seed);
+		args.push(
+			"run",
+			"--package",
+			"text2audio",
+			"text2audio",
+			...option("--text", request.text ?? request.prompt),
+			...option("--output", request.output),
+			...option("--voice", request.voice),
+			...option("--speed", request.speed),
+			...option("--seed", request.seed),
+		);
 	}
 
 	return {
