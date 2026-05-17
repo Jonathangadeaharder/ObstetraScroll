@@ -4,24 +4,12 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - '${PORT:-3002}:3000'
+      - '${PORT:-3000}:3000'
     environment:
       - AI_PROVIDER=${AI_PROVIDER:-mini}
       - LOCAL_AI_BASE_URL=http://ollama-shared:11434/v1
       - MINI_MODEL=${MINI_MODEL:-phi3:mini}
       - OLLAMA_MODEL=${OLLAMA_MODEL:-gemma2:2b}
-      - PUBLIC_POSTHOG_HOST=${PUBLIC_POSTHOG_HOST:-https://eu.i.posthog.com}
-      - PUBLIC_POSTHOG_PROJECT_TOKEN=${PUBLIC_POSTHOG_PROJECT_TOKEN:-}
-      - ORIGIN=${ORIGIN:-http://localhost:3002}
-    labels:
-      - traefik.enable=true
-      - traefik.http.routers.obstetrascroll.rule=Host(`obstetrascroll.159.223.26.67.sslip.io`)
-      - traefik.http.routers.obstetrascroll.entrypoints=http
-      - traefik.http.routers.obstetrascroll-https.rule=Host(`obstetrascroll.159.223.26.67.sslip.io`)
-      - traefik.http.routers.obstetrascroll-https.entrypoints=https
-      - traefik.http.routers.obstetrascroll-https.tls=true
-      - traefik.http.routers.obstetrascroll-https.tls.certresolver=letsencrypt
-      - traefik.http.services.obstetrascroll.loadbalancer.server.port=3000
     restart: unless-stopped
     networks:
       - coolify
