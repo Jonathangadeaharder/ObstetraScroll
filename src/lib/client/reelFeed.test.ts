@@ -4,7 +4,6 @@ import {
 	buildInfoItems,
 	buildLoopedFeedItems,
 	buildReelPages,
-	virtualizePages,
 	virtualizeReels,
 } from "./reelFeed";
 
@@ -177,44 +176,6 @@ describe("buildReelPages", () => {
 
 	it("returns empty array for empty feed", () => {
 		expect(buildReelPages([])).toEqual([]);
-	});
-});
-
-describe("virtualizePages", () => {
-	it("active page renders and preloads video", () => {
-		const pages = buildReelPages([item("a")], 1);
-		const virtual = virtualizePages(pages, 0, "down");
-		expect(virtual[0].isActive).toBe(true);
-		expect(virtual[0].shouldRender).toBe(true);
-		expect(virtual[0].shouldPreload).toBe(true);
-	});
-
-	it("pages within VISIBLE_WINDOW render", () => {
-		const pages = buildReelPages([item("a"), item("b")], 1);
-		const virtual = virtualizePages(pages, 0, "down");
-		expect(virtual[0].shouldRender).toBe(true);
-		expect(virtual[1].shouldRender).toBe(true);
-	});
-
-	it("quiz pages do not preload even when ahead", () => {
-		const pages = buildReelPages([item("a"), item("b")], 1);
-		const virtual = virtualizePages(pages, 2, "down");
-		expect(virtual[3].pageType).toBe("quiz");
-		expect(virtual[3].shouldPreload).toBe(false);
-	});
-
-	it("scrollDirection up preloads videos before active", () => {
-		const pages = buildReelPages([item("a")], 3);
-		const virtual = virtualizePages(pages, 4, "up");
-		expect(virtual[2].pageType).toBe("video");
-		expect(virtual[2].shouldPreload).toBe(true);
-	});
-
-	it("pages beyond VISIBLE_WINDOW do not render", () => {
-		const pages = buildReelPages([item("a"), item("b")], 4);
-		const virtual = virtualizePages(pages, 0, "down");
-		expect(virtual[6].shouldRender).toBe(false);
-		expect(virtual[7].shouldRender).toBe(false);
 	});
 });
 

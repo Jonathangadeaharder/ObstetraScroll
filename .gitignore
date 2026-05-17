@@ -9,8 +9,3 @@ coverage
 dist
 output
 .superpowers/
-reports/
-.stryker-tmp/
-.stryker-incremental.json
-.venv/
-static/generated-media/

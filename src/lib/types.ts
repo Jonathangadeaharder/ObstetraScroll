@@ -88,6 +88,23 @@ export type InfoItem = {
 	replies: InfoReply[];
 };
 
+export type InfoReply = {
+	author: string;
+	text: string;
+	likes: number;
+	icon?: string;
+};
+
+export type InfoItem = {
+	id: string;
+	icon: string;
+	author: string;
+	badge?: string;
+	text: string;
+	likes: number;
+	replies: InfoReply[];
+};
+
 export type ReelFeedItem = {
 	id: string;
 	factId: string;
