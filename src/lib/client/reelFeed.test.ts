@@ -1,5 +1,6 @@
 import type { ReelFeedItem } from "$lib/types";
 import { describe, expect, it } from "vitest";
+import type { VirtualPage } from "./reelFeed";
 import {
 	buildInfoItems,
 	buildLoopedFeedItems,
