@@ -15,7 +15,7 @@ concurrency:
 jobs:
   repo-hygiene:
     name: Repo Hygiene
-    runs-on: ubuntu-latest
+    runs-on: ["self-hosted", "security", "macos"]
     permissions:
       contents: read
     steps:
@@ -32,7 +32,7 @@ jobs:
 
   node-quality:
     name: Node Quality
-    runs-on: ubuntu-latest
+    runs-on: ["self-hosted", "node", "macos"]
     permissions:
       contents: read
     steps:
@@ -65,7 +65,7 @@ jobs:
 
   dependency-scan:
     name: Dependency Scan
-    runs-on: ubuntu-latest
+    runs-on: ["self-hosted", "security", "macos"]
     permissions:
       contents: read
     steps:
@@ -83,7 +83,7 @@ jobs:
 
   secret-scanning:
     name: Secret Scanning
-    runs-on: ubuntu-latest
+    runs-on: ["self-hosted", "security", "macos"]
     permissions:
       contents: read
     steps:
@@ -99,7 +99,7 @@ jobs:
 
   codeql:
     name: CodeQL Security
-    runs-on: ubuntu-latest
+    runs-on: ["self-hosted", "security", "macos"]
     permissions:
       actions: read
       contents: read
@@ -124,7 +124,7 @@ jobs:
 
   required-checks:
     name: Required Checks (Merge)
-    runs-on: ubuntu-latest
+    runs-on: ["self-hosted", "node", "macos"]
     needs:
       - repo-hygiene
       - node-quality
