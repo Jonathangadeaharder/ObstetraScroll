@@ -9,8 +9,6 @@ import {
 	FileVideo,
 	Images,
 	MessageCircle,
-	Volume2,
-	VolumeX,
 } from "lucide-svelte";
 
 type ActionReturn = {
@@ -29,7 +27,6 @@ type Props = {
 	onNextReel: (key: string) => void;
 	onBindReel: (node: HTMLElement, key: string) => ActionReturn;
 	onBindVideo: (node: HTMLVideoElement, key: string) => ActionReturn;
-	onFirstInteraction: () => void;
 	onInfoOpen?: (key: string) => void;
 };
 
@@ -45,7 +42,6 @@ let {
 	onNextReel,
 	onBindReel,
 	onBindVideo,
-	onFirstInteraction,
 	onInfoOpen,
 }: Props = $props();
 
@@ -109,7 +105,7 @@ function assetIcon(kind: "audio" | "image" | "video") {
 			</aside>
 		{/if}
 	{:else if pageType === "quiz"}
-		<div class="quiz-full" class:answered={selectedAnswer !== undefined}>
+		<div class="quiz-full">
 			<div class="quiz-header">
 				<p class="eyebrow">Después del video</p>
 				<h2>Pregunta rápida</h2>
@@ -134,8 +130,8 @@ function assetIcon(kind: "audio" | "image" | "video") {
 					{/each}
 				</div>
 
-			{#if selectedAnswer !== undefined}
-					<p class="explanation" onclick={() => onNextReel(reel.key)}>
+				{#if selectedAnswer !== undefined}
+					<p class="explanation">
 						<BadgeCheck size={18} />
 						{item.quiz.explanation}
 					</p>
@@ -185,7 +181,6 @@ function assetIcon(kind: "audio" | "image" | "video") {
 				loop
 				muted={isMuted}
 				playsinline
-				autoplay
 				preload={"shouldPreload" in reel && reel.shouldPreload ? "metadata" : "none"}
 				ontimeupdate={handleTimeUpdate}
 				onerror={handleVideoError}
@@ -230,22 +225,6 @@ function assetIcon(kind: "audio" | "image" | "video") {
 				}}
 			>
 				<MessageCircle size={22} />
-			</button>
-
-			<button
-				class="sound-btn"
-				type="button"
-				aria-label={isMuted ? "Activar sonido" : "Silenciar"}
-				onclick={(e) => {
-					e.stopPropagation();
-					isMuted = !isMuted;
-				}}
-			>
-				{#if isMuted}
-					<VolumeX size={20} />
-				{:else}
-					<Volume2 size={20} />
-				{/if}
 			</button>
 
 			<button
@@ -401,30 +380,6 @@ function assetIcon(kind: "audio" | "image" | "video") {
 		height: 100%;
 		background: var(--yellow);
 		transition: width 0.1s linear;
-	}
-
-	.sound-btn {
-		position: absolute;
-		bottom: 12px;
-		left: 62px;
-		z-index: 3;
-		display: grid;
-		width: 44px;
-		height: 44px;
-		place-items: center;
-		padding: 0;
-		border: 1px solid rgb(255 250 241 / 62%);
-		border-radius: 50%;
-		background: rgb(0 0 0 / 52%);
-		color: #fffaf1;
-		cursor: pointer;
-		backdrop-filter: blur(4px);
-		transition: transform 0.15s ease;
-	}
-
-	.sound-btn:hover {
-		transform: scale(1.12);
-		background: rgb(0 0 0 / 72%);
 	}
 
 	.info-btn {
@@ -723,20 +678,14 @@ function assetIcon(kind: "audio" | "image" | "video") {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		min-height: 100dvh;
 		height: 100dvh;
 		padding: 32px 24px;
 		background: var(--paper);
 		gap: 24px;
-		overflow-y: auto;
 	}
 
 	.quiz-header h2 {
 		margin-top: 4px;
-	}
-
-	.quiz-full.answered {
-		overflow-y: hidden;
 	}
 
 	.next-page-btn {

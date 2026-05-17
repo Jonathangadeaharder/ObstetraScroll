@@ -1,5 +1,4 @@
 <script lang="ts">
-import { browser } from "$app/environment";
 import InfoOverlay from "$lib/client/InfoOverlay.svelte";
 import ReelCard from "$lib/client/ReelCard.svelte";
 import {
@@ -35,9 +34,7 @@ const reelElements: Record<string, HTMLElement> = {};
 let observer: IntersectionObserver | undefined;
 let lastActiveIndex = 0;
 let touchStartY = 0;
-let isMobile = $state(
-	browser ? matchMedia("(max-width: 900px)").matches : false,
-);
+let isMobile = $state(false);
 
 const totalFacts = $derived(facts.length);
 const highRiskCount = $derived(
@@ -110,10 +107,6 @@ function activateReel(key: string, index: number) {
 	}
 	activeReelIndex = index;
 	lastActiveIndex = index;
-	const video = videoRefs[key];
-	if (video && hasInteracted && video.muted) {
-		video.muted = false;
-	}
 	if (!isMobile) {
 		playVideo(key);
 		return;
@@ -280,16 +273,12 @@ function displayCounter(items: (LoopedReel | ReelPage)[]) {
 					pageType={page.pageType}
 					selectedAnswer={selectedAnswers[page.key]}
 					isPaused={isPaused[page.key] ?? false}
-					{hasInteracted}
 					{swipeOffset}
 					onAnswerQuiz={answerQuiz}
 					onTogglePause={togglePause}
 					onNextReel={skipToNext}
 					onBindReel={bindReel}
 					onBindVideo={bindVideo}
-					onFirstInteraction={() => {
-						hasInteracted = true;
-					}}
 					onInfoOpen={(key) => {
 						openInfoKey = key;
 					}}
@@ -301,16 +290,12 @@ function displayCounter(items: (LoopedReel | ReelPage)[]) {
 					{reel}
 					selectedAnswer={selectedAnswers[reel.key]}
 					isPaused={isPaused[reel.key] ?? false}
-					{hasInteracted}
 					{swipeOffset}
 					onAnswerQuiz={answerQuiz}
 					onTogglePause={togglePause}
 					onNextReel={skipToNext}
 					onBindReel={bindReel}
 					onBindVideo={bindVideo}
-					onFirstInteraction={() => {
-						hasInteracted = true;
-					}}
 				/>
 			{/each}
 		{/if}
