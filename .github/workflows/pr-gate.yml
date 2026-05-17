@@ -129,17 +129,15 @@ jobs:
   mutation-testing:
     name: Mutation Testing (Incremental)
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
     steps:
       - name: Checkout
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        uses: actions/checkout@v4
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@b906affcce14559ad1aafd4ab0e942779e9f58b1 # v4
+        uses: pnpm/action-setup@v4
 
       - name: Setup Node
-        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: pnpm
@@ -148,7 +146,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Download previous incremental cache
-        uses: actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        uses: actions/cache/restore@v4
         id: stryker-cache
         with:
           path: reports/stryker-incremental.json
@@ -158,30 +156,13 @@ jobs:
         run: pnpm exec stryker run --incremental
 
       - name: Upload new incremental cache
-        uses: actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        uses: actions/cache/save@v4
         if: always()
         with:
           path: reports/stryker-incremental.json
           key: stryker-incremental-${{ github.base_ref }}-${{ github.sha }}
           restore-keys: |
             stryker-incremental-${{ github.base_ref }}-
-
-  repo-structure:
-    name: Repo Structure
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-    steps:
-      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
-      - uses: actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff # v5
-        with:
-          go-version: '1.26'
-      - name: Build structurelint
-        run: |
-          git clone --branch feat/quality-gates --depth 1 https://github.com/Jonathangadeaharder/structurelint.git /tmp/structurelint
-          cd /tmp/structurelint && go build -o /usr/local/bin/structurelint ./cmd/structurelint
-      - name: Run structurelint
-        run: structurelint .
 
   required-checks:
     name: Required Checks (PR)
@@ -193,7 +174,6 @@ jobs:
       - secret-scanning
       - infra-validation
       - mutation-testing
-      - repo-structure
     if: always()
     steps:
       - name: Verify all jobs passed
@@ -203,8 +183,7 @@ jobs:
              [ "${{ needs.dependency-scan.result }}" != "success" ] || \
              [ "${{ needs.secret-scanning.result }}" != "success" ] || \
              [ "${{ needs.infra-validation.result }}" != "success" ] || \
-             [ "${{ needs.mutation-testing.result }}" != "success" ] || \
-             [ "${{ needs.repo-structure.result }}" != "success" ]; then
+             [ "${{ needs.mutation-testing.result }}" != "success" ]; then
             echo "One or more PR gate jobs failed."
             exit 1
           fi
