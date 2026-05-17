@@ -10,6 +10,11 @@ services:
       - LOCAL_AI_BASE_URL=http://ollama-shared:11434/v1
       - MINI_MODEL=${MINI_MODEL:-phi3:mini}
       - OLLAMA_MODEL=${OLLAMA_MODEL:-gemma2:2b}
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.obstetrascroll.rule=Host(`obstetrascroll.159.223.26.67.sslip.io`)
+      - traefik.http.routers.obstetrascroll.entrypoints=http
+      - traefik.http.services.obstetrascroll.loadbalancer.server.port=3000
     restart: unless-stopped
     networks:
       - coolify
