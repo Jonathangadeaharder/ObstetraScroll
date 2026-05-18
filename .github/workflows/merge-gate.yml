@@ -8,6 +8,9 @@ on:
       - develop
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 concurrency:
   group: merge-gate-${{ github.ref }}
   cancel-in-progress: false
@@ -15,12 +18,10 @@ concurrency:
 jobs:
   repo-hygiene:
     name: Repo Hygiene
-    runs-on: ["self-hosted", "security", "macos"]
-    permissions:
-      contents: read
+    runs-on: ["self-hosted", "macos", "arm64", "VidiomTM"]
     steps:
       - name: Checkout
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        uses: actions/checkout@v4
 
       - name: Check for iCloud sync conflicts
         run: |
@@ -30,20 +31,40 @@ jobs:
             exit 1
           fi
 
-  node-quality:
-    name: Node Quality
-    runs-on: ["self-hosted", "node", "macos"]
-    permissions:
-      contents: read
+  format:
+    name: Format Check
+    runs-on: ["self-hosted", "macos", "arm64", "VidiomTM"]
     steps:
       - name: Checkout
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        uses: actions/checkout@v4
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@b906affcce14559ad1aafd4ab0e942779e9f58b1 # v4
+        uses: pnpm/action-setup@v4
 
       - name: Setup Node
-        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Format check
+        run: pnpm dlx prettier --check .
+
+  lint:
+    name: Lint
+    runs-on: ["self-hosted", "macos", "arm64", "VidiomTM"]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: pnpm
@@ -52,94 +73,196 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Lint
-        run: pnpm run lint
+        run: pnpm dlx eslint .
 
-      - name: Type check
-        run: pnpm run check
-
-      - name: Unit tests with coverage
-        run: pnpm vitest run --coverage
-
-      - name: Build
-        run: pnpm run build
-
-  dependency-scan:
-    name: Dependency Scan
-    runs-on: ["self-hosted", "security", "macos"]
-    permissions:
-      contents: read
+  typecheck:
+    name: Type Check
+    runs-on: ["self-hosted", "macos", "arm64", "VidiomTM"]
     steps:
       - name: Checkout
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        uses: actions/checkout@v4
 
-      - name: Run Trivy filesystem scan
-        uses: aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25 # v0.36.0
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          scan-type: "fs"
-          scan-ref: "."
-          severity: "HIGH,CRITICAL"
-          exit-code: "1"
-          ignore-unfixed: true
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Type check
+        run: pnpm exec svelte-check --tsconfig ./tsconfig.json
+
+  build:
+    name: Build
+    runs-on: ["self-hosted", "macos", "arm64", "VidiomTM"]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build
+        run: pnpm build
+
+  unit:
+    name: Unit Tests
+    runs-on: ["self-hosted", "macos", "arm64", "VidiomTM"]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Unit tests with coverage
+        run: pnpm exec vitest run --coverage
+
+  e2e:
+    name: E2E Tests
+    runs-on: ["self-hosted", "macos", "arm64", "VidiomTM"]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: E2E tests
+        run: pnpm exec playwright test
+
+  deadcode:
+    name: Dead Code
+    runs-on: ["self-hosted", "macos", "arm64", "VidiomTM"]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Dead code analysis
+        run: pnpm exec knip
+
+  deps:
+    name: Dependency Audit
+    runs-on: ["self-hosted", "macos", "arm64", "VidiomTM"]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Dependency audit
+        run: pnpm audit --audit-level=high
+
+  semgrep:
+    name: Semgrep
+    runs-on: ["self-hosted", "macos", "arm64", "VidiomTM"]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Semgrep scan
+        uses: returntocorp/semgrep-action@v1
+        with:
+          config: p/semgrep-rule-links
 
   secret-scanning:
     name: Secret Scanning
-    runs-on: ["self-hosted", "security", "macos"]
-    permissions:
-      contents: read
+    runs-on: ["self-hosted", "macos", "arm64", "VidiomTM"]
     steps:
       - name: Checkout
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: gitleaks
-        uses: gitleaks/gitleaks-action@ff98106e4c7b2bc287b24eaf42907196329070c7 # v2
+        uses: gitleaks/gitleaks-action@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  codeql:
-    name: CodeQL Security
-    runs-on: ["self-hosted", "security", "macos"]
-    permissions:
-      actions: read
-      contents: read
-      security-events: write
-    strategy:
-      matrix:
-        language: [javascript-typescript]
-    steps:
-      - name: Checkout
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
-
-      - name: Initialize CodeQL
-        uses: github/codeql-action/init@78ed0c7291d93e40c51b085850dc669a4c3ab73b # v3
-        with:
-          languages: ${{ matrix.language }}
-
-      - name: Autobuild
-        uses: github/codeql-action/autobuild@78ed0c7291d93e40c51b085850dc669a4c3ab73b # v3
-
-      - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@78ed0c7291d93e40c51b085850dc669a4c3ab73b # v3
-
   required-checks:
     name: Required Checks (Merge)
-    runs-on: ["self-hosted", "node", "macos"]
+    runs-on: ["self-hosted", "macos", "arm64", "VidiomTM"]
     needs:
       - repo-hygiene
-      - node-quality
-      - dependency-scan
+      - format
+      - lint
+      - typecheck
+      - build
+      - unit
+      - e2e
+      - deadcode
+      - deps
+      - semgrep
       - secret-scanning
-      - codeql
     if: always()
     steps:
       - name: Verify all jobs passed
         run: |
           if [ "${{ needs.repo-hygiene.result }}" != "success" ] || \
-             [ "${{ needs.node-quality.result }}" != "success" ] || \
-             [ "${{ needs.dependency-scan.result }}" != "success" ] || \
-             [ "${{ needs.secret-scanning.result }}" != "success" ] || \
-             [ "${{ needs.codeql.result }}" != "success" ]; then
+             [ "${{ needs.format.result }}" != "success" ] || \
+             [ "${{ needs.lint.result }}" != "success" ] || \
+             [ "${{ needs.typecheck.result }}" != "success" ] || \
+             [ "${{ needs.build.result }}" != "success" ] || \
+             [ "${{ needs.unit.result }}" != "success" ] || \
+             [ "${{ needs.e2e.result }}" != "success" ] || \
+             [ "${{ needs.deadcode.result }}" != "success" ] || \
+             [ "${{ needs.deps.result }}" != "success" ] || \
+             [ "${{ needs.semgrep.result }}" != "success" ] || \
+             [ "${{ needs.secret-scanning.result }}" != "success" ]; then
             echo "One or more merge gate jobs failed."
             exit 1
           fi

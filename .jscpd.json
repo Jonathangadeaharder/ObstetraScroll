@@ -1,0 +1,22 @@
+{
+  "threshold": 10,
+  "reporters": ["console", "html"],
+  "ignore": [
+    "**/node_modules/**",
+    "**/.svelte-kit/**",
+    "**/build/**",
+    "**/coverage/**",
+    "**/static/generated-media/**",
+    "**/*.test.ts",
+    "**/*.spec.ts",
+    "**/tests/**",
+    "pnpm-lock.yaml"
+  ],
+  "format": "typescript",
+  "gitignore": true,
+  "blame": false,
+  "mode": "strict",
+  "languagesExtensions": {
+    "svelte": ["<"]
+  }
+}
