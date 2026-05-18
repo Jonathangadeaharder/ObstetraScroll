@@ -1,5 +1,5 @@
 <script lang="ts">
-const reels = Array.from({ length: 10 }, (_, i) => ({
+const _reels = Array.from({ length: 10 }, (_, i) => ({
 	num: String(i + 1).padStart(2, "0"),
 	video: `/generated-media/reel-poc/final/reel-${String(i + 1).padStart(2, "0")}.mp4`,
 }));

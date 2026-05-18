@@ -1,15 +1,6 @@
 <script lang="ts">
 import type { PageType, ReelPage, VirtualReel } from "$lib/client/reelFeed";
-import {
-	BadgeCheck,
-	BookOpenCheck,
-	ChevronDown,
-	Clapperboard,
-	FileAudio,
-	FileVideo,
-	Images,
-	MessageCircle,
-} from "lucide-svelte";
+import { FileAudio, FileVideo, Images } from "lucide-svelte";
 
 type ActionReturn = {
 	destroy?: () => void;
@@ -28,6 +19,7 @@ type Props = {
 	onBindReel: (node: HTMLElement, key: string) => ActionReturn;
 	onBindVideo: (node: HTMLVideoElement, key: string) => ActionReturn;
 	onInfoOpen?: (key: string) => void;
+	onFirstInteraction?: () => void;
 };
 
 let {
@@ -43,12 +35,13 @@ let {
 	onBindReel,
 	onBindVideo,
 	onInfoOpen,
+	onFirstInteraction,
 }: Props = $props();
 
-const item = $derived(reel.item);
-let videoProgress = $state(0);
+const _item = $derived(reel.item);
+let _videoProgress = $state(0);
 let videoError = $state(false);
-let isMuted = $state(!hasInteracted);
+let isMuted = $state(true);
 const END_THRESHOLD = 0.3;
 
 $effect(() => {
@@ -57,10 +50,10 @@ $effect(() => {
 	}
 });
 
-function handleTimeUpdate(e: Event) {
+function _handleTimeUpdate(e: Event) {
 	const video = e.currentTarget as HTMLVideoElement;
 	if (video.duration > 0) {
-		videoProgress = (video.currentTime / video.duration) * 100;
+		_videoProgress = (video.currentTime / video.duration) * 100;
 		if (video.duration - video.currentTime <= END_THRESHOLD) {
 			onNextReel(reel.key);
 		}
@@ -70,11 +63,11 @@ function handleTimeUpdate(e: Event) {
 	}
 }
 
-function handleVideoError() {
+function _handleVideoError() {
 	videoError = true;
 }
 
-function assetIcon(kind: "audio" | "image" | "video") {
+function _assetIcon(kind: "audio" | "image" | "video") {
 	if (kind === "audio") return FileAudio;
 	if (kind === "image") return Images;
 	return FileVideo;
@@ -157,7 +150,7 @@ function assetIcon(kind: "audio" | "image" | "video") {
 			aria-label={isPaused ? "Reproducir video" : "Pausar video"}
 			onclick={() => {
 				if (!hasInteracted) {
-					onFirstInteraction();
+					onFirstInteraction?.();
 					isMuted = false;
 					return;
 				}
@@ -167,7 +160,7 @@ function assetIcon(kind: "audio" | "image" | "video") {
 				if (e.key === 'Enter' || e.key === ' ') {
 					e.preventDefault();
 					if (!hasInteracted) {
-						onFirstInteraction();
+						onFirstInteraction?.();
 						isMuted = false;
 						return;
 					}
@@ -273,10 +266,10 @@ function assetIcon(kind: "audio" | "image" | "video") {
 				</div>
 
 				{#if selectedAnswer !== undefined}
-					<p class="explanation" onclick={() => onNextReel(reel.key)}>
+					<button type="button" class="explanation" onclick={() => onNextReel(reel.key)}>
 						<BadgeCheck size={18} />
 						{item.quiz.explanation}
-					</p>
+					</button>
 				{/if}
 			</div>
 

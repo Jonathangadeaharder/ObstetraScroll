@@ -1,6 +1,5 @@
 <script lang="ts">
 import type { InfoItem } from "$lib/types";
-import { Heart, MessageCircle, X } from "lucide-svelte";
 
 type Props = {
 	items: InfoItem[];
@@ -13,21 +12,21 @@ let { items, open, onClose }: Props = $props();
 let dragOffset = $state(0);
 let touchStartY = 0;
 
-function handleTouchStart(e: TouchEvent) {
+function _handleTouchStart(e: TouchEvent) {
 	touchStartY = e.touches[0].clientY;
 }
 
-function handleTouchMove(e: TouchEvent) {
+function _handleTouchMove(e: TouchEvent) {
 	const delta = e.touches[0].clientY - touchStartY;
 	dragOffset = Math.max(0, delta);
 }
 
-function handleTouchEnd() {
+function _handleTouchEnd() {
 	if (dragOffset > 120) onClose();
 	dragOffset = 0;
 }
 
-function handleBackdropClick(e: MouseEvent) {
+function _handleBackdropClick(e: MouseEvent) {
 	if (e.target === e.currentTarget) onClose();
 }
 </script>

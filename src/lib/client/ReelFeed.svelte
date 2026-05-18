@@ -1,6 +1,4 @@
 <script lang="ts">
-import InfoOverlay from "$lib/client/InfoOverlay.svelte";
-import ReelCard from "$lib/client/ReelCard.svelte";
 import {
 	type LoopedReel,
 	type ReelPage,
@@ -11,7 +9,6 @@ import {
 	virtualizeReels,
 } from "$lib/client/reelFeed";
 import type { Fact, ReelFeedItem } from "$lib/types";
-import { Sparkles } from "lucide-svelte";
 
 type Props = {
 	facts: Fact[];
@@ -25,7 +22,7 @@ let activeReelIndex = $state(0);
 let scrollDirection = $state<"up" | "down">("down");
 let isPaused = $state<Record<string, boolean>>({});
 let hasInteracted = $state(false);
-let swipeOffset = $state(0);
+let _swipeOffset = $state(0);
 let openInfoKey = $state<string | null>(null);
 
 let feedEl: HTMLElement | undefined = $state();
@@ -36,26 +33,26 @@ let lastActiveIndex = 0;
 let touchStartY = 0;
 let isMobile = $state(false);
 
-const totalFacts = $derived(facts.length);
-const highRiskCount = $derived(
+const _totalFacts = $derived(facts.length);
+const _highRiskCount = $derived(
 	facts.filter((fact) => fact.riskLevel === "high").length,
 );
 const factMap = $derived(Object.fromEntries(facts.map((f) => [f.id, f])));
 
 const loopedFeedItems = $derived(buildLoopedFeedItems(feedItems));
 const mobilePages = $derived(buildReelPages(feedItems));
-const activePageType = $derived(
+const _activePageType = $derived(
 	mobilePages[activeReelIndex]?.pageType ?? "video",
 );
 
-const virtualItems = $derived(
+const _virtualItems = $derived(
 	virtualizeReels(loopedFeedItems, activeReelIndex, scrollDirection),
 );
-const virtualPages = $derived(
+const _virtualPages = $derived(
 	virtualizePages(mobilePages, activeReelIndex, scrollDirection),
 );
 
-const openInfoItems = $derived.by(() => {
+const _openInfoItems = $derived.by(() => {
 	if (!openInfoKey) return [];
 	const page = mobilePages.find((p) => p.key === openInfoKey);
 	if (!page) return [];
@@ -78,7 +75,7 @@ $effect(() => {
 		root: feedEl,
 		threshold: [0.6],
 	});
-	const items = isMobile ? mobilePages : loopedFeedItems;
+	const _items = isMobile ? mobilePages : loopedFeedItems;
 	for (const key of Object.keys(reelElements)) {
 		const el = reelElements[key];
 		if (el) observer.observe(el);
@@ -155,7 +152,7 @@ function skipToNext() {
 	scrollToReel(safeNext);
 }
 
-function handleKeydown(e: KeyboardEvent) {
+function _handleKeydown(e: KeyboardEvent) {
 	if (e.target instanceof HTMLButtonElement) return;
 	if (e.target instanceof HTMLInputElement) return;
 	switch (e.key) {
@@ -187,24 +184,24 @@ function handleKeydown(e: KeyboardEvent) {
 	}
 }
 
-function handleTouchStart(e: TouchEvent) {
+function _handleTouchStart(e: TouchEvent) {
 	touchStartY = e.touches[0].clientY;
 }
 
-function handleTouchMove(e: TouchEvent) {
+function _handleTouchMove(e: TouchEvent) {
 	const delta = e.touches[0].clientY - touchStartY;
-	swipeOffset = Math.max(-60, Math.min(60, delta));
+	_swipeOffset = Math.max(-60, Math.min(60, delta));
 }
 
-function handleTouchEnd() {
-	swipeOffset = 0;
+function _handleTouchEnd() {
+	_swipeOffset = 0;
 }
 
-function answerQuiz(answerKey: string, optionIndex: number) {
+function _answerQuiz(answerKey: string, optionIndex: number) {
 	selectedAnswers[answerKey] = optionIndex;
 }
 
-function bindVideo(node: HTMLVideoElement, key: string) {
+function _bindVideo(node: HTMLVideoElement, key: string) {
 	videoRefs[key] = node;
 	if (hasInteracted && node.muted) {
 		node.muted = false;
@@ -216,7 +213,7 @@ function bindVideo(node: HTMLVideoElement, key: string) {
 	};
 }
 
-function bindReel(node: HTMLElement, key: string) {
+function _bindReel(node: HTMLElement, key: string) {
 	reelElements[key] = node;
 	if (observer) observer.observe(node);
 	return {
@@ -227,7 +224,7 @@ function bindReel(node: HTMLElement, key: string) {
 	};
 }
 
-function displayCounter(items: (LoopedReel | ReelPage)[]) {
+function _displayCounter(items: (LoopedReel | ReelPage)[]) {
 	const current = items[activeReelIndex];
 	if (!current) return "0/0";
 	return `${current.reelNumber}/${feedItems.length}`;
@@ -268,26 +265,29 @@ function displayCounter(items: (LoopedReel | ReelPage)[]) {
 	>
 		{#if isMobile}
 			{#each virtualPages as page (page.key)}
-				<ReelCard
-					reel={page}
-					pageType={page.pageType}
-					selectedAnswer={selectedAnswers[page.key]}
-					isPaused={isPaused[page.key] ?? false}
-					{swipeOffset}
-					onAnswerQuiz={answerQuiz}
-					onTogglePause={togglePause}
-					onNextReel={skipToNext}
-					onBindReel={bindReel}
-					onBindVideo={bindVideo}
-					onInfoOpen={(key) => {
-						openInfoKey = key;
-					}}
-				/>
-			{/each}
+			<ReelCard
+				reel={page}
+				pageType={page.pageType}
+				{hasInteracted}
+				selectedAnswer={selectedAnswers[page.key]}
+				isPaused={isPaused[page.key] ?? false}
+				{swipeOffset}
+				onAnswerQuiz={answerQuiz}
+				onTogglePause={togglePause}
+				onNextReel={skipToNext}
+				onBindReel={bindReel}
+				onBindVideo={bindVideo}
+				onInfoOpen={(key) => {
+					openInfoKey = key;
+				}}
+				onFirstInteraction={() => { hasInteracted = true; }}
+			/>
+		{/each}
 		{:else}
 			{#each virtualItems as reel (reel.key)}
 				<ReelCard
 					{reel}
+					{hasInteracted}
 					selectedAnswer={selectedAnswers[reel.key]}
 					isPaused={isPaused[reel.key] ?? false}
 					{swipeOffset}
@@ -296,6 +296,7 @@ function displayCounter(items: (LoopedReel | ReelPage)[]) {
 					onNextReel={skipToNext}
 					onBindReel={bindReel}
 					onBindVideo={bindVideo}
+					onFirstInteraction={() => { hasInteracted = true; }}
 				/>
 			{/each}
 		{/if}
