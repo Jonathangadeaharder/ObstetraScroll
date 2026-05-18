@@ -1,0 +1,45 @@
+rules:
+  - id: no-hardcoded-secrets
+    pattern-either:
+      - pattern-regex: (?i)(?:password|passwd|pwd|secret|token|api[_-]?key|apikey)\s*[:=]\s*["'][^"'\s]+["']
+    paths:
+      exclude:
+        - "*.test.*"
+        - "*.spec.*"
+        - tests/
+        - test-results/
+        - node_modules/
+        - .svelte-kit/
+        - build/
+        - coverage/
+    severity: WARNING
+    message: Hardcoded secret detected. Use environment variables instead.
+
+  - id: no-console-log
+    patterns:
+      - pattern: console.log(...)
+      - pattern-not: console.log($DEBUG)
+    paths:
+      exclude:
+        - scripts/
+        - "*.test.*"
+        - "*.spec.*"
+        - node_modules/
+        - .svelte-kit/
+        - build/
+    severity: WARNING
+    message: console.log found in production code. Use a proper logging approach or wrap in DEBUG guard.
+
+  - id: no-eval
+    pattern-either:
+      - pattern: eval(...)
+      - pattern: Function(...)
+      - pattern: setTimeout("...")
+      - pattern: setInterval("...")
+    paths:
+      exclude:
+        - node_modules/
+        - .svelte-kit/
+        - build/
+    severity: ERROR
+    message: Dynamic code execution detected. Avoid eval, Function constructor, and string arguments to setTimeout/setInterval.
