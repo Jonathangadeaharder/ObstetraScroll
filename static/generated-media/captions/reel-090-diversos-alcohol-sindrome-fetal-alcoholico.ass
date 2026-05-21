@@ -1,0 +1,87 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0000E5FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}creencia {\rBase}popular
+Dialogue: 0,0:00:00.28,0:00:00.66,Base,,0,0,0,,{\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}creencia {\rBase}popular
+Dialogue: 0,0:00:00.66,0:00:01.17,Base,,0,0,0,,{\rBase}La {\rBase}creencia {\rHot\t(0,120,\fscx115\fscy115)}popular
+Dialogue: 0,0:00:01.12,0:00:01.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}que {\rBase}una
+Dialogue: 0,0:00:01.36,0:00:01.52,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}que {\rBase}una
+Dialogue: 0,0:00:01.52,0:00:01.79,Base,,0,0,0,,{\rBase}de {\rBase}que {\rHot\t(0,120,\fscx115\fscy115)}una
+Dialogue: 0,0:00:01.74,0:00:02.06,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}copa {\rBase}de {\rBase}vino
+Dialogue: 0,0:00:02.06,0:00:02.18,Base,,0,0,0,,{\rBase}copa {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}vino
+Dialogue: 0,0:00:02.18,0:00:02.45,Base,,0,0,0,,{\rBase}copa {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}vino
+Dialogue: 0,0:00:02.40,0:00:03.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}ocasional {\rBase}no {\rBase}hace
+Dialogue: 0,0:00:03.08,0:00:03.34,Base,,0,0,0,,{\rBase}ocasional {\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}hace
+Dialogue: 0,0:00:03.34,0:00:03.63,Base,,0,0,0,,{\rBase}ocasional {\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}hace
+Dialogue: 0,0:00:03.58,0:00:03.98,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}daño {\rBase}persiste {\rBase}incluso
+Dialogue: 0,0:00:03.98,0:00:04.90,Base,,0,0,0,,{\rBase}daño {\rHot\t(0,120,\fscx115\fscy115)}persiste {\rBase}incluso
+Dialogue: 0,0:00:04.90,0:00:05.31,Base,,0,0,0,,{\rBase}daño {\rBase}persiste {\rHot\t(0,120,\fscx115\fscy115)}incluso
+Dialogue: 0,0:00:05.26,0:00:05.58,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}entre {\rBase}profesionales {\rBase}de
+Dialogue: 0,0:00:05.58,0:00:06.42,Base,,0,0,0,,{\rBase}entre {\rHot\t(0,120,\fscx115\fscy115)}profesionales {\rBase}de
+Dialogue: 0,0:00:06.42,0:00:06.57,Base,,0,0,0,,{\rBase}entre {\rBase}profesionales {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:06.52,0:00:06.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}salud, {\rBase}pero
+Dialogue: 0,0:00:06.62,0:00:07.18,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}salud, {\rBase}pero
+Dialogue: 0,0:00:07.18,0:00:07.67,Base,,0,0,0,,{\rBase}la {\rBase}salud, {\rHot\t(0,120,\fscx115\fscy115)}pero
+Dialogue: 0,0:00:07.62,0:00:07.78,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}evidencia {\rBase}no
+Dialogue: 0,0:00:07.78,0:00:08.36,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}evidencia {\rBase}no
+Dialogue: 0,0:00:08.36,0:00:08.61,Base,,0,0,0,,{\rBase}la {\rBase}evidencia {\rHot\t(0,120,\fscx115\fscy115)}no
+Dialogue: 0,0:00:08.56,0:00:09.20,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}identifica {\rBase}un {\rBase}nivel
+Dialogue: 0,0:00:09.20,0:00:09.34,Base,,0,0,0,,{\rBase}identifica {\rHot\t(0,120,\fscx115\fscy115)}un {\rBase}nivel
+Dialogue: 0,0:00:09.34,0:00:09.65,Base,,0,0,0,,{\rBase}identifica {\rBase}un {\rHot\t(0,120,\fscx115\fscy115)}nivel
+Dialogue: 0,0:00:09.60,0:00:10.12,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}seguro {\rBase}y {\rBase}el
+Dialogue: 0,0:00:10.12,0:00:10.44,Base,,0,0,0,,{\rBase}seguro {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}el
+Dialogue: 0,0:00:10.44,0:00:10.69,Base,,0,0,0,,{\rBase}seguro {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:10.64,0:00:11.04,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}TEAF {\rBase}es {\rBase}100
+Dialogue: 0,0:00:11.04,0:00:11.38,Base,,0,0,0,,{\rBase}TEAF {\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}100
+Dialogue: 0,0:00:11.38,0:00:11.89,Base,,0,0,0,,{\rBase}TEAF {\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}100
+Dialogue: 0,0:00:11.84,0:00:12.22,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}% {\rBase}prevenible. {\rBase}El
+Dialogue: 0,0:00:12.22,0:00:13.34,Base,,0,0,0,,{\rBase}% {\rHot\t(0,120,\fscx115\fscy115)}prevenible. {\rBase}El
+Dialogue: 0,0:00:13.34,0:00:13.97,Base,,0,0,0,,{\rBase}% {\rBase}prevenible. {\rHot\t(0,120,\fscx115\fscy115)}El
+Dialogue: 0,0:00:13.92,0:00:14.30,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}consumo {\rBase}de {\rBase}alcohol
+Dialogue: 0,0:00:14.30,0:00:14.46,Base,,0,0,0,,{\rBase}consumo {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}alcohol
+Dialogue: 0,0:00:14.46,0:00:14.83,Base,,0,0,0,,{\rBase}consumo {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}alcohol
+Dialogue: 0,0:00:14.78,0:00:15.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}cualquier {\rBase}trimestre
+Dialogue: 0,0:00:15.00,0:00:15.36,Base,,0,0,0,,{\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}cualquier {\rBase}trimestre
+Dialogue: 0,0:00:15.36,0:00:16.01,Base,,0,0,0,,{\rBase}en {\rBase}cualquier {\rHot\t(0,120,\fscx115\fscy115)}trimestre
+Dialogue: 0,0:00:15.96,0:00:16.14,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}embarazo {\rBase}se
+Dialogue: 0,0:00:16.14,0:00:16.68,Base,,0,0,0,,{\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}embarazo {\rBase}se
+Dialogue: 0,0:00:16.68,0:00:16.97,Base,,0,0,0,,{\rBase}del {\rBase}embarazo {\rHot\t(0,120,\fscx115\fscy115)}se
+Dialogue: 0,0:00:16.92,0:00:17.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}asocia {\rBase}con {\rBase}alteraciones
+Dialogue: 0,0:00:17.24,0:00:17.44,Base,,0,0,0,,{\rBase}asocia {\rHot\t(0,120,\fscx115\fscy115)}con {\rBase}alteraciones
+Dialogue: 0,0:00:17.44,0:00:18.17,Base,,0,0,0,,{\rBase}asocia {\rBase}con {\rHot\t(0,120,\fscx115\fscy115)}alteraciones
+Dialogue: 0,0:00:18.12,0:00:18.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}neurodesarrollo {\rBase}fetal,
+Dialogue: 0,0:00:18.36,0:00:19.22,Base,,0,0,0,,{\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}neurodesarrollo {\rBase}fetal,
+Dialogue: 0,0:00:19.22,0:00:19.79,Base,,0,0,0,,{\rBase}del {\rBase}neurodesarrollo {\rHot\t(0,120,\fscx115\fscy115)}fetal,
+Dialogue: 0,0:00:20.08,0:00:20.80,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}trastornos {\rBase}del {\rBase}espectro
+Dialogue: 0,0:00:20.80,0:00:20.94,Base,,0,0,0,,{\rBase}trastornos {\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}espectro
+Dialogue: 0,0:00:20.94,0:00:21.47,Base,,0,0,0,,{\rBase}trastornos {\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}espectro
+Dialogue: 0,0:00:21.42,0:00:22.04,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}alcohólico {\rBase}fetal, {\rBase}TEAF,
+Dialogue: 0,0:00:22.04,0:00:22.66,Base,,0,0,0,,{\rBase}alcohólico {\rHot\t(0,120,\fscx115\fscy115)}fetal, {\rBase}TEAF,
+Dialogue: 0,0:00:22.66,0:00:23.49,Base,,0,0,0,,{\rBase}alcohólico {\rBase}fetal, {\rHot\t(0,120,\fscx115\fscy115)}TEAF,
+Dialogue: 0,0:00:23.72,0:00:23.98,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}sin {\rBase}un {\rBase}umbral
+Dialogue: 0,0:00:23.98,0:00:24.16,Base,,0,0,0,,{\rBase}sin {\rHot\t(0,120,\fscx115\fscy115)}un {\rBase}umbral
+Dialogue: 0,0:00:24.16,0:00:24.57,Base,,0,0,0,,{\rBase}sin {\rBase}un {\rHot\t(0,120,\fscx115\fscy115)}umbral
+Dialogue: 0,0:00:24.52,0:00:24.96,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}mínimo {\rBase}establecido. {\rBase}El
+Dialogue: 0,0:00:24.96,0:00:25.29,Base,,0,0,0,,{\rBase}mínimo {\rHot\t(0,120,\fscx115\fscy115)}establecido. {\rBase}El
+Dialogue: 0,0:00:25.29,0:00:26.46,Base,,0,0,0,,{\rBase}mínimo {\rBase}establecido. {\rHot\t(0,120,\fscx115\fscy115)}El
+Dialogue: 0,0:00:26.41,0:00:26.85,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}patrón {\rBase}de {\rBase}consumo
+Dialogue: 0,0:00:26.85,0:00:26.97,Base,,0,0,0,,{\rBase}patrón {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}consumo
+Dialogue: 0,0:00:26.97,0:00:27.44,Base,,0,0,0,,{\rBase}patrón {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}consumo
+Dialogue: 0,0:00:27.39,0:00:27.99,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}intenso {\rBase}episodico, {\rBase}binge
+Dialogue: 0,0:00:27.99,0:00:28.93,Base,,0,0,0,,{\rBase}intenso {\rHot\t(0,120,\fscx115\fscy115)}episodico, {\rBase}binge
+Dialogue: 0,0:00:28.93,0:00:29.56,Base,,0,0,0,,{\rBase}intenso {\rBase}episodico, {\rHot\t(0,120,\fscx115\fscy115)}binge
+Dialogue: 0,0:00:29.51,0:00:30.33,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}drinking, {\rBase}es {\rBase}el
+Dialogue: 0,0:00:30.33,0:00:30.63,Base,,0,0,0,,{\rBase}drinking, {\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}el
+Dialogue: 0,0:00:30.63,0:00:30.84,Base,,0,0,0,,{\rBase}drinking, {\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:30.79,0:00:30.97,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}más {\rBase}lesivo.
+Dialogue: 0,0:00:30.97,0:00:31.54,Base,,0,0,0,,{\rBase}más {\rHot\t(0,120,\fscx115\fscy115)}lesivo.

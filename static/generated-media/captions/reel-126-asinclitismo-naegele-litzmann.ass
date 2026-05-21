@@ -1,0 +1,71 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H001E80FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.72,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Confundir {\rBase}Naegle {\rBase}con
+Dialogue: 0,0:00:00.72,0:00:01.12,Base,,0,0,0,,{\rBase}Confundir {\rHot\t(0,120,\fscx115\fscy115)}Naegle {\rBase}con
+Dialogue: 0,0:00:01.12,0:00:01.41,Base,,0,0,0,,{\rBase}Confundir {\rBase}Naegle {\rHot\t(0,120,\fscx115\fscy115)}con
+Dialogue: 0,0:00:01.36,0:00:01.90,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Litzman {\rBase}lleva {\rBase}a
+Dialogue: 0,0:00:01.90,0:00:02.26,Base,,0,0,0,,{\rBase}Litzman {\rHot\t(0,120,\fscx115\fscy115)}lleva {\rBase}a
+Dialogue: 0,0:00:02.26,0:00:02.45,Base,,0,0,0,,{\rBase}Litzman {\rBase}lleva {\rHot\t(0,120,\fscx115\fscy115)}a
+Dialogue: 0,0:00:02.40,0:00:02.96,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}expectar {\rBase}lo {\rBase}que
+Dialogue: 0,0:00:02.96,0:00:03.16,Base,,0,0,0,,{\rBase}expectar {\rHot\t(0,120,\fscx115\fscy115)}lo {\rBase}que
+Dialogue: 0,0:00:03.16,0:00:03.35,Base,,0,0,0,,{\rBase}expectar {\rBase}lo {\rHot\t(0,120,\fscx115\fscy115)}que
+Dialogue: 0,0:00:03.30,0:00:03.44,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}realidad {\rBase}es
+Dialogue: 0,0:00:03.44,0:00:03.90,Base,,0,0,0,,{\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}realidad {\rBase}es
+Dialogue: 0,0:00:03.90,0:00:04.25,Base,,0,0,0,,{\rBase}en {\rBase}realidad {\rHot\t(0,120,\fscx115\fscy115)}es
+Dialogue: 0,0:00:04.20,0:00:04.70,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}bloqueo {\rBase}pélvico. {\rBase}En
+Dialogue: 0,0:00:04.70,0:00:05.48,Base,,0,0,0,,{\rBase}bloqueo {\rHot\t(0,120,\fscx115\fscy115)}pélvico. {\rBase}En
+Dialogue: 0,0:00:05.48,0:00:05.95,Base,,0,0,0,,{\rBase}bloqueo {\rBase}pélvico. {\rHot\t(0,120,\fscx115\fscy115)}En
+Dialogue: 0,0:00:05.90,0:00:06.96,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}asinclitismo, {\rBase}la {\rBase}sutura
+Dialogue: 0,0:00:06.96,0:00:07.02,Base,,0,0,0,,{\rBase}asinclitismo, {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}sutura
+Dialogue: 0,0:00:07.02,0:00:07.41,Base,,0,0,0,,{\rBase}asinclitismo, {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}sutura
+Dialogue: 0,0:00:07.36,0:00:07.84,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}sagital {\rBase}no {\rBase}está
+Dialogue: 0,0:00:07.84,0:00:08.08,Base,,0,0,0,,{\rBase}sagital {\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}está
+Dialogue: 0,0:00:08.08,0:00:08.31,Base,,0,0,0,,{\rBase}sagital {\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}está
+Dialogue: 0,0:00:08.26,0:00:08.74,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}centrada {\rBase}entre {\rBase}sínfisis
+Dialogue: 0,0:00:08.74,0:00:08.98,Base,,0,0,0,,{\rBase}centrada {\rHot\t(0,120,\fscx115\fscy115)}entre {\rBase}sínfisis
+Dialogue: 0,0:00:08.98,0:00:09.71,Base,,0,0,0,,{\rBase}centrada {\rBase}entre {\rHot\t(0,120,\fscx115\fscy115)}sínfisis
+Dialogue: 0,0:00:09.66,0:00:09.86,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}promontorio. {\rBase}Anterior,
+Dialogue: 0,0:00:09.86,0:00:11.02,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}promontorio. {\rBase}Anterior,
+Dialogue: 0,0:00:11.02,0:00:11.59,Base,,0,0,0,,{\rBase}y {\rBase}promontorio. {\rHot\t(0,120,\fscx115\fscy115)}Anterior,
+Dialogue: 0,0:00:11.96,0:00:12.92,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Naegle, {\rBase}cabeza {\rBase}inclinada
+Dialogue: 0,0:00:12.92,0:00:13.36,Base,,0,0,0,,{\rBase}Naegle, {\rHot\t(0,120,\fscx115\fscy115)}cabeza {\rBase}inclinada
+Dialogue: 0,0:00:13.36,0:00:14.03,Base,,0,0,0,,{\rBase}Naegle, {\rBase}cabeza {\rHot\t(0,120,\fscx115\fscy115)}inclinada
+Dialogue: 0,0:00:13.98,0:00:14.20,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}hacia {\rBase}atrás, {\rBase}sutura
+Dialogue: 0,0:00:14.20,0:00:15.04,Base,,0,0,0,,{\rBase}hacia {\rHot\t(0,120,\fscx115\fscy115)}atrás, {\rBase}sutura
+Dialogue: 0,0:00:15.04,0:00:15.47,Base,,0,0,0,,{\rBase}hacia {\rBase}atrás, {\rHot\t(0,120,\fscx115\fscy115)}sutura
+Dialogue: 0,0:00:15.42,0:00:16.04,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}desplazada {\rBase}al {\rBase}promontorio,
+Dialogue: 0,0:00:16.04,0:00:16.18,Base,,0,0,0,,{\rBase}desplazada {\rHot\t(0,120,\fscx115\fscy115)}al {\rBase}promontorio,
+Dialogue: 0,0:00:16.18,0:00:16.95,Base,,0,0,0,,{\rBase}desplazada {\rBase}al {\rHot\t(0,120,\fscx115\fscy115)}promontorio,
+Dialogue: 0,0:00:17.36,0:00:17.84,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}parietal {\rBase}anterior {\rBase}dirige,
+Dialogue: 0,0:00:17.84,0:00:18.18,Base,,0,0,0,,{\rBase}parietal {\rHot\t(0,120,\fscx115\fscy115)}anterior {\rBase}dirige,
+Dialogue: 0,0:00:18.18,0:00:18.81,Base,,0,0,0,,{\rBase}parietal {\rBase}anterior {\rHot\t(0,120,\fscx115\fscy115)}dirige,
+Dialogue: 0,0:00:19.16,0:00:19.98,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}habitualmente {\rBase}favorable. {\rBase}Posterior,
+Dialogue: 0,0:00:19.98,0:00:21.20,Base,,0,0,0,,{\rBase}habitualmente {\rHot\t(0,120,\fscx115\fscy115)}favorable. {\rBase}Posterior,
+Dialogue: 0,0:00:21.20,0:00:21.87,Base,,0,0,0,,{\rBase}habitualmente {\rBase}favorable. {\rHot\t(0,120,\fscx115\fscy115)}Posterior,
+Dialogue: 0,0:00:22.12,0:00:23.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Litzman, {\rBase}sutura {\rBase}desplazada
+Dialogue: 0,0:00:23.34,0:00:23.74,Base,,0,0,0,,{\rBase}Litzman, {\rHot\t(0,120,\fscx115\fscy115)}sutura {\rBase}desplazada
+Dialogue: 0,0:00:23.74,0:00:24.51,Base,,0,0,0,,{\rBase}Litzman, {\rBase}sutura {\rHot\t(0,120,\fscx115\fscy115)}desplazada
+Dialogue: 0,0:00:24.46,0:00:24.68,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}hacia {\rBase}la {\rBase}sínfisis.
+Dialogue: 0,0:00:24.68,0:00:24.84,Base,,0,0,0,,{\rBase}hacia {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}sínfisis.
+Dialogue: 0,0:00:24.84,0:00:25.55,Base,,0,0,0,,{\rBase}hacia {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}sínfisis.
+Dialogue: 0,0:00:25.80,0:00:26.58,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Parietal {\rBase}posterior {\rBase}dirige,
+Dialogue: 0,0:00:26.58,0:00:27.00,Base,,0,0,0,,{\rBase}Parietal {\rHot\t(0,120,\fscx115\fscy115)}posterior {\rBase}dirige,
+Dialogue: 0,0:00:27.00,0:00:27.67,Base,,0,0,0,,{\rBase}Parietal {\rBase}posterior {\rHot\t(0,120,\fscx115\fscy115)}dirige,
+Dialogue: 0,0:00:28.28,0:00:28.54,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}casi {\rBase}siempre {\rBase}patológico.
+Dialogue: 0,0:00:28.54,0:00:28.92,Base,,0,0,0,,{\rBase}casi {\rHot\t(0,120,\fscx115\fscy115)}siempre {\rBase}patológico.
+Dialogue: 0,0:00:28.92,0:00:29.79,Base,,0,0,0,,{\rBase}casi {\rBase}siempre {\rHot\t(0,120,\fscx115\fscy115)}patológico.
+Dialogue: 0,0:00:30.00,0:00:30.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}indica {\rBase}falta {\rBase}de
+Dialogue: 0,0:00:30.62,0:00:31.08,Base,,0,0,0,,{\rBase}indica {\rHot\t(0,120,\fscx115\fscy115)}falta {\rBase}de
+Dialogue: 0,0:00:31.08,0:00:31.31,Base,,0,0,0,,{\rBase}indica {\rBase}falta {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:31.26,0:00:31.79,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}espacio.

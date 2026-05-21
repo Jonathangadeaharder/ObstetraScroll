@@ -1,0 +1,17 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,88,&H00F4E000,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:55.02,0:00:55.02,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}por {\rBase}ver {\rBase}el
+Dialogue: 0,0:00:55.02,0:00:55.02,Base,,0,0,0,,{\rBase}por {\rHot\t(0,120,\fscx115\fscy115)}ver {\rBase}el
+Dialogue: 0,0:00:55.02,0:00:55.07,Base,,0,0,0,,{\rBase}por {\rBase}ver {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:55.02,0:00:55.09,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}video.

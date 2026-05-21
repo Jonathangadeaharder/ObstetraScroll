@@ -1,0 +1,79 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0000E5FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}presencia {\rBase}de
+Dialogue: 0,0:00:00.28,0:00:00.70,Base,,0,0,0,,{\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}presencia {\rBase}de
+Dialogue: 0,0:00:00.70,0:00:00.87,Base,,0,0,0,,{\rBase}La {\rBase}presencia {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:00.82,0:00:01.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}VPH {\rBase}en {\rBase}el
+Dialogue: 0,0:00:01.24,0:00:01.44,Base,,0,0,0,,{\rBase}VPH {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}el
+Dialogue: 0,0:00:01.44,0:00:01.57,Base,,0,0,0,,{\rBase}VPH {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:01.52,0:00:01.84,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}control {\rBase}prenatal {\rBase}se
+Dialogue: 0,0:00:01.84,0:00:02.38,Base,,0,0,0,,{\rBase}control {\rHot\t(0,120,\fscx115\fscy115)}prenatal {\rBase}se
+Dialogue: 0,0:00:02.38,0:00:02.73,Base,,0,0,0,,{\rBase}control {\rBase}prenatal {\rHot\t(0,120,\fscx115\fscy115)}se
+Dialogue: 0,0:00:02.68,0:00:03.14,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}reporta {\rBase}incidentalmente {\rBase}por
+Dialogue: 0,0:00:03.14,0:00:03.98,Base,,0,0,0,,{\rBase}reporta {\rHot\t(0,120,\fscx115\fscy115)}incidentalmente {\rBase}por
+Dialogue: 0,0:00:03.98,0:00:04.23,Base,,0,0,0,,{\rBase}reporta {\rBase}incidentalmente {\rHot\t(0,120,\fscx115\fscy115)}por
+Dialogue: 0,0:00:04.18,0:00:04.68,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}citología {\rBase}y {\rBase}genera
+Dialogue: 0,0:00:04.68,0:00:05.32,Base,,0,0,0,,{\rBase}citología {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}genera
+Dialogue: 0,0:00:05.32,0:00:05.79,Base,,0,0,0,,{\rBase}citología {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}genera
+Dialogue: 0,0:00:05.74,0:00:06.40,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}ansiedad {\rBase}innecesaria {\rBase}en
+Dialogue: 0,0:00:06.40,0:00:07.00,Base,,0,0,0,,{\rBase}ansiedad {\rHot\t(0,120,\fscx115\fscy115)}innecesaria {\rBase}en
+Dialogue: 0,0:00:07.00,0:00:07.17,Base,,0,0,0,,{\rBase}ansiedad {\rBase}innecesaria {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:07.12,0:00:07.20,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}gestante, {\rBase}además
+Dialogue: 0,0:00:07.20,0:00:07.94,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}gestante, {\rBase}además
+Dialogue: 0,0:00:07.94,0:00:08.53,Base,,0,0,0,,{\rBase}la {\rBase}gestante, {\rHot\t(0,120,\fscx115\fscy115)}además
+Dialogue: 0,0:00:08.48,0:00:08.66,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}que {\rBase}los
+Dialogue: 0,0:00:08.66,0:00:08.74,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}que {\rBase}los
+Dialogue: 0,0:00:08.74,0:00:08.95,Base,,0,0,0,,{\rBase}de {\rBase}que {\rHot\t(0,120,\fscx115\fscy115)}los
+Dialogue: 0,0:00:08.90,0:00:09.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}cambios {\rBase}citológicos {\rBase}del
+Dialogue: 0,0:00:09.26,0:00:09.96,Base,,0,0,0,,{\rBase}cambios {\rHot\t(0,120,\fscx115\fscy115)}citológicos {\rBase}del
+Dialogue: 0,0:00:09.96,0:00:10.15,Base,,0,0,0,,{\rBase}cambios {\rBase}citológicos {\rHot\t(0,120,\fscx115\fscy115)}del
+Dialogue: 0,0:00:10.10,0:00:10.58,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}embarazo {\rBase}pueden {\rBase}interpretarse
+Dialogue: 0,0:00:10.58,0:00:11.06,Base,,0,0,0,,{\rBase}embarazo {\rHot\t(0,120,\fscx115\fscy115)}pueden {\rBase}interpretarse
+Dialogue: 0,0:00:11.06,0:00:11.83,Base,,0,0,0,,{\rBase}embarazo {\rBase}pueden {\rHot\t(0,120,\fscx115\fscy115)}interpretarse
+Dialogue: 0,0:00:11.78,0:00:12.96,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}erróneamente. {\rBase}No {\rBase}hay
+Dialogue: 0,0:00:12.96,0:00:13.48,Base,,0,0,0,,{\rBase}erróneamente. {\rHot\t(0,120,\fscx115\fscy115)}No {\rBase}hay
+Dialogue: 0,0:00:13.48,0:00:13.71,Base,,0,0,0,,{\rBase}erróneamente. {\rBase}No {\rHot\t(0,120,\fscx115\fscy115)}hay
+Dialogue: 0,0:00:13.66,0:00:14.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}evidencia {\rBase}que {\rBase}respalde
+Dialogue: 0,0:00:14.28,0:00:14.56,Base,,0,0,0,,{\rBase}evidencia {\rHot\t(0,120,\fscx115\fscy115)}que {\rBase}respalde
+Dialogue: 0,0:00:14.56,0:00:15.03,Base,,0,0,0,,{\rBase}evidencia {\rBase}que {\rHot\t(0,120,\fscx115\fscy115)}respalde
+Dialogue: 0,0:00:14.98,0:00:15.10,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}cribado {\rBase}rutinario
+Dialogue: 0,0:00:15.10,0:00:15.54,Base,,0,0,0,,{\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}cribado {\rBase}rutinario
+Dialogue: 0,0:00:15.54,0:00:16.13,Base,,0,0,0,,{\rBase}el {\rBase}cribado {\rHot\t(0,120,\fscx115\fscy115)}rutinario
+Dialogue: 0,0:00:16.08,0:00:16.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}VPH {\rBase}en
+Dialogue: 0,0:00:16.24,0:00:16.84,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}VPH {\rBase}en
+Dialogue: 0,0:00:16.84,0:00:17.33,Base,,0,0,0,,{\rBase}de {\rBase}VPH {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:17.28,0:00:17.78,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}gestantes {\rBase}asintomáticas, {\rBase}ya
+Dialogue: 0,0:00:17.78,0:00:18.92,Base,,0,0,0,,{\rBase}gestantes {\rHot\t(0,120,\fscx115\fscy115)}asintomáticas, {\rBase}ya
+Dialogue: 0,0:00:18.92,0:00:19.31,Base,,0,0,0,,{\rBase}gestantes {\rBase}asintomáticas, {\rHot\t(0,120,\fscx115\fscy115)}ya
+Dialogue: 0,0:00:19.26,0:00:19.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}que {\rBase}la {\rBase}infección
+Dialogue: 0,0:00:19.38,0:00:19.50,Base,,0,0,0,,{\rBase}que {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}infección
+Dialogue: 0,0:00:19.50,0:00:20.13,Base,,0,0,0,,{\rBase}que {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}infección
+Dialogue: 0,0:00:20.08,0:00:20.30,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}por {\rBase}VPH {\rBase}no
+Dialogue: 0,0:00:20.30,0:00:20.90,Base,,0,0,0,,{\rBase}por {\rHot\t(0,120,\fscx115\fscy115)}VPH {\rBase}no
+Dialogue: 0,0:00:20.90,0:00:21.45,Base,,0,0,0,,{\rBase}por {\rBase}VPH {\rHot\t(0,120,\fscx115\fscy115)}no
+Dialogue: 0,0:00:21.40,0:00:21.94,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}aumenta {\rBase}el {\rBase}riesgo
+Dialogue: 0,0:00:21.94,0:00:22.08,Base,,0,0,0,,{\rBase}aumenta {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}riesgo
+Dialogue: 0,0:00:22.08,0:00:22.51,Base,,0,0,0,,{\rBase}aumenta {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}riesgo
+Dialogue: 0,0:00:22.46,0:00:23.22,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}obstétrico {\rBase}adverso {\rBase}ni
+Dialogue: 0,0:00:23.22,0:00:23.80,Base,,0,0,0,,{\rBase}obstétrico {\rHot\t(0,120,\fscx115\fscy115)}adverso {\rBase}ni
+Dialogue: 0,0:00:23.80,0:00:24.35,Base,,0,0,0,,{\rBase}obstétrico {\rBase}adverso {\rHot\t(0,120,\fscx115\fscy115)}ni
+Dialogue: 0,0:00:24.30,0:00:24.76,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}modifica {\rBase}la {\rBase}conducta
+Dialogue: 0,0:00:24.76,0:00:24.92,Base,,0,0,0,,{\rBase}modifica {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}conducta
+Dialogue: 0,0:00:24.92,0:00:25.49,Base,,0,0,0,,{\rBase}modifica {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}conducta
+Dialogue: 0,0:00:25.44,0:00:25.68,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}durante {\rBase}el {\rBase}embarazo
+Dialogue: 0,0:00:25.68,0:00:25.98,Base,,0,0,0,,{\rBase}durante {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}embarazo
+Dialogue: 0,0:00:25.98,0:00:26.47,Base,,0,0,0,,{\rBase}durante {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}embarazo
+Dialogue: 0,0:00:26.42,0:00:26.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}o {\rBase}el {\rBase}parto.
+Dialogue: 0,0:00:26.62,0:00:26.78,Base,,0,0,0,,{\rBase}o {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}parto.
+Dialogue: 0,0:00:26.78,0:00:27.23,Base,,0,0,0,,{\rBase}o {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}parto.

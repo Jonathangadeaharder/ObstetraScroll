@@ -1,0 +1,81 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Arial Black,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Arial Black,84,&H00FF3CFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.30,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}La {\rBase}cesárea {\rBase}se
+Dialogue: 0,0:00:00.30,0:00:00.66,Base,,0,0,0,,{\rBase}La {\rHot\frz-3\t(0,200,\frz3)}cesárea {\rBase}se
+Dialogue: 0,0:00:00.66,0:00:00.89,Base,,0,0,0,,{\rBase}La {\rBase}cesárea {\rHot\frz-3\t(0,200,\frz3)}se
+Dialogue: 0,0:00:00.84,0:00:01.22,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}indica {\rBase}sistemáticamente {\rBase}en
+Dialogue: 0,0:00:01.22,0:00:02.22,Base,,0,0,0,,{\rBase}indica {\rHot\frz-3\t(0,200,\frz3)}sistemáticamente {\rBase}en
+Dialogue: 0,0:00:02.22,0:00:02.49,Base,,0,0,0,,{\rBase}indica {\rBase}sistemáticamente {\rHot\frz-3\t(0,200,\frz3)}en
+Dialogue: 0,0:00:02.44,0:00:02.90,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}prematuros {\rBase}con {\rBase}nalgas
+Dialogue: 0,0:00:02.90,0:00:03.12,Base,,0,0,0,,{\rBase}prematuros {\rHot\frz-3\t(0,200,\frz3)}con {\rBase}nalgas
+Dialogue: 0,0:00:03.12,0:00:03.69,Base,,0,0,0,,{\rBase}prematuros {\rBase}con {\rHot\frz-3\t(0,200,\frz3)}nalgas
+Dialogue: 0,0:00:03.64,0:00:04.20,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}bajo {\rBase}el {\rBase}supuesto
+Dialogue: 0,0:00:04.20,0:00:04.44,Base,,0,0,0,,{\rBase}bajo {\rHot\frz-3\t(0,200,\frz3)}el {\rBase}supuesto
+Dialogue: 0,0:00:04.44,0:00:04.99,Base,,0,0,0,,{\rBase}bajo {\rBase}el {\rHot\frz-3\t(0,200,\frz3)}supuesto
+Dialogue: 0,0:00:04.94,0:00:05.14,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}de {\rBase}que {\rBase}protege
+Dialogue: 0,0:00:05.14,0:00:05.34,Base,,0,0,0,,{\rBase}de {\rHot\frz-3\t(0,200,\frz3)}que {\rBase}protege
+Dialogue: 0,0:00:05.34,0:00:06.19,Base,,0,0,0,,{\rBase}de {\rBase}que {\rHot\frz-3\t(0,200,\frz3)}protege
+Dialogue: 0,0:00:06.14,0:00:06.46,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}al {\rBase}neonato, {\rBase}pero
+Dialogue: 0,0:00:06.46,0:00:07.62,Base,,0,0,0,,{\rBase}al {\rHot\frz-3\t(0,200,\frz3)}neonato, {\rBase}pero
+Dialogue: 0,0:00:07.62,0:00:07.85,Base,,0,0,0,,{\rBase}al {\rBase}neonato, {\rHot\frz-3\t(0,200,\frz3)}pero
+Dialogue: 0,0:00:07.80,0:00:07.94,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}la {\rBase}evidencia {\rBase}muestra
+Dialogue: 0,0:00:07.94,0:00:08.68,Base,,0,0,0,,{\rBase}la {\rHot\frz-3\t(0,200,\frz3)}evidencia {\rBase}muestra
+Dialogue: 0,0:00:08.68,0:00:09.53,Base,,0,0,0,,{\rBase}la {\rBase}evidencia {\rHot\frz-3\t(0,200,\frz3)}muestra
+Dialogue: 0,0:00:09.48,0:00:09.66,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}que {\rBase}la {\rBase}vía
+Dialogue: 0,0:00:09.66,0:00:09.78,Base,,0,0,0,,{\rBase}que {\rHot\frz-3\t(0,200,\frz3)}la {\rBase}vía
+Dialogue: 0,0:00:09.78,0:00:10.09,Base,,0,0,0,,{\rBase}que {\rBase}la {\rHot\frz-3\t(0,200,\frz3)}vía
+Dialogue: 0,0:00:10.04,0:00:10.26,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}del {\rBase}parto {\rBase}no
+Dialogue: 0,0:00:10.26,0:00:10.78,Base,,0,0,0,,{\rBase}del {\rHot\frz-3\t(0,200,\frz3)}parto {\rBase}no
+Dialogue: 0,0:00:10.78,0:00:11.21,Base,,0,0,0,,{\rBase}del {\rBase}parto {\rHot\frz-3\t(0,200,\frz3)}no
+Dialogue: 0,0:00:11.16,0:00:11.62,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}modifica {\rBase}los {\rBase}resultados
+Dialogue: 0,0:00:11.62,0:00:11.78,Base,,0,0,0,,{\rBase}modifica {\rHot\frz-3\t(0,200,\frz3)}los {\rBase}resultados
+Dialogue: 0,0:00:11.78,0:00:12.49,Base,,0,0,0,,{\rBase}modifica {\rBase}los {\rHot\frz-3\t(0,200,\frz3)}resultados
+Dialogue: 0,0:00:12.44,0:00:13.18,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}cuando {\rBase}hay {\rBase}experiencia
+Dialogue: 0,0:00:13.18,0:00:13.34,Base,,0,0,0,,{\rBase}cuando {\rHot\frz-3\t(0,200,\frz3)}hay {\rBase}experiencia
+Dialogue: 0,0:00:13.34,0:00:13.97,Base,,0,0,0,,{\rBase}cuando {\rBase}hay {\rHot\frz-3\t(0,200,\frz3)}experiencia
+Dialogue: 0,0:00:13.92,0:00:14.20,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}en {\rBase}parto {\rBase}pélvico.
+Dialogue: 0,0:00:14.20,0:00:14.66,Base,,0,0,0,,{\rBase}en {\rHot\frz-3\t(0,200,\frz3)}parto {\rBase}pélvico.
+Dialogue: 0,0:00:14.66,0:00:15.53,Base,,0,0,0,,{\rBase}en {\rBase}parto {\rHot\frz-3\t(0,200,\frz3)}pélvico.
+Dialogue: 0,0:00:16.22,0:00:16.52,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}La {\rBase}cesárea {\rBase}electiva
+Dialogue: 0,0:00:16.52,0:00:16.92,Base,,0,0,0,,{\rBase}La {\rHot\frz-3\t(0,200,\frz3)}cesárea {\rBase}electiva
+Dialogue: 0,0:00:16.92,0:00:17.59,Base,,0,0,0,,{\rBase}La {\rBase}cesárea {\rHot\frz-3\t(0,200,\frz3)}electiva
+Dialogue: 0,0:00:17.54,0:00:17.82,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}en {\rBase}presentación {\rBase}de
+Dialogue: 0,0:00:17.82,0:00:18.44,Base,,0,0,0,,{\rBase}en {\rHot\frz-3\t(0,200,\frz3)}presentación {\rBase}de
+Dialogue: 0,0:00:18.44,0:00:18.65,Base,,0,0,0,,{\rBase}en {\rBase}presentación {\rHot\frz-3\t(0,200,\frz3)}de
+Dialogue: 0,0:00:18.60,0:00:18.94,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}nalgas {\rBase}para {\rBase}prematuros
+Dialogue: 0,0:00:18.94,0:00:19.14,Base,,0,0,0,,{\rBase}nalgas {\rHot\frz-3\t(0,200,\frz3)}para {\rBase}prematuros
+Dialogue: 0,0:00:19.14,0:00:19.89,Base,,0,0,0,,{\rBase}nalgas {\rBase}para {\rHot\frz-3\t(0,200,\frz3)}prematuros
+Dialogue: 0,0:00:19.84,0:00:20.58,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}antes {\rBase}de {\rBase}las
+Dialogue: 0,0:00:20.58,0:00:20.78,Base,,0,0,0,,{\rBase}antes {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}las
+Dialogue: 0,0:00:20.78,0:00:20.97,Base,,0,0,0,,{\rBase}antes {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}las
+Dialogue: 0,0:00:20.92,0:00:21.44,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}37 {\rBase}semanas {\rBase}no
+Dialogue: 0,0:00:21.44,0:00:22.10,Base,,0,0,0,,{\rBase}37 {\rHot\frz-3\t(0,200,\frz3)}semanas {\rBase}no
+Dialogue: 0,0:00:22.10,0:00:22.73,Base,,0,0,0,,{\rBase}37 {\rBase}semanas {\rHot\frz-3\t(0,200,\frz3)}no
+Dialogue: 0,0:00:22.68,0:00:23.02,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}mejora {\rBase}la {\rBase}mortalidad
+Dialogue: 0,0:00:23.02,0:00:23.12,Base,,0,0,0,,{\rBase}mejora {\rHot\frz-3\t(0,200,\frz3)}la {\rBase}mortalidad
+Dialogue: 0,0:00:23.12,0:00:23.85,Base,,0,0,0,,{\rBase}mejora {\rBase}la {\rHot\frz-3\t(0,200,\frz3)}mortalidad
+Dialogue: 0,0:00:23.80,0:00:24.08,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}ni {\rBase}la {\rBase}morbilidad
+Dialogue: 0,0:00:24.08,0:00:24.22,Base,,0,0,0,,{\rBase}ni {\rHot\frz-3\t(0,200,\frz3)}la {\rBase}morbilidad
+Dialogue: 0,0:00:24.22,0:00:24.87,Base,,0,0,0,,{\rBase}ni {\rBase}la {\rHot\frz-3\t(0,200,\frz3)}morbilidad
+Dialogue: 0,0:00:24.82,0:00:25.34,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}neonatal {\rBase}severa {\rBase}comparada
+Dialogue: 0,0:00:25.34,0:00:25.96,Base,,0,0,0,,{\rBase}neonatal {\rHot\frz-3\t(0,200,\frz3)}severa {\rBase}comparada
+Dialogue: 0,0:00:25.96,0:00:26.77,Base,,0,0,0,,{\rBase}neonatal {\rBase}severa {\rHot\frz-3\t(0,200,\frz3)}comparada
+Dialogue: 0,0:00:26.72,0:00:26.90,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}con {\rBase}el {\rBase}parto
+Dialogue: 0,0:00:26.90,0:00:27.06,Base,,0,0,0,,{\rBase}con {\rHot\frz-3\t(0,200,\frz3)}el {\rBase}parto
+Dialogue: 0,0:00:27.06,0:00:27.45,Base,,0,0,0,,{\rBase}con {\rBase}el {\rHot\frz-3\t(0,200,\frz3)}parto
+Dialogue: 0,0:00:27.40,0:00:27.88,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}vaginal {\rBase}en {\rBase}centros
+Dialogue: 0,0:00:27.88,0:00:28.22,Base,,0,0,0,,{\rBase}vaginal {\rHot\frz-3\t(0,200,\frz3)}en {\rBase}centros
+Dialogue: 0,0:00:28.22,0:00:28.71,Base,,0,0,0,,{\rBase}vaginal {\rBase}en {\rHot\frz-3\t(0,200,\frz3)}centros
+Dialogue: 0,0:00:28.66,0:00:28.84,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}con {\rBase}experiencia.
+Dialogue: 0,0:00:28.84,0:00:29.55,Base,,0,0,0,,{\rBase}con {\rHot\frz-3\t(0,200,\frz3)}experiencia.

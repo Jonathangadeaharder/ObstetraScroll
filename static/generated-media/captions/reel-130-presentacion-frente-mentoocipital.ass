@@ -1,0 +1,79 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0000E5FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.30,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Es {\rBase}la {\rBase}única
+Dialogue: 0,0:00:00.30,0:00:00.42,Base,,0,0,0,,{\rBase}Es {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}única
+Dialogue: 0,0:00:00.42,0:00:00.71,Base,,0,0,0,,{\rBase}Es {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}única
+Dialogue: 0,0:00:00.66,0:00:01.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}deflexión {\rBase}que {\rBase}rara
+Dialogue: 0,0:00:01.38,0:00:01.62,Base,,0,0,0,,{\rBase}deflexión {\rHot\t(0,120,\fscx115\fscy115)}que {\rBase}rara
+Dialogue: 0,0:00:01.62,0:00:02.03,Base,,0,0,0,,{\rBase}deflexión {\rBase}que {\rHot\t(0,120,\fscx115\fscy115)}rara
+Dialogue: 0,0:00:01.98,0:00:02.18,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}vez {\rBase}progresa. {\rBase}Ni
+Dialogue: 0,0:00:02.18,0:00:03.04,Base,,0,0,0,,{\rBase}vez {\rHot\t(0,120,\fscx115\fscy115)}progresa. {\rBase}Ni
+Dialogue: 0,0:00:03.04,0:00:03.45,Base,,0,0,0,,{\rBase}vez {\rBase}progresa. {\rHot\t(0,120,\fscx115\fscy115)}Ni
+Dialogue: 0,0:00:03.40,0:00:03.54,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}se {\rBase}reflexiona {\rBase}ni
+Dialogue: 0,0:00:03.54,0:00:04.28,Base,,0,0,0,,{\rBase}se {\rHot\t(0,120,\fscx115\fscy115)}reflexiona {\rBase}ni
+Dialogue: 0,0:00:04.28,0:00:04.49,Base,,0,0,0,,{\rBase}se {\rBase}reflexiona {\rHot\t(0,120,\fscx115\fscy115)}ni
+Dialogue: 0,0:00:04.44,0:00:04.98,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}completa {\rBase}deflexión {\rBase}queda
+Dialogue: 0,0:00:04.98,0:00:05.76,Base,,0,0,0,,{\rBase}completa {\rHot\t(0,120,\fscx115\fscy115)}deflexión {\rBase}queda
+Dialogue: 0,0:00:05.76,0:00:06.23,Base,,0,0,0,,{\rBase}completa {\rBase}deflexión {\rHot\t(0,120,\fscx115\fscy115)}queda
+Dialogue: 0,0:00:06.18,0:00:07.52,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}atascada. {\rBase}Diagnosticarla {\rBase}pronto
+Dialogue: 0,0:00:07.52,0:00:08.28,Base,,0,0,0,,{\rBase}atascada. {\rHot\t(0,120,\fscx115\fscy115)}Diagnosticarla {\rBase}pronto
+Dialogue: 0,0:00:08.28,0:00:08.71,Base,,0,0,0,,{\rBase}atascada. {\rBase}Diagnosticarla {\rHot\t(0,120,\fscx115\fscy115)}pronto
+Dialogue: 0,0:00:08.66,0:00:09.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}evita {\rBase}pérdida {\rBase}de
+Dialogue: 0,0:00:09.08,0:00:09.56,Base,,0,0,0,,{\rBase}evita {\rHot\t(0,120,\fscx115\fscy115)}pérdida {\rBase}de
+Dialogue: 0,0:00:09.56,0:00:09.77,Base,,0,0,0,,{\rBase}evita {\rBase}pérdida {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:09.72,0:00:10.44,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}tiempo. {\rBase}En {\rBase}presentación
+Dialogue: 0,0:00:10.44,0:00:10.80,Base,,0,0,0,,{\rBase}tiempo. {\rHot\t(0,120,\fscx115\fscy115)}En {\rBase}presentación
+Dialogue: 0,0:00:10.80,0:00:11.41,Base,,0,0,0,,{\rBase}tiempo. {\rBase}En {\rHot\t(0,120,\fscx115\fscy115)}presentación
+Dialogue: 0,0:00:11.36,0:00:11.54,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}frente, {\rBase}deflexión
+Dialogue: 0,0:00:11.54,0:00:12.10,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}frente, {\rBase}deflexión
+Dialogue: 0,0:00:12.10,0:00:12.73,Base,,0,0,0,,{\rBase}de {\rBase}frente, {\rHot\t(0,120,\fscx115\fscy115)}deflexión
+Dialogue: 0,0:00:12.68,0:00:13.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}media, {\rBase}actúa {\rBase}el
+Dialogue: 0,0:00:13.62,0:00:13.92,Base,,0,0,0,,{\rBase}media, {\rHot\t(0,120,\fscx115\fscy115)}actúa {\rBase}el
+Dialogue: 0,0:00:13.92,0:00:14.11,Base,,0,0,0,,{\rBase}media, {\rBase}actúa {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:14.06,0:00:14.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}plano {\rBase}mento {\rBase}-occipital
+Dialogue: 0,0:00:14.34,0:00:14.74,Base,,0,0,0,,{\rBase}plano {\rHot\t(0,120,\fscx115\fscy115)}mento {\rBase}-occipital
+Dialogue: 0,0:00:14.74,0:00:15.43,Base,,0,0,0,,{\rBase}plano {\rBase}mento {\rHot\t(0,120,\fscx115\fscy115)}-occipital
+Dialogue: 0,0:00:15.38,0:00:15.86,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}con {\rBase}diámetro {\rBase}de
+Dialogue: 0,0:00:15.86,0:00:16.38,Base,,0,0,0,,{\rBase}con {\rHot\t(0,120,\fscx115\fscy115)}diámetro {\rBase}de
+Dialogue: 0,0:00:16.38,0:00:16.57,Base,,0,0,0,,{\rBase}con {\rBase}diámetro {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:16.52,0:00:17.30,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}bipoposur {\rBase}13, {\rBase}13
+Dialogue: 0,0:00:17.30,0:00:18.16,Base,,0,0,0,,{\rBase}bipoposur {\rHot\t(0,120,\fscx115\fscy115)}13, {\rBase}13
+Dialogue: 0,0:00:18.16,0:00:18.59,Base,,0,0,0,,{\rBase}bipoposur {\rBase}13, {\rHot\t(0,120,\fscx115\fscy115)}13
+Dialogue: 0,0:00:18.54,0:00:19.40,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)},5 {\rBase}centos {\rBase}emeti
+Dialogue: 0,0:00:19.40,0:00:19.96,Base,,0,0,0,,{\rBase},5 {\rHot\t(0,120,\fscx115\fscy115)}centos {\rBase}emeti
+Dialogue: 0,0:00:19.96,0:00:20.47,Base,,0,0,0,,{\rBase},5 {\rBase}centos {\rHot\t(0,120,\fscx115\fscy115)}emeti
+Dialogue: 0,0:00:20.42,0:00:20.84,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}circunferencia {\rBase}por
+Dialogue: 0,0:00:20.84,0:00:21.84,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}circunferencia {\rBase}por
+Dialogue: 0,0:00:21.84,0:00:22.35,Base,,0,0,0,,{\rBase}y {\rBase}circunferencia {\rHot\t(0,120,\fscx115\fscy115)}por
+Dialogue: 0,0:00:22.30,0:00:22.52,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}los {\rBase}36 {\rBase}centimeperímetros.
+Dialogue: 0,0:00:22.52,0:00:23.14,Base,,0,0,0,,{\rBase}los {\rHot\t(0,120,\fscx115\fscy115)}36 {\rBase}centimeperímetros.
+Dialogue: 0,0:00:23.14,0:00:24.37,Base,,0,0,0,,{\rBase}los {\rBase}36 {\rHot\t(0,120,\fscx115\fscy115)}centimeperímetros.
+Dialogue: 0,0:00:24.52,0:00:25.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Excede {\rBase}casi {\rBase}siempre
+Dialogue: 0,0:00:25.08,0:00:25.34,Base,,0,0,0,,{\rBase}Excede {\rHot\t(0,120,\fscx115\fscy115)}casi {\rBase}siempre
+Dialogue: 0,0:00:25.34,0:00:25.79,Base,,0,0,0,,{\rBase}Excede {\rBase}casi {\rHot\t(0,120,\fscx115\fscy115)}siempre
+Dialogue: 0,0:00:25.74,0:00:25.92,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}capacidad {\rBase}de
+Dialogue: 0,0:00:25.92,0:00:26.40,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}capacidad {\rBase}de
+Dialogue: 0,0:00:26.40,0:00:26.67,Base,,0,0,0,,{\rBase}la {\rBase}capacidad {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:26.62,0:00:26.76,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}pelvis. {\rBase}El
+Dialogue: 0,0:00:26.76,0:00:27.14,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}pelvis. {\rBase}El
+Dialogue: 0,0:00:27.14,0:00:27.99,Base,,0,0,0,,{\rBase}la {\rBase}pelvis. {\rHot\t(0,120,\fscx115\fscy115)}El
+Dialogue: 0,0:00:27.94,0:00:28.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}parto {\rBase}vaginal {\rBase}es
+Dialogue: 0,0:00:28.32,0:00:28.72,Base,,0,0,0,,{\rBase}parto {\rHot\t(0,120,\fscx115\fscy115)}vaginal {\rBase}es
+Dialogue: 0,0:00:28.72,0:00:28.91,Base,,0,0,0,,{\rBase}parto {\rBase}vaginal {\rHot\t(0,120,\fscx115\fscy115)}es
+Dialogue: 0,0:00:28.86,0:00:29.48,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}imposible {\rBase}si {\rBase}persiste.
+Dialogue: 0,0:00:29.48,0:00:29.62,Base,,0,0,0,,{\rBase}imposible {\rHot\t(0,120,\fscx115\fscy115)}si {\rBase}persiste.
+Dialogue: 0,0:00:29.62,0:00:30.33,Base,,0,0,0,,{\rBase}imposible {\rBase}si {\rHot\t(0,120,\fscx115\fscy115)}persiste.
+Dialogue: 0,0:00:30.58,0:00:31.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Indicación {\rBase}de {\rBase}cesárea.
+Dialogue: 0,0:00:31.36,0:00:31.50,Base,,0,0,0,,{\rBase}Indicación {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}cesárea.
+Dialogue: 0,0:00:31.50,0:00:32.05,Base,,0,0,0,,{\rBase}Indicación {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}cesárea.

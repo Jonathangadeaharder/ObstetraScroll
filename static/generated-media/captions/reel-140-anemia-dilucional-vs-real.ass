@@ -1,0 +1,76 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,88,&H00F4E000,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.48,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Tratar {\rBase}todo {\rBase}descenso
+Dialogue: 0,0:00:00.48,0:00:00.74,Base,,0,0,0,,{\rBase}Tratar {\rHot\t(0,120,\fscx115\fscy115)}todo {\rBase}descenso
+Dialogue: 0,0:00:00.74,0:00:01.37,Base,,0,0,0,,{\rBase}Tratar {\rBase}todo {\rHot\t(0,120,\fscx115\fscy115)}descenso
+Dialogue: 0,0:00:01.32,0:00:01.46,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}HB {\rBase}con
+Dialogue: 0,0:00:01.46,0:00:01.90,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}HB {\rBase}con
+Dialogue: 0,0:00:01.90,0:00:02.23,Base,,0,0,0,,{\rBase}de {\rBase}HB {\rHot\t(0,120,\fscx115\fscy115)}con
+Dialogue: 0,0:00:02.18,0:00:02.52,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}hierro {\rBase}cuartoro {\rBase}es
+Dialogue: 0,0:00:02.52,0:00:03.08,Base,,0,0,0,,{\rBase}hierro {\rHot\t(0,120,\fscx115\fscy115)}cuartoro {\rBase}es
+Dialogue: 0,0:00:03.08,0:00:03.49,Base,,0,0,0,,{\rBase}hierro {\rBase}cuartoro {\rHot\t(0,120,\fscx115\fscy115)}es
+Dialogue: 0,0:00:03.44,0:00:04.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}sobretratamiento. {\rBase}La {\rBase}mayoría
+Dialogue: 0,0:00:04.62,0:00:05.02,Base,,0,0,0,,{\rBase}sobretratamiento. {\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}mayoría
+Dialogue: 0,0:00:05.02,0:00:05.47,Base,,0,0,0,,{\rBase}sobretratamiento. {\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}mayoría
+Dialogue: 0,0:00:05.42,0:00:05.76,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}dilucional {\rBase}fisiológica.
+Dialogue: 0,0:00:05.76,0:00:06.24,Base,,0,0,0,,{\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}dilucional {\rBase}fisiológica.
+Dialogue: 0,0:00:06.24,0:00:07.03,Base,,0,0,0,,{\rBase}es {\rBase}dilucional {\rHot\t(0,120,\fscx115\fscy115)}fisiológica.
+Dialogue: 0,0:00:07.40,0:00:07.84,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}El {\rBase}plasma {\rBase}materno
+Dialogue: 0,0:00:07.84,0:00:08.10,Base,,0,0,0,,{\rBase}El {\rHot\t(0,120,\fscx115\fscy115)}plasma {\rBase}materno
+Dialogue: 0,0:00:08.10,0:00:08.63,Base,,0,0,0,,{\rBase}El {\rBase}plasma {\rHot\t(0,120,\fscx115\fscy115)}materno
+Dialogue: 0,0:00:08.58,0:00:09.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}expande {\rBase}40 {\rBase}-50%,
+Dialogue: 0,0:00:09.08,0:00:09.50,Base,,0,0,0,,{\rBase}expande {\rHot\t(0,120,\fscx115\fscy115)}40 {\rBase}-50%,
+Dialogue: 0,0:00:09.50,0:00:10.43,Base,,0,0,0,,{\rBase}expande {\rBase}40 {\rHot\t(0,120,\fscx115\fscy115)}-50%,
+Dialogue: 0,0:00:10.38,0:00:11.16,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}pero {\rBase}los {\rBase}eritrocitos
+Dialogue: 0,0:00:11.16,0:00:11.38,Base,,0,0,0,,{\rBase}pero {\rHot\t(0,120,\fscx115\fscy115)}los {\rBase}eritrocitos
+Dialogue: 0,0:00:11.38,0:00:12.29,Base,,0,0,0,,{\rBase}pero {\rBase}los {\rHot\t(0,120,\fscx115\fscy115)}eritrocitos
+Dialogue: 0,0:00:12.24,0:00:12.68,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}solo {\rBase}20 {\rBase}-30%.
+Dialogue: 0,0:00:12.68,0:00:13.14,Base,,0,0,0,,{\rBase}solo {\rHot\t(0,120,\fscx115\fscy115)}20 {\rBase}-30%.
+Dialogue: 0,0:00:13.14,0:00:14.25,Base,,0,0,0,,{\rBase}solo {\rBase}20 {\rHot\t(0,120,\fscx115\fscy115)}-30%.
+Dialogue: 0,0:00:14.20,0:00:15.16,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Es {\rBase}dilución, {\rBase}no
+Dialogue: 0,0:00:15.16,0:00:16.12,Base,,0,0,0,,{\rBase}Es {\rHot\t(0,120,\fscx115\fscy115)}dilución, {\rBase}no
+Dialogue: 0,0:00:16.12,0:00:16.37,Base,,0,0,0,,{\rBase}Es {\rBase}dilución, {\rHot\t(0,120,\fscx115\fscy115)}no
+Dialogue: 0,0:00:16.32,0:00:17.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}anemia. {\rBase}Baja {\rBase}HB
+Dialogue: 0,0:00:17.38,0:00:17.76,Base,,0,0,0,,{\rBase}anemia. {\rHot\t(0,120,\fscx115\fscy115)}Baja {\rBase}HB
+Dialogue: 0,0:00:17.76,0:00:18.33,Base,,0,0,0,,{\rBase}anemia. {\rBase}Baja {\rHot\t(0,120,\fscx115\fscy115)}HB
+Dialogue: 0,0:00:18.28,0:00:18.72,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}HTO {\rBase}fisiológicamente.
+Dialogue: 0,0:00:18.72,0:00:19.46,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}HTO {\rBase}fisiológicamente.
+Dialogue: 0,0:00:19.46,0:00:20.95,Base,,0,0,0,,{\rBase}y {\rBase}HTO {\rHot\t(0,120,\fscx115\fscy115)}fisiológicamente.
+Dialogue: 0,0:00:21.18,0:00:21.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}anemia {\rBase}verdadera,
+Dialogue: 0,0:00:21.64,0:00:21.96,Base,,0,0,0,,{\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}anemia {\rBase}verdadera,
+Dialogue: 0,0:00:21.96,0:00:22.57,Base,,0,0,0,,{\rBase}La {\rBase}anemia {\rHot\t(0,120,\fscx115\fscy115)}verdadera,
+Dialogue: 0,0:00:22.66,0:00:23.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}usualmente {\rBase}ferropénica, {\rBase}se
+Dialogue: 0,0:00:23.26,0:00:24.10,Base,,0,0,0,,{\rBase}usualmente {\rHot\t(0,120,\fscx115\fscy115)}ferropénica, {\rBase}se
+Dialogue: 0,0:00:24.10,0:00:24.47,Base,,0,0,0,,{\rBase}usualmente {\rBase}ferropénica, {\rHot\t(0,120,\fscx115\fscy115)}se
+Dialogue: 0,0:00:24.42,0:00:25.14,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}diagnostica {\rBase}cuando {\rBase}HB
+Dialogue: 0,0:00:25.14,0:00:25.44,Base,,0,0,0,,{\rBase}diagnostica {\rHot\t(0,120,\fscx115\fscy115)}cuando {\rBase}HB
+Dialogue: 0,0:00:25.44,0:00:25.93,Base,,0,0,0,,{\rBase}diagnostica {\rBase}cuando {\rHot\t(0,120,\fscx115\fscy115)}HB
+Dialogue: 0,0:00:25.88,0:00:26.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}cae {\rBase}bajo {\rBase}11
+Dialogue: 0,0:00:26.28,0:00:26.58,Base,,0,0,0,,{\rBase}cae {\rHot\t(0,120,\fscx115\fscy115)}bajo {\rBase}11
+Dialogue: 0,0:00:26.58,0:00:27.11,Base,,0,0,0,,{\rBase}cae {\rBase}bajo {\rHot\t(0,120,\fscx115\fscy115)}11
+Dialogue: 0,0:00:27.06,0:00:27.78,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}JADL {\rBase}en {\rBase}primero
+Dialogue: 0,0:00:27.78,0:00:28.08,Base,,0,0,0,,{\rBase}JADL {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}primero
+Dialogue: 0,0:00:28.08,0:00:28.49,Base,,0,0,0,,{\rBase}JADL {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}primero
+Dialogue: 0,0:00:28.44,0:00:28.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}tres {\rBase}o
+Dialogue: 0,0:00:28.64,0:00:28.80,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}tres {\rBase}o
+Dialogue: 0,0:00:28.80,0:00:29.01,Base,,0,0,0,,{\rBase}y {\rBase}tres {\rHot\t(0,120,\fscx115\fscy115)}o
+Dialogue: 0,0:00:28.96,0:00:29.48,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}trimestre {\rBase}o {\rBase}bajo
+Dialogue: 0,0:00:29.48,0:00:29.96,Base,,0,0,0,,{\rBase}trimestre {\rHot\t(0,120,\fscx115\fscy115)}o {\rBase}bajo
+Dialogue: 0,0:00:29.96,0:00:30.25,Base,,0,0,0,,{\rBase}trimestre {\rBase}o {\rHot\t(0,120,\fscx115\fscy115)}bajo
+Dialogue: 0,0:00:30.20,0:00:30.50,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}10 {\rBase},5 {\rBase}GAPA
+Dialogue: 0,0:00:30.50,0:00:31.14,Base,,0,0,0,,{\rBase}10 {\rHot\t(0,120,\fscx115\fscy115)},5 {\rBase}GAPA
+Dialogue: 0,0:00:31.14,0:00:31.69,Base,,0,0,0,,{\rBase}10 {\rBase},5 {\rHot\t(0,120,\fscx115\fscy115)}GAPA
+Dialogue: 0,0:00:31.64,0:00:32.06,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Tadele {\rBase}en {\rBase}segundo.
+Dialogue: 0,0:00:32.06,0:00:32.38,Base,,0,0,0,,{\rBase}Tadele {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}segundo.
+Dialogue: 0,0:00:32.38,0:00:32.77,Base,,0,0,0,,{\rBase}Tadele {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}segundo.

@@ -1,0 +1,92 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Arial Black,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Arial Black,84,&H00FF3CFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.38,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}Una {\rBase}invasión {\rBase}incompleta
+Dialogue: 0,0:00:00.38,0:00:00.82,Base,,0,0,0,,{\rBase}Una {\rHot\frz-3\t(0,200,\frz3)}invasión {\rBase}incompleta
+Dialogue: 0,0:00:00.82,0:00:01.53,Base,,0,0,0,,{\rBase}Una {\rBase}invasión {\rHot\frz-3\t(0,200,\frz3)}incompleta
+Dialogue: 0,0:00:01.48,0:00:02.04,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}limitada {\rBase}a {\rBase}la
+Dialogue: 0,0:00:02.04,0:00:02.18,Base,,0,0,0,,{\rBase}limitada {\rHot\frz-3\t(0,200,\frz3)}a {\rBase}la
+Dialogue: 0,0:00:02.18,0:00:02.35,Base,,0,0,0,,{\rBase}limitada {\rBase}a {\rHot\frz-3\t(0,200,\frz3)}la
+Dialogue: 0,0:00:02.30,0:00:02.90,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}decidua {\rBase}es {\rBase}la
+Dialogue: 0,0:00:02.90,0:00:03.56,Base,,0,0,0,,{\rBase}decidua {\rHot\frz-3\t(0,200,\frz3)}es {\rBase}la
+Dialogue: 0,0:00:03.56,0:00:03.77,Base,,0,0,0,,{\rBase}decidua {\rBase}es {\rHot\frz-3\t(0,200,\frz3)}la
+Dialogue: 0,0:00:03.72,0:00:04.08,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}raíz {\rBase}de {\rBase}la
+Dialogue: 0,0:00:04.08,0:00:04.22,Base,,0,0,0,,{\rBase}raíz {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}la
+Dialogue: 0,0:00:04.22,0:00:04.41,Base,,0,0,0,,{\rBase}raíz {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}la
+Dialogue: 0,0:00:04.36,0:00:05.06,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}preeclampsia {\rBase}precoz {\rBase}y
+Dialogue: 0,0:00:05.06,0:00:05.60,Base,,0,0,0,,{\rBase}preeclampsia {\rHot\frz-3\t(0,200,\frz3)}precoz {\rBase}y
+Dialogue: 0,0:00:05.60,0:00:06.11,Base,,0,0,0,,{\rBase}preeclampsia {\rBase}precoz {\rHot\frz-3\t(0,200,\frz3)}y
+Dialogue: 0,0:00:06.06,0:00:06.18,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}de {\rBase}la {\rBase}restricción
+Dialogue: 0,0:00:06.18,0:00:06.30,Base,,0,0,0,,{\rBase}de {\rHot\frz-3\t(0,200,\frz3)}la {\rBase}restricción
+Dialogue: 0,0:00:06.30,0:00:06.89,Base,,0,0,0,,{\rBase}de {\rBase}la {\rHot\frz-3\t(0,200,\frz3)}restricción
+Dialogue: 0,0:00:06.84,0:00:06.96,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}de {\rBase}crecimiento {\rBase}placentaria.
+Dialogue: 0,0:00:06.96,0:00:07.50,Base,,0,0,0,,{\rBase}de {\rHot\frz-3\t(0,200,\frz3)}crecimiento {\rBase}placentaria.
+Dialogue: 0,0:00:07.50,0:00:08.35,Base,,0,0,0,,{\rBase}de {\rBase}crecimiento {\rHot\frz-3\t(0,200,\frz3)}placentaria.
+Dialogue: 0,0:00:08.56,0:00:09.02,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}No {\rBase}es {\rBase}un
+Dialogue: 0,0:00:09.02,0:00:09.16,Base,,0,0,0,,{\rBase}No {\rHot\frz-3\t(0,200,\frz3)}es {\rBase}un
+Dialogue: 0,0:00:09.16,0:00:09.35,Base,,0,0,0,,{\rBase}No {\rBase}es {\rHot\frz-3\t(0,200,\frz3)}un
+Dialogue: 0,0:00:09.30,0:00:09.60,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}fallo {\rBase}tardío, {\rBase}sino
+Dialogue: 0,0:00:09.60,0:00:10.34,Base,,0,0,0,,{\rBase}fallo {\rHot\frz-3\t(0,200,\frz3)}tardío, {\rBase}sino
+Dialogue: 0,0:00:10.34,0:00:10.71,Base,,0,0,0,,{\rBase}fallo {\rBase}tardío, {\rHot\frz-3\t(0,200,\frz3)}sino
+Dialogue: 0,0:00:10.66,0:00:10.84,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}un {\rBase}defecto {\rBase}del
+Dialogue: 0,0:00:10.84,0:00:11.32,Base,,0,0,0,,{\rBase}un {\rHot\frz-3\t(0,200,\frz3)}defecto {\rBase}del
+Dialogue: 0,0:00:11.32,0:00:11.55,Base,,0,0,0,,{\rBase}un {\rBase}defecto {\rHot\frz-3\t(0,200,\frz3)}del
+Dialogue: 0,0:00:11.50,0:00:11.80,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}primer {\rBase}trimestre. {\rBase}El
+Dialogue: 0,0:00:11.80,0:00:12.72,Base,,0,0,0,,{\rBase}primer {\rHot\frz-3\t(0,200,\frz3)}trimestre. {\rBase}El
+Dialogue: 0,0:00:12.72,0:00:13.39,Base,,0,0,0,,{\rBase}primer {\rBase}trimestre. {\rHot\frz-3\t(0,200,\frz3)}El
+Dialogue: 0,0:00:13.34,0:00:14.08,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}trofoblasto {\rBase}extravelloso {\rBase}invade
+Dialogue: 0,0:00:14.08,0:00:14.86,Base,,0,0,0,,{\rBase}trofoblasto {\rHot\frz-3\t(0,200,\frz3)}extravelloso {\rBase}invade
+Dialogue: 0,0:00:14.86,0:00:15.69,Base,,0,0,0,,{\rBase}trofoblasto {\rBase}extravelloso {\rHot\frz-3\t(0,200,\frz3)}invade
+Dialogue: 0,0:00:15.64,0:00:15.90,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}las {\rBase}arterias {\rBase}espirales
+Dialogue: 0,0:00:15.90,0:00:16.40,Base,,0,0,0,,{\rBase}las {\rHot\frz-3\t(0,200,\frz3)}arterias {\rBase}espirales
+Dialogue: 0,0:00:16.40,0:00:17.05,Base,,0,0,0,,{\rBase}las {\rBase}arterias {\rHot\frz-3\t(0,200,\frz3)}espirales
+Dialogue: 0,0:00:17.00,0:00:17.18,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}del {\rBase}endometrio {\rBase}y
+Dialogue: 0,0:00:17.18,0:00:17.86,Base,,0,0,0,,{\rBase}del {\rHot\frz-3\t(0,200,\frz3)}endometrio {\rBase}y
+Dialogue: 0,0:00:17.86,0:00:18.15,Base,,0,0,0,,{\rBase}del {\rBase}endometrio {\rHot\frz-3\t(0,200,\frz3)}y
+Dialogue: 0,0:00:18.10,0:00:18.26,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}el {\rBase}tercio {\rBase}interno
+Dialogue: 0,0:00:18.26,0:00:18.68,Base,,0,0,0,,{\rBase}el {\rHot\frz-3\t(0,200,\frz3)}tercio {\rBase}interno
+Dialogue: 0,0:00:18.68,0:00:19.35,Base,,0,0,0,,{\rBase}el {\rBase}tercio {\rHot\frz-3\t(0,200,\frz3)}interno
+Dialogue: 0,0:00:19.30,0:00:19.48,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}del {\rBase}miometrio, {\rBase}destruyendo
+Dialogue: 0,0:00:19.48,0:00:20.40,Base,,0,0,0,,{\rBase}del {\rHot\frz-3\t(0,200,\frz3)}miometrio, {\rBase}destruyendo
+Dialogue: 0,0:00:20.40,0:00:21.31,Base,,0,0,0,,{\rBase}del {\rBase}miometrio, {\rHot\frz-3\t(0,200,\frz3)}destruyendo
+Dialogue: 0,0:00:21.26,0:00:21.42,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}su {\rBase}pared {\rBase}elastomuscular
+Dialogue: 0,0:00:21.42,0:00:21.72,Base,,0,0,0,,{\rBase}su {\rHot\frz-3\t(0,200,\frz3)}pared {\rBase}elastomuscular
+Dialogue: 0,0:00:21.72,0:00:22.71,Base,,0,0,0,,{\rBase}su {\rBase}pared {\rHot\frz-3\t(0,200,\frz3)}elastomuscular
+Dialogue: 0,0:00:22.66,0:00:22.96,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}y {\rBase}reemplazando {\rBase}el
+Dialogue: 0,0:00:22.96,0:00:23.72,Base,,0,0,0,,{\rBase}y {\rHot\frz-3\t(0,200,\frz3)}reemplazando {\rBase}el
+Dialogue: 0,0:00:23.72,0:00:24.01,Base,,0,0,0,,{\rBase}y {\rBase}reemplazando {\rHot\frz-3\t(0,200,\frz3)}el
+Dialogue: 0,0:00:23.96,0:00:24.48,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}endotelio {\rBase}materno. {\rBase}Las
+Dialogue: 0,0:00:24.48,0:00:25.22,Base,,0,0,0,,{\rBase}endotelio {\rHot\frz-3\t(0,200,\frz3)}materno. {\rBase}Las
+Dialogue: 0,0:00:25.22,0:00:25.81,Base,,0,0,0,,{\rBase}endotelio {\rBase}materno. {\rHot\frz-3\t(0,200,\frz3)}Las
+Dialogue: 0,0:00:25.76,0:00:26.22,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}arterias {\rBase}pasan {\rBase}de
+Dialogue: 0,0:00:26.22,0:00:26.70,Base,,0,0,0,,{\rBase}arterias {\rHot\frz-3\t(0,200,\frz3)}pasan {\rBase}de
+Dialogue: 0,0:00:26.70,0:00:26.87,Base,,0,0,0,,{\rBase}arterias {\rBase}pasan {\rHot\frz-3\t(0,200,\frz3)}de
+Dialogue: 0,0:00:26.82,0:00:27.16,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}vasos {\rBase}de {\rBase}alta
+Dialogue: 0,0:00:27.16,0:00:27.26,Base,,0,0,0,,{\rBase}vasos {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}alta
+Dialogue: 0,0:00:27.26,0:00:27.57,Base,,0,0,0,,{\rBase}vasos {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}alta
+Dialogue: 0,0:00:27.52,0:00:28.32,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}resistencia {\rBase}a {\rBase}vasos
+Dialogue: 0,0:00:28.32,0:00:28.76,Base,,0,0,0,,{\rBase}resistencia {\rHot\frz-3\t(0,200,\frz3)}a {\rBase}vasos
+Dialogue: 0,0:00:28.76,0:00:29.11,Base,,0,0,0,,{\rBase}resistencia {\rBase}a {\rHot\frz-3\t(0,200,\frz3)}vasos
+Dialogue: 0,0:00:29.06,0:00:29.62,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}dilatados {\rBase}de {\rBase}baja
+Dialogue: 0,0:00:29.62,0:00:29.74,Base,,0,0,0,,{\rBase}dilatados {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}baja
+Dialogue: 0,0:00:29.74,0:00:30.01,Base,,0,0,0,,{\rBase}dilatados {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}baja
+Dialogue: 0,0:00:29.96,0:00:30.98,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}resistencia, {\rBase}asegurando {\rBase}perfusión
+Dialogue: 0,0:00:30.98,0:00:31.84,Base,,0,0,0,,{\rBase}resistencia, {\rHot\frz-3\t(0,200,\frz3)}asegurando {\rBase}perfusión
+Dialogue: 0,0:00:31.84,0:00:32.43,Base,,0,0,0,,{\rBase}resistencia, {\rBase}asegurando {\rHot\frz-3\t(0,200,\frz3)}perfusión
+Dialogue: 0,0:00:32.38,0:00:32.88,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}continua {\rBase}de {\rBase}baja
+Dialogue: 0,0:00:32.88,0:00:33.00,Base,,0,0,0,,{\rBase}continua {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}baja
+Dialogue: 0,0:00:33.00,0:00:33.25,Base,,0,0,0,,{\rBase}continua {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}baja
+Dialogue: 0,0:00:33.20,0:00:33.70,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}presión {\rBase}al {\rBase}espacio
+Dialogue: 0,0:00:33.70,0:00:33.88,Base,,0,0,0,,{\rBase}presión {\rHot\frz-3\t(0,200,\frz3)}al {\rBase}espacio
+Dialogue: 0,0:00:33.88,0:00:34.33,Base,,0,0,0,,{\rBase}presión {\rBase}al {\rHot\frz-3\t(0,200,\frz3)}espacio
+Dialogue: 0,0:00:34.28,0:00:35.11,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}interbelloso.

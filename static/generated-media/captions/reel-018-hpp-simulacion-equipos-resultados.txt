@@ -1,0 +1,1 @@
+La simulación se considera un gasto operativo, no una inversión en resultados, pero cada hora de simulación programada se traduce en vidas salvadas en el mundo real. La implementación de simulaciones periódicas de HPP en equipos de sala de parto reduce la mortalidad materna por HPP en un 30 % y mejora el cumplimiento de protocolos en un 50%.

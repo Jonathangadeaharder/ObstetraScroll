@@ -1,0 +1,83 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H001E80FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Esta {\rBase}misma {\rBase}afinidad
+Dialogue: 0,0:00:00.36,0:00:00.60,Base,,0,0,0,,{\rBase}Esta {\rHot\t(0,120,\fscx115\fscy115)}misma {\rBase}afinidad
+Dialogue: 0,0:00:00.60,0:00:01.17,Base,,0,0,0,,{\rBase}Esta {\rBase}misma {\rHot\t(0,120,\fscx115\fscy115)}afinidad
+Dialogue: 0,0:00:01.12,0:00:01.52,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}alta {\rBase}hace {\rBase}que
+Dialogue: 0,0:00:01.52,0:00:02.08,Base,,0,0,0,,{\rBase}alta {\rHot\t(0,120,\fscx115\fscy115)}hace {\rBase}que
+Dialogue: 0,0:00:02.08,0:00:02.29,Base,,0,0,0,,{\rBase}alta {\rBase}hace {\rHot\t(0,120,\fscx115\fscy115)}que
+Dialogue: 0,0:00:02.24,0:00:02.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}feto {\rBase}entregue
+Dialogue: 0,0:00:02.38,0:00:02.70,Base,,0,0,0,,{\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}feto {\rBase}entregue
+Dialogue: 0,0:00:02.70,0:00:03.15,Base,,0,0,0,,{\rBase}el {\rBase}feto {\rHot\t(0,120,\fscx115\fscy115)}entregue
+Dialogue: 0,0:00:03.10,0:00:03.40,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}mal {\rBase}O2 {\rBase}a
+Dialogue: 0,0:00:03.40,0:00:03.96,Base,,0,0,0,,{\rBase}mal {\rHot\t(0,120,\fscx115\fscy115)}O2 {\rBase}a
+Dialogue: 0,0:00:03.96,0:00:04.23,Base,,0,0,0,,{\rBase}mal {\rBase}O2 {\rHot\t(0,120,\fscx115\fscy115)}a
+Dialogue: 0,0:00:04.18,0:00:04.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}sus {\rBase}tejidos {\rBase}en
+Dialogue: 0,0:00:04.34,0:00:04.72,Base,,0,0,0,,{\rBase}sus {\rHot\t(0,120,\fscx115\fscy115)}tejidos {\rBase}en
+Dialogue: 0,0:00:04.72,0:00:04.97,Base,,0,0,0,,{\rBase}sus {\rBase}tejidos {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:04.92,0:00:05.42,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}hipoxia {\rBase}aguda. {\rBase}El
+Dialogue: 0,0:00:05.42,0:00:06.02,Base,,0,0,0,,{\rBase}hipoxia {\rHot\t(0,120,\fscx115\fscy115)}aguda. {\rBase}El
+Dialogue: 0,0:00:06.02,0:00:06.45,Base,,0,0,0,,{\rBase}hipoxia {\rBase}aguda. {\rHot\t(0,120,\fscx115\fscy115)}El
+Dialogue: 0,0:00:06.40,0:00:06.72,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}margen {\rBase}de {\rBase}adaptación
+Dialogue: 0,0:00:06.72,0:00:06.84,Base,,0,0,0,,{\rBase}margen {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}adaptación
+Dialogue: 0,0:00:06.84,0:00:07.41,Base,,0,0,0,,{\rBase}margen {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}adaptación
+Dialogue: 0,0:00:07.36,0:00:07.48,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}a {\rBase}hipoxia {\rBase}prolongada
+Dialogue: 0,0:00:07.48,0:00:07.92,Base,,0,0,0,,{\rBase}a {\rHot\t(0,120,\fscx115\fscy115)}hipoxia {\rBase}prolongada
+Dialogue: 0,0:00:07.92,0:00:08.57,Base,,0,0,0,,{\rBase}a {\rBase}hipoxia {\rHot\t(0,120,\fscx115\fscy115)}prolongada
+Dialogue: 0,0:00:08.52,0:00:08.76,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}estrecho. {\rBase}HBF
+Dialogue: 0,0:00:08.76,0:00:09.74,Base,,0,0,0,,{\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}estrecho. {\rBase}HBF
+Dialogue: 0,0:00:09.74,0:00:10.35,Base,,0,0,0,,{\rBase}es {\rBase}estrecho. {\rHot\t(0,120,\fscx115\fscy115)}HBF
+Dialogue: 0,0:00:10.30,0:00:10.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}tiene {\rBase}cadenas {\rBase}A2O2
+Dialogue: 0,0:00:10.60,0:00:11.14,Base,,0,0,0,,{\rBase}tiene {\rHot\t(0,120,\fscx115\fscy115)}cadenas {\rBase}A2O2
+Dialogue: 0,0:00:11.14,0:00:12.13,Base,,0,0,0,,{\rBase}tiene {\rBase}cadenas {\rHot\t(0,120,\fscx115\fscy115)}A2O2
+Dialogue: 0,0:00:12.08,0:00:12.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}lugar {\rBase}de
+Dialogue: 0,0:00:12.26,0:00:12.50,Base,,0,0,0,,{\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}lugar {\rBase}de
+Dialogue: 0,0:00:12.50,0:00:12.73,Base,,0,0,0,,{\rBase}en {\rBase}lugar {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:12.68,0:00:13.54,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}A2V2 {\rBase}del {\rBase}adulto.
+Dialogue: 0,0:00:13.54,0:00:13.72,Base,,0,0,0,,{\rBase}A2V2 {\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}adulto.
+Dialogue: 0,0:00:13.72,0:00:14.35,Base,,0,0,0,,{\rBase}A2V2 {\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}adulto.
+Dialogue: 0,0:00:14.62,0:00:15.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}HBF {\rBase}se {\rBase}une
+Dialogue: 0,0:00:15.26,0:00:15.48,Base,,0,0,0,,{\rBase}HBF {\rHot\t(0,120,\fscx115\fscy115)}se {\rBase}une
+Dialogue: 0,0:00:15.48,0:00:15.71,Base,,0,0,0,,{\rBase}HBF {\rBase}se {\rHot\t(0,120,\fscx115\fscy115)}une
+Dialogue: 0,0:00:15.66,0:00:16.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}débilmente {\rBase}al {\rBase}2
+Dialogue: 0,0:00:16.34,0:00:16.64,Base,,0,0,0,,{\rBase}débilmente {\rHot\t(0,120,\fscx115\fscy115)}al {\rBase}2
+Dialogue: 0,0:00:16.64,0:00:16.93,Base,,0,0,0,,{\rBase}débilmente {\rBase}al {\rHot\t(0,120,\fscx115\fscy115)}2
+Dialogue: 0,0:00:16.88,0:00:17.48,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)},3 {\rBase}BPG, {\rBase}lo
+Dialogue: 0,0:00:17.48,0:00:18.32,Base,,0,0,0,,{\rBase},3 {\rHot\t(0,120,\fscx115\fscy115)}BPG, {\rBase}lo
+Dialogue: 0,0:00:18.32,0:00:18.75,Base,,0,0,0,,{\rBase},3 {\rBase}BPG, {\rHot\t(0,120,\fscx115\fscy115)}lo
+Dialogue: 0,0:00:18.70,0:00:18.80,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}que {\rBase}aumenta {\rBase}su
+Dialogue: 0,0:00:18.80,0:00:19.22,Base,,0,0,0,,{\rBase}que {\rHot\t(0,120,\fscx115\fscy115)}aumenta {\rBase}su
+Dialogue: 0,0:00:19.22,0:00:19.41,Base,,0,0,0,,{\rBase}que {\rBase}aumenta {\rHot\t(0,120,\fscx115\fscy115)}su
+Dialogue: 0,0:00:19.36,0:00:19.84,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}afinidad {\rBase}por {\rBase}el
+Dialogue: 0,0:00:19.84,0:00:20.04,Base,,0,0,0,,{\rBase}afinidad {\rHot\t(0,120,\fscx115\fscy115)}por {\rBase}el
+Dialogue: 0,0:00:20.04,0:00:20.23,Base,,0,0,0,,{\rBase}afinidad {\rBase}por {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:20.18,0:00:20.70,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}O2, {\rBase}curva {\rBase}a
+Dialogue: 0,0:00:20.70,0:00:21.14,Base,,0,0,0,,{\rBase}O2, {\rHot\t(0,120,\fscx115\fscy115)}curva {\rBase}a
+Dialogue: 0,0:00:21.14,0:00:21.31,Base,,0,0,0,,{\rBase}O2, {\rBase}curva {\rHot\t(0,120,\fscx115\fscy115)}a
+Dialogue: 0,0:00:21.26,0:00:21.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}izquierda. {\rBase}Por
+Dialogue: 0,0:00:21.34,0:00:21.98,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}izquierda. {\rBase}Por
+Dialogue: 0,0:00:21.98,0:00:22.37,Base,,0,0,0,,{\rBase}la {\rBase}izquierda. {\rHot\t(0,120,\fscx115\fscy115)}Por
+Dialogue: 0,0:00:22.32,0:00:22.48,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}eso {\rBase}el {\rBase}feto
+Dialogue: 0,0:00:22.48,0:00:22.64,Base,,0,0,0,,{\rBase}eso {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}feto
+Dialogue: 0,0:00:22.64,0:00:22.99,Base,,0,0,0,,{\rBase}eso {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}feto
+Dialogue: 0,0:00:22.94,0:00:23.14,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}puede {\rBase}captar {\rBase}O2
+Dialogue: 0,0:00:23.14,0:00:23.58,Base,,0,0,0,,{\rBase}puede {\rHot\t(0,120,\fscx115\fscy115)}captar {\rBase}O2
+Dialogue: 0,0:00:23.58,0:00:24.11,Base,,0,0,0,,{\rBase}puede {\rBase}captar {\rHot\t(0,120,\fscx115\fscy115)}O2
+Dialogue: 0,0:00:24.06,0:00:24.46,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}incluso {\rBase}con {\rBase}PO2
+Dialogue: 0,0:00:24.46,0:00:24.82,Base,,0,0,0,,{\rBase}incluso {\rHot\t(0,120,\fscx115\fscy115)}con {\rBase}PO2
+Dialogue: 0,0:00:24.82,0:00:25.35,Base,,0,0,0,,{\rBase}incluso {\rBase}con {\rHot\t(0,120,\fscx115\fscy115)}PO2
+Dialogue: 0,0:00:25.30,0:00:26.02,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}interbelloso {\rBase}de {\rBase}30
+Dialogue: 0,0:00:26.02,0:00:26.18,Base,,0,0,0,,{\rBase}interbelloso {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}30
+Dialogue: 0,0:00:26.18,0:00:26.57,Base,,0,0,0,,{\rBase}interbelloso {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}30
+Dialogue: 0,0:00:27.16,0:00:27.33,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de

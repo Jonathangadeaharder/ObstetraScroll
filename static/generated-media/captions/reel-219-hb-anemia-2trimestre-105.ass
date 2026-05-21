@@ -1,0 +1,24 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,84,&H00B4377C,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:59.98,0:00:59.98,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Iglesia {\rBase}de {\rBase}Jesucristo
+Dialogue: 0,0:00:59.98,0:00:59.98,Base,,0,0,0,,{\rBase}Iglesia {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}Jesucristo
+Dialogue: 0,0:00:59.98,0:01:00.03,Base,,0,0,0,,{\rBase}Iglesia {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Jesucristo
+Dialogue: 0,0:00:59.98,0:00:59.98,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}los {\rBase}Santos
+Dialogue: 0,0:00:59.98,0:00:59.98,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}los {\rBase}Santos
+Dialogue: 0,0:00:59.98,0:01:00.03,Base,,0,0,0,,{\rBase}de {\rBase}los {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Santos
+Dialogue: 0,0:00:59.98,0:00:59.98,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}los {\rBase}Últimos
+Dialogue: 0,0:00:59.98,0:00:59.98,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}los {\rBase}Últimos
+Dialogue: 0,0:00:59.98,0:01:00.03,Base,,0,0,0,,{\rBase}de {\rBase}los {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Últimos
+Dialogue: 0,0:00:59.98,0:01:00.00,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Días {\rBase}¡Gracias!
+Dialogue: 0,0:01:00.00,0:01:00.65,Base,,0,0,0,,{\rBase}Días {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}¡Gracias!

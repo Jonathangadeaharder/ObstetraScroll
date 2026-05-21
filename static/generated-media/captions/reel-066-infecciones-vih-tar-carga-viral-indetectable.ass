@@ -1,0 +1,80 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0000E5FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.22,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Históricamente, {\rBase}el {\rBase}VIH
+Dialogue: 0,0:00:01.22,0:00:01.24,Base,,0,0,0,,{\rBase}Históricamente, {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}VIH
+Dialogue: 0,0:00:01.24,0:00:01.81,Base,,0,0,0,,{\rBase}Históricamente, {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}VIH
+Dialogue: 0,0:00:01.76,0:00:01.92,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}el {\rBase}embarazo
+Dialogue: 0,0:00:01.92,0:00:02.02,Base,,0,0,0,,{\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}embarazo
+Dialogue: 0,0:00:02.02,0:00:02.49,Base,,0,0,0,,{\rBase}en {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}embarazo
+Dialogue: 0,0:00:02.44,0:00:03.06,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}implicaba {\rBase}cesárea {\rBase}electiva
+Dialogue: 0,0:00:03.06,0:00:03.66,Base,,0,0,0,,{\rBase}implicaba {\rHot\t(0,120,\fscx115\fscy115)}cesárea {\rBase}electiva
+Dialogue: 0,0:00:03.66,0:00:04.35,Base,,0,0,0,,{\rBase}implicaba {\rBase}cesárea {\rHot\t(0,120,\fscx115\fscy115)}electiva
+Dialogue: 0,0:00:04.30,0:00:04.58,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}suspensión {\rBase}de
+Dialogue: 0,0:00:04.58,0:00:05.16,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}suspensión {\rBase}de
+Dialogue: 0,0:00:05.16,0:00:05.33,Base,,0,0,0,,{\rBase}y {\rBase}suspensión {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:05.28,0:00:06.10,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}lactancia, {\rBase}pero {\rBase}con
+Dialogue: 0,0:00:06.10,0:00:06.60,Base,,0,0,0,,{\rBase}lactancia, {\rHot\t(0,120,\fscx115\fscy115)}pero {\rBase}con
+Dialogue: 0,0:00:06.60,0:00:06.97,Base,,0,0,0,,{\rBase}lactancia, {\rBase}pero {\rHot\t(0,120,\fscx115\fscy115)}con
+Dialogue: 0,0:00:06.92,0:00:07.06,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}TAR {\rBase}efectivo, {\rBase}la
+Dialogue: 0,0:00:07.06,0:00:07.94,Base,,0,0,0,,{\rBase}TAR {\rHot\t(0,120,\fscx115\fscy115)}efectivo, {\rBase}la
+Dialogue: 0,0:00:07.94,0:00:08.05,Base,,0,0,0,,{\rBase}TAR {\rBase}efectivo, {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:08.00,0:00:08.54,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}transmisión {\rBase}vertical {\rBase}es
+Dialogue: 0,0:00:08.54,0:00:08.86,Base,,0,0,0,,{\rBase}transmisión {\rHot\t(0,120,\fscx115\fscy115)}vertical {\rBase}es
+Dialogue: 0,0:00:08.86,0:00:09.49,Base,,0,0,0,,{\rBase}transmisión {\rBase}vertical {\rHot\t(0,120,\fscx115\fscy115)}es
+Dialogue: 0,0:00:09.44,0:00:10.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}prevenible {\rBase}y {\rBase}el
+Dialogue: 0,0:00:10.08,0:00:10.50,Base,,0,0,0,,{\rBase}prevenible {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}el
+Dialogue: 0,0:00:10.50,0:00:10.67,Base,,0,0,0,,{\rBase}prevenible {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:10.62,0:00:10.94,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}parto {\rBase}vaginal {\rBase}es
+Dialogue: 0,0:00:10.94,0:00:11.42,Base,,0,0,0,,{\rBase}parto {\rHot\t(0,120,\fscx115\fscy115)}vaginal {\rBase}es
+Dialogue: 0,0:00:11.42,0:00:11.81,Base,,0,0,0,,{\rBase}parto {\rBase}vaginal {\rHot\t(0,120,\fscx115\fscy115)}es
+Dialogue: 0,0:00:11.76,0:00:12.58,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}seguro. {\rBase}Gestantes {\rBase}con
+Dialogue: 0,0:00:12.58,0:00:13.24,Base,,0,0,0,,{\rBase}seguro. {\rHot\t(0,120,\fscx115\fscy115)}Gestantes {\rBase}con
+Dialogue: 0,0:00:13.24,0:00:13.53,Base,,0,0,0,,{\rBase}seguro. {\rBase}Gestantes {\rHot\t(0,120,\fscx115\fscy115)}con
+Dialogue: 0,0:00:13.48,0:00:14.04,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}VIH {\rBase}en {\rBase}terapia
+Dialogue: 0,0:00:14.04,0:00:14.36,Base,,0,0,0,,{\rBase}VIH {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}terapia
+Dialogue: 0,0:00:14.36,0:00:14.81,Base,,0,0,0,,{\rBase}VIH {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}terapia
+Dialogue: 0,0:00:14.76,0:00:16.04,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}antirretroviral, {\rBase}TAR {\rBase}con
+Dialogue: 0,0:00:16.04,0:00:16.54,Base,,0,0,0,,{\rBase}antirretroviral, {\rHot\t(0,120,\fscx115\fscy115)}TAR {\rBase}con
+Dialogue: 0,0:00:16.54,0:00:16.95,Base,,0,0,0,,{\rBase}antirretroviral, {\rBase}TAR {\rHot\t(0,120,\fscx115\fscy115)}con
+Dialogue: 0,0:00:16.90,0:00:17.20,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}carga {\rBase}viral, {\rBase}.000
+Dialogue: 0,0:00:17.20,0:00:18.34,Base,,0,0,0,,{\rBase}carga {\rHot\t(0,120,\fscx115\fscy115)}viral, {\rBase}.000
+Dialogue: 0,0:00:18.34,0:00:18.49,Base,,0,0,0,,{\rBase}carga {\rBase}viral, {\rHot\t(0,120,\fscx115\fscy115)}.000
+Dialogue: 0,0:00:18.44,0:00:19.02,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}copias {\rBase}ML {\rBase}al
+Dialogue: 0,0:00:19.02,0:00:19.62,Base,,0,0,0,,{\rBase}copias {\rHot\t(0,120,\fscx115\fscy115)}ML {\rBase}al
+Dialogue: 0,0:00:19.62,0:00:20.09,Base,,0,0,0,,{\rBase}copias {\rBase}ML {\rHot\t(0,120,\fscx115\fscy115)}al
+Dialogue: 0,0:00:20.04,0:00:20.40,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}momento {\rBase}del {\rBase}parto
+Dialogue: 0,0:00:20.40,0:00:20.62,Base,,0,0,0,,{\rBase}momento {\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}parto
+Dialogue: 0,0:00:20.62,0:00:21.09,Base,,0,0,0,,{\rBase}momento {\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}parto
+Dialogue: 0,0:00:21.04,0:00:21.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}tienen {\rBase}un {\rBase}riesgo
+Dialogue: 0,0:00:21.60,0:00:21.82,Base,,0,0,0,,{\rBase}tienen {\rHot\t(0,120,\fscx115\fscy115)}un {\rBase}riesgo
+Dialogue: 0,0:00:21.82,0:00:22.21,Base,,0,0,0,,{\rBase}tienen {\rBase}un {\rHot\t(0,120,\fscx115\fscy115)}riesgo
+Dialogue: 0,0:00:22.16,0:00:22.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}transmisión {\rBase}vertical
+Dialogue: 0,0:00:22.26,0:00:22.84,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}transmisión {\rBase}vertical
+Dialogue: 0,0:00:22.84,0:00:23.23,Base,,0,0,0,,{\rBase}de {\rBase}transmisión {\rHot\t(0,120,\fscx115\fscy115)}vertical
+Dialogue: 0,0:00:23.18,0:00:23.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}menor {\rBase}al {\rBase}0
+Dialogue: 0,0:00:23.60,0:00:23.84,Base,,0,0,0,,{\rBase}menor {\rHot\t(0,120,\fscx115\fscy115)}al {\rBase}0
+Dialogue: 0,0:00:23.84,0:00:24.11,Base,,0,0,0,,{\rBase}menor {\rBase}al {\rHot\t(0,120,\fscx115\fscy115)}0
+Dialogue: 0,0:00:24.06,0:00:25.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}.5%. {\rBase}En {\rBase}aquellas
+Dialogue: 0,0:00:25.24,0:00:26.16,Base,,0,0,0,,{\rBase}.5%. {\rHot\t(0,120,\fscx115\fscy115)}En {\rBase}aquellas
+Dialogue: 0,0:00:26.16,0:00:26.59,Base,,0,0,0,,{\rBase}.5%. {\rBase}En {\rHot\t(0,120,\fscx115\fscy115)}aquellas
+Dialogue: 0,0:00:26.54,0:00:26.74,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}con {\rBase}50 {\rBase}copias
+Dialogue: 0,0:00:26.74,0:00:27.22,Base,,0,0,0,,{\rBase}con {\rHot\t(0,120,\fscx115\fscy115)}50 {\rBase}copias
+Dialogue: 0,0:00:27.22,0:00:27.77,Base,,0,0,0,,{\rBase}con {\rBase}50 {\rHot\t(0,120,\fscx115\fscy115)}copias
+Dialogue: 0,0:00:27.72,0:00:28.66,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}ML, {\rBase}la {\rBase}tasa
+Dialogue: 0,0:00:28.66,0:00:28.98,Base,,0,0,0,,{\rBase}ML, {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}tasa
+Dialogue: 0,0:00:28.98,0:00:29.31,Base,,0,0,0,,{\rBase}ML, {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}tasa
+Dialogue: 0,0:00:29.26,0:00:29.42,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}cercana {\rBase}a
+Dialogue: 0,0:00:29.42,0:00:29.90,Base,,0,0,0,,{\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}cercana {\rBase}a
+Dialogue: 0,0:00:29.90,0:00:30.21,Base,,0,0,0,,{\rBase}es {\rBase}cercana {\rHot\t(0,120,\fscx115\fscy115)}a
+Dialogue: 0,0:00:30.16,0:00:30.61,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}0%.

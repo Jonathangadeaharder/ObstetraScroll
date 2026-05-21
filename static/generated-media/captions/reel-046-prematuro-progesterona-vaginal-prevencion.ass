@@ -1,0 +1,80 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H001E80FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.92,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Históricamente, {\rBase}la {\rBase}progesterona
+Dialogue: 0,0:00:00.92,0:00:00.96,Base,,0,0,0,,{\rBase}Históricamente, {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}progesterona
+Dialogue: 0,0:00:00.96,0:00:01.65,Base,,0,0,0,,{\rBase}Históricamente, {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}progesterona
+Dialogue: 0,0:00:01.60,0:00:01.78,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}se {\rBase}usaba {\rBase}solo
+Dialogue: 0,0:00:01.78,0:00:02.06,Base,,0,0,0,,{\rBase}se {\rHot\t(0,120,\fscx115\fscy115)}usaba {\rBase}solo
+Dialogue: 0,0:00:02.06,0:00:02.37,Base,,0,0,0,,{\rBase}se {\rBase}usaba {\rHot\t(0,120,\fscx115\fscy115)}solo
+Dialogue: 0,0:00:02.32,0:00:02.46,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}antecedente {\rBase}de
+Dialogue: 0,0:00:02.46,0:00:03.06,Base,,0,0,0,,{\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}antecedente {\rBase}de
+Dialogue: 0,0:00:03.06,0:00:03.27,Base,,0,0,0,,{\rBase}en {\rBase}antecedente {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:03.22,0:00:03.56,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}parto {\rBase}prematuro, {\rBase}pero
+Dialogue: 0,0:00:03.56,0:00:04.28,Base,,0,0,0,,{\rBase}parto {\rHot\t(0,120,\fscx115\fscy115)}prematuro, {\rBase}pero
+Dialogue: 0,0:00:04.28,0:00:04.57,Base,,0,0,0,,{\rBase}parto {\rBase}prematuro, {\rHot\t(0,120,\fscx115\fscy115)}pero
+Dialogue: 0,0:00:04.52,0:00:04.68,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}cribado {\rBase}ecográfico
+Dialogue: 0,0:00:04.68,0:00:05.12,Base,,0,0,0,,{\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}cribado {\rBase}ecográfico
+Dialogue: 0,0:00:05.12,0:00:05.81,Base,,0,0,0,,{\rBase}el {\rBase}cribado {\rHot\t(0,120,\fscx115\fscy115)}ecográfico
+Dialogue: 0,0:00:05.76,0:00:06.16,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}universal {\rBase}de {\rBase}longitud
+Dialogue: 0,0:00:06.16,0:00:06.42,Base,,0,0,0,,{\rBase}universal {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}longitud
+Dialogue: 0,0:00:06.42,0:00:06.85,Base,,0,0,0,,{\rBase}universal {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}longitud
+Dialogue: 0,0:00:06.80,0:00:07.56,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}cervical {\rBase}permite {\rBase}identificar
+Dialogue: 0,0:00:07.56,0:00:08.46,Base,,0,0,0,,{\rBase}cervical {\rHot\t(0,120,\fscx115\fscy115)}permite {\rBase}identificar
+Dialogue: 0,0:00:08.46,0:00:09.13,Base,,0,0,0,,{\rBase}cervical {\rBase}permite {\rHot\t(0,120,\fscx115\fscy115)}identificar
+Dialogue: 0,0:00:09.08,0:00:09.30,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}a {\rBase}las {\rBase}gestantes
+Dialogue: 0,0:00:09.30,0:00:09.46,Base,,0,0,0,,{\rBase}a {\rHot\t(0,120,\fscx115\fscy115)}las {\rBase}gestantes
+Dialogue: 0,0:00:09.46,0:00:10.11,Base,,0,0,0,,{\rBase}a {\rBase}las {\rHot\t(0,120,\fscx115\fscy115)}gestantes
+Dialogue: 0,0:00:10.06,0:00:10.92,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}asintomáticas {\rBase}que {\rBase}se
+Dialogue: 0,0:00:10.92,0:00:11.12,Base,,0,0,0,,{\rBase}asintomáticas {\rHot\t(0,120,\fscx115\fscy115)}que {\rBase}se
+Dialogue: 0,0:00:11.12,0:00:11.33,Base,,0,0,0,,{\rBase}asintomáticas {\rBase}que {\rHot\t(0,120,\fscx115\fscy115)}se
+Dialogue: 0,0:00:11.28,0:00:11.94,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}benefician. {\rBase}La {\rBase}progesterona
+Dialogue: 0,0:00:11.94,0:00:13.00,Base,,0,0,0,,{\rBase}benefician. {\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}progesterona
+Dialogue: 0,0:00:13.00,0:00:13.67,Base,,0,0,0,,{\rBase}benefician. {\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}progesterona
+Dialogue: 0,0:00:13.62,0:00:14.22,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}vaginal {\rBase}200 {\rBase}en
+Dialogue: 0,0:00:14.22,0:00:14.80,Base,,0,0,0,,{\rBase}vaginal {\rHot\t(0,120,\fscx115\fscy115)}200 {\rBase}en
+Dialogue: 0,0:00:14.80,0:00:15.23,Base,,0,0,0,,{\rBase}vaginal {\rBase}200 {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:15.18,0:00:16.56,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}entorromastría, {\rBase}en {\rBase}gestantes
+Dialogue: 0,0:00:16.56,0:00:16.64,Base,,0,0,0,,{\rBase}entorromastría, {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}gestantes
+Dialogue: 0,0:00:16.64,0:00:17.17,Base,,0,0,0,,{\rBase}entorromastría, {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}gestantes
+Dialogue: 0,0:00:17.12,0:00:17.40,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}con {\rBase}cuello {\rBase}uterino
+Dialogue: 0,0:00:17.40,0:00:17.68,Base,,0,0,0,,{\rBase}con {\rHot\t(0,120,\fscx115\fscy115)}cuello {\rBase}uterino
+Dialogue: 0,0:00:17.68,0:00:18.15,Base,,0,0,0,,{\rBase}con {\rBase}cuello {\rHot\t(0,120,\fscx115\fscy115)}uterino
+Dialogue: 0,0:00:18.10,0:00:18.82,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}corto, {\rBase}25 {\rBase}milímetros
+Dialogue: 0,0:00:18.82,0:00:19.58,Base,,0,0,0,,{\rBase}corto, {\rHot\t(0,120,\fscx115\fscy115)}25 {\rBase}milímetros
+Dialogue: 0,0:00:19.58,0:00:20.31,Base,,0,0,0,,{\rBase}corto, {\rBase}25 {\rHot\t(0,120,\fscx115\fscy115)}milímetros
+Dialogue: 0,0:00:20.26,0:00:20.54,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}ecografía {\rBase}de
+Dialogue: 0,0:00:20.54,0:00:21.08,Base,,0,0,0,,{\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}ecografía {\rBase}de
+Dialogue: 0,0:00:21.08,0:00:21.25,Base,,0,0,0,,{\rBase}en {\rBase}ecografía {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:21.20,0:00:21.50,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}segundo {\rBase}trimestre, {\rBase}reduce
+Dialogue: 0,0:00:21.50,0:00:22.78,Base,,0,0,0,,{\rBase}segundo {\rHot\t(0,120,\fscx115\fscy115)}trimestre, {\rBase}reduce
+Dialogue: 0,0:00:22.78,0:00:23.03,Base,,0,0,0,,{\rBase}segundo {\rBase}trimestre, {\rHot\t(0,120,\fscx115\fscy115)}reduce
+Dialogue: 0,0:00:22.98,0:00:23.18,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}parto {\rBase}prematuro
+Dialogue: 0,0:00:23.18,0:00:23.50,Base,,0,0,0,,{\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}parto {\rBase}prematuro
+Dialogue: 0,0:00:23.50,0:00:24.15,Base,,0,0,0,,{\rBase}el {\rBase}parto {\rHot\t(0,120,\fscx115\fscy115)}prematuro
+Dialogue: 0,0:00:24.10,0:00:24.48,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}antes {\rBase}de {\rBase}las
+Dialogue: 0,0:00:24.48,0:00:24.64,Base,,0,0,0,,{\rBase}antes {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}las
+Dialogue: 0,0:00:24.64,0:00:24.85,Base,,0,0,0,,{\rBase}antes {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}las
+Dialogue: 0,0:00:24.80,0:00:25.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}34 {\rBase}semanas {\rBase}en
+Dialogue: 0,0:00:25.38,0:00:26.04,Base,,0,0,0,,{\rBase}34 {\rHot\t(0,120,\fscx115\fscy115)}semanas {\rBase}en
+Dialogue: 0,0:00:26.04,0:00:26.41,Base,,0,0,0,,{\rBase}34 {\rBase}semanas {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:26.36,0:00:26.50,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}un {\rBase}45 {\rBase}%
+Dialogue: 0,0:00:26.50,0:00:27.14,Base,,0,0,0,,{\rBase}un {\rHot\t(0,120,\fscx115\fscy115)}45 {\rBase}%
+Dialogue: 0,0:00:27.14,0:00:27.65,Base,,0,0,0,,{\rBase}un {\rBase}45 {\rHot\t(0,120,\fscx115\fscy115)}%
+Dialogue: 0,0:00:27.60,0:00:28.42,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}la {\rBase}morbilidad
+Dialogue: 0,0:00:28.42,0:00:28.54,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}morbilidad
+Dialogue: 0,0:00:28.54,0:00:29.23,Base,,0,0,0,,{\rBase}y {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}morbilidad
+Dialogue: 0,0:00:29.18,0:00:29.88,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}neonatal {\rBase}en {\rBase}un
+Dialogue: 0,0:00:29.88,0:00:30.10,Base,,0,0,0,,{\rBase}neonatal {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}un
+Dialogue: 0,0:00:30.10,0:00:30.27,Base,,0,0,0,,{\rBase}neonatal {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}un
+Dialogue: 0,0:00:30.22,0:00:31.09,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}60%.

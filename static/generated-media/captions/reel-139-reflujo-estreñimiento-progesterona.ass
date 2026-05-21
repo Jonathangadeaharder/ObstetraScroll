@@ -1,0 +1,61 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,84,&H00B4377C,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.44,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Antes {\rBase}de {\rBase}tratar
+Dialogue: 0,0:00:00.44,0:00:00.60,Base,,0,0,0,,{\rBase}Antes {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}tratar
+Dialogue: 0,0:00:00.60,0:00:00.97,Base,,0,0,0,,{\rBase}Antes {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tratar
+Dialogue: 0,0:00:00.92,0:00:01.24,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}IVP {\rBase}o
+Dialogue: 0,0:00:01.24,0:00:01.78,Base,,0,0,0,,{\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}IVP {\rBase}o
+Dialogue: 0,0:00:01.78,0:00:02.03,Base,,0,0,0,,{\rBase}con {\rBase}IVP {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}o
+Dialogue: 0,0:00:01.98,0:00:03.04,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}laxantes, {\rBase}ajustar {\rBase}postura,
+Dialogue: 0,0:00:03.04,0:00:03.66,Base,,0,0,0,,{\rBase}laxantes, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ajustar {\rBase}postura,
+Dialogue: 0,0:00:03.66,0:00:04.29,Base,,0,0,0,,{\rBase}laxantes, {\rBase}ajustar {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}postura,
+Dialogue: 0,0:00:04.72,0:00:05.28,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}fraccionar {\rBase}comidas {\rBase}y
+Dialogue: 0,0:00:05.28,0:00:05.76,Base,,0,0,0,,{\rBase}fraccionar {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}comidas {\rBase}y
+Dialogue: 0,0:00:05.76,0:00:05.97,Base,,0,0,0,,{\rBase}fraccionar {\rBase}comidas {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y
+Dialogue: 0,0:00:05.92,0:00:06.54,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}fibra, {\rBase}resuelve {\rBase}la
+Dialogue: 0,0:00:06.54,0:00:07.34,Base,,0,0,0,,{\rBase}fibra, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}resuelve {\rBase}la
+Dialogue: 0,0:00:07.34,0:00:07.51,Base,,0,0,0,,{\rBase}fibra, {\rBase}resuelve {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la
+Dialogue: 0,0:00:07.46,0:00:08.88,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}mayoría. {\rBase}Progesterona {\rBase}relaja
+Dialogue: 0,0:00:08.88,0:00:09.76,Base,,0,0,0,,{\rBase}mayoría. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Progesterona {\rBase}relaja
+Dialogue: 0,0:00:09.76,0:00:10.27,Base,,0,0,0,,{\rBase}mayoría. {\rBase}Progesterona {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}relaja
+Dialogue: 0,0:00:10.22,0:00:11.10,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sistémicamente {\rBase}el {\rBase}músculo
+Dialogue: 0,0:00:11.10,0:00:11.26,Base,,0,0,0,,{\rBase}sistémicamente {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}músculo
+Dialogue: 0,0:00:11.26,0:00:11.77,Base,,0,0,0,,{\rBase}sistémicamente {\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}músculo
+Dialogue: 0,0:00:11.72,0:00:13.16,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}liso. {\rBase}Baja {\rBase}el
+Dialogue: 0,0:00:13.16,0:00:13.60,Base,,0,0,0,,{\rBase}liso. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Baja {\rBase}el
+Dialogue: 0,0:00:13.60,0:00:13.87,Base,,0,0,0,,{\rBase}liso. {\rBase}Baja {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el
+Dialogue: 0,0:00:13.82,0:00:14.14,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tono {\rBase}del {\rBase}esfínter
+Dialogue: 0,0:00:14.14,0:00:14.30,Base,,0,0,0,,{\rBase}tono {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}del {\rBase}esfínter
+Dialogue: 0,0:00:14.30,0:00:14.99,Base,,0,0,0,,{\rBase}tono {\rBase}del {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}esfínter
+Dialogue: 0,0:00:14.94,0:00:15.82,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}esofágico {\rBase}inferior. {\rBase}Reflujo.
+Dialogue: 0,0:00:15.82,0:00:16.70,Base,,0,0,0,,{\rBase}esofágico {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}inferior. {\rBase}Reflujo.
+Dialogue: 0,0:00:16.70,0:00:17.49,Base,,0,0,0,,{\rBase}esofágico {\rBase}inferior. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Reflujo.
+Dialogue: 0,0:00:18.08,0:00:18.96,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Enlentece {\rBase}el {\rBase}tránsito
+Dialogue: 0,0:00:18.96,0:00:19.12,Base,,0,0,0,,{\rBase}Enlentece {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}tránsito
+Dialogue: 0,0:00:19.12,0:00:19.69,Base,,0,0,0,,{\rBase}Enlentece {\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tránsito
+Dialogue: 0,0:00:19.64,0:00:20.24,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}gástrico {\rBase}e {\rBase}intestinal.
+Dialogue: 0,0:00:20.24,0:00:20.36,Base,,0,0,0,,{\rBase}gástrico {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}e {\rBase}intestinal.
+Dialogue: 0,0:00:20.36,0:00:21.11,Base,,0,0,0,,{\rBase}gástrico {\rBase}e {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}intestinal.
+Dialogue: 0,0:00:21.46,0:00:22.04,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Más {\rBase}reabsorción {\rBase}de
+Dialogue: 0,0:00:22.04,0:00:22.78,Base,,0,0,0,,{\rBase}Más {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}reabsorción {\rBase}de
+Dialogue: 0,0:00:22.78,0:00:23.15,Base,,0,0,0,,{\rBase}Más {\rBase}reabsorción {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:23.10,0:00:23.38,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}agua {\rBase}en {\rBase}colon.
+Dialogue: 0,0:00:23.38,0:00:23.58,Base,,0,0,0,,{\rBase}agua {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}colon.
+Dialogue: 0,0:00:23.58,0:00:23.97,Base,,0,0,0,,{\rBase}agua {\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}colon.
+Dialogue: 0,0:00:24.12,0:00:25.16,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Estreñimiento. {\rBase}Son {\rBase}síntomas
+Dialogue: 0,0:00:25.16,0:00:25.50,Base,,0,0,0,,{\rBase}Estreñimiento. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Son {\rBase}síntomas
+Dialogue: 0,0:00:25.50,0:00:26.19,Base,,0,0,0,,{\rBase}Estreñimiento. {\rBase}Son {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}síntomas
+Dialogue: 0,0:00:26.14,0:00:27.10,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}fisiológicos {\rBase}no {\rBase}patológicos.
+Dialogue: 0,0:00:27.10,0:00:27.32,Base,,0,0,0,,{\rBase}fisiológicos {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}no {\rBase}patológicos.
+Dialogue: 0,0:00:27.32,0:00:28.27,Base,,0,0,0,,{\rBase}fisiológicos {\rBase}no {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}patológicos.

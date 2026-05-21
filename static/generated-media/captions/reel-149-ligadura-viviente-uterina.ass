@@ -1,0 +1,71 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Arial Black,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Arial Black,84,&H00FF3CFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.28,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}Por {\rBase}eso, {\rBase}en
+Dialogue: 0,0:00:00.28,0:00:00.98,Base,,0,0,0,,{\rBase}Por {\rHot\frz-3\t(0,200,\frz3)}eso, {\rBase}en
+Dialogue: 0,0:00:00.98,0:00:01.09,Base,,0,0,0,,{\rBase}Por {\rBase}eso, {\rHot\frz-3\t(0,200,\frz3)}en
+Dialogue: 0,0:00:01.04,0:00:02.26,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}atonía, {\rBase}la {\rBase}HPP
+Dialogue: 0,0:00:02.26,0:00:02.36,Base,,0,0,0,,{\rBase}atonía, {\rHot\frz-3\t(0,200,\frz3)}la {\rBase}HPP
+Dialogue: 0,0:00:02.36,0:00:02.99,Base,,0,0,0,,{\rBase}atonía, {\rBase}la {\rHot\frz-3\t(0,200,\frz3)}HPP
+Dialogue: 0,0:00:02.94,0:00:03.10,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}no {\rBase}se {\rBase}detiene
+Dialogue: 0,0:00:03.10,0:00:03.26,Base,,0,0,0,,{\rBase}no {\rHot\frz-3\t(0,200,\frz3)}se {\rBase}detiene
+Dialogue: 0,0:00:03.26,0:00:03.69,Base,,0,0,0,,{\rBase}no {\rBase}se {\rHot\frz-3\t(0,200,\frz3)}detiene
+Dialogue: 0,0:00:03.64,0:00:03.80,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}con {\rBase}hemostáticos. {\rBase}Hay
+Dialogue: 0,0:00:03.80,0:00:04.96,Base,,0,0,0,,{\rBase}con {\rHot\frz-3\t(0,200,\frz3)}hemostáticos. {\rBase}Hay
+Dialogue: 0,0:00:04.96,0:00:05.31,Base,,0,0,0,,{\rBase}con {\rBase}hemostáticos. {\rHot\frz-3\t(0,200,\frz3)}Hay
+Dialogue: 0,0:00:05.26,0:00:05.38,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}que {\rBase}recuperar {\rBase}el
+Dialogue: 0,0:00:05.38,0:00:05.98,Base,,0,0,0,,{\rBase}que {\rHot\frz-3\t(0,200,\frz3)}recuperar {\rBase}el
+Dialogue: 0,0:00:05.98,0:00:06.19,Base,,0,0,0,,{\rBase}que {\rBase}recuperar {\rHot\frz-3\t(0,200,\frz3)}el
+Dialogue: 0,0:00:06.14,0:00:06.44,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}tono {\rBase}del {\rBase}útero,
+Dialogue: 0,0:00:06.44,0:00:06.60,Base,,0,0,0,,{\rBase}tono {\rHot\frz-3\t(0,200,\frz3)}del {\rBase}útero,
+Dialogue: 0,0:00:06.60,0:00:07.13,Base,,0,0,0,,{\rBase}tono {\rBase}del {\rHot\frz-3\t(0,200,\frz3)}útero,
+Dialogue: 0,0:00:07.28,0:00:08.38,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}úterotónicos, {\rBase}masaje, {\rBase}balón.
+Dialogue: 0,0:00:08.38,0:00:08.94,Base,,0,0,0,,{\rBase}úterotónicos, {\rHot\frz-3\t(0,200,\frz3)}masaje, {\rBase}balón.
+Dialogue: 0,0:00:08.94,0:00:09.41,Base,,0,0,0,,{\rBase}úterotónicos, {\rBase}masaje, {\rHot\frz-3\t(0,200,\frz3)}balón.
+Dialogue: 0,0:00:09.60,0:00:10.02,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}Las {\rBase}arterias {\rBase}espirales
+Dialogue: 0,0:00:10.02,0:00:10.50,Base,,0,0,0,,{\rBase}Las {\rHot\frz-3\t(0,200,\frz3)}arterias {\rBase}espirales
+Dialogue: 0,0:00:10.50,0:00:11.29,Base,,0,0,0,,{\rBase}Las {\rBase}arterias {\rHot\frz-3\t(0,200,\frz3)}espirales
+Dialogue: 0,0:00:11.24,0:00:12.14,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}atraviesan {\rBase}el {\rBase}miometrio
+Dialogue: 0,0:00:12.14,0:00:12.30,Base,,0,0,0,,{\rBase}atraviesan {\rHot\frz-3\t(0,200,\frz3)}el {\rBase}miometrio
+Dialogue: 0,0:00:12.30,0:00:13.01,Base,,0,0,0,,{\rBase}atraviesan {\rBase}el {\rHot\frz-3\t(0,200,\frz3)}miometrio
+Dialogue: 0,0:00:12.96,0:00:13.24,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}entre {\rBase}las {\rBase}fibras
+Dialogue: 0,0:00:13.24,0:00:13.46,Base,,0,0,0,,{\rBase}entre {\rHot\frz-3\t(0,200,\frz3)}las {\rBase}fibras
+Dialogue: 0,0:00:13.46,0:00:13.87,Base,,0,0,0,,{\rBase}entre {\rBase}las {\rHot\frz-3\t(0,200,\frz3)}fibras
+Dialogue: 0,0:00:13.82,0:00:14.92,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}musculares. {\rBase}Tras {\rBase}el
+Dialogue: 0,0:00:14.92,0:00:15.40,Base,,0,0,0,,{\rBase}musculares. {\rHot\frz-3\t(0,200,\frz3)}Tras {\rBase}el
+Dialogue: 0,0:00:15.40,0:00:15.59,Base,,0,0,0,,{\rBase}musculares. {\rBase}Tras {\rHot\frz-3\t(0,200,\frz3)}el
+Dialogue: 0,0:00:15.54,0:00:16.78,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}alumbramiento, {\rBase}la {\rBase}contracción
+Dialogue: 0,0:00:16.78,0:00:17.00,Base,,0,0,0,,{\rBase}alumbramiento, {\rHot\frz-3\t(0,200,\frz3)}la {\rBase}contracción
+Dialogue: 0,0:00:17.00,0:00:17.73,Base,,0,0,0,,{\rBase}alumbramiento, {\rBase}la {\rHot\frz-3\t(0,200,\frz3)}contracción
+Dialogue: 0,0:00:17.68,0:00:17.84,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}y {\rBase}retracción {\rBase}persistentes
+Dialogue: 0,0:00:17.84,0:00:18.50,Base,,0,0,0,,{\rBase}y {\rHot\frz-3\t(0,200,\frz3)}retracción {\rBase}persistentes
+Dialogue: 0,0:00:18.50,0:00:19.41,Base,,0,0,0,,{\rBase}y {\rBase}retracción {\rHot\frz-3\t(0,200,\frz3)}persistentes
+Dialogue: 0,0:00:19.36,0:00:20.12,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}comprimen {\rBase}mecánicamente {\rBase}esos
+Dialogue: 0,0:00:20.12,0:00:20.94,Base,,0,0,0,,{\rBase}comprimen {\rHot\frz-3\t(0,200,\frz3)}mecánicamente {\rBase}esos
+Dialogue: 0,0:00:20.94,0:00:21.29,Base,,0,0,0,,{\rBase}comprimen {\rBase}mecánicamente {\rHot\frz-3\t(0,200,\frz3)}esos
+Dialogue: 0,0:00:21.24,0:00:22.12,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}vasos. {\rBase}Esta {\rBase}ligadura
+Dialogue: 0,0:00:22.12,0:00:22.80,Base,,0,0,0,,{\rBase}vasos. {\rHot\frz-3\t(0,200,\frz3)}Esta {\rBase}ligadura
+Dialogue: 0,0:00:22.80,0:00:23.47,Base,,0,0,0,,{\rBase}vasos. {\rBase}Esta {\rHot\frz-3\t(0,200,\frz3)}ligadura
+Dialogue: 0,0:00:23.42,0:00:24.06,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}viviente {\rBase}es {\rBase}el
+Dialogue: 0,0:00:24.06,0:00:24.38,Base,,0,0,0,,{\rBase}viviente {\rHot\frz-3\t(0,200,\frz3)}es {\rBase}el
+Dialogue: 0,0:00:24.38,0:00:24.57,Base,,0,0,0,,{\rBase}viviente {\rBase}es {\rHot\frz-3\t(0,200,\frz3)}el
+Dialogue: 0,0:00:24.52,0:00:25.02,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}mecanismo {\rBase}principal {\rBase}de
+Dialogue: 0,0:00:25.02,0:00:25.72,Base,,0,0,0,,{\rBase}mecanismo {\rHot\frz-3\t(0,200,\frz3)}principal {\rBase}de
+Dialogue: 0,0:00:25.72,0:00:26.01,Base,,0,0,0,,{\rBase}mecanismo {\rBase}principal {\rHot\frz-3\t(0,200,\frz3)}de
+Dialogue: 0,0:00:25.96,0:00:26.74,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}hemostasia {\rBase}postparto. {\rBase}La
+Dialogue: 0,0:00:26.74,0:00:27.64,Base,,0,0,0,,{\rBase}hemostasia {\rHot\frz-3\t(0,200,\frz3)}postparto. {\rBase}La
+Dialogue: 0,0:00:27.64,0:00:28.37,Base,,0,0,0,,{\rBase}hemostasia {\rBase}postparto. {\rHot\frz-3\t(0,200,\frz3)}La
+Dialogue: 0,0:00:28.32,0:00:29.00,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}coagulación {\rBase}celular {\rBase}es
+Dialogue: 0,0:00:29.00,0:00:29.36,Base,,0,0,0,,{\rBase}coagulación {\rHot\frz-3\t(0,200,\frz3)}celular {\rBase}es
+Dialogue: 0,0:00:29.36,0:00:29.67,Base,,0,0,0,,{\rBase}coagulación {\rBase}celular {\rHot\frz-3\t(0,200,\frz3)}es
+Dialogue: 0,0:00:29.62,0:00:30.55,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}secundaria.

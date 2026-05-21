@@ -1,0 +1,71 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H001E80FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.30,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}PCR {\rBase}es
+Dialogue: 0,0:00:00.30,0:00:00.70,Base,,0,0,0,,{\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}PCR {\rBase}es
+Dialogue: 0,0:00:00.70,0:00:01.49,Base,,0,0,0,,{\rBase}La {\rBase}PCR {\rHot\t(0,120,\fscx115\fscy115)}es
+Dialogue: 0,0:00:01.44,0:00:01.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}marcador {\rBase}inflamatorio
+Dialogue: 0,0:00:01.60,0:00:02.04,Base,,0,0,0,,{\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}marcador {\rBase}inflamatorio
+Dialogue: 0,0:00:02.04,0:00:02.81,Base,,0,0,0,,{\rBase}el {\rBase}marcador {\rHot\t(0,120,\fscx115\fscy115)}inflamatorio
+Dialogue: 0,0:00:02.76,0:00:03.04,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}más {\rBase}solicitado {\rBase}en
+Dialogue: 0,0:00:03.04,0:00:03.70,Base,,0,0,0,,{\rBase}más {\rHot\t(0,120,\fscx115\fscy115)}solicitado {\rBase}en
+Dialogue: 0,0:00:03.70,0:00:03.91,Base,,0,0,0,,{\rBase}más {\rBase}solicitado {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:03.86,0:00:04.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}sepsis {\rBase}neonatal, {\rBase}pero
+Dialogue: 0,0:00:04.36,0:00:05.14,Base,,0,0,0,,{\rBase}sepsis {\rHot\t(0,120,\fscx115\fscy115)}neonatal, {\rBase}pero
+Dialogue: 0,0:00:05.14,0:00:05.65,Base,,0,0,0,,{\rBase}sepsis {\rBase}neonatal, {\rHot\t(0,120,\fscx115\fscy115)}pero
+Dialogue: 0,0:00:05.60,0:00:05.76,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}su {\rBase}negatividad {\rBase}temprana
+Dialogue: 0,0:00:05.76,0:00:06.30,Base,,0,0,0,,{\rBase}su {\rHot\t(0,120,\fscx115\fscy115)}negatividad {\rBase}temprana
+Dialogue: 0,0:00:06.30,0:00:06.95,Base,,0,0,0,,{\rBase}su {\rBase}negatividad {\rHot\t(0,120,\fscx115\fscy115)}temprana
+Dialogue: 0,0:00:06.90,0:00:07.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}crea {\rBase}falsa {\rBase}seguridad
+Dialogue: 0,0:00:07.62,0:00:08.02,Base,,0,0,0,,{\rBase}crea {\rHot\t(0,120,\fscx115\fscy115)}falsa {\rBase}seguridad
+Dialogue: 0,0:00:08.02,0:00:08.53,Base,,0,0,0,,{\rBase}crea {\rBase}falsa {\rHot\t(0,120,\fscx115\fscy115)}seguridad
+Dialogue: 0,0:00:08.48,0:00:09.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}retrasa {\rBase}el
+Dialogue: 0,0:00:09.00,0:00:09.54,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}retrasa {\rBase}el
+Dialogue: 0,0:00:09.54,0:00:09.71,Base,,0,0,0,,{\rBase}y {\rBase}retrasa {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:09.66,0:00:09.98,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}inicio {\rBase}de {\rBase}antibióticos
+Dialogue: 0,0:00:09.98,0:00:10.10,Base,,0,0,0,,{\rBase}inicio {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}antibióticos
+Dialogue: 0,0:00:10.10,0:00:10.87,Base,,0,0,0,,{\rBase}inicio {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}antibióticos
+Dialogue: 0,0:00:10.82,0:00:11.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}casos {\rBase}que
+Dialogue: 0,0:00:11.00,0:00:11.32,Base,,0,0,0,,{\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}casos {\rBase}que
+Dialogue: 0,0:00:11.32,0:00:11.59,Base,,0,0,0,,{\rBase}en {\rBase}casos {\rHot\t(0,120,\fscx115\fscy115)}que
+Dialogue: 0,0:00:11.54,0:00:11.70,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}lo {\rBase}requieren. {\rBase}La
+Dialogue: 0,0:00:11.70,0:00:12.52,Base,,0,0,0,,{\rBase}lo {\rHot\t(0,120,\fscx115\fscy115)}requieren. {\rBase}La
+Dialogue: 0,0:00:12.52,0:00:13.11,Base,,0,0,0,,{\rBase}lo {\rBase}requieren. {\rHot\t(0,120,\fscx115\fscy115)}La
+Dialogue: 0,0:00:13.06,0:00:13.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}proteína {\rBase}CR {\rBase}activa,
+Dialogue: 0,0:00:13.62,0:00:14.02,Base,,0,0,0,,{\rBase}proteína {\rHot\t(0,120,\fscx115\fscy115)}CR {\rBase}activa,
+Dialogue: 0,0:00:14.02,0:00:14.71,Base,,0,0,0,,{\rBase}proteína {\rBase}CR {\rHot\t(0,120,\fscx115\fscy115)}activa,
+Dialogue: 0,0:00:14.72,0:00:15.86,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}PCR, {\rBase}en {\rBase}las
+Dialogue: 0,0:00:15.86,0:00:16.00,Base,,0,0,0,,{\rBase}PCR, {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}las
+Dialogue: 0,0:00:16.00,0:00:16.21,Base,,0,0,0,,{\rBase}PCR, {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}las
+Dialogue: 0,0:00:16.16,0:00:16.52,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}primeras {\rBase}6 {\rBase}horas
+Dialogue: 0,0:00:16.52,0:00:16.74,Base,,0,0,0,,{\rBase}primeras {\rHot\t(0,120,\fscx115\fscy115)}6 {\rBase}horas
+Dialogue: 0,0:00:16.74,0:00:17.03,Base,,0,0,0,,{\rBase}primeras {\rBase}6 {\rHot\t(0,120,\fscx115\fscy115)}horas
+Dialogue: 0,0:00:16.98,0:00:17.16,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}vida {\rBase}tiene
+Dialogue: 0,0:00:17.16,0:00:17.42,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}vida {\rBase}tiene
+Dialogue: 0,0:00:17.42,0:00:18.01,Base,,0,0,0,,{\rBase}de {\rBase}vida {\rHot\t(0,120,\fscx115\fscy115)}tiene
+Dialogue: 0,0:00:17.96,0:00:18.18,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}una {\rBase}sensibilidad {\rBase}menor
+Dialogue: 0,0:00:18.18,0:00:18.92,Base,,0,0,0,,{\rBase}una {\rHot\t(0,120,\fscx115\fscy115)}sensibilidad {\rBase}menor
+Dialogue: 0,0:00:18.92,0:00:19.35,Base,,0,0,0,,{\rBase}una {\rBase}sensibilidad {\rHot\t(0,120,\fscx115\fscy115)}menor
+Dialogue: 0,0:00:19.30,0:00:19.50,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}al {\rBase}50 {\rBase}%
+Dialogue: 0,0:00:19.50,0:00:19.94,Base,,0,0,0,,{\rBase}al {\rHot\t(0,120,\fscx115\fscy115)}50 {\rBase}%
+Dialogue: 0,0:00:19.94,0:00:20.39,Base,,0,0,0,,{\rBase}al {\rBase}50 {\rHot\t(0,120,\fscx115\fscy115)}%
+Dialogue: 0,0:00:20.34,0:00:20.80,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}para {\rBase}detectar {\rBase}sepsis
+Dialogue: 0,0:00:20.80,0:00:21.38,Base,,0,0,0,,{\rBase}para {\rHot\t(0,120,\fscx115\fscy115)}detectar {\rBase}sepsis
+Dialogue: 0,0:00:21.38,0:00:22.19,Base,,0,0,0,,{\rBase}para {\rBase}detectar {\rHot\t(0,120,\fscx115\fscy115)}sepsis
+Dialogue: 0,0:00:22.14,0:00:22.78,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}neonatal, {\rBase}incluso {\rBase}en
+Dialogue: 0,0:00:22.78,0:00:23.40,Base,,0,0,0,,{\rBase}neonatal, {\rHot\t(0,120,\fscx115\fscy115)}incluso {\rBase}en
+Dialogue: 0,0:00:23.40,0:00:23.69,Base,,0,0,0,,{\rBase}neonatal, {\rBase}incluso {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:23.64,0:00:23.98,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}casos {\rBase}confirmados {\rBase}por
+Dialogue: 0,0:00:23.98,0:00:24.68,Base,,0,0,0,,{\rBase}casos {\rHot\t(0,120,\fscx115\fscy115)}confirmados {\rBase}por
+Dialogue: 0,0:00:24.68,0:00:24.95,Base,,0,0,0,,{\rBase}casos {\rBase}confirmados {\rHot\t(0,120,\fscx115\fscy115)}por
+Dialogue: 0,0:00:24.90,0:00:25.43,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}cultivo.

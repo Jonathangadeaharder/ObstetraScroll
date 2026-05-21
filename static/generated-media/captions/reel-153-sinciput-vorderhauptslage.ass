@@ -1,0 +1,67 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0080DE4A,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Si {\rBase}en {\rBase}el
+Dialogue: 0,0:00:00.26,0:00:00.40,Base,,0,0,0,,{\rBase}Si {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}el
+Dialogue: 0,0:00:00.40,0:00:00.65,Base,,0,0,0,,{\rBase}Si {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:00.60,0:00:00.98,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}tacto {\rBase}se {\rBase}palpa
+Dialogue: 0,0:00:00.98,0:00:01.16,Base,,0,0,0,,{\rBase}tacto {\rHot\t(0,120,\fscx115\fscy115)}se {\rBase}palpa
+Dialogue: 0,0:00:01.16,0:00:01.59,Base,,0,0,0,,{\rBase}tacto {\rBase}se {\rHot\t(0,120,\fscx115\fscy115)}palpa
+Dialogue: 0,0:00:01.54,0:00:01.78,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}una {\rBase}fontanela {\rBase}grande
+Dialogue: 0,0:00:01.78,0:00:02.36,Base,,0,0,0,,{\rBase}una {\rHot\t(0,120,\fscx115\fscy115)}fontanela {\rBase}grande
+Dialogue: 0,0:00:02.36,0:00:02.73,Base,,0,0,0,,{\rBase}una {\rBase}fontanela {\rHot\t(0,120,\fscx115\fscy115)}grande
+Dialogue: 0,0:00:02.68,0:00:03.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}rombal, {\rBase}no {\rBase}es
+Dialogue: 0,0:00:03.38,0:00:03.60,Base,,0,0,0,,{\rBase}rombal, {\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}es
+Dialogue: 0,0:00:03.60,0:00:03.81,Base,,0,0,0,,{\rBase}rombal, {\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}es
+Dialogue: 0,0:00:03.76,0:00:04.70,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}occipital. {\rBase}El {\rBase}feto
+Dialogue: 0,0:00:04.70,0:00:05.26,Base,,0,0,0,,{\rBase}occipital. {\rHot\t(0,120,\fscx115\fscy115)}El {\rBase}feto
+Dialogue: 0,0:00:05.26,0:00:05.63,Base,,0,0,0,,{\rBase}occipital. {\rBase}El {\rHot\t(0,120,\fscx115\fscy115)}feto
+Dialogue: 0,0:00:05.58,0:00:05.74,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}está {\rBase}deflexionado {\rBase}y
+Dialogue: 0,0:00:05.74,0:00:06.54,Base,,0,0,0,,{\rBase}está {\rHot\t(0,120,\fscx115\fscy115)}deflexionado {\rBase}y
+Dialogue: 0,0:00:06.54,0:00:06.79,Base,,0,0,0,,{\rBase}está {\rBase}deflexionado {\rHot\t(0,120,\fscx115\fscy115)}y
+Dialogue: 0,0:00:06.74,0:00:06.86,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}mecánica {\rBase}cambia.
+Dialogue: 0,0:00:06.86,0:00:07.34,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}mecánica {\rBase}cambia.
+Dialogue: 0,0:00:07.34,0:00:07.89,Base,,0,0,0,,{\rBase}la {\rBase}mecánica {\rHot\t(0,120,\fscx115\fscy115)}cambia.
+Dialogue: 0,0:00:08.68,0:00:09.22,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}El {\rBase}sinsiput {\rBase}es
+Dialogue: 0,0:00:09.22,0:00:09.82,Base,,0,0,0,,{\rBase}El {\rHot\t(0,120,\fscx115\fscy115)}sinsiput {\rBase}es
+Dialogue: 0,0:00:09.82,0:00:10.07,Base,,0,0,0,,{\rBase}El {\rBase}sinsiput {\rHot\t(0,120,\fscx115\fscy115)}es
+Dialogue: 0,0:00:10.02,0:00:10.18,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}región {\rBase}frontal
+Dialogue: 0,0:00:10.18,0:00:10.50,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}región {\rBase}frontal
+Dialogue: 0,0:00:10.50,0:00:11.01,Base,,0,0,0,,{\rBase}la {\rBase}región {\rHot\t(0,120,\fscx115\fscy115)}frontal
+Dialogue: 0,0:00:10.96,0:00:11.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}cráneo {\rBase}fetal.
+Dialogue: 0,0:00:11.32,0:00:11.72,Base,,0,0,0,,{\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}cráneo {\rBase}fetal.
+Dialogue: 0,0:00:11.72,0:00:12.25,Base,,0,0,0,,{\rBase}del {\rBase}cráneo {\rHot\t(0,120,\fscx115\fscy115)}fetal.
+Dialogue: 0,0:00:12.58,0:00:13.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}En {\rBase}presentación {\rBase}de
+Dialogue: 0,0:00:13.00,0:00:13.62,Base,,0,0,0,,{\rBase}En {\rHot\t(0,120,\fscx115\fscy115)}presentación {\rBase}de
+Dialogue: 0,0:00:13.62,0:00:13.83,Base,,0,0,0,,{\rBase}En {\rBase}presentación {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:13.78,0:00:14.42,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}bregma, {\rBase}deflexión {\rBase}leve,
+Dialogue: 0,0:00:14.42,0:00:14.96,Base,,0,0,0,,{\rBase}bregma, {\rHot\t(0,120,\fscx115\fscy115)}deflexión {\rBase}leve,
+Dialogue: 0,0:00:14.96,0:00:15.31,Base,,0,0,0,,{\rBase}bregma, {\rBase}deflexión {\rHot\t(0,120,\fscx115\fscy115)}leve,
+Dialogue: 0,0:00:15.80,0:00:15.98,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}sinsiput {\rBase}desciende
+Dialogue: 0,0:00:15.98,0:00:16.52,Base,,0,0,0,,{\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}sinsiput {\rBase}desciende
+Dialogue: 0,0:00:16.52,0:00:17.11,Base,,0,0,0,,{\rBase}el {\rBase}sinsiput {\rHot\t(0,120,\fscx115\fscy115)}desciende
+Dialogue: 0,0:00:17.06,0:00:17.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}la {\rBase}fontanela
+Dialogue: 0,0:00:17.28,0:00:17.40,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}fontanela
+Dialogue: 0,0:00:17.40,0:00:18.01,Base,,0,0,0,,{\rBase}y {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}fontanela
+Dialogue: 0,0:00:17.96,0:00:18.56,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}mayor, {\rBase}bregma, {\rBase}se
+Dialogue: 0,0:00:18.56,0:00:19.34,Base,,0,0,0,,{\rBase}mayor, {\rHot\t(0,120,\fscx115\fscy115)}bregma, {\rBase}se
+Dialogue: 0,0:00:19.34,0:00:19.71,Base,,0,0,0,,{\rBase}mayor, {\rBase}bregma, {\rHot\t(0,120,\fscx115\fscy115)}se
+Dialogue: 0,0:00:19.66,0:00:20.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}vuelve {\rBase}el {\rBase}punto
+Dialogue: 0,0:00:20.00,0:00:20.12,Base,,0,0,0,,{\rBase}vuelve {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}punto
+Dialogue: 0,0:00:20.12,0:00:20.47,Base,,0,0,0,,{\rBase}vuelve {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}punto
+Dialogue: 0,0:00:20.42,0:00:20.84,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}guía {\rBase}en {\rBase}el
+Dialogue: 0,0:00:20.84,0:00:21.22,Base,,0,0,0,,{\rBase}guía {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}el
+Dialogue: 0,0:00:21.22,0:00:21.39,Base,,0,0,0,,{\rBase}guía {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:21.34,0:00:21.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}canal {\rBase}del {\rBase}parto.
+Dialogue: 0,0:00:21.62,0:00:21.84,Base,,0,0,0,,{\rBase}canal {\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}parto.
+Dialogue: 0,0:00:21.84,0:00:22.39,Base,,0,0,0,,{\rBase}canal {\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}parto.

@@ -1,0 +1,74 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0080DE4A,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}macrosomía {\rBase}es
+Dialogue: 0,0:00:00.26,0:00:00.86,Base,,0,0,0,,{\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}macrosomía {\rBase}es
+Dialogue: 0,0:00:00.86,0:00:01.07,Base,,0,0,0,,{\rBase}La {\rBase}macrosomía {\rHot\t(0,120,\fscx115\fscy115)}es
+Dialogue: 0,0:00:01.02,0:00:02.02,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}asimétrica. {\rBase}Tronco {\rBase}y
+Dialogue: 0,0:00:02.02,0:00:02.42,Base,,0,0,0,,{\rBase}asimétrica. {\rHot\t(0,120,\fscx115\fscy115)}Tronco {\rBase}y
+Dialogue: 0,0:00:02.42,0:00:02.59,Base,,0,0,0,,{\rBase}asimétrica. {\rBase}Tronco {\rHot\t(0,120,\fscx115\fscy115)}y
+Dialogue: 0,0:00:02.54,0:00:02.92,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}vísceras {\rBase}crecen. {\rBase}Perímetro
+Dialogue: 0,0:00:02.92,0:00:03.54,Base,,0,0,0,,{\rBase}vísceras {\rHot\t(0,120,\fscx115\fscy115)}crecen. {\rBase}Perímetro
+Dialogue: 0,0:00:03.54,0:00:04.05,Base,,0,0,0,,{\rBase}vísceras {\rBase}crecen. {\rHot\t(0,120,\fscx115\fscy115)}Perímetro
+Dialogue: 0,0:00:04.00,0:00:04.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}cefálico {\rBase}no. {\rBase}Por
+Dialogue: 0,0:00:04.64,0:00:05.04,Base,,0,0,0,,{\rBase}cefálico {\rHot\t(0,120,\fscx115\fscy115)}no. {\rBase}Por
+Dialogue: 0,0:00:05.04,0:00:05.43,Base,,0,0,0,,{\rBase}cefálico {\rBase}no. {\rHot\t(0,120,\fscx115\fscy115)}Por
+Dialogue: 0,0:00:05.38,0:00:05.54,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}eso {\rBase}la {\rBase}distocia
+Dialogue: 0,0:00:05.54,0:00:05.70,Base,,0,0,0,,{\rBase}eso {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}distocia
+Dialogue: 0,0:00:05.70,0:00:06.17,Base,,0,0,0,,{\rBase}eso {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}distocia
+Dialogue: 0,0:00:06.12,0:00:06.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}hombros {\rBase}es
+Dialogue: 0,0:00:06.24,0:00:06.62,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}hombros {\rBase}es
+Dialogue: 0,0:00:06.62,0:00:06.93,Base,,0,0,0,,{\rBase}de {\rBase}hombros {\rHot\t(0,120,\fscx115\fscy115)}es
+Dialogue: 0,0:00:06.88,0:00:07.02,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}riesgo {\rBase}principal,
+Dialogue: 0,0:00:07.02,0:00:07.30,Base,,0,0,0,,{\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}riesgo {\rBase}principal,
+Dialogue: 0,0:00:07.30,0:00:07.93,Base,,0,0,0,,{\rBase}el {\rBase}riesgo {\rHot\t(0,120,\fscx115\fscy115)}principal,
+Dialogue: 0,0:00:08.08,0:00:08.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}la {\rBase}cabeza.
+Dialogue: 0,0:00:08.24,0:00:08.38,Base,,0,0,0,,{\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}cabeza.
+Dialogue: 0,0:00:08.38,0:00:08.81,Base,,0,0,0,,{\rBase}no {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}cabeza.
+Dialogue: 0,0:00:09.42,0:00:09.88,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Glucosa {\rBase}materna {\rBase}pasa
+Dialogue: 0,0:00:09.88,0:00:10.42,Base,,0,0,0,,{\rBase}Glucosa {\rHot\t(0,120,\fscx115\fscy115)}materna {\rBase}pasa
+Dialogue: 0,0:00:10.42,0:00:10.77,Base,,0,0,0,,{\rBase}Glucosa {\rBase}materna {\rHot\t(0,120,\fscx115\fscy115)}pasa
+Dialogue: 0,0:00:10.72,0:00:11.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}libremente {\rBase}la {\rBase}placenta.
+Dialogue: 0,0:00:11.34,0:00:11.48,Base,,0,0,0,,{\rBase}libremente {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}placenta.
+Dialogue: 0,0:00:11.48,0:00:12.11,Base,,0,0,0,,{\rBase}libremente {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}placenta.
+Dialogue: 0,0:00:12.36,0:00:13.02,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Insulina {\rBase}materna {\rBase}no.
+Dialogue: 0,0:00:13.02,0:00:13.46,Base,,0,0,0,,{\rBase}Insulina {\rHot\t(0,120,\fscx115\fscy115)}materna {\rBase}no.
+Dialogue: 0,0:00:13.46,0:00:13.71,Base,,0,0,0,,{\rBase}Insulina {\rBase}materna {\rHot\t(0,120,\fscx115\fscy115)}no.
+Dialogue: 0,0:00:14.04,0:00:14.22,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}En {\rBase}hiperglucemia {\rBase}materna
+Dialogue: 0,0:00:14.22,0:00:15.08,Base,,0,0,0,,{\rBase}En {\rHot\t(0,120,\fscx115\fscy115)}hiperglucemia {\rBase}materna
+Dialogue: 0,0:00:15.08,0:00:15.61,Base,,0,0,0,,{\rBase}En {\rBase}hiperglucemia {\rHot\t(0,120,\fscx115\fscy115)}materna
+Dialogue: 0,0:00:15.56,0:00:16.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}crónica. {\rBase}El {\rBase}páncreas
+Dialogue: 0,0:00:16.24,0:00:16.50,Base,,0,0,0,,{\rBase}crónica. {\rHot\t(0,120,\fscx115\fscy115)}El {\rBase}páncreas
+Dialogue: 0,0:00:16.50,0:00:17.05,Base,,0,0,0,,{\rBase}crónica. {\rBase}El {\rHot\t(0,120,\fscx115\fscy115)}páncreas
+Dialogue: 0,0:00:17.00,0:00:17.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}fetal {\rBase}hipersecreta {\rBase}insulina
+Dialogue: 0,0:00:17.38,0:00:18.14,Base,,0,0,0,,{\rBase}fetal {\rHot\t(0,120,\fscx115\fscy115)}hipersecreta {\rBase}insulina
+Dialogue: 0,0:00:18.14,0:00:18.91,Base,,0,0,0,,{\rBase}fetal {\rBase}hipersecreta {\rHot\t(0,120,\fscx115\fscy115)}insulina
+Dialogue: 0,0:00:18.86,0:00:19.06,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}desde {\rBase}la {\rBase}semana
+Dialogue: 0,0:00:19.06,0:00:19.24,Base,,0,0,0,,{\rBase}desde {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}semana
+Dialogue: 0,0:00:19.24,0:00:19.61,Base,,0,0,0,,{\rBase}desde {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}semana
+Dialogue: 0,0:00:19.56,0:00:20.22,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}12. {\rBase}La {\rBase}insulina
+Dialogue: 0,0:00:20.22,0:00:20.56,Base,,0,0,0,,{\rBase}12. {\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}insulina
+Dialogue: 0,0:00:20.56,0:00:21.03,Base,,0,0,0,,{\rBase}12. {\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}insulina
+Dialogue: 0,0:00:20.98,0:00:21.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}fetal {\rBase}es {\rBase}factor
+Dialogue: 0,0:00:21.34,0:00:21.48,Base,,0,0,0,,{\rBase}fetal {\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}factor
+Dialogue: 0,0:00:21.48,0:00:21.87,Base,,0,0,0,,{\rBase}fetal {\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}factor
+Dialogue: 0,0:00:21.82,0:00:22.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}crecimiento. {\rBase}Lipogénesis
+Dialogue: 0,0:00:22.00,0:00:23.06,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}crecimiento. {\rBase}Lipogénesis
+Dialogue: 0,0:00:23.06,0:00:23.79,Base,,0,0,0,,{\rBase}de {\rBase}crecimiento. {\rHot\t(0,120,\fscx115\fscy115)}Lipogénesis
+Dialogue: 0,0:00:23.74,0:00:24.04,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}glucogénesis {\rBase}fetal
+Dialogue: 0,0:00:24.04,0:00:24.74,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}glucogénesis {\rBase}fetal
+Dialogue: 0,0:00:24.74,0:00:25.17,Base,,0,0,0,,{\rBase}y {\rBase}glucogénesis {\rHot\t(0,120,\fscx115\fscy115)}fetal
+Dialogue: 0,0:00:25.12,0:00:26.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}aumentan. {\rBase}Organomegalia {\rBase}y
+Dialogue: 0,0:00:26.34,0:00:27.02,Base,,0,0,0,,{\rBase}aumentan. {\rHot\t(0,120,\fscx115\fscy115)}Organomegalia {\rBase}y
+Dialogue: 0,0:00:27.02,0:00:27.31,Base,,0,0,0,,{\rBase}aumentan. {\rBase}Organomegalia {\rHot\t(0,120,\fscx115\fscy115)}y
+Dialogue: 0,0:00:27.26,0:00:28.03,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}macrosomía.

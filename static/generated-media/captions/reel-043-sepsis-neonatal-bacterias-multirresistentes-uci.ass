@@ -1,0 +1,73 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,84,&H00B4377C,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.30,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Las {\rBase}guías {\rBase}estándar
+Dialogue: 0,0:00:00.30,0:00:00.54,Base,,0,0,0,,{\rBase}Las {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}guías {\rBase}estándar
+Dialogue: 0,0:00:00.54,0:00:01.11,Base,,0,0,0,,{\rBase}Las {\rBase}guías {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}estándar
+Dialogue: 0,0:00:01.06,0:00:01.86,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}recomiendan {\rBase}ampicilina {\rBase}plus
+Dialogue: 0,0:00:01.86,0:00:02.86,Base,,0,0,0,,{\rBase}recomiendan {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ampicilina {\rBase}plus
+Dialogue: 0,0:00:02.86,0:00:03.57,Base,,0,0,0,,{\rBase}recomiendan {\rBase}ampicilina {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}plus
+Dialogue: 0,0:00:03.52,0:00:04.48,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}gentamicina {\rBase}como {\rBase}primera
+Dialogue: 0,0:00:04.48,0:00:04.72,Base,,0,0,0,,{\rBase}gentamicina {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}como {\rBase}primera
+Dialogue: 0,0:00:04.72,0:00:05.15,Base,,0,0,0,,{\rBase}gentamicina {\rBase}como {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}primera
+Dialogue: 0,0:00:05.10,0:00:05.74,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}línea, {\rBase}pero {\rBase}en
+Dialogue: 0,0:00:05.74,0:00:06.24,Base,,0,0,0,,{\rBase}línea, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pero {\rBase}en
+Dialogue: 0,0:00:06.24,0:00:06.47,Base,,0,0,0,,{\rBase}línea, {\rBase}pero {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en
+Dialogue: 0,0:00:06.42,0:00:06.82,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}unidades {\rBase}con {\rBase}alta
+Dialogue: 0,0:00:06.82,0:00:07.02,Base,,0,0,0,,{\rBase}unidades {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}alta
+Dialogue: 0,0:00:07.02,0:00:07.33,Base,,0,0,0,,{\rBase}unidades {\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}alta
+Dialogue: 0,0:00:07.28,0:00:07.82,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}prevalencia {\rBase}de {\rBase}resistencia,
+Dialogue: 0,0:00:07.82,0:00:07.96,Base,,0,0,0,,{\rBase}prevalencia {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}resistencia,
+Dialogue: 0,0:00:07.96,0:00:08.73,Base,,0,0,0,,{\rBase}prevalencia {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}resistencia,
+Dialogue: 0,0:00:08.84,0:00:09.22,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}esta {\rBase}combinación {\rBase}no
+Dialogue: 0,0:00:09.22,0:00:09.86,Base,,0,0,0,,{\rBase}esta {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}combinación {\rBase}no
+Dialogue: 0,0:00:09.86,0:00:10.05,Base,,0,0,0,,{\rBase}esta {\rBase}combinación {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}no
+Dialogue: 0,0:00:10.00,0:00:10.30,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cubre {\rBase}el {\rBase}50
+Dialogue: 0,0:00:10.30,0:00:10.42,Base,,0,0,0,,{\rBase}cubre {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}50
+Dialogue: 0,0:00:10.42,0:00:10.95,Base,,0,0,0,,{\rBase}cubre {\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}50
+Dialogue: 0,0:00:10.90,0:00:11.22,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}% {\rBase}de {\rBase}los
+Dialogue: 0,0:00:11.22,0:00:11.54,Base,,0,0,0,,{\rBase}% {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}los
+Dialogue: 0,0:00:11.54,0:00:11.71,Base,,0,0,0,,{\rBase}% {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}los
+Dialogue: 0,0:00:11.66,0:00:12.52,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}patógenos. {\rBase}En {\rBase}unidades
+Dialogue: 0,0:00:12.52,0:00:12.92,Base,,0,0,0,,{\rBase}patógenos. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}En {\rBase}unidades
+Dialogue: 0,0:00:12.92,0:00:13.35,Base,,0,0,0,,{\rBase}patógenos. {\rBase}En {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}unidades
+Dialogue: 0,0:00:13.30,0:00:13.48,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}cuidados {\rBase}intensivos
+Dialogue: 0,0:00:13.48,0:00:13.90,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cuidados {\rBase}intensivos
+Dialogue: 0,0:00:13.90,0:00:14.67,Base,,0,0,0,,{\rBase}de {\rBase}cuidados {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}intensivos
+Dialogue: 0,0:00:14.62,0:00:15.30,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}neonatales {\rBase}de {\rBase}ingresos
+Dialogue: 0,0:00:15.30,0:00:15.42,Base,,0,0,0,,{\rBase}neonatales {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}ingresos
+Dialogue: 0,0:00:15.42,0:00:15.89,Base,,0,0,0,,{\rBase}neonatales {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ingresos
+Dialogue: 0,0:00:15.84,0:00:16.18,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}medios {\rBase}y {\rBase}bajos,
+Dialogue: 0,0:00:16.18,0:00:16.62,Base,,0,0,0,,{\rBase}medios {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}bajos,
+Dialogue: 0,0:00:16.62,0:00:17.15,Base,,0,0,0,,{\rBase}medios {\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}bajos,
+Dialogue: 0,0:00:17.50,0:00:17.56,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}70 {\rBase}%
+Dialogue: 0,0:00:17.56,0:00:17.96,Base,,0,0,0,,{\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}70 {\rBase}%
+Dialogue: 0,0:00:17.96,0:00:18.47,Base,,0,0,0,,{\rBase}el {\rBase}70 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}%
+Dialogue: 0,0:00:18.42,0:00:18.64,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}las {\rBase}sepsis
+Dialogue: 0,0:00:18.64,0:00:18.78,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}las {\rBase}sepsis
+Dialogue: 0,0:00:18.78,0:00:19.23,Base,,0,0,0,,{\rBase}de {\rBase}las {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sepsis
+Dialogue: 0,0:00:19.18,0:00:19.72,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}neonatales {\rBase}confirmadas {\rBase}por
+Dialogue: 0,0:00:19.72,0:00:20.28,Base,,0,0,0,,{\rBase}neonatales {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}confirmadas {\rBase}por
+Dialogue: 0,0:00:20.28,0:00:20.51,Base,,0,0,0,,{\rBase}neonatales {\rBase}confirmadas {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}por
+Dialogue: 0,0:00:20.46,0:00:20.98,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cultivo {\rBase}son {\rBase}causadas
+Dialogue: 0,0:00:20.98,0:00:21.62,Base,,0,0,0,,{\rBase}cultivo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}son {\rBase}causadas
+Dialogue: 0,0:00:21.62,0:00:22.21,Base,,0,0,0,,{\rBase}cultivo {\rBase}son {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}causadas
+Dialogue: 0,0:00:22.16,0:00:22.34,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}por {\rBase}bacterias {\rBase}resistentes
+Dialogue: 0,0:00:22.34,0:00:22.80,Base,,0,0,0,,{\rBase}por {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}bacterias {\rBase}resistentes
+Dialogue: 0,0:00:22.80,0:00:23.45,Base,,0,0,0,,{\rBase}por {\rBase}bacterias {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}resistentes
+Dialogue: 0,0:00:23.40,0:00:23.52,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}a {\rBase}los {\rBase}antibióticos
+Dialogue: 0,0:00:23.52,0:00:23.66,Base,,0,0,0,,{\rBase}a {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}los {\rBase}antibióticos
+Dialogue: 0,0:00:23.66,0:00:24.41,Base,,0,0,0,,{\rBase}a {\rBase}los {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}antibióticos
+Dialogue: 0,0:00:24.36,0:00:24.48,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}primera {\rBase}línea.
+Dialogue: 0,0:00:24.48,0:00:24.80,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}primera {\rBase}línea.
+Dialogue: 0,0:00:24.80,0:00:25.21,Base,,0,0,0,,{\rBase}de {\rBase}primera {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}línea.

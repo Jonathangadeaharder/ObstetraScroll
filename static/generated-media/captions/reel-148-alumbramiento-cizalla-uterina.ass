@@ -1,0 +1,78 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,88,&H00F4E000,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.54,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Apurar {\rBase}el {\rBase}alumbramiento
+Dialogue: 0,0:00:00.54,0:00:00.70,Base,,0,0,0,,{\rBase}Apurar {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}alumbramiento
+Dialogue: 0,0:00:00.70,0:00:01.41,Base,,0,0,0,,{\rBase}Apurar {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}alumbramiento
+Dialogue: 0,0:00:01.36,0:00:01.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}antes {\rBase}de {\rBase}que
+Dialogue: 0,0:00:01.60,0:00:01.78,Base,,0,0,0,,{\rBase}antes {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}que
+Dialogue: 0,0:00:01.78,0:00:01.95,Base,,0,0,0,,{\rBase}antes {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}que
+Dialogue: 0,0:00:01.90,0:00:02.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}útero {\rBase}esté
+Dialogue: 0,0:00:02.08,0:00:02.40,Base,,0,0,0,,{\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}útero {\rBase}esté
+Dialogue: 0,0:00:02.40,0:00:02.69,Base,,0,0,0,,{\rBase}el {\rBase}útero {\rHot\t(0,120,\fscx115\fscy115)}esté
+Dialogue: 0,0:00:02.64,0:00:02.94,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}bien {\rBase}contraído {\rBase}fragmenta
+Dialogue: 0,0:00:02.94,0:00:03.62,Base,,0,0,0,,{\rBase}bien {\rHot\t(0,120,\fscx115\fscy115)}contraído {\rBase}fragmenta
+Dialogue: 0,0:00:03.62,0:00:04.37,Base,,0,0,0,,{\rBase}bien {\rBase}contraído {\rHot\t(0,120,\fscx115\fscy115)}fragmenta
+Dialogue: 0,0:00:04.32,0:00:04.42,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}placenta {\rBase}y
+Dialogue: 0,0:00:04.42,0:00:04.92,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}placenta {\rBase}y
+Dialogue: 0,0:00:04.92,0:00:05.19,Base,,0,0,0,,{\rBase}la {\rBase}placenta {\rHot\t(0,120,\fscx115\fscy115)}y
+Dialogue: 0,0:00:05.14,0:00:05.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}aumenta {\rBase}retención {\rBase}y
+Dialogue: 0,0:00:05.60,0:00:06.28,Base,,0,0,0,,{\rBase}aumenta {\rHot\t(0,120,\fscx115\fscy115)}retención {\rBase}y
+Dialogue: 0,0:00:06.28,0:00:06.85,Base,,0,0,0,,{\rBase}aumenta {\rBase}retención {\rHot\t(0,120,\fscx115\fscy115)}y
+Dialogue: 0,0:00:06.80,0:00:07.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}HPP. {\rBase}Tras {\rBase}la
+Dialogue: 0,0:00:07.60,0:00:08.04,Base,,0,0,0,,{\rBase}HPP. {\rHot\t(0,120,\fscx115\fscy115)}Tras {\rBase}la
+Dialogue: 0,0:00:08.04,0:00:08.23,Base,,0,0,0,,{\rBase}HPP. {\rBase}Tras {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:08.18,0:00:08.54,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}salida {\rBase}del {\rBase}feto,
+Dialogue: 0,0:00:08.54,0:00:08.72,Base,,0,0,0,,{\rBase}salida {\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}feto,
+Dialogue: 0,0:00:08.72,0:00:09.19,Base,,0,0,0,,{\rBase}salida {\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}feto,
+Dialogue: 0,0:00:09.42,0:00:09.50,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}útero {\rBase}se
+Dialogue: 0,0:00:09.50,0:00:09.82,Base,,0,0,0,,{\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}útero {\rBase}se
+Dialogue: 0,0:00:09.82,0:00:10.01,Base,,0,0,0,,{\rBase}el {\rBase}útero {\rHot\t(0,120,\fscx115\fscy115)}se
+Dialogue: 0,0:00:09.96,0:00:10.54,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}contrae {\rBase}y {\rBase}retrae
+Dialogue: 0,0:00:10.54,0:00:10.76,Base,,0,0,0,,{\rBase}contrae {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}retrae
+Dialogue: 0,0:00:10.76,0:00:11.35,Base,,0,0,0,,{\rBase}contrae {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}retrae
+Dialogue: 0,0:00:11.30,0:00:12.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}masivamente {\rBase}bajo {\rBase}oxitocina
+Dialogue: 0,0:00:12.08,0:00:12.78,Base,,0,0,0,,{\rBase}masivamente {\rHot\t(0,120,\fscx115\fscy115)}bajo {\rBase}oxitocina
+Dialogue: 0,0:00:12.78,0:00:13.77,Base,,0,0,0,,{\rBase}masivamente {\rBase}bajo {\rHot\t(0,120,\fscx115\fscy115)}oxitocina
+Dialogue: 0,0:00:13.72,0:00:14.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}mantenida. {\rBase}Como {\rBase}la
+Dialogue: 0,0:00:14.60,0:00:14.98,Base,,0,0,0,,{\rBase}mantenida. {\rHot\t(0,120,\fscx115\fscy115)}Como {\rBase}la
+Dialogue: 0,0:00:14.98,0:00:15.17,Base,,0,0,0,,{\rBase}mantenida. {\rBase}Como {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:15.12,0:00:15.54,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}placenta {\rBase}no {\rBase}es
+Dialogue: 0,0:00:15.54,0:00:15.70,Base,,0,0,0,,{\rBase}placenta {\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}es
+Dialogue: 0,0:00:15.70,0:00:15.89,Base,,0,0,0,,{\rBase}placenta {\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}es
+Dialogue: 0,0:00:15.84,0:00:16.68,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}contractil, {\rBase}se {\rBase}generan
+Dialogue: 0,0:00:16.68,0:00:17.00,Base,,0,0,0,,{\rBase}contractil, {\rHot\t(0,120,\fscx115\fscy115)}se {\rBase}generan
+Dialogue: 0,0:00:17.00,0:00:17.43,Base,,0,0,0,,{\rBase}contractil, {\rBase}se {\rHot\t(0,120,\fscx115\fscy115)}generan
+Dialogue: 0,0:00:17.38,0:00:17.84,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}fuerzas {\rBase}de {\rBase}sisaya
+Dialogue: 0,0:00:17.84,0:00:17.98,Base,,0,0,0,,{\rBase}fuerzas {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}sisaya
+Dialogue: 0,0:00:17.98,0:00:18.57,Base,,0,0,0,,{\rBase}fuerzas {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}sisaya
+Dialogue: 0,0:00:18.52,0:00:18.76,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}la {\rBase}zona
+Dialogue: 0,0:00:18.76,0:00:18.88,Base,,0,0,0,,{\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}zona
+Dialogue: 0,0:00:18.88,0:00:19.15,Base,,0,0,0,,{\rBase}en {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}zona
+Dialogue: 0,0:00:19.10,0:00:19.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}inserción. {\rBase}Los
+Dialogue: 0,0:00:19.24,0:00:20.06,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}inserción. {\rBase}Los
+Dialogue: 0,0:00:20.06,0:00:20.61,Base,,0,0,0,,{\rBase}de {\rBase}inserción. {\rHot\t(0,120,\fscx115\fscy115)}Los
+Dialogue: 0,0:00:20.56,0:00:20.90,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}vasos {\rBase}maternos {\rBase}rompen,
+Dialogue: 0,0:00:20.90,0:00:21.32,Base,,0,0,0,,{\rBase}vasos {\rHot\t(0,120,\fscx115\fscy115)}maternos {\rBase}rompen,
+Dialogue: 0,0:00:21.32,0:00:21.83,Base,,0,0,0,,{\rBase}vasos {\rBase}maternos {\rHot\t(0,120,\fscx115\fscy115)}rompen,
+Dialogue: 0,0:00:22.00,0:00:22.14,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}se {\rBase}forma {\rBase}el
+Dialogue: 0,0:00:22.14,0:00:22.46,Base,,0,0,0,,{\rBase}se {\rHot\t(0,120,\fscx115\fscy115)}forma {\rBase}el
+Dialogue: 0,0:00:22.46,0:00:22.65,Base,,0,0,0,,{\rBase}se {\rBase}forma {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:22.60,0:00:23.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}hematoma {\rBase}retroplacentario {\rBase}fisiológico
+Dialogue: 0,0:00:23.08,0:00:24.22,Base,,0,0,0,,{\rBase}hematoma {\rHot\t(0,120,\fscx115\fscy115)}retroplacentario {\rBase}fisiológico
+Dialogue: 0,0:00:24.22,0:00:25.03,Base,,0,0,0,,{\rBase}hematoma {\rBase}retroplacentario {\rHot\t(0,120,\fscx115\fscy115)}fisiológico
+Dialogue: 0,0:00:24.98,0:00:25.16,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}la {\rBase}placenta
+Dialogue: 0,0:00:25.16,0:00:25.30,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}placenta
+Dialogue: 0,0:00:25.30,0:00:25.89,Base,,0,0,0,,{\rBase}y {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}placenta
+Dialogue: 0,0:00:25.84,0:00:26.02,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}se {\rBase}desprende.
+Dialogue: 0,0:00:26.02,0:00:26.57,Base,,0,0,0,,{\rBase}se {\rHot\t(0,120,\fscx115\fscy115)}desprende.

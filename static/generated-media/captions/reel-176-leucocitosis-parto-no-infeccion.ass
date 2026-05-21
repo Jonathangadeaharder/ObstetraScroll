@@ -1,0 +1,68 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H003C3CE6,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Si {\rBase}se {\rBase}trata
+Dialogue: 0,0:00:00.26,0:00:00.40,Base,,0,0,0,,{\rBase}Si {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}se {\rBase}trata
+Dialogue: 0,0:00:00.40,0:00:00.73,Base,,0,0,0,,{\rBase}Si {\rBase}se {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}trata
+Dialogue: 0,0:00:00.68,0:00:00.96,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cada {\rBase}leucocitosis {\rBase}del
+Dialogue: 0,0:00:00.96,0:00:01.96,Base,,0,0,0,,{\rBase}cada {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}leucocitosis {\rBase}del
+Dialogue: 0,0:00:01.96,0:00:02.21,Base,,0,0,0,,{\rBase}cada {\rBase}leucocitosis {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}del
+Dialogue: 0,0:00:02.16,0:00:02.66,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}parto {\rBase}con {\rBase}antibióticos,
+Dialogue: 0,0:00:02.66,0:00:02.82,Base,,0,0,0,,{\rBase}parto {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}antibióticos,
+Dialogue: 0,0:00:02.82,0:00:03.69,Base,,0,0,0,,{\rBase}parto {\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}antibióticos,
+Dialogue: 0,0:00:03.80,0:00:04.18,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}se {\rBase}sobretratan {\rBase}miles
+Dialogue: 0,0:00:04.18,0:00:04.90,Base,,0,0,0,,{\rBase}se {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sobretratan {\rBase}miles
+Dialogue: 0,0:00:04.90,0:00:05.37,Base,,0,0,0,,{\rBase}se {\rBase}sobretratan {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}miles
+Dialogue: 0,0:00:05.32,0:00:05.74,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sin {\rBase}beneficio. {\rBase}Hay
+Dialogue: 0,0:00:05.74,0:00:06.60,Base,,0,0,0,,{\rBase}sin {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}beneficio. {\rBase}Hay
+Dialogue: 0,0:00:06.60,0:00:06.77,Base,,0,0,0,,{\rBase}sin {\rBase}beneficio. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Hay
+Dialogue: 0,0:00:06.72,0:00:06.84,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}que {\rBase}ver {\rBase}el
+Dialogue: 0,0:00:06.84,0:00:07.02,Base,,0,0,0,,{\rBase}que {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ver {\rBase}el
+Dialogue: 0,0:00:07.02,0:00:07.21,Base,,0,0,0,,{\rBase}que {\rBase}ver {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el
+Dialogue: 0,0:00:07.16,0:00:07.60,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}contexto {\rBase}clínico, {\rBase}fiebre,
+Dialogue: 0,0:00:07.60,0:00:08.44,Base,,0,0,0,,{\rBase}contexto {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}clínico, {\rBase}fiebre,
+Dialogue: 0,0:00:08.44,0:00:09.29,Base,,0,0,0,,{\rBase}contexto {\rBase}clínico, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}fiebre,
+Dialogue: 0,0:00:09.46,0:00:09.98,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}taquicardia {\rBase}fetal, {\rBase}FUL.
+Dialogue: 0,0:00:09.98,0:00:10.82,Base,,0,0,0,,{\rBase}taquicardia {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}fetal, {\rBase}FUL.
+Dialogue: 0,0:00:10.82,0:00:11.99,Base,,0,0,0,,{\rBase}taquicardia {\rBase}fetal, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}FUL.
+Dialogue: 0,0:00:12.42,0:00:13.04,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Durante {\rBase}el {\rBase}trabajo
+Dialogue: 0,0:00:13.04,0:00:13.20,Base,,0,0,0,,{\rBase}Durante {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}trabajo
+Dialogue: 0,0:00:13.20,0:00:13.57,Base,,0,0,0,,{\rBase}Durante {\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}trabajo
+Dialogue: 0,0:00:13.52,0:00:13.76,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}parto, {\rBase}los
+Dialogue: 0,0:00:13.76,0:00:14.38,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}parto, {\rBase}los
+Dialogue: 0,0:00:14.38,0:00:14.53,Base,,0,0,0,,{\rBase}de {\rBase}parto, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}los
+Dialogue: 0,0:00:14.48,0:00:15.18,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}leucocitos {\rBase}suben {\rBase}fisiológicamente
+Dialogue: 0,0:00:15.18,0:00:15.74,Base,,0,0,0,,{\rBase}leucocitos {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}suben {\rBase}fisiológicamente
+Dialogue: 0,0:00:15.74,0:00:16.91,Base,,0,0,0,,{\rBase}leucocitos {\rBase}suben {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}fisiológicamente
+Dialogue: 0,0:00:16.86,0:00:17.08,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}a {\rBase}15 {\rBase}.000
+Dialogue: 0,0:00:17.08,0:00:17.40,Base,,0,0,0,,{\rBase}a {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}15 {\rBase}.000
+Dialogue: 0,0:00:17.40,0:00:17.77,Base,,0,0,0,,{\rBase}a {\rBase}15 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}.000
+Dialogue: 0,0:00:17.72,0:00:18.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}-25 {\rBase}.000 {\rBase}RML
+Dialogue: 0,0:00:18.26,0:00:18.84,Base,,0,0,0,,{\rBase}-25 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}.000 {\rBase}RML
+Dialogue: 0,0:00:18.84,0:00:19.75,Base,,0,0,0,,{\rBase}-25 {\rBase}.000 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}RML
+Dialogue: 0,0:00:19.70,0:00:20.10,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}por {\rBase}estrés {\rBase}y
+Dialogue: 0,0:00:20.10,0:00:20.54,Base,,0,0,0,,{\rBase}por {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}estrés {\rBase}y
+Dialogue: 0,0:00:20.54,0:00:20.87,Base,,0,0,0,,{\rBase}por {\rBase}estrés {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y
+Dialogue: 0,0:00:20.82,0:00:20.92,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}marginación {\rBase}inducida
+Dialogue: 0,0:00:20.92,0:00:21.64,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}marginación {\rBase}inducida
+Dialogue: 0,0:00:21.64,0:00:22.39,Base,,0,0,0,,{\rBase}de {\rBase}marginación {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}inducida
+Dialogue: 0,0:00:22.34,0:00:22.52,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}por {\rBase}cortisol {\rBase}y
+Dialogue: 0,0:00:22.52,0:00:22.96,Base,,0,0,0,,{\rBase}por {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cortisol {\rBase}y
+Dialogue: 0,0:00:22.96,0:00:23.25,Base,,0,0,0,,{\rBase}por {\rBase}cortisol {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y
+Dialogue: 0,0:00:23.20,0:00:23.96,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}adrenalina. {\rBase}No {\rBase}es
+Dialogue: 0,0:00:23.96,0:00:24.20,Base,,0,0,0,,{\rBase}adrenalina. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}No {\rBase}es
+Dialogue: 0,0:00:24.20,0:00:24.35,Base,,0,0,0,,{\rBase}adrenalina. {\rBase}No {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}es
+Dialogue: 0,0:00:24.30,0:00:24.90,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}diagnóstico {\rBase}aislado {\rBase}de
+Dialogue: 0,0:00:24.90,0:00:25.36,Base,,0,0,0,,{\rBase}diagnóstico {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}aislado {\rBase}de
+Dialogue: 0,0:00:25.36,0:00:25.53,Base,,0,0,0,,{\rBase}diagnóstico {\rBase}aislado {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:25.48,0:00:26.11,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}infección.

@@ -1,0 +1,77 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Arial Black,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Arial Black,84,&H00FF3CFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.44,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}Medir {\rBase}progesterona {\rBase}sérica
+Dialogue: 0,0:00:00.44,0:00:01.10,Base,,0,0,0,,{\rBase}Medir {\rHot\frz-3\t(0,200,\frz3)}progesterona {\rBase}sérica
+Dialogue: 0,0:00:01.10,0:00:01.53,Base,,0,0,0,,{\rBase}Medir {\rBase}progesterona {\rHot\frz-3\t(0,200,\frz3)}sérica
+Dialogue: 0,0:00:01.48,0:00:01.70,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}para {\rBase}predecir {\rBase}parto
+Dialogue: 0,0:00:01.70,0:00:02.18,Base,,0,0,0,,{\rBase}para {\rHot\frz-3\t(0,200,\frz3)}predecir {\rBase}parto
+Dialogue: 0,0:00:02.18,0:00:02.65,Base,,0,0,0,,{\rBase}para {\rBase}predecir {\rHot\frz-3\t(0,200,\frz3)}parto
+Dialogue: 0,0:00:02.60,0:00:02.78,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}es {\rBase}inútil. {\rBase}El
+Dialogue: 0,0:00:02.78,0:00:03.56,Base,,0,0,0,,{\rBase}es {\rHot\frz-3\t(0,200,\frz3)}inútil. {\rBase}El
+Dialogue: 0,0:00:03.56,0:00:04.07,Base,,0,0,0,,{\rBase}es {\rBase}inútil. {\rHot\frz-3\t(0,200,\frz3)}El
+Dialogue: 0,0:00:04.02,0:00:04.38,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}cambio {\rBase}es {\rBase}a
+Dialogue: 0,0:00:04.38,0:00:04.62,Base,,0,0,0,,{\rBase}cambio {\rHot\frz-3\t(0,200,\frz3)}es {\rBase}a
+Dialogue: 0,0:00:04.62,0:00:04.79,Base,,0,0,0,,{\rBase}cambio {\rBase}es {\rHot\frz-3\t(0,200,\frz3)}a
+Dialogue: 0,0:00:04.74,0:00:04.98,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}nivel {\rBase}receptor, {\rBase}no
+Dialogue: 0,0:00:04.98,0:00:05.92,Base,,0,0,0,,{\rBase}nivel {\rHot\frz-3\t(0,200,\frz3)}receptor, {\rBase}no
+Dialogue: 0,0:00:05.92,0:00:06.21,Base,,0,0,0,,{\rBase}nivel {\rBase}receptor, {\rHot\frz-3\t(0,200,\frz3)}no
+Dialogue: 0,0:00:06.16,0:00:06.28,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}de {\rBase}circulación. {\rBase}En
+Dialogue: 0,0:00:06.28,0:00:07.26,Base,,0,0,0,,{\rBase}de {\rHot\frz-3\t(0,200,\frz3)}circulación. {\rBase}En
+Dialogue: 0,0:00:07.26,0:00:07.71,Base,,0,0,0,,{\rBase}de {\rBase}circulación. {\rHot\frz-3\t(0,200,\frz3)}En
+Dialogue: 0,0:00:07.66,0:00:07.98,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}humanos {\rBase}la {\rBase}progesterona
+Dialogue: 0,0:00:07.98,0:00:08.20,Base,,0,0,0,,{\rBase}humanos {\rHot\frz-3\t(0,200,\frz3)}la {\rBase}progesterona
+Dialogue: 0,0:00:08.20,0:00:08.91,Base,,0,0,0,,{\rBase}humanos {\rBase}la {\rHot\frz-3\t(0,200,\frz3)}progesterona
+Dialogue: 0,0:00:08.86,0:00:09.50,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}sistémica {\rBase}no {\rBase}cae
+Dialogue: 0,0:00:09.50,0:00:09.76,Base,,0,0,0,,{\rBase}sistémica {\rHot\frz-3\t(0,200,\frz3)}no {\rBase}cae
+Dialogue: 0,0:00:09.76,0:00:10.11,Base,,0,0,0,,{\rBase}sistémica {\rBase}no {\rHot\frz-3\t(0,200,\frz3)}cae
+Dialogue: 0,0:00:10.06,0:00:10.44,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}antes {\rBase}del {\rBase}parto.
+Dialogue: 0,0:00:10.44,0:00:10.66,Base,,0,0,0,,{\rBase}antes {\rHot\frz-3\t(0,200,\frz3)}del {\rBase}parto.
+Dialogue: 0,0:00:10.66,0:00:11.19,Base,,0,0,0,,{\rBase}antes {\rBase}del {\rHot\frz-3\t(0,200,\frz3)}parto.
+Dialogue: 0,0:00:11.30,0:00:11.56,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}Lo {\rBase}que {\rBase}cae
+Dialogue: 0,0:00:11.56,0:00:11.70,Base,,0,0,0,,{\rBase}Lo {\rHot\frz-3\t(0,200,\frz3)}que {\rBase}cae
+Dialogue: 0,0:00:11.70,0:00:12.11,Base,,0,0,0,,{\rBase}Lo {\rBase}que {\rHot\frz-3\t(0,200,\frz3)}cae
+Dialogue: 0,0:00:12.06,0:00:12.28,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}es {\rBase}la {\rBase}respuesta
+Dialogue: 0,0:00:12.28,0:00:12.40,Base,,0,0,0,,{\rBase}es {\rHot\frz-3\t(0,200,\frz3)}la {\rBase}respuesta
+Dialogue: 0,0:00:12.40,0:00:12.95,Base,,0,0,0,,{\rBase}es {\rBase}la {\rHot\frz-3\t(0,200,\frz3)}respuesta
+Dialogue: 0,0:00:12.90,0:00:13.20,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}del {\rBase}miometrio. {\rBase}Baja
+Dialogue: 0,0:00:13.20,0:00:14.38,Base,,0,0,0,,{\rBase}del {\rHot\frz-3\t(0,200,\frz3)}miometrio. {\rBase}Baja
+Dialogue: 0,0:00:14.38,0:00:14.65,Base,,0,0,0,,{\rBase}del {\rBase}miometrio. {\rHot\frz-3\t(0,200,\frz3)}Baja
+Dialogue: 0,0:00:14.60,0:00:14.76,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}la {\rBase}isoforma {\rBase}PRB
+Dialogue: 0,0:00:14.76,0:00:15.34,Base,,0,0,0,,{\rBase}la {\rHot\frz-3\t(0,200,\frz3)}isoforma {\rBase}PRB
+Dialogue: 0,0:00:15.34,0:00:16.17,Base,,0,0,0,,{\rBase}la {\rBase}isoforma {\rHot\frz-3\t(0,200,\frz3)}PRB
+Dialogue: 0,0:00:16.12,0:00:16.72,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}y {\rBase}sube {\rBase}la
+Dialogue: 0,0:00:16.72,0:00:17.14,Base,,0,0,0,,{\rBase}y {\rHot\frz-3\t(0,200,\frz3)}sube {\rBase}la
+Dialogue: 0,0:00:17.14,0:00:17.37,Base,,0,0,0,,{\rBase}y {\rBase}sube {\rHot\frz-3\t(0,200,\frz3)}la
+Dialogue: 0,0:00:17.32,0:00:18.06,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}inhibitoria {\rBase}PRA. {\rBase}Suben
+Dialogue: 0,0:00:18.06,0:00:19.34,Base,,0,0,0,,{\rBase}inhibitoria {\rHot\frz-3\t(0,200,\frz3)}PRA. {\rBase}Suben
+Dialogue: 0,0:00:19.34,0:00:19.81,Base,,0,0,0,,{\rBase}inhibitoria {\rBase}PRA. {\rHot\frz-3\t(0,200,\frz3)}Suben
+Dialogue: 0,0:00:19.76,0:00:20.42,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}localmente {\rBase}estrógenos {\rBase}que
+Dialogue: 0,0:00:20.42,0:00:21.16,Base,,0,0,0,,{\rBase}localmente {\rHot\frz-3\t(0,200,\frz3)}estrógenos {\rBase}que
+Dialogue: 0,0:00:21.16,0:00:21.37,Base,,0,0,0,,{\rBase}localmente {\rBase}estrógenos {\rHot\frz-3\t(0,200,\frz3)}que
+Dialogue: 0,0:00:21.32,0:00:21.82,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}disparan {\rBase}gap {\rBase}junctions
+Dialogue: 0,0:00:21.82,0:00:22.10,Base,,0,0,0,,{\rBase}disparan {\rHot\frz-3\t(0,200,\frz3)}gap {\rBase}junctions
+Dialogue: 0,0:00:22.10,0:00:22.91,Base,,0,0,0,,{\rBase}disparan {\rBase}gap {\rHot\frz-3\t(0,200,\frz3)}junctions
+Dialogue: 0,0:00:22.86,0:00:23.38,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}con {\rBase}exina {\rBase}43
+Dialogue: 0,0:00:23.38,0:00:23.84,Base,,0,0,0,,{\rBase}con {\rHot\frz-3\t(0,200,\frz3)}exina {\rBase}43
+Dialogue: 0,0:00:23.84,0:00:24.43,Base,,0,0,0,,{\rBase}con {\rBase}exina {\rHot\frz-3\t(0,200,\frz3)}43
+Dialogue: 0,0:00:24.38,0:00:24.86,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}y {\rBase}receptores {\rBase}de
+Dialogue: 0,0:00:24.86,0:00:25.48,Base,,0,0,0,,{\rBase}y {\rHot\frz-3\t(0,200,\frz3)}receptores {\rBase}de
+Dialogue: 0,0:00:25.48,0:00:25.67,Base,,0,0,0,,{\rBase}y {\rBase}receptores {\rHot\frz-3\t(0,200,\frz3)}de
+Dialogue: 0,0:00:25.62,0:00:26.36,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}oxitocina {\rBase}y {\rBase}prostaglandinas
+Dialogue: 0,0:00:26.36,0:00:27.00,Base,,0,0,0,,{\rBase}oxitocina {\rHot\frz-3\t(0,200,\frz3)}y {\rBase}prostaglandinas
+Dialogue: 0,0:00:27.00,0:00:28.05,Base,,0,0,0,,{\rBase}oxitocina {\rBase}y {\rHot\frz-3\t(0,200,\frz3)}prostaglandinas
+Dialogue: 0,0:00:28.00,0:00:28.20,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}en {\rBase}membranas {\rBase}y
+Dialogue: 0,0:00:28.20,0:00:28.72,Base,,0,0,0,,{\rBase}en {\rHot\frz-3\t(0,200,\frz3)}membranas {\rBase}y
+Dialogue: 0,0:00:28.72,0:00:28.91,Base,,0,0,0,,{\rBase}en {\rBase}membranas {\rHot\frz-3\t(0,200,\frz3)}y
+Dialogue: 0,0:00:28.86,0:00:29.51,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}decidua.

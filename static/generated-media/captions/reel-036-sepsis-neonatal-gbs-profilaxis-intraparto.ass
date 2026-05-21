@@ -1,0 +1,78 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,88,&H00F4E000,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.30,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}El {\rBase}cribado {\rBase}universal
+Dialogue: 0,0:00:00.30,0:00:00.66,Base,,0,0,0,,{\rBase}El {\rHot\t(0,120,\fscx115\fscy115)}cribado {\rBase}universal
+Dialogue: 0,0:00:00.66,0:00:01.15,Base,,0,0,0,,{\rBase}El {\rBase}cribado {\rHot\t(0,120,\fscx115\fscy115)}universal
+Dialogue: 0,0:00:01.10,0:00:01.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}GBS {\rBase}a
+Dialogue: 0,0:00:01.34,0:00:01.96,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}GBS {\rBase}a
+Dialogue: 0,0:00:01.96,0:00:02.33,Base,,0,0,0,,{\rBase}de {\rBase}GBS {\rHot\t(0,120,\fscx115\fscy115)}a
+Dialogue: 0,0:00:02.28,0:00:02.40,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}las {\rBase}35 {\rBase}-37
+Dialogue: 0,0:00:02.40,0:00:03.04,Base,,0,0,0,,{\rBase}las {\rHot\t(0,120,\fscx115\fscy115)}35 {\rBase}-37
+Dialogue: 0,0:00:03.04,0:00:03.71,Base,,0,0,0,,{\rBase}las {\rBase}35 {\rHot\t(0,120,\fscx115\fscy115)}-37
+Dialogue: 0,0:00:03.66,0:00:04.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}semanas {\rBase}se {\rBase}implementa
+Dialogue: 0,0:00:04.32,0:00:04.88,Base,,0,0,0,,{\rBase}semanas {\rHot\t(0,120,\fscx115\fscy115)}se {\rBase}implementa
+Dialogue: 0,0:00:04.88,0:00:05.45,Base,,0,0,0,,{\rBase}semanas {\rBase}se {\rHot\t(0,120,\fscx115\fscy115)}implementa
+Dialogue: 0,0:00:05.40,0:00:05.50,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}muchos {\rBase}países,
+Dialogue: 0,0:00:05.50,0:00:05.78,Base,,0,0,0,,{\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}muchos {\rBase}países,
+Dialogue: 0,0:00:05.78,0:00:06.37,Base,,0,0,0,,{\rBase}en {\rBase}muchos {\rHot\t(0,120,\fscx115\fscy115)}países,
+Dialogue: 0,0:00:06.58,0:00:06.94,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}pero {\rBase}la {\rBase}ventana
+Dialogue: 0,0:00:06.94,0:00:07.08,Base,,0,0,0,,{\rBase}pero {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}ventana
+Dialogue: 0,0:00:07.08,0:00:07.53,Base,,0,0,0,,{\rBase}pero {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}ventana
+Dialogue: 0,0:00:07.48,0:00:07.86,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}mínima {\rBase}de {\rBase}4
+Dialogue: 0,0:00:07.86,0:00:08.00,Base,,0,0,0,,{\rBase}mínima {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}4
+Dialogue: 0,0:00:08.00,0:00:08.35,Base,,0,0,0,,{\rBase}mínima {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}4
+Dialogue: 0,0:00:08.30,0:00:08.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}horas {\rBase}de {\rBase}profilaxis
+Dialogue: 0,0:00:08.62,0:00:08.76,Base,,0,0,0,,{\rBase}horas {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}profilaxis
+Dialogue: 0,0:00:08.76,0:00:09.53,Base,,0,0,0,,{\rBase}horas {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}profilaxis
+Dialogue: 0,0:00:09.48,0:00:10.02,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}antes {\rBase}del {\rBase}parto
+Dialogue: 0,0:00:10.02,0:00:10.26,Base,,0,0,0,,{\rBase}antes {\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}parto
+Dialogue: 0,0:00:10.26,0:00:10.77,Base,,0,0,0,,{\rBase}antes {\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}parto
+Dialogue: 0,0:00:10.72,0:00:11.80,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}frecuentemente {\rBase}no {\rBase}se
+Dialogue: 0,0:00:11.80,0:00:11.96,Base,,0,0,0,,{\rBase}frecuentemente {\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}se
+Dialogue: 0,0:00:11.96,0:00:12.15,Base,,0,0,0,,{\rBase}frecuentemente {\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}se
+Dialogue: 0,0:00:12.10,0:00:12.40,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}logra {\rBase}en {\rBase}partos
+Dialogue: 0,0:00:12.40,0:00:12.52,Base,,0,0,0,,{\rBase}logra {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}partos
+Dialogue: 0,0:00:12.52,0:00:12.93,Base,,0,0,0,,{\rBase}logra {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}partos
+Dialogue: 0,0:00:12.88,0:00:13.68,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}rápidos. {\rBase}La {\rBase}administración
+Dialogue: 0,0:00:13.68,0:00:14.28,Base,,0,0,0,,{\rBase}rápidos. {\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}administración
+Dialogue: 0,0:00:14.28,0:00:15.01,Base,,0,0,0,,{\rBase}rápidos. {\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}administración
+Dialogue: 0,0:00:14.96,0:00:15.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}penicilina {\rBase}G
+Dialogue: 0,0:00:15.08,0:00:15.72,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}penicilina {\rBase}G
+Dialogue: 0,0:00:15.72,0:00:15.99,Base,,0,0,0,,{\rBase}de {\rBase}penicilina {\rHot\t(0,120,\fscx115\fscy115)}G
+Dialogue: 0,0:00:15.94,0:00:16.70,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}intravenosa {\rBase}al {\rBase}menos
+Dialogue: 0,0:00:16.70,0:00:17.02,Base,,0,0,0,,{\rBase}intravenosa {\rHot\t(0,120,\fscx115\fscy115)}al {\rBase}menos
+Dialogue: 0,0:00:17.02,0:00:17.27,Base,,0,0,0,,{\rBase}intravenosa {\rBase}al {\rHot\t(0,120,\fscx115\fscy115)}menos
+Dialogue: 0,0:00:17.22,0:00:17.52,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}4 {\rBase}horas {\rBase}antes
+Dialogue: 0,0:00:17.52,0:00:17.88,Base,,0,0,0,,{\rBase}4 {\rHot\t(0,120,\fscx115\fscy115)}horas {\rBase}antes
+Dialogue: 0,0:00:17.88,0:00:18.21,Base,,0,0,0,,{\rBase}4 {\rBase}horas {\rHot\t(0,120,\fscx115\fscy115)}antes
+Dialogue: 0,0:00:18.16,0:00:18.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}parto {\rBase}reduce
+Dialogue: 0,0:00:18.38,0:00:18.82,Base,,0,0,0,,{\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}parto {\rBase}reduce
+Dialogue: 0,0:00:18.82,0:00:19.41,Base,,0,0,0,,{\rBase}del {\rBase}parto {\rHot\t(0,120,\fscx115\fscy115)}reduce
+Dialogue: 0,0:00:19.36,0:00:19.54,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}transmisión {\rBase}vertical
+Dialogue: 0,0:00:19.54,0:00:20.02,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}transmisión {\rBase}vertical
+Dialogue: 0,0:00:20.02,0:00:20.45,Base,,0,0,0,,{\rBase}la {\rBase}transmisión {\rHot\t(0,120,\fscx115\fscy115)}vertical
+Dialogue: 0,0:00:20.40,0:00:20.66,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}Streptococcus {\rBase}agalactiae,
+Dialogue: 0,0:00:20.66,0:00:21.42,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}Streptococcus {\rBase}agalactiae,
+Dialogue: 0,0:00:21.42,0:00:22.39,Base,,0,0,0,,{\rBase}de {\rBase}Streptococcus {\rHot\t(0,120,\fscx115\fscy115)}agalactiae,
+Dialogue: 0,0:00:22.50,0:00:23.40,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}GBS {\rBase}y {\rBase}la
+Dialogue: 0,0:00:23.40,0:00:23.90,Base,,0,0,0,,{\rBase}GBS {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}la
+Dialogue: 0,0:00:23.90,0:00:24.11,Base,,0,0,0,,{\rBase}GBS {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:24.06,0:00:24.48,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}sepsis {\rBase}neonatal {\rBase}temprana
+Dialogue: 0,0:00:24.48,0:00:25.02,Base,,0,0,0,,{\rBase}sepsis {\rHot\t(0,120,\fscx115\fscy115)}neonatal {\rBase}temprana
+Dialogue: 0,0:00:25.02,0:00:25.79,Base,,0,0,0,,{\rBase}sepsis {\rBase}neonatal {\rHot\t(0,120,\fscx115\fscy115)}temprana
+Dialogue: 0,0:00:25.74,0:00:26.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}un {\rBase}80
+Dialogue: 0,0:00:26.08,0:00:26.24,Base,,0,0,0,,{\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}un {\rBase}80
+Dialogue: 0,0:00:26.24,0:00:26.71,Base,,0,0,0,,{\rBase}en {\rBase}un {\rHot\t(0,120,\fscx115\fscy115)}80
+Dialogue: 0,0:00:26.66,0:00:27.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}-86%. {\rBase}ciento.
+Dialogue: 0,0:00:27.64,0:00:27.85,Base,,0,0,0,,{\rBase}-86%. {\rHot\t(0,120,\fscx115\fscy115)}ciento.

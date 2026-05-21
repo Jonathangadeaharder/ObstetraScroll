@@ -1,0 +1,82 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Helvetica,60,&H00C8C8C8,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Helvetica,92,&H00FFFFFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.32,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}La {\rBase}beta {\rBase}-metasona
+Dialogue: 0,0:00:00.32,0:00:00.62,Base,,0,0,0,,{\rBase}La {\rHot\t(0,150,\fscx120\fscy120)}beta {\rBase}-metasona
+Dialogue: 0,0:00:00.62,0:00:01.23,Base,,0,0,0,,{\rBase}La {\rBase}beta {\rHot\t(0,150,\fscx120\fscy120)}-metasona
+Dialogue: 0,0:00:01.18,0:00:01.70,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}prenatal {\rBase}funciona {\rBase}en
+Dialogue: 0,0:00:01.70,0:00:02.14,Base,,0,0,0,,{\rBase}prenatal {\rHot\t(0,150,\fscx120\fscy120)}funciona {\rBase}en
+Dialogue: 0,0:00:02.14,0:00:02.35,Base,,0,0,0,,{\rBase}prenatal {\rBase}funciona {\rHot\t(0,150,\fscx120\fscy120)}en
+Dialogue: 0,0:00:02.30,0:00:02.58,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}horas {\rBase}porque {\rBase}acelera
+Dialogue: 0,0:00:02.58,0:00:03.00,Base,,0,0,0,,{\rBase}horas {\rHot\t(0,150,\fscx120\fscy120)}porque {\rBase}acelera
+Dialogue: 0,0:00:03.00,0:00:03.47,Base,,0,0,0,,{\rBase}horas {\rBase}porque {\rHot\t(0,150,\fscx120\fscy120)}acelera
+Dialogue: 0,0:00:03.42,0:00:03.54,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}la {\rBase}maduración {\rBase}de
+Dialogue: 0,0:00:03.54,0:00:04.06,Base,,0,0,0,,{\rBase}la {\rHot\t(0,150,\fscx120\fscy120)}maduración {\rBase}de
+Dialogue: 0,0:00:04.06,0:00:04.23,Base,,0,0,0,,{\rBase}la {\rBase}maduración {\rHot\t(0,150,\fscx120\fscy120)}de
+Dialogue: 0,0:00:04.18,0:00:04.74,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}neumocitos {\rBase}tipo {\rBase}segundo
+Dialogue: 0,0:00:04.74,0:00:05.02,Base,,0,0,0,,{\rBase}neumocitos {\rHot\t(0,150,\fscx120\fscy120)}tipo {\rBase}segundo
+Dialogue: 0,0:00:05.02,0:00:05.57,Base,,0,0,0,,{\rBase}neumocitos {\rBase}tipo {\rHot\t(0,150,\fscx120\fscy120)}segundo
+Dialogue: 0,0:00:05.52,0:00:06.82,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}preexistentes. {\rBase}No {\rBase}genera
+Dialogue: 0,0:00:06.82,0:00:07.30,Base,,0,0,0,,{\rBase}preexistentes. {\rHot\t(0,150,\fscx120\fscy120)}No {\rBase}genera
+Dialogue: 0,0:00:07.30,0:00:07.73,Base,,0,0,0,,{\rBase}preexistentes. {\rBase}No {\rHot\t(0,150,\fscx120\fscy120)}genera
+Dialogue: 0,0:00:07.68,0:00:08.22,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}neumocitos {\rBase}nuevos. {\rBase}El
+Dialogue: 0,0:00:08.22,0:00:09.06,Base,,0,0,0,,{\rBase}neumocitos {\rHot\t(0,150,\fscx120\fscy120)}nuevos. {\rBase}El
+Dialogue: 0,0:00:09.06,0:00:09.45,Base,,0,0,0,,{\rBase}neumocitos {\rBase}nuevos. {\rHot\t(0,150,\fscx120\fscy120)}El
+Dialogue: 0,0:00:09.40,0:00:10.28,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}surfactante, {\rBase}neumocitos {\rBase}tipo
+Dialogue: 0,0:00:10.28,0:00:11.16,Base,,0,0,0,,{\rBase}surfactante, {\rHot\t(0,150,\fscx120\fscy120)}neumocitos {\rBase}tipo
+Dialogue: 0,0:00:11.16,0:00:11.51,Base,,0,0,0,,{\rBase}surfactante, {\rBase}neumocitos {\rHot\t(0,150,\fscx120\fscy120)}tipo
+Dialogue: 0,0:00:11.46,0:00:11.98,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}segundo {\rBase}desde {\rBase}24
+Dialogue: 0,0:00:11.98,0:00:12.34,Base,,0,0,0,,{\rBase}segundo {\rHot\t(0,150,\fscx120\fscy120)}desde {\rBase}24
+Dialogue: 0,0:00:12.34,0:00:13.09,Base,,0,0,0,,{\rBase}segundo {\rBase}desde {\rHot\t(0,150,\fscx120\fscy120)}24
+Dialogue: 0,0:00:13.04,0:00:13.78,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}-25 {\rBase}semanas, {\rBase}reduce
+Dialogue: 0,0:00:13.78,0:00:14.68,Base,,0,0,0,,{\rBase}-25 {\rHot\t(0,150,\fscx120\fscy120)}semanas, {\rBase}reduce
+Dialogue: 0,0:00:14.68,0:00:15.37,Base,,0,0,0,,{\rBase}-25 {\rBase}semanas, {\rHot\t(0,150,\fscx120\fscy120)}reduce
+Dialogue: 0,0:00:15.32,0:00:15.52,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}la {\rBase}tensión {\rBase}superficial
+Dialogue: 0,0:00:15.52,0:00:15.92,Base,,0,0,0,,{\rBase}la {\rHot\t(0,150,\fscx120\fscy120)}tensión {\rBase}superficial
+Dialogue: 0,0:00:15.92,0:00:16.55,Base,,0,0,0,,{\rBase}la {\rBase}tensión {\rHot\t(0,150,\fscx120\fscy120)}superficial
+Dialogue: 0,0:00:16.50,0:00:17.58,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}alveolar. {\rBase}Por {\rBase}la
+Dialogue: 0,0:00:17.58,0:00:18.16,Base,,0,0,0,,{\rBase}alveolar. {\rHot\t(0,150,\fscx120\fscy120)}Por {\rBase}la
+Dialogue: 0,0:00:18.16,0:00:18.35,Base,,0,0,0,,{\rBase}alveolar. {\rBase}Por {\rHot\t(0,150,\fscx120\fscy120)}la
+Dialogue: 0,0:00:18.30,0:00:19.00,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}PLAS, {\rBase}P2TR, {\rBase}un
+Dialogue: 0,0:00:19.00,0:00:20.34,Base,,0,0,0,,{\rBase}PLAS, {\rHot\t(0,150,\fscx120\fscy120)}P2TR, {\rBase}un
+Dialogue: 0,0:00:20.34,0:00:20.63,Base,,0,0,0,,{\rBase}PLAS, {\rBase}P2TR, {\rHot\t(0,150,\fscx120\fscy120)}un
+Dialogue: 0,0:00:20.58,0:00:21.00,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}alvéolo {\rBase}pequeño {\rBase}sin
+Dialogue: 0,0:00:21.00,0:00:21.42,Base,,0,0,0,,{\rBase}alvéolo {\rHot\t(0,150,\fscx120\fscy120)}pequeño {\rBase}sin
+Dialogue: 0,0:00:21.42,0:00:21.75,Base,,0,0,0,,{\rBase}alvéolo {\rBase}pequeño {\rHot\t(0,150,\fscx120\fscy120)}sin
+Dialogue: 0,0:00:21.70,0:00:22.56,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}surfactante {\rBase}colapsa {\rBase}porque
+Dialogue: 0,0:00:22.56,0:00:23.14,Base,,0,0,0,,{\rBase}surfactante {\rHot\t(0,150,\fscx120\fscy120)}colapsa {\rBase}porque
+Dialogue: 0,0:00:23.14,0:00:23.53,Base,,0,0,0,,{\rBase}surfactante {\rBase}colapsa {\rHot\t(0,150,\fscx120\fscy120)}porque
+Dialogue: 0,0:00:23.48,0:00:23.72,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}T {\rBase}es {\rBase}alta
+Dialogue: 0,0:00:23.72,0:00:24.08,Base,,0,0,0,,{\rBase}T {\rHot\t(0,150,\fscx120\fscy120)}es {\rBase}alta
+Dialogue: 0,0:00:24.08,0:00:24.51,Base,,0,0,0,,{\rBase}T {\rBase}es {\rHot\t(0,150,\fscx120\fscy120)}alta
+Dialogue: 0,0:00:24.46,0:00:24.72,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}y {\rBase}R {\rBase}pequeño.
+Dialogue: 0,0:00:24.72,0:00:24.92,Base,,0,0,0,,{\rBase}y {\rHot\t(0,150,\fscx120\fscy120)}R {\rBase}pequeño.
+Dialogue: 0,0:00:24.92,0:00:25.47,Base,,0,0,0,,{\rBase}y {\rBase}R {\rHot\t(0,150,\fscx120\fscy120)}pequeño.
+Dialogue: 0,0:00:25.42,0:00:26.30,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}Sin {\rBase}surfactante, {\rBase}los
+Dialogue: 0,0:00:26.30,0:00:27.26,Base,,0,0,0,,{\rBase}Sin {\rHot\t(0,150,\fscx120\fscy120)}surfactante, {\rBase}los
+Dialogue: 0,0:00:27.26,0:00:27.39,Base,,0,0,0,,{\rBase}Sin {\rBase}surfactante, {\rHot\t(0,150,\fscx120\fscy120)}los
+Dialogue: 0,0:00:27.34,0:00:27.82,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}alveolos {\rBase}colapsan {\rBase}en
+Dialogue: 0,0:00:27.82,0:00:28.46,Base,,0,0,0,,{\rBase}alveolos {\rHot\t(0,150,\fscx120\fscy120)}colapsan {\rBase}en
+Dialogue: 0,0:00:28.46,0:00:28.67,Base,,0,0,0,,{\rBase}alveolos {\rBase}colapsan {\rHot\t(0,150,\fscx120\fscy120)}en
+Dialogue: 0,0:00:28.62,0:00:28.86,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}cada {\rBase}expiración {\rBase}a
+Dialogue: 0,0:00:28.86,0:00:29.54,Base,,0,0,0,,{\rBase}cada {\rHot\t(0,150,\fscx120\fscy120)}expiración {\rBase}a
+Dialogue: 0,0:00:29.54,0:00:29.87,Base,,0,0,0,,{\rBase}cada {\rBase}expiración {\rHot\t(0,150,\fscx120\fscy120)}a
+Dialogue: 0,0:00:29.82,0:00:31.06,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}telectasia. {\rBase}Cada {\rBase}inspiración
+Dialogue: 0,0:00:31.06,0:00:31.26,Base,,0,0,0,,{\rBase}telectasia. {\rHot\t(0,150,\fscx120\fscy120)}Cada {\rBase}inspiración
+Dialogue: 0,0:00:31.26,0:00:32.03,Base,,0,0,0,,{\rBase}telectasia. {\rBase}Cada {\rHot\t(0,150,\fscx120\fscy120)}inspiración
+Dialogue: 0,0:00:31.98,0:00:32.46,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}requiere {\rBase}presión {\rBase}enorme
+Dialogue: 0,0:00:32.46,0:00:32.88,Base,,0,0,0,,{\rBase}requiere {\rHot\t(0,150,\fscx120\fscy120)}presión {\rBase}enorme
+Dialogue: 0,0:00:32.88,0:00:33.33,Base,,0,0,0,,{\rBase}requiere {\rBase}presión {\rHot\t(0,150,\fscx120\fscy120)}enorme
+Dialogue: 0,0:00:33.28,0:00:33.56,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}y {\rBase}aparece {\rBase}SDR.
+Dialogue: 0,0:00:33.56,0:00:34.08,Base,,0,0,0,,{\rBase}y {\rHot\t(0,150,\fscx120\fscy120)}aparece {\rBase}SDR.
+Dialogue: 0,0:00:34.08,0:00:34.95,Base,,0,0,0,,{\rBase}y {\rBase}aparece {\rHot\t(0,150,\fscx120\fscy120)}SDR.

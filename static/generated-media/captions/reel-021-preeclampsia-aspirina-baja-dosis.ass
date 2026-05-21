@@ -1,0 +1,71 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Arial Black,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Arial Black,84,&H00FF3CFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.42,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}Muchos {\rBase}protocolos {\rBase}aún
+Dialogue: 0,0:00:00.42,0:00:00.92,Base,,0,0,0,,{\rBase}Muchos {\rHot\frz-3\t(0,200,\frz3)}protocolos {\rBase}aún
+Dialogue: 0,0:00:00.92,0:00:01.15,Base,,0,0,0,,{\rBase}Muchos {\rBase}protocolos {\rHot\frz-3\t(0,200,\frz3)}aún
+Dialogue: 0,0:00:01.10,0:00:01.40,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}usan {\rBase}100 {\rBase}miligrimers
+Dialogue: 0,0:00:01.40,0:00:01.74,Base,,0,0,0,,{\rBase}usan {\rHot\frz-3\t(0,200,\frz3)}100 {\rBase}miligrimers
+Dialogue: 0,0:00:01.74,0:00:02.59,Base,,0,0,0,,{\rBase}usan {\rBase}100 {\rHot\frz-3\t(0,200,\frz3)}miligrimers
+Dialogue: 0,0:00:02.54,0:00:02.76,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}o {\rBase}comienzan {\rBase}después
+Dialogue: 0,0:00:02.76,0:00:03.30,Base,,0,0,0,,{\rBase}o {\rHot\frz-3\t(0,200,\frz3)}comienzan {\rBase}después
+Dialogue: 0,0:00:03.30,0:00:03.67,Base,,0,0,0,,{\rBase}o {\rBase}comienzan {\rHot\frz-3\t(0,200,\frz3)}después
+Dialogue: 0,0:00:03.62,0:00:03.78,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}de {\rBase}las {\rBase}20
+Dialogue: 0,0:00:03.78,0:00:03.94,Base,,0,0,0,,{\rBase}de {\rHot\frz-3\t(0,200,\frz3)}las {\rBase}20
+Dialogue: 0,0:00:03.94,0:00:04.23,Base,,0,0,0,,{\rBase}de {\rBase}las {\rHot\frz-3\t(0,200,\frz3)}20
+Dialogue: 0,0:00:04.18,0:00:04.96,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}semanas, {\rBase}cuando {\rBase}la
+Dialogue: 0,0:00:04.96,0:00:05.44,Base,,0,0,0,,{\rBase}semanas, {\rHot\frz-3\t(0,200,\frz3)}cuando {\rBase}la
+Dialogue: 0,0:00:05.44,0:00:05.65,Base,,0,0,0,,{\rBase}semanas, {\rBase}cuando {\rHot\frz-3\t(0,200,\frz3)}la
+Dialogue: 0,0:00:05.60,0:00:06.00,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}ventana {\rBase}de {\rBase}prevención
+Dialogue: 0,0:00:06.00,0:00:06.12,Base,,0,0,0,,{\rBase}ventana {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}prevención
+Dialogue: 0,0:00:06.12,0:00:06.67,Base,,0,0,0,,{\rBase}ventana {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}prevención
+Dialogue: 0,0:00:06.62,0:00:07.42,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}placentaria {\rBase}ya {\rBase}se
+Dialogue: 0,0:00:07.42,0:00:07.88,Base,,0,0,0,,{\rBase}placentaria {\rHot\frz-3\t(0,200,\frz3)}ya {\rBase}se
+Dialogue: 0,0:00:07.88,0:00:08.09,Base,,0,0,0,,{\rBase}placentaria {\rBase}ya {\rHot\frz-3\t(0,200,\frz3)}se
+Dialogue: 0,0:00:08.04,0:00:08.40,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}cerró {\rBase}en {\rBase}gran
+Dialogue: 0,0:00:08.40,0:00:08.54,Base,,0,0,0,,{\rBase}cerró {\rHot\frz-3\t(0,200,\frz3)}en {\rBase}gran
+Dialogue: 0,0:00:08.54,0:00:08.79,Base,,0,0,0,,{\rBase}cerró {\rBase}en {\rHot\frz-3\t(0,200,\frz3)}gran
+Dialogue: 0,0:00:08.74,0:00:09.48,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}medida. {\rBase}La {\rBase}administración
+Dialogue: 0,0:00:09.48,0:00:09.96,Base,,0,0,0,,{\rBase}medida. {\rHot\frz-3\t(0,200,\frz3)}La {\rBase}administración
+Dialogue: 0,0:00:09.96,0:00:10.69,Base,,0,0,0,,{\rBase}medida. {\rBase}La {\rHot\frz-3\t(0,200,\frz3)}administración
+Dialogue: 0,0:00:10.64,0:00:10.76,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}de {\rBase}aspirina {\rBase}en
+Dialogue: 0,0:00:10.76,0:00:11.30,Base,,0,0,0,,{\rBase}de {\rHot\frz-3\t(0,200,\frz3)}aspirina {\rBase}en
+Dialogue: 0,0:00:11.30,0:00:11.55,Base,,0,0,0,,{\rBase}de {\rBase}aspirina {\rHot\frz-3\t(0,200,\frz3)}en
+Dialogue: 0,0:00:11.50,0:00:11.78,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}dosis {\rBase}de {\rBase}150
+Dialogue: 0,0:00:11.78,0:00:11.90,Base,,0,0,0,,{\rBase}dosis {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}150
+Dialogue: 0,0:00:11.90,0:00:12.67,Base,,0,0,0,,{\rBase}dosis {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}150
+Dialogue: 0,0:00:12.62,0:00:13.58,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}miligrimers {\rBase}diarios {\rBase}desde
+Dialogue: 0,0:00:13.58,0:00:14.06,Base,,0,0,0,,{\rBase}miligrimers {\rHot\frz-3\t(0,200,\frz3)}diarios {\rBase}desde
+Dialogue: 0,0:00:14.06,0:00:14.71,Base,,0,0,0,,{\rBase}miligrimers {\rBase}diarios {\rHot\frz-3\t(0,200,\frz3)}desde
+Dialogue: 0,0:00:14.66,0:00:14.92,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}antes {\rBase}de {\rBase}las
+Dialogue: 0,0:00:14.92,0:00:15.06,Base,,0,0,0,,{\rBase}antes {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}las
+Dialogue: 0,0:00:15.06,0:00:15.27,Base,,0,0,0,,{\rBase}antes {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}las
+Dialogue: 0,0:00:15.22,0:00:15.62,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}16 {\rBase}semanas {\rBase}de
+Dialogue: 0,0:00:15.62,0:00:16.06,Base,,0,0,0,,{\rBase}16 {\rHot\frz-3\t(0,200,\frz3)}semanas {\rBase}de
+Dialogue: 0,0:00:16.06,0:00:16.27,Base,,0,0,0,,{\rBase}16 {\rBase}semanas {\rHot\frz-3\t(0,200,\frz3)}de
+Dialogue: 0,0:00:16.22,0:00:16.88,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}gestación {\rBase}reduce {\rBase}la
+Dialogue: 0,0:00:16.88,0:00:17.64,Base,,0,0,0,,{\rBase}gestación {\rHot\frz-3\t(0,200,\frz3)}reduce {\rBase}la
+Dialogue: 0,0:00:17.64,0:00:17.93,Base,,0,0,0,,{\rBase}gestación {\rBase}reduce {\rHot\frz-3\t(0,200,\frz3)}la
+Dialogue: 0,0:00:17.88,0:00:18.42,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}incidencia {\rBase}de {\rBase}preclamcia
+Dialogue: 0,0:00:18.42,0:00:18.54,Base,,0,0,0,,{\rBase}incidencia {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}preclamcia
+Dialogue: 0,0:00:18.54,0:00:19.21,Base,,0,0,0,,{\rBase}incidencia {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}preclamcia
+Dialogue: 0,0:00:19.16,0:00:20.08,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}pretérmino {\rBase}en {\rBase}un
+Dialogue: 0,0:00:20.08,0:00:20.42,Base,,0,0,0,,{\rBase}pretérmino {\rHot\frz-3\t(0,200,\frz3)}en {\rBase}un
+Dialogue: 0,0:00:20.42,0:00:20.57,Base,,0,0,0,,{\rBase}pretérmino {\rBase}en {\rHot\frz-3\t(0,200,\frz3)}un
+Dialogue: 0,0:00:20.52,0:00:21.02,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}62 {\rBase}% {\rBase}en
+Dialogue: 0,0:00:21.02,0:00:21.44,Base,,0,0,0,,{\rBase}62 {\rHot\frz-3\t(0,200,\frz3)}% {\rBase}en
+Dialogue: 0,0:00:21.44,0:00:21.91,Base,,0,0,0,,{\rBase}62 {\rBase}% {\rHot\frz-3\t(0,200,\frz3)}en
+Dialogue: 0,0:00:21.86,0:00:22.34,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}gestantes {\rBase}de {\rBase}alto
+Dialogue: 0,0:00:22.34,0:00:22.48,Base,,0,0,0,,{\rBase}gestantes {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}alto
+Dialogue: 0,0:00:22.48,0:00:22.71,Base,,0,0,0,,{\rBase}gestantes {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}alto
+Dialogue: 0,0:00:22.66,0:00:23.23,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}riesgo.

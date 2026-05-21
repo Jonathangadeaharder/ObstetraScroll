@@ -1,0 +1,94 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Arial Black,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Arial Black,84,&H00FF3CFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}Por {\rBase}eso {\rBase}cesárea
+Dialogue: 0,0:00:00.26,0:00:00.46,Base,,0,0,0,,{\rBase}Por {\rHot\frz-3\t(0,200,\frz3)}eso {\rBase}cesárea
+Dialogue: 0,0:00:00.46,0:00:00.97,Base,,0,0,0,,{\rBase}Por {\rBase}eso {\rHot\frz-3\t(0,200,\frz3)}cesárea
+Dialogue: 0,0:00:00.92,0:00:01.52,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}electiva {\rBase}antes {\rBase}de
+Dialogue: 0,0:00:01.52,0:00:01.90,Base,,0,0,0,,{\rBase}electiva {\rHot\frz-3\t(0,200,\frz3)}antes {\rBase}de
+Dialogue: 0,0:00:01.90,0:00:02.13,Base,,0,0,0,,{\rBase}electiva {\rBase}antes {\rHot\frz-3\t(0,200,\frz3)}de
+Dialogue: 0,0:00:02.08,0:00:02.20,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}la {\rBase}semana {\rBase}39
+Dialogue: 0,0:00:02.20,0:00:02.50,Base,,0,0,0,,{\rBase}la {\rHot\frz-3\t(0,200,\frz3)}semana {\rBase}39
+Dialogue: 0,0:00:02.50,0:00:03.13,Base,,0,0,0,,{\rBase}la {\rBase}semana {\rHot\frz-3\t(0,200,\frz3)}39
+Dialogue: 0,0:00:03.08,0:00:04.20,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}multiplica {\rBase}el {\rBase}riesgo
+Dialogue: 0,0:00:04.20,0:00:04.32,Base,,0,0,0,,{\rBase}multiplica {\rHot\frz-3\t(0,200,\frz3)}el {\rBase}riesgo
+Dialogue: 0,0:00:04.32,0:00:04.65,Base,,0,0,0,,{\rBase}multiplica {\rBase}el {\rHot\frz-3\t(0,200,\frz3)}riesgo
+Dialogue: 0,0:00:04.60,0:00:04.76,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}de {\rBase}TTN, {\rBase}no
+Dialogue: 0,0:00:04.76,0:00:05.56,Base,,0,0,0,,{\rBase}de {\rHot\frz-3\t(0,200,\frz3)}TTN, {\rBase}no
+Dialogue: 0,0:00:05.56,0:00:05.95,Base,,0,0,0,,{\rBase}de {\rBase}TTN, {\rHot\frz-3\t(0,200,\frz3)}no
+Dialogue: 0,0:00:05.90,0:00:06.10,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}por {\rBase}la {\rBase}cirugía,
+Dialogue: 0,0:00:06.10,0:00:06.20,Base,,0,0,0,,{\rBase}por {\rHot\frz-3\t(0,200,\frz3)}la {\rBase}cirugía,
+Dialogue: 0,0:00:06.20,0:00:06.85,Base,,0,0,0,,{\rBase}por {\rBase}la {\rHot\frz-3\t(0,200,\frz3)}cirugía,
+Dialogue: 0,0:00:06.96,0:00:07.22,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}sino {\rBase}por {\rBase}la
+Dialogue: 0,0:00:07.22,0:00:07.42,Base,,0,0,0,,{\rBase}sino {\rHot\frz-3\t(0,200,\frz3)}por {\rBase}la
+Dialogue: 0,0:00:07.42,0:00:07.57,Base,,0,0,0,,{\rBase}sino {\rBase}por {\rHot\frz-3\t(0,200,\frz3)}la
+Dialogue: 0,0:00:07.52,0:00:07.96,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}ausencia {\rBase}del {\rBase}estímulo
+Dialogue: 0,0:00:07.96,0:00:08.16,Base,,0,0,0,,{\rBase}ausencia {\rHot\frz-3\t(0,200,\frz3)}del {\rBase}estímulo
+Dialogue: 0,0:00:08.16,0:00:08.67,Base,,0,0,0,,{\rBase}ausencia {\rBase}del {\rHot\frz-3\t(0,200,\frz3)}estímulo
+Dialogue: 0,0:00:08.62,0:00:09.18,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}hormonal {\rBase}del {\rBase}trabajo
+Dialogue: 0,0:00:09.18,0:00:09.38,Base,,0,0,0,,{\rBase}hormonal {\rHot\frz-3\t(0,200,\frz3)}del {\rBase}trabajo
+Dialogue: 0,0:00:09.38,0:00:09.81,Base,,0,0,0,,{\rBase}hormonal {\rBase}del {\rHot\frz-3\t(0,200,\frz3)}trabajo
+Dialogue: 0,0:00:09.76,0:00:09.98,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}de {\rBase}parto. {\rBase}La
+Dialogue: 0,0:00:09.98,0:00:10.66,Base,,0,0,0,,{\rBase}de {\rHot\frz-3\t(0,200,\frz3)}parto. {\rBase}La
+Dialogue: 0,0:00:10.66,0:00:11.15,Base,,0,0,0,,{\rBase}de {\rBase}parto. {\rHot\frz-3\t(0,200,\frz3)}La
+Dialogue: 0,0:00:11.10,0:00:11.74,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}TTN {\rBase}se {\rBase}debe
+Dialogue: 0,0:00:11.74,0:00:12.32,Base,,0,0,0,,{\rBase}TTN {\rHot\frz-3\t(0,200,\frz3)}se {\rBase}debe
+Dialogue: 0,0:00:12.32,0:00:12.57,Base,,0,0,0,,{\rBase}TTN {\rBase}se {\rHot\frz-3\t(0,200,\frz3)}debe
+Dialogue: 0,0:00:12.52,0:00:12.70,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}a {\rBase}reabsorción {\rBase}tardía
+Dialogue: 0,0:00:12.70,0:00:13.40,Base,,0,0,0,,{\rBase}a {\rHot\frz-3\t(0,200,\frz3)}reabsorción {\rBase}tardía
+Dialogue: 0,0:00:13.40,0:00:13.93,Base,,0,0,0,,{\rBase}a {\rBase}reabsorción {\rHot\frz-3\t(0,200,\frz3)}tardía
+Dialogue: 0,0:00:13.88,0:00:14.08,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}del {\rBase}líquido {\rBase}pulmonar
+Dialogue: 0,0:00:14.08,0:00:14.48,Base,,0,0,0,,{\rBase}del {\rHot\frz-3\t(0,200,\frz3)}líquido {\rBase}pulmonar
+Dialogue: 0,0:00:14.48,0:00:15.01,Base,,0,0,0,,{\rBase}del {\rBase}líquido {\rHot\frz-3\t(0,200,\frz3)}pulmonar
+Dialogue: 0,0:00:14.96,0:00:15.62,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}fetal, {\rBase}periparto, {\rBase}el
+Dialogue: 0,0:00:15.62,0:00:16.58,Base,,0,0,0,,{\rBase}fetal, {\rHot\frz-3\t(0,200,\frz3)}periparto, {\rBase}el
+Dialogue: 0,0:00:16.58,0:00:16.85,Base,,0,0,0,,{\rBase}fetal, {\rBase}periparto, {\rHot\frz-3\t(0,200,\frz3)}el
+Dialogue: 0,0:00:16.80,0:00:17.26,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}epitelio {\rBase}pulmonar, {\rBase}con
+Dialogue: 0,0:00:17.26,0:00:18.02,Base,,0,0,0,,{\rBase}epitelio {\rHot\frz-3\t(0,200,\frz3)}pulmonar, {\rBase}con
+Dialogue: 0,0:00:18.02,0:00:18.57,Base,,0,0,0,,{\rBase}epitelio {\rBase}pulmonar, {\rHot\frz-3\t(0,200,\frz3)}con
+Dialogue: 0,0:00:18.52,0:00:18.88,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}muta {\rBase}de {\rBase}secreción
+Dialogue: 0,0:00:18.88,0:00:19.02,Base,,0,0,0,,{\rBase}muta {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}secreción
+Dialogue: 0,0:00:19.02,0:00:19.57,Base,,0,0,0,,{\rBase}muta {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}secreción
+Dialogue: 0,0:00:19.52,0:00:19.94,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}activa {\rBase}de {\rBase}CL
+Dialogue: 0,0:00:19.94,0:00:20.06,Base,,0,0,0,,{\rBase}activa {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}CL
+Dialogue: 0,0:00:20.06,0:00:20.51,Base,,0,0,0,,{\rBase}activa {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}CL
+Dialogue: 0,0:00:20.46,0:00:20.84,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}a {\rBase}reabsorción {\rBase}de
+Dialogue: 0,0:00:20.84,0:00:21.46,Base,,0,0,0,,{\rBase}a {\rHot\frz-3\t(0,200,\frz3)}reabsorción {\rBase}de
+Dialogue: 0,0:00:21.46,0:00:21.63,Base,,0,0,0,,{\rBase}a {\rBase}reabsorción {\rHot\frz-3\t(0,200,\frz3)}de
+Dialogue: 0,0:00:21.58,0:00:22.04,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}Naplas {\rBase}vía {\rBase}canales
+Dialogue: 0,0:00:22.04,0:00:22.40,Base,,0,0,0,,{\rBase}Naplas {\rHot\frz-3\t(0,200,\frz3)}vía {\rBase}canales
+Dialogue: 0,0:00:22.40,0:00:23.05,Base,,0,0,0,,{\rBase}Naplas {\rBase}vía {\rHot\frz-3\t(0,200,\frz3)}canales
+Dialogue: 0,0:00:23.00,0:00:24.36,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}ENEACE, {\rBase}estimulada {\rBase}por
+Dialogue: 0,0:00:24.36,0:00:24.96,Base,,0,0,0,,{\rBase}ENEACE, {\rHot\frz-3\t(0,200,\frz3)}estimulada {\rBase}por
+Dialogue: 0,0:00:24.96,0:00:25.19,Base,,0,0,0,,{\rBase}ENEACE, {\rBase}estimulada {\rHot\frz-3\t(0,200,\frz3)}por
+Dialogue: 0,0:00:25.14,0:00:25.82,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}adrenalina {\rBase}y {\rBase}cortisol
+Dialogue: 0,0:00:25.82,0:00:25.94,Base,,0,0,0,,{\rBase}adrenalina {\rHot\frz-3\t(0,200,\frz3)}y {\rBase}cortisol
+Dialogue: 0,0:00:25.94,0:00:26.43,Base,,0,0,0,,{\rBase}adrenalina {\rBase}y {\rHot\frz-3\t(0,200,\frz3)}cortisol
+Dialogue: 0,0:00:26.38,0:00:26.64,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}del {\rBase}parto. {\rBase}Sin
+Dialogue: 0,0:00:26.64,0:00:27.14,Base,,0,0,0,,{\rBase}del {\rHot\frz-3\t(0,200,\frz3)}parto. {\rBase}Sin
+Dialogue: 0,0:00:27.14,0:00:28.29,Base,,0,0,0,,{\rBase}del {\rBase}parto. {\rHot\frz-3\t(0,200,\frz3)}Sin
+Dialogue: 0,0:00:28.24,0:00:28.48,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}estos {\rBase}estímulos, {\rBase}cesárea
+Dialogue: 0,0:00:28.48,0:00:29.52,Base,,0,0,0,,{\rBase}estos {\rHot\frz-3\t(0,200,\frz3)}estímulos, {\rBase}cesárea
+Dialogue: 0,0:00:29.52,0:00:30.09,Base,,0,0,0,,{\rBase}estos {\rBase}estímulos, {\rHot\frz-3\t(0,200,\frz3)}cesárea
+Dialogue: 0,0:00:30.04,0:00:30.62,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}electiva {\rBase}sin {\rBase}trabajo
+Dialogue: 0,0:00:30.62,0:00:30.84,Base,,0,0,0,,{\rBase}electiva {\rHot\frz-3\t(0,200,\frz3)}sin {\rBase}trabajo
+Dialogue: 0,0:00:30.84,0:00:31.33,Base,,0,0,0,,{\rBase}electiva {\rBase}sin {\rHot\frz-3\t(0,200,\frz3)}trabajo
+Dialogue: 0,0:00:31.28,0:00:31.50,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}de {\rBase}parto, {\rBase}prematuridad,
+Dialogue: 0,0:00:31.50,0:00:32.12,Base,,0,0,0,,{\rBase}de {\rHot\frz-3\t(0,200,\frz3)}parto, {\rBase}prematuridad,
+Dialogue: 0,0:00:32.12,0:00:32.89,Base,,0,0,0,,{\rBase}de {\rBase}parto, {\rHot\frz-3\t(0,200,\frz3)}prematuridad,
+Dialogue: 0,0:00:33.34,0:00:33.52,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}el {\rBase}líquido {\rBase}queda
+Dialogue: 0,0:00:33.52,0:00:33.96,Base,,0,0,0,,{\rBase}el {\rHot\frz-3\t(0,200,\frz3)}líquido {\rBase}queda
+Dialogue: 0,0:00:33.96,0:00:34.43,Base,,0,0,0,,{\rBase}el {\rBase}líquido {\rHot\frz-3\t(0,200,\frz3)}queda
+Dialogue: 0,0:00:34.38,0:00:34.60,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}en {\rBase}el {\rBase}intersticio
+Dialogue: 0,0:00:34.60,0:00:34.74,Base,,0,0,0,,{\rBase}en {\rHot\frz-3\t(0,200,\frz3)}el {\rBase}intersticio
+Dialogue: 0,0:00:34.74,0:00:35.67,Base,,0,0,0,,{\rBase}en {\rBase}el {\rHot\frz-3\t(0,200,\frz3)}intersticio

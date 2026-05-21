@@ -1,0 +1,68 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H003C3CE6,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Por {\rBase}eso {\rBase}una
+Dialogue: 0,0:00:00.26,0:00:00.40,Base,,0,0,0,,{\rBase}Por {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}eso {\rBase}una
+Dialogue: 0,0:00:00.40,0:00:00.61,Base,,0,0,0,,{\rBase}Por {\rBase}eso {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}una
+Dialogue: 0,0:00:00.56,0:00:00.86,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}segunda {\rBase}fase {\rBase}del
+Dialogue: 0,0:00:00.86,0:00:01.16,Base,,0,0,0,,{\rBase}segunda {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}fase {\rBase}del
+Dialogue: 0,0:00:01.16,0:00:01.41,Base,,0,0,0,,{\rBase}segunda {\rBase}fase {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}del
+Dialogue: 0,0:00:01.36,0:00:01.72,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}parto {\rBase}es {\rBase}siempre
+Dialogue: 0,0:00:01.72,0:00:01.84,Base,,0,0,0,,{\rBase}parto {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}es {\rBase}siempre
+Dialogue: 0,0:00:01.84,0:00:02.25,Base,,0,0,0,,{\rBase}parto {\rBase}es {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}siempre
+Dialogue: 0,0:00:02.20,0:00:02.42,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}más {\rBase}eficiente. {\rBase}El
+Dialogue: 0,0:00:02.42,0:00:03.38,Base,,0,0,0,,{\rBase}más {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}eficiente. {\rBase}El
+Dialogue: 0,0:00:03.38,0:00:03.89,Base,,0,0,0,,{\rBase}más {\rBase}eficiente. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El
+Dialogue: 0,0:00:03.84,0:00:04.28,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}músculo {\rBase}acumula {\rBase}trabajo,
+Dialogue: 0,0:00:04.28,0:00:04.74,Base,,0,0,0,,{\rBase}músculo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}acumula {\rBase}trabajo,
+Dialogue: 0,0:00:04.74,0:00:05.29,Base,,0,0,0,,{\rBase}músculo {\rBase}acumula {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}trabajo,
+Dialogue: 0,0:00:05.52,0:00:05.82,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}no {\rBase}se {\rBase}reinicia.
+Dialogue: 0,0:00:05.82,0:00:05.96,Base,,0,0,0,,{\rBase}no {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}se {\rBase}reinicia.
+Dialogue: 0,0:00:05.96,0:00:06.61,Base,,0,0,0,,{\rBase}no {\rBase}se {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}reinicia.
+Dialogue: 0,0:00:06.90,0:00:07.50,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Durante {\rBase}la {\rBase}contracción
+Dialogue: 0,0:00:07.50,0:00:07.64,Base,,0,0,0,,{\rBase}Durante {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}contracción
+Dialogue: 0,0:00:07.64,0:00:08.19,Base,,0,0,0,,{\rBase}Durante {\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}contracción
+Dialogue: 0,0:00:08.14,0:00:08.32,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}las {\rBase}células {\rBase}se
+Dialogue: 0,0:00:08.32,0:00:08.64,Base,,0,0,0,,{\rBase}las {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}células {\rBase}se
+Dialogue: 0,0:00:08.64,0:00:08.91,Base,,0,0,0,,{\rBase}las {\rBase}células {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}se
+Dialogue: 0,0:00:08.86,0:00:09.60,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}acortan. {\rBase}Al {\rBase}relajarse
+Dialogue: 0,0:00:09.60,0:00:09.84,Base,,0,0,0,,{\rBase}acortan. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Al {\rBase}relajarse
+Dialogue: 0,0:00:09.84,0:00:10.47,Base,,0,0,0,,{\rBase}acortan. {\rBase}Al {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}relajarse
+Dialogue: 0,0:00:10.42,0:00:10.68,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}no {\rBase}vuelven {\rBase}a
+Dialogue: 0,0:00:10.68,0:00:11.12,Base,,0,0,0,,{\rBase}no {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}vuelven {\rBase}a
+Dialogue: 0,0:00:11.12,0:00:11.27,Base,,0,0,0,,{\rBase}no {\rBase}vuelven {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}a
+Dialogue: 0,0:00:11.22,0:00:11.34,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}su {\rBase}longitud {\rBase}previa,
+Dialogue: 0,0:00:11.34,0:00:11.70,Base,,0,0,0,,{\rBase}su {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}longitud {\rBase}previa,
+Dialogue: 0,0:00:11.70,0:00:12.35,Base,,0,0,0,,{\rBase}su {\rBase}longitud {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}previa,
+Dialogue: 0,0:00:12.52,0:00:12.94,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}quedan {\rBase}acortadas. {\rBase}Es
+Dialogue: 0,0:00:12.94,0:00:13.92,Base,,0,0,0,,{\rBase}quedan {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}acortadas. {\rBase}Es
+Dialogue: 0,0:00:13.92,0:00:14.37,Base,,0,0,0,,{\rBase}quedan {\rBase}acortadas. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Es
+Dialogue: 0,0:00:14.32,0:00:14.50,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}retracción. {\rBase}La
+Dialogue: 0,0:00:14.50,0:00:15.50,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}retracción. {\rBase}La
+Dialogue: 0,0:00:15.50,0:00:15.85,Base,,0,0,0,,{\rBase}la {\rBase}retracción. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La
+Dialogue: 0,0:00:15.80,0:00:16.08,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}fibra {\rBase}acumulada {\rBase}sube
+Dialogue: 0,0:00:16.08,0:00:16.66,Base,,0,0,0,,{\rBase}fibra {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}acumulada {\rBase}sube
+Dialogue: 0,0:00:16.66,0:00:17.11,Base,,0,0,0,,{\rBase}fibra {\rBase}acumulada {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sube
+Dialogue: 0,0:00:17.06,0:00:17.18,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}disminuye {\rBase}el
+Dialogue: 0,0:00:17.18,0:00:17.76,Base,,0,0,0,,{\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}disminuye {\rBase}el
+Dialogue: 0,0:00:17.76,0:00:18.05,Base,,0,0,0,,{\rBase}y {\rBase}disminuye {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el
+Dialogue: 0,0:00:18.00,0:00:18.30,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}lumen {\rBase}uterino, {\rBase}jalando
+Dialogue: 0,0:00:18.30,0:00:19.04,Base,,0,0,0,,{\rBase}lumen {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}uterino, {\rBase}jalando
+Dialogue: 0,0:00:19.04,0:00:19.69,Base,,0,0,0,,{\rBase}lumen {\rBase}uterino, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}jalando
+Dialogue: 0,0:00:19.64,0:00:20.20,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}segmento {\rBase}inferior {\rBase}y
+Dialogue: 0,0:00:20.20,0:00:20.54,Base,,0,0,0,,{\rBase}segmento {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}inferior {\rBase}y
+Dialogue: 0,0:00:20.54,0:00:20.97,Base,,0,0,0,,{\rBase}segmento {\rBase}inferior {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y
+Dialogue: 0,0:00:20.92,0:00:21.22,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cuello {\rBase}sobre {\rBase}el
+Dialogue: 0,0:00:21.22,0:00:21.50,Base,,0,0,0,,{\rBase}cuello {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sobre {\rBase}el
+Dialogue: 0,0:00:21.50,0:00:21.77,Base,,0,0,0,,{\rBase}cuello {\rBase}sobre {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el
+Dialogue: 0,0:00:21.72,0:00:22.19,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}feto.

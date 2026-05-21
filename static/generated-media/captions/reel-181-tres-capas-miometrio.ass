@@ -1,0 +1,73 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Arial Black,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Arial Black,84,&H00FF3CFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.32,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}Una {\rBase}lesión {\rBase}solo
+Dialogue: 0,0:00:00.32,0:00:00.64,Base,,0,0,0,,{\rBase}Una {\rHot\frz-3\t(0,200,\frz3)}lesión {\rBase}solo
+Dialogue: 0,0:00:00.64,0:00:00.93,Base,,0,0,0,,{\rBase}Una {\rBase}lesión {\rHot\frz-3\t(0,200,\frz3)}solo
+Dialogue: 0,0:00:00.88,0:00:01.06,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}del {\rBase}estrato {\rBase}vascular
+Dialogue: 0,0:00:01.06,0:00:01.44,Base,,0,0,0,,{\rBase}del {\rHot\frz-3\t(0,200,\frz3)}estrato {\rBase}vascular
+Dialogue: 0,0:00:01.44,0:00:01.89,Base,,0,0,0,,{\rBase}del {\rBase}estrato {\rHot\frz-3\t(0,200,\frz3)}vascular
+Dialogue: 0,0:00:01.84,0:00:02.16,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}ya {\rBase}basta {\rBase}para
+Dialogue: 0,0:00:02.16,0:00:02.44,Base,,0,0,0,,{\rBase}ya {\rHot\frz-3\t(0,200,\frz3)}basta {\rBase}para
+Dialogue: 0,0:00:02.44,0:00:02.69,Base,,0,0,0,,{\rBase}ya {\rBase}basta {\rHot\frz-3\t(0,200,\frz3)}para
+Dialogue: 0,0:00:02.64,0:00:03.08,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}impedir {\rBase}hemostasia {\rBase}posparto.
+Dialogue: 0,0:00:03.08,0:00:03.68,Base,,0,0,0,,{\rBase}impedir {\rHot\frz-3\t(0,200,\frz3)}hemostasia {\rBase}posparto.
+Dialogue: 0,0:00:03.68,0:00:04.43,Base,,0,0,0,,{\rBase}impedir {\rBase}hemostasia {\rHot\frz-3\t(0,200,\frz3)}posparto.
+Dialogue: 0,0:00:04.76,0:00:05.18,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}Por {\rBase}eso {\rBase}el
+Dialogue: 0,0:00:05.18,0:00:05.32,Base,,0,0,0,,{\rBase}Por {\rHot\frz-3\t(0,200,\frz3)}eso {\rBase}el
+Dialogue: 0,0:00:05.32,0:00:05.53,Base,,0,0,0,,{\rBase}Por {\rBase}eso {\rHot\frz-3\t(0,200,\frz3)}el
+Dialogue: 0,0:00:05.48,0:00:05.86,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}masaje {\rBase}bimanual {\rBase}es
+Dialogue: 0,0:00:05.86,0:00:06.40,Base,,0,0,0,,{\rBase}masaje {\rHot\frz-3\t(0,200,\frz3)}bimanual {\rBase}es
+Dialogue: 0,0:00:06.40,0:00:06.75,Base,,0,0,0,,{\rBase}masaje {\rBase}bimanual {\rHot\frz-3\t(0,200,\frz3)}es
+Dialogue: 0,0:00:06.70,0:00:06.80,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}a {\rBase}través {\rBase}del
+Dialogue: 0,0:00:06.80,0:00:07.02,Base,,0,0,0,,{\rBase}a {\rHot\frz-3\t(0,200,\frz3)}través {\rBase}del
+Dialogue: 0,0:00:07.02,0:00:07.27,Base,,0,0,0,,{\rBase}a {\rBase}través {\rHot\frz-3\t(0,200,\frz3)}del
+Dialogue: 0,0:00:07.22,0:00:07.84,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}fondo, {\rBase}no {\rBase}del
+Dialogue: 0,0:00:07.84,0:00:08.06,Base,,0,0,0,,{\rBase}fondo, {\rHot\frz-3\t(0,200,\frz3)}no {\rBase}del
+Dialogue: 0,0:00:08.06,0:00:08.29,Base,,0,0,0,,{\rBase}fondo, {\rBase}no {\rHot\frz-3\t(0,200,\frz3)}del
+Dialogue: 0,0:00:08.24,0:00:09.66,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}cuello. {\rBase}Estrato {\rBase}supravascular
+Dialogue: 0,0:00:09.66,0:00:10.24,Base,,0,0,0,,{\rBase}cuello. {\rHot\frz-3\t(0,200,\frz3)}Estrato {\rBase}supravascular
+Dialogue: 0,0:00:10.24,0:00:11.23,Base,,0,0,0,,{\rBase}cuello. {\rBase}Estrato {\rHot\frz-3\t(0,200,\frz3)}supravascular
+Dialogue: 0,0:00:11.18,0:00:12.24,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}externo. {\rBase}Fibras {\rBase}longitudinales
+Dialogue: 0,0:00:12.24,0:00:12.82,Base,,0,0,0,,{\rBase}externo. {\rHot\frz-3\t(0,200,\frz3)}Fibras {\rBase}longitudinales
+Dialogue: 0,0:00:12.82,0:00:13.93,Base,,0,0,0,,{\rBase}externo. {\rBase}Fibras {\rHot\frz-3\t(0,200,\frz3)}longitudinales
+Dialogue: 0,0:00:13.88,0:00:14.62,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}acortan {\rBase}el {\rBase}útero.
+Dialogue: 0,0:00:14.62,0:00:14.76,Base,,0,0,0,,{\rBase}acortan {\rHot\frz-3\t(0,200,\frz3)}el {\rBase}útero.
+Dialogue: 0,0:00:14.76,0:00:15.21,Base,,0,0,0,,{\rBase}acortan {\rBase}el {\rHot\frz-3\t(0,200,\frz3)}útero.
+Dialogue: 0,0:00:15.88,0:00:16.32,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}Estrato {\rBase}vascular {\rBase}medio.
+Dialogue: 0,0:00:16.32,0:00:16.80,Base,,0,0,0,,{\rBase}Estrato {\rHot\frz-3\t(0,200,\frz3)}vascular {\rBase}medio.
+Dialogue: 0,0:00:16.80,0:00:17.41,Base,,0,0,0,,{\rBase}Estrato {\rBase}vascular {\rHot\frz-3\t(0,200,\frz3)}medio.
+Dialogue: 0,0:00:18.02,0:00:18.42,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}Fibras {\rBase}espirales {\rBase}entrelazadas
+Dialogue: 0,0:00:18.42,0:00:18.96,Base,,0,0,0,,{\rBase}Fibras {\rHot\frz-3\t(0,200,\frz3)}espirales {\rBase}entrelazadas
+Dialogue: 0,0:00:18.96,0:00:19.71,Base,,0,0,0,,{\rBase}Fibras {\rBase}espirales {\rHot\frz-3\t(0,200,\frz3)}entrelazadas
+Dialogue: 0,0:00:19.66,0:00:19.90,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}con {\rBase}vasos. {\rBase}Principal
+Dialogue: 0,0:00:19.90,0:00:20.60,Base,,0,0,0,,{\rBase}con {\rHot\frz-3\t(0,200,\frz3)}vasos. {\rBase}Principal
+Dialogue: 0,0:00:20.60,0:00:21.01,Base,,0,0,0,,{\rBase}con {\rBase}vasos. {\rHot\frz-3\t(0,200,\frz3)}Principal
+Dialogue: 0,0:00:20.96,0:00:21.34,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}motor {\rBase}contractil {\rBase}y
+Dialogue: 0,0:00:21.34,0:00:22.02,Base,,0,0,0,,{\rBase}motor {\rHot\frz-3\t(0,200,\frz3)}contractil {\rBase}y
+Dialogue: 0,0:00:22.02,0:00:22.23,Base,,0,0,0,,{\rBase}motor {\rBase}contractil {\rHot\frz-3\t(0,200,\frz3)}y
+Dialogue: 0,0:00:22.18,0:00:23.10,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}hemostasia, {\rBase}ligadura {\rBase}viviente.
+Dialogue: 0,0:00:23.10,0:00:23.52,Base,,0,0,0,,{\rBase}hemostasia, {\rHot\frz-3\t(0,200,\frz3)}ligadura {\rBase}viviente.
+Dialogue: 0,0:00:23.52,0:00:24.11,Base,,0,0,0,,{\rBase}hemostasia, {\rBase}ligadura {\rHot\frz-3\t(0,200,\frz3)}viviente.
+Dialogue: 0,0:00:24.70,0:00:25.16,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}Estrato {\rBase}subvascular {\rBase}interno.
+Dialogue: 0,0:00:25.16,0:00:25.84,Base,,0,0,0,,{\rBase}Estrato {\rHot\frz-3\t(0,200,\frz3)}subvascular {\rBase}interno.
+Dialogue: 0,0:00:25.84,0:00:26.87,Base,,0,0,0,,{\rBase}Estrato {\rBase}subvascular {\rHot\frz-3\t(0,200,\frz3)}interno.
+Dialogue: 0,0:00:26.82,0:00:27.62,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}fibras {\rBase}circulares {\rBase}mantienen
+Dialogue: 0,0:00:27.62,0:00:28.38,Base,,0,0,0,,{\rBase}fibras {\rHot\frz-3\t(0,200,\frz3)}circulares {\rBase}mantienen
+Dialogue: 0,0:00:28.38,0:00:29.39,Base,,0,0,0,,{\rBase}fibras {\rBase}circulares {\rHot\frz-3\t(0,200,\frz3)}mantienen
+Dialogue: 0,0:00:29.34,0:00:29.54,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}el {\rBase}cuello {\rBase}cerrado
+Dialogue: 0,0:00:29.54,0:00:29.80,Base,,0,0,0,,{\rBase}el {\rHot\frz-3\t(0,200,\frz3)}cuello {\rBase}cerrado
+Dialogue: 0,0:00:29.80,0:00:30.31,Base,,0,0,0,,{\rBase}el {\rBase}cuello {\rHot\frz-3\t(0,200,\frz3)}cerrado
+Dialogue: 0,0:00:30.26,0:00:30.40,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}en {\rBase}el {\rBase}embarazo.
+Dialogue: 0,0:00:30.40,0:00:30.52,Base,,0,0,0,,{\rBase}en {\rHot\frz-3\t(0,200,\frz3)}el {\rBase}embarazo.
+Dialogue: 0,0:00:30.52,0:00:31.07,Base,,0,0,0,,{\rBase}en {\rBase}el {\rHot\frz-3\t(0,200,\frz3)}embarazo.

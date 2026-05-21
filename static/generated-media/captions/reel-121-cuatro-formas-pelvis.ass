@@ -1,0 +1,69 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0080DE4A,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}mayoría {\rBase}son
+Dialogue: 0,0:00:00.26,0:00:00.60,Base,,0,0,0,,{\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}mayoría {\rBase}son
+Dialogue: 0,0:00:00.60,0:00:00.97,Base,,0,0,0,,{\rBase}La {\rBase}mayoría {\rHot\t(0,120,\fscx115\fscy115)}son
+Dialogue: 0,0:00:00.92,0:00:01.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}mixtas, {\rBase}el {\rBase}tipo
+Dialogue: 0,0:00:01.60,0:00:01.70,Base,,0,0,0,,{\rBase}mixtas, {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}tipo
+Dialogue: 0,0:00:01.70,0:00:01.99,Base,,0,0,0,,{\rBase}mixtas, {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}tipo
+Dialogue: 0,0:00:01.94,0:00:02.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}puro {\rBase}es {\rBase}minoría.
+Dialogue: 0,0:00:02.38,0:00:02.72,Base,,0,0,0,,{\rBase}puro {\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}minoría.
+Dialogue: 0,0:00:02.72,0:00:03.31,Base,,0,0,0,,{\rBase}puro {\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}minoría.
+Dialogue: 0,0:00:03.50,0:00:03.84,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}forma {\rBase}predice
+Dialogue: 0,0:00:03.84,0:00:04.14,Base,,0,0,0,,{\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}forma {\rBase}predice
+Dialogue: 0,0:00:04.14,0:00:04.69,Base,,0,0,0,,{\rBase}La {\rBase}forma {\rHot\t(0,120,\fscx115\fscy115)}predice
+Dialogue: 0,0:00:04.64,0:00:04.88,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}más {\rBase}que {\rBase}el
+Dialogue: 0,0:00:04.88,0:00:05.02,Base,,0,0,0,,{\rBase}más {\rHot\t(0,120,\fscx115\fscy115)}que {\rBase}el
+Dialogue: 0,0:00:05.02,0:00:05.19,Base,,0,0,0,,{\rBase}más {\rBase}que {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:05.14,0:00:05.82,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}tamaño, {\rBase}cuando {\rBase}el
+Dialogue: 0,0:00:05.82,0:00:06.30,Base,,0,0,0,,{\rBase}tamaño, {\rHot\t(0,120,\fscx115\fscy115)}cuando {\rBase}el
+Dialogue: 0,0:00:06.30,0:00:06.53,Base,,0,0,0,,{\rBase}tamaño, {\rBase}cuando {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:06.48,0:00:06.82,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}feto {\rBase}es {\rBase}de
+Dialogue: 0,0:00:06.82,0:00:07.08,Base,,0,0,0,,{\rBase}feto {\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}de
+Dialogue: 0,0:00:07.08,0:00:07.25,Base,,0,0,0,,{\rBase}feto {\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:07.20,0:00:07.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}tamaño {\rBase}promedio. {\rBase}Ginecoide,
+Dialogue: 0,0:00:07.60,0:00:08.60,Base,,0,0,0,,{\rBase}tamaño {\rHot\t(0,120,\fscx115\fscy115)}promedio. {\rBase}Ginecoide,
+Dialogue: 0,0:00:08.60,0:00:09.35,Base,,0,0,0,,{\rBase}tamaño {\rBase}promedio. {\rHot\t(0,120,\fscx115\fscy115)}Ginecoide,
+Dialogue: 0,0:00:09.54,0:00:10.12,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}entrada {\rBase}redondeada {\rBase}transversal,
+Dialogue: 0,0:00:10.12,0:00:10.84,Base,,0,0,0,,{\rBase}entrada {\rHot\t(0,120,\fscx115\fscy115)}redondeada {\rBase}transversal,
+Dialogue: 0,0:00:10.84,0:00:11.75,Base,,0,0,0,,{\rBase}entrada {\rBase}redondeada {\rHot\t(0,120,\fscx115\fscy115)}transversal,
+Dialogue: 0,0:00:11.94,0:00:12.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}ángulo {\rBase}púbico {\rBase}abierto,
+Dialogue: 0,0:00:12.24,0:00:12.76,Base,,0,0,0,,{\rBase}ángulo {\rHot\t(0,120,\fscx115\fscy115)}púbico {\rBase}abierto,
+Dialogue: 0,0:00:12.76,0:00:13.37,Base,,0,0,0,,{\rBase}ángulo {\rBase}púbico {\rHot\t(0,120,\fscx115\fscy115)}abierto,
+Dialogue: 0,0:00:13.62,0:00:13.90,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}ideal {\rBase}mecánicamente. {\rBase}Androide,
+Dialogue: 0,0:00:13.90,0:00:15.74,Base,,0,0,0,,{\rBase}ideal {\rHot\t(0,120,\fscx115\fscy115)}mecánicamente. {\rBase}Androide,
+Dialogue: 0,0:00:15.74,0:00:16.31,Base,,0,0,0,,{\rBase}ideal {\rBase}mecánicamente. {\rHot\t(0,120,\fscx115\fscy115)}Androide,
+Dialogue: 0,0:00:16.60,0:00:17.52,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}corazón, {\rBase}sacro {\rBase}estrecho,
+Dialogue: 0,0:00:17.52,0:00:18.00,Base,,0,0,0,,{\rBase}corazón, {\rHot\t(0,120,\fscx115\fscy115)}sacro {\rBase}estrecho,
+Dialogue: 0,0:00:18.00,0:00:18.61,Base,,0,0,0,,{\rBase}corazón, {\rBase}sacro {\rHot\t(0,120,\fscx115\fscy115)}estrecho,
+Dialogue: 0,0:00:18.78,0:00:19.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}propensa {\rBase}a {\rBase}púanomalías
+Dialogue: 0,0:00:19.38,0:00:19.56,Base,,0,0,0,,{\rBase}propensa {\rHot\t(0,120,\fscx115\fscy115)}a {\rBase}púanomalías
+Dialogue: 0,0:00:19.56,0:00:20.23,Base,,0,0,0,,{\rBase}propensa {\rBase}a {\rHot\t(0,120,\fscx115\fscy115)}púanomalías
+Dialogue: 0,0:00:20.18,0:00:20.30,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}inserción. {\rBase}Antropoide,
+Dialogue: 0,0:00:20.30,0:00:21.46,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}inserción. {\rBase}Antropoide,
+Dialogue: 0,0:00:21.46,0:00:22.23,Base,,0,0,0,,{\rBase}de {\rBase}inserción. {\rHot\t(0,120,\fscx115\fscy115)}Antropoide,
+Dialogue: 0,0:00:22.58,0:00:23.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}ovalada {\rBase}sagital, {\rBase}favorece
+Dialogue: 0,0:00:23.00,0:00:24.04,Base,,0,0,0,,{\rBase}ovalada {\rHot\t(0,120,\fscx115\fscy115)}sagital, {\rBase}favorece
+Dialogue: 0,0:00:24.04,0:00:24.67,Base,,0,0,0,,{\rBase}ovalada {\rBase}sagital, {\rHot\t(0,120,\fscx115\fscy115)}favorece
+Dialogue: 0,0:00:24.62,0:00:25.44,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}occipucio {\rBase}posterior {\rBase}persistente.
+Dialogue: 0,0:00:25.44,0:00:25.92,Base,,0,0,0,,{\rBase}occipucio {\rHot\t(0,120,\fscx115\fscy115)}posterior {\rBase}persistente.
+Dialogue: 0,0:00:25.92,0:00:26.93,Base,,0,0,0,,{\rBase}occipucio {\rBase}posterior {\rHot\t(0,120,\fscx115\fscy115)}persistente.
+Dialogue: 0,0:00:26.88,0:00:28.84,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}platipeloide, {\rBase}aplanada, {\rBase}diámetro
+Dialogue: 0,0:00:28.84,0:00:29.88,Base,,0,0,0,,{\rBase}platipeloide, {\rHot\t(0,120,\fscx115\fscy115)}aplanada, {\rBase}diámetro
+Dialogue: 0,0:00:29.88,0:00:30.29,Base,,0,0,0,,{\rBase}platipeloide, {\rBase}aplanada, {\rHot\t(0,120,\fscx115\fscy115)}diámetro
+Dialogue: 0,0:00:30.24,0:00:30.66,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}sagital {\rBase}corto {\rBase}dificulta
+Dialogue: 0,0:00:30.66,0:00:31.36,Base,,0,0,0,,{\rBase}sagital {\rHot\t(0,120,\fscx115\fscy115)}corto {\rBase}dificulta
+Dialogue: 0,0:00:31.36,0:00:32.23,Base,,0,0,0,,{\rBase}sagital {\rBase}corto {\rHot\t(0,120,\fscx115\fscy115)}dificulta
+Dialogue: 0,0:00:32.18,0:00:32.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}encaje.
+Dialogue: 0,0:00:32.38,0:00:32.95,Base,,0,0,0,,{\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}encaje.

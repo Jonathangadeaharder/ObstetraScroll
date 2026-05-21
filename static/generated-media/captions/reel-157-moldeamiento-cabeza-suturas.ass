@@ -1,0 +1,75 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Arial Black,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Arial Black,84,&H00FF3CFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.32,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}Un {\rBase}moldeamiento {\rBase}exagerado
+Dialogue: 0,0:00:00.32,0:00:00.92,Base,,0,0,0,,{\rBase}Un {\rHot\frz-3\t(0,200,\frz3)}moldeamiento {\rBase}exagerado
+Dialogue: 0,0:00:00.92,0:00:01.63,Base,,0,0,0,,{\rBase}Un {\rBase}moldeamiento {\rHot\frz-3\t(0,200,\frz3)}exagerado
+Dialogue: 0,0:00:01.58,0:00:01.78,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}tras {\rBase}parto {\rBase}largo
+Dialogue: 0,0:00:01.78,0:00:02.16,Base,,0,0,0,,{\rBase}tras {\rHot\frz-3\t(0,200,\frz3)}parto {\rBase}largo
+Dialogue: 0,0:00:02.16,0:00:02.53,Base,,0,0,0,,{\rBase}tras {\rBase}parto {\rHot\frz-3\t(0,200,\frz3)}largo
+Dialogue: 0,0:00:02.48,0:00:02.86,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}no {\rBase}es {\rBase}patológico,
+Dialogue: 0,0:00:02.86,0:00:03.00,Base,,0,0,0,,{\rBase}no {\rHot\frz-3\t(0,200,\frz3)}es {\rBase}patológico,
+Dialogue: 0,0:00:03.00,0:00:03.87,Base,,0,0,0,,{\rBase}no {\rBase}es {\rHot\frz-3\t(0,200,\frz3)}patológico,
+Dialogue: 0,0:00:03.98,0:00:04.38,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}pero {\rBase}un {\rBase}moldeamiento
+Dialogue: 0,0:00:04.38,0:00:04.62,Base,,0,0,0,,{\rBase}pero {\rHot\frz-3\t(0,200,\frz3)}un {\rBase}moldeamiento
+Dialogue: 0,0:00:04.62,0:00:05.27,Base,,0,0,0,,{\rBase}pero {\rBase}un {\rHot\frz-3\t(0,200,\frz3)}moldeamiento
+Dialogue: 0,0:00:05.22,0:00:05.96,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}absoluto {\rBase}puede {\rBase}ser
+Dialogue: 0,0:00:05.96,0:00:06.26,Base,,0,0,0,,{\rBase}absoluto {\rHot\frz-3\t(0,200,\frz3)}puede {\rBase}ser
+Dialogue: 0,0:00:06.26,0:00:06.55,Base,,0,0,0,,{\rBase}absoluto {\rBase}puede {\rHot\frz-3\t(0,200,\frz3)}ser
+Dialogue: 0,0:00:06.50,0:00:06.92,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}signo {\rBase}de {\rBase}desproporción
+Dialogue: 0,0:00:06.92,0:00:07.04,Base,,0,0,0,,{\rBase}signo {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}desproporción
+Dialogue: 0,0:00:07.04,0:00:07.89,Base,,0,0,0,,{\rBase}signo {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}desproporción
+Dialogue: 0,0:00:07.84,0:00:08.80,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}cefalopélvica {\rBase}que {\rBase}pasó
+Dialogue: 0,0:00:08.80,0:00:09.08,Base,,0,0,0,,{\rBase}cefalopélvica {\rHot\frz-3\t(0,200,\frz3)}que {\rBase}pasó
+Dialogue: 0,0:00:09.08,0:00:09.41,Base,,0,0,0,,{\rBase}cefalopélvica {\rBase}que {\rHot\frz-3\t(0,200,\frz3)}pasó
+Dialogue: 0,0:00:09.36,0:00:09.56,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}por {\rBase}poco. {\rBase}Los
+Dialogue: 0,0:00:09.56,0:00:10.36,Base,,0,0,0,,{\rBase}por {\rHot\frz-3\t(0,200,\frz3)}poco. {\rBase}Los
+Dialogue: 0,0:00:10.36,0:00:10.93,Base,,0,0,0,,{\rBase}por {\rBase}poco. {\rHot\frz-3\t(0,200,\frz3)}Los
+Dialogue: 0,0:00:10.88,0:00:11.22,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}huesos {\rBase}del {\rBase}cráneo
+Dialogue: 0,0:00:11.22,0:00:11.38,Base,,0,0,0,,{\rBase}huesos {\rHot\frz-3\t(0,200,\frz3)}del {\rBase}cráneo
+Dialogue: 0,0:00:11.38,0:00:11.79,Base,,0,0,0,,{\rBase}huesos {\rBase}del {\rHot\frz-3\t(0,200,\frz3)}cráneo
+Dialogue: 0,0:00:11.74,0:00:12.14,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}fetal {\rBase}no {\rBase}están
+Dialogue: 0,0:00:12.14,0:00:12.42,Base,,0,0,0,,{\rBase}fetal {\rHot\frz-3\t(0,200,\frz3)}no {\rBase}están
+Dialogue: 0,0:00:12.42,0:00:12.77,Base,,0,0,0,,{\rBase}fetal {\rBase}no {\rHot\frz-3\t(0,200,\frz3)}están
+Dialogue: 0,0:00:12.72,0:00:13.88,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}fusionados, {\rBase}están {\rBase}unidos
+Dialogue: 0,0:00:13.88,0:00:14.16,Base,,0,0,0,,{\rBase}fusionados, {\rHot\frz-3\t(0,200,\frz3)}están {\rBase}unidos
+Dialogue: 0,0:00:14.16,0:00:14.69,Base,,0,0,0,,{\rBase}fusionados, {\rBase}están {\rHot\frz-3\t(0,200,\frz3)}unidos
+Dialogue: 0,0:00:14.64,0:00:14.88,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}por {\rBase}suturas {\rBase}y
+Dialogue: 0,0:00:14.88,0:00:15.50,Base,,0,0,0,,{\rBase}por {\rHot\frz-3\t(0,200,\frz3)}suturas {\rBase}y
+Dialogue: 0,0:00:15.50,0:00:15.77,Base,,0,0,0,,{\rBase}por {\rBase}suturas {\rHot\frz-3\t(0,200,\frz3)}y
+Dialogue: 0,0:00:15.72,0:00:16.32,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}fontanelas {\rBase}elásticas. {\rBase}Bajo
+Dialogue: 0,0:00:16.32,0:00:17.38,Base,,0,0,0,,{\rBase}fontanelas {\rHot\frz-3\t(0,200,\frz3)}elásticas. {\rBase}Bajo
+Dialogue: 0,0:00:17.38,0:00:17.91,Base,,0,0,0,,{\rBase}fontanelas {\rBase}elásticas. {\rHot\frz-3\t(0,200,\frz3)}Bajo
+Dialogue: 0,0:00:17.86,0:00:18.00,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}la {\rBase}presión {\rBase}del
+Dialogue: 0,0:00:18.00,0:00:18.36,Base,,0,0,0,,{\rBase}la {\rHot\frz-3\t(0,200,\frz3)}presión {\rBase}del
+Dialogue: 0,0:00:18.36,0:00:18.59,Base,,0,0,0,,{\rBase}la {\rBase}presión {\rHot\frz-3\t(0,200,\frz3)}del
+Dialogue: 0,0:00:18.54,0:00:19.14,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}canal, {\rBase}las {\rBase}placas
+Dialogue: 0,0:00:19.14,0:00:19.54,Base,,0,0,0,,{\rBase}canal, {\rHot\frz-3\t(0,200,\frz3)}las {\rBase}placas
+Dialogue: 0,0:00:19.54,0:00:19.97,Base,,0,0,0,,{\rBase}canal, {\rBase}las {\rHot\frz-3\t(0,200,\frz3)}placas
+Dialogue: 0,0:00:19.92,0:00:20.26,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}óseas {\rBase}se {\rBase}solapan
+Dialogue: 0,0:00:20.26,0:00:20.38,Base,,0,0,0,,{\rBase}óseas {\rHot\frz-3\t(0,200,\frz3)}se {\rBase}solapan
+Dialogue: 0,0:00:20.38,0:00:20.97,Base,,0,0,0,,{\rBase}óseas {\rBase}se {\rHot\frz-3\t(0,200,\frz3)}solapan
+Dialogue: 0,0:00:20.92,0:00:21.54,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}y {\rBase}reducen {\rBase}el
+Dialogue: 0,0:00:21.54,0:00:22.00,Base,,0,0,0,,{\rBase}y {\rHot\frz-3\t(0,200,\frz3)}reducen {\rBase}el
+Dialogue: 0,0:00:22.00,0:00:22.19,Base,,0,0,0,,{\rBase}y {\rBase}reducen {\rHot\frz-3\t(0,200,\frz3)}el
+Dialogue: 0,0:00:22.14,0:00:22.68,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}perímetro {\rBase}craneal {\rBase}temporalmente.
+Dialogue: 0,0:00:22.68,0:00:23.16,Base,,0,0,0,,{\rBase}perímetro {\rHot\frz-3\t(0,200,\frz3)}craneal {\rBase}temporalmente.
+Dialogue: 0,0:00:23.16,0:00:24.15,Base,,0,0,0,,{\rBase}perímetro {\rBase}craneal {\rHot\frz-3\t(0,200,\frz3)}temporalmente.
+Dialogue: 0,0:00:24.34,0:00:24.72,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}Esto {\rBase}permite {\rBase}el
+Dialogue: 0,0:00:24.72,0:00:25.12,Base,,0,0,0,,{\rBase}Esto {\rHot\frz-3\t(0,200,\frz3)}permite {\rBase}el
+Dialogue: 0,0:00:25.12,0:00:25.35,Base,,0,0,0,,{\rBase}Esto {\rBase}permite {\rHot\frz-3\t(0,200,\frz3)}el
+Dialogue: 0,0:00:25.30,0:00:25.66,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}paso {\rBase}sin {\rBase}dañar
+Dialogue: 0,0:00:25.66,0:00:25.90,Base,,0,0,0,,{\rBase}paso {\rHot\frz-3\t(0,200,\frz3)}sin {\rBase}dañar
+Dialogue: 0,0:00:25.90,0:00:26.31,Base,,0,0,0,,{\rBase}paso {\rBase}sin {\rHot\frz-3\t(0,200,\frz3)}dañar
+Dialogue: 0,0:00:26.26,0:00:26.38,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}el {\rBase}cerebro.
+Dialogue: 0,0:00:26.38,0:00:26.91,Base,,0,0,0,,{\rBase}el {\rHot\frz-3\t(0,200,\frz3)}cerebro.

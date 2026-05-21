@@ -1,0 +1,79 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H003C3CE6,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.28,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El {\rBase}error {\rBase}frecuente
+Dialogue: 0,0:00:00.28,0:00:00.50,Base,,0,0,0,,{\rBase}El {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}error {\rBase}frecuente
+Dialogue: 0,0:00:00.50,0:00:01.07,Base,,0,0,0,,{\rBase}El {\rBase}error {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}frecuente
+Dialogue: 0,0:00:01.02,0:00:01.16,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}es {\rBase}ver {\rBase}la
+Dialogue: 0,0:00:01.16,0:00:01.34,Base,,0,0,0,,{\rBase}es {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ver {\rBase}la
+Dialogue: 0,0:00:01.34,0:00:01.55,Base,,0,0,0,,{\rBase}es {\rBase}ver {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la
+Dialogue: 0,0:00:01.50,0:00:02.04,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}placenta {\rBase}como {\rBase}un
+Dialogue: 0,0:00:02.04,0:00:02.28,Base,,0,0,0,,{\rBase}placenta {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}como {\rBase}un
+Dialogue: 0,0:00:02.28,0:00:02.51,Base,,0,0,0,,{\rBase}placenta {\rBase}como {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}un
+Dialogue: 0,0:00:02.46,0:00:02.76,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}órgano {\rBase}único. {\rBase}Son
+Dialogue: 0,0:00:02.76,0:00:03.48,Base,,0,0,0,,{\rBase}órgano {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}único. {\rBase}Son
+Dialogue: 0,0:00:03.48,0:00:03.73,Base,,0,0,0,,{\rBase}órgano {\rBase}único. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Son
+Dialogue: 0,0:00:03.68,0:00:03.90,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}dos {\rBase}linajes {\rBase}celulares
+Dialogue: 0,0:00:03.90,0:00:04.36,Base,,0,0,0,,{\rBase}dos {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}linajes {\rBase}celulares
+Dialogue: 0,0:00:04.36,0:00:04.91,Base,,0,0,0,,{\rBase}dos {\rBase}linajes {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}celulares
+Dialogue: 0,0:00:04.86,0:00:05.18,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}funciones {\rBase}independientes
+Dialogue: 0,0:00:05.18,0:00:05.62,Base,,0,0,0,,{\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}funciones {\rBase}independientes
+Dialogue: 0,0:00:05.62,0:00:06.67,Base,,0,0,0,,{\rBase}con {\rBase}funciones {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}independientes
+Dialogue: 0,0:00:06.62,0:00:06.88,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}patologías {\rBase}propias.
+Dialogue: 0,0:00:06.88,0:00:07.58,Base,,0,0,0,,{\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}patologías {\rBase}propias.
+Dialogue: 0,0:00:07.58,0:00:08.15,Base,,0,0,0,,{\rBase}y {\rBase}patologías {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}propias.
+Dialogue: 0,0:00:08.58,0:00:09.22,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El {\rBase}trofoblasto {\rBase}velloso,
+Dialogue: 0,0:00:09.22,0:00:09.96,Base,,0,0,0,,{\rBase}El {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}trofoblasto {\rBase}velloso,
+Dialogue: 0,0:00:09.96,0:00:10.51,Base,,0,0,0,,{\rBase}El {\rBase}trofoblasto {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}velloso,
+Dialogue: 0,0:00:10.62,0:00:11.02,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sin {\rBase}sitio {\rBase}PLAS
+Dialogue: 0,0:00:11.02,0:00:11.38,Base,,0,0,0,,{\rBase}sin {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sitio {\rBase}PLAS
+Dialogue: 0,0:00:11.38,0:00:12.01,Base,,0,0,0,,{\rBase}sin {\rBase}sitio {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}PLAS
+Dialogue: 0,0:00:11.96,0:00:13.52,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}-citotrofoblasto, {\rBase}cubre {\rBase}las
+Dialogue: 0,0:00:13.52,0:00:14.14,Base,,0,0,0,,{\rBase}-citotrofoblasto, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cubre {\rBase}las
+Dialogue: 0,0:00:14.14,0:00:14.39,Base,,0,0,0,,{\rBase}-citotrofoblasto, {\rBase}cubre {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}las
+Dialogue: 0,0:00:14.34,0:00:15.04,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}vellosidades {\rBase}y {\rBase}se
+Dialogue: 0,0:00:15.04,0:00:15.24,Base,,0,0,0,,{\rBase}vellosidades {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}se
+Dialogue: 0,0:00:15.24,0:00:15.41,Base,,0,0,0,,{\rBase}vellosidades {\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}se
+Dialogue: 0,0:00:15.36,0:00:15.74,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}encarga {\rBase}del {\rBase}intercambio
+Dialogue: 0,0:00:15.74,0:00:15.90,Base,,0,0,0,,{\rBase}encarga {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}del {\rBase}intercambio
+Dialogue: 0,0:00:15.90,0:00:16.51,Base,,0,0,0,,{\rBase}encarga {\rBase}del {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}intercambio
+Dialogue: 0,0:00:16.46,0:00:17.12,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}difusional {\rBase}y {\rBase}de
+Dialogue: 0,0:00:17.12,0:00:17.40,Base,,0,0,0,,{\rBase}difusional {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}de
+Dialogue: 0,0:00:17.40,0:00:17.55,Base,,0,0,0,,{\rBase}difusional {\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:17.50,0:00:17.64,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}síntesis {\rBase}endocrina,
+Dialogue: 0,0:00:17.64,0:00:18.12,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}síntesis {\rBase}endocrina,
+Dialogue: 0,0:00:18.12,0:00:18.83,Base,,0,0,0,,{\rBase}la {\rBase}síntesis {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}endocrina,
+Dialogue: 0,0:00:18.98,0:00:20.30,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}HCCG, {\rBase}HPL, {\rBase}progesterona,
+Dialogue: 0,0:00:20.30,0:00:21.40,Base,,0,0,0,,{\rBase}HCCG, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}HPL, {\rBase}progesterona,
+Dialogue: 0,0:00:21.40,0:00:22.19,Base,,0,0,0,,{\rBase}HCCG, {\rBase}HPL, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}progesterona,
+Dialogue: 0,0:00:22.34,0:00:23.04,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}estrógenos. {\rBase}El {\rBase}trofoblasto
+Dialogue: 0,0:00:23.04,0:00:24.04,Base,,0,0,0,,{\rBase}estrógenos. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El {\rBase}trofoblasto
+Dialogue: 0,0:00:24.04,0:00:24.93,Base,,0,0,0,,{\rBase}estrógenos. {\rBase}El {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}trofoblasto
+Dialogue: 0,0:00:24.88,0:00:25.70,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}extravelloso {\rBase}abandona {\rBase}el
+Dialogue: 0,0:00:25.70,0:00:26.68,Base,,0,0,0,,{\rBase}extravelloso {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}abandona {\rBase}el
+Dialogue: 0,0:00:26.68,0:00:26.89,Base,,0,0,0,,{\rBase}extravelloso {\rBase}abandona {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el
+Dialogue: 0,0:00:26.84,0:00:27.18,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}árbol {\rBase}belloso, {\rBase}invade
+Dialogue: 0,0:00:27.18,0:00:28.26,Base,,0,0,0,,{\rBase}árbol {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}belloso, {\rBase}invade
+Dialogue: 0,0:00:28.26,0:00:28.63,Base,,0,0,0,,{\rBase}árbol {\rBase}belloso, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}invade
+Dialogue: 0,0:00:28.58,0:00:29.32,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}decidua {\rBase}y {\rBase}miometrio,
+Dialogue: 0,0:00:29.32,0:00:29.70,Base,,0,0,0,,{\rBase}decidua {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}miometrio,
+Dialogue: 0,0:00:29.70,0:00:30.39,Base,,0,0,0,,{\rBase}decidua {\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}miometrio,
+Dialogue: 0,0:00:31.04,0:00:31.38,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}remodela {\rBase}la {\rBase}vasculatura
+Dialogue: 0,0:00:31.38,0:00:31.54,Base,,0,0,0,,{\rBase}remodela {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}vasculatura
+Dialogue: 0,0:00:31.54,0:00:32.33,Base,,0,0,0,,{\rBase}remodela {\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}vasculatura
+Dialogue: 0,0:00:32.28,0:00:32.62,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}media {\rBase}la
+Dialogue: 0,0:00:32.62,0:00:32.82,Base,,0,0,0,,{\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}media {\rBase}la
+Dialogue: 0,0:00:32.82,0:00:33.01,Base,,0,0,0,,{\rBase}y {\rBase}media {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la
+Dialogue: 0,0:00:32.96,0:00:33.54,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tolerancia {\rBase}inmunológica {\rBase}materna.
+Dialogue: 0,0:00:33.54,0:00:34.34,Base,,0,0,0,,{\rBase}tolerancia {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}inmunológica {\rBase}materna.
+Dialogue: 0,0:00:34.34,0:00:34.99,Base,,0,0,0,,{\rBase}tolerancia {\rBase}inmunológica {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}materna.

@@ -1,0 +1,89 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Arial Black,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Arial Black,84,&H00FF3CFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.52,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}Saltar {\rBase}la {\rBase}dosis
+Dialogue: 0,0:00:00.52,0:00:00.66,Base,,0,0,0,,{\rBase}Saltar {\rHot\frz-3\t(0,200,\frz3)}la {\rBase}dosis
+Dialogue: 0,0:00:00.66,0:00:01.13,Base,,0,0,0,,{\rBase}Saltar {\rBase}la {\rHot\frz-3\t(0,200,\frz3)}dosis
+Dialogue: 0,0:00:01.08,0:00:01.22,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}de {\rBase}28 {\rBase}semanas
+Dialogue: 0,0:00:01.22,0:00:01.76,Base,,0,0,0,,{\rBase}de {\rHot\frz-3\t(0,200,\frz3)}28 {\rBase}semanas
+Dialogue: 0,0:00:01.76,0:00:02.41,Base,,0,0,0,,{\rBase}de {\rBase}28 {\rHot\frz-3\t(0,200,\frz3)}semanas
+Dialogue: 0,0:00:02.36,0:00:02.98,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}porque {\rBase}la {\rBase}madre
+Dialogue: 0,0:00:02.98,0:00:03.32,Base,,0,0,0,,{\rBase}porque {\rHot\frz-3\t(0,200,\frz3)}la {\rBase}madre
+Dialogue: 0,0:00:03.32,0:00:03.73,Base,,0,0,0,,{\rBase}porque {\rBase}la {\rHot\frz-3\t(0,200,\frz3)}madre
+Dialogue: 0,0:00:03.68,0:00:03.96,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}se {\rBase}siente {\rBase}bien
+Dialogue: 0,0:00:03.96,0:00:04.32,Base,,0,0,0,,{\rBase}se {\rHot\frz-3\t(0,200,\frz3)}siente {\rBase}bien
+Dialogue: 0,0:00:04.32,0:00:04.75,Base,,0,0,0,,{\rBase}se {\rBase}siente {\rHot\frz-3\t(0,200,\frz3)}bien
+Dialogue: 0,0:00:04.70,0:00:05.48,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}es {\rBase}un {\rBase}error.
+Dialogue: 0,0:00:05.48,0:00:05.68,Base,,0,0,0,,{\rBase}es {\rHot\frz-3\t(0,200,\frz3)}un {\rBase}error.
+Dialogue: 0,0:00:05.68,0:00:06.01,Base,,0,0,0,,{\rBase}es {\rBase}un {\rHot\frz-3\t(0,200,\frz3)}error.
+Dialogue: 0,0:00:06.24,0:00:06.32,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}El {\rBase}objetivo {\rBase}es
+Dialogue: 0,0:00:06.32,0:00:06.72,Base,,0,0,0,,{\rBase}El {\rHot\frz-3\t(0,200,\frz3)}objetivo {\rBase}es
+Dialogue: 0,0:00:06.72,0:00:07.03,Base,,0,0,0,,{\rBase}El {\rBase}objetivo {\rHot\frz-3\t(0,200,\frz3)}es
+Dialogue: 0,0:00:06.98,0:00:07.62,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}bloquear {\rBase}sensibilización {\rBase}por
+Dialogue: 0,0:00:07.62,0:00:08.56,Base,,0,0,0,,{\rBase}bloquear {\rHot\frz-3\t(0,200,\frz3)}sensibilización {\rBase}por
+Dialogue: 0,0:00:08.56,0:00:09.09,Base,,0,0,0,,{\rBase}bloquear {\rBase}sensibilización {\rHot\frz-3\t(0,200,\frz3)}por
+Dialogue: 0,0:00:09.04,0:00:10.26,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}microtransfusiones {\rBase}que {\rBase}ya
+Dialogue: 0,0:00:10.26,0:00:10.90,Base,,0,0,0,,{\rBase}microtransfusiones {\rHot\frz-3\t(0,200,\frz3)}que {\rBase}ya
+Dialogue: 0,0:00:10.90,0:00:11.09,Base,,0,0,0,,{\rBase}microtransfusiones {\rBase}que {\rHot\frz-3\t(0,200,\frz3)}ya
+Dialogue: 0,0:00:11.04,0:00:11.34,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}pueden {\rBase}haber {\rBase}ocurrido
+Dialogue: 0,0:00:11.34,0:00:11.50,Base,,0,0,0,,{\rBase}pueden {\rHot\frz-3\t(0,200,\frz3)}haber {\rBase}ocurrido
+Dialogue: 0,0:00:11.50,0:00:12.11,Base,,0,0,0,,{\rBase}pueden {\rBase}haber {\rHot\frz-3\t(0,200,\frz3)}ocurrido
+Dialogue: 0,0:00:12.06,0:00:12.20,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}en {\rBase}silencio. {\rBase}Toda
+Dialogue: 0,0:00:12.20,0:00:13.02,Base,,0,0,0,,{\rBase}en {\rHot\frz-3\t(0,200,\frz3)}silencio. {\rBase}Toda
+Dialogue: 0,0:00:13.02,0:00:13.65,Base,,0,0,0,,{\rBase}en {\rBase}silencio. {\rHot\frz-3\t(0,200,\frz3)}Toda
+Dialogue: 0,0:00:13.60,0:00:14.30,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}embarazada {\rBase}RH {\rBase}negativa
+Dialogue: 0,0:00:14.30,0:00:14.98,Base,,0,0,0,,{\rBase}embarazada {\rHot\frz-3\t(0,200,\frz3)}RH {\rBase}negativa
+Dialogue: 0,0:00:14.98,0:00:16.07,Base,,0,0,0,,{\rBase}embarazada {\rBase}RH {\rHot\frz-3\t(0,200,\frz3)}negativa
+Dialogue: 0,0:00:16.02,0:00:16.50,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}con {\rBase}feto {\rBase}RH
+Dialogue: 0,0:00:16.50,0:00:16.92,Base,,0,0,0,,{\rBase}con {\rHot\frz-3\t(0,200,\frz3)}feto {\rBase}RH
+Dialogue: 0,0:00:16.92,0:00:17.47,Base,,0,0,0,,{\rBase}con {\rBase}feto {\rHot\frz-3\t(0,200,\frz3)}RH
+Dialogue: 0,0:00:17.42,0:00:18.28,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}positivo {\rBase}o {\rBase}desconocido
+Dialogue: 0,0:00:18.28,0:00:18.86,Base,,0,0,0,,{\rBase}positivo {\rHot\frz-3\t(0,200,\frz3)}o {\rBase}desconocido
+Dialogue: 0,0:00:18.86,0:00:19.73,Base,,0,0,0,,{\rBase}positivo {\rBase}o {\rHot\frz-3\t(0,200,\frz3)}desconocido
+Dialogue: 0,0:00:19.68,0:00:20.56,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}recibe {\rBase}300 {\rBase}miligrars
+Dialogue: 0,0:00:20.56,0:00:21.04,Base,,0,0,0,,{\rBase}recibe {\rHot\frz-3\t(0,200,\frz3)}300 {\rBase}miligrars
+Dialogue: 0,0:00:21.04,0:00:21.65,Base,,0,0,0,,{\rBase}recibe {\rBase}300 {\rHot\frz-3\t(0,200,\frz3)}miligrars
+Dialogue: 0,0:00:21.60,0:00:21.82,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}de {\rBase}inmunoglobulina {\rBase}anti
+Dialogue: 0,0:00:21.82,0:00:22.76,Base,,0,0,0,,{\rBase}de {\rHot\frz-3\t(0,200,\frz3)}inmunoglobulina {\rBase}anti
+Dialogue: 0,0:00:22.76,0:00:23.05,Base,,0,0,0,,{\rBase}de {\rBase}inmunoglobulina {\rHot\frz-3\t(0,200,\frz3)}anti
+Dialogue: 0,0:00:23.00,0:00:23.16,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}-D {\rBase}en {\rBase}la
+Dialogue: 0,0:00:23.16,0:00:23.50,Base,,0,0,0,,{\rBase}-D {\rHot\frz-3\t(0,200,\frz3)}en {\rBase}la
+Dialogue: 0,0:00:23.50,0:00:23.65,Base,,0,0,0,,{\rBase}-D {\rBase}en {\rHot\frz-3\t(0,200,\frz3)}la
+Dialogue: 0,0:00:23.60,0:00:23.96,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}semana {\rBase}28 {\rBase}-30.
+Dialogue: 0,0:00:23.96,0:00:24.62,Base,,0,0,0,,{\rBase}semana {\rHot\frz-3\t(0,200,\frz3)}28 {\rBase}-30.
+Dialogue: 0,0:00:24.62,0:00:25.27,Base,,0,0,0,,{\rBase}semana {\rBase}28 {\rHot\frz-3\t(0,200,\frz3)}-30.
+Dialogue: 0,0:00:25.22,0:00:26.60,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}Repite {\rBase}dosis {\rBase}dentro
+Dialogue: 0,0:00:26.60,0:00:26.98,Base,,0,0,0,,{\rBase}Repite {\rHot\frz-3\t(0,200,\frz3)}dosis {\rBase}dentro
+Dialogue: 0,0:00:26.98,0:00:27.27,Base,,0,0,0,,{\rBase}Repite {\rBase}dosis {\rHot\frz-3\t(0,200,\frz3)}dentro
+Dialogue: 0,0:00:27.22,0:00:27.42,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}de {\rBase}72 {\rBase}horas
+Dialogue: 0,0:00:27.42,0:00:28.00,Base,,0,0,0,,{\rBase}de {\rHot\frz-3\t(0,200,\frz3)}72 {\rBase}horas
+Dialogue: 0,0:00:28.00,0:00:28.43,Base,,0,0,0,,{\rBase}de {\rBase}72 {\rHot\frz-3\t(0,200,\frz3)}horas
+Dialogue: 0,0:00:28.38,0:00:29.20,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}posparto {\rBase}si {\rBase}el
+Dialogue: 0,0:00:29.20,0:00:29.62,Base,,0,0,0,,{\rBase}posparto {\rHot\frz-3\t(0,200,\frz3)}si {\rBase}el
+Dialogue: 0,0:00:29.62,0:00:29.81,Base,,0,0,0,,{\rBase}posparto {\rBase}si {\rHot\frz-3\t(0,200,\frz3)}el
+Dialogue: 0,0:00:29.76,0:00:30.10,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}recién {\rBase}nacido {\rBase}se
+Dialogue: 0,0:00:30.10,0:00:30.48,Base,,0,0,0,,{\rBase}recién {\rHot\frz-3\t(0,200,\frz3)}nacido {\rBase}se
+Dialogue: 0,0:00:30.48,0:00:30.71,Base,,0,0,0,,{\rBase}recién {\rBase}nacido {\rHot\frz-3\t(0,200,\frz3)}se
+Dialogue: 0,0:00:30.66,0:00:31.28,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}confirma {\rBase}RH+. {\rBase}Dosis
+Dialogue: 0,0:00:31.28,0:00:32.36,Base,,0,0,0,,{\rBase}confirma {\rHot\frz-3\t(0,200,\frz3)}RH+. {\rBase}Dosis
+Dialogue: 0,0:00:32.36,0:00:33.75,Base,,0,0,0,,{\rBase}confirma {\rBase}RH+. {\rHot\frz-3\t(0,200,\frz3)}Dosis
+Dialogue: 0,0:00:33.70,0:00:34.12,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}extra {\rBase}ante {\rBase}riesgos
+Dialogue: 0,0:00:34.12,0:00:34.68,Base,,0,0,0,,{\rBase}extra {\rHot\frz-3\t(0,200,\frz3)}ante {\rBase}riesgos
+Dialogue: 0,0:00:34.68,0:00:35.23,Base,,0,0,0,,{\rBase}extra {\rBase}ante {\rHot\frz-3\t(0,200,\frz3)}riesgos
+Dialogue: 0,0:00:35.18,0:00:35.34,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}de {\rBase}transfusión {\rBase}fetomaterna,
+Dialogue: 0,0:00:35.34,0:00:36.04,Base,,0,0,0,,{\rBase}de {\rHot\frz-3\t(0,200,\frz3)}transfusión {\rBase}fetomaterna,
+Dialogue: 0,0:00:36.04,0:00:36.97,Base,,0,0,0,,{\rBase}de {\rBase}transfusión {\rHot\frz-3\t(0,200,\frz3)}fetomaterna,
+Dialogue: 0,0:00:37.34,0:00:38.46,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}aborto, {\rBase}amniocentesis, {\rBase}trauma
+Dialogue: 0,0:00:38.46,0:00:39.94,Base,,0,0,0,,{\rBase}aborto, {\rHot\frz-3\t(0,200,\frz3)}amniocentesis, {\rBase}trauma
+Dialogue: 0,0:00:39.94,0:00:40.23,Base,,0,0,0,,{\rBase}aborto, {\rBase}amniocentesis, {\rHot\frz-3\t(0,200,\frz3)}trauma
+Dialogue: 0,0:00:40.18,0:00:40.75,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}abdominal.

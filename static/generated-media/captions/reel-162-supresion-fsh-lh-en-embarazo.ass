@@ -1,0 +1,55 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0000E5FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Por {\rBase}eso, {\rBase}gemelos
+Dialogue: 0,0:00:00.26,0:00:00.84,Base,,0,0,0,,{\rBase}Por {\rHot\t(0,120,\fscx115\fscy115)}eso, {\rBase}gemelos
+Dialogue: 0,0:00:00.84,0:00:01.31,Base,,0,0,0,,{\rBase}Por {\rBase}eso, {\rHot\t(0,120,\fscx115\fscy115)}gemelos
+Dialogue: 0,0:00:01.26,0:00:02.42,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}heterocrónicos, {\rBase}dos {\rBase}óvulos
+Dialogue: 0,0:00:02.42,0:00:02.88,Base,,0,0,0,,{\rBase}heterocrónicos, {\rHot\t(0,120,\fscx115\fscy115)}dos {\rBase}óvulos
+Dialogue: 0,0:00:02.88,0:00:03.33,Base,,0,0,0,,{\rBase}heterocrónicos, {\rBase}dos {\rHot\t(0,120,\fscx115\fscy115)}óvulos
+Dialogue: 0,0:00:03.28,0:00:04.16,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}fertilizados {\rBase}en {\rBase}ciclos
+Dialogue: 0,0:00:04.16,0:00:04.38,Base,,0,0,0,,{\rBase}fertilizados {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}ciclos
+Dialogue: 0,0:00:04.38,0:00:04.81,Base,,0,0,0,,{\rBase}fertilizados {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}ciclos
+Dialogue: 0,0:00:04.76,0:00:05.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}distintos, {\rBase}son {\rBase}fenomenales,
+Dialogue: 0,0:00:05.62,0:00:05.80,Base,,0,0,0,,{\rBase}distintos, {\rHot\t(0,120,\fscx115\fscy115)}son {\rBase}fenomenales,
+Dialogue: 0,0:00:05.80,0:00:06.63,Base,,0,0,0,,{\rBase}distintos, {\rBase}son {\rHot\t(0,120,\fscx115\fscy115)}fenomenales,
+Dialogue: 0,0:00:06.80,0:00:07.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}biológicamente {\rBase}casi {\rBase}imposibles.
+Dialogue: 0,0:00:07.64,0:00:07.86,Base,,0,0,0,,{\rBase}biológicamente {\rHot\t(0,120,\fscx115\fscy115)}casi {\rBase}imposibles.
+Dialogue: 0,0:00:07.86,0:00:08.65,Base,,0,0,0,,{\rBase}biológicamente {\rBase}casi {\rHot\t(0,120,\fscx115\fscy115)}imposibles.
+Dialogue: 0,0:00:09.02,0:00:09.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Estrógenos {\rBase}y {\rBase}progesterona
+Dialogue: 0,0:00:09.60,0:00:09.72,Base,,0,0,0,,{\rBase}Estrógenos {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}progesterona
+Dialogue: 0,0:00:09.72,0:00:10.41,Base,,0,0,0,,{\rBase}Estrógenos {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}progesterona
+Dialogue: 0,0:00:10.36,0:00:11.18,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}placentarios {\rBase}generan {\rBase}feedback
+Dialogue: 0,0:00:11.18,0:00:11.86,Base,,0,0,0,,{\rBase}placentarios {\rHot\t(0,120,\fscx115\fscy115)}generan {\rBase}feedback
+Dialogue: 0,0:00:11.86,0:00:12.29,Base,,0,0,0,,{\rBase}placentarios {\rBase}generan {\rHot\t(0,120,\fscx115\fscy115)}feedback
+Dialogue: 0,0:00:12.24,0:00:12.88,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}negativo {\rBase}intenso {\rBase}sobre
+Dialogue: 0,0:00:12.88,0:00:13.54,Base,,0,0,0,,{\rBase}negativo {\rHot\t(0,120,\fscx115\fscy115)}intenso {\rBase}sobre
+Dialogue: 0,0:00:13.54,0:00:14.25,Base,,0,0,0,,{\rBase}negativo {\rBase}intenso {\rHot\t(0,120,\fscx115\fscy115)}sobre
+Dialogue: 0,0:00:14.20,0:00:15.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}hipotálamo {\rBase}e {\rBase}hipófisis.
+Dialogue: 0,0:00:15.08,0:00:15.28,Base,,0,0,0,,{\rBase}hipotálamo {\rHot\t(0,120,\fscx115\fscy115)}e {\rBase}hipófisis.
+Dialogue: 0,0:00:15.28,0:00:16.03,Base,,0,0,0,,{\rBase}hipotálamo {\rBase}e {\rHot\t(0,120,\fscx115\fscy115)}hipófisis.
+Dialogue: 0,0:00:16.62,0:00:17.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}FSH {\rBase}y {\rBase}LH
+Dialogue: 0,0:00:17.34,0:00:17.64,Base,,0,0,0,,{\rBase}FSH {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}LH
+Dialogue: 0,0:00:17.64,0:00:18.23,Base,,0,0,0,,{\rBase}FSH {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}LH
+Dialogue: 0,0:00:18.18,0:00:18.66,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}quedan {\rBase}suprimidas, {\rBase}no
+Dialogue: 0,0:00:18.66,0:00:19.56,Base,,0,0,0,,{\rBase}quedan {\rHot\t(0,120,\fscx115\fscy115)}suprimidas, {\rBase}no
+Dialogue: 0,0:00:19.56,0:00:19.71,Base,,0,0,0,,{\rBase}quedan {\rBase}suprimidas, {\rHot\t(0,120,\fscx115\fscy115)}no
+Dialogue: 0,0:00:19.66,0:00:19.82,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}hay {\rBase}maduración {\rBase}folicular
+Dialogue: 0,0:00:19.82,0:00:20.36,Base,,0,0,0,,{\rBase}hay {\rHot\t(0,120,\fscx115\fscy115)}maduración {\rBase}folicular
+Dialogue: 0,0:00:20.36,0:00:20.99,Base,,0,0,0,,{\rBase}hay {\rBase}maduración {\rHot\t(0,120,\fscx115\fscy115)}folicular
+Dialogue: 0,0:00:20.94,0:00:21.14,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}ni {\rBase}ovulación {\rBase}durante
+Dialogue: 0,0:00:21.14,0:00:21.72,Base,,0,0,0,,{\rBase}ni {\rHot\t(0,120,\fscx115\fscy115)}ovulación {\rBase}durante
+Dialogue: 0,0:00:21.72,0:00:22.05,Base,,0,0,0,,{\rBase}ni {\rBase}ovulación {\rHot\t(0,120,\fscx115\fscy115)}durante
+Dialogue: 0,0:00:22.00,0:00:22.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}todo {\rBase}el {\rBase}embarazo.
+Dialogue: 0,0:00:22.36,0:00:22.54,Base,,0,0,0,,{\rBase}todo {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}embarazo.
+Dialogue: 0,0:00:22.54,0:00:23.05,Base,,0,0,0,,{\rBase}todo {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}embarazo.

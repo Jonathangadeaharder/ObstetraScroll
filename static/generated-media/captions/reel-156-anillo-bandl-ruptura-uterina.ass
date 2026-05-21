@@ -1,0 +1,81 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,88,&H00F4E000,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Ver {\rBase}el {\rBase}anillo
+Dialogue: 0,0:00:00.32,0:00:00.46,Base,,0,0,0,,{\rBase}Ver {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}anillo
+Dialogue: 0,0:00:00.46,0:00:00.83,Base,,0,0,0,,{\rBase}Ver {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}anillo
+Dialogue: 0,0:00:00.78,0:00:00.96,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}Vandell {\rBase}no
+Dialogue: 0,0:00:00.96,0:00:01.30,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}Vandell {\rBase}no
+Dialogue: 0,0:00:01.30,0:00:01.79,Base,,0,0,0,,{\rBase}de {\rBase}Vandell {\rHot\t(0,120,\fscx115\fscy115)}no
+Dialogue: 0,0:00:01.74,0:00:01.96,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}hallazgo {\rBase}curioso.
+Dialogue: 0,0:00:01.96,0:00:02.60,Base,,0,0,0,,{\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}hallazgo {\rBase}curioso.
+Dialogue: 0,0:00:02.60,0:00:03.31,Base,,0,0,0,,{\rBase}es {\rBase}hallazgo {\rHot\t(0,120,\fscx115\fscy115)}curioso.
+Dialogue: 0,0:00:03.40,0:00:03.92,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Es {\rBase}contraindicación {\rBase}absoluta
+Dialogue: 0,0:00:03.92,0:00:04.86,Base,,0,0,0,,{\rBase}Es {\rHot\t(0,120,\fscx115\fscy115)}contraindicación {\rBase}absoluta
+Dialogue: 0,0:00:04.86,0:00:05.47,Base,,0,0,0,,{\rBase}Es {\rBase}contraindicación {\rHot\t(0,120,\fscx115\fscy115)}absoluta
+Dialogue: 0,0:00:05.42,0:00:05.54,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}a {\rBase}seguir {\rBase}con
+Dialogue: 0,0:00:05.54,0:00:05.80,Base,,0,0,0,,{\rBase}a {\rHot\t(0,120,\fscx115\fscy115)}seguir {\rBase}con
+Dialogue: 0,0:00:05.80,0:00:06.07,Base,,0,0,0,,{\rBase}a {\rBase}seguir {\rHot\t(0,120,\fscx115\fscy115)}con
+Dialogue: 0,0:00:06.02,0:00:06.74,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}oxitocina {\rBase}o {\rBase}parto
+Dialogue: 0,0:00:06.74,0:00:06.88,Base,,0,0,0,,{\rBase}oxitocina {\rHot\t(0,120,\fscx115\fscy115)}o {\rBase}parto
+Dialogue: 0,0:00:06.88,0:00:07.25,Base,,0,0,0,,{\rBase}oxitocina {\rBase}o {\rHot\t(0,120,\fscx115\fscy115)}parto
+Dialogue: 0,0:00:07.20,0:00:08.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}vaginal. {\rBase}En {\rBase}un
+Dialogue: 0,0:00:08.00,0:00:08.60,Base,,0,0,0,,{\rBase}vaginal. {\rHot\t(0,120,\fscx115\fscy115)}En {\rBase}un
+Dialogue: 0,0:00:08.60,0:00:08.77,Base,,0,0,0,,{\rBase}vaginal. {\rBase}En {\rHot\t(0,120,\fscx115\fscy115)}un
+Dialogue: 0,0:00:08.72,0:00:09.02,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}parto {\rBase}obstruido, {\rBase}el
+Dialogue: 0,0:00:09.02,0:00:09.90,Base,,0,0,0,,{\rBase}parto {\rHot\t(0,120,\fscx115\fscy115)}obstruido, {\rBase}el
+Dialogue: 0,0:00:09.90,0:00:10.09,Base,,0,0,0,,{\rBase}parto {\rBase}obstruido, {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:10.04,0:00:10.52,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}segmento {\rBase}superior {\rBase}se
+Dialogue: 0,0:00:10.52,0:00:10.92,Base,,0,0,0,,{\rBase}segmento {\rHot\t(0,120,\fscx115\fscy115)}superior {\rBase}se
+Dialogue: 0,0:00:10.92,0:00:11.19,Base,,0,0,0,,{\rBase}segmento {\rBase}superior {\rHot\t(0,120,\fscx115\fscy115)}se
+Dialogue: 0,0:00:11.14,0:00:11.70,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}contrae {\rBase}y {\rBase}engrosa.
+Dialogue: 0,0:00:11.70,0:00:11.84,Base,,0,0,0,,{\rBase}contrae {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}engrosa.
+Dialogue: 0,0:00:11.84,0:00:12.41,Base,,0,0,0,,{\rBase}contrae {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}engrosa.
+Dialogue: 0,0:00:12.66,0:00:13.02,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}El {\rBase}inferior {\rBase}se
+Dialogue: 0,0:00:13.02,0:00:13.42,Base,,0,0,0,,{\rBase}El {\rHot\t(0,120,\fscx115\fscy115)}inferior {\rBase}se
+Dialogue: 0,0:00:13.42,0:00:13.73,Base,,0,0,0,,{\rBase}El {\rBase}inferior {\rHot\t(0,120,\fscx115\fscy115)}se
+Dialogue: 0,0:00:13.68,0:00:14.20,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}distiende {\rBase}hasta {\rBase}adelgazarse
+Dialogue: 0,0:00:14.20,0:00:14.46,Base,,0,0,0,,{\rBase}distiende {\rHot\t(0,120,\fscx115\fscy115)}hasta {\rBase}adelgazarse
+Dialogue: 0,0:00:14.46,0:00:15.29,Base,,0,0,0,,{\rBase}distiende {\rBase}hasta {\rHot\t(0,120,\fscx115\fscy115)}adelgazarse
+Dialogue: 0,0:00:15.24,0:00:15.40,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}al {\rBase}máximo. {\rBase}La
+Dialogue: 0,0:00:15.40,0:00:16.20,Base,,0,0,0,,{\rBase}al {\rHot\t(0,120,\fscx115\fscy115)}máximo. {\rBase}La
+Dialogue: 0,0:00:16.20,0:00:16.63,Base,,0,0,0,,{\rBase}al {\rBase}máximo. {\rHot\t(0,120,\fscx115\fscy115)}La
+Dialogue: 0,0:00:16.58,0:00:16.88,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}línea {\rBase}limítrofe {\rBase}entre
+Dialogue: 0,0:00:16.88,0:00:17.56,Base,,0,0,0,,{\rBase}línea {\rHot\t(0,120,\fscx115\fscy115)}limítrofe {\rBase}entre
+Dialogue: 0,0:00:17.56,0:00:17.85,Base,,0,0,0,,{\rBase}línea {\rBase}limítrofe {\rHot\t(0,120,\fscx115\fscy115)}entre
+Dialogue: 0,0:00:17.80,0:00:18.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}ambos {\rBase}asciende {\rBase}sobre
+Dialogue: 0,0:00:18.26,0:00:18.94,Base,,0,0,0,,{\rBase}ambos {\rHot\t(0,120,\fscx115\fscy115)}asciende {\rBase}sobre
+Dialogue: 0,0:00:18.94,0:00:19.29,Base,,0,0,0,,{\rBase}ambos {\rBase}asciende {\rHot\t(0,120,\fscx115\fscy115)}sobre
+Dialogue: 0,0:00:19.24,0:00:19.44,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}sínfisis {\rBase}y
+Dialogue: 0,0:00:19.44,0:00:20.06,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}sínfisis {\rBase}y
+Dialogue: 0,0:00:20.06,0:00:20.45,Base,,0,0,0,,{\rBase}la {\rBase}sínfisis {\rHot\t(0,120,\fscx115\fscy115)}y
+Dialogue: 0,0:00:20.40,0:00:20.58,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}se {\rBase}hace {\rBase}visible
+Dialogue: 0,0:00:20.58,0:00:20.76,Base,,0,0,0,,{\rBase}se {\rHot\t(0,120,\fscx115\fscy115)}hace {\rBase}visible
+Dialogue: 0,0:00:20.76,0:00:21.39,Base,,0,0,0,,{\rBase}se {\rBase}hace {\rHot\t(0,120,\fscx115\fscy115)}visible
+Dialogue: 0,0:00:21.34,0:00:21.50,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}palpable {\rBase}como
+Dialogue: 0,0:00:21.50,0:00:22.10,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}palpable {\rBase}como
+Dialogue: 0,0:00:22.10,0:00:22.79,Base,,0,0,0,,{\rBase}y {\rBase}palpable {\rHot\t(0,120,\fscx115\fscy115)}como
+Dialogue: 0,0:00:22.74,0:00:23.16,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}anillo {\rBase}de {\rBase}Vandell.
+Dialogue: 0,0:00:23.16,0:00:23.30,Base,,0,0,0,,{\rBase}anillo {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}Vandell.
+Dialogue: 0,0:00:23.30,0:00:23.81,Base,,0,0,0,,{\rBase}anillo {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}Vandell.
+Dialogue: 0,0:00:24.18,0:00:24.66,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Es {\rBase}señal {\rBase}de
+Dialogue: 0,0:00:24.66,0:00:25.08,Base,,0,0,0,,{\rBase}Es {\rHot\t(0,120,\fscx115\fscy115)}señal {\rBase}de
+Dialogue: 0,0:00:25.08,0:00:25.31,Base,,0,0,0,,{\rBase}Es {\rBase}señal {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:25.26,0:00:25.70,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}rotura {\rBase}uterina {\rBase}inminente
+Dialogue: 0,0:00:25.70,0:00:26.20,Base,,0,0,0,,{\rBase}rotura {\rHot\t(0,120,\fscx115\fscy115)}uterina {\rBase}inminente
+Dialogue: 0,0:00:26.20,0:00:26.89,Base,,0,0,0,,{\rBase}rotura {\rBase}uterina {\rHot\t(0,120,\fscx115\fscy115)}inminente
+Dialogue: 0,0:00:26.84,0:00:27.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}exige {\rBase}cesárea
+Dialogue: 0,0:00:27.28,0:00:27.72,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}exige {\rBase}cesárea
+Dialogue: 0,0:00:27.72,0:00:28.29,Base,,0,0,0,,{\rBase}y {\rBase}exige {\rHot\t(0,120,\fscx115\fscy115)}cesárea
+Dialogue: 0,0:00:28.24,0:00:28.40,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}emergencia.
+Dialogue: 0,0:00:28.40,0:00:29.19,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}emergencia.

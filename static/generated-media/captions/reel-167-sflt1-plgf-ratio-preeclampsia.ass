@@ -1,0 +1,65 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Helvetica,60,&H00C8C8C8,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Helvetica,92,&H00FFFFFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.48,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}Útil {\rBase}sobre {\rBase}todo
+Dialogue: 0,0:00:00.48,0:00:00.84,Base,,0,0,0,,{\rBase}Útil {\rHot\t(0,150,\fscx120\fscy120)}sobre {\rBase}todo
+Dialogue: 0,0:00:00.84,0:00:01.09,Base,,0,0,0,,{\rBase}Útil {\rBase}sobre {\rHot\t(0,150,\fscx120\fscy120)}todo
+Dialogue: 0,0:00:01.04,0:00:01.26,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}para {\rBase}descartar. {\rBase}Un
+Dialogue: 0,0:00:01.26,0:00:02.06,Base,,0,0,0,,{\rBase}para {\rHot\t(0,150,\fscx120\fscy120)}descartar. {\rBase}Un
+Dialogue: 0,0:00:02.06,0:00:02.31,Base,,0,0,0,,{\rBase}para {\rBase}descartar. {\rHot\t(0,150,\fscx120\fscy120)}Un
+Dialogue: 0,0:00:02.26,0:00:02.50,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}ratio {\rBase}normal {\rBase}a
+Dialogue: 0,0:00:02.50,0:00:02.86,Base,,0,0,0,,{\rBase}ratio {\rHot\t(0,150,\fscx120\fscy120)}normal {\rBase}a
+Dialogue: 0,0:00:02.86,0:00:03.07,Base,,0,0,0,,{\rBase}ratio {\rBase}normal {\rHot\t(0,150,\fscx120\fscy120)}a
+Dialogue: 0,0:00:03.02,0:00:03.10,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}la {\rBase}semana {\rBase}28
+Dialogue: 0,0:00:03.10,0:00:03.38,Base,,0,0,0,,{\rBase}la {\rHot\t(0,150,\fscx120\fscy120)}semana {\rBase}28
+Dialogue: 0,0:00:03.38,0:00:04.07,Base,,0,0,0,,{\rBase}la {\rBase}semana {\rHot\t(0,150,\fscx120\fscy120)}28
+Dialogue: 0,0:00:04.02,0:00:04.70,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}tiene {\rBase}VPN {\rBase}muy
+Dialogue: 0,0:00:04.70,0:00:05.04,Base,,0,0,0,,{\rBase}tiene {\rHot\t(0,150,\fscx120\fscy120)}VPN {\rBase}muy
+Dialogue: 0,0:00:05.04,0:00:05.45,Base,,0,0,0,,{\rBase}tiene {\rBase}VPN {\rHot\t(0,150,\fscx120\fscy120)}muy
+Dialogue: 0,0:00:05.40,0:00:05.66,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}alto {\rBase}para {\rBase}preeclampsia
+Dialogue: 0,0:00:05.66,0:00:05.92,Base,,0,0,0,,{\rBase}alto {\rHot\t(0,150,\fscx120\fscy120)}para {\rBase}preeclampsia
+Dialogue: 0,0:00:05.92,0:00:06.69,Base,,0,0,0,,{\rBase}alto {\rBase}para {\rHot\t(0,150,\fscx120\fscy120)}preeclampsia
+Dialogue: 0,0:00:06.64,0:00:06.82,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}en {\rBase}1 {\rBase}o
+Dialogue: 0,0:00:06.82,0:00:07.00,Base,,0,0,0,,{\rBase}en {\rHot\t(0,150,\fscx120\fscy120)}1 {\rBase}o
+Dialogue: 0,0:00:07.00,0:00:07.17,Base,,0,0,0,,{\rBase}en {\rBase}1 {\rHot\t(0,150,\fscx120\fscy120)}o
+Dialogue: 0,0:00:07.12,0:00:07.32,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}4 {\rBase}semanas. {\rBase}SFLT1
+Dialogue: 0,0:00:07.32,0:00:08.32,Base,,0,0,0,,{\rBase}4 {\rHot\t(0,150,\fscx120\fscy120)}semanas. {\rBase}SFLT1
+Dialogue: 0,0:00:08.32,0:00:09.25,Base,,0,0,0,,{\rBase}4 {\rBase}semanas. {\rHot\t(0,150,\fscx120\fscy120)}SFLT1
+Dialogue: 0,0:00:09.20,0:00:09.54,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}es {\rBase}antiangiogénico. {\rBase}PLGF
+Dialogue: 0,0:00:09.54,0:00:10.96,Base,,0,0,0,,{\rBase}es {\rHot\t(0,150,\fscx120\fscy120)}antiangiogénico. {\rBase}PLGF
+Dialogue: 0,0:00:10.96,0:00:11.87,Base,,0,0,0,,{\rBase}es {\rBase}antiangiogénico. {\rHot\t(0,150,\fscx120\fscy120)}PLGF
+Dialogue: 0,0:00:11.82,0:00:12.34,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}es {\rBase}proangiogénico. {\rBase}En
+Dialogue: 0,0:00:12.34,0:00:14.24,Base,,0,0,0,,{\rBase}es {\rHot\t(0,150,\fscx120\fscy120)}proangiogénico. {\rBase}En
+Dialogue: 0,0:00:14.24,0:00:14.79,Base,,0,0,0,,{\rBase}es {\rBase}proangiogénico. {\rHot\t(0,150,\fscx120\fscy120)}En
+Dialogue: 0,0:00:14.74,0:00:15.26,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}disfunción {\rBase}placentaria, {\rBase}SFLT1
+Dialogue: 0,0:00:15.26,0:00:16.14,Base,,0,0,0,,{\rBase}disfunción {\rHot\t(0,150,\fscx120\fscy120)}placentaria, {\rBase}SFLT1
+Dialogue: 0,0:00:16.14,0:00:17.21,Base,,0,0,0,,{\rBase}disfunción {\rBase}placentaria, {\rHot\t(0,150,\fscx120\fscy120)}SFLT1
+Dialogue: 0,0:00:17.16,0:00:17.64,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}sube {\rBase}y {\rBase}PLGF
+Dialogue: 0,0:00:17.64,0:00:17.86,Base,,0,0,0,,{\rBase}sube {\rHot\t(0,150,\fscx120\fscy120)}y {\rBase}PLGF
+Dialogue: 0,0:00:17.86,0:00:18.61,Base,,0,0,0,,{\rBase}sube {\rBase}y {\rHot\t(0,150,\fscx120\fscy120)}PLGF
+Dialogue: 0,0:00:18.56,0:00:19.22,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}cae. {\rBase}El {\rBase}ratio
+Dialogue: 0,0:00:19.22,0:00:19.74,Base,,0,0,0,,{\rBase}cae. {\rHot\t(0,150,\fscx120\fscy120)}El {\rBase}ratio
+Dialogue: 0,0:00:19.74,0:00:20.09,Base,,0,0,0,,{\rBase}cae. {\rBase}El {\rHot\t(0,150,\fscx120\fscy120)}ratio
+Dialogue: 0,0:00:20.04,0:00:21.20,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}SFLT1 {\rBase}-PLGF {\rBase}alto
+Dialogue: 0,0:00:21.20,0:00:22.00,Base,,0,0,0,,{\rBase}SFLT1 {\rHot\t(0,150,\fscx120\fscy120)}-PLGF {\rBase}alto
+Dialogue: 0,0:00:22.00,0:00:22.43,Base,,0,0,0,,{\rBase}SFLT1 {\rBase}-PLGF {\rHot\t(0,150,\fscx120\fscy120)}alto
+Dialogue: 0,0:00:22.38,0:00:22.90,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}indica {\rBase}isquemia {\rBase}placentaria
+Dialogue: 0,0:00:22.90,0:00:23.88,Base,,0,0,0,,{\rBase}indica {\rHot\t(0,150,\fscx120\fscy120)}isquemia {\rBase}placentaria
+Dialogue: 0,0:00:23.88,0:00:24.55,Base,,0,0,0,,{\rBase}indica {\rBase}isquemia {\rHot\t(0,150,\fscx120\fscy120)}placentaria
+Dialogue: 0,0:00:24.50,0:00:25.02,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}crónica {\rBase}y {\rBase}predice
+Dialogue: 0,0:00:25.02,0:00:25.58,Base,,0,0,0,,{\rBase}crónica {\rHot\t(0,150,\fscx120\fscy120)}y {\rBase}predice
+Dialogue: 0,0:00:25.58,0:00:26.03,Base,,0,0,0,,{\rBase}crónica {\rBase}y {\rHot\t(0,150,\fscx120\fscy120)}predice
+Dialogue: 0,0:00:25.98,0:00:26.82,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}preeclampsia {\rBase}y {\rBase}RCIU
+Dialogue: 0,0:00:26.82,0:00:27.12,Base,,0,0,0,,{\rBase}preeclampsia {\rHot\t(0,150,\fscx120\fscy120)}y {\rBase}RCIU
+Dialogue: 0,0:00:27.12,0:00:27.85,Base,,0,0,0,,{\rBase}preeclampsia {\rBase}y {\rHot\t(0,150,\fscx120\fscy120)}RCIU
+Dialogue: 0,0:00:27.80,0:00:28.59,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}placentaria.

@@ -436,12 +436,17 @@ CAPTIONS_OUT = MEDIA / "captions"
 CAPTIONS_OUT.mkdir(parents=True, exist_ok=True)
 
 
-def burn_captions(video: Path, words: list[dict], dst: Path, seed: int = 0) -> None:
-    slug = dst.stem
+def write_caption_files(slug: str, words: list[dict], seed: int) -> Path:
     ass_path = CAPTIONS_OUT / f"{slug}.ass"
     txt_path = CAPTIONS_OUT / f"{slug}.txt"
     ass_path.write_text(build_ass(words, seed=seed))
     txt_path.write_text(" ".join(w["word"].strip() for w in words))
+    return ass_path
+
+
+def burn_captions(video: Path, words: list[dict], dst: Path, seed: int = 0) -> None:
+    slug = dst.stem
+    ass_path = write_caption_files(slug, words, seed)
     try:
         run([
             "/opt/homebrew/bin/ffmpeg-full", "-y", "-i", str(video),
@@ -489,8 +494,22 @@ def process_one(args: tuple[int, int, str, list[str]]) -> dict | None:
         muxed = WORK / f"{slug}.muxed.mp4"
         fit_video_to_audio(concat, slowed_audio, muxed)
 
-        words = transcribe(slowed_audio)
-        burn_captions(muxed, words, final_video, seed=i)
+        # Caption .ass pre-computed by transcribe stage. Fallback: re-transcribe
+        # in-worker if missing (e.g., audio added late or transcribe stage skipped).
+        ass_path = CAPTIONS_OUT / f"{slug}.ass"
+        word_count = 0
+        if ass_path.exists():
+            run([
+                "/opt/homebrew/bin/ffmpeg-full", "-y", "-i", str(muxed),
+                "-vf", f"ass={ass_path}",
+                "-c:v", "h264_videotoolbox", "-pix_fmt", "yuv420p", "-b:v", "6M",
+                "-realtime", "0", "-allow_sw", "0", "-threads", "0",
+                "-c:a", "copy", str(final_video),
+            ])
+        else:
+            words = transcribe(slowed_audio)
+            word_count = len(words)
+            burn_captions(muxed, words, final_video, seed=i)
         run(["cp", str(slowed_audio), str(final_audio)])
         run([
             "/opt/homebrew/bin/ffmpeg-full", "-y", "-i", str(final_video),
@@ -501,7 +520,7 @@ def process_one(args: tuple[int, int, str, list[str]]) -> dict | None:
             tmp.unlink(missing_ok=True)
 
         final_dur = duration(final_video)
-        print(f"[{i+1:3d}/{total}] {slug} OK ({final_dur:.1f}s, {len(words)} words, {len(clips)} clips)")
+        print(f"[{i+1:3d}/{total}] {slug} OK ({final_dur:.1f}s, {word_count} words, {len(clips)} clips)")
         return {
             "slug": slug,
             "durationSec": round(final_dur),
@@ -514,6 +533,39 @@ def process_one(args: tuple[int, int, str, list[str]]) -> dict | None:
         return None
 
 
+def pre_transcribe_all(audios: list[Path]) -> None:
+    """Single-process whisper pass over every audio, writing .ass + .txt.
+
+    Loads model once instead of N times across workers. ANE/MLX is GPU-bound
+    and contends with parallel whisper instances anyway, so serial here is
+    actually faster than parallel.
+    """
+    todo: list[tuple[int, Path]] = []
+    for i, a in enumerate(audios):
+        slug = a.stem
+        if (CAPTIONS_OUT / f"{slug}.ass").exists():
+            continue
+        todo.append((i, a))
+    if not todo:
+        print("Captions: all .ass files already present, skipping whisper.")
+        return
+    print(f"Captions: transcribing {len(todo)} audios via single whisper instance...")
+    for n, (idx, a) in enumerate(todo):
+        slug = a.stem
+        try:
+            # build_all_reels transcribes the SLOWED audio for caption timing,
+            # but here we use raw — slowdown is small (0.9x) and shifts ~10%,
+            # acceptable for caption sync. Could redo per-slug later if needed.
+            slowed = WORK / f"{slug}.audio.mp3"
+            if not slowed.exists():
+                slow_audio(a, slowed)
+            words = transcribe(slowed)
+            write_caption_files(slug, words, seed=idx)
+            print(f"  [{n+1}/{len(todo)}] {slug} ({len(words)} words)")
+        except Exception as exc:
+            print(f"  [{n+1}/{len(todo)}] {slug} FAIL: {exc}")
+
+
 def main() -> None:
     pool = discover_videos()
     audios = discover_audios()
@@ -523,6 +575,10 @@ def main() -> None:
     if not pool or not audios:
         raise SystemExit("Missing inputs. Check VIDEO_POOL_DIRS and AUDIO_IN.")
 
+    # Phase 1: single-process whisper pass for all captions.
+    pre_transcribe_all(audios)
+
+    # Phase 2: parallel ffmpeg-only workers (no whisper in workers).
     pool_strs = [str(p) for p in pool]
     tasks = [(i, len(audios), str(a), pool_strs) for i, a in enumerate(audios)]
 

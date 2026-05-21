@@ -1,0 +1,78 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H003C3CE6,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.58,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Restos {\rBase}placentarios {\rBase}retenidos
+Dialogue: 0,0:00:00.58,0:00:01.34,Base,,0,0,0,,{\rBase}Restos {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}placentarios {\rBase}retenidos
+Dialogue: 0,0:00:01.34,0:00:02.05,Base,,0,0,0,,{\rBase}Restos {\rBase}placentarios {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}retenidos
+Dialogue: 0,0:00:02.00,0:00:02.60,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}retrasan {\rBase}la {\rBase}subida
+Dialogue: 0,0:00:02.60,0:00:02.72,Base,,0,0,0,,{\rBase}retrasan {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}subida
+Dialogue: 0,0:00:02.72,0:00:03.17,Base,,0,0,0,,{\rBase}retrasan {\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}subida
+Dialogue: 0,0:00:03.12,0:00:03.28,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}leche {\rBase}porque
+Dialogue: 0,0:00:03.28,0:00:03.58,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}leche {\rBase}porque
+Dialogue: 0,0:00:03.58,0:00:03.99,Base,,0,0,0,,{\rBase}de {\rBase}leche {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}porque
+Dialogue: 0,0:00:03.94,0:00:04.48,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}mantienen {\rBase}progesterona {\rBase}alta.
+Dialogue: 0,0:00:04.48,0:00:05.24,Base,,0,0,0,,{\rBase}mantienen {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}progesterona {\rBase}alta.
+Dialogue: 0,0:00:05.24,0:00:05.73,Base,,0,0,0,,{\rBase}mantienen {\rBase}progesterona {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}alta.
+Dialogue: 0,0:00:06.02,0:00:06.70,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Siempre {\rBase}considerar {\rBase}si
+Dialogue: 0,0:00:06.70,0:00:07.36,Base,,0,0,0,,{\rBase}Siempre {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}considerar {\rBase}si
+Dialogue: 0,0:00:07.36,0:00:07.57,Base,,0,0,0,,{\rBase}Siempre {\rBase}considerar {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}si
+Dialogue: 0,0:00:07.52,0:00:07.66,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}lactogénesis {\rBase}se
+Dialogue: 0,0:00:07.66,0:00:08.36,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}lactogénesis {\rBase}se
+Dialogue: 0,0:00:08.36,0:00:08.65,Base,,0,0,0,,{\rBase}la {\rBase}lactogénesis {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}se
+Dialogue: 0,0:00:08.60,0:00:08.92,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}demora {\rBase}72 {\rBase}horas.
+Dialogue: 0,0:00:08.92,0:00:09.48,Base,,0,0,0,,{\rBase}demora {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}72 {\rBase}horas.
+Dialogue: 0,0:00:09.48,0:00:09.95,Base,,0,0,0,,{\rBase}demora {\rBase}72 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}horas.
+Dialogue: 0,0:00:10.26,0:00:10.68,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La {\rBase}prolactina {\rBase}ya
+Dialogue: 0,0:00:10.68,0:00:11.34,Base,,0,0,0,,{\rBase}La {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}prolactina {\rBase}ya
+Dialogue: 0,0:00:11.34,0:00:11.57,Base,,0,0,0,,{\rBase}La {\rBase}prolactina {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ya
+Dialogue: 0,0:00:11.52,0:00:11.74,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}está {\rBase}alta {\rBase}antes
+Dialogue: 0,0:00:11.74,0:00:12.06,Base,,0,0,0,,{\rBase}está {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}alta {\rBase}antes
+Dialogue: 0,0:00:12.06,0:00:12.43,Base,,0,0,0,,{\rBase}está {\rBase}alta {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}antes
+Dialogue: 0,0:00:12.38,0:00:12.60,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}del {\rBase}parto, {\rBase}pero
+Dialogue: 0,0:00:12.60,0:00:13.20,Base,,0,0,0,,{\rBase}del {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}parto, {\rBase}pero
+Dialogue: 0,0:00:13.20,0:00:13.59,Base,,0,0,0,,{\rBase}del {\rBase}parto, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pero
+Dialogue: 0,0:00:13.54,0:00:13.72,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}progesterona {\rBase}placentaria
+Dialogue: 0,0:00:13.72,0:00:14.46,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}progesterona {\rBase}placentaria
+Dialogue: 0,0:00:14.46,0:00:15.21,Base,,0,0,0,,{\rBase}la {\rBase}progesterona {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}placentaria
+Dialogue: 0,0:00:15.16,0:00:15.76,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}bloquea {\rBase}sus {\rBase}receptores
+Dialogue: 0,0:00:15.76,0:00:16.02,Base,,0,0,0,,{\rBase}bloquea {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sus {\rBase}receptores
+Dialogue: 0,0:00:16.02,0:00:16.75,Base,,0,0,0,,{\rBase}bloquea {\rBase}sus {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}receptores
+Dialogue: 0,0:00:16.70,0:00:17.58,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}mamarios. {\rBase}Al {\rBase}expulsar
+Dialogue: 0,0:00:17.58,0:00:17.74,Base,,0,0,0,,{\rBase}mamarios. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Al {\rBase}expulsar
+Dialogue: 0,0:00:17.74,0:00:18.31,Base,,0,0,0,,{\rBase}mamarios. {\rBase}Al {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}expulsar
+Dialogue: 0,0:00:18.26,0:00:18.38,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}placenta, {\rBase}la
+Dialogue: 0,0:00:18.38,0:00:19.18,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}placenta, {\rBase}la
+Dialogue: 0,0:00:19.18,0:00:19.55,Base,,0,0,0,,{\rBase}la {\rBase}placenta, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la
+Dialogue: 0,0:00:19.50,0:00:20.16,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}progesterona {\rBase}y {\rBase}los
+Dialogue: 0,0:00:20.16,0:00:20.26,Base,,0,0,0,,{\rBase}progesterona {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}los
+Dialogue: 0,0:00:20.26,0:00:20.49,Base,,0,0,0,,{\rBase}progesterona {\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}los
+Dialogue: 0,0:00:20.44,0:00:21.02,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}estrógenos {\rBase}caen {\rBase}abruptamente
+Dialogue: 0,0:00:21.02,0:00:21.40,Base,,0,0,0,,{\rBase}estrógenos {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}caen {\rBase}abruptamente
+Dialogue: 0,0:00:21.40,0:00:22.23,Base,,0,0,0,,{\rBase}estrógenos {\rBase}caen {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}abruptamente
+Dialogue: 0,0:00:22.18,0:00:22.78,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}la {\rBase}prolactina
+Dialogue: 0,0:00:22.78,0:00:22.92,Base,,0,0,0,,{\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}prolactina
+Dialogue: 0,0:00:22.92,0:00:23.61,Base,,0,0,0,,{\rBase}y {\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}prolactina
+Dialogue: 0,0:00:23.56,0:00:23.88,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}puede {\rBase}actuar {\rBase}libremente.
+Dialogue: 0,0:00:23.88,0:00:24.30,Base,,0,0,0,,{\rBase}puede {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}actuar {\rBase}libremente.
+Dialogue: 0,0:00:24.30,0:00:25.45,Base,,0,0,0,,{\rBase}puede {\rBase}actuar {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}libremente.
+Dialogue: 0,0:00:25.64,0:00:26.14,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El {\rBase}calostro {\rBase}pasa
+Dialogue: 0,0:00:26.14,0:00:26.64,Base,,0,0,0,,{\rBase}El {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}calostro {\rBase}pasa
+Dialogue: 0,0:00:26.64,0:00:27.01,Base,,0,0,0,,{\rBase}El {\rBase}calostro {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pasa
+Dialogue: 0,0:00:26.96,0:00:27.08,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}a {\rBase}leche {\rBase}madura
+Dialogue: 0,0:00:27.08,0:00:27.26,Base,,0,0,0,,{\rBase}a {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}leche {\rBase}madura
+Dialogue: 0,0:00:27.26,0:00:27.75,Base,,0,0,0,,{\rBase}a {\rBase}leche {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}madura
+Dialogue: 0,0:00:27.70,0:00:27.94,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}entre {\rBase}24 {\rBase}y
+Dialogue: 0,0:00:27.94,0:00:28.42,Base,,0,0,0,,{\rBase}entre {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}24 {\rBase}y
+Dialogue: 0,0:00:28.42,0:00:28.81,Base,,0,0,0,,{\rBase}entre {\rBase}24 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y
+Dialogue: 0,0:00:28.76,0:00:29.34,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}72 {\rBase}horas.
+Dialogue: 0,0:00:29.34,0:00:29.81,Base,,0,0,0,,{\rBase}72 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}horas.

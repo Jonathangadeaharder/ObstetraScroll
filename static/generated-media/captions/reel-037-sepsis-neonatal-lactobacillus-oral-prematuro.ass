@@ -1,0 +1,70 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Arial Black,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Arial Black,84,&H00FF3CFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.48,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}Durante {\rBase}años {\rBase}se
+Dialogue: 0,0:00:00.48,0:00:00.86,Base,,0,0,0,,{\rBase}Durante {\rHot\frz-3\t(0,200,\frz3)}años {\rBase}se
+Dialogue: 0,0:00:00.86,0:00:01.15,Base,,0,0,0,,{\rBase}Durante {\rBase}años {\rHot\frz-3\t(0,200,\frz3)}se
+Dialogue: 0,0:00:01.10,0:00:01.44,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}evitó {\rBase}administrar {\rBase}cualquier
+Dialogue: 0,0:00:01.44,0:00:02.10,Base,,0,0,0,,{\rBase}evitó {\rHot\frz-3\t(0,200,\frz3)}administrar {\rBase}cualquier
+Dialogue: 0,0:00:02.10,0:00:02.79,Base,,0,0,0,,{\rBase}evitó {\rBase}administrar {\rHot\frz-3\t(0,200,\frz3)}cualquier
+Dialogue: 0,0:00:02.74,0:00:03.20,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}bacteria {\rBase}viva {\rBase}a
+Dialogue: 0,0:00:03.20,0:00:03.58,Base,,0,0,0,,{\rBase}bacteria {\rHot\frz-3\t(0,200,\frz3)}viva {\rBase}a
+Dialogue: 0,0:00:03.58,0:00:03.89,Base,,0,0,0,,{\rBase}bacteria {\rBase}viva {\rHot\frz-3\t(0,200,\frz3)}a
+Dialogue: 0,0:00:03.84,0:00:04.38,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}neonatos {\rBase}inmunocomprometidos {\rBase}por
+Dialogue: 0,0:00:04.38,0:00:05.96,Base,,0,0,0,,{\rBase}neonatos {\rHot\frz-3\t(0,200,\frz3)}inmunocomprometidos {\rBase}por
+Dialogue: 0,0:00:05.96,0:00:06.69,Base,,0,0,0,,{\rBase}neonatos {\rBase}inmunocomprometidos {\rHot\frz-3\t(0,200,\frz3)}por
+Dialogue: 0,0:00:06.64,0:00:06.98,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}temor {\rBase}a {\rBase}sepsis
+Dialogue: 0,0:00:06.98,0:00:07.08,Base,,0,0,0,,{\rBase}temor {\rHot\frz-3\t(0,200,\frz3)}a {\rBase}sepsis
+Dialogue: 0,0:00:07.08,0:00:07.71,Base,,0,0,0,,{\rBase}temor {\rBase}a {\rHot\frz-3\t(0,200,\frz3)}sepsis
+Dialogue: 0,0:00:07.66,0:00:08.04,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}por {\rBase}probióticos, {\rBase}pero
+Dialogue: 0,0:00:08.04,0:00:09.06,Base,,0,0,0,,{\rBase}por {\rHot\frz-3\t(0,200,\frz3)}probióticos, {\rBase}pero
+Dialogue: 0,0:00:09.06,0:00:09.67,Base,,0,0,0,,{\rBase}por {\rBase}probióticos, {\rHot\frz-3\t(0,200,\frz3)}pero
+Dialogue: 0,0:00:09.62,0:00:09.76,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}el {\rBase}perfil {\rBase}de
+Dialogue: 0,0:00:09.76,0:00:10.16,Base,,0,0,0,,{\rBase}el {\rHot\frz-3\t(0,200,\frz3)}perfil {\rBase}de
+Dialogue: 0,0:00:10.16,0:00:10.33,Base,,0,0,0,,{\rBase}el {\rBase}perfil {\rHot\frz-3\t(0,200,\frz3)}de
+Dialogue: 0,0:00:10.28,0:00:10.74,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}seguridad {\rBase}es {\rBase}excelente
+Dialogue: 0,0:00:10.74,0:00:11.12,Base,,0,0,0,,{\rBase}seguridad {\rHot\frz-3\t(0,200,\frz3)}es {\rBase}excelente
+Dialogue: 0,0:00:11.12,0:00:11.77,Base,,0,0,0,,{\rBase}seguridad {\rBase}es {\rHot\frz-3\t(0,200,\frz3)}excelente
+Dialogue: 0,0:00:11.72,0:00:11.96,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}con {\rBase}cepas {\rBase}específicas.
+Dialogue: 0,0:00:11.96,0:00:12.30,Base,,0,0,0,,{\rBase}con {\rHot\frz-3\t(0,200,\frz3)}cepas {\rBase}específicas.
+Dialogue: 0,0:00:12.30,0:00:13.17,Base,,0,0,0,,{\rBase}con {\rBase}cepas {\rHot\frz-3\t(0,200,\frz3)}específicas.
+Dialogue: 0,0:00:13.32,0:00:14.22,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}La {\rBase}administración {\rBase}oral
+Dialogue: 0,0:00:14.22,0:00:14.92,Base,,0,0,0,,{\rBase}La {\rHot\frz-3\t(0,200,\frz3)}administración {\rBase}oral
+Dialogue: 0,0:00:14.92,0:00:15.17,Base,,0,0,0,,{\rBase}La {\rBase}administración {\rHot\frz-3\t(0,200,\frz3)}oral
+Dialogue: 0,0:00:15.12,0:00:15.32,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}de {\rBase}probióticos, {\rBase}Lactobacillus
+Dialogue: 0,0:00:15.32,0:00:16.26,Base,,0,0,0,,{\rBase}de {\rHot\frz-3\t(0,200,\frz3)}probióticos, {\rBase}Lactobacillus
+Dialogue: 0,0:00:16.26,0:00:17.43,Base,,0,0,0,,{\rBase}de {\rBase}probióticos, {\rHot\frz-3\t(0,200,\frz3)}Lactobacillus
+Dialogue: 0,0:00:17.38,0:00:18.36,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}SPP {\rBase}plus {\rBase}Bifidobacterium
+Dialogue: 0,0:00:18.36,0:00:19.26,Base,,0,0,0,,{\rBase}SPP {\rHot\frz-3\t(0,200,\frz3)}plus {\rBase}Bifidobacterium
+Dialogue: 0,0:00:19.26,0:00:20.97,Base,,0,0,0,,{\rBase}SPP {\rBase}plus {\rHot\frz-3\t(0,200,\frz3)}Bifidobacterium
+Dialogue: 0,0:00:20.92,0:00:22.44,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}SPP, {\rBase}recién {\rBase}nacidos
+Dialogue: 0,0:00:22.44,0:00:22.82,Base,,0,0,0,,{\rBase}SPP, {\rHot\frz-3\t(0,200,\frz3)}recién {\rBase}nacidos
+Dialogue: 0,0:00:22.82,0:00:23.21,Base,,0,0,0,,{\rBase}SPP, {\rBase}recién {\rHot\frz-3\t(0,200,\frz3)}nacidos
+Dialogue: 0,0:00:23.16,0:00:23.80,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}prematuros {\rBase}reduce {\rBase}la
+Dialogue: 0,0:00:23.80,0:00:24.42,Base,,0,0,0,,{\rBase}prematuros {\rHot\frz-3\t(0,200,\frz3)}reduce {\rBase}la
+Dialogue: 0,0:00:24.42,0:00:24.71,Base,,0,0,0,,{\rBase}prematuros {\rBase}reduce {\rHot\frz-3\t(0,200,\frz3)}la
+Dialogue: 0,0:00:24.66,0:00:25.18,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}incidencia {\rBase}de {\rBase}enterocolitis
+Dialogue: 0,0:00:25.18,0:00:25.28,Base,,0,0,0,,{\rBase}incidencia {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}enterocolitis
+Dialogue: 0,0:00:25.28,0:00:26.03,Base,,0,0,0,,{\rBase}incidencia {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}enterocolitis
+Dialogue: 0,0:00:25.98,0:00:26.92,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}necrotizante {\rBase}en {\rBase}un
+Dialogue: 0,0:00:26.92,0:00:27.62,Base,,0,0,0,,{\rBase}necrotizante {\rHot\frz-3\t(0,200,\frz3)}en {\rBase}un
+Dialogue: 0,0:00:27.62,0:00:28.61,Base,,0,0,0,,{\rBase}necrotizante {\rBase}en {\rHot\frz-3\t(0,200,\frz3)}un
+Dialogue: 0,0:00:28.56,0:00:29.06,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}50 {\rBase}% {\rBase}y
+Dialogue: 0,0:00:29.06,0:00:29.42,Base,,0,0,0,,{\rBase}50 {\rHot\frz-3\t(0,200,\frz3)}% {\rBase}y
+Dialogue: 0,0:00:29.42,0:00:30.15,Base,,0,0,0,,{\rBase}50 {\rBase}% {\rHot\frz-3\t(0,200,\frz3)}y
+Dialogue: 0,0:00:30.10,0:00:30.20,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}la {\rBase}mortalidad {\rBase}asociada
+Dialogue: 0,0:00:30.20,0:00:30.70,Base,,0,0,0,,{\rBase}la {\rHot\frz-3\t(0,200,\frz3)}mortalidad {\rBase}asociada
+Dialogue: 0,0:00:30.70,0:00:31.25,Base,,0,0,0,,{\rBase}la {\rBase}mortalidad {\rHot\frz-3\t(0,200,\frz3)}asociada
+Dialogue: 0,0:00:31.20,0:00:31.34,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}en {\rBase}un {\rBase}25%.
+Dialogue: 0,0:00:31.34,0:00:31.46,Base,,0,0,0,,{\rBase}en {\rHot\frz-3\t(0,200,\frz3)}un {\rBase}25%.
+Dialogue: 0,0:00:31.46,0:00:32.47,Base,,0,0,0,,{\rBase}en {\rBase}un {\rHot\frz-3\t(0,200,\frz3)}25%.

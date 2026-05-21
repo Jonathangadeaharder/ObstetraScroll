@@ -1,74 +1,697 @@
 {
   "items": [
     {
-      "slug": "reel-01-hpp-oxitocina-profilaxis-10ui",
+      "slug": "reel-001-hpp-oxitocina-profilaxis-10ui",
       "durationSec": 24,
-      "videoPath": "/generated-media/reels/reel-01-hpp-oxitocina-profilaxis-10ui.mp4",
-      "audioPath": "/generated-media/audio/reel-01-hpp-oxitocina-profilaxis-10ui.mp3",
-      "posterPath": "/generated-media/posters/reel-01-hpp-oxitocina-profilaxis-10ui.jpg"
+      "videoPath": "/generated-media/reels/reel-001-hpp-oxitocina-profilaxis-10ui.mp4",
+      "audioPath": "/generated-media/audio/reel-001-hpp-oxitocina-profilaxis-10ui.mp3",
+      "posterPath": "/generated-media/posters/reel-001-hpp-oxitocina-profilaxis-10ui.jpg"
     },
     {
-      "slug": "reel-02-hpp-amtsl-vs-expectante",
+      "slug": "reel-002-hpp-amtsl-vs-expectante",
       "durationSec": 32,
-      "videoPath": "/generated-media/reels/reel-02-hpp-amtsl-vs-expectante.mp4",
-      "audioPath": "/generated-media/audio/reel-02-hpp-amtsl-vs-expectante.mp3",
-      "posterPath": "/generated-media/posters/reel-02-hpp-amtsl-vs-expectante.jpg"
+      "videoPath": "/generated-media/reels/reel-002-hpp-amtsl-vs-expectante.mp4",
+      "audioPath": "/generated-media/audio/reel-002-hpp-amtsl-vs-expectante.mp3",
+      "posterPath": "/generated-media/posters/reel-002-hpp-amtsl-vs-expectante.jpg"
     },
     {
-      "slug": "reel-03-hpp-acido-tranexamico-woman",
+      "slug": "reel-003-hpp-acido-tranexamico-woman",
       "durationSec": 29,
-      "videoPath": "/generated-media/reels/reel-03-hpp-acido-tranexamico-woman.mp4",
-      "audioPath": "/generated-media/audio/reel-03-hpp-acido-tranexamico-woman.mp3",
-      "posterPath": "/generated-media/posters/reel-03-hpp-acido-tranexamico-woman.jpg"
+      "videoPath": "/generated-media/reels/reel-003-hpp-acido-tranexamico-woman.mp4",
+      "audioPath": "/generated-media/audio/reel-003-hpp-acido-tranexamico-woman.mp3",
+      "posterPath": "/generated-media/posters/reel-003-hpp-acido-tranexamico-woman.jpg"
     },
     {
-      "slug": "reel-04-hpp-masaje-uterano-post-parto",
+      "slug": "reel-004-hpp-masaje-uterano-post-parto",
       "durationSec": 25,
-      "videoPath": "/generated-media/reels/reel-04-hpp-masaje-uterano-post-parto.mp4",
-      "audioPath": "/generated-media/audio/reel-04-hpp-masaje-uterano-post-parto.mp3",
-      "posterPath": "/generated-media/posters/reel-04-hpp-masaje-uterano-post-parto.jpg"
+      "videoPath": "/generated-media/reels/reel-004-hpp-masaje-uterano-post-parto.mp4",
+      "audioPath": "/generated-media/audio/reel-004-hpp-masaje-uterano-post-parto.mp3",
+      "posterPath": "/generated-media/posters/reel-004-hpp-masaje-uterano-post-parto.jpg"
     },
     {
-      "slug": "reel-05-hpp-carbetocina-paises-ingresos-medios",
+      "slug": "reel-005-hpp-carbetocina-paises-ingresos-medios",
       "durationSec": 28,
-      "videoPath": "/generated-media/reels/reel-05-hpp-carbetocina-paises-ingresos-medios.mp4",
-      "audioPath": "/generated-media/audio/reel-05-hpp-carbetocina-paises-ingresos-medios.mp3",
-      "posterPath": "/generated-media/posters/reel-05-hpp-carbetocina-paises-ingresos-medios.jpg"
+      "videoPath": "/generated-media/reels/reel-005-hpp-carbetocina-paises-ingresos-medios.mp4",
+      "audioPath": "/generated-media/audio/reel-005-hpp-carbetocina-paises-ingresos-medios.mp3",
+      "posterPath": "/generated-media/posters/reel-005-hpp-carbetocina-paises-ingresos-medios.jpg"
     },
     {
-      "slug": "reel-06-hpp-misoprostol-segunda-linea",
+      "slug": "reel-006-hpp-misoprostol-segunda-linea",
       "durationSec": 28,
-      "videoPath": "/generated-media/reels/reel-06-hpp-misoprostol-segunda-linea.mp4",
-      "audioPath": "/generated-media/audio/reel-06-hpp-misoprostol-segunda-linea.mp3",
-      "posterPath": "/generated-media/posters/reel-06-hpp-misoprostol-segunda-linea.jpg"
+      "videoPath": "/generated-media/reels/reel-006-hpp-misoprostol-segunda-linea.mp4",
+      "audioPath": "/generated-media/audio/reel-006-hpp-misoprostol-segunda-linea.mp3",
+      "posterPath": "/generated-media/posters/reel-006-hpp-misoprostol-segunda-linea.jpg"
     },
     {
-      "slug": "reel-07-hpp-traccion-controlada-cordon",
+      "slug": "reel-007-hpp-traccion-controlada-cordon",
       "durationSec": 27,
-      "videoPath": "/generated-media/reels/reel-07-hpp-traccion-controlada-cordon.mp4",
-      "audioPath": "/generated-media/audio/reel-07-hpp-traccion-controlada-cordon.mp3",
-      "posterPath": "/generated-media/posters/reel-07-hpp-traccion-controlada-cordon.jpg"
+      "videoPath": "/generated-media/reels/reel-007-hpp-traccion-controlada-cordon.mp4",
+      "audioPath": "/generated-media/audio/reel-007-hpp-traccion-controlada-cordon.mp3",
+      "posterPath": "/generated-media/posters/reel-007-hpp-traccion-controlada-cordon.jpg"
     },
     {
-      "slug": "reel-08-hpp-compresion-bimanual-uterina",
+      "slug": "reel-008-hpp-compresion-bimanual-uterina",
       "durationSec": 23,
-      "videoPath": "/generated-media/reels/reel-08-hpp-compresion-bimanual-uterina.mp4",
-      "audioPath": "/generated-media/audio/reel-08-hpp-compresion-bimanual-uterina.mp3",
-      "posterPath": "/generated-media/posters/reel-08-hpp-compresion-bimanual-uterina.jpg"
+      "videoPath": "/generated-media/reels/reel-008-hpp-compresion-bimanual-uterina.mp4",
+      "audioPath": "/generated-media/audio/reel-008-hpp-compresion-bimanual-uterina.mp3",
+      "posterPath": "/generated-media/posters/reel-008-hpp-compresion-bimanual-uterina.jpg"
     },
     {
-      "slug": "reel-09-hpp-taponamiento-bal\u00f3n-uterino",
+      "slug": "reel-009-hpp-taponamiento-balón-uterino",
       "durationSec": 25,
-      "videoPath": "/generated-media/reels/reel-09-hpp-taponamiento-bal\u00f3n-uterino.mp4",
-      "audioPath": "/generated-media/audio/reel-09-hpp-taponamiento-bal\u00f3n-uterino.mp3",
-      "posterPath": "/generated-media/posters/reel-09-hpp-taponamiento-bal\u00f3n-uterino.jpg"
+      "videoPath": "/generated-media/reels/reel-009-hpp-taponamiento-balón-uterino.mp4",
+      "audioPath": "/generated-media/audio/reel-009-hpp-taponamiento-balón-uterino.mp3",
+      "posterPath": "/generated-media/posters/reel-009-hpp-taponamiento-balón-uterino.jpg"
     },
     {
-      "slug": "reel-10-hpp-ligadura-arterias-uterinas",
+      "slug": "reel-010-hpp-ligadura-arterias-uterinas",
       "durationSec": 24,
-      "videoPath": "/generated-media/reels/reel-10-hpp-ligadura-arterias-uterinas.mp4",
-      "audioPath": "/generated-media/audio/reel-10-hpp-ligadura-arterias-uterinas.mp3",
-      "posterPath": "/generated-media/posters/reel-10-hpp-ligadura-arterias-uterinas.jpg"
+      "videoPath": "/generated-media/reels/reel-010-hpp-ligadura-arterias-uterinas.mp4",
+      "audioPath": "/generated-media/audio/reel-010-hpp-ligadura-arterias-uterinas.mp3",
+      "posterPath": "/generated-media/posters/reel-010-hpp-ligadura-arterias-uterinas.jpg"
+    },
+    {
+      "slug": "reel-011-hpp-hemoglobina-predictor-riesgo",
+      "durationSec": 23,
+      "videoPath": "/generated-media/reels/reel-011-hpp-hemoglobina-predictor-riesgo.mp4",
+      "audioPath": "/generated-media/audio/reel-011-hpp-hemoglobina-predictor-riesgo.mp3",
+      "posterPath": "/generated-media/posters/reel-011-hpp-hemoglobina-predictor-riesgo.jpg"
+    },
+    {
+      "slug": "reel-012-hpp-atonia-causa-principal",
+      "durationSec": 23,
+      "videoPath": "/generated-media/reels/reel-012-hpp-atonia-causa-principal.mp4",
+      "audioPath": "/generated-media/audio/reel-012-hpp-atonia-causa-principal.mp3",
+      "posterPath": "/generated-media/posters/reel-012-hpp-atonia-causa-principal.jpg"
+    },
+    {
+      "slug": "reel-013-hpp-desgarros-perineales-grado-3-4",
+      "durationSec": 22,
+      "videoPath": "/generated-media/reels/reel-013-hpp-desgarros-perineales-grado-3-4.mp4",
+      "audioPath": "/generated-media/audio/reel-013-hpp-desgarros-perineales-grado-3-4.mp3",
+      "posterPath": "/generated-media/posters/reel-013-hpp-desgarros-perineales-grado-3-4.jpg"
+    },
+    {
+      "slug": "reel-014-hpp-acretismo-placentario-mortalidad",
+      "durationSec": 26,
+      "videoPath": "/generated-media/reels/reel-014-hpp-acretismo-placentario-mortalidad.mp4",
+      "audioPath": "/generated-media/audio/reel-014-hpp-acretismo-placentario-mortalidad.mp3",
+      "posterPath": "/generated-media/posters/reel-014-hpp-acretismo-placentario-mortalidad.jpg"
+    },
+    {
+      "slug": "reel-015-hpp-cesarea-hemorragia-mayor-volumen",
+      "durationSec": 29,
+      "videoPath": "/generated-media/reels/reel-015-hpp-cesarea-hemorragia-mayor-volumen.mp4",
+      "audioPath": "/generated-media/audio/reel-015-hpp-cesarea-hemorragia-mayor-volumen.mp3",
+      "posterPath": "/generated-media/posters/reel-015-hpp-cesarea-hemorragia-mayor-volumen.jpg"
+    },
+    {
+      "slug": "reel-016-hpp-fluidos-reanimacion-restrictiva",
+      "durationSec": 26,
+      "videoPath": "/generated-media/reels/reel-016-hpp-fluidos-reanimacion-restrictiva.mp4",
+      "audioPath": "/generated-media/audio/reel-016-hpp-fluidos-reanimacion-restrictiva.mp3",
+      "posterPath": "/generated-media/posters/reel-016-hpp-fluidos-reanimacion-restrictiva.jpg"
+    },
+    {
+      "slug": "reel-017-hpp-transfusion-temprana-razon-1-1",
+      "durationSec": 30,
+      "videoPath": "/generated-media/reels/reel-017-hpp-transfusion-temprana-razon-1-1.mp4",
+      "audioPath": "/generated-media/audio/reel-017-hpp-transfusion-temprana-razon-1-1.mp3",
+      "posterPath": "/generated-media/posters/reel-017-hpp-transfusion-temprana-razon-1-1.jpg"
+    },
+    {
+      "slug": "reel-018-hpp-simulacion-equipos-resultados",
+      "durationSec": 22,
+      "videoPath": "/generated-media/reels/reel-018-hpp-simulacion-equipos-resultados.mp4",
+      "audioPath": "/generated-media/audio/reel-018-hpp-simulacion-equipos-resultados.mp3",
+      "posterPath": "/generated-media/posters/reel-018-hpp-simulacion-equipos-resultados.jpg"
+    },
+    {
+      "slug": "reel-019-hpp-retencion-restos-placentarios",
+      "durationSec": 26,
+      "videoPath": "/generated-media/reels/reel-019-hpp-retencion-restos-placentarios.mp4",
+      "audioPath": "/generated-media/audio/reel-019-hpp-retencion-restos-placentarios.mp3",
+      "posterPath": "/generated-media/posters/reel-019-hpp-retencion-restos-placentarios.jpg"
+    },
+    {
+      "slug": "reel-020-hpp-ecografia-diagnostico-causa",
+      "durationSec": 26,
+      "videoPath": "/generated-media/reels/reel-020-hpp-ecografia-diagnostico-causa.mp4",
+      "audioPath": "/generated-media/audio/reel-020-hpp-ecografia-diagnostico-causa.mp3",
+      "posterPath": "/generated-media/posters/reel-020-hpp-ecografia-diagnostico-causa.jpg"
+    },
+    {
+      "slug": "reel-021-preeclampsia-aspirina-baja-dosis",
+      "durationSec": 24,
+      "videoPath": "/generated-media/reels/reel-021-preeclampsia-aspirina-baja-dosis.mp4",
+      "audioPath": "/generated-media/audio/reel-021-preeclampsia-aspirina-baja-dosis.mp3",
+      "posterPath": "/generated-media/posters/reel-021-preeclampsia-aspirina-baja-dosis.jpg"
+    },
+    {
+      "slug": "reel-022-preeclampsia-calcio-suplementacion",
+      "durationSec": 25,
+      "videoPath": "/generated-media/reels/reel-022-preeclampsia-calcio-suplementacion.mp4",
+      "audioPath": "/generated-media/audio/reel-022-preeclampsia-calcio-suplementacion.mp3",
+      "posterPath": "/generated-media/posters/reel-022-preeclampsia-calcio-suplementacion.jpg"
+    },
+    {
+      "slug": "reel-023-preeclampsia-sulfato-magnesio-eclampsia",
+      "durationSec": 27,
+      "videoPath": "/generated-media/reels/reel-023-preeclampsia-sulfato-magnesio-eclampsia.mp4",
+      "audioPath": "/generated-media/audio/reel-023-preeclampsia-sulfato-magnesio-eclampsia.mp3",
+      "posterPath": "/generated-media/posters/reel-023-preeclampsia-sulfato-magnesio-eclampsia.jpg"
+    },
+    {
+      "slug": "reel-024-preeclampsia-parto-electivo-37-semanas",
+      "durationSec": 29,
+      "videoPath": "/generated-media/reels/reel-024-preeclampsia-parto-electivo-37-semanas.mp4",
+      "audioPath": "/generated-media/audio/reel-024-preeclampsia-parto-electivo-37-semanas.mp3",
+      "posterPath": "/generated-media/posters/reel-024-preeclampsia-parto-electivo-37-semanas.jpg"
+    },
+    {
+      "slug": "reel-025-preeclampsia-ecografia-arterias-uterinas",
+      "durationSec": 26,
+      "videoPath": "/generated-media/reels/reel-025-preeclampsia-ecografia-arterias-uterinas.mp4",
+      "audioPath": "/generated-media/audio/reel-025-preeclampsia-ecografia-arterias-uterinas.mp3",
+      "posterPath": "/generated-media/posters/reel-025-preeclampsia-ecografia-arterias-uterinas.jpg"
+    },
+    {
+      "slug": "reel-026-preeclampsia-plgf-sflt1-diagnostico",
+      "durationSec": 29,
+      "videoPath": "/generated-media/reels/reel-026-preeclampsia-plgf-sflt1-diagnostico.mp4",
+      "audioPath": "/generated-media/audio/reel-026-preeclampsia-plgf-sflt1-diagnostico.mp3",
+      "posterPath": "/generated-media/posters/reel-026-preeclampsia-plgf-sflt1-diagnostico.jpg"
+    },
+    {
+      "slug": "reel-027-preeclampsia-pedales-tipico-atipico",
+      "durationSec": 28,
+      "videoPath": "/generated-media/reels/reel-027-preeclampsia-pedales-tipico-atipico.mp4",
+      "audioPath": "/generated-media/audio/reel-027-preeclampsia-pedales-tipico-atipico.mp3",
+      "posterPath": "/generated-media/posters/reel-027-preeclampsia-pedales-tipico-atipico.jpg"
+    },
+    {
+      "slug": "reel-028-preeclampsia-hellp-mortalidad",
+      "durationSec": 29,
+      "videoPath": "/generated-media/reels/reel-028-preeclampsia-hellp-mortalidad.mp4",
+      "audioPath": "/generated-media/audio/reel-028-preeclampsia-hellp-mortalidad.mp3",
+      "posterPath": "/generated-media/posters/reel-028-preeclampsia-hellp-mortalidad.jpg"
+    },
+    {
+      "slug": "reel-029-preeclampsia-ejercicio-prevencion",
+      "durationSec": 27,
+      "videoPath": "/generated-media/reels/reel-029-preeclampsia-ejercicio-prevencion.mp4",
+      "audioPath": "/generated-media/audio/reel-029-preeclampsia-ejercicio-prevencion.mp3",
+      "posterPath": "/generated-media/posters/reel-029-preeclampsia-ejercicio-prevencion.jpg"
+    },
+    {
+      "slug": "reel-030-preeclampsia-obesidad-riesgo-triple",
+      "durationSec": 29,
+      "videoPath": "/generated-media/reels/reel-030-preeclampsia-obesidad-riesgo-triple.mp4",
+      "audioPath": "/generated-media/audio/reel-030-preeclampsia-obesidad-riesgo-triple.mp3",
+      "posterPath": "/generated-media/posters/reel-030-preeclampsia-obesidad-riesgo-triple.jpg"
+    },
+    {
+      "slug": "reel-031-preeclampsia-seguimiento-posparto-cardiovascular",
+      "durationSec": 27,
+      "videoPath": "/generated-media/reels/reel-031-preeclampsia-seguimiento-posparto-cardiovascular.mp4",
+      "audioPath": "/generated-media/audio/reel-031-preeclampsia-seguimiento-posparto-cardiovascular.mp3",
+      "posterPath": "/generated-media/posters/reel-031-preeclampsia-seguimiento-posparto-cardiovascular.jpg"
+    },
+    {
+      "slug": "reel-032-preeclampsia-progesterona-no-previene",
+      "durationSec": 24,
+      "videoPath": "/generated-media/reels/reel-032-preeclampsia-progesterona-no-previene.mp4",
+      "audioPath": "/generated-media/audio/reel-032-preeclampsia-progesterona-no-previene.mp3",
+      "posterPath": "/generated-media/posters/reel-032-preeclampsia-progesterona-no-previene.jpg"
+    },
+    {
+      "slug": "reel-033-preeclampsia-presion-arterial-135-85",
+      "durationSec": 26,
+      "videoPath": "/generated-media/reels/reel-033-preeclampsia-presion-arterial-135-85.mp4",
+      "audioPath": "/generated-media/audio/reel-033-preeclampsia-presion-arterial-135-85.mp3",
+      "posterPath": "/generated-media/posters/reel-033-preeclampsia-presion-arterial-135-85.jpg"
+    },
+    {
+      "slug": "reel-034-preeclampsia-episiotomia-no-recomendada",
+      "durationSec": 27,
+      "videoPath": "/generated-media/reels/reel-034-preeclampsia-episiotomia-no-recomendada.mp4",
+      "audioPath": "/generated-media/audio/reel-034-preeclampsia-episiotomia-no-recomendada.mp3",
+      "posterPath": "/generated-media/posters/reel-034-preeclampsia-episiotomia-no-recomendada.jpg"
+    },
+    {
+      "slug": "reel-035-preeclampsia-urale-muerte-evitable",
+      "durationSec": 24,
+      "videoPath": "/generated-media/reels/reel-035-preeclampsia-urale-muerte-evitable.mp4",
+      "audioPath": "/generated-media/audio/reel-035-preeclampsia-urale-muerte-evitable.mp3",
+      "posterPath": "/generated-media/posters/reel-035-preeclampsia-urale-muerte-evitable.jpg"
+    },
+    {
+      "slug": "reel-036-sepsis-neonatal-gbs-profilaxis-intraparto",
+      "durationSec": 28,
+      "videoPath": "/generated-media/reels/reel-036-sepsis-neonatal-gbs-profilaxis-intraparto.mp4",
+      "audioPath": "/generated-media/audio/reel-036-sepsis-neonatal-gbs-profilaxis-intraparto.mp3",
+      "posterPath": "/generated-media/posters/reel-036-sepsis-neonatal-gbs-profilaxis-intraparto.jpg"
+    },
+    {
+      "slug": "reel-037-sepsis-neonatal-lactobacillus-oral-prematuro",
+      "durationSec": 33,
+      "videoPath": "/generated-media/reels/reel-037-sepsis-neonatal-lactobacillus-oral-prematuro.mp4",
+      "audioPath": "/generated-media/audio/reel-037-sepsis-neonatal-lactobacillus-oral-prematuro.mp3",
+      "posterPath": "/generated-media/posters/reel-037-sepsis-neonatal-lactobacillus-oral-prematuro.jpg"
+    },
+    {
+      "slug": "reel-038-sepsis-neonatal-pcr-diagnostico",
+      "durationSec": 26,
+      "videoPath": "/generated-media/reels/reel-038-sepsis-neonatal-pcr-diagnostico.mp4",
+      "audioPath": "/generated-media/audio/reel-038-sepsis-neonatal-pcr-diagnostico.mp3",
+      "posterPath": "/generated-media/posters/reel-038-sepsis-neonatal-pcr-diagnostico.jpg"
+    },
+    {
+      "slug": "reel-039-sepsis-neonatal-lactancia-materna-prevencion",
+      "durationSec": 28,
+      "videoPath": "/generated-media/reels/reel-039-sepsis-neonatal-lactancia-materna-prevencion.mp4",
+      "audioPath": "/generated-media/audio/reel-039-sepsis-neonatal-lactancia-materna-prevencion.mp3",
+      "posterPath": "/generated-media/posters/reel-039-sepsis-neonatal-lactancia-materna-prevencion.jpg"
+    },
+    {
+      "slug": "reel-040-sepsis-neonatal-algoritmo-kaiser",
+      "durationSec": 34,
+      "videoPath": "/generated-media/reels/reel-040-sepsis-neonatal-algoritmo-kaiser.mp4",
+      "audioPath": "/generated-media/audio/reel-040-sepsis-neonatal-algoritmo-kaiser.mp3",
+      "posterPath": "/generated-media/posters/reel-040-sepsis-neonatal-algoritmo-kaiser.jpg"
+    },
+    {
+      "slug": "reel-041-sepsis-neonatal-liquido-amniotico-meconial",
+      "durationSec": 29,
+      "videoPath": "/generated-media/reels/reel-041-sepsis-neonatal-liquido-amniotico-meconial.mp4",
+      "audioPath": "/generated-media/audio/reel-041-sepsis-neonatal-liquido-amniotico-meconial.mp3",
+      "posterPath": "/generated-media/posters/reel-041-sepsis-neonatal-liquido-amniotico-meconial.jpg"
+    },
+    {
+      "slug": "reel-042-sepsis-neonatal-clorhexidina-cordon-oms",
+      "durationSec": 29,
+      "videoPath": "/generated-media/reels/reel-042-sepsis-neonatal-clorhexidina-cordon-oms.mp4",
+      "audioPath": "/generated-media/audio/reel-042-sepsis-neonatal-clorhexidina-cordon-oms.mp3",
+      "posterPath": "/generated-media/posters/reel-042-sepsis-neonatal-clorhexidina-cordon-oms.jpg"
+    },
+    {
+      "slug": "reel-043-sepsis-neonatal-bacterias-multirresistentes-uci",
+      "durationSec": 26,
+      "videoPath": "/generated-media/reels/reel-043-sepsis-neonatal-bacterias-multirresistentes-uci.mp4",
+      "audioPath": "/generated-media/audio/reel-043-sepsis-neonatal-bacterias-multirresistentes-uci.mp3",
+      "posterPath": "/generated-media/posters/reel-043-sepsis-neonatal-bacterias-multirresistentes-uci.jpg"
+    },
+    {
+      "slug": "reel-044-sepsis-neonatal-rmn-pretermino-profilaxis",
+      "durationSec": 30,
+      "videoPath": "/generated-media/reels/reel-044-sepsis-neonatal-rmn-pretermino-profilaxis.mp4",
+      "audioPath": "/generated-media/audio/reel-044-sepsis-neonatal-rmn-pretermino-profilaxis.mp3",
+      "posterPath": "/generated-media/posters/reel-044-sepsis-neonatal-rmn-pretermino-profilaxis.jpg"
+    },
+    {
+      "slug": "reel-045-sepsis-neonatal-piel-con-piel-infeccion",
+      "durationSec": 24,
+      "videoPath": "/generated-media/reels/reel-045-sepsis-neonatal-piel-con-piel-infeccion.mp4",
+      "audioPath": "/generated-media/audio/reel-045-sepsis-neonatal-piel-con-piel-infeccion.mp3",
+      "posterPath": "/generated-media/posters/reel-045-sepsis-neonatal-piel-con-piel-infeccion.jpg"
+    },
+    {
+      "slug": "reel-046-prematuro-progesterona-vaginal-prevencion",
+      "durationSec": 32,
+      "videoPath": "/generated-media/reels/reel-046-prematuro-progesterona-vaginal-prevencion.mp4",
+      "audioPath": "/generated-media/audio/reel-046-prematuro-progesterona-vaginal-prevencion.mp3",
+      "posterPath": "/generated-media/posters/reel-046-prematuro-progesterona-vaginal-prevencion.jpg"
+    },
+    {
+      "slug": "reel-047-prematuro-cerclaje-cervical-emergencia",
+      "durationSec": 33,
+      "videoPath": "/generated-media/reels/reel-047-prematuro-cerclaje-cervical-emergencia.mp4",
+      "audioPath": "/generated-media/audio/reel-047-prematuro-cerclaje-cervical-emergencia.mp3",
+      "posterPath": "/generated-media/posters/reel-047-prematuro-cerclaje-cervical-emergencia.jpg"
+    },
+    {
+      "slug": "reel-048-prematuro-corticoides-antenatales-sobrevida",
+      "durationSec": 34,
+      "videoPath": "/generated-media/reels/reel-048-prematuro-corticoides-antenatales-sobrevida.mp4",
+      "audioPath": "/generated-media/audio/reel-048-prematuro-corticoides-antenatales-sobrevida.mp3",
+      "posterPath": "/generated-media/posters/reel-048-prematuro-corticoides-antenatales-sobrevida.jpg"
+    },
+    {
+      "slug": "reel-049-prematuro-sulfato-magnesio-neuroproteccion",
+      "durationSec": 32,
+      "videoPath": "/generated-media/reels/reel-049-prematuro-sulfato-magnesio-neuroproteccion.mp4",
+      "audioPath": "/generated-media/audio/reel-049-prematuro-sulfato-magnesio-neuroproteccion.mp3",
+      "posterPath": "/generated-media/posters/reel-049-prematuro-sulfato-magnesio-neuroproteccion.jpg"
+    },
+    {
+      "slug": "reel-050-prematuro-tocoliticos-bloqueo-canales-calcio",
+      "durationSec": 39,
+      "videoPath": "/generated-media/reels/reel-050-prematuro-tocoliticos-bloqueo-canales-calcio.mp4",
+      "audioPath": "/generated-media/audio/reel-050-prematuro-tocoliticos-bloqueo-canales-calcio.mp3",
+      "posterPath": "/generated-media/posters/reel-050-prematuro-tocoliticos-bloqueo-canales-calcio.jpg"
+    },
+    {
+      "slug": "reel-051-prematuro-longitud-cervical-universal",
+      "durationSec": 28,
+      "videoPath": "/generated-media/reels/reel-051-prematuro-longitud-cervical-universal.mp4",
+      "audioPath": "/generated-media/audio/reel-051-prematuro-longitud-cervical-universal.mp3",
+      "posterPath": "/generated-media/posters/reel-051-prematuro-longitud-cervical-universal.jpg"
+    },
+    {
+      "slug": "reel-052-prematuro-fibronectina-fetal-triaje",
+      "durationSec": 33,
+      "videoPath": "/generated-media/reels/reel-052-prematuro-fibronectina-fetal-triaje.mp4",
+      "audioPath": "/generated-media/audio/reel-052-prematuro-fibronectina-fetal-triaje.mp3",
+      "posterPath": "/generated-media/posters/reel-052-prematuro-fibronectina-fetal-triaje.jpg"
+    },
+    {
+      "slug": "reel-053-prematuro-cesarea-sistematica-no-mejora",
+      "durationSec": 30,
+      "videoPath": "/generated-media/reels/reel-053-prematuro-cesarea-sistematica-no-mejora.mp4",
+      "audioPath": "/generated-media/audio/reel-053-prematuro-cesarea-sistematica-no-mejora.mp3",
+      "posterPath": "/generated-media/posters/reel-053-prematuro-cesarea-sistematica-no-mejora.jpg"
+    },
+    {
+      "slug": "reel-054-prematuro-periodontal-enfermedad-riesgo",
+      "durationSec": 31,
+      "videoPath": "/generated-media/reels/reel-054-prematuro-periodontal-enfermedad-riesgo.mp4",
+      "audioPath": "/generated-media/audio/reel-054-prematuro-periodontal-enfermedad-riesgo.mp3",
+      "posterPath": "/generated-media/posters/reel-054-prematuro-periodontal-enfermedad-riesgo.jpg"
+    },
+    {
+      "slug": "reel-055-prematuro-brecha-global-mortalidad",
+      "durationSec": 32,
+      "videoPath": "/generated-media/reels/reel-055-prematuro-brecha-global-mortalidad.mp4",
+      "audioPath": "/generated-media/audio/reel-055-prematuro-brecha-global-mortalidad.mp3",
+      "posterPath": "/generated-media/posters/reel-055-prematuro-brecha-global-mortalidad.jpg"
+    },
+    {
+      "slug": "reel-056-asfixia-reanimacion-90-segundos-cordon",
+      "durationSec": 34,
+      "videoPath": "/generated-media/reels/reel-056-asfixia-reanimacion-90-segundos-cordon.mp4",
+      "audioPath": "/generated-media/audio/reel-056-asfixia-reanimacion-90-segundos-cordon.mp3",
+      "posterPath": "/generated-media/posters/reel-056-asfixia-reanimacion-90-segundos-cordon.jpg"
+    },
+    {
+      "slug": "reel-057-asfixia-hipotermia-terapeutica-neuroproteccion",
+      "durationSec": 35,
+      "videoPath": "/generated-media/reels/reel-057-asfixia-hipotermia-terapeutica-neuroproteccion.mp4",
+      "audioPath": "/generated-media/audio/reel-057-asfixia-hipotermia-terapeutica-neuroproteccion.mp3",
+      "posterPath": "/generated-media/posters/reel-057-asfixia-hipotermia-terapeutica-neuroproteccion.jpg"
+    },
+    {
+      "slug": "reel-058-asfixia-magnestio-no-neuroproteccion",
+      "durationSec": 33,
+      "videoPath": "/generated-media/reels/reel-058-asfixia-magnestio-no-neuroproteccion.mp4",
+      "audioPath": "/generated-media/audio/reel-058-asfixia-magnestio-no-neuroproteccion.mp3",
+      "posterPath": "/generated-media/posters/reel-058-asfixia-magnestio-no-neuroproteccion.jpg"
+    },
+    {
+      "slug": "reel-059-asfixia-liquido-meconial-aspiracion-no",
+      "durationSec": 29,
+      "videoPath": "/generated-media/reels/reel-059-asfixia-liquido-meconial-aspiracion-no.mp4",
+      "audioPath": "/generated-media/audio/reel-059-asfixia-liquido-meconial-aspiracion-no.mp3",
+      "posterPath": "/generated-media/posters/reel-059-asfixia-liquido-meconial-aspiracion-no.jpg"
+    },
+    {
+      "slug": "reel-060-asfixia-pH-arterial-cordon-umbilical",
+      "durationSec": 26,
+      "videoPath": "/generated-media/reels/reel-060-asfixia-pH-arterial-cordon-umbilical.mp4",
+      "audioPath": "/generated-media/audio/reel-060-asfixia-pH-arterial-cordon-umbilical.mp3",
+      "posterPath": "/generated-media/posters/reel-060-asfixia-pH-arterial-cordon-umbilical.jpg"
+    },
+    {
+      "slug": "reel-061-asfixia-oxigeno-21porciento-reanimacion",
+      "durationSec": 28,
+      "videoPath": "/generated-media/reels/reel-061-asfixia-oxigeno-21porciento-reanimacion.mp4",
+      "audioPath": "/generated-media/audio/reel-061-asfixia-oxigeno-21porciento-reanimacion.mp3",
+      "posterPath": "/generated-media/posters/reel-061-asfixia-oxigeno-21porciento-reanimacion.jpg"
+    },
+    {
+      "slug": "reel-062-asfixia-encefalopatia-grado-leve-secuelas",
+      "durationSec": 31,
+      "videoPath": "/generated-media/reels/reel-062-asfixia-encefalopatia-grado-leve-secuelas.mp4",
+      "audioPath": "/generated-media/audio/reel-062-asfixia-encefalopatia-grado-leve-secuelas.mp3",
+      "posterPath": "/generated-media/posters/reel-062-asfixia-encefalopatia-grado-leve-secuelas.jpg"
+    },
+    {
+      "slug": "reel-063-asfixia-cesarea-no-mejora-asfixia-cronica",
+      "durationSec": 30,
+      "videoPath": "/generated-media/reels/reel-063-asfixia-cesarea-no-mejora-asfixia-cronica.mp4",
+      "audioPath": "/generated-media/audio/reel-063-asfixia-cesarea-no-mejora-asfixia-cronica.mp3",
+      "posterPath": "/generated-media/posters/reel-063-asfixia-cesarea-no-mejora-asfixia-cronica.jpg"
+    },
+    {
+      "slug": "reel-064-asfixia-biomarcadores-tempranos-enol",
+      "durationSec": 33,
+      "videoPath": "/generated-media/reels/reel-064-asfixia-biomarcadores-tempranos-enol.mp4",
+      "audioPath": "/generated-media/audio/reel-064-asfixia-biomarcadores-tempranos-enol.mp3",
+      "posterPath": "/generated-media/posters/reel-064-asfixia-biomarcadores-tempranos-enol.jpg"
+    },
+    {
+      "slug": "reel-065-asfixia-cuidados-paliativos-perinatales",
+      "durationSec": 32,
+      "videoPath": "/generated-media/reels/reel-065-asfixia-cuidados-paliativos-perinatales.mp4",
+      "audioPath": "/generated-media/audio/reel-065-asfixia-cuidados-paliativos-perinatales.mp3",
+      "posterPath": "/generated-media/posters/reel-065-asfixia-cuidados-paliativos-perinatales.jpg"
+    },
+    {
+      "slug": "reel-066-infecciones-vih-tar-carga-viral-indetectable",
+      "durationSec": 31,
+      "videoPath": "/generated-media/reels/reel-066-infecciones-vih-tar-carga-viral-indetectable.mp4",
+      "audioPath": "/generated-media/audio/reel-066-infecciones-vih-tar-carga-viral-indetectable.mp3",
+      "posterPath": "/generated-media/posters/reel-066-infecciones-vih-tar-carga-viral-indetectable.jpg"
+    },
+    {
+      "slug": "reel-067-infecciones-sifilis-bencilpenicilina-curativa",
+      "durationSec": 33,
+      "videoPath": "/generated-media/reels/reel-067-infecciones-sifilis-bencilpenicilina-curativa.mp4",
+      "audioPath": "/generated-media/audio/reel-067-infecciones-sifilis-bencilpenicilina-curativa.mp3",
+      "posterPath": "/generated-media/posters/reel-067-infecciones-sifilis-bencilpenicilina-curativa.jpg"
+    },
+    {
+      "slug": "reel-068-infecciones-malaria-iptp-sulfadoxina-pirimetamina",
+      "durationSec": 32,
+      "videoPath": "/generated-media/reels/reel-068-infecciones-malaria-iptp-sulfadoxina-pirimetamina.mp4",
+      "audioPath": "/generated-media/audio/reel-068-infecciones-malaria-iptp-sulfadoxina-pirimetamina.mp3",
+      "posterPath": "/generated-media/posters/reel-068-infecciones-malaria-iptp-sulfadoxina-pirimetamina.jpg"
+    },
+    {
+      "slug": "reel-069-infecciones-vih-lactancia-materna-tar",
+      "durationSec": 33,
+      "videoPath": "/generated-media/reels/reel-069-infecciones-vih-lactancia-materna-tar.mp4",
+      "audioPath": "/generated-media/audio/reel-069-infecciones-vih-lactancia-materna-tar.mp3",
+      "posterPath": "/generated-media/posters/reel-069-infecciones-vih-lactancia-materna-tar.jpg"
+    },
+    {
+      "slug": "reel-070-infecciones-sifilis-cribado-universal-obligatorio",
+      "durationSec": 31,
+      "videoPath": "/generated-media/reels/reel-070-infecciones-sifilis-cribado-universal-obligatorio.mp4",
+      "audioPath": "/generated-media/audio/reel-070-infecciones-sifilis-cribado-universal-obligatorio.mp3",
+      "posterPath": "/generated-media/posters/reel-070-infecciones-sifilis-cribado-universal-obligatorio.jpg"
+    },
+    {
+      "slug": "reel-071-infecciones-malaria-mosquitero-embarazo",
+      "durationSec": 30,
+      "videoPath": "/generated-media/reels/reel-071-infecciones-malaria-mosquitero-embarazo.mp4",
+      "audioPath": "/generated-media/audio/reel-071-infecciones-malaria-mosquitero-embarazo.mp3",
+      "posterPath": "/generated-media/posters/reel-071-infecciones-malaria-mosquitero-embarazo.jpg"
+    },
+    {
+      "slug": "reel-072-infecciones-vih-parto-vaginal-seguro",
+      "durationSec": 27,
+      "videoPath": "/generated-media/reels/reel-072-infecciones-vih-parto-vaginal-seguro.mp4",
+      "audioPath": "/generated-media/audio/reel-072-infecciones-vih-parto-vaginal-seguro.mp3",
+      "posterPath": "/generated-media/posters/reel-072-infecciones-vih-parto-vaginal-seguro.jpg"
+    },
+    {
+      "slug": "reel-073-infecciones-torch-citomegalovirus-valaciclovir",
+      "durationSec": 31,
+      "videoPath": "/generated-media/reels/reel-073-infecciones-torch-citomegalovirus-valaciclovir.mp4",
+      "audioPath": "/generated-media/audio/reel-073-infecciones-torch-citomegalovirus-valaciclovir.mp3",
+      "posterPath": "/generated-media/posters/reel-073-infecciones-torch-citomegalovirus-valaciclovir.jpg"
+    },
+    {
+      "slug": "reel-074-infecciones-vph-cribado-prenatal-no-recomendado",
+      "durationSec": 28,
+      "videoPath": "/generated-media/reels/reel-074-infecciones-vph-cribado-prenatal-no-recomendado.mp4",
+      "audioPath": "/generated-media/audio/reel-074-infecciones-vph-cribado-prenatal-no-recomendado.mp3",
+      "posterPath": "/generated-media/posters/reel-074-infecciones-vph-cribado-prenatal-no-recomendado.jpg"
+    },
+    {
+      "slug": "reel-075-infecciones-tuberculosis-embarazo-isoniazida",
+      "durationSec": 33,
+      "videoPath": "/generated-media/reels/reel-075-infecciones-tuberculosis-embarazo-isoniazida.mp4",
+      "audioPath": "/generated-media/audio/reel-075-infecciones-tuberculosis-embarazo-isoniazida.mp3",
+      "posterPath": "/generated-media/posters/reel-075-infecciones-tuberculosis-embarazo-isoniazida.jpg"
+    },
+    {
+      "slug": "reel-076-nutricion-acido-folico-neurotubo",
+      "durationSec": 40,
+      "videoPath": "/generated-media/reels/reel-076-nutricion-acido-folico-neurotubo.mp4",
+      "audioPath": "/generated-media/audio/reel-076-nutricion-acido-folico-neurotubo.mp3",
+      "posterPath": "/generated-media/posters/reel-076-nutricion-acido-folico-neurotubo.jpg"
+    },
+    {
+      "slug": "reel-077-nutricion-hierro-anemia-materna",
+      "durationSec": 33,
+      "videoPath": "/generated-media/reels/reel-077-nutricion-hierro-anemia-materna.mp4",
+      "audioPath": "/generated-media/audio/reel-077-nutricion-hierro-anemia-materna.mp3",
+      "posterPath": "/generated-media/posters/reel-077-nutricion-hierro-anemia-materna.jpg"
+    },
+    {
+      "slug": "reel-078-nutricion-yodo-deficiencia-cognitivo",
+      "durationSec": 32,
+      "videoPath": "/generated-media/reels/reel-078-nutricion-yodo-deficiencia-cognitivo.mp4",
+      "audioPath": "/generated-media/audio/reel-078-nutricion-yodo-deficiencia-cognitivo.mp3",
+      "posterPath": "/generated-media/posters/reel-078-nutricion-yodo-deficiencia-cognitivo.jpg"
+    },
+    {
+      "slug": "reel-079-nutricion-vitamina-d-embarazo",
+      "durationSec": 27,
+      "videoPath": "/generated-media/reels/reel-079-nutricion-vitamina-d-embarazo.mp4",
+      "audioPath": "/generated-media/audio/reel-079-nutricion-vitamina-d-embarazo.mp3",
+      "posterPath": "/generated-media/posters/reel-079-nutricion-vitamina-d-embarazo.jpg"
+    },
+    {
+      "slug": "reel-080-nutricion-dieta-mediterranea-gestacional",
+      "durationSec": 34,
+      "videoPath": "/generated-media/reels/reel-080-nutricion-dieta-mediterranea-gestacional.mp4",
+      "audioPath": "/generated-media/audio/reel-080-nutricion-dieta-mediterranea-gestacional.mp3",
+      "posterPath": "/generated-media/posters/reel-080-nutricion-dieta-mediterranea-gestacional.jpg"
+    },
+    {
+      "slug": "reel-081-nutricion-zinc-embarazo-resultados",
+      "durationSec": 34,
+      "videoPath": "/generated-media/reels/reel-081-nutricion-zinc-embarazo-resultados.mp4",
+      "audioPath": "/generated-media/audio/reel-081-nutricion-zinc-embarazo-resultados.mp3",
+      "posterPath": "/generated-media/posters/reel-081-nutricion-zinc-embarazo-resultados.jpg"
+    },
+    {
+      "slug": "reel-082-nutricion-obesidad-materna-riesgo-fetal",
+      "durationSec": 32,
+      "videoPath": "/generated-media/reels/reel-082-nutricion-obesidad-materna-riesgo-fetal.mp4",
+      "audioPath": "/generated-media/audio/reel-082-nutricion-obesidad-materna-riesgo-fetal.mp3",
+      "posterPath": "/generated-media/posters/reel-082-nutricion-obesidad-materna-riesgo-fetal.jpg"
+    },
+    {
+      "slug": "reel-083-nutricion-suplementos-multimicronutrientes",
+      "durationSec": 35,
+      "videoPath": "/generated-media/reels/reel-083-nutricion-suplementos-multimicronutrientes.mp4",
+      "audioPath": "/generated-media/audio/reel-083-nutricion-suplementos-multimicronutrientes.mp3",
+      "posterPath": "/generated-media/posters/reel-083-nutricion-suplementos-multimicronutrientes.jpg"
+    },
+    {
+      "slug": "reel-084-nutricion-proteinas-balance-energetico",
+      "durationSec": 33,
+      "videoPath": "/generated-media/reels/reel-084-nutricion-proteinas-balance-energetico.mp4",
+      "audioPath": "/generated-media/audio/reel-084-nutricion-proteinas-balance-energetico.mp3",
+      "posterPath": "/generated-media/posters/reel-084-nutricion-proteinas-balance-energetico.jpg"
+    },
+    {
+      "slug": "reel-085-nutricion-cafeina-embarazo-límite",
+      "durationSec": 33,
+      "videoPath": "/generated-media/reels/reel-085-nutricion-cafeina-embarazo-límite.mp4",
+      "audioPath": "/generated-media/audio/reel-085-nutricion-cafeina-embarazo-límite.mp3",
+      "posterPath": "/generated-media/posters/reel-085-nutricion-cafeina-embarazo-límite.jpg"
+    },
+    {
+      "slug": "reel-086-diversos-lactancia-exclusiva-6-meses",
+      "durationSec": 28,
+      "videoPath": "/generated-media/reels/reel-086-diversos-lactancia-exclusiva-6-meses.mp4",
+      "audioPath": "/generated-media/audio/reel-086-diversos-lactancia-exclusiva-6-meses.mp3",
+      "posterPath": "/generated-media/posters/reel-086-diversos-lactancia-exclusiva-6-meses.jpg"
+    },
+    {
+      "slug": "reel-087-diversos-tabaco-placenta-insuficiencia",
+      "durationSec": 32,
+      "videoPath": "/generated-media/reels/reel-087-diversos-tabaco-placenta-insuficiencia.mp4",
+      "audioPath": "/generated-media/audio/reel-087-diversos-tabaco-placenta-insuficiencia.mp3",
+      "posterPath": "/generated-media/posters/reel-087-diversos-tabaco-placenta-insuficiencia.jpg"
+    },
+    {
+      "slug": "reel-088-diversos-salud-mental-depresion-posparto-edimburgo",
+      "durationSec": 33,
+      "videoPath": "/generated-media/reels/reel-088-diversos-salud-mental-depresion-posparto-edimburgo.mp4",
+      "audioPath": "/generated-media/audio/reel-088-diversos-salud-mental-depresion-posparto-edimburgo.mp3",
+      "posterPath": "/generated-media/posters/reel-088-diversos-salud-mental-depresion-posparto-edimburgo.jpg"
+    },
+    {
+      "slug": "reel-089-diversos-lactancia-cancer-materno",
+      "durationSec": 29,
+      "videoPath": "/generated-media/reels/reel-089-diversos-lactancia-cancer-materno.mp4",
+      "audioPath": "/generated-media/audio/reel-089-diversos-lactancia-cancer-materno.mp3",
+      "posterPath": "/generated-media/posters/reel-089-diversos-lactancia-cancer-materno.jpg"
+    },
+    {
+      "slug": "reel-090-diversos-alcohol-sindrome-fetal-alcoholico",
+      "durationSec": 32,
+      "videoPath": "/generated-media/reels/reel-090-diversos-alcohol-sindrome-fetal-alcoholico.mp4",
+      "audioPath": "/generated-media/audio/reel-090-diversos-alcohol-sindrome-fetal-alcoholico.mp3",
+      "posterPath": "/generated-media/posters/reel-090-diversos-alcohol-sindrome-fetal-alcoholico.jpg"
+    },
+    {
+      "slug": "reel-091-diversos-ejercicio-piso-pelvico-incontinencia",
+      "durationSec": 33,
+      "videoPath": "/generated-media/reels/reel-091-diversos-ejercicio-piso-pelvico-incontinencia.mp4",
+      "audioPath": "/generated-media/audio/reel-091-diversos-ejercicio-piso-pelvico-incontinencia.mp3",
+      "posterPath": "/generated-media/posters/reel-091-diversos-ejercicio-piso-pelvico-incontinencia.jpg"
+    },
+    {
+      "slug": "reel-092-diversos-parto-en-agua-no-mejora-resultados",
+      "durationSec": 34,
+      "videoPath": "/generated-media/reels/reel-092-diversos-parto-en-agua-no-mejora-resultados.mp4",
+      "audioPath": "/generated-media/audio/reel-092-diversos-parto-en-agua-no-mejora-resultados.mp3",
+      "posterPath": "/generated-media/posters/reel-092-diversos-parto-en-agua-no-mejora-resultados.jpg"
+    },
+    {
+      "slug": "reel-093-diversos-continuidad-partera-mortalidad",
+      "durationSec": 38,
+      "videoPath": "/generated-media/reels/reel-093-diversos-continuidad-partera-mortalidad.mp4",
+      "audioPath": "/generated-media/audio/reel-093-diversos-continuidad-partera-mortalidad.mp3",
+      "posterPath": "/generated-media/posters/reel-093-diversos-continuidad-partera-mortalidad.jpg"
+    },
+    {
+      "slug": "reel-094-diversos-doulas-resultados-perinatales",
+      "durationSec": 29,
+      "videoPath": "/generated-media/reels/reel-094-diversos-doulas-resultados-perinatales.mp4",
+      "audioPath": "/generated-media/audio/reel-094-diversos-doulas-resultados-perinatales.mp3",
+      "posterPath": "/generated-media/posters/reel-094-diversos-doulas-resultados-perinatales.jpg"
+    },
+    {
+      "slug": "reel-095-diversos-tamizaje-neonatal-talon",
+      "durationSec": 49,
+      "videoPath": "/generated-media/reels/reel-095-diversos-tamizaje-neonatal-talon.mp4",
+      "audioPath": "/generated-media/audio/reel-095-diversos-tamizaje-neonatal-talon.mp3",
+      "posterPath": "/generated-media/posters/reel-095-diversos-tamizaje-neonatal-talon.jpg"
+    },
+    {
+      "slug": "reel-096-diversos-lactancia-farmacos-compatibles",
+      "durationSec": 54,
+      "videoPath": "/generated-media/reels/reel-096-diversos-lactancia-farmacos-compatibles.mp4",
+      "audioPath": "/generated-media/audio/reel-096-diversos-lactancia-farmacos-compatibles.mp3",
+      "posterPath": "/generated-media/posters/reel-096-diversos-lactancia-farmacos-compatibles.jpg"
+    },
+    {
+      "slug": "reel-097-diversos-posicion-vertical-parto",
+      "durationSec": 44,
+      "videoPath": "/generated-media/reels/reel-097-diversos-posicion-vertical-parto.mp4",
+      "audioPath": "/generated-media/audio/reel-097-diversos-posicion-vertical-parto.mp3",
+      "posterPath": "/generated-media/posters/reel-097-diversos-posicion-vertical-parto.jpg"
+    },
+    {
+      "slug": "reel-098-diversos-pinzamiento-tardio-prematuros",
+      "durationSec": 49,
+      "videoPath": "/generated-media/reels/reel-098-diversos-pinzamiento-tardio-prematuros.mp4",
+      "audioPath": "/generated-media/audio/reel-098-diversos-pinzamiento-tardio-prematuros.mp3",
+      "posterPath": "/generated-media/posters/reel-098-diversos-pinzamiento-tardio-prematuros.jpg"
+    },
+    {
+      "slug": "reel-099-diversos-mgso4-neuroproteccion-prematuro",
+      "durationSec": 57,
+      "videoPath": "/generated-media/reels/reel-099-diversos-mgso4-neuroproteccion-prematuro.mp4",
+      "audioPath": "/generated-media/audio/reel-099-diversos-mgso4-neuroproteccion-prematuro.mp3",
+      "posterPath": "/generated-media/posters/reel-099-diversos-mgso4-neuroproteccion-prematuro.jpg"
     },
     {
       "slug": "reel-100-diversos-induccion-39-semanas-bajo-riesgo",
@@ -78,627 +701,662 @@
       "posterPath": "/generated-media/posters/reel-100-diversos-induccion-39-semanas-bajo-riesgo.jpg"
     },
     {
-      "slug": "reel-11-hpp-hemoglobina-predictor-riesgo",
-      "durationSec": 23,
-      "videoPath": "/generated-media/reels/reel-11-hpp-hemoglobina-predictor-riesgo.mp4",
-      "audioPath": "/generated-media/audio/reel-11-hpp-hemoglobina-predictor-riesgo.mp3",
-      "posterPath": "/generated-media/posters/reel-11-hpp-hemoglobina-predictor-riesgo.jpg"
+      "slug": "reel-101-placentacion-invasion-trofoblastica",
+      "durationSec": 10,
+      "videoPath": "/generated-media/reels/reel-101-placentacion-invasion-trofoblastica.mp4",
+      "audioPath": "/generated-media/audio/reel-101-placentacion-invasion-trofoblastica.mp3",
+      "posterPath": "/generated-media/posters/reel-101-placentacion-invasion-trofoblastica.jpg"
     },
     {
-      "slug": "reel-12-hpp-atonia-causa-principal",
-      "durationSec": 23,
-      "videoPath": "/generated-media/reels/reel-12-hpp-atonia-causa-principal.mp4",
-      "audioPath": "/generated-media/audio/reel-12-hpp-atonia-causa-principal.mp3",
-      "posterPath": "/generated-media/posters/reel-12-hpp-atonia-causa-principal.jpg"
+      "slug": "reel-102-liquido-amniotico-funciones",
+      "durationSec": 31,
+      "videoPath": "/generated-media/reels/reel-102-liquido-amniotico-funciones.mp4",
+      "audioPath": "/generated-media/audio/reel-102-liquido-amniotico-funciones.mp3",
+      "posterPath": "/generated-media/posters/reel-102-liquido-amniotico-funciones.jpg"
     },
     {
-      "slug": "reel-13-hpp-desgarros-perineales-grado-3-4",
-      "durationSec": 22,
-      "videoPath": "/generated-media/reels/reel-13-hpp-desgarros-perineales-grado-3-4.mp4",
-      "audioPath": "/generated-media/audio/reel-13-hpp-desgarros-perineales-grado-3-4.mp3",
-      "posterPath": "/generated-media/posters/reel-13-hpp-desgarros-perineales-grado-3-4.jpg"
-    },
-    {
-      "slug": "reel-14-hpp-acretismo-placentario-mortalidad",
-      "durationSec": 26,
-      "videoPath": "/generated-media/reels/reel-14-hpp-acretismo-placentario-mortalidad.mp4",
-      "audioPath": "/generated-media/audio/reel-14-hpp-acretismo-placentario-mortalidad.mp3",
-      "posterPath": "/generated-media/posters/reel-14-hpp-acretismo-placentario-mortalidad.jpg"
-    },
-    {
-      "slug": "reel-15-hpp-cesarea-hemorragia-mayor-volumen",
-      "durationSec": 29,
-      "videoPath": "/generated-media/reels/reel-15-hpp-cesarea-hemorragia-mayor-volumen.mp4",
-      "audioPath": "/generated-media/audio/reel-15-hpp-cesarea-hemorragia-mayor-volumen.mp3",
-      "posterPath": "/generated-media/posters/reel-15-hpp-cesarea-hemorragia-mayor-volumen.jpg"
-    },
-    {
-      "slug": "reel-16-hpp-fluidos-reanimacion-restrictiva",
-      "durationSec": 26,
-      "videoPath": "/generated-media/reels/reel-16-hpp-fluidos-reanimacion-restrictiva.mp4",
-      "audioPath": "/generated-media/audio/reel-16-hpp-fluidos-reanimacion-restrictiva.mp3",
-      "posterPath": "/generated-media/posters/reel-16-hpp-fluidos-reanimacion-restrictiva.jpg"
-    },
-    {
-      "slug": "reel-17-hpp-transfusion-temprana-razon-1-1",
-      "durationSec": 30,
-      "videoPath": "/generated-media/reels/reel-17-hpp-transfusion-temprana-razon-1-1.mp4",
-      "audioPath": "/generated-media/audio/reel-17-hpp-transfusion-temprana-razon-1-1.mp3",
-      "posterPath": "/generated-media/posters/reel-17-hpp-transfusion-temprana-razon-1-1.jpg"
-    },
-    {
-      "slug": "reel-18-hpp-simulacion-equipos-resultados",
-      "durationSec": 22,
-      "videoPath": "/generated-media/reels/reel-18-hpp-simulacion-equipos-resultados.mp4",
-      "audioPath": "/generated-media/audio/reel-18-hpp-simulacion-equipos-resultados.mp3",
-      "posterPath": "/generated-media/posters/reel-18-hpp-simulacion-equipos-resultados.jpg"
-    },
-    {
-      "slug": "reel-19-hpp-retencion-restos-placentarios",
-      "durationSec": 26,
-      "videoPath": "/generated-media/reels/reel-19-hpp-retencion-restos-placentarios.mp4",
-      "audioPath": "/generated-media/audio/reel-19-hpp-retencion-restos-placentarios.mp3",
-      "posterPath": "/generated-media/posters/reel-19-hpp-retencion-restos-placentarios.jpg"
-    },
-    {
-      "slug": "reel-20-hpp-ecografia-diagnostico-causa",
-      "durationSec": 26,
-      "videoPath": "/generated-media/reels/reel-20-hpp-ecografia-diagnostico-causa.mp4",
-      "audioPath": "/generated-media/audio/reel-20-hpp-ecografia-diagnostico-causa.mp3",
-      "posterPath": "/generated-media/posters/reel-20-hpp-ecografia-diagnostico-causa.jpg"
-    },
-    {
-      "slug": "reel-21-preeclampsia-aspirina-baja-dosis",
-      "durationSec": 24,
-      "videoPath": "/generated-media/reels/reel-21-preeclampsia-aspirina-baja-dosis.mp4",
-      "audioPath": "/generated-media/audio/reel-21-preeclampsia-aspirina-baja-dosis.mp3",
-      "posterPath": "/generated-media/posters/reel-21-preeclampsia-aspirina-baja-dosis.jpg"
-    },
-    {
-      "slug": "reel-22-preeclampsia-calcio-suplementacion",
-      "durationSec": 25,
-      "videoPath": "/generated-media/reels/reel-22-preeclampsia-calcio-suplementacion.mp4",
-      "audioPath": "/generated-media/audio/reel-22-preeclampsia-calcio-suplementacion.mp3",
-      "posterPath": "/generated-media/posters/reel-22-preeclampsia-calcio-suplementacion.jpg"
-    },
-    {
-      "slug": "reel-23-preeclampsia-sulfato-magnesio-eclampsia",
-      "durationSec": 27,
-      "videoPath": "/generated-media/reels/reel-23-preeclampsia-sulfato-magnesio-eclampsia.mp4",
-      "audioPath": "/generated-media/audio/reel-23-preeclampsia-sulfato-magnesio-eclampsia.mp3",
-      "posterPath": "/generated-media/posters/reel-23-preeclampsia-sulfato-magnesio-eclampsia.jpg"
-    },
-    {
-      "slug": "reel-24-preeclampsia-parto-electivo-37-semanas",
-      "durationSec": 29,
-      "videoPath": "/generated-media/reels/reel-24-preeclampsia-parto-electivo-37-semanas.mp4",
-      "audioPath": "/generated-media/audio/reel-24-preeclampsia-parto-electivo-37-semanas.mp3",
-      "posterPath": "/generated-media/posters/reel-24-preeclampsia-parto-electivo-37-semanas.jpg"
-    },
-    {
-      "slug": "reel-25-preeclampsia-ecografia-arterias-uterinas",
-      "durationSec": 26,
-      "videoPath": "/generated-media/reels/reel-25-preeclampsia-ecografia-arterias-uterinas.mp4",
-      "audioPath": "/generated-media/audio/reel-25-preeclampsia-ecografia-arterias-uterinas.mp3",
-      "posterPath": "/generated-media/posters/reel-25-preeclampsia-ecografia-arterias-uterinas.jpg"
-    },
-    {
-      "slug": "reel-26-preeclampsia-plgf-sflt1-diagnostico",
-      "durationSec": 29,
-      "videoPath": "/generated-media/reels/reel-26-preeclampsia-plgf-sflt1-diagnostico.mp4",
-      "audioPath": "/generated-media/audio/reel-26-preeclampsia-plgf-sflt1-diagnostico.mp3",
-      "posterPath": "/generated-media/posters/reel-26-preeclampsia-plgf-sflt1-diagnostico.jpg"
-    },
-    {
-      "slug": "reel-27-preeclampsia-pedales-tipico-atipico",
-      "durationSec": 28,
-      "videoPath": "/generated-media/reels/reel-27-preeclampsia-pedales-tipico-atipico.mp4",
-      "audioPath": "/generated-media/audio/reel-27-preeclampsia-pedales-tipico-atipico.mp3",
-      "posterPath": "/generated-media/posters/reel-27-preeclampsia-pedales-tipico-atipico.jpg"
-    },
-    {
-      "slug": "reel-28-preeclampsia-hellp-mortalidad",
-      "durationSec": 29,
-      "videoPath": "/generated-media/reels/reel-28-preeclampsia-hellp-mortalidad.mp4",
-      "audioPath": "/generated-media/audio/reel-28-preeclampsia-hellp-mortalidad.mp3",
-      "posterPath": "/generated-media/posters/reel-28-preeclampsia-hellp-mortalidad.jpg"
-    },
-    {
-      "slug": "reel-29-preeclampsia-ejercicio-prevencion",
-      "durationSec": 26,
-      "videoPath": "/generated-media/reels/reel-29-preeclampsia-ejercicio-prevencion.mp4",
-      "audioPath": "/generated-media/audio/reel-29-preeclampsia-ejercicio-prevencion.mp3",
-      "posterPath": "/generated-media/posters/reel-29-preeclampsia-ejercicio-prevencion.jpg"
-    },
-    {
-      "slug": "reel-30-preeclampsia-obesidad-riesgo-triple",
-      "durationSec": 29,
-      "videoPath": "/generated-media/reels/reel-30-preeclampsia-obesidad-riesgo-triple.mp4",
-      "audioPath": "/generated-media/audio/reel-30-preeclampsia-obesidad-riesgo-triple.mp3",
-      "posterPath": "/generated-media/posters/reel-30-preeclampsia-obesidad-riesgo-triple.jpg"
-    },
-    {
-      "slug": "reel-31-preeclampsia-seguimiento-posparto-cardiovascular",
-      "durationSec": 27,
-      "videoPath": "/generated-media/reels/reel-31-preeclampsia-seguimiento-posparto-cardiovascular.mp4",
-      "audioPath": "/generated-media/audio/reel-31-preeclampsia-seguimiento-posparto-cardiovascular.mp3",
-      "posterPath": "/generated-media/posters/reel-31-preeclampsia-seguimiento-posparto-cardiovascular.jpg"
-    },
-    {
-      "slug": "reel-32-preeclampsia-progesterona-no-previene",
-      "durationSec": 24,
-      "videoPath": "/generated-media/reels/reel-32-preeclampsia-progesterona-no-previene.mp4",
-      "audioPath": "/generated-media/audio/reel-32-preeclampsia-progesterona-no-previene.mp3",
-      "posterPath": "/generated-media/posters/reel-32-preeclampsia-progesterona-no-previene.jpg"
-    },
-    {
-      "slug": "reel-33-preeclampsia-presion-arterial-135-85",
-      "durationSec": 26,
-      "videoPath": "/generated-media/reels/reel-33-preeclampsia-presion-arterial-135-85.mp4",
-      "audioPath": "/generated-media/audio/reel-33-preeclampsia-presion-arterial-135-85.mp3",
-      "posterPath": "/generated-media/posters/reel-33-preeclampsia-presion-arterial-135-85.jpg"
-    },
-    {
-      "slug": "reel-34-preeclampsia-episiotomia-no-recomendada",
-      "durationSec": 27,
-      "videoPath": "/generated-media/reels/reel-34-preeclampsia-episiotomia-no-recomendada.mp4",
-      "audioPath": "/generated-media/audio/reel-34-preeclampsia-episiotomia-no-recomendada.mp3",
-      "posterPath": "/generated-media/posters/reel-34-preeclampsia-episiotomia-no-recomendada.jpg"
-    },
-    {
-      "slug": "reel-35-preeclampsia-urale-muerte-evitable",
-      "durationSec": 24,
-      "videoPath": "/generated-media/reels/reel-35-preeclampsia-urale-muerte-evitable.mp4",
-      "audioPath": "/generated-media/audio/reel-35-preeclampsia-urale-muerte-evitable.mp3",
-      "posterPath": "/generated-media/posters/reel-35-preeclampsia-urale-muerte-evitable.jpg"
-    },
-    {
-      "slug": "reel-36-sepsis-neonatal-gbs-profilaxis-intraparto",
-      "durationSec": 28,
-      "videoPath": "/generated-media/reels/reel-36-sepsis-neonatal-gbs-profilaxis-intraparto.mp4",
-      "audioPath": "/generated-media/audio/reel-36-sepsis-neonatal-gbs-profilaxis-intraparto.mp3",
-      "posterPath": "/generated-media/posters/reel-36-sepsis-neonatal-gbs-profilaxis-intraparto.jpg"
-    },
-    {
-      "slug": "reel-37-sepsis-neonatal-lactobacillus-oral-prematuro",
-      "durationSec": 33,
-      "videoPath": "/generated-media/reels/reel-37-sepsis-neonatal-lactobacillus-oral-prematuro.mp4",
-      "audioPath": "/generated-media/audio/reel-37-sepsis-neonatal-lactobacillus-oral-prematuro.mp3",
-      "posterPath": "/generated-media/posters/reel-37-sepsis-neonatal-lactobacillus-oral-prematuro.jpg"
-    },
-    {
-      "slug": "reel-38-sepsis-neonatal-pcr-diagnostico",
-      "durationSec": 26,
-      "videoPath": "/generated-media/reels/reel-38-sepsis-neonatal-pcr-diagnostico.mp4",
-      "audioPath": "/generated-media/audio/reel-38-sepsis-neonatal-pcr-diagnostico.mp3",
-      "posterPath": "/generated-media/posters/reel-38-sepsis-neonatal-pcr-diagnostico.jpg"
-    },
-    {
-      "slug": "reel-39-sepsis-neonatal-lactancia-materna-prevencion",
-      "durationSec": 28,
-      "videoPath": "/generated-media/reels/reel-39-sepsis-neonatal-lactancia-materna-prevencion.mp4",
-      "audioPath": "/generated-media/audio/reel-39-sepsis-neonatal-lactancia-materna-prevencion.mp3",
-      "posterPath": "/generated-media/posters/reel-39-sepsis-neonatal-lactancia-materna-prevencion.jpg"
-    },
-    {
-      "slug": "reel-40-sepsis-neonatal-algoritmo-kaiser",
+      "slug": "reel-103-transporte-igg-fcrn-placenta",
       "durationSec": 34,
-      "videoPath": "/generated-media/reels/reel-40-sepsis-neonatal-algoritmo-kaiser.mp4",
-      "audioPath": "/generated-media/audio/reel-40-sepsis-neonatal-algoritmo-kaiser.mp3",
-      "posterPath": "/generated-media/posters/reel-40-sepsis-neonatal-algoritmo-kaiser.jpg"
+      "videoPath": "/generated-media/reels/reel-103-transporte-igg-fcrn-placenta.mp4",
+      "audioPath": "/generated-media/audio/reel-103-transporte-igg-fcrn-placenta.mp3",
+      "posterPath": "/generated-media/posters/reel-103-transporte-igg-fcrn-placenta.jpg"
     },
     {
-      "slug": "reel-41-sepsis-neonatal-liquido-amniotico-meconial",
-      "durationSec": 29,
-      "videoPath": "/generated-media/reels/reel-41-sepsis-neonatal-liquido-amniotico-meconial.mp4",
-      "audioPath": "/generated-media/audio/reel-41-sepsis-neonatal-liquido-amniotico-meconial.mp3",
-      "posterPath": "/generated-media/posters/reel-41-sepsis-neonatal-liquido-amniotico-meconial.jpg"
+      "slug": "reel-104-trofoblasto-velloso-vs-extravelloso",
+      "durationSec": 35,
+      "videoPath": "/generated-media/reels/reel-104-trofoblasto-velloso-vs-extravelloso.mp4",
+      "audioPath": "/generated-media/audio/reel-104-trofoblasto-velloso-vs-extravelloso.mp3",
+      "posterPath": "/generated-media/posters/reel-104-trofoblasto-velloso-vs-extravelloso.jpg"
     },
     {
-      "slug": "reel-42-sepsis-neonatal-clorhexidina-cordon-oms",
-      "durationSec": 29,
-      "videoPath": "/generated-media/reels/reel-42-sepsis-neonatal-clorhexidina-cordon-oms.mp4",
-      "audioPath": "/generated-media/audio/reel-42-sepsis-neonatal-clorhexidina-cordon-oms.mp3",
-      "posterPath": "/generated-media/posters/reel-42-sepsis-neonatal-clorhexidina-cordon-oms.jpg"
+      "slug": "reel-105-intercambio-gases-bohr-haldane",
+      "durationSec": 32,
+      "videoPath": "/generated-media/reels/reel-105-intercambio-gases-bohr-haldane.mp4",
+      "audioPath": "/generated-media/audio/reel-105-intercambio-gases-bohr-haldane.mp3",
+      "posterPath": "/generated-media/posters/reel-105-intercambio-gases-bohr-haldane.jpg"
     },
     {
-      "slug": "reel-43-sepsis-neonatal-bacterias-multirresistentes-uci",
-      "durationSec": 26,
-      "videoPath": "/generated-media/reels/reel-43-sepsis-neonatal-bacterias-multirresistentes-uci.mp4",
-      "audioPath": "/generated-media/audio/reel-43-sepsis-neonatal-bacterias-multirresistentes-uci.mp3",
-      "posterPath": "/generated-media/posters/reel-43-sepsis-neonatal-bacterias-multirresistentes-uci.jpg"
+      "slug": "reel-106-luteoplacentar-shift-progesterona",
+      "durationSec": 32,
+      "videoPath": "/generated-media/reels/reel-106-luteoplacentar-shift-progesterona.mp4",
+      "audioPath": "/generated-media/audio/reel-106-luteoplacentar-shift-progesterona.mp3",
+      "posterPath": "/generated-media/posters/reel-106-luteoplacentar-shift-progesterona.jpg"
     },
     {
-      "slug": "reel-44-sepsis-neonatal-rmn-pretermino-profilaxis",
+      "slug": "reel-107-amnionitis-aszendierende-infektion",
+      "durationSec": 35,
+      "videoPath": "/generated-media/reels/reel-107-amnionitis-aszendierende-infektion.mp4",
+      "audioPath": "/generated-media/audio/reel-107-amnionitis-aszendierende-infektion.mp3",
+      "posterPath": "/generated-media/posters/reel-107-amnionitis-aszendierende-infektion.jpg"
+    },
+    {
+      "slug": "reel-108-perfusion-uterina-50-vs-800",
+      "durationSec": 35,
+      "videoPath": "/generated-media/reels/reel-108-perfusion-uterina-50-vs-800.mp4",
+      "audioPath": "/generated-media/audio/reel-108-perfusion-uterina-50-vs-800.mp3",
+      "posterPath": "/generated-media/posters/reel-108-perfusion-uterina-50-vs-800.jpg"
+    },
+    {
+      "slug": "reel-109-hpl-diabetogenicidad-lipolitico",
       "durationSec": 30,
-      "videoPath": "/generated-media/reels/reel-44-sepsis-neonatal-rmn-pretermino-profilaxis.mp4",
-      "audioPath": "/generated-media/audio/reel-44-sepsis-neonatal-rmn-pretermino-profilaxis.mp3",
-      "posterPath": "/generated-media/posters/reel-44-sepsis-neonatal-rmn-pretermino-profilaxis.jpg"
+      "videoPath": "/generated-media/reels/reel-109-hpl-diabetogenicidad-lipolitico.mp4",
+      "audioPath": "/generated-media/audio/reel-109-hpl-diabetogenicidad-lipolitico.mp3",
+      "posterPath": "/generated-media/posters/reel-109-hpl-diabetogenicidad-lipolitico.jpg"
     },
     {
-      "slug": "reel-45-sepsis-neonatal-piel-con-piel-infeccion",
-      "durationSec": 24,
-      "videoPath": "/generated-media/reels/reel-45-sepsis-neonatal-piel-con-piel-infeccion.mp4",
-      "audioPath": "/generated-media/audio/reel-45-sepsis-neonatal-piel-con-piel-infeccion.mp3",
-      "posterPath": "/generated-media/posters/reel-45-sepsis-neonatal-piel-con-piel-infeccion.jpg"
+      "slug": "reel-110-barrera-placentaria-madura-3trimestre",
+      "durationSec": 30,
+      "videoPath": "/generated-media/reels/reel-110-barrera-placentaria-madura-3trimestre.mp4",
+      "audioPath": "/generated-media/audio/reel-110-barrera-placentaria-madura-3trimestre.mp3",
+      "posterPath": "/generated-media/posters/reel-110-barrera-placentaria-madura-3trimestre.jpg"
     },
     {
-      "slug": "reel-46-prematuro-progesterona-vaginal-prevencion",
-      "durationSec": 32,
-      "videoPath": "/generated-media/reels/reel-46-prematuro-progesterona-vaginal-prevencion.mp4",
-      "audioPath": "/generated-media/audio/reel-46-prematuro-progesterona-vaginal-prevencion.mp3",
-      "posterPath": "/generated-media/posters/reel-46-prematuro-progesterona-vaginal-prevencion.jpg"
-    },
-    {
-      "slug": "reel-47-prematuro-cerclaje-cervical-emergencia",
-      "durationSec": 33,
-      "videoPath": "/generated-media/reels/reel-47-prematuro-cerclaje-cervical-emergencia.mp4",
-      "audioPath": "/generated-media/audio/reel-47-prematuro-cerclaje-cervical-emergencia.mp3",
-      "posterPath": "/generated-media/posters/reel-47-prematuro-cerclaje-cervical-emergencia.jpg"
-    },
-    {
-      "slug": "reel-48-prematuro-corticoides-antenatales-sobrevida",
-      "durationSec": 34,
-      "videoPath": "/generated-media/reels/reel-48-prematuro-corticoides-antenatales-sobrevida.mp4",
-      "audioPath": "/generated-media/audio/reel-48-prematuro-corticoides-antenatales-sobrevida.mp3",
-      "posterPath": "/generated-media/posters/reel-48-prematuro-corticoides-antenatales-sobrevida.jpg"
-    },
-    {
-      "slug": "reel-49-prematuro-sulfato-magnesio-neuroproteccion",
-      "durationSec": 32,
-      "videoPath": "/generated-media/reels/reel-49-prematuro-sulfato-magnesio-neuroproteccion.mp4",
-      "audioPath": "/generated-media/audio/reel-49-prematuro-sulfato-magnesio-neuroproteccion.mp3",
-      "posterPath": "/generated-media/posters/reel-49-prematuro-sulfato-magnesio-neuroproteccion.jpg"
-    },
-    {
-      "slug": "reel-50-prematuro-tocoliticos-bloqueo-canales-calcio",
+      "slug": "reel-111-tres-shunts-fetales",
       "durationSec": 39,
-      "videoPath": "/generated-media/reels/reel-50-prematuro-tocoliticos-bloqueo-canales-calcio.mp4",
-      "audioPath": "/generated-media/audio/reel-50-prematuro-tocoliticos-bloqueo-canales-calcio.mp3",
-      "posterPath": "/generated-media/posters/reel-50-prematuro-tocoliticos-bloqueo-canales-calcio.jpg"
+      "videoPath": "/generated-media/reels/reel-111-tres-shunts-fetales.mp4",
+      "audioPath": "/generated-media/audio/reel-111-tres-shunts-fetales.mp3",
+      "posterPath": "/generated-media/posters/reel-111-tres-shunts-fetales.jpg"
     },
     {
-      "slug": "reel-51-prematuro-longitud-cervical-universal",
-      "durationSec": 28,
-      "videoPath": "/generated-media/reels/reel-51-prematuro-longitud-cervical-universal.mp4",
-      "audioPath": "/generated-media/audio/reel-51-prematuro-longitud-cervical-universal.mp3",
-      "posterPath": "/generated-media/posters/reel-51-prematuro-longitud-cervical-universal.jpg"
-    },
-    {
-      "slug": "reel-52-prematuro-fibronectina-fetal-triaje",
-      "durationSec": 33,
-      "videoPath": "/generated-media/reels/reel-52-prematuro-fibronectina-fetal-triaje.mp4",
-      "audioPath": "/generated-media/audio/reel-52-prematuro-fibronectina-fetal-triaje.mp3",
-      "posterPath": "/generated-media/posters/reel-52-prematuro-fibronectina-fetal-triaje.jpg"
-    },
-    {
-      "slug": "reel-53-prematuro-cesarea-sistematica-no-mejora",
-      "durationSec": 30,
-      "videoPath": "/generated-media/reels/reel-53-prematuro-cesarea-sistematica-no-mejora.mp4",
-      "audioPath": "/generated-media/audio/reel-53-prematuro-cesarea-sistematica-no-mejora.mp3",
-      "posterPath": "/generated-media/posters/reel-53-prematuro-cesarea-sistematica-no-mejora.jpg"
-    },
-    {
-      "slug": "reel-54-prematuro-periodontal-enfermedad-riesgo",
-      "durationSec": 31,
-      "videoPath": "/generated-media/reels/reel-54-prematuro-periodontal-enfermedad-riesgo.mp4",
-      "audioPath": "/generated-media/audio/reel-54-prematuro-periodontal-enfermedad-riesgo.mp3",
-      "posterPath": "/generated-media/posters/reel-54-prematuro-periodontal-enfermedad-riesgo.jpg"
-    },
-    {
-      "slug": "reel-55-prematuro-brecha-global-mortalidad",
-      "durationSec": 32,
-      "videoPath": "/generated-media/reels/reel-55-prematuro-brecha-global-mortalidad.mp4",
-      "audioPath": "/generated-media/audio/reel-55-prematuro-brecha-global-mortalidad.mp3",
-      "posterPath": "/generated-media/posters/reel-55-prematuro-brecha-global-mortalidad.jpg"
-    },
-    {
-      "slug": "reel-56-asfixia-reanimacion-90-segundos-cordon",
-      "durationSec": 34,
-      "videoPath": "/generated-media/reels/reel-56-asfixia-reanimacion-90-segundos-cordon.mp4",
-      "audioPath": "/generated-media/audio/reel-56-asfixia-reanimacion-90-segundos-cordon.mp3",
-      "posterPath": "/generated-media/posters/reel-56-asfixia-reanimacion-90-segundos-cordon.jpg"
-    },
-    {
-      "slug": "reel-57-asfixia-hipotermia-terapeutica-neuroproteccion",
-      "durationSec": 35,
-      "videoPath": "/generated-media/reels/reel-57-asfixia-hipotermia-terapeutica-neuroproteccion.mp4",
-      "audioPath": "/generated-media/audio/reel-57-asfixia-hipotermia-terapeutica-neuroproteccion.mp3",
-      "posterPath": "/generated-media/posters/reel-57-asfixia-hipotermia-terapeutica-neuroproteccion.jpg"
-    },
-    {
-      "slug": "reel-58-asfixia-magnestio-no-neuroproteccion",
-      "durationSec": 33,
-      "videoPath": "/generated-media/reels/reel-58-asfixia-magnestio-no-neuroproteccion.mp4",
-      "audioPath": "/generated-media/audio/reel-58-asfixia-magnestio-no-neuroproteccion.mp3",
-      "posterPath": "/generated-media/posters/reel-58-asfixia-magnestio-no-neuroproteccion.jpg"
-    },
-    {
-      "slug": "reel-59-asfixia-liquido-meconial-aspiracion-no",
-      "durationSec": 29,
-      "videoPath": "/generated-media/reels/reel-59-asfixia-liquido-meconial-aspiracion-no.mp4",
-      "audioPath": "/generated-media/audio/reel-59-asfixia-liquido-meconial-aspiracion-no.mp3",
-      "posterPath": "/generated-media/posters/reel-59-asfixia-liquido-meconial-aspiracion-no.jpg"
-    },
-    {
-      "slug": "reel-60-asfixia-pH-arterial-cordon-umbilical",
-      "durationSec": 26,
-      "videoPath": "/generated-media/reels/reel-60-asfixia-pH-arterial-cordon-umbilical.mp4",
-      "audioPath": "/generated-media/audio/reel-60-asfixia-pH-arterial-cordon-umbilical.mp3",
-      "posterPath": "/generated-media/posters/reel-60-asfixia-pH-arterial-cordon-umbilical.jpg"
-    },
-    {
-      "slug": "reel-61-asfixia-oxigeno-21porciento-reanimacion",
-      "durationSec": 28,
-      "videoPath": "/generated-media/reels/reel-61-asfixia-oxigeno-21porciento-reanimacion.mp4",
-      "audioPath": "/generated-media/audio/reel-61-asfixia-oxigeno-21porciento-reanimacion.mp3",
-      "posterPath": "/generated-media/posters/reel-61-asfixia-oxigeno-21porciento-reanimacion.jpg"
-    },
-    {
-      "slug": "reel-62-asfixia-encefalopatia-grado-leve-secuelas",
-      "durationSec": 31,
-      "videoPath": "/generated-media/reels/reel-62-asfixia-encefalopatia-grado-leve-secuelas.mp4",
-      "audioPath": "/generated-media/audio/reel-62-asfixia-encefalopatia-grado-leve-secuelas.mp3",
-      "posterPath": "/generated-media/posters/reel-62-asfixia-encefalopatia-grado-leve-secuelas.jpg"
-    },
-    {
-      "slug": "reel-63-asfixia-cesarea-no-mejora-asfixia-cronica",
-      "durationSec": 30,
-      "videoPath": "/generated-media/reels/reel-63-asfixia-cesarea-no-mejora-asfixia-cronica.mp4",
-      "audioPath": "/generated-media/audio/reel-63-asfixia-cesarea-no-mejora-asfixia-cronica.mp3",
-      "posterPath": "/generated-media/posters/reel-63-asfixia-cesarea-no-mejora-asfixia-cronica.jpg"
-    },
-    {
-      "slug": "reel-64-asfixia-biomarcadores-tempranos-enol",
-      "durationSec": 33,
-      "videoPath": "/generated-media/reels/reel-64-asfixia-biomarcadores-tempranos-enol.mp4",
-      "audioPath": "/generated-media/audio/reel-64-asfixia-biomarcadores-tempranos-enol.mp3",
-      "posterPath": "/generated-media/posters/reel-64-asfixia-biomarcadores-tempranos-enol.jpg"
-    },
-    {
-      "slug": "reel-65-asfixia-cuidados-paliativos-perinatales",
-      "durationSec": 32,
-      "videoPath": "/generated-media/reels/reel-65-asfixia-cuidados-paliativos-perinatales.mp4",
-      "audioPath": "/generated-media/audio/reel-65-asfixia-cuidados-paliativos-perinatales.mp3",
-      "posterPath": "/generated-media/posters/reel-65-asfixia-cuidados-paliativos-perinatales.jpg"
-    },
-    {
-      "slug": "reel-66-infecciones-vih-tar-carga-viral-indetectable",
-      "durationSec": 31,
-      "videoPath": "/generated-media/reels/reel-66-infecciones-vih-tar-carga-viral-indetectable.mp4",
-      "audioPath": "/generated-media/audio/reel-66-infecciones-vih-tar-carga-viral-indetectable.mp3",
-      "posterPath": "/generated-media/posters/reel-66-infecciones-vih-tar-carga-viral-indetectable.jpg"
-    },
-    {
-      "slug": "reel-67-infecciones-sifilis-bencilpenicilina-curativa",
-      "durationSec": 33,
-      "videoPath": "/generated-media/reels/reel-67-infecciones-sifilis-bencilpenicilina-curativa.mp4",
-      "audioPath": "/generated-media/audio/reel-67-infecciones-sifilis-bencilpenicilina-curativa.mp3",
-      "posterPath": "/generated-media/posters/reel-67-infecciones-sifilis-bencilpenicilina-curativa.jpg"
-    },
-    {
-      "slug": "reel-68-infecciones-malaria-iptp-sulfadoxina-pirimetamina",
-      "durationSec": 32,
-      "videoPath": "/generated-media/reels/reel-68-infecciones-malaria-iptp-sulfadoxina-pirimetamina.mp4",
-      "audioPath": "/generated-media/audio/reel-68-infecciones-malaria-iptp-sulfadoxina-pirimetamina.mp3",
-      "posterPath": "/generated-media/posters/reel-68-infecciones-malaria-iptp-sulfadoxina-pirimetamina.jpg"
-    },
-    {
-      "slug": "reel-69-infecciones-vih-lactancia-materna-tar",
-      "durationSec": 33,
-      "videoPath": "/generated-media/reels/reel-69-infecciones-vih-lactancia-materna-tar.mp4",
-      "audioPath": "/generated-media/audio/reel-69-infecciones-vih-lactancia-materna-tar.mp3",
-      "posterPath": "/generated-media/posters/reel-69-infecciones-vih-lactancia-materna-tar.jpg"
-    },
-    {
-      "slug": "reel-70-infecciones-sifilis-cribado-universal-obligatorio",
-      "durationSec": 31,
-      "videoPath": "/generated-media/reels/reel-70-infecciones-sifilis-cribado-universal-obligatorio.mp4",
-      "audioPath": "/generated-media/audio/reel-70-infecciones-sifilis-cribado-universal-obligatorio.mp3",
-      "posterPath": "/generated-media/posters/reel-70-infecciones-sifilis-cribado-universal-obligatorio.jpg"
-    },
-    {
-      "slug": "reel-71-infecciones-malaria-mosquitero-embarazo",
-      "durationSec": 30,
-      "videoPath": "/generated-media/reels/reel-71-infecciones-malaria-mosquitero-embarazo.mp4",
-      "audioPath": "/generated-media/audio/reel-71-infecciones-malaria-mosquitero-embarazo.mp3",
-      "posterPath": "/generated-media/posters/reel-71-infecciones-malaria-mosquitero-embarazo.jpg"
-    },
-    {
-      "slug": "reel-72-infecciones-vih-parto-vaginal-seguro",
-      "durationSec": 27,
-      "videoPath": "/generated-media/reels/reel-72-infecciones-vih-parto-vaginal-seguro.mp4",
-      "audioPath": "/generated-media/audio/reel-72-infecciones-vih-parto-vaginal-seguro.mp3",
-      "posterPath": "/generated-media/posters/reel-72-infecciones-vih-parto-vaginal-seguro.jpg"
-    },
-    {
-      "slug": "reel-73-infecciones-torch-citomegalovirus-valaciclovir",
-      "durationSec": 31,
-      "videoPath": "/generated-media/reels/reel-73-infecciones-torch-citomegalovirus-valaciclovir.mp4",
-      "audioPath": "/generated-media/audio/reel-73-infecciones-torch-citomegalovirus-valaciclovir.mp3",
-      "posterPath": "/generated-media/posters/reel-73-infecciones-torch-citomegalovirus-valaciclovir.jpg"
-    },
-    {
-      "slug": "reel-74-infecciones-vph-cribado-prenatal-no-recomendado",
-      "durationSec": 28,
-      "videoPath": "/generated-media/reels/reel-74-infecciones-vph-cribado-prenatal-no-recomendado.mp4",
-      "audioPath": "/generated-media/audio/reel-74-infecciones-vph-cribado-prenatal-no-recomendado.mp3",
-      "posterPath": "/generated-media/posters/reel-74-infecciones-vph-cribado-prenatal-no-recomendado.jpg"
-    },
-    {
-      "slug": "reel-75-infecciones-tuberculosis-embarazo-isoniazida",
-      "durationSec": 33,
-      "videoPath": "/generated-media/reels/reel-75-infecciones-tuberculosis-embarazo-isoniazida.mp4",
-      "audioPath": "/generated-media/audio/reel-75-infecciones-tuberculosis-embarazo-isoniazida.mp3",
-      "posterPath": "/generated-media/posters/reel-75-infecciones-tuberculosis-embarazo-isoniazida.jpg"
-    },
-    {
-      "slug": "reel-76-nutricion-acido-folico-neurotubo",
-      "durationSec": 40,
-      "videoPath": "/generated-media/reels/reel-76-nutricion-acido-folico-neurotubo.mp4",
-      "audioPath": "/generated-media/audio/reel-76-nutricion-acido-folico-neurotubo.mp3",
-      "posterPath": "/generated-media/posters/reel-76-nutricion-acido-folico-neurotubo.jpg"
-    },
-    {
-      "slug": "reel-77-nutricion-hierro-anemia-materna",
-      "durationSec": 33,
-      "videoPath": "/generated-media/reels/reel-77-nutricion-hierro-anemia-materna.mp4",
-      "audioPath": "/generated-media/audio/reel-77-nutricion-hierro-anemia-materna.mp3",
-      "posterPath": "/generated-media/posters/reel-77-nutricion-hierro-anemia-materna.jpg"
-    },
-    {
-      "slug": "reel-78-nutricion-yodo-deficiencia-cognitivo",
-      "durationSec": 32,
-      "videoPath": "/generated-media/reels/reel-78-nutricion-yodo-deficiencia-cognitivo.mp4",
-      "audioPath": "/generated-media/audio/reel-78-nutricion-yodo-deficiencia-cognitivo.mp3",
-      "posterPath": "/generated-media/posters/reel-78-nutricion-yodo-deficiencia-cognitivo.jpg"
-    },
-    {
-      "slug": "reel-79-nutricion-vitamina-d-embarazo",
-      "durationSec": 27,
-      "videoPath": "/generated-media/reels/reel-79-nutricion-vitamina-d-embarazo.mp4",
-      "audioPath": "/generated-media/audio/reel-79-nutricion-vitamina-d-embarazo.mp3",
-      "posterPath": "/generated-media/posters/reel-79-nutricion-vitamina-d-embarazo.jpg"
-    },
-    {
-      "slug": "reel-80-nutricion-dieta-mediterranea-gestacional",
-      "durationSec": 34,
-      "videoPath": "/generated-media/reels/reel-80-nutricion-dieta-mediterranea-gestacional.mp4",
-      "audioPath": "/generated-media/audio/reel-80-nutricion-dieta-mediterranea-gestacional.mp3",
-      "posterPath": "/generated-media/posters/reel-80-nutricion-dieta-mediterranea-gestacional.jpg"
-    },
-    {
-      "slug": "reel-81-nutricion-zinc-embarazo-resultados",
-      "durationSec": 34,
-      "videoPath": "/generated-media/reels/reel-81-nutricion-zinc-embarazo-resultados.mp4",
-      "audioPath": "/generated-media/audio/reel-81-nutricion-zinc-embarazo-resultados.mp3",
-      "posterPath": "/generated-media/posters/reel-81-nutricion-zinc-embarazo-resultados.jpg"
-    },
-    {
-      "slug": "reel-82-nutricion-obesidad-materna-riesgo-fetal",
-      "durationSec": 32,
-      "videoPath": "/generated-media/reels/reel-82-nutricion-obesidad-materna-riesgo-fetal.mp4",
-      "audioPath": "/generated-media/audio/reel-82-nutricion-obesidad-materna-riesgo-fetal.mp3",
-      "posterPath": "/generated-media/posters/reel-82-nutricion-obesidad-materna-riesgo-fetal.jpg"
-    },
-    {
-      "slug": "reel-83-nutricion-suplementos-multimicronutrientes",
-      "durationSec": 35,
-      "videoPath": "/generated-media/reels/reel-83-nutricion-suplementos-multimicronutrientes.mp4",
-      "audioPath": "/generated-media/audio/reel-83-nutricion-suplementos-multimicronutrientes.mp3",
-      "posterPath": "/generated-media/posters/reel-83-nutricion-suplementos-multimicronutrientes.jpg"
-    },
-    {
-      "slug": "reel-84-nutricion-proteinas-balance-energetico",
-      "durationSec": 33,
-      "videoPath": "/generated-media/reels/reel-84-nutricion-proteinas-balance-energetico.mp4",
-      "audioPath": "/generated-media/audio/reel-84-nutricion-proteinas-balance-energetico.mp3",
-      "posterPath": "/generated-media/posters/reel-84-nutricion-proteinas-balance-energetico.jpg"
-    },
-    {
-      "slug": "reel-85-nutricion-cafeina-embarazo-l\u00edmite",
-      "durationSec": 33,
-      "videoPath": "/generated-media/reels/reel-85-nutricion-cafeina-embarazo-l\u00edmite.mp4",
-      "audioPath": "/generated-media/audio/reel-85-nutricion-cafeina-embarazo-l\u00edmite.mp3",
-      "posterPath": "/generated-media/posters/reel-85-nutricion-cafeina-embarazo-l\u00edmite.jpg"
-    },
-    {
-      "slug": "reel-86-diversos-lactancia-exclusiva-6-meses",
-      "durationSec": 28,
-      "videoPath": "/generated-media/reels/reel-86-diversos-lactancia-exclusiva-6-meses.mp4",
-      "audioPath": "/generated-media/audio/reel-86-diversos-lactancia-exclusiva-6-meses.mp3",
-      "posterPath": "/generated-media/posters/reel-86-diversos-lactancia-exclusiva-6-meses.jpg"
-    },
-    {
-      "slug": "reel-87-diversos-tabaco-placenta-insuficiencia",
-      "durationSec": 32,
-      "videoPath": "/generated-media/reels/reel-87-diversos-tabaco-placenta-insuficiencia.mp4",
-      "audioPath": "/generated-media/audio/reel-87-diversos-tabaco-placenta-insuficiencia.mp3",
-      "posterPath": "/generated-media/posters/reel-87-diversos-tabaco-placenta-insuficiencia.jpg"
-    },
-    {
-      "slug": "reel-88-diversos-salud-mental-depresion-posparto-edimburgo",
-      "durationSec": 33,
-      "videoPath": "/generated-media/reels/reel-88-diversos-salud-mental-depresion-posparto-edimburgo.mp4",
-      "audioPath": "/generated-media/audio/reel-88-diversos-salud-mental-depresion-posparto-edimburgo.mp3",
-      "posterPath": "/generated-media/posters/reel-88-diversos-salud-mental-depresion-posparto-edimburgo.jpg"
-    },
-    {
-      "slug": "reel-89-diversos-lactancia-cancer-materno",
-      "durationSec": 29,
-      "videoPath": "/generated-media/reels/reel-89-diversos-lactancia-cancer-materno.mp4",
-      "audioPath": "/generated-media/audio/reel-89-diversos-lactancia-cancer-materno.mp3",
-      "posterPath": "/generated-media/posters/reel-89-diversos-lactancia-cancer-materno.jpg"
-    },
-    {
-      "slug": "reel-90-diversos-alcohol-sindrome-fetal-alcoholico",
-      "durationSec": 32,
-      "videoPath": "/generated-media/reels/reel-90-diversos-alcohol-sindrome-fetal-alcoholico.mp4",
-      "audioPath": "/generated-media/audio/reel-90-diversos-alcohol-sindrome-fetal-alcoholico.mp3",
-      "posterPath": "/generated-media/posters/reel-90-diversos-alcohol-sindrome-fetal-alcoholico.jpg"
-    },
-    {
-      "slug": "reel-91-diversos-ejercicio-piso-pelvico-incontinencia",
-      "durationSec": 33,
-      "videoPath": "/generated-media/reels/reel-91-diversos-ejercicio-piso-pelvico-incontinencia.mp4",
-      "audioPath": "/generated-media/audio/reel-91-diversos-ejercicio-piso-pelvico-incontinencia.mp3",
-      "posterPath": "/generated-media/posters/reel-91-diversos-ejercicio-piso-pelvico-incontinencia.jpg"
-    },
-    {
-      "slug": "reel-92-diversos-parto-en-agua-no-mejora-resultados",
-      "durationSec": 34,
-      "videoPath": "/generated-media/reels/reel-92-diversos-parto-en-agua-no-mejora-resultados.mp4",
-      "audioPath": "/generated-media/audio/reel-92-diversos-parto-en-agua-no-mejora-resultados.mp3",
-      "posterPath": "/generated-media/posters/reel-92-diversos-parto-en-agua-no-mejora-resultados.jpg"
-    },
-    {
-      "slug": "reel-93-diversos-continuidad-partera-mortalidad",
+      "slug": "reel-112-cierre-ductus-arterioso-pO2",
       "durationSec": 38,
-      "videoPath": "/generated-media/reels/reel-93-diversos-continuidad-partera-mortalidad.mp4",
-      "audioPath": "/generated-media/audio/reel-93-diversos-continuidad-partera-mortalidad.mp3",
-      "posterPath": "/generated-media/posters/reel-93-diversos-continuidad-partera-mortalidad.jpg"
+      "videoPath": "/generated-media/reels/reel-112-cierre-ductus-arterioso-pO2.mp4",
+      "audioPath": "/generated-media/audio/reel-112-cierre-ductus-arterioso-pO2.mp3",
+      "posterPath": "/generated-media/posters/reel-112-cierre-ductus-arterioso-pO2.jpg"
     },
     {
-      "slug": "reel-94-diversos-doulas-resultados-perinatales",
+      "slug": "reel-113-cierre-foramen-oval-presiones",
+      "durationSec": 34,
+      "videoPath": "/generated-media/reels/reel-113-cierre-foramen-oval-presiones.mp4",
+      "audioPath": "/generated-media/audio/reel-113-cierre-foramen-oval-presiones.mp3",
+      "posterPath": "/generated-media/posters/reel-113-cierre-foramen-oval-presiones.jpg"
+    },
+    {
+      "slug": "reel-114-saturacion-vena-vs-arterias-umbilicales",
+      "durationSec": 34,
+      "videoPath": "/generated-media/reels/reel-114-saturacion-vena-vs-arterias-umbilicales.mp4",
+      "audioPath": "/generated-media/audio/reel-114-saturacion-vena-vs-arterias-umbilicales.mp3",
+      "posterPath": "/generated-media/posters/reel-114-saturacion-vena-vs-arterias-umbilicales.jpg"
+    },
+    {
+      "slug": "reel-115-termogenesis-no-tiritante-grasa-parda",
+      "durationSec": 36,
+      "videoPath": "/generated-media/reels/reel-115-termogenesis-no-tiritante-grasa-parda.mp4",
+      "audioPath": "/generated-media/audio/reel-115-termogenesis-no-tiritante-grasa-parda.mp3",
+      "posterPath": "/generated-media/posters/reel-115-termogenesis-no-tiritante-grasa-parda.jpg"
+    },
+    {
+      "slug": "reel-116-clampeo-tardio-transfusion-placentaria",
+      "durationSec": 35,
+      "videoPath": "/generated-media/reels/reel-116-clampeo-tardio-transfusion-placentaria.mp4",
+      "audioPath": "/generated-media/audio/reel-116-clampeo-tardio-transfusion-placentaria.mp3",
+      "posterPath": "/generated-media/posters/reel-116-clampeo-tardio-transfusion-placentaria.jpg"
+    },
+    {
+      "slug": "reel-117-ttn-resorcion-liquido-pulmonar",
+      "durationSec": 36,
+      "videoPath": "/generated-media/reels/reel-117-ttn-resorcion-liquido-pulmonar.mp4",
+      "audioPath": "/generated-media/audio/reel-117-ttn-resorcion-liquido-pulmonar.mp3",
+      "posterPath": "/generated-media/posters/reel-117-ttn-resorcion-liquido-pulmonar.jpg"
+    },
+    {
+      "slug": "reel-118-primer-respiro-vasodilatacion-pulmonar",
+      "durationSec": 35,
+      "videoPath": "/generated-media/reels/reel-118-primer-respiro-vasodilatacion-pulmonar.mp4",
+      "audioPath": "/generated-media/audio/reel-118-primer-respiro-vasodilatacion-pulmonar.mp3",
+      "posterPath": "/generated-media/posters/reel-118-primer-respiro-vasodilatacion-pulmonar.jpg"
+    },
+    {
+      "slug": "reel-119-surfactante-laplace-prematuro",
+      "durationSec": 35,
+      "videoPath": "/generated-media/reels/reel-119-surfactante-laplace-prematuro.mp4",
+      "audioPath": "/generated-media/audio/reel-119-surfactante-laplace-prematuro.mp3",
+      "posterPath": "/generated-media/posters/reel-119-surfactante-laplace-prematuro.jpg"
+    },
+    {
+      "slug": "reel-120-vitamina-k-profilaxis-VKMB",
+      "durationSec": 41,
+      "videoPath": "/generated-media/reels/reel-120-vitamina-k-profilaxis-VKMB.mp4",
+      "audioPath": "/generated-media/audio/reel-120-vitamina-k-profilaxis-VKMB.mp3",
+      "posterPath": "/generated-media/posters/reel-120-vitamina-k-profilaxis-VKMB.jpg"
+    },
+    {
+      "slug": "reel-121-cuatro-formas-pelvis",
+      "durationSec": 33,
+      "videoPath": "/generated-media/reels/reel-121-cuatro-formas-pelvis.mp4",
+      "audioPath": "/generated-media/audio/reel-121-cuatro-formas-pelvis.mp3",
+      "posterPath": "/generated-media/posters/reel-121-cuatro-formas-pelvis.jpg"
+    },
+    {
+      "slug": "reel-122-conjugata-vera-vs-diagonalis",
+      "durationSec": 34,
+      "videoPath": "/generated-media/reels/reel-122-conjugata-vera-vs-diagonalis.mp4",
+      "audioPath": "/generated-media/audio/reel-122-conjugata-vera-vs-diagonalis.mp3",
+      "posterPath": "/generated-media/posters/reel-122-conjugata-vera-vs-diagonalis.jpg"
+    },
+    {
+      "slug": "reel-123-espinas-isquiaticas-angustia-pelvis",
+      "durationSec": 28,
+      "videoPath": "/generated-media/reels/reel-123-espinas-isquiaticas-angustia-pelvis.mp4",
+      "audioPath": "/generated-media/audio/reel-123-espinas-isquiaticas-angustia-pelvis.mp3",
+      "posterPath": "/generated-media/posters/reel-123-espinas-isquiaticas-angustia-pelvis.jpg"
+    },
+    {
+      "slug": "reel-124-hipomoclion-occipitoanterior",
+      "durationSec": 30,
+      "videoPath": "/generated-media/reels/reel-124-hipomoclion-occipitoanterior.mp4",
+      "audioPath": "/generated-media/audio/reel-124-hipomoclion-occipitoanterior.mp3",
+      "posterPath": "/generated-media/posters/reel-124-hipomoclion-occipitoanterior.jpg"
+    },
+    {
+      "slug": "reel-125-flexion-maxima-suboccipitobregmatico",
+      "durationSec": 35,
+      "videoPath": "/generated-media/reels/reel-125-flexion-maxima-suboccipitobregmatico.mp4",
+      "audioPath": "/generated-media/audio/reel-125-flexion-maxima-suboccipitobregmatico.mp3",
+      "posterPath": "/generated-media/posters/reel-125-flexion-maxima-suboccipitobregmatico.jpg"
+    },
+    {
+      "slug": "reel-126-asinclitismo-naegele-litzmann",
+      "durationSec": 32,
+      "videoPath": "/generated-media/reels/reel-126-asinclitismo-naegele-litzmann.mp4",
+      "audioPath": "/generated-media/audio/reel-126-asinclitismo-naegele-litzmann.mp3",
+      "posterPath": "/generated-media/posters/reel-126-asinclitismo-naegele-litzmann.jpg"
+    },
+    {
+      "slug": "reel-127-suelo-pelvico-tres-capas",
+      "durationSec": 33,
+      "videoPath": "/generated-media/reels/reel-127-suelo-pelvico-tres-capas.mp4",
+      "audioPath": "/generated-media/audio/reel-127-suelo-pelvico-tres-capas.mp3",
+      "posterPath": "/generated-media/posters/reel-127-suelo-pelvico-tres-capas.jpg"
+    },
+    {
+      "slug": "reel-128-curva-carus-eje-pelvico",
+      "durationSec": 25,
+      "videoPath": "/generated-media/reels/reel-128-curva-carus-eje-pelvico.mp4",
+      "audioPath": "/generated-media/audio/reel-128-curva-carus-eje-pelvico.mp3",
+      "posterPath": "/generated-media/posters/reel-128-curva-carus-eje-pelvico.jpg"
+    },
+    {
+      "slug": "reel-129-suturas-fontanelas-parietal",
+      "durationSec": 24,
+      "videoPath": "/generated-media/reels/reel-129-suturas-fontanelas-parietal.mp4",
+      "audioPath": "/generated-media/audio/reel-129-suturas-fontanelas-parietal.mp3",
+      "posterPath": "/generated-media/posters/reel-129-suturas-fontanelas-parietal.jpg"
+    },
+    {
+      "slug": "reel-130-presentacion-frente-mentoocipital",
+      "durationSec": 32,
+      "videoPath": "/generated-media/reels/reel-130-presentacion-frente-mentoocipital.mp4",
+      "audioPath": "/generated-media/audio/reel-130-presentacion-frente-mentoocipital.mp3",
+      "posterPath": "/generated-media/posters/reel-130-presentacion-frente-mentoocipital.jpg"
+    },
+    {
+      "slug": "reel-131-tpr-cae-30-40-progesterona",
       "durationSec": 29,
-      "videoPath": "/generated-media/reels/reel-94-diversos-doulas-resultados-perinatales.mp4",
-      "audioPath": "/generated-media/audio/reel-94-diversos-doulas-resultados-perinatales.mp3",
-      "posterPath": "/generated-media/posters/reel-94-diversos-doulas-resultados-perinatales.jpg"
+      "videoPath": "/generated-media/reels/reel-131-tpr-cae-30-40-progesterona.mp4",
+      "audioPath": "/generated-media/audio/reel-131-tpr-cae-30-40-progesterona.mp3",
+      "posterPath": "/generated-media/posters/reel-131-tpr-cae-30-40-progesterona.jpg"
     },
     {
-      "slug": "reel-95-diversos-tamizaje-neonatal-talon",
-      "durationSec": 49,
-      "videoPath": "/generated-media/reels/reel-95-diversos-tamizaje-neonatal-talon.mp4",
-      "audioPath": "/generated-media/audio/reel-95-diversos-tamizaje-neonatal-talon.mp3",
-      "posterPath": "/generated-media/posters/reel-95-diversos-tamizaje-neonatal-talon.jpg"
+      "slug": "reel-132-sindrome-vena-cava-supina",
+      "durationSec": 33,
+      "videoPath": "/generated-media/reels/reel-132-sindrome-vena-cava-supina.mp4",
+      "audioPath": "/generated-media/audio/reel-132-sindrome-vena-cava-supina.mp3",
+      "posterPath": "/generated-media/posters/reel-132-sindrome-vena-cava-supina.jpg"
     },
     {
-      "slug": "reel-96-diversos-lactancia-farmacos-compatibles",
-      "durationSec": 54,
-      "videoPath": "/generated-media/reels/reel-96-diversos-lactancia-farmacos-compatibles.mp4",
-      "audioPath": "/generated-media/audio/reel-96-diversos-lactancia-farmacos-compatibles.mp3",
-      "posterPath": "/generated-media/posters/reel-96-diversos-lactancia-farmacos-compatibles.jpg"
+      "slug": "reel-133-hipercoagulabilidad-embarazo",
+      "durationSec": 30,
+      "videoPath": "/generated-media/reels/reel-133-hipercoagulabilidad-embarazo.mp4",
+      "audioPath": "/generated-media/audio/reel-133-hipercoagulabilidad-embarazo.mp3",
+      "posterPath": "/generated-media/posters/reel-133-hipercoagulabilidad-embarazo.jpg"
     },
     {
-      "slug": "reel-97-diversos-posicion-vertical-parto",
-      "durationSec": 44,
-      "videoPath": "/generated-media/reels/reel-97-diversos-posicion-vertical-parto.mp4",
-      "audioPath": "/generated-media/audio/reel-97-diversos-posicion-vertical-parto.mp3",
-      "posterPath": "/generated-media/posters/reel-97-diversos-posicion-vertical-parto.jpg"
+      "slug": "reel-134-alcalosis-respiratoria-progesterona",
+      "durationSec": 30,
+      "videoPath": "/generated-media/reels/reel-134-alcalosis-respiratoria-progesterona.mp4",
+      "audioPath": "/generated-media/audio/reel-134-alcalosis-respiratoria-progesterona.mp3",
+      "posterPath": "/generated-media/posters/reel-134-alcalosis-respiratoria-progesterona.jpg"
     },
     {
-      "slug": "reel-98-diversos-pinzamiento-tardio-prematuros",
-      "durationSec": 50,
-      "videoPath": "/generated-media/reels/reel-98-diversos-pinzamiento-tardio-prematuros.mp4",
-      "audioPath": "/generated-media/audio/reel-98-diversos-pinzamiento-tardio-prematuros.mp3",
-      "posterPath": "/generated-media/posters/reel-98-diversos-pinzamiento-tardio-prematuros.jpg"
+      "slug": "reel-135-resistencia-insulinica-fetal",
+      "durationSec": 35,
+      "videoPath": "/generated-media/reels/reel-135-resistencia-insulinica-fetal.mp4",
+      "audioPath": "/generated-media/audio/reel-135-resistencia-insulinica-fetal.mp3",
+      "posterPath": "/generated-media/posters/reel-135-resistencia-insulinica-fetal.jpg"
     },
     {
-      "slug": "reel-99-diversos-mgso4-neuroproteccion-prematuro",
+      "slug": "reel-136-creatinina-gfr-embarazo",
+      "durationSec": 35,
+      "videoPath": "/generated-media/reels/reel-136-creatinina-gfr-embarazo.mp4",
+      "audioPath": "/generated-media/audio/reel-136-creatinina-gfr-embarazo.mp3",
+      "posterPath": "/generated-media/posters/reel-136-creatinina-gfr-embarazo.jpg"
+    },
+    {
+      "slug": "reel-137-relaxina-sinfisis-laxitud",
+      "durationSec": 30,
+      "videoPath": "/generated-media/reels/reel-137-relaxina-sinfisis-laxitud.mp4",
+      "audioPath": "/generated-media/audio/reel-137-relaxina-sinfisis-laxitud.mp3",
+      "posterPath": "/generated-media/posters/reel-137-relaxina-sinfisis-laxitud.jpg"
+    },
+    {
+      "slug": "reel-138-hcg-tsh-cross-reactivity",
+      "durationSec": 29,
+      "videoPath": "/generated-media/reels/reel-138-hcg-tsh-cross-reactivity.mp4",
+      "audioPath": "/generated-media/audio/reel-138-hcg-tsh-cross-reactivity.mp3",
+      "posterPath": "/generated-media/posters/reel-138-hcg-tsh-cross-reactivity.jpg"
+    },
+    {
+      "slug": "reel-139-reflujo-estreñimiento-progesterona",
+      "durationSec": 29,
+      "videoPath": "/generated-media/reels/reel-139-reflujo-estreñimiento-progesterona.mp4",
+      "audioPath": "/generated-media/audio/reel-139-reflujo-estreñimiento-progesterona.mp3",
+      "posterPath": "/generated-media/posters/reel-139-reflujo-estreñimiento-progesterona.jpg"
+    },
+    {
+      "slug": "reel-140-anemia-dilucional-vs-real",
+      "durationSec": 33,
+      "videoPath": "/generated-media/reels/reel-140-anemia-dilucional-vs-real.mp4",
+      "audioPath": "/generated-media/audio/reel-140-anemia-dilucional-vs-real.mp3",
+      "posterPath": "/generated-media/posters/reel-140-anemia-dilucional-vs-real.jpg"
+    },
+    {
+      "slug": "reel-141-retirada-funcional-progesterona",
+      "durationSec": 30,
+      "videoPath": "/generated-media/reels/reel-141-retirada-funcional-progesterona.mp4",
+      "audioPath": "/generated-media/audio/reel-141-retirada-funcional-progesterona.mp3",
+      "posterPath": "/generated-media/posters/reel-141-retirada-funcional-progesterona.jpg"
+    },
+    {
+      "slug": "reel-142-reflejo-ferguson-oxitocina",
+      "durationSec": 25,
+      "videoPath": "/generated-media/reels/reel-142-reflejo-ferguson-oxitocina.mp4",
+      "audioPath": "/generated-media/audio/reel-142-reflejo-ferguson-oxitocina.mp3",
+      "posterPath": "/generated-media/posters/reel-142-reflejo-ferguson-oxitocina.jpg"
+    },
+    {
+      "slug": "reel-143-triple-gradiente-descendente",
+      "durationSec": 34,
+      "videoPath": "/generated-media/reels/reel-143-triple-gradiente-descendente.mp4",
+      "audioPath": "/generated-media/audio/reel-143-triple-gradiente-descendente.mp3",
+      "posterPath": "/generated-media/posters/reel-143-triple-gradiente-descendente.jpg"
+    },
+    {
+      "slug": "reel-144-retraccion-miometrio-vs-contraccion",
+      "durationSec": 22,
+      "videoPath": "/generated-media/reels/reel-144-retraccion-miometrio-vs-contraccion.mp4",
+      "audioPath": "/generated-media/audio/reel-144-retraccion-miometrio-vs-contraccion.mp3",
+      "posterPath": "/generated-media/posters/reel-144-retraccion-miometrio-vs-contraccion.jpg"
+    },
+    {
+      "slug": "reel-145-maduracion-cervical-inflamacion",
+      "durationSec": 33,
+      "videoPath": "/generated-media/reels/reel-145-maduracion-cervical-inflamacion.mp4",
+      "audioPath": "/generated-media/audio/reel-145-maduracion-cervical-inflamacion.mp3",
+      "posterPath": "/generated-media/posters/reel-145-maduracion-cervical-inflamacion.jpg"
+    },
+    {
+      "slug": "reel-146-gap-junctions-conexina-43",
+      "durationSec": 33,
+      "videoPath": "/generated-media/reels/reel-146-gap-junctions-conexina-43.mp4",
+      "audioPath": "/generated-media/audio/reel-146-gap-junctions-conexina-43.mp3",
+      "posterPath": "/generated-media/posters/reel-146-gap-junctions-conexina-43.jpg"
+    },
+    {
+      "slug": "reel-147-catecolaminas-estres-frenan-parto",
+      "durationSec": 31,
+      "videoPath": "/generated-media/reels/reel-147-catecolaminas-estres-frenan-parto.mp4",
+      "audioPath": "/generated-media/audio/reel-147-catecolaminas-estres-frenan-parto.mp3",
+      "posterPath": "/generated-media/posters/reel-147-catecolaminas-estres-frenan-parto.jpg"
+    },
+    {
+      "slug": "reel-148-alumbramiento-cizalla-uterina",
+      "durationSec": 27,
+      "videoPath": "/generated-media/reels/reel-148-alumbramiento-cizalla-uterina.mp4",
+      "audioPath": "/generated-media/audio/reel-148-alumbramiento-cizalla-uterina.mp3",
+      "posterPath": "/generated-media/posters/reel-148-alumbramiento-cizalla-uterina.jpg"
+    },
+    {
+      "slug": "reel-149-ligadura-viviente-uterina",
+      "durationSec": 31,
+      "videoPath": "/generated-media/reels/reel-149-ligadura-viviente-uterina.mp4",
+      "audioPath": "/generated-media/audio/reel-149-ligadura-viviente-uterina.mp3",
+      "posterPath": "/generated-media/posters/reel-149-ligadura-viviente-uterina.jpg"
+    },
+    {
+      "slug": "reel-150-lactancia-amenorrea-prolactina",
+      "durationSec": 31,
+      "videoPath": "/generated-media/reels/reel-150-lactancia-amenorrea-prolactina.mp4",
+      "audioPath": "/generated-media/audio/reel-150-lactancia-amenorrea-prolactina.mp3",
+      "posterPath": "/generated-media/posters/reel-150-lactancia-amenorrea-prolactina.jpg"
+    },
+    {
+      "slug": "reel-151-spatium-perinei-profundum",
+      "durationSec": 27,
+      "videoPath": "/generated-media/reels/reel-151-spatium-perinei-profundum.mp4",
+      "audioPath": "/generated-media/audio/reel-151-spatium-perinei-profundum.mp3",
+      "posterPath": "/generated-media/posters/reel-151-spatium-perinei-profundum.jpg"
+    },
+    {
+      "slug": "reel-152-linea-jacoby-intercristal",
+      "durationSec": 24,
+      "videoPath": "/generated-media/reels/reel-152-linea-jacoby-intercristal.mp4",
+      "audioPath": "/generated-media/audio/reel-152-linea-jacoby-intercristal.mp3",
+      "posterPath": "/generated-media/posters/reel-152-linea-jacoby-intercristal.jpg"
+    },
+    {
+      "slug": "reel-153-sinciput-vorderhauptslage",
+      "durationSec": 23,
+      "videoPath": "/generated-media/reels/reel-153-sinciput-vorderhauptslage.mp4",
+      "audioPath": "/generated-media/audio/reel-153-sinciput-vorderhauptslage.mp3",
+      "posterPath": "/generated-media/posters/reel-153-sinciput-vorderhauptslage.jpg"
+    },
+    {
+      "slug": "reel-154-diametros-pelvicos-tres-niveles",
+      "durationSec": 33,
+      "videoPath": "/generated-media/reels/reel-154-diametros-pelvicos-tres-niveles.mp4",
+      "audioPath": "/generated-media/audio/reel-154-diametros-pelvicos-tres-niveles.mp3",
+      "posterPath": "/generated-media/posters/reel-154-diametros-pelvicos-tres-niveles.jpg"
+    },
+    {
+      "slug": "reel-155-ligamento-cardinal-mackenrodt",
+      "durationSec": 24,
+      "videoPath": "/generated-media/reels/reel-155-ligamento-cardinal-mackenrodt.mp4",
+      "audioPath": "/generated-media/audio/reel-155-ligamento-cardinal-mackenrodt.mp3",
+      "posterPath": "/generated-media/posters/reel-155-ligamento-cardinal-mackenrodt.jpg"
+    },
+    {
+      "slug": "reel-156-anillo-bandl-ruptura-uterina",
+      "durationSec": 29,
+      "videoPath": "/generated-media/reels/reel-156-anillo-bandl-ruptura-uterina.mp4",
+      "audioPath": "/generated-media/audio/reel-156-anillo-bandl-ruptura-uterina.mp3",
+      "posterPath": "/generated-media/posters/reel-156-anillo-bandl-ruptura-uterina.jpg"
+    },
+    {
+      "slug": "reel-157-moldeamiento-cabeza-suturas",
+      "durationSec": 27,
+      "videoPath": "/generated-media/reels/reel-157-moldeamiento-cabeza-suturas.mp4",
+      "audioPath": "/generated-media/audio/reel-157-moldeamiento-cabeza-suturas.mp3",
+      "posterPath": "/generated-media/posters/reel-157-moldeamiento-cabeza-suturas.jpg"
+    },
+    {
+      "slug": "reel-158-nervio-pudendo-bloqueo",
+      "durationSec": 29,
+      "videoPath": "/generated-media/reels/reel-158-nervio-pudendo-bloqueo.mp4",
+      "audioPath": "/generated-media/audio/reel-158-nervio-pudendo-bloqueo.mp3",
+      "posterPath": "/generated-media/posters/reel-158-nervio-pudendo-bloqueo.jpg"
+    },
+    {
+      "slug": "reel-159-pelvis-justo-minor",
+      "durationSec": 21,
+      "videoPath": "/generated-media/reels/reel-159-pelvis-justo-minor.mp4",
+      "audioPath": "/generated-media/audio/reel-159-pelvis-justo-minor.mp3",
+      "posterPath": "/generated-media/posters/reel-159-pelvis-justo-minor.jpg"
+    },
+    {
+      "slug": "reel-160-centro-perineal-tendineum",
+      "durationSec": 26,
+      "videoPath": "/generated-media/reels/reel-160-centro-perineal-tendineum.mp4",
+      "audioPath": "/generated-media/audio/reel-160-centro-perineal-tendineum.mp3",
+      "posterPath": "/generated-media/posters/reel-160-centro-perineal-tendineum.jpg"
+    },
+    {
+      "slug": "reel-161-lactancia-nachwehen-oxitocina",
+      "durationSec": 28,
+      "videoPath": "/generated-media/reels/reel-161-lactancia-nachwehen-oxitocina.mp4",
+      "audioPath": "/generated-media/audio/reel-161-lactancia-nachwehen-oxitocina.mp3",
+      "posterPath": "/generated-media/posters/reel-161-lactancia-nachwehen-oxitocina.jpg"
+    },
+    {
+      "slug": "reel-162-supresion-fsh-lh-en-embarazo",
+      "durationSec": 23,
+      "videoPath": "/generated-media/reels/reel-162-supresion-fsh-lh-en-embarazo.mp4",
+      "audioPath": "/generated-media/audio/reel-162-supresion-fsh-lh-en-embarazo.mp3",
+      "posterPath": "/generated-media/posters/reel-162-supresion-fsh-lh-en-embarazo.jpg"
+    },
+    {
+      "slug": "reel-163-oxitocina-vida-media-corta",
+      "durationSec": 25,
+      "videoPath": "/generated-media/reels/reel-163-oxitocina-vida-media-corta.mp4",
+      "audioPath": "/generated-media/audio/reel-163-oxitocina-vida-media-corta.mp3",
+      "posterPath": "/generated-media/posters/reel-163-oxitocina-vida-media-corta.jpg"
+    },
+    {
+      "slug": "reel-164-hormona-antimulleriana-fetal",
+      "durationSec": 31,
+      "videoPath": "/generated-media/reels/reel-164-hormona-antimulleriana-fetal.mp4",
+      "audioPath": "/generated-media/audio/reel-164-hormona-antimulleriana-fetal.mp3",
+      "posterPath": "/generated-media/posters/reel-164-hormona-antimulleriana-fetal.jpg"
+    },
+    {
+      "slug": "reel-165-nauseas-hcg-area-postrema",
+      "durationSec": 32,
+      "videoPath": "/generated-media/reels/reel-165-nauseas-hcg-area-postrema.mp4",
+      "audioPath": "/generated-media/audio/reel-165-nauseas-hcg-area-postrema.mp3",
+      "posterPath": "/generated-media/posters/reel-165-nauseas-hcg-area-postrema.jpg"
+    },
+    {
+      "slug": "reel-166-cortisol-11bhsd2-placentaria",
+      "durationSec": 29,
+      "videoPath": "/generated-media/reels/reel-166-cortisol-11bhsd2-placentaria.mp4",
+      "audioPath": "/generated-media/audio/reel-166-cortisol-11bhsd2-placentaria.mp3",
+      "posterPath": "/generated-media/posters/reel-166-cortisol-11bhsd2-placentaria.jpg"
+    },
+    {
+      "slug": "reel-167-sflt1-plgf-ratio-preeclampsia",
+      "durationSec": 29,
+      "videoPath": "/generated-media/reels/reel-167-sflt1-plgf-ratio-preeclampsia.mp4",
+      "audioPath": "/generated-media/audio/reel-167-sflt1-plgf-ratio-preeclampsia.mp3",
+      "posterPath": "/generated-media/posters/reel-167-sflt1-plgf-ratio-preeclampsia.jpg"
+    },
+    {
+      "slug": "reel-168-lactogenesis-ii-prolactina-progesterona",
+      "durationSec": 30,
+      "videoPath": "/generated-media/reels/reel-168-lactogenesis-ii-prolactina-progesterona.mp4",
+      "audioPath": "/generated-media/audio/reel-168-lactogenesis-ii-prolactina-progesterona.mp3",
+      "posterPath": "/generated-media/posters/reel-168-lactogenesis-ii-prolactina-progesterona.jpg"
+    },
+    {
+      "slug": "reel-169-hiperinsulinismo-fetal-macrosomia",
+      "durationSec": 28,
+      "videoPath": "/generated-media/reels/reel-169-hiperinsulinismo-fetal-macrosomia.mp4",
+      "audioPath": "/generated-media/audio/reel-169-hiperinsulinismo-fetal-macrosomia.mp3",
+      "posterPath": "/generated-media/posters/reel-169-hiperinsulinismo-fetal-macrosomia.jpg"
+    },
+    {
+      "slug": "reel-170-cortisol-fetal-madura-organos",
+      "durationSec": 26,
+      "videoPath": "/generated-media/reels/reel-170-cortisol-fetal-madura-organos.mp4",
+      "audioPath": "/generated-media/audio/reel-170-cortisol-fetal-madura-organos.mp3",
+      "posterPath": "/generated-media/posters/reel-170-cortisol-fetal-madura-organos.jpg"
+    },
+    {
+      "slug": "reel-171-tolerancia-inmune-hla-g",
+      "durationSec": 31,
+      "videoPath": "/generated-media/reels/reel-171-tolerancia-inmune-hla-g.mp4",
+      "audioPath": "/generated-media/audio/reel-171-tolerancia-inmune-hla-g.mp3",
+      "posterPath": "/generated-media/posters/reel-171-tolerancia-inmune-hla-g.jpg"
+    },
+    {
+      "slug": "reel-172-rh-hemolitica-igG-segunda",
+      "durationSec": 37,
+      "videoPath": "/generated-media/reels/reel-172-rh-hemolitica-igG-segunda.mp4",
+      "audioPath": "/generated-media/audio/reel-172-rh-hemolitica-igG-segunda.mp3",
+      "posterPath": "/generated-media/posters/reel-172-rh-hemolitica-igG-segunda.jpg"
+    },
+    {
+      "slug": "reel-173-profilaxis-anti-d-28-72h",
+      "durationSec": 41,
+      "videoPath": "/generated-media/reels/reel-173-profilaxis-anti-d-28-72h.mp4",
+      "audioPath": "/generated-media/audio/reel-173-profilaxis-anti-d-28-72h.mp3",
+      "posterPath": "/generated-media/posters/reel-173-profilaxis-anti-d-28-72h.jpg"
+    },
+    {
+      "slug": "reel-174-hbf-cadena-gamma-curva-izquierda",
+      "durationSec": 28,
+      "videoPath": "/generated-media/reels/reel-174-hbf-cadena-gamma-curva-izquierda.mp4",
+      "audioPath": "/generated-media/audio/reel-174-hbf-cadena-gamma-curva-izquierda.mp3",
+      "posterPath": "/generated-media/posters/reel-174-hbf-cadena-gamma-curva-izquierda.jpg"
+    },
+    {
+      "slug": "reel-175-ictericia-praecox-vs-fisiologica",
+      "durationSec": 38,
+      "videoPath": "/generated-media/reels/reel-175-ictericia-praecox-vs-fisiologica.mp4",
+      "audioPath": "/generated-media/audio/reel-175-ictericia-praecox-vs-fisiologica.mp3",
+      "posterPath": "/generated-media/posters/reel-175-ictericia-praecox-vs-fisiologica.jpg"
+    },
+    {
+      "slug": "reel-176-leucocitosis-parto-no-infeccion",
+      "durationSec": 26,
+      "videoPath": "/generated-media/reels/reel-176-leucocitosis-parto-no-infeccion.mp4",
+      "audioPath": "/generated-media/audio/reel-176-leucocitosis-parto-no-infeccion.mp3",
+      "posterPath": "/generated-media/posters/reel-176-leucocitosis-parto-no-infeccion.jpg"
+    },
+    {
+      "slug": "reel-177-volumen-sanguineo-fetal-80ml-kg",
+      "durationSec": 28,
+      "videoPath": "/generated-media/reels/reel-177-volumen-sanguineo-fetal-80ml-kg.mp4",
+      "audioPath": "/generated-media/audio/reel-177-volumen-sanguineo-fetal-80ml-kg.mp3",
+      "posterPath": "/generated-media/posters/reel-177-volumen-sanguineo-fetal-80ml-kg.jpg"
+    },
+    {
+      "slug": "reel-178-microtransfusion-fetomaterna-parto",
+      "durationSec": 25,
+      "videoPath": "/generated-media/reels/reel-178-microtransfusion-fetomaterna-parto.mp4",
+      "audioPath": "/generated-media/audio/reel-178-microtransfusion-fetomaterna-parto.mp3",
+      "posterPath": "/generated-media/posters/reel-178-microtransfusion-fetomaterna-parto.jpg"
+    },
+    {
+      "slug": "reel-179-celulas-madre-cordon",
+      "durationSec": 27,
+      "videoPath": "/generated-media/reels/reel-179-celulas-madre-cordon.mp4",
+      "audioPath": "/generated-media/audio/reel-179-celulas-madre-cordon.mp3",
+      "posterPath": "/generated-media/posters/reel-179-celulas-madre-cordon.jpg"
+    },
+    {
+      "slug": "reel-180-anemia-fisiologica-neonato-epo",
+      "durationSec": 27,
+      "videoPath": "/generated-media/reels/reel-180-anemia-fisiologica-neonato-epo.mp4",
+      "audioPath": "/generated-media/audio/reel-180-anemia-fisiologica-neonato-epo.mp3",
+      "posterPath": "/generated-media/posters/reel-180-anemia-fisiologica-neonato-epo.jpg"
+    },
+    {
+      "slug": "reel-181-tres-capas-miometrio",
+      "durationSec": 31,
+      "videoPath": "/generated-media/reels/reel-181-tres-capas-miometrio.mp4",
+      "audioPath": "/generated-media/audio/reel-181-tres-capas-miometrio.mp3",
+      "posterPath": "/generated-media/posters/reel-181-tres-capas-miometrio.jpg"
+    },
+    {
+      "slug": "reel-182-arteria-uterina-notch-doppler",
+      "durationSec": 28,
+      "videoPath": "/generated-media/reels/reel-182-arteria-uterina-notch-doppler.mp4",
+      "audioPath": "/generated-media/audio/reel-182-arteria-uterina-notch-doppler.mp3",
+      "posterPath": "/generated-media/posters/reel-182-arteria-uterina-notch-doppler.jpg"
+    },
+    {
+      "slug": "reel-210-leopold-3-pawlik-cabeza",
+      "durationSec": 62,
+      "videoPath": "/generated-media/reels/reel-210-leopold-3-pawlik-cabeza.mp4",
+      "audioPath": "/generated-media/audio/reel-210-leopold-3-pawlik-cabeza.mp3",
+      "posterPath": "/generated-media/posters/reel-210-leopold-3-pawlik-cabeza.jpg"
+    },
+    {
+      "slug": "reel-211-ganancia-peso-400-500-semana",
+      "durationSec": 62,
+      "videoPath": "/generated-media/reels/reel-211-ganancia-peso-400-500-semana.mp4",
+      "audioPath": "/generated-media/audio/reel-211-ganancia-peso-400-500-semana.mp3",
+      "posterPath": "/generated-media/posters/reel-211-ganancia-peso-400-500-semana.jpg"
+    },
+    {
+      "slug": "reel-212-folato-preconcepcional-28dias",
+      "durationSec": 58,
+      "videoPath": "/generated-media/reels/reel-212-folato-preconcepcional-28dias.mp4",
+      "audioPath": "/generated-media/audio/reel-212-folato-preconcepcional-28dias.mp3",
+      "posterPath": "/generated-media/posters/reel-212-folato-preconcepcional-28dias.jpg"
+    },
+    {
+      "slug": "reel-213-papp-a-screening-1trimestre",
+      "durationSec": 62,
+      "videoPath": "/generated-media/reels/reel-213-papp-a-screening-1trimestre.mp4",
+      "audioPath": "/generated-media/audio/reel-213-papp-a-screening-1trimestre.mp3",
+      "posterPath": "/generated-media/posters/reel-213-papp-a-screening-1trimestre.jpg"
+    },
+    {
+      "slug": "reel-214-translucencia-nucal-3-5mm",
+      "durationSec": 62,
+      "videoPath": "/generated-media/reels/reel-214-translucencia-nucal-3-5mm.mp4",
+      "audioPath": "/generated-media/audio/reel-214-translucencia-nucal-3-5mm.mp3",
+      "posterPath": "/generated-media/posters/reel-214-translucencia-nucal-3-5mm.jpg"
+    },
+    {
+      "slug": "reel-215-plasma-expansion-40-50",
+      "durationSec": 62,
+      "videoPath": "/generated-media/reels/reel-215-plasma-expansion-40-50.mp4",
+      "audioPath": "/generated-media/audio/reel-215-plasma-expansion-40-50.mp3",
+      "posterPath": "/generated-media/posters/reel-215-plasma-expansion-40-50.jpg"
+    },
+    {
+      "slug": "reel-216-leucocitos-15000-fisiologica",
+      "durationSec": 60,
+      "videoPath": "/generated-media/reels/reel-216-leucocitos-15000-fisiologica.mp4",
+      "audioPath": "/generated-media/audio/reel-216-leucocitos-15000-fisiologica.mp3",
+      "posterPath": "/generated-media/posters/reel-216-leucocitos-15000-fisiologica.jpg"
+    },
+    {
+      "slug": "reel-217-hidronefrosis-gestacional-progesterona",
+      "durationSec": 61,
+      "videoPath": "/generated-media/reels/reel-217-hidronefrosis-gestacional-progesterona.mp4",
+      "audioPath": "/generated-media/audio/reel-217-hidronefrosis-gestacional-progesterona.mp3",
+      "posterPath": "/generated-media/posters/reel-217-hidronefrosis-gestacional-progesterona.jpg"
+    },
+    {
+      "slug": "reel-218-perfil-biofisico-cuatro-parametros",
       "durationSec": 57,
-      "videoPath": "/generated-media/reels/reel-99-diversos-mgso4-neuroproteccion-prematuro.mp4",
-      "audioPath": "/generated-media/audio/reel-99-diversos-mgso4-neuroproteccion-prematuro.mp3",
-      "posterPath": "/generated-media/posters/reel-99-diversos-mgso4-neuroproteccion-prematuro.jpg"
+      "videoPath": "/generated-media/reels/reel-218-perfil-biofisico-cuatro-parametros.mp4",
+      "audioPath": "/generated-media/audio/reel-218-perfil-biofisico-cuatro-parametros.mp3",
+      "posterPath": "/generated-media/posters/reel-218-perfil-biofisico-cuatro-parametros.jpg"
+    },
+    {
+      "slug": "reel-219-hb-anemia-2trimestre-105",
+      "durationSec": 62,
+      "videoPath": "/generated-media/reels/reel-219-hb-anemia-2trimestre-105.mp4",
+      "audioPath": "/generated-media/audio/reel-219-hb-anemia-2trimestre-105.mp3",
+      "posterPath": "/generated-media/posters/reel-219-hb-anemia-2trimestre-105.jpg"
+    },
+    {
+      "slug": "reel-220-glucosuria-fisiologica-gfr",
+      "durationSec": 55,
+      "videoPath": "/generated-media/reels/reel-220-glucosuria-fisiologica-gfr.mp4",
+      "audioPath": "/generated-media/audio/reel-220-glucosuria-fisiologica-gfr.mp3",
+      "posterPath": "/generated-media/posters/reel-220-glucosuria-fisiologica-gfr.jpg"
+    },
+    {
+      "slug": "reel-221-ctg-variabilidad-5-25",
+      "durationSec": 53,
+      "videoPath": "/generated-media/reels/reel-221-ctg-variabilidad-5-25.mp4",
+      "audioPath": "/generated-media/audio/reel-221-ctg-variabilidad-5-25.mp3",
+      "posterPath": "/generated-media/posters/reel-221-ctg-variabilidad-5-25.jpg"
     }
   ]
 }

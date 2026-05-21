@@ -1,0 +1,73 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,84,&H00B4377C,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.38,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Cuando {\rBase}una {\rBase}paciente
+Dialogue: 0,0:00:00.38,0:00:00.62,Base,,0,0,0,,{\rBase}Cuando {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}una {\rBase}paciente
+Dialogue: 0,0:00:00.62,0:00:01.17,Base,,0,0,0,,{\rBase}Cuando {\rBase}una {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}paciente
+Dialogue: 0,0:00:01.12,0:00:01.56,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sangra {\rBase}días {\rBase}después
+Dialogue: 0,0:00:01.56,0:00:01.80,Base,,0,0,0,,{\rBase}sangra {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}días {\rBase}después
+Dialogue: 0,0:00:01.80,0:00:02.19,Base,,0,0,0,,{\rBase}sangra {\rBase}días {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}después
+Dialogue: 0,0:00:02.14,0:00:02.36,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}del {\rBase}parto, {\rBase}se
+Dialogue: 0,0:00:02.36,0:00:02.96,Base,,0,0,0,,{\rBase}del {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}parto, {\rBase}se
+Dialogue: 0,0:00:02.96,0:00:03.07,Base,,0,0,0,,{\rBase}del {\rBase}parto, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}se
+Dialogue: 0,0:00:03.02,0:00:03.34,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}asume {\rBase}que {\rBase}es
+Dialogue: 0,0:00:03.34,0:00:03.46,Base,,0,0,0,,{\rBase}asume {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}que {\rBase}es
+Dialogue: 0,0:00:03.46,0:00:03.63,Base,,0,0,0,,{\rBase}asume {\rBase}que {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}es
+Dialogue: 0,0:00:03.58,0:00:04.00,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}normal {\rBase}hasta {\rBase}que
+Dialogue: 0,0:00:04.00,0:00:04.40,Base,,0,0,0,,{\rBase}normal {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hasta {\rBase}que
+Dialogue: 0,0:00:04.40,0:00:04.65,Base,,0,0,0,,{\rBase}normal {\rBase}hasta {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}que
+Dialogue: 0,0:00:04.60,0:00:04.76,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}es {\rBase}severo. {\rBase}La
+Dialogue: 0,0:00:04.76,0:00:05.46,Base,,0,0,0,,{\rBase}es {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}severo. {\rBase}La
+Dialogue: 0,0:00:05.46,0:00:05.97,Base,,0,0,0,,{\rBase}es {\rBase}severo. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La
+Dialogue: 0,0:00:05.92,0:00:06.50,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ecografía {\rBase}posparto {\rBase}no
+Dialogue: 0,0:00:06.50,0:00:07.10,Base,,0,0,0,,{\rBase}ecografía {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}posparto {\rBase}no
+Dialogue: 0,0:00:07.10,0:00:07.39,Base,,0,0,0,,{\rBase}ecografía {\rBase}posparto {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}no
+Dialogue: 0,0:00:07.34,0:00:07.54,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}está {\rBase}protocolizada {\rBase}para
+Dialogue: 0,0:00:07.54,0:00:08.38,Base,,0,0,0,,{\rBase}está {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}protocolizada {\rBase}para
+Dialogue: 0,0:00:08.38,0:00:08.69,Base,,0,0,0,,{\rBase}está {\rBase}protocolizada {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}para
+Dialogue: 0,0:00:08.64,0:00:09.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}detectar {\rBase}restos. {\rBase}La
+Dialogue: 0,0:00:09.26,0:00:10.24,Base,,0,0,0,,{\rBase}detectar {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}restos. {\rBase}La
+Dialogue: 0,0:00:10.24,0:00:10.77,Base,,0,0,0,,{\rBase}detectar {\rBase}restos. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La
+Dialogue: 0,0:00:10.72,0:00:11.28,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}retención {\rBase}de {\rBase}restos
+Dialogue: 0,0:00:11.28,0:00:11.44,Base,,0,0,0,,{\rBase}retención {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}restos
+Dialogue: 0,0:00:11.44,0:00:11.89,Base,,0,0,0,,{\rBase}retención {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}restos
+Dialogue: 0,0:00:11.84,0:00:12.58,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}placentarios {\rBase}es {\rBase}la
+Dialogue: 0,0:00:12.58,0:00:12.88,Base,,0,0,0,,{\rBase}placentarios {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}es {\rBase}la
+Dialogue: 0,0:00:12.88,0:00:13.05,Base,,0,0,0,,{\rBase}placentarios {\rBase}es {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la
+Dialogue: 0,0:00:13.00,0:00:13.34,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}causa {\rBase}más {\rBase}frecuente
+Dialogue: 0,0:00:13.34,0:00:13.60,Base,,0,0,0,,{\rBase}causa {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}más {\rBase}frecuente
+Dialogue: 0,0:00:13.60,0:00:14.25,Base,,0,0,0,,{\rBase}causa {\rBase}más {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}frecuente
+Dialogue: 0,0:00:14.20,0:00:14.38,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}HPP {\rBase}secundaria,
+Dialogue: 0,0:00:14.38,0:00:15.06,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}HPP {\rBase}secundaria,
+Dialogue: 0,0:00:15.06,0:00:15.83,Base,,0,0,0,,{\rBase}de {\rBase}HPP {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}secundaria,
+Dialogue: 0,0:00:15.98,0:00:16.40,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}después {\rBase}de {\rBase}24
+Dialogue: 0,0:00:16.40,0:00:16.58,Base,,0,0,0,,{\rBase}después {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}24
+Dialogue: 0,0:00:16.58,0:00:17.09,Base,,0,0,0,,{\rBase}después {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}24
+Dialogue: 0,0:00:17.04,0:00:17.96,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}horas, {\rBase}representando {\rBase}el
+Dialogue: 0,0:00:17.96,0:00:18.80,Base,,0,0,0,,{\rBase}horas, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}representando {\rBase}el
+Dialogue: 0,0:00:18.80,0:00:18.97,Base,,0,0,0,,{\rBase}horas, {\rBase}representando {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el
+Dialogue: 0,0:00:18.92,0:00:19.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}30 {\rBase}-40 {\rBase}%
+Dialogue: 0,0:00:19.26,0:00:19.80,Base,,0,0,0,,{\rBase}30 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}-40 {\rBase}%
+Dialogue: 0,0:00:19.80,0:00:20.21,Base,,0,0,0,,{\rBase}30 {\rBase}-40 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}%
+Dialogue: 0,0:00:20.16,0:00:20.50,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}los {\rBase}casos.
+Dialogue: 0,0:00:20.50,0:00:20.64,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}los {\rBase}casos.
+Dialogue: 0,0:00:20.64,0:00:21.11,Base,,0,0,0,,{\rBase}de {\rBase}los {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}casos.
+Dialogue: 0,0:00:21.68,0:00:22.40,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El {\rBase}degrado {\rBase}uterino
+Dialogue: 0,0:00:22.40,0:00:22.76,Base,,0,0,0,,{\rBase}El {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}degrado {\rBase}uterino
+Dialogue: 0,0:00:22.76,0:00:23.21,Base,,0,0,0,,{\rBase}El {\rBase}degrado {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}uterino
+Dialogue: 0,0:00:23.16,0:00:23.62,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}diferido {\rBase}se {\rBase}asocia
+Dialogue: 0,0:00:23.62,0:00:23.80,Base,,0,0,0,,{\rBase}diferido {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}se {\rBase}asocia
+Dialogue: 0,0:00:23.80,0:00:24.17,Base,,0,0,0,,{\rBase}diferido {\rBase}se {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}asocia
+Dialogue: 0,0:00:24.12,0:00:24.30,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}peores {\rBase}desenlaces.
+Dialogue: 0,0:00:24.30,0:00:24.66,Base,,0,0,0,,{\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}peores {\rBase}desenlaces.
+Dialogue: 0,0:00:24.66,0:00:25.39,Base,,0,0,0,,{\rBase}con {\rBase}peores {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}desenlaces.

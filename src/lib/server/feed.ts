@@ -3,6 +3,10 @@ import { resolve } from "node:path";
 import type { Fact, ReelFeedItem } from "$lib/types";
 import { enrichQuiz } from "./enrichQuiz";
 import { facts } from "./facts";
+import { facts2, facts2Block6to10 } from "./facts2";
+import { facts3 } from "./facts3";
+
+const allFacts = [...facts, ...facts2, ...facts2Block6to10, ...facts3];
 import { planReel, reelRequestSchema } from "./reelPlanner";
 
 const generatedAt = "2026-05-08T10:04:00+02:00";
@@ -52,7 +56,7 @@ function feedItem(
 			targetDurationSec: 60,
 		}),
 	);
-	const slug = `reel-${String(index + 1).padStart(2, "0")}-${fact.id}`;
+	const slug = `reel-${String(fact.rank).padStart(3, "0")}-${fact.id}`;
 	const generated = manifest.items?.find((item) => item.slug === slug);
 
 	return {
@@ -91,5 +95,15 @@ function feedItem(
 
 export function listFeedItems() {
 	const manifest = readGeneratedManifest();
-	return facts.map((fact, i) => feedItem(fact, i, manifest));
+	// Surface only facts whose generated reel exists in manifest, so the app
+	// never shows "Video no disponible". Falls back to all facts when manifest
+	// is empty (dev / pre-render state).
+	const manifestSlugs = new Set(manifest.items?.map((i) => i.slug) ?? []);
+	const visible =
+		manifestSlugs.size > 0
+			? allFacts.filter((f) =>
+					manifestSlugs.has(`reel-${String(f.rank).padStart(3, "0")}-${f.id}`),
+				)
+			: allFacts;
+	return visible.map((fact, i) => feedItem(fact, i, manifest));
 }

@@ -1,0 +1,82 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,84,&H00B4377C,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.56,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Mantener {\rBase}al {\rBase}recién
+Dialogue: 0,0:00:00.56,0:00:00.70,Base,,0,0,0,,{\rBase}Mantener {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}al {\rBase}recién
+Dialogue: 0,0:00:00.70,0:00:01.15,Base,,0,0,0,,{\rBase}Mantener {\rBase}al {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}recién
+Dialogue: 0,0:00:01.10,0:00:01.50,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}nacido {\rBase}caliente {\rBase}no
+Dialogue: 0,0:00:01.50,0:00:01.98,Base,,0,0,0,,{\rBase}nacido {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}caliente {\rBase}no
+Dialogue: 0,0:00:01.98,0:00:02.35,Base,,0,0,0,,{\rBase}nacido {\rBase}caliente {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}no
+Dialogue: 0,0:00:02.30,0:00:02.44,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}es {\rBase}estética. {\rBase}Cada
+Dialogue: 0,0:00:02.44,0:00:03.22,Base,,0,0,0,,{\rBase}es {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}estética. {\rBase}Cada
+Dialogue: 0,0:00:03.22,0:00:03.77,Base,,0,0,0,,{\rBase}es {\rBase}estética. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Cada
+Dialogue: 0,0:00:03.72,0:00:04.08,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}grado {\rBase}de {\rBase}hipotermia
+Dialogue: 0,0:00:04.08,0:00:04.22,Base,,0,0,0,,{\rBase}grado {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}hipotermia
+Dialogue: 0,0:00:04.22,0:00:05.03,Base,,0,0,0,,{\rBase}grado {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hipotermia
+Dialogue: 0,0:00:04.98,0:00:05.60,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}consume {\rBase}reservas {\rBase}de
+Dialogue: 0,0:00:05.60,0:00:06.24,Base,,0,0,0,,{\rBase}consume {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}reservas {\rBase}de
+Dialogue: 0,0:00:06.24,0:00:06.41,Base,,0,0,0,,{\rBase}consume {\rBase}reservas {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:06.36,0:00:06.68,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}grasa {\rBase}parda {\rBase}y
+Dialogue: 0,0:00:06.68,0:00:07.16,Base,,0,0,0,,{\rBase}grasa {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}parda {\rBase}y
+Dialogue: 0,0:00:07.16,0:00:07.71,Base,,0,0,0,,{\rBase}grasa {\rBase}parda {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y
+Dialogue: 0,0:00:07.66,0:00:08.04,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}agrava {\rBase}acidosis {\rBase}e
+Dialogue: 0,0:00:08.04,0:00:08.84,Base,,0,0,0,,{\rBase}agrava {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}acidosis {\rBase}e
+Dialogue: 0,0:00:08.84,0:00:09.15,Base,,0,0,0,,{\rBase}agrava {\rBase}acidosis {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}e
+Dialogue: 0,0:00:09.10,0:00:10.68,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hipoglucemia. {\rBase}El {\rBase}recién
+Dialogue: 0,0:00:10.68,0:00:11.12,Base,,0,0,0,,{\rBase}hipoglucemia. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El {\rBase}recién
+Dialogue: 0,0:00:11.12,0:00:11.47,Base,,0,0,0,,{\rBase}hipoglucemia. {\rBase}El {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}recién
+Dialogue: 0,0:00:11.42,0:00:11.84,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}nacido {\rBase}no {\rBase}puede
+Dialogue: 0,0:00:11.84,0:00:12.34,Base,,0,0,0,,{\rBase}nacido {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}no {\rBase}puede
+Dialogue: 0,0:00:12.34,0:00:12.63,Base,,0,0,0,,{\rBase}nacido {\rBase}no {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}puede
+Dialogue: 0,0:00:12.58,0:00:13.04,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}generar {\rBase}calor {\rBase}por
+Dialogue: 0,0:00:13.04,0:00:13.40,Base,,0,0,0,,{\rBase}generar {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}calor {\rBase}por
+Dialogue: 0,0:00:13.40,0:00:13.79,Base,,0,0,0,,{\rBase}generar {\rBase}calor {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}por
+Dialogue: 0,0:00:13.74,0:00:14.24,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tiritona {\rBase}muscular. {\rBase}Usa
+Dialogue: 0,0:00:14.24,0:00:15.04,Base,,0,0,0,,{\rBase}tiritona {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}muscular. {\rBase}Usa
+Dialogue: 0,0:00:15.04,0:00:15.71,Base,,0,0,0,,{\rBase}tiritona {\rBase}muscular. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Usa
+Dialogue: 0,0:00:15.66,0:00:15.92,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}grasa {\rBase}parda, {\rBase}interescapular,
+Dialogue: 0,0:00:15.92,0:00:16.68,Base,,0,0,0,,{\rBase}grasa {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}parda, {\rBase}interescapular,
+Dialogue: 0,0:00:16.68,0:00:17.61,Base,,0,0,0,,{\rBase}grasa {\rBase}parda, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}interescapular,
+Dialogue: 0,0:00:18.02,0:00:19.16,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}perirrenal, {\rBase}paravertebral. {\rBase}El
+Dialogue: 0,0:00:19.16,0:00:20.00,Base,,0,0,0,,{\rBase}perirrenal, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}paravertebral. {\rBase}El
+Dialogue: 0,0:00:20.00,0:00:20.39,Base,,0,0,0,,{\rBase}perirrenal, {\rBase}paravertebral. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El
+Dialogue: 0,0:00:20.34,0:00:20.64,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}frío {\rBase}activa {\rBase}la
+Dialogue: 0,0:00:20.64,0:00:21.10,Base,,0,0,0,,{\rBase}frío {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}activa {\rBase}la
+Dialogue: 0,0:00:21.10,0:00:21.25,Base,,0,0,0,,{\rBase}frío {\rBase}activa {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la
+Dialogue: 0,0:00:21.20,0:00:22.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}noradrenalina, {\rBase}que {\rBase}vía
+Dialogue: 0,0:00:22.26,0:00:22.58,Base,,0,0,0,,{\rBase}noradrenalina, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}que {\rBase}vía
+Dialogue: 0,0:00:22.58,0:00:22.87,Base,,0,0,0,,{\rBase}noradrenalina, {\rBase}que {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}vía
+Dialogue: 0,0:00:22.82,0:00:23.44,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}receptores {\rBase}BT3 {\rBase}activa
+Dialogue: 0,0:00:23.44,0:00:24.02,Base,,0,0,0,,{\rBase}receptores {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}BT3 {\rBase}activa
+Dialogue: 0,0:00:24.02,0:00:24.69,Base,,0,0,0,,{\rBase}receptores {\rBase}BT3 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}activa
+Dialogue: 0,0:00:24.64,0:00:24.74,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}UCP1, {\rBase}termogenina
+Dialogue: 0,0:00:24.74,0:00:25.92,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}UCP1, {\rBase}termogenina
+Dialogue: 0,0:00:25.92,0:00:26.73,Base,,0,0,0,,{\rBase}la {\rBase}UCP1, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}termogenina
+Dialogue: 0,0:00:26.68,0:00:28.86,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}mitocondrial. {\rBase}UCP1 {\rBase}desacopla
+Dialogue: 0,0:00:28.86,0:00:29.54,Base,,0,0,0,,{\rBase}mitocondrial. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}UCP1 {\rBase}desacopla
+Dialogue: 0,0:00:29.54,0:00:30.27,Base,,0,0,0,,{\rBase}mitocondrial. {\rBase}UCP1 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}desacopla
+Dialogue: 0,0:00:30.22,0:00:30.34,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}cadena {\rBase}respiratoria
+Dialogue: 0,0:00:30.34,0:00:30.68,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cadena {\rBase}respiratoria
+Dialogue: 0,0:00:30.68,0:00:31.53,Base,,0,0,0,,{\rBase}la {\rBase}cadena {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}respiratoria
+Dialogue: 0,0:00:31.48,0:00:31.64,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}la {\rBase}síntesis
+Dialogue: 0,0:00:31.64,0:00:31.78,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}síntesis
+Dialogue: 0,0:00:31.78,0:00:32.39,Base,,0,0,0,,{\rBase}de {\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}síntesis
+Dialogue: 0,0:00:32.34,0:00:32.48,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}ATP {\rBase}convirtiendo
+Dialogue: 0,0:00:32.48,0:00:32.80,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ATP {\rBase}convirtiendo
+Dialogue: 0,0:00:32.80,0:00:33.87,Base,,0,0,0,,{\rBase}de {\rBase}ATP {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}convirtiendo
+Dialogue: 0,0:00:33.82,0:00:33.98,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}los {\rBase}ácidos {\rBase}grasos
+Dialogue: 0,0:00:33.98,0:00:34.32,Base,,0,0,0,,{\rBase}los {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ácidos {\rBase}grasos
+Dialogue: 0,0:00:34.32,0:00:34.89,Base,,0,0,0,,{\rBase}los {\rBase}ácidos {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}grasos
+Dialogue: 0,0:00:34.84,0:00:35.36,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}directamente {\rBase}en {\rBase}calor
+Dialogue: 0,0:00:35.36,0:00:35.78,Base,,0,0,0,,{\rBase}directamente {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}calor
+Dialogue: 0,0:00:35.78,0:00:36.17,Base,,0,0,0,,{\rBase}directamente {\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}calor

@@ -1,0 +1,95 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H003C3CE6,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La {\rBase}forma {\rBase}oral
+Dialogue: 0,0:00:00.26,0:00:00.52,Base,,0,0,0,,{\rBase}La {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}forma {\rBase}oral
+Dialogue: 0,0:00:00.52,0:00:00.91,Base,,0,0,0,,{\rBase}La {\rBase}forma {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}oral
+Dialogue: 0,0:00:00.86,0:00:01.38,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}protege {\rBase}frente {\rBase}a
+Dialogue: 0,0:00:01.38,0:00:01.62,Base,,0,0,0,,{\rBase}protege {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}frente {\rBase}a
+Dialogue: 0,0:00:01.62,0:00:01.81,Base,,0,0,0,,{\rBase}protege {\rBase}frente {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}a
+Dialogue: 0,0:00:01.76,0:00:02.32,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hemorragia {\rBase}precoz, {\rBase}pero
+Dialogue: 0,0:00:02.32,0:00:02.98,Base,,0,0,0,,{\rBase}hemorragia {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}precoz, {\rBase}pero
+Dialogue: 0,0:00:02.98,0:00:03.41,Base,,0,0,0,,{\rBase}hemorragia {\rBase}precoz, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pero
+Dialogue: 0,0:00:03.36,0:00:03.74,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}requiere {\rBase}tres {\rBase}dosis
+Dialogue: 0,0:00:03.74,0:00:04.14,Base,,0,0,0,,{\rBase}requiere {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tres {\rBase}dosis
+Dialogue: 0,0:00:04.14,0:00:04.67,Base,,0,0,0,,{\rBase}requiere {\rBase}tres {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}dosis
+Dialogue: 0,0:00:04.62,0:00:04.80,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}para {\rBase}proteger {\rBase}frente
+Dialogue: 0,0:00:04.80,0:00:05.28,Base,,0,0,0,,{\rBase}para {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}proteger {\rBase}frente
+Dialogue: 0,0:00:05.28,0:00:05.67,Base,,0,0,0,,{\rBase}para {\rBase}proteger {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}frente
+Dialogue: 0,0:00:05.62,0:00:05.76,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}a {\rBase}hemorragia {\rBase}tardía,
+Dialogue: 0,0:00:05.76,0:00:06.30,Base,,0,0,0,,{\rBase}a {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hemorragia {\rBase}tardía,
+Dialogue: 0,0:00:06.30,0:00:06.83,Base,,0,0,0,,{\rBase}a {\rBase}hemorragia {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tardía,
+Dialogue: 0,0:00:06.98,0:00:07.22,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}1 {\rBase}-12 {\rBase}semanas.
+Dialogue: 0,0:00:07.22,0:00:07.70,Base,,0,0,0,,{\rBase}1 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}-12 {\rBase}semanas.
+Dialogue: 0,0:00:07.70,0:00:08.25,Base,,0,0,0,,{\rBase}1 {\rBase}-12 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}semanas.
+Dialogue: 0,0:00:08.80,0:00:09.38,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Saltarse {\rBase}U2 {\rBase}-U3
+Dialogue: 0,0:00:09.38,0:00:09.88,Base,,0,0,0,,{\rBase}Saltarse {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}U2 {\rBase}-U3
+Dialogue: 0,0:00:09.88,0:00:10.41,Base,,0,0,0,,{\rBase}Saltarse {\rBase}U2 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}-U3
+Dialogue: 0,0:00:10.36,0:00:10.88,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}deja {\rBase}al {\rBase}niño
+Dialogue: 0,0:00:10.88,0:00:11.04,Base,,0,0,0,,{\rBase}deja {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}al {\rBase}niño
+Dialogue: 0,0:00:11.04,0:00:11.33,Base,,0,0,0,,{\rBase}deja {\rBase}al {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}niño
+Dialogue: 0,0:00:11.28,0:00:12.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}expuesto. {\rBase}Los {\rBase}neonatos
+Dialogue: 0,0:00:12.26,0:00:12.84,Base,,0,0,0,,{\rBase}expuesto. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Los {\rBase}neonatos
+Dialogue: 0,0:00:12.84,0:00:13.57,Base,,0,0,0,,{\rBase}expuesto. {\rBase}Los {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}neonatos
+Dialogue: 0,0:00:13.52,0:00:14.28,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}nacen {\rBase}con {\rBase}déficit
+Dialogue: 0,0:00:14.28,0:00:14.52,Base,,0,0,0,,{\rBase}nacen {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}déficit
+Dialogue: 0,0:00:14.52,0:00:15.07,Base,,0,0,0,,{\rBase}nacen {\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}déficit
+Dialogue: 0,0:00:15.02,0:00:15.16,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}factores {\rBase}K
+Dialogue: 0,0:00:15.16,0:00:15.74,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}factores {\rBase}K
+Dialogue: 0,0:00:15.74,0:00:16.13,Base,,0,0,0,,{\rBase}de {\rBase}factores {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}K
+Dialogue: 0,0:00:16.08,0:00:17.34,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}dependientes. {\rBase}Segundo, {\rBase}Ct,
+Dialogue: 0,0:00:17.34,0:00:18.54,Base,,0,0,0,,{\rBase}dependientes. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Segundo, {\rBase}Ct,
+Dialogue: 0,0:00:18.54,0:00:19.15,Base,,0,0,0,,{\rBase}dependientes. {\rBase}Segundo, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Ct,
+Dialogue: 0,0:00:19.52,0:00:20.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}9, {\rBase}X. {\rBase}Porque
+Dialogue: 0,0:00:20.26,0:00:21.22,Base,,0,0,0,,{\rBase}9, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}X. {\rBase}Porque
+Dialogue: 0,0:00:21.22,0:00:21.83,Base,,0,0,0,,{\rBase}9, {\rBase}X. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Porque
+Dialogue: 0,0:00:21.78,0:00:21.92,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}vitamina {\rBase}K
+Dialogue: 0,0:00:21.92,0:00:22.36,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}vitamina {\rBase}K
+Dialogue: 0,0:00:22.36,0:00:22.61,Base,,0,0,0,,{\rBase}la {\rBase}vitamina {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}K
+Dialogue: 0,0:00:22.56,0:00:22.90,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}casi {\rBase}no {\rBase}atraviesa
+Dialogue: 0,0:00:22.90,0:00:23.06,Base,,0,0,0,,{\rBase}casi {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}no {\rBase}atraviesa
+Dialogue: 0,0:00:23.06,0:00:23.53,Base,,0,0,0,,{\rBase}casi {\rBase}no {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}atraviesa
+Dialogue: 0,0:00:23.48,0:00:23.60,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}placenta {\rBase}y
+Dialogue: 0,0:00:23.60,0:00:24.16,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}placenta {\rBase}y
+Dialogue: 0,0:00:24.16,0:00:24.41,Base,,0,0,0,,{\rBase}la {\rBase}placenta {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y
+Dialogue: 0,0:00:24.36,0:00:24.48,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}su {\rBase}intestino {\rBase}es
+Dialogue: 0,0:00:24.48,0:00:24.92,Base,,0,0,0,,{\rBase}su {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}intestino {\rBase}es
+Dialogue: 0,0:00:24.92,0:00:25.13,Base,,0,0,0,,{\rBase}su {\rBase}intestino {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}es
+Dialogue: 0,0:00:25.08,0:00:25.56,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}estéril {\rBase}sin {\rBase}flora
+Dialogue: 0,0:00:25.56,0:00:25.76,Base,,0,0,0,,{\rBase}estéril {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sin {\rBase}flora
+Dialogue: 0,0:00:25.76,0:00:26.11,Base,,0,0,0,,{\rBase}estéril {\rBase}sin {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}flora
+Dialogue: 0,0:00:26.06,0:00:26.72,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}productora. {\rBase}La {\rBase}profilaxis
+Dialogue: 0,0:00:26.72,0:00:27.68,Base,,0,0,0,,{\rBase}productora. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La {\rBase}profilaxis
+Dialogue: 0,0:00:27.68,0:00:28.27,Base,,0,0,0,,{\rBase}productora. {\rBase}La {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}profilaxis
+Dialogue: 0,0:00:28.22,0:00:28.80,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}estándar {\rBase}es {\rBase}2mg
+Dialogue: 0,0:00:28.80,0:00:29.06,Base,,0,0,0,,{\rBase}estándar {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}es {\rBase}2mg
+Dialogue: 0,0:00:29.06,0:00:29.73,Base,,0,0,0,,{\rBase}estándar {\rBase}es {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}2mg
+Dialogue: 0,0:00:29.68,0:00:29.88,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}vitamina {\rBase}K
+Dialogue: 0,0:00:29.88,0:00:30.30,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}vitamina {\rBase}K
+Dialogue: 0,0:00:30.30,0:00:30.53,Base,,0,0,0,,{\rBase}de {\rBase}vitamina {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}K
+Dialogue: 0,0:00:30.48,0:00:30.78,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}oral {\rBase}en {\rBase}U1,
+Dialogue: 0,0:00:30.78,0:00:31.18,Base,,0,0,0,,{\rBase}oral {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}U1,
+Dialogue: 0,0:00:31.18,0:00:31.85,Base,,0,0,0,,{\rBase}oral {\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}U1,
+Dialogue: 0,0:00:31.94,0:00:32.52,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}U2 {\rBase}y {\rBase}U3
+Dialogue: 0,0:00:32.52,0:00:32.78,Base,,0,0,0,,{\rBase}U2 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}U3
+Dialogue: 0,0:00:32.78,0:00:33.43,Base,,0,0,0,,{\rBase}U2 {\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}U3
+Dialogue: 0,0:00:33.38,0:00:34.22,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}o {\rBase}1mg {\rBase}IM
+Dialogue: 0,0:00:34.22,0:00:35.12,Base,,0,0,0,,{\rBase}o {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}1mg {\rBase}IM
+Dialogue: 0,0:00:35.12,0:00:36.15,Base,,0,0,0,,{\rBase}o {\rBase}1mg {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}IM
+Dialogue: 0,0:00:36.10,0:00:36.52,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}al {\rBase}nacer {\rBase}para
+Dialogue: 0,0:00:36.52,0:00:36.86,Base,,0,0,0,,{\rBase}al {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}nacer {\rBase}para
+Dialogue: 0,0:00:36.86,0:00:37.65,Base,,0,0,0,,{\rBase}al {\rBase}nacer {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}para
+Dialogue: 0,0:00:37.60,0:00:38.00,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}prevenir {\rBase}hemorragias {\rBase}incluyendo
+Dialogue: 0,0:00:38.00,0:00:38.64,Base,,0,0,0,,{\rBase}prevenir {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hemorragias {\rBase}incluyendo
+Dialogue: 0,0:00:38.64,0:00:39.25,Base,,0,0,0,,{\rBase}prevenir {\rBase}hemorragias {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}incluyendo
+Dialogue: 0,0:00:39.20,0:00:40.29,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}intracraniales.

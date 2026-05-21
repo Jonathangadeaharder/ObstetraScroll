@@ -121,6 +121,30 @@ export function virtualizePages(
 	});
 }
 
+// Tone shift: rewrite neutral Spanish to rioplatense voseo on the fly.
+// "tú tienes" → "vos tenés", "debes" → "tenés que", "puedes" → "podés", etc.
+// Conservative: only touches verb forms; clinical terms stay intact.
+const ARG_REPLACEMENTS: [RegExp, string][] = [
+	[/\btú\b/gi, "vos"],
+	[/\btienes\b/gi, "tenés"],
+	[/\bpuedes\b/gi, "podés"],
+	[/\bdebes\b/gi, "tenés que"],
+	[/\bquieres\b/gi, "querés"],
+	[/\bsabes\b/gi, "sabés"],
+	[/\bves\b/gi, "ves"],
+	[/\baquí\b/gi, "acá"],
+	[/\bahí\b/gi, "ahí"],
+	[/\baplica\b/gi, "aplicá"],
+	[/\brevisa\b/gi, "revisá"],
+	[/\bobserva\b/gi, "fijate"],
+];
+
+function arg(text: string): string {
+	let out = text;
+	for (const [re, sub] of ARG_REPLACEMENTS) out = out.replace(re, sub);
+	return out;
+}
+
 export function buildInfoItems(item: ReelFeedItem, fact?: Fact): InfoItem[] {
 	const items: InfoItem[] = [];
 
@@ -141,12 +165,12 @@ export function buildInfoItems(item: ReelFeedItem, fact?: Fact): InfoItem[] {
 		});
 	}
 
-	// Expanded clinical context that goes beyond the spoken reel.
+	// Detalle clínico ampliado con tono rioplatense.
 	items.push({
 		id: "insight",
 		icon: "💡",
 		author: "Detalle clínico",
-		text: fact.insight,
+		text: arg(fact.insight),
 		likes: 0,
 		replies: [],
 	});
@@ -154,8 +178,8 @@ export function buildInfoItems(item: ReelFeedItem, fact?: Fact): InfoItem[] {
 	items.push({
 		id: "why",
 		icon: "⚠️",
-		author: "Por qué no es obvio",
-		text: fact.whyNonObvious,
+		author: "Lo que se suele pasar por alto",
+		text: arg(fact.whyNonObvious),
 		likes: 0,
 		replies: [],
 	});

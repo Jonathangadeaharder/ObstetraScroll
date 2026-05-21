@@ -1,0 +1,83 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0080DE4A,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.74,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Enfriar {\rBase}a {\rBase}un
+Dialogue: 0,0:00:00.74,0:00:00.88,Base,,0,0,0,,{\rBase}Enfriar {\rHot\t(0,120,\fscx115\fscy115)}a {\rBase}un
+Dialogue: 0,0:00:00.88,0:00:01.05,Base,,0,0,0,,{\rBase}Enfriar {\rBase}a {\rHot\t(0,120,\fscx115\fscy115)}un
+Dialogue: 0,0:00:01.00,0:00:01.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}recién {\rBase}nacido {\rBase}parece
+Dialogue: 0,0:00:01.38,0:00:01.88,Base,,0,0,0,,{\rBase}recién {\rHot\t(0,120,\fscx115\fscy115)}nacido {\rBase}parece
+Dialogue: 0,0:00:01.88,0:00:02.33,Base,,0,0,0,,{\rBase}recién {\rBase}nacido {\rHot\t(0,120,\fscx115\fscy115)}parece
+Dialogue: 0,0:00:02.28,0:00:03.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}contraintuitivo {\rBase}cuando {\rBase}el
+Dialogue: 0,0:00:03.38,0:00:03.92,Base,,0,0,0,,{\rBase}contraintuitivo {\rHot\t(0,120,\fscx115\fscy115)}cuando {\rBase}el
+Dialogue: 0,0:00:03.92,0:00:04.17,Base,,0,0,0,,{\rBase}contraintuitivo {\rBase}cuando {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:04.12,0:00:04.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}instinto {\rBase}es {\rBase}calentarlo,
+Dialogue: 0,0:00:04.60,0:00:04.74,Base,,0,0,0,,{\rBase}instinto {\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}calentarlo,
+Dialogue: 0,0:00:04.74,0:00:05.57,Base,,0,0,0,,{\rBase}instinto {\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}calentarlo,
+Dialogue: 0,0:00:05.74,0:00:06.18,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}pero {\rBase}la {\rBase}hipotermia
+Dialogue: 0,0:00:06.18,0:00:06.36,Base,,0,0,0,,{\rBase}pero {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}hipotermia
+Dialogue: 0,0:00:06.36,0:00:07.13,Base,,0,0,0,,{\rBase}pero {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}hipotermia
+Dialogue: 0,0:00:07.08,0:00:07.46,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}reduce {\rBase}el {\rBase}metabolismo
+Dialogue: 0,0:00:07.46,0:00:07.66,Base,,0,0,0,,{\rBase}reduce {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}metabolismo
+Dialogue: 0,0:00:07.66,0:00:08.23,Base,,0,0,0,,{\rBase}reduce {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}metabolismo
+Dialogue: 0,0:00:08.18,0:00:08.76,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}cerebral {\rBase}y {\rBase}la
+Dialogue: 0,0:00:08.76,0:00:09.10,Base,,0,0,0,,{\rBase}cerebral {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}la
+Dialogue: 0,0:00:09.10,0:00:09.27,Base,,0,0,0,,{\rBase}cerebral {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:09.22,0:00:09.74,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}cascada {\rBase}exitotóxica {\rBase}que
+Dialogue: 0,0:00:09.74,0:00:11.12,Base,,0,0,0,,{\rBase}cascada {\rHot\t(0,120,\fscx115\fscy115)}exitotóxica {\rBase}que
+Dialogue: 0,0:00:11.12,0:00:11.63,Base,,0,0,0,,{\rBase}cascada {\rBase}exitotóxica {\rHot\t(0,120,\fscx115\fscy115)}que
+Dialogue: 0,0:00:11.58,0:00:11.86,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}sigue {\rBase}a {\rBase}la
+Dialogue: 0,0:00:11.86,0:00:12.00,Base,,0,0,0,,{\rBase}sigue {\rHot\t(0,120,\fscx115\fscy115)}a {\rBase}la
+Dialogue: 0,0:00:12.00,0:00:12.15,Base,,0,0,0,,{\rBase}sigue {\rBase}a {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:12.10,0:00:12.76,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}asfixia. {\rBase}La {\rBase}hipotermia
+Dialogue: 0,0:00:12.76,0:00:13.68,Base,,0,0,0,,{\rBase}asfixia. {\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}hipotermia
+Dialogue: 0,0:00:13.68,0:00:14.39,Base,,0,0,0,,{\rBase}asfixia. {\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}hipotermia
+Dialogue: 0,0:00:14.34,0:00:15.20,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}terapéutica {\rBase}33 {\rBase}-34
+Dialogue: 0,0:00:15.20,0:00:15.76,Base,,0,0,0,,{\rBase}terapéutica {\rHot\t(0,120,\fscx115\fscy115)}33 {\rBase}-34
+Dialogue: 0,0:00:15.76,0:00:17.49,Base,,0,0,0,,{\rBase}terapéutica {\rBase}33 {\rHot\t(0,120,\fscx115\fscy115)}-34
+Dialogue: 0,0:00:17.44,0:00:18.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}-sintestia {\rBase}durante {\rBase}72
+Dialogue: 0,0:00:18.24,0:00:18.58,Base,,0,0,0,,{\rBase}-sintestia {\rHot\t(0,120,\fscx115\fscy115)}durante {\rBase}72
+Dialogue: 0,0:00:18.58,0:00:19.27,Base,,0,0,0,,{\rBase}-sintestia {\rBase}durante {\rHot\t(0,120,\fscx115\fscy115)}72
+Dialogue: 0,0:00:19.22,0:00:19.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}horas {\rBase}iniciada {\rBase}dentro
+Dialogue: 0,0:00:19.64,0:00:20.34,Base,,0,0,0,,{\rBase}horas {\rHot\t(0,120,\fscx115\fscy115)}iniciada {\rBase}dentro
+Dialogue: 0,0:00:20.34,0:00:20.65,Base,,0,0,0,,{\rBase}horas {\rBase}iniciada {\rHot\t(0,120,\fscx115\fscy115)}dentro
+Dialogue: 0,0:00:20.60,0:00:20.80,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}las {\rBase}primeras
+Dialogue: 0,0:00:20.80,0:00:20.96,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}las {\rBase}primeras
+Dialogue: 0,0:00:20.96,0:00:21.49,Base,,0,0,0,,{\rBase}de {\rBase}las {\rHot\t(0,120,\fscx115\fscy115)}primeras
+Dialogue: 0,0:00:21.44,0:00:21.72,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}6 {\rBase}horas {\rBase}de
+Dialogue: 0,0:00:21.72,0:00:22.04,Base,,0,0,0,,{\rBase}6 {\rHot\t(0,120,\fscx115\fscy115)}horas {\rBase}de
+Dialogue: 0,0:00:22.04,0:00:22.25,Base,,0,0,0,,{\rBase}6 {\rBase}horas {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:22.20,0:00:22.48,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}vida {\rBase}en {\rBase}neonatos
+Dialogue: 0,0:00:22.48,0:00:23.16,Base,,0,0,0,,{\rBase}vida {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}neonatos
+Dialogue: 0,0:00:23.16,0:00:23.75,Base,,0,0,0,,{\rBase}vida {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}neonatos
+Dialogue: 0,0:00:23.70,0:00:23.98,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}con {\rBase}encefalopatía {\rBase}hipóxico
+Dialogue: 0,0:00:23.98,0:00:24.92,Base,,0,0,0,,{\rBase}con {\rHot\t(0,120,\fscx115\fscy115)}encefalopatía {\rBase}hipóxico
+Dialogue: 0,0:00:24.92,0:00:25.57,Base,,0,0,0,,{\rBase}con {\rBase}encefalopatía {\rHot\t(0,120,\fscx115\fscy115)}hipóxico
+Dialogue: 0,0:00:25.52,0:00:26.14,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}-isquémica {\rBase}moderada {\rBase}a
+Dialogue: 0,0:00:26.14,0:00:26.78,Base,,0,0,0,,{\rBase}-isquémica {\rHot\t(0,120,\fscx115\fscy115)}moderada {\rBase}a
+Dialogue: 0,0:00:26.78,0:00:27.33,Base,,0,0,0,,{\rBase}-isquémica {\rBase}moderada {\rHot\t(0,120,\fscx115\fscy115)}a
+Dialogue: 0,0:00:27.28,0:00:27.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}severa {\rBase}reduce {\rBase}la
+Dialogue: 0,0:00:27.64,0:00:27.94,Base,,0,0,0,,{\rBase}severa {\rHot\t(0,120,\fscx115\fscy115)}reduce {\rBase}la
+Dialogue: 0,0:00:27.94,0:00:28.21,Base,,0,0,0,,{\rBase}severa {\rBase}reduce {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:28.16,0:00:28.48,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}muerte {\rBase}o {\rBase}discapacidad
+Dialogue: 0,0:00:28.48,0:00:28.78,Base,,0,0,0,,{\rBase}muerte {\rHot\t(0,120,\fscx115\fscy115)}o {\rBase}discapacidad
+Dialogue: 0,0:00:28.78,0:00:29.55,Base,,0,0,0,,{\rBase}muerte {\rBase}o {\rHot\t(0,120,\fscx115\fscy115)}discapacidad
+Dialogue: 0,0:00:29.50,0:00:30.18,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}neurológica {\rBase}mayor {\rBase}a
+Dialogue: 0,0:00:30.18,0:00:30.56,Base,,0,0,0,,{\rBase}neurológica {\rHot\t(0,120,\fscx115\fscy115)}mayor {\rBase}a
+Dialogue: 0,0:00:30.56,0:00:31.17,Base,,0,0,0,,{\rBase}neurológica {\rBase}mayor {\rHot\t(0,120,\fscx115\fscy115)}a
+Dialogue: 0,0:00:31.12,0:00:31.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}los {\rBase}18 {\rBase}meses
+Dialogue: 0,0:00:31.28,0:00:31.70,Base,,0,0,0,,{\rBase}los {\rHot\t(0,120,\fscx115\fscy115)}18 {\rBase}meses
+Dialogue: 0,0:00:31.70,0:00:32.11,Base,,0,0,0,,{\rBase}los {\rBase}18 {\rHot\t(0,120,\fscx115\fscy115)}meses
+Dialogue: 0,0:00:32.06,0:00:32.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}un {\rBase}30%.
+Dialogue: 0,0:00:32.32,0:00:32.44,Base,,0,0,0,,{\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}un {\rBase}30%.
+Dialogue: 0,0:00:32.44,0:00:33.53,Base,,0,0,0,,{\rBase}en {\rBase}un {\rHot\t(0,120,\fscx115\fscy115)}30%.
+Dialogue: 0,0:00:33.48,0:00:34.63,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}NNT7.

@@ -1,0 +1,83 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Helvetica,60,&H00C8C8C8,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Helvetica,92,&H00FFFFFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.30,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}No {\rBase}es {\rBase}una
+Dialogue: 0,0:00:00.30,0:00:00.44,Base,,0,0,0,,{\rBase}No {\rHot\t(0,150,\fscx120\fscy120)}es {\rBase}una
+Dialogue: 0,0:00:00.44,0:00:00.67,Base,,0,0,0,,{\rBase}No {\rBase}es {\rHot\t(0,150,\fscx120\fscy120)}una
+Dialogue: 0,0:00:00.62,0:00:01.32,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}patología {\rBase}nueva, {\rBase}es
+Dialogue: 0,0:00:01.32,0:00:02.00,Base,,0,0,0,,{\rBase}patología {\rHot\t(0,150,\fscx120\fscy120)}nueva, {\rBase}es
+Dialogue: 0,0:00:02.00,0:00:02.45,Base,,0,0,0,,{\rBase}patología {\rBase}nueva, {\rHot\t(0,150,\fscx120\fscy120)}es
+Dialogue: 0,0:00:02.40,0:00:02.52,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}la {\rBase}capacidad {\rBase}pancreática
+Dialogue: 0,0:00:02.52,0:00:03.06,Base,,0,0,0,,{\rBase}la {\rHot\t(0,150,\fscx120\fscy120)}capacidad {\rBase}pancreática
+Dialogue: 0,0:00:03.06,0:00:03.91,Base,,0,0,0,,{\rBase}la {\rBase}capacidad {\rHot\t(0,150,\fscx120\fscy120)}pancreática
+Dialogue: 0,0:00:03.86,0:00:04.38,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}previa {\rBase}a {\rBase}la
+Dialogue: 0,0:00:04.38,0:00:04.50,Base,,0,0,0,,{\rBase}previa {\rHot\t(0,150,\fscx120\fscy120)}a {\rBase}la
+Dialogue: 0,0:00:04.50,0:00:04.57,Base,,0,0,0,,{\rBase}previa {\rBase}a {\rHot\t(0,150,\fscx120\fscy120)}la
+Dialogue: 0,0:00:04.52,0:00:04.64,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}que {\rBase}se {\rBase}rompe.
+Dialogue: 0,0:00:04.64,0:00:04.78,Base,,0,0,0,,{\rBase}que {\rHot\t(0,150,\fscx120\fscy120)}se {\rBase}rompe.
+Dialogue: 0,0:00:04.78,0:00:05.29,Base,,0,0,0,,{\rBase}que {\rBase}se {\rHot\t(0,150,\fscx120\fscy120)}rompe.
+Dialogue: 0,0:00:05.40,0:00:05.92,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}Por {\rBase}eso {\rBase}reaparece
+Dialogue: 0,0:00:05.92,0:00:06.10,Base,,0,0,0,,{\rBase}Por {\rHot\t(0,150,\fscx120\fscy120)}eso {\rBase}reaparece
+Dialogue: 0,0:00:06.10,0:00:06.69,Base,,0,0,0,,{\rBase}Por {\rBase}eso {\rHot\t(0,150,\fscx120\fscy120)}reaparece
+Dialogue: 0,0:00:06.64,0:00:06.74,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}en {\rBase}futuros {\rBase}embarazos
+Dialogue: 0,0:00:06.74,0:00:07.12,Base,,0,0,0,,{\rBase}en {\rHot\t(0,150,\fscx120\fscy120)}futuros {\rBase}embarazos
+Dialogue: 0,0:00:07.12,0:00:07.83,Base,,0,0,0,,{\rBase}en {\rBase}futuros {\rHot\t(0,150,\fscx120\fscy120)}embarazos
+Dialogue: 0,0:00:07.78,0:00:07.98,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}y {\rBase}predice {\rBase}DM2.
+Dialogue: 0,0:00:07.98,0:00:08.52,Base,,0,0,0,,{\rBase}y {\rHot\t(0,150,\fscx120\fscy120)}predice {\rBase}DM2.
+Dialogue: 0,0:00:08.52,0:00:09.53,Base,,0,0,0,,{\rBase}y {\rBase}predice {\rHot\t(0,150,\fscx120\fscy120)}DM2.
+Dialogue: 0,0:00:09.96,0:00:10.56,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}La {\rBase}gestación {\rBase}induce
+Dialogue: 0,0:00:10.56,0:00:11.06,Base,,0,0,0,,{\rBase}La {\rHot\t(0,150,\fscx120\fscy120)}gestación {\rBase}induce
+Dialogue: 0,0:00:11.06,0:00:11.43,Base,,0,0,0,,{\rBase}La {\rBase}gestación {\rHot\t(0,150,\fscx120\fscy120)}induce
+Dialogue: 0,0:00:11.38,0:00:12.12,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}resistencia {\rBase}insulínica {\rBase}periférica
+Dialogue: 0,0:00:12.12,0:00:12.90,Base,,0,0,0,,{\rBase}resistencia {\rHot\t(0,150,\fscx120\fscy120)}insulínica {\rBase}periférica
+Dialogue: 0,0:00:12.90,0:00:13.63,Base,,0,0,0,,{\rBase}resistencia {\rBase}insulínica {\rHot\t(0,150,\fscx120\fscy120)}periférica
+Dialogue: 0,0:00:13.58,0:00:14.32,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}progresiva {\rBase}mediada {\rBase}por
+Dialogue: 0,0:00:14.32,0:00:15.18,Base,,0,0,0,,{\rBase}progresiva {\rHot\t(0,150,\fscx120\fscy120)}mediada {\rBase}por
+Dialogue: 0,0:00:15.18,0:00:15.45,Base,,0,0,0,,{\rBase}progresiva {\rBase}mediada {\rHot\t(0,150,\fscx120\fscy120)}por
+Dialogue: 0,0:00:15.40,0:00:16.42,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}HPL, {\rBase}progesterona, {\rBase}cortisol
+Dialogue: 0,0:00:16.42,0:00:17.40,Base,,0,0,0,,{\rBase}HPL, {\rHot\t(0,150,\fscx120\fscy120)}progesterona, {\rBase}cortisol
+Dialogue: 0,0:00:17.40,0:00:17.87,Base,,0,0,0,,{\rBase}HPL, {\rBase}progesterona, {\rHot\t(0,150,\fscx120\fscy120)}cortisol
+Dialogue: 0,0:00:17.82,0:00:18.28,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}y {\rBase}TNF {\rBase}-alfa.
+Dialogue: 0,0:00:18.28,0:00:18.82,Base,,0,0,0,,{\rBase}y {\rHot\t(0,150,\fscx120\fscy120)}TNF {\rBase}-alfa.
+Dialogue: 0,0:00:18.82,0:00:19.47,Base,,0,0,0,,{\rBase}y {\rBase}TNF {\rHot\t(0,150,\fscx120\fscy120)}-alfa.
+Dialogue: 0,0:00:19.76,0:00:20.24,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}Su {\rBase}propósito {\rBase}biológico
+Dialogue: 0,0:00:20.24,0:00:20.78,Base,,0,0,0,,{\rBase}Su {\rHot\t(0,150,\fscx120\fscy120)}propósito {\rBase}biológico
+Dialogue: 0,0:00:20.78,0:00:21.53,Base,,0,0,0,,{\rBase}Su {\rBase}propósito {\rHot\t(0,150,\fscx120\fscy120)}biológico
+Dialogue: 0,0:00:21.48,0:00:21.84,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}es {\rBase}reducir {\rBase}el
+Dialogue: 0,0:00:21.84,0:00:22.38,Base,,0,0,0,,{\rBase}es {\rHot\t(0,150,\fscx120\fscy120)}reducir {\rBase}el
+Dialogue: 0,0:00:22.38,0:00:22.57,Base,,0,0,0,,{\rBase}es {\rBase}reducir {\rHot\t(0,150,\fscx120\fscy120)}el
+Dialogue: 0,0:00:22.52,0:00:22.94,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}consumo {\rBase}materno {\rBase}de
+Dialogue: 0,0:00:22.94,0:00:23.50,Base,,0,0,0,,{\rBase}consumo {\rHot\t(0,150,\fscx120\fscy120)}materno {\rBase}de
+Dialogue: 0,0:00:23.50,0:00:23.69,Base,,0,0,0,,{\rBase}consumo {\rBase}materno {\rHot\t(0,150,\fscx120\fscy120)}de
+Dialogue: 0,0:00:23.64,0:00:24.22,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}glucosa {\rBase}para {\rBase}dejar
+Dialogue: 0,0:00:24.22,0:00:24.68,Base,,0,0,0,,{\rBase}glucosa {\rHot\t(0,150,\fscx120\fscy120)}para {\rBase}dejar
+Dialogue: 0,0:00:24.68,0:00:25.03,Base,,0,0,0,,{\rBase}glucosa {\rBase}para {\rHot\t(0,150,\fscx120\fscy120)}dejar
+Dialogue: 0,0:00:24.98,0:00:25.44,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}más {\rBase}para {\rBase}el
+Dialogue: 0,0:00:25.44,0:00:25.80,Base,,0,0,0,,{\rBase}más {\rHot\t(0,150,\fscx120\fscy120)}para {\rBase}el
+Dialogue: 0,0:00:25.80,0:00:26.03,Base,,0,0,0,,{\rBase}más {\rBase}para {\rHot\t(0,150,\fscx120\fscy120)}el
+Dialogue: 0,0:00:25.98,0:00:26.36,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}feto. {\rBase}Si {\rBase}el
+Dialogue: 0,0:00:26.36,0:00:27.14,Base,,0,0,0,,{\rBase}feto. {\rHot\t(0,150,\fscx120\fscy120)}Si {\rBase}el
+Dialogue: 0,0:00:27.14,0:00:27.35,Base,,0,0,0,,{\rBase}feto. {\rBase}Si {\rHot\t(0,150,\fscx120\fscy120)}el
+Dialogue: 0,0:00:27.30,0:00:27.78,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}páncreas {\rBase}materno {\rBase}no
+Dialogue: 0,0:00:27.78,0:00:28.32,Base,,0,0,0,,{\rBase}páncreas {\rHot\t(0,150,\fscx120\fscy120)}materno {\rBase}no
+Dialogue: 0,0:00:28.32,0:00:28.57,Base,,0,0,0,,{\rBase}páncreas {\rBase}materno {\rHot\t(0,150,\fscx120\fscy120)}no
+Dialogue: 0,0:00:28.52,0:00:29.20,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}compensa {\rBase}con {\rBase}hiperinsulinemia
+Dialogue: 0,0:00:29.20,0:00:29.44,Base,,0,0,0,,{\rBase}compensa {\rHot\t(0,150,\fscx120\fscy120)}con {\rBase}hiperinsulinemia
+Dialogue: 0,0:00:29.44,0:00:30.65,Base,,0,0,0,,{\rBase}compensa {\rBase}con {\rHot\t(0,150,\fscx120\fscy120)}hiperinsulinemia
+Dialogue: 0,0:00:30.60,0:00:30.88,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}2 {\rBase},3 {\rBase}y
+Dialogue: 0,0:00:30.88,0:00:31.14,Base,,0,0,0,,{\rBase}2 {\rHot\t(0,150,\fscx120\fscy120)},3 {\rBase}y
+Dialogue: 0,0:00:31.14,0:00:31.47,Base,,0,0,0,,{\rBase}2 {\rBase},3 {\rHot\t(0,150,\fscx120\fscy120)}y
+Dialogue: 0,0:00:31.42,0:00:32.04,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}quiquis, {\rBase}aparece {\rBase}diabetes
+Dialogue: 0,0:00:32.04,0:00:32.80,Base,,0,0,0,,{\rBase}quiquis, {\rHot\t(0,150,\fscx120\fscy120)}aparece {\rBase}diabetes
+Dialogue: 0,0:00:32.80,0:00:33.49,Base,,0,0,0,,{\rBase}quiquis, {\rBase}aparece {\rHot\t(0,150,\fscx120\fscy120)}diabetes
+Dialogue: 0,0:00:33.44,0:00:34.27,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}gestacional.

@@ -1,0 +1,70 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,84,&H00B4377C,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.42,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Donar {\rBase}cordón {\rBase}a
+Dialogue: 0,0:00:00.42,0:00:00.78,Base,,0,0,0,,{\rBase}Donar {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cordón {\rBase}a
+Dialogue: 0,0:00:00.78,0:00:00.95,Base,,0,0,0,,{\rBase}Donar {\rBase}cordón {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}a
+Dialogue: 0,0:00:00.90,0:00:01.12,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}banco {\rBase}público {\rBase}beneficia
+Dialogue: 0,0:00:01.12,0:00:01.54,Base,,0,0,0,,{\rBase}banco {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}público {\rBase}beneficia
+Dialogue: 0,0:00:01.54,0:00:02.27,Base,,0,0,0,,{\rBase}banco {\rBase}público {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}beneficia
+Dialogue: 0,0:00:02.22,0:00:02.44,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}a {\rBase}múltiples {\rBase}receptores.
+Dialogue: 0,0:00:02.44,0:00:02.90,Base,,0,0,0,,{\rBase}a {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}múltiples {\rBase}receptores.
+Dialogue: 0,0:00:02.90,0:00:03.61,Base,,0,0,0,,{\rBase}a {\rBase}múltiples {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}receptores.
+Dialogue: 0,0:00:03.72,0:00:04.44,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Almacenar {\rBase}privado {\rBase}rara
+Dialogue: 0,0:00:04.44,0:00:04.92,Base,,0,0,0,,{\rBase}Almacenar {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}privado {\rBase}rara
+Dialogue: 0,0:00:04.92,0:00:05.27,Base,,0,0,0,,{\rBase}Almacenar {\rBase}privado {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}rara
+Dialogue: 0,0:00:05.22,0:00:05.38,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}vez {\rBase}se {\rBase}usa
+Dialogue: 0,0:00:05.38,0:00:05.52,Base,,0,0,0,,{\rBase}vez {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}se {\rBase}usa
+Dialogue: 0,0:00:05.52,0:00:05.79,Base,,0,0,0,,{\rBase}vez {\rBase}se {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}usa
+Dialogue: 0,0:00:05.74,0:00:05.96,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}para {\rBase}el {\rBase}propio
+Dialogue: 0,0:00:05.96,0:00:06.10,Base,,0,0,0,,{\rBase}para {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}propio
+Dialogue: 0,0:00:06.10,0:00:06.47,Base,,0,0,0,,{\rBase}para {\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}propio
+Dialogue: 0,0:00:06.42,0:00:07.16,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}niño. {\rBase}La {\rBase}sangre
+Dialogue: 0,0:00:07.16,0:00:07.60,Base,,0,0,0,,{\rBase}niño. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La {\rBase}sangre
+Dialogue: 0,0:00:07.60,0:00:07.95,Base,,0,0,0,,{\rBase}niño. {\rBase}La {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sangre
+Dialogue: 0,0:00:07.90,0:00:08.04,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}cordón {\rBase}contiene
+Dialogue: 0,0:00:08.04,0:00:08.42,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cordón {\rBase}contiene
+Dialogue: 0,0:00:08.42,0:00:08.97,Base,,0,0,0,,{\rBase}de {\rBase}cordón {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}contiene
+Dialogue: 0,0:00:08.92,0:00:09.34,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}células {\rBase}madre {\rBase}hematopoyéticas
+Dialogue: 0,0:00:09.34,0:00:09.90,Base,,0,0,0,,{\rBase}células {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}madre {\rBase}hematopoyéticas
+Dialogue: 0,0:00:09.90,0:00:11.17,Base,,0,0,0,,{\rBase}células {\rBase}madre {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hematopoyéticas
+Dialogue: 0,0:00:11.12,0:00:12.38,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}CD34 {\rBase}+, {\rBase}primitivas
+Dialogue: 0,0:00:12.38,0:00:12.78,Base,,0,0,0,,{\rBase}CD34 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}+, {\rBase}primitivas
+Dialogue: 0,0:00:12.78,0:00:14.01,Base,,0,0,0,,{\rBase}CD34 {\rBase}+, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}primitivas
+Dialogue: 0,0:00:13.96,0:00:14.28,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}mesenquimales. {\rBase}En
+Dialogue: 0,0:00:14.28,0:00:15.70,Base,,0,0,0,,{\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}mesenquimales. {\rBase}En
+Dialogue: 0,0:00:15.70,0:00:16.13,Base,,0,0,0,,{\rBase}y {\rBase}mesenquimales. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}En
+Dialogue: 0,0:00:16.08,0:00:16.40,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}útero {\rBase}migran {\rBase}de
+Dialogue: 0,0:00:16.40,0:00:16.76,Base,,0,0,0,,{\rBase}útero {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}migran {\rBase}de
+Dialogue: 0,0:00:16.76,0:00:16.97,Base,,0,0,0,,{\rBase}útero {\rBase}migran {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:16.92,0:00:17.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hígado {\rBase}vaso {\rBase}a
+Dialogue: 0,0:00:17.26,0:00:17.64,Base,,0,0,0,,{\rBase}hígado {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}vaso {\rBase}a
+Dialogue: 0,0:00:17.64,0:00:17.81,Base,,0,0,0,,{\rBase}hígado {\rBase}vaso {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}a
+Dialogue: 0,0:00:17.76,0:00:18.12,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}médula {\rBase}ósea, {\rBase}por
+Dialogue: 0,0:00:18.12,0:00:18.80,Base,,0,0,0,,{\rBase}médula {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ósea, {\rBase}por
+Dialogue: 0,0:00:18.80,0:00:19.29,Base,,0,0,0,,{\rBase}médula {\rBase}ósea, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}por
+Dialogue: 0,0:00:19.24,0:00:19.34,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}lo {\rBase}que {\rBase}circulan
+Dialogue: 0,0:00:19.34,0:00:19.44,Base,,0,0,0,,{\rBase}lo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}que {\rBase}circulan
+Dialogue: 0,0:00:19.44,0:00:19.97,Base,,0,0,0,,{\rBase}lo {\rBase}que {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}circulan
+Dialogue: 0,0:00:19.92,0:00:21.08,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}activamente. {\rBase}Permite {\rBase}uso
+Dialogue: 0,0:00:21.08,0:00:21.80,Base,,0,0,0,,{\rBase}activamente. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Permite {\rBase}uso
+Dialogue: 0,0:00:21.80,0:00:22.05,Base,,0,0,0,,{\rBase}activamente. {\rBase}Permite {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}uso
+Dialogue: 0,0:00:22.00,0:00:22.66,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}terapéutico {\rBase}en {\rBase}trasplante
+Dialogue: 0,0:00:22.66,0:00:22.82,Base,,0,0,0,,{\rBase}terapéutico {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}trasplante
+Dialogue: 0,0:00:22.82,0:00:23.37,Base,,0,0,0,,{\rBase}terapéutico {\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}trasplante
+Dialogue: 0,0:00:23.32,0:00:24.22,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hematopoyético {\rBase}como {\rBase}alternativa
+Dialogue: 0,0:00:24.22,0:00:24.52,Base,,0,0,0,,{\rBase}hematopoyético {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}como {\rBase}alternativa
+Dialogue: 0,0:00:24.52,0:00:25.27,Base,,0,0,0,,{\rBase}hematopoyético {\rBase}como {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}alternativa
+Dialogue: 0,0:00:25.22,0:00:25.40,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}a {\rBase}médula {\rBase}ósea.
+Dialogue: 0,0:00:25.40,0:00:25.76,Base,,0,0,0,,{\rBase}a {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}médula {\rBase}ósea.
+Dialogue: 0,0:00:25.76,0:00:26.25,Base,,0,0,0,,{\rBase}a {\rBase}médula {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ósea.

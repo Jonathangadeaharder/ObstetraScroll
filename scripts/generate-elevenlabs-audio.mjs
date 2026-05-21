@@ -12,9 +12,9 @@ if (!API_KEY) throw new Error("ELEVENLABS_TOKEN not set");
 
 const TONES = ["calm", "urgent", "mentor"];
 
-// Generate briefs from facts with varied tones and shuffled order
+// Generate briefs from facts + facts2 + facts3 (rank 1..300).
 const factsJson = execSync(
-  `cd "${projectRoot}" && pnpm exec tsx -e 'import { facts } from "./src/lib/server/facts.ts";import { planReel, reelRequestSchema } from "./src/lib/server/reelPlanner.ts";const TONES = ["calm", "urgent", "mentor"];const data = facts.map((f, i) => { const tone = TONES[i % TONES.length]; const req = reelRequestSchema.parse({ factId: f.id, tone, targetDurationSec: Math.min(180, Math.max(30, f.riskLevel === "high" ? 60 : f.riskLevel === "medium" ? 45 : 30)) }); const brief = planReel(f, req); return { slug: "reel-" + String(i+1).padStart(2,"0") + "-" + f.id, title: f.title, tone, script: brief.script, durationSec: req.targetDurationSec };});process.stdout.write(JSON.stringify(data));'`,
+  `cd "${projectRoot}" && pnpm exec tsx -e 'import { facts } from "./src/lib/server/facts.ts";import { facts2, facts2Block6to10 } from "./src/lib/server/facts2.ts";import { facts3 } from "./src/lib/server/facts3.ts";import { planReel, reelRequestSchema } from "./src/lib/server/reelPlanner.ts";const TONES = ["calm", "urgent", "mentor"];const all = [...facts, ...facts2, ...facts2Block6to10, ...facts3];const data = all.map((f, i) => { const tone = TONES[i % TONES.length]; const req = reelRequestSchema.parse({ factId: f.id, tone, targetDurationSec: Math.min(180, Math.max(30, f.riskLevel === "high" ? 60 : f.riskLevel === "medium" ? 45 : 30)) }); const brief = planReel(f, req); return { slug: "reel-" + String(f.rank).padStart(3,"0") + "-" + f.id, title: f.title, tone, script: brief.script, durationSec: req.targetDurationSec };});process.stdout.write(JSON.stringify(data));'`,
   { encoding: "utf8", maxBuffer: 50 * 1024 * 1024 },
 );
 
@@ -25,9 +25,18 @@ console.log(`Total items: ${items.length} (stable order, varied tones)`);
 
 const manifest = [];
 
+import { existsSync } from "node:fs";
+
 for (const [idx, item] of items.entries()) {
   const slug = item.slug;
   const outPath = join(outDir, `${slug}.mp3`);
+
+  // Skip existing — for resumable runs and to avoid re-billing for done facts.
+  if (existsSync(outPath)) {
+    console.log(`[${idx + 1}/${items.length}] ${slug} SKIP exists`);
+    manifest.push({ slug, status: "done", file: outPath });
+    continue;
+  }
 
   // Keep only beats 1 (reframe) + 2 (clinical insight) — those are unique
   // per fact. Beats 0 (opener), 3 ("Para la práctica..."), 4 (safety) are

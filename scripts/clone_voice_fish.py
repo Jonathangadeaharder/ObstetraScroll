@@ -27,10 +27,10 @@ from mlx_audio.tts.generate import generate_audio  # pyright: ignore[reportMissi
 ROOT = Path(__file__).resolve().parent.parent
 MEDIA = ROOT / "static" / "generated-media"
 AUDIO_IN = MEDIA / "audio-11labs"
-OUT = MEDIA / "audio-11labs-fish"
+OUT = MEDIA / "audio-11labs"  # write into same dir, skip existing
 REF_CACHE = MEDIA / ".voice-ref.json"
 
-FISH_MODEL = "mlx-community/fish-speech-s2-pro-8bit"
+FISH_MODEL = "mlx-community/fish-audio-s2-pro-8bit"
 WHISPER_MODEL = "mlx-community/whisper-large-v3-turbo"
 
 OUT.mkdir(parents=True, exist_ok=True)
@@ -97,13 +97,16 @@ def load_briefs() -> list[dict]:
     proj_root = str(ROOT)
     script = (
         "import { facts } from './src/lib/server/facts.ts';"
+        "import { facts2, facts2Block6to10 } from './src/lib/server/facts2.ts';"
+        "import { facts3 } from './src/lib/server/facts3.ts';"
         "import { planReel, reelRequestSchema } from './src/lib/server/reelPlanner.ts';"
         "const TONES = ['calm','urgent','mentor'];"
-        "const out = facts.map((f, i) => {"
+        "const all = [...facts, ...facts2, ...facts2Block6to10, ...facts3];"
+        "const out = all.map((f, i) => {"
         " const tone = TONES[i % TONES.length];"
         " const req = reelRequestSchema.parse({factId: f.id, tone, targetDurationSec: 60});"
         " const brief = planReel(f, req);"
-        " return { slug: 'reel-' + String(i+1).padStart(2,'0') + '-' + f.id, script: brief.script };"
+        " return { slug: 'reel-' + String(f.rank).padStart(3,'0') + '-' + f.id, script: brief.script };"
         "});"
         "process.stdout.write(JSON.stringify(out));"
     )
@@ -148,7 +151,7 @@ def main() -> None:
         try:
             generate_audio(
                 text=text,
-                model_path=FISH_MODEL,
+                model=FISH_MODEL,
                 ref_audio=str(ref_audio),
                 ref_text=ref_text,
                 file_prefix=str(out_path.with_suffix("")),

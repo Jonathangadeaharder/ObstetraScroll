@@ -1,0 +1,75 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,84,&H00B4377C,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.34,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Una {\rBase}TEA {\rBase}normal
+Dialogue: 0,0:00:00.34,0:00:00.70,Base,,0,0,0,,{\rBase}Una {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}TEA {\rBase}normal
+Dialogue: 0,0:00:00.70,0:00:01.39,Base,,0,0,0,,{\rBase}Una {\rBase}TEA {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}normal
+Dialogue: 0,0:00:01.34,0:00:01.70,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}130 {\rBase}-85
+Dialogue: 0,0:00:01.70,0:00:02.14,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}130 {\rBase}-85
+Dialogue: 0,0:00:02.14,0:00:03.21,Base,,0,0,0,,{\rBase}de {\rBase}130 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}-85
+Dialogue: 0,0:00:03.16,0:00:03.56,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}una {\rBase}embarazada
+Dialogue: 0,0:00:03.56,0:00:03.72,Base,,0,0,0,,{\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}una {\rBase}embarazada
+Dialogue: 0,0:00:03.72,0:00:04.55,Base,,0,0,0,,{\rBase}en {\rBase}una {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}embarazada
+Dialogue: 0,0:00:04.50,0:00:04.78,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}puede {\rBase}ser {\rBase}ya
+Dialogue: 0,0:00:04.78,0:00:05.02,Base,,0,0,0,,{\rBase}puede {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ser {\rBase}ya
+Dialogue: 0,0:00:05.02,0:00:05.29,Base,,0,0,0,,{\rBase}puede {\rBase}ser {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ya
+Dialogue: 0,0:00:05.24,0:00:05.98,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hipertensión {\rBase}gestacional {\rBase}comparada
+Dialogue: 0,0:00:05.98,0:00:06.60,Base,,0,0,0,,{\rBase}hipertensión {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}gestacional {\rBase}comparada
+Dialogue: 0,0:00:06.60,0:00:07.27,Base,,0,0,0,,{\rBase}hipertensión {\rBase}gestacional {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}comparada
+Dialogue: 0,0:00:07.22,0:00:07.40,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}su {\rBase}línea
+Dialogue: 0,0:00:07.40,0:00:07.62,Base,,0,0,0,,{\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}su {\rBase}línea
+Dialogue: 0,0:00:07.62,0:00:07.89,Base,,0,0,0,,{\rBase}con {\rBase}su {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}línea
+Dialogue: 0,0:00:07.84,0:00:08.50,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}base. {\rBase}La {\rBase}presión
+Dialogue: 0,0:00:08.50,0:00:08.98,Base,,0,0,0,,{\rBase}base. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La {\rBase}presión
+Dialogue: 0,0:00:08.98,0:00:09.41,Base,,0,0,0,,{\rBase}base. {\rBase}La {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}presión
+Dialogue: 0,0:00:09.36,0:00:09.86,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}arterial {\rBase}baja {\rBase}porque
+Dialogue: 0,0:00:09.86,0:00:10.22,Base,,0,0,0,,{\rBase}arterial {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}baja {\rBase}porque
+Dialogue: 0,0:00:10.22,0:00:10.61,Base,,0,0,0,,{\rBase}arterial {\rBase}baja {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}porque
+Dialogue: 0,0:00:10.56,0:00:10.76,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}resistencia {\rBase}periférica
+Dialogue: 0,0:00:10.76,0:00:11.34,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}resistencia {\rBase}periférica
+Dialogue: 0,0:00:11.34,0:00:12.07,Base,,0,0,0,,{\rBase}la {\rBase}resistencia {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}periférica
+Dialogue: 0,0:00:12.02,0:00:12.40,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cae {\rBase}30 {\rBase}-40%.
+Dialogue: 0,0:00:12.40,0:00:12.90,Base,,0,0,0,,{\rBase}cae {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}30 {\rBase}-40%.
+Dialogue: 0,0:00:12.90,0:00:14.45,Base,,0,0,0,,{\rBase}cae {\rBase}30 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}-40%.
+Dialogue: 0,0:00:14.40,0:00:15.60,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Progesterona {\rBase}relaja {\rBase}la
+Dialogue: 0,0:00:15.60,0:00:16.04,Base,,0,0,0,,{\rBase}Progesterona {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}relaja {\rBase}la
+Dialogue: 0,0:00:16.04,0:00:16.25,Base,,0,0,0,,{\rBase}Progesterona {\rBase}relaja {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la
+Dialogue: 0,0:00:16.20,0:00:16.82,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}musculatura {\rBase}vascular, {\rBase}el
+Dialogue: 0,0:00:16.82,0:00:17.92,Base,,0,0,0,,{\rBase}musculatura {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}vascular, {\rBase}el
+Dialogue: 0,0:00:17.92,0:00:18.11,Base,,0,0,0,,{\rBase}musculatura {\rBase}vascular, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el
+Dialogue: 0,0:00:18.06,0:00:18.64,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}endotelio {\rBase}sintetiza {\rBase}más
+Dialogue: 0,0:00:18.64,0:00:19.30,Base,,0,0,0,,{\rBase}endotelio {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sintetiza {\rBase}más
+Dialogue: 0,0:00:19.30,0:00:19.65,Base,,0,0,0,,{\rBase}endotelio {\rBase}sintetiza {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}más
+Dialogue: 0,0:00:19.60,0:00:20.02,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}NO {\rBase}y {\rBase}prostaciclinas,
+Dialogue: 0,0:00:20.02,0:00:20.36,Base,,0,0,0,,{\rBase}NO {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}prostaciclinas,
+Dialogue: 0,0:00:20.36,0:00:21.33,Base,,0,0,0,,{\rBase}NO {\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}prostaciclinas,
+Dialogue: 0,0:00:21.42,0:00:21.78,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}la {\rBase}placenta
+Dialogue: 0,0:00:21.78,0:00:21.88,Base,,0,0,0,,{\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}placenta
+Dialogue: 0,0:00:21.88,0:00:22.31,Base,,0,0,0,,{\rBase}y {\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}placenta
+Dialogue: 0,0:00:22.26,0:00:22.72,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}funciona {\rBase}como {\rBase}sistema
+Dialogue: 0,0:00:22.72,0:00:23.02,Base,,0,0,0,,{\rBase}funciona {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}como {\rBase}sistema
+Dialogue: 0,0:00:23.02,0:00:23.49,Base,,0,0,0,,{\rBase}funciona {\rBase}como {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sistema
+Dialogue: 0,0:00:23.44,0:00:23.66,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}baja {\rBase}resistencia
+Dialogue: 0,0:00:23.66,0:00:23.88,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}baja {\rBase}resistencia
+Dialogue: 0,0:00:23.88,0:00:24.55,Base,,0,0,0,,{\rBase}de {\rBase}baja {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}resistencia
+Dialogue: 0,0:00:24.50,0:00:24.66,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}paralelo. {\rBase}El
+Dialogue: 0,0:00:24.66,0:00:25.42,Base,,0,0,0,,{\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}paralelo. {\rBase}El
+Dialogue: 0,0:00:25.42,0:00:25.99,Base,,0,0,0,,{\rBase}en {\rBase}paralelo. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El
+Dialogue: 0,0:00:25.94,0:00:26.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}gasto {\rBase}cardíaco {\rBase}aumenta,
+Dialogue: 0,0:00:26.26,0:00:26.78,Base,,0,0,0,,{\rBase}gasto {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cardíaco {\rBase}aumenta,
+Dialogue: 0,0:00:26.78,0:00:27.35,Base,,0,0,0,,{\rBase}gasto {\rBase}cardíaco {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}aumenta,
+Dialogue: 0,0:00:27.42,0:00:27.50,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pero {\rBase}el {\rBase}TPR
+Dialogue: 0,0:00:27.50,0:00:27.68,Base,,0,0,0,,{\rBase}pero {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}TPR
+Dialogue: 0,0:00:27.68,0:00:28.17,Base,,0,0,0,,{\rBase}pero {\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}TPR
+Dialogue: 0,0:00:28.12,0:00:28.56,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cae {\rBase}más.
+Dialogue: 0,0:00:28.56,0:00:28.89,Base,,0,0,0,,{\rBase}cae {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}más.

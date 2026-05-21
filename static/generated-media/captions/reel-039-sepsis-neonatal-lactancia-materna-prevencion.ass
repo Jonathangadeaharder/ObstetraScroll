@@ -1,0 +1,71 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Helvetica,60,&H00C8C8C8,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Helvetica,92,&H00FFFFFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.30,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}La {\rBase}leche {\rBase}materna
+Dialogue: 0,0:00:00.30,0:00:00.54,Base,,0,0,0,,{\rBase}La {\rHot\t(0,150,\fscx120\fscy120)}leche {\rBase}materna
+Dialogue: 0,0:00:00.54,0:00:01.13,Base,,0,0,0,,{\rBase}La {\rBase}leche {\rHot\t(0,150,\fscx120\fscy120)}materna
+Dialogue: 0,0:00:01.08,0:00:01.24,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}se {\rBase}considera {\rBase}principalmente
+Dialogue: 0,0:00:01.24,0:00:01.72,Base,,0,0,0,,{\rBase}se {\rHot\t(0,150,\fscx120\fscy120)}considera {\rBase}principalmente
+Dialogue: 0,0:00:01.72,0:00:02.47,Base,,0,0,0,,{\rBase}se {\rBase}considera {\rHot\t(0,150,\fscx120\fscy120)}principalmente
+Dialogue: 0,0:00:02.42,0:00:02.74,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}un {\rBase}alimento, {\rBase}pero
+Dialogue: 0,0:00:02.74,0:00:03.52,Base,,0,0,0,,{\rBase}un {\rHot\t(0,150,\fscx120\fscy120)}alimento, {\rBase}pero
+Dialogue: 0,0:00:03.52,0:00:04.05,Base,,0,0,0,,{\rBase}un {\rBase}alimento, {\rHot\t(0,150,\fscx120\fscy120)}pero
+Dialogue: 0,0:00:04.00,0:00:04.16,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}su {\rBase}función {\rBase}inmunológica
+Dialogue: 0,0:00:04.16,0:00:04.46,Base,,0,0,0,,{\rBase}su {\rHot\t(0,150,\fscx120\fscy120)}función {\rBase}inmunológica
+Dialogue: 0,0:00:04.46,0:00:05.27,Base,,0,0,0,,{\rBase}su {\rBase}función {\rHot\t(0,150,\fscx120\fscy120)}inmunológica
+Dialogue: 0,0:00:05.22,0:00:05.36,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}es {\rBase}tan {\rBase}potente
+Dialogue: 0,0:00:05.36,0:00:05.72,Base,,0,0,0,,{\rBase}es {\rHot\t(0,150,\fscx120\fscy120)}tan {\rBase}potente
+Dialogue: 0,0:00:05.72,0:00:06.41,Base,,0,0,0,,{\rBase}es {\rBase}tan {\rHot\t(0,150,\fscx120\fscy120)}potente
+Dialogue: 0,0:00:06.36,0:00:06.86,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}que {\rBase}supera {\rBase}a
+Dialogue: 0,0:00:06.86,0:00:07.28,Base,,0,0,0,,{\rBase}que {\rHot\t(0,150,\fscx120\fscy120)}supera {\rBase}a
+Dialogue: 0,0:00:07.28,0:00:07.49,Base,,0,0,0,,{\rBase}que {\rBase}supera {\rHot\t(0,150,\fscx120\fscy120)}a
+Dialogue: 0,0:00:07.44,0:00:07.64,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}muchos {\rBase}antibióticos {\rBase}profilácticos
+Dialogue: 0,0:00:07.64,0:00:08.42,Base,,0,0,0,,{\rBase}muchos {\rHot\t(0,150,\fscx120\fscy120)}antibióticos {\rBase}profilácticos
+Dialogue: 0,0:00:08.42,0:00:09.51,Base,,0,0,0,,{\rBase}muchos {\rBase}antibióticos {\rHot\t(0,150,\fscx120\fscy120)}profilácticos
+Dialogue: 0,0:00:09.46,0:00:09.70,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}en {\rBase}prevención {\rBase}de
+Dialogue: 0,0:00:09.70,0:00:10.22,Base,,0,0,0,,{\rBase}en {\rHot\t(0,150,\fscx120\fscy120)}prevención {\rBase}de
+Dialogue: 0,0:00:10.22,0:00:10.41,Base,,0,0,0,,{\rBase}en {\rBase}prevención {\rHot\t(0,150,\fscx120\fscy120)}de
+Dialogue: 0,0:00:10.36,0:00:10.80,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}sepsis {\rBase}tardía. {\rBase}La
+Dialogue: 0,0:00:10.80,0:00:11.72,Base,,0,0,0,,{\rBase}sepsis {\rHot\t(0,150,\fscx120\fscy120)}tardía. {\rBase}La
+Dialogue: 0,0:00:11.72,0:00:12.43,Base,,0,0,0,,{\rBase}sepsis {\rBase}tardía. {\rHot\t(0,150,\fscx120\fscy120)}La
+Dialogue: 0,0:00:12.38,0:00:12.90,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}lactancia {\rBase}materna {\rBase}exclusiva
+Dialogue: 0,0:00:12.90,0:00:13.38,Base,,0,0,0,,{\rBase}lactancia {\rHot\t(0,150,\fscx120\fscy120)}materna {\rBase}exclusiva
+Dialogue: 0,0:00:13.38,0:00:14.13,Base,,0,0,0,,{\rBase}lactancia {\rBase}materna {\rHot\t(0,150,\fscx120\fscy120)}exclusiva
+Dialogue: 0,0:00:14.08,0:00:14.86,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}reduce {\rBase}en {\rBase}un
+Dialogue: 0,0:00:14.86,0:00:15.06,Base,,0,0,0,,{\rBase}reduce {\rHot\t(0,150,\fscx120\fscy120)}en {\rBase}un
+Dialogue: 0,0:00:15.06,0:00:15.21,Base,,0,0,0,,{\rBase}reduce {\rBase}en {\rHot\t(0,150,\fscx120\fscy120)}un
+Dialogue: 0,0:00:15.16,0:00:15.66,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}50 {\rBase}% {\rBase}el
+Dialogue: 0,0:00:15.66,0:00:16.02,Base,,0,0,0,,{\rBase}50 {\rHot\t(0,150,\fscx120\fscy120)}% {\rBase}el
+Dialogue: 0,0:00:16.02,0:00:16.53,Base,,0,0,0,,{\rBase}50 {\rBase}% {\rHot\t(0,150,\fscx120\fscy120)}el
+Dialogue: 0,0:00:16.48,0:00:16.84,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}riesgo {\rBase}de {\rBase}sepsis
+Dialogue: 0,0:00:16.84,0:00:16.98,Base,,0,0,0,,{\rBase}riesgo {\rHot\t(0,150,\fscx120\fscy120)}de {\rBase}sepsis
+Dialogue: 0,0:00:16.98,0:00:17.51,Base,,0,0,0,,{\rBase}riesgo {\rBase}de {\rHot\t(0,150,\fscx120\fscy120)}sepsis
+Dialogue: 0,0:00:17.46,0:00:18.02,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}neonatal {\rBase}tardía, {\rBase}72
+Dialogue: 0,0:00:18.02,0:00:18.68,Base,,0,0,0,,{\rBase}neonatal {\rHot\t(0,150,\fscx120\fscy120)}tardía, {\rBase}72
+Dialogue: 0,0:00:18.68,0:00:19.29,Base,,0,0,0,,{\rBase}neonatal {\rBase}tardía, {\rHot\t(0,150,\fscx120\fscy120)}72
+Dialogue: 0,0:00:19.24,0:00:20.08,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}horas, {\rBase}comparada {\rBase}con
+Dialogue: 0,0:00:20.08,0:00:20.86,Base,,0,0,0,,{\rBase}horas, {\rHot\t(0,150,\fscx120\fscy120)}comparada {\rBase}con
+Dialogue: 0,0:00:20.86,0:00:21.07,Base,,0,0,0,,{\rBase}horas, {\rBase}comparada {\rHot\t(0,150,\fscx120\fscy120)}con
+Dialogue: 0,0:00:21.02,0:00:21.16,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}la {\rBase}alimentación {\rBase}con
+Dialogue: 0,0:00:21.16,0:00:21.78,Base,,0,0,0,,{\rBase}la {\rHot\t(0,150,\fscx120\fscy120)}alimentación {\rBase}con
+Dialogue: 0,0:00:21.78,0:00:22.11,Base,,0,0,0,,{\rBase}la {\rBase}alimentación {\rHot\t(0,150,\fscx120\fscy120)}con
+Dialogue: 0,0:00:22.06,0:00:22.56,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}fórmula {\rBase}gracias {\rBase}a
+Dialogue: 0,0:00:22.56,0:00:23.24,Base,,0,0,0,,{\rBase}fórmula {\rHot\t(0,150,\fscx120\fscy120)}gracias {\rBase}a
+Dialogue: 0,0:00:23.24,0:00:23.55,Base,,0,0,0,,{\rBase}fórmula {\rBase}gracias {\rHot\t(0,150,\fscx120\fscy120)}a
+Dialogue: 0,0:00:23.50,0:00:23.62,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}la {\rBase}transferencia {\rBase}de
+Dialogue: 0,0:00:23.62,0:00:24.36,Base,,0,0,0,,{\rBase}la {\rHot\t(0,150,\fscx120\fscy120)}transferencia {\rBase}de
+Dialogue: 0,0:00:24.36,0:00:24.67,Base,,0,0,0,,{\rBase}la {\rBase}transferencia {\rHot\t(0,150,\fscx120\fscy120)}de
+Dialogue: 0,0:00:24.62,0:00:25.56,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}IGA, {\rBase}secretora {\rBase}y
+Dialogue: 0,0:00:25.56,0:00:26.10,Base,,0,0,0,,{\rBase}IGA, {\rHot\t(0,150,\fscx120\fscy120)}secretora {\rBase}y
+Dialogue: 0,0:00:26.10,0:00:26.43,Base,,0,0,0,,{\rBase}IGA, {\rBase}secretora {\rHot\t(0,150,\fscx120\fscy120)}y
+Dialogue: 0,0:00:26.38,0:00:27.43,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}oligosacáridos.

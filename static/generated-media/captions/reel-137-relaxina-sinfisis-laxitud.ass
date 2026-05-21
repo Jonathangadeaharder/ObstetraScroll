@@ -1,0 +1,81 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0080DE4A,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.30,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}El {\rBase}dolor {\rBase}de
+Dialogue: 0,0:00:00.30,0:00:00.58,Base,,0,0,0,,{\rBase}El {\rHot\t(0,120,\fscx115\fscy115)}dolor {\rBase}de
+Dialogue: 0,0:00:00.58,0:00:00.77,Base,,0,0,0,,{\rBase}El {\rBase}dolor {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:00.72,0:00:01.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}sínfisis {\rBase}no {\rBase}es
+Dialogue: 0,0:00:01.38,0:00:01.78,Base,,0,0,0,,{\rBase}sínfisis {\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}es
+Dialogue: 0,0:00:01.78,0:00:02.01,Base,,0,0,0,,{\rBase}sínfisis {\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}es
+Dialogue: 0,0:00:01.96,0:00:02.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}culpa {\rBase}de {\rBase}la
+Dialogue: 0,0:00:02.28,0:00:02.48,Base,,0,0,0,,{\rBase}culpa {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}la
+Dialogue: 0,0:00:02.48,0:00:02.63,Base,,0,0,0,,{\rBase}culpa {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:02.58,0:00:03.18,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}mujer, {\rBase}es {\rBase}la
+Dialogue: 0,0:00:03.18,0:00:03.38,Base,,0,0,0,,{\rBase}mujer, {\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}la
+Dialogue: 0,0:00:03.38,0:00:03.63,Base,,0,0,0,,{\rBase}mujer, {\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:03.58,0:00:04.44,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}relaxina {\rBase}cumpliendo {\rBase}su
+Dialogue: 0,0:00:04.44,0:00:05.14,Base,,0,0,0,,{\rBase}relaxina {\rHot\t(0,120,\fscx115\fscy115)}cumpliendo {\rBase}su
+Dialogue: 0,0:00:05.14,0:00:05.37,Base,,0,0,0,,{\rBase}relaxina {\rBase}cumpliendo {\rHot\t(0,120,\fscx115\fscy115)}su
+Dialogue: 0,0:00:05.32,0:00:06.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}función. {\rBase}Y {\rBase}por
+Dialogue: 0,0:00:06.08,0:00:06.28,Base,,0,0,0,,{\rBase}función. {\rHot\t(0,120,\fscx115\fscy115)}Y {\rBase}por
+Dialogue: 0,0:00:06.28,0:00:06.51,Base,,0,0,0,,{\rBase}función. {\rBase}Y {\rHot\t(0,120,\fscx115\fscy115)}por
+Dialogue: 0,0:00:06.46,0:00:06.68,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}eso {\rBase}persiste {\rBase}semanas
+Dialogue: 0,0:00:06.68,0:00:07.26,Base,,0,0,0,,{\rBase}eso {\rHot\t(0,120,\fscx115\fscy115)}persiste {\rBase}semanas
+Dialogue: 0,0:00:07.26,0:00:07.71,Base,,0,0,0,,{\rBase}eso {\rBase}persiste {\rHot\t(0,120,\fscx115\fscy115)}semanas
+Dialogue: 0,0:00:07.66,0:00:09.18,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}posparto. {\rBase}Relaxina, {\rBase}cuerpo
+Dialogue: 0,0:00:09.18,0:00:10.18,Base,,0,0,0,,{\rBase}posparto. {\rHot\t(0,120,\fscx115\fscy115)}Relaxina, {\rBase}cuerpo
+Dialogue: 0,0:00:10.18,0:00:10.61,Base,,0,0,0,,{\rBase}posparto. {\rBase}Relaxina, {\rHot\t(0,120,\fscx115\fscy115)}cuerpo
+Dialogue: 0,0:00:10.56,0:00:11.16,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}lúteo {\rBase}y {\rBase}placenta
+Dialogue: 0,0:00:11.16,0:00:11.34,Base,,0,0,0,,{\rBase}lúteo {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}placenta
+Dialogue: 0,0:00:11.34,0:00:12.03,Base,,0,0,0,,{\rBase}lúteo {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}placenta
+Dialogue: 0,0:00:11.98,0:00:12.92,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}remodela {\rBase}el {\rBase}tejido
+Dialogue: 0,0:00:12.92,0:00:13.04,Base,,0,0,0,,{\rBase}remodela {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}tejido
+Dialogue: 0,0:00:13.04,0:00:13.49,Base,,0,0,0,,{\rBase}remodela {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}tejido
+Dialogue: 0,0:00:13.44,0:00:14.46,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}conectivo, {\rBase}degrada {\rBase}colágeno
+Dialogue: 0,0:00:14.46,0:00:14.80,Base,,0,0,0,,{\rBase}conectivo, {\rHot\t(0,120,\fscx115\fscy115)}degrada {\rBase}colágeno
+Dialogue: 0,0:00:14.80,0:00:15.55,Base,,0,0,0,,{\rBase}conectivo, {\rBase}degrada {\rHot\t(0,120,\fscx115\fscy115)}colágeno
+Dialogue: 0,0:00:15.50,0:00:15.84,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}aumenta {\rBase}el
+Dialogue: 0,0:00:15.84,0:00:16.32,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}aumenta {\rBase}el
+Dialogue: 0,0:00:16.32,0:00:16.47,Base,,0,0,0,,{\rBase}y {\rBase}aumenta {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:16.42,0:00:16.86,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}contenido {\rBase}de {\rBase}agua
+Dialogue: 0,0:00:16.86,0:00:17.10,Base,,0,0,0,,{\rBase}contenido {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}agua
+Dialogue: 0,0:00:17.10,0:00:17.43,Base,,0,0,0,,{\rBase}contenido {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}agua
+Dialogue: 0,0:00:17.38,0:00:17.52,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}cápsulas {\rBase}y
+Dialogue: 0,0:00:17.52,0:00:18.02,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}cápsulas {\rBase}y
+Dialogue: 0,0:00:18.02,0:00:18.25,Base,,0,0,0,,{\rBase}de {\rBase}cápsulas {\rHot\t(0,120,\fscx115\fscy115)}y
+Dialogue: 0,0:00:18.20,0:00:19.10,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}ligamentos. {\rBase}Afecta {\rBase}sobre
+Dialogue: 0,0:00:19.10,0:00:19.80,Base,,0,0,0,,{\rBase}ligamentos. {\rHot\t(0,120,\fscx115\fscy115)}Afecta {\rBase}sobre
+Dialogue: 0,0:00:19.80,0:00:20.05,Base,,0,0,0,,{\rBase}ligamentos. {\rBase}Afecta {\rHot\t(0,120,\fscx115\fscy115)}sobre
+Dialogue: 0,0:00:20.00,0:00:20.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}todo {\rBase}sínfisis {\rBase}púbica
+Dialogue: 0,0:00:20.36,0:00:21.00,Base,,0,0,0,,{\rBase}todo {\rHot\t(0,120,\fscx115\fscy115)}sínfisis {\rBase}púbica
+Dialogue: 0,0:00:21.00,0:00:21.69,Base,,0,0,0,,{\rBase}todo {\rBase}sínfisis {\rHot\t(0,120,\fscx115\fscy115)}púbica
+Dialogue: 0,0:00:21.64,0:00:22.04,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}e {\rBase}iliosacras. {\rBase}El
+Dialogue: 0,0:00:22.04,0:00:23.20,Base,,0,0,0,,{\rBase}e {\rHot\t(0,120,\fscx115\fscy115)}iliosacras. {\rBase}El
+Dialogue: 0,0:00:23.20,0:00:23.63,Base,,0,0,0,,{\rBase}e {\rBase}iliosacras. {\rHot\t(0,120,\fscx115\fscy115)}El
+Dialogue: 0,0:00:23.58,0:00:23.94,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}anillo {\rBase}pélvico {\rBase}se
+Dialogue: 0,0:00:23.94,0:00:24.52,Base,,0,0,0,,{\rBase}anillo {\rHot\t(0,120,\fscx115\fscy115)}pélvico {\rBase}se
+Dialogue: 0,0:00:24.52,0:00:24.75,Base,,0,0,0,,{\rBase}anillo {\rBase}pélvico {\rHot\t(0,120,\fscx115\fscy115)}se
+Dialogue: 0,0:00:24.70,0:00:25.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}vuelve {\rBase}más {\rBase}elástico,
+Dialogue: 0,0:00:25.00,0:00:25.18,Base,,0,0,0,,{\rBase}vuelve {\rHot\t(0,120,\fscx115\fscy115)}más {\rBase}elástico,
+Dialogue: 0,0:00:25.18,0:00:25.79,Base,,0,0,0,,{\rBase}vuelve {\rBase}más {\rHot\t(0,120,\fscx115\fscy115)}elástico,
+Dialogue: 0,0:00:26.00,0:00:26.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}lo {\rBase}que {\rBase}amplía
+Dialogue: 0,0:00:26.38,0:00:26.50,Base,,0,0,0,,{\rBase}lo {\rHot\t(0,120,\fscx115\fscy115)}que {\rBase}amplía
+Dialogue: 0,0:00:26.50,0:00:26.95,Base,,0,0,0,,{\rBase}lo {\rBase}que {\rHot\t(0,120,\fscx115\fscy115)}amplía
+Dialogue: 0,0:00:26.90,0:00:27.66,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}temporalmente {\rBase}los {\rBase}diámetros
+Dialogue: 0,0:00:27.66,0:00:27.86,Base,,0,0,0,,{\rBase}temporalmente {\rHot\t(0,120,\fscx115\fscy115)}los {\rBase}diámetros
+Dialogue: 0,0:00:27.86,0:00:28.35,Base,,0,0,0,,{\rBase}temporalmente {\rBase}los {\rHot\t(0,120,\fscx115\fscy115)}diámetros
+Dialogue: 0,0:00:28.30,0:00:28.84,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}óseos {\rBase}durante {\rBase}el
+Dialogue: 0,0:00:28.84,0:00:29.16,Base,,0,0,0,,{\rBase}óseos {\rHot\t(0,120,\fscx115\fscy115)}durante {\rBase}el
+Dialogue: 0,0:00:29.16,0:00:29.43,Base,,0,0,0,,{\rBase}óseos {\rBase}durante {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:29.38,0:00:30.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}parto. {\rBase}Gracias.
+Dialogue: 0,0:00:30.00,0:00:30.19,Base,,0,0,0,,{\rBase}parto. {\rHot\t(0,120,\fscx115\fscy115)}Gracias.

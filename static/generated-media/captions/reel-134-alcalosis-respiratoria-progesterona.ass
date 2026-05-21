@@ -1,0 +1,72 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H001E80FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Un {\rBase}PCO2 {\rBase}de
+Dialogue: 0,0:00:00.36,0:00:01.02,Base,,0,0,0,,{\rBase}Un {\rHot\t(0,120,\fscx115\fscy115)}PCO2 {\rBase}de
+Dialogue: 0,0:00:01.02,0:00:01.19,Base,,0,0,0,,{\rBase}Un {\rBase}PCO2 {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:01.14,0:00:01.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}40 {\rBase}milimimetremerco {\rBase}en
+Dialogue: 0,0:00:01.62,0:00:02.96,Base,,0,0,0,,{\rBase}40 {\rHot\t(0,120,\fscx115\fscy115)}milimimetremerco {\rBase}en
+Dialogue: 0,0:00:02.96,0:00:03.25,Base,,0,0,0,,{\rBase}40 {\rBase}milimimetremerco {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:03.20,0:00:03.72,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}embarazo {\rBase}no {\rBase}es
+Dialogue: 0,0:00:03.72,0:00:03.92,Base,,0,0,0,,{\rBase}embarazo {\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}es
+Dialogue: 0,0:00:03.92,0:00:04.15,Base,,0,0,0,,{\rBase}embarazo {\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}es
+Dialogue: 0,0:00:04.10,0:00:05.14,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}normal, {\rBase}indica {\rBase}hipoventilación
+Dialogue: 0,0:00:05.14,0:00:05.86,Base,,0,0,0,,{\rBase}normal, {\rHot\t(0,120,\fscx115\fscy115)}indica {\rBase}hipoventilación
+Dialogue: 0,0:00:05.86,0:00:07.17,Base,,0,0,0,,{\rBase}normal, {\rBase}indica {\rHot\t(0,120,\fscx115\fscy115)}hipoventilación
+Dialogue: 0,0:00:07.12,0:00:07.48,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}debe {\rBase}alertar.
+Dialogue: 0,0:00:07.48,0:00:07.68,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}debe {\rBase}alertar.
+Dialogue: 0,0:00:07.68,0:00:08.25,Base,,0,0,0,,{\rBase}y {\rBase}debe {\rHot\t(0,120,\fscx115\fscy115)}alertar.
+Dialogue: 0,0:00:08.82,0:00:09.58,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Progesterona {\rBase}aumenta {\rBase}la
+Dialogue: 0,0:00:09.58,0:00:10.20,Base,,0,0,0,,{\rBase}Progesterona {\rHot\t(0,120,\fscx115\fscy115)}aumenta {\rBase}la
+Dialogue: 0,0:00:10.20,0:00:10.39,Base,,0,0,0,,{\rBase}Progesterona {\rBase}aumenta {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:10.34,0:00:11.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}sensibilidad {\rBase}del {\rBase}centro
+Dialogue: 0,0:00:11.00,0:00:11.36,Base,,0,0,0,,{\rBase}sensibilidad {\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}centro
+Dialogue: 0,0:00:11.36,0:00:11.83,Base,,0,0,0,,{\rBase}sensibilidad {\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}centro
+Dialogue: 0,0:00:11.78,0:00:12.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}respiratorio {\rBase}al {\rBase}CO2.
+Dialogue: 0,0:00:12.60,0:00:13.00,Base,,0,0,0,,{\rBase}respiratorio {\rHot\t(0,120,\fscx115\fscy115)}al {\rBase}CO2.
+Dialogue: 0,0:00:13.00,0:00:13.63,Base,,0,0,0,,{\rBase}respiratorio {\rBase}al {\rHot\t(0,120,\fscx115\fscy115)}CO2.
+Dialogue: 0,0:00:13.78,0:00:14.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}El {\rBase}volumen {\rBase}minuto
+Dialogue: 0,0:00:14.34,0:00:14.72,Base,,0,0,0,,{\rBase}El {\rHot\t(0,120,\fscx115\fscy115)}volumen {\rBase}minuto
+Dialogue: 0,0:00:14.72,0:00:15.19,Base,,0,0,0,,{\rBase}El {\rBase}volumen {\rHot\t(0,120,\fscx115\fscy115)}minuto
+Dialogue: 0,0:00:15.14,0:00:15.94,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}sube, {\rBase}morocara {\rBase}40%,
+Dialogue: 0,0:00:15.94,0:00:16.30,Base,,0,0,0,,{\rBase}sube, {\rHot\t(0,120,\fscx115\fscy115)}morocara {\rBase}40%,
+Dialogue: 0,0:00:16.30,0:00:17.25,Base,,0,0,0,,{\rBase}sube, {\rBase}morocara {\rHot\t(0,120,\fscx115\fscy115)}40%,
+Dialogue: 0,0:00:17.20,0:00:17.70,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}sobre {\rBase}todo {\rBase}por
+Dialogue: 0,0:00:17.70,0:00:17.96,Base,,0,0,0,,{\rBase}sobre {\rHot\t(0,120,\fscx115\fscy115)}todo {\rBase}por
+Dialogue: 0,0:00:17.96,0:00:18.23,Base,,0,0,0,,{\rBase}sobre {\rBase}todo {\rHot\t(0,120,\fscx115\fscy115)}por
+Dialogue: 0,0:00:18.18,0:00:18.52,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}volumen {\rBase}corriente. {\rBase}CO2
+Dialogue: 0,0:00:18.52,0:00:19.30,Base,,0,0,0,,{\rBase}volumen {\rHot\t(0,120,\fscx115\fscy115)}corriente. {\rBase}CO2
+Dialogue: 0,0:00:19.30,0:00:20.31,Base,,0,0,0,,{\rBase}volumen {\rBase}corriente. {\rHot\t(0,120,\fscx115\fscy115)}CO2
+Dialogue: 0,0:00:20.26,0:00:20.86,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}materno {\rBase}baja {\rBase}a
+Dialogue: 0,0:00:20.86,0:00:21.16,Base,,0,0,0,,{\rBase}materno {\rHot\t(0,120,\fscx115\fscy115)}baja {\rBase}a
+Dialogue: 0,0:00:21.16,0:00:21.51,Base,,0,0,0,,{\rBase}materno {\rBase}baja {\rHot\t(0,120,\fscx115\fscy115)}a
+Dialogue: 0,0:00:21.46,0:00:22.06,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}puntras {\rBase}30 {\rBase}milita
+Dialogue: 0,0:00:22.06,0:00:22.52,Base,,0,0,0,,{\rBase}puntras {\rHot\t(0,120,\fscx115\fscy115)}30 {\rBase}milita
+Dialogue: 0,0:00:22.52,0:00:23.15,Base,,0,0,0,,{\rBase}puntras {\rBase}30 {\rHot\t(0,120,\fscx115\fscy115)}milita
+Dialogue: 0,0:00:23.10,0:00:23.72,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}con {\rBase}alcalosis {\rBase}respiratoria
+Dialogue: 0,0:00:23.72,0:00:24.26,Base,,0,0,0,,{\rBase}con {\rHot\t(0,120,\fscx115\fscy115)}alcalosis {\rBase}respiratoria
+Dialogue: 0,0:00:24.26,0:00:24.97,Base,,0,0,0,,{\rBase}con {\rBase}alcalosis {\rHot\t(0,120,\fscx115\fscy115)}respiratoria
+Dialogue: 0,0:00:24.92,0:00:25.56,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}compensada {\rBase}por {\rBase}bicarbonato
+Dialogue: 0,0:00:25.56,0:00:25.74,Base,,0,0,0,,{\rBase}compensada {\rHot\t(0,120,\fscx115\fscy115)}por {\rBase}bicarbonato
+Dialogue: 0,0:00:25.74,0:00:26.35,Base,,0,0,0,,{\rBase}compensada {\rBase}por {\rHot\t(0,120,\fscx115\fscy115)}bicarbonato
+Dialogue: 0,0:00:26.30,0:00:26.70,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}renal. {\rBase}Esto {\rBase}favorece
+Dialogue: 0,0:00:26.70,0:00:27.44,Base,,0,0,0,,{\rBase}renal. {\rHot\t(0,120,\fscx115\fscy115)}Esto {\rBase}favorece
+Dialogue: 0,0:00:27.44,0:00:27.93,Base,,0,0,0,,{\rBase}renal. {\rBase}Esto {\rHot\t(0,120,\fscx115\fscy115)}favorece
+Dialogue: 0,0:00:27.88,0:00:28.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}difusión {\rBase}de
+Dialogue: 0,0:00:28.00,0:00:28.42,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}difusión {\rBase}de
+Dialogue: 0,0:00:28.42,0:00:28.63,Base,,0,0,0,,{\rBase}la {\rBase}difusión {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:28.58,0:00:29.04,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}CO2 {\rBase}fetal {\rBase}a
+Dialogue: 0,0:00:29.04,0:00:29.44,Base,,0,0,0,,{\rBase}CO2 {\rHot\t(0,120,\fscx115\fscy115)}fetal {\rBase}a
+Dialogue: 0,0:00:29.44,0:00:29.69,Base,,0,0,0,,{\rBase}CO2 {\rBase}fetal {\rHot\t(0,120,\fscx115\fscy115)}a
+Dialogue: 0,0:00:29.64,0:00:29.74,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}madre.
+Dialogue: 0,0:00:29.74,0:00:30.09,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}madre.

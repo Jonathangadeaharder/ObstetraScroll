@@ -1,0 +1,68 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,84,&H00B4377C,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Por {\rBase}la {\rBase}corta
+Dialogue: 0,0:00:00.26,0:00:00.42,Base,,0,0,0,,{\rBase}Por {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}corta
+Dialogue: 0,0:00:00.42,0:00:00.85,Base,,0,0,0,,{\rBase}Por {\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}corta
+Dialogue: 0,0:00:00.80,0:00:00.96,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}vida {\rBase}media, {\rBase}parar
+Dialogue: 0,0:00:00.96,0:00:01.56,Base,,0,0,0,,{\rBase}vida {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}media, {\rBase}parar
+Dialogue: 0,0:00:01.56,0:00:01.85,Base,,0,0,0,,{\rBase}vida {\rBase}media, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}parar
+Dialogue: 0,0:00:01.80,0:00:01.98,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}oxitocina {\rBase}es
+Dialogue: 0,0:00:01.98,0:00:02.74,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}oxitocina {\rBase}es
+Dialogue: 0,0:00:02.74,0:00:03.15,Base,,0,0,0,,{\rBase}la {\rBase}oxitocina {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}es
+Dialogue: 0,0:00:03.10,0:00:03.32,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}respuesta {\rBase}inmediata
+Dialogue: 0,0:00:03.32,0:00:03.72,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}respuesta {\rBase}inmediata
+Dialogue: 0,0:00:03.72,0:00:04.53,Base,,0,0,0,,{\rBase}la {\rBase}respuesta {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}inmediata
+Dialogue: 0,0:00:04.48,0:00:05.16,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ante {\rBase}hiperestimulación. {\rBase}Funciona
+Dialogue: 0,0:00:05.16,0:00:06.62,Base,,0,0,0,,{\rBase}ante {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hiperestimulación. {\rBase}Funciona
+Dialogue: 0,0:00:06.62,0:00:07.33,Base,,0,0,0,,{\rBase}ante {\rBase}hiperestimulación. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Funciona
+Dialogue: 0,0:00:07.28,0:00:07.38,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}minutos. {\rBase}La
+Dialogue: 0,0:00:07.38,0:00:08.16,Base,,0,0,0,,{\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}minutos. {\rBase}La
+Dialogue: 0,0:00:08.16,0:00:08.65,Base,,0,0,0,,{\rBase}en {\rBase}minutos. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La
+Dialogue: 0,0:00:08.60,0:00:09.22,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}oxitocina {\rBase}nativa {\rBase}o
+Dialogue: 0,0:00:09.22,0:00:09.64,Base,,0,0,0,,{\rBase}oxitocina {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}nativa {\rBase}o
+Dialogue: 0,0:00:09.64,0:00:09.81,Base,,0,0,0,,{\rBase}oxitocina {\rBase}nativa {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}o
+Dialogue: 0,0:00:09.76,0:00:10.38,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sintética {\rBase}tiene {\rBase}vida
+Dialogue: 0,0:00:10.38,0:00:10.72,Base,,0,0,0,,{\rBase}sintética {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tiene {\rBase}vida
+Dialogue: 0,0:00:10.72,0:00:11.03,Base,,0,0,0,,{\rBase}sintética {\rBase}tiene {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}vida
+Dialogue: 0,0:00:10.98,0:00:11.32,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}media {\rBase}plasmática {\rBase}de
+Dialogue: 0,0:00:11.32,0:00:12.04,Base,,0,0,0,,{\rBase}media {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}plasmática {\rBase}de
+Dialogue: 0,0:00:12.04,0:00:12.29,Base,,0,0,0,,{\rBase}media {\rBase}plasmática {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:12.24,0:00:12.54,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}solo {\rBase}3 {\rBase}-5
+Dialogue: 0,0:00:12.54,0:00:12.84,Base,,0,0,0,,{\rBase}solo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}3 {\rBase}-5
+Dialogue: 0,0:00:12.84,0:00:13.37,Base,,0,0,0,,{\rBase}solo {\rBase}3 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}-5
+Dialogue: 0,0:00:13.32,0:00:14.18,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}minutos. {\rBase}Es {\rBase}degradada
+Dialogue: 0,0:00:14.18,0:00:14.64,Base,,0,0,0,,{\rBase}minutos. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Es {\rBase}degradada
+Dialogue: 0,0:00:14.64,0:00:15.23,Base,,0,0,0,,{\rBase}minutos. {\rBase}Es {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}degradada
+Dialogue: 0,0:00:15.18,0:00:15.38,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}por {\rBase}oxitocinasas {\rBase}placentarias
+Dialogue: 0,0:00:15.38,0:00:16.32,Base,,0,0,0,,{\rBase}por {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}oxitocinasas {\rBase}placentarias
+Dialogue: 0,0:00:16.32,0:00:17.07,Base,,0,0,0,,{\rBase}por {\rBase}oxitocinasas {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}placentarias
+Dialogue: 0,0:00:17.02,0:00:17.24,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}maternas. {\rBase}Por
+Dialogue: 0,0:00:17.24,0:00:17.98,Base,,0,0,0,,{\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}maternas. {\rBase}Por
+Dialogue: 0,0:00:17.98,0:00:18.43,Base,,0,0,0,,{\rBase}y {\rBase}maternas. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Por
+Dialogue: 0,0:00:18.38,0:00:18.56,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}eso {\rBase}debe {\rBase}administrarse
+Dialogue: 0,0:00:18.56,0:00:18.82,Base,,0,0,0,,{\rBase}eso {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}debe {\rBase}administrarse
+Dialogue: 0,0:00:18.82,0:00:19.67,Base,,0,0,0,,{\rBase}eso {\rBase}debe {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}administrarse
+Dialogue: 0,0:00:19.62,0:00:19.76,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}infusión {\rBase}continua
+Dialogue: 0,0:00:19.76,0:00:20.24,Base,,0,0,0,,{\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}infusión {\rBase}continua
+Dialogue: 0,0:00:20.24,0:00:20.83,Base,,0,0,0,,{\rBase}en {\rBase}infusión {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}continua
+Dialogue: 0,0:00:20.78,0:00:21.02,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}bomba. {\rBase}Cambios
+Dialogue: 0,0:00:21.02,0:00:21.68,Base,,0,0,0,,{\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}bomba. {\rBase}Cambios
+Dialogue: 0,0:00:21.68,0:00:22.29,Base,,0,0,0,,{\rBase}con {\rBase}bomba. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Cambios
+Dialogue: 0,0:00:22.24,0:00:22.36,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}dosis {\rBase}se
+Dialogue: 0,0:00:22.36,0:00:22.72,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}dosis {\rBase}se
+Dialogue: 0,0:00:22.72,0:00:22.93,Base,,0,0,0,,{\rBase}de {\rBase}dosis {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}se
+Dialogue: 0,0:00:22.88,0:00:23.36,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}reflejan {\rBase}en {\rBase}pocos
+Dialogue: 0,0:00:23.36,0:00:23.50,Base,,0,0,0,,{\rBase}reflejan {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}pocos
+Dialogue: 0,0:00:23.50,0:00:23.87,Base,,0,0,0,,{\rBase}reflejan {\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pocos
+Dialogue: 0,0:00:23.82,0:00:24.27,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}minutos.

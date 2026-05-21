@@ -1,0 +1,82 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Arial Black,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Arial Black,84,&H00FF3CFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.32,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}El {\rBase}hierro {\rBase}suplementario
+Dialogue: 0,0:00:00.32,0:00:00.68,Base,,0,0,0,,{\rBase}El {\rHot\frz-3\t(0,200,\frz3)}hierro {\rBase}suplementario
+Dialogue: 0,0:00:00.68,0:00:01.45,Base,,0,0,0,,{\rBase}El {\rBase}hierro {\rHot\frz-3\t(0,200,\frz3)}suplementario
+Dialogue: 0,0:00:01.40,0:00:01.82,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}causa {\rBase}estreñimiento {\rBase}y
+Dialogue: 0,0:00:01.82,0:00:02.74,Base,,0,0,0,,{\rBase}causa {\rHot\frz-3\t(0,200,\frz3)}estreñimiento {\rBase}y
+Dialogue: 0,0:00:02.74,0:00:02.97,Base,,0,0,0,,{\rBase}causa {\rBase}estreñimiento {\rHot\frz-3\t(0,200,\frz3)}y
+Dialogue: 0,0:00:02.92,0:00:03.76,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}náuseas, {\rBase}lo {\rBase}que
+Dialogue: 0,0:00:03.76,0:00:03.82,Base,,0,0,0,,{\rBase}náuseas, {\rHot\frz-3\t(0,200,\frz3)}lo {\rBase}que
+Dialogue: 0,0:00:03.82,0:00:04.01,Base,,0,0,0,,{\rBase}náuseas, {\rBase}lo {\rHot\frz-3\t(0,200,\frz3)}que
+Dialogue: 0,0:00:03.96,0:00:04.24,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}lleva {\rBase}a {\rBase}baja
+Dialogue: 0,0:00:04.24,0:00:04.40,Base,,0,0,0,,{\rBase}lleva {\rHot\frz-3\t(0,200,\frz3)}a {\rBase}baja
+Dialogue: 0,0:00:04.40,0:00:04.71,Base,,0,0,0,,{\rBase}lleva {\rBase}a {\rHot\frz-3\t(0,200,\frz3)}baja
+Dialogue: 0,0:00:04.66,0:00:05.70,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}adherencia. {\rBase}La {\rBase}suplementación
+Dialogue: 0,0:00:05.70,0:00:06.20,Base,,0,0,0,,{\rBase}adherencia. {\rHot\frz-3\t(0,200,\frz3)}La {\rBase}suplementación
+Dialogue: 0,0:00:06.20,0:00:06.97,Base,,0,0,0,,{\rBase}adherencia. {\rBase}La {\rHot\frz-3\t(0,200,\frz3)}suplementación
+Dialogue: 0,0:00:06.92,0:00:07.72,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}intermitente, {\rBase}tres {\rBase}veces
+Dialogue: 0,0:00:07.72,0:00:08.04,Base,,0,0,0,,{\rBase}intermitente, {\rHot\frz-3\t(0,200,\frz3)}tres {\rBase}veces
+Dialogue: 0,0:00:08.04,0:00:08.47,Base,,0,0,0,,{\rBase}intermitente, {\rBase}tres {\rHot\frz-3\t(0,200,\frz3)}veces
+Dialogue: 0,0:00:08.42,0:00:09.38,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}semana, {\rBase}tiene {\rBase}eficacia
+Dialogue: 0,0:00:09.38,0:00:09.88,Base,,0,0,0,,{\rBase}semana, {\rHot\frz-3\t(0,200,\frz3)}tiene {\rBase}eficacia
+Dialogue: 0,0:00:09.88,0:00:10.49,Base,,0,0,0,,{\rBase}semana, {\rBase}tiene {\rHot\frz-3\t(0,200,\frz3)}eficacia
+Dialogue: 0,0:00:10.44,0:00:10.84,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}similar {\rBase}con {\rBase}menos
+Dialogue: 0,0:00:10.84,0:00:11.12,Base,,0,0,0,,{\rBase}similar {\rHot\frz-3\t(0,200,\frz3)}con {\rBase}menos
+Dialogue: 0,0:00:11.12,0:00:11.51,Base,,0,0,0,,{\rBase}similar {\rBase}con {\rHot\frz-3\t(0,200,\frz3)}menos
+Dialogue: 0,0:00:11.46,0:00:11.98,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}efectos {\rBase}adversos. {\rBase}La
+Dialogue: 0,0:00:11.98,0:00:12.94,Base,,0,0,0,,{\rBase}efectos {\rHot\frz-3\t(0,200,\frz3)}adversos. {\rBase}La
+Dialogue: 0,0:00:12.94,0:00:13.45,Base,,0,0,0,,{\rBase}efectos {\rBase}adversos. {\rHot\frz-3\t(0,200,\frz3)}La
+Dialogue: 0,0:00:13.40,0:00:14.14,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}suplementación {\rBase}diaria {\rBase}con
+Dialogue: 0,0:00:14.14,0:00:14.52,Base,,0,0,0,,{\rBase}suplementación {\rHot\frz-3\t(0,200,\frz3)}diaria {\rBase}con
+Dialogue: 0,0:00:14.52,0:00:14.81,Base,,0,0,0,,{\rBase}suplementación {\rBase}diaria {\rHot\frz-3\t(0,200,\frz3)}con
+Dialogue: 0,0:00:14.76,0:00:15.28,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}hierro, {\rBase}30 {\rBase}-60
+Dialogue: 0,0:00:15.28,0:00:15.72,Base,,0,0,0,,{\rBase}hierro, {\rHot\frz-3\t(0,200,\frz3)}30 {\rBase}-60
+Dialogue: 0,0:00:15.72,0:00:16.31,Base,,0,0,0,,{\rBase}hierro, {\rBase}30 {\rHot\frz-3\t(0,200,\frz3)}-60
+Dialogue: 0,0:00:16.26,0:00:17.18,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}mg {\rBase}día, {\rBase}durante
+Dialogue: 0,0:00:17.18,0:00:18.04,Base,,0,0,0,,{\rBase}mg {\rHot\frz-3\t(0,200,\frz3)}día, {\rBase}durante
+Dialogue: 0,0:00:18.04,0:00:18.29,Base,,0,0,0,,{\rBase}mg {\rBase}día, {\rHot\frz-3\t(0,200,\frz3)}durante
+Dialogue: 0,0:00:18.24,0:00:18.56,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}el {\rBase}embarazo, {\rBase}reduce
+Dialogue: 0,0:00:18.56,0:00:19.48,Base,,0,0,0,,{\rBase}el {\rHot\frz-3\t(0,200,\frz3)}embarazo, {\rBase}reduce
+Dialogue: 0,0:00:19.48,0:00:19.79,Base,,0,0,0,,{\rBase}el {\rBase}embarazo, {\rHot\frz-3\t(0,200,\frz3)}reduce
+Dialogue: 0,0:00:19.74,0:00:19.94,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}la {\rBase}incidencia {\rBase}de
+Dialogue: 0,0:00:19.94,0:00:20.50,Base,,0,0,0,,{\rBase}la {\rHot\frz-3\t(0,200,\frz3)}incidencia {\rBase}de
+Dialogue: 0,0:00:20.50,0:00:20.69,Base,,0,0,0,,{\rBase}la {\rBase}incidencia {\rHot\frz-3\t(0,200,\frz3)}de
+Dialogue: 0,0:00:20.64,0:00:20.98,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}anemia {\rBase}materna {\rBase}al
+Dialogue: 0,0:00:20.98,0:00:21.60,Base,,0,0,0,,{\rBase}anemia {\rHot\frz-3\t(0,200,\frz3)}materna {\rBase}al
+Dialogue: 0,0:00:21.60,0:00:21.97,Base,,0,0,0,,{\rBase}anemia {\rBase}materna {\rHot\frz-3\t(0,200,\frz3)}al
+Dialogue: 0,0:00:21.92,0:00:22.56,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}término {\rBase}en {\rBase}un
+Dialogue: 0,0:00:22.56,0:00:22.80,Base,,0,0,0,,{\rBase}término {\rHot\frz-3\t(0,200,\frz3)}en {\rBase}un
+Dialogue: 0,0:00:22.80,0:00:22.97,Base,,0,0,0,,{\rBase}término {\rBase}en {\rHot\frz-3\t(0,200,\frz3)}un
+Dialogue: 0,0:00:22.92,0:00:23.32,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}70 {\rBase}% {\rBase}y
+Dialogue: 0,0:00:23.32,0:00:23.64,Base,,0,0,0,,{\rBase}70 {\rHot\frz-3\t(0,200,\frz3)}% {\rBase}y
+Dialogue: 0,0:00:23.64,0:00:24.57,Base,,0,0,0,,{\rBase}70 {\rBase}% {\rHot\frz-3\t(0,200,\frz3)}y
+Dialogue: 0,0:00:24.52,0:00:24.64,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}la {\rBase}deficiencia {\rBase}de
+Dialogue: 0,0:00:24.64,0:00:25.34,Base,,0,0,0,,{\rBase}la {\rHot\frz-3\t(0,200,\frz3)}deficiencia {\rBase}de
+Dialogue: 0,0:00:25.34,0:00:25.55,Base,,0,0,0,,{\rBase}la {\rBase}deficiencia {\rHot\frz-3\t(0,200,\frz3)}de
+Dialogue: 0,0:00:25.50,0:00:25.90,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}hierro {\rBase}en {\rBase}un
+Dialogue: 0,0:00:25.90,0:00:26.12,Base,,0,0,0,,{\rBase}hierro {\rHot\frz-3\t(0,200,\frz3)}en {\rBase}un
+Dialogue: 0,0:00:26.12,0:00:26.27,Base,,0,0,0,,{\rBase}hierro {\rBase}en {\rHot\frz-3\t(0,200,\frz3)}un
+Dialogue: 0,0:00:26.22,0:00:27.20,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}57%, {\rBase}con {\rBase}una
+Dialogue: 0,0:00:27.20,0:00:28.12,Base,,0,0,0,,{\rBase}57%, {\rHot\frz-3\t(0,200,\frz3)}con {\rBase}una
+Dialogue: 0,0:00:28.12,0:00:28.39,Base,,0,0,0,,{\rBase}57%, {\rBase}con {\rHot\frz-3\t(0,200,\frz3)}una
+Dialogue: 0,0:00:28.34,0:00:28.84,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}reducción {\rBase}marginal {\rBase}pero
+Dialogue: 0,0:00:28.84,0:00:29.30,Base,,0,0,0,,{\rBase}reducción {\rHot\frz-3\t(0,200,\frz3)}marginal {\rBase}pero
+Dialogue: 0,0:00:29.30,0:00:29.81,Base,,0,0,0,,{\rBase}reducción {\rBase}marginal {\rHot\frz-3\t(0,200,\frz3)}pero
+Dialogue: 0,0:00:29.76,0:00:30.70,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}significativa {\rBase}del {\rBase}bajo
+Dialogue: 0,0:00:30.70,0:00:30.90,Base,,0,0,0,,{\rBase}significativa {\rHot\frz-3\t(0,200,\frz3)}del {\rBase}bajo
+Dialogue: 0,0:00:30.90,0:00:31.19,Base,,0,0,0,,{\rBase}significativa {\rBase}del {\rHot\frz-3\t(0,200,\frz3)}bajo
+Dialogue: 0,0:00:31.14,0:00:31.50,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}peso {\rBase}al {\rBase}nacer.
+Dialogue: 0,0:00:31.50,0:00:31.92,Base,,0,0,0,,{\rBase}peso {\rHot\frz-3\t(0,200,\frz3)}al {\rBase}nacer.
+Dialogue: 0,0:00:31.92,0:00:32.31,Base,,0,0,0,,{\rBase}peso {\rBase}al {\rHot\frz-3\t(0,200,\frz3)}nacer.

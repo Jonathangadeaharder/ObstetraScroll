@@ -1,0 +1,80 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0080DE4A,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Una {\rBase}pérdida {\rBase}de
+Dialogue: 0,0:00:00.28,0:00:00.68,Base,,0,0,0,,{\rBase}Una {\rHot\t(0,120,\fscx115\fscy115)}pérdida {\rBase}de
+Dialogue: 0,0:00:00.68,0:00:00.85,Base,,0,0,0,,{\rBase}Una {\rBase}pérdida {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:00.80,0:00:01.22,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}50 {\rBase}mililitros {\rBase}en
+Dialogue: 0,0:00:01.22,0:00:01.84,Base,,0,0,0,,{\rBase}50 {\rHot\t(0,120,\fscx115\fscy115)}mililitros {\rBase}en
+Dialogue: 0,0:00:01.84,0:00:02.07,Base,,0,0,0,,{\rBase}50 {\rBase}mililitros {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:02.02,0:00:02.12,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}un {\rBase}recién {\rBase}nacido
+Dialogue: 0,0:00:02.12,0:00:02.36,Base,,0,0,0,,{\rBase}un {\rHot\t(0,120,\fscx115\fscy115)}recién {\rBase}nacido
+Dialogue: 0,0:00:02.36,0:00:02.75,Base,,0,0,0,,{\rBase}un {\rBase}recién {\rHot\t(0,120,\fscx115\fscy115)}nacido
+Dialogue: 0,0:00:02.70,0:00:02.84,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}3 {\rBase}kilos
+Dialogue: 0,0:00:02.84,0:00:03.10,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}3 {\rBase}kilos
+Dialogue: 0,0:00:03.10,0:00:03.51,Base,,0,0,0,,{\rBase}de {\rBase}3 {\rHot\t(0,120,\fscx115\fscy115)}kilos
+Dialogue: 0,0:00:03.46,0:00:04.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}20 {\rBase}%
+Dialogue: 0,0:00:04.00,0:00:04.30,Base,,0,0,0,,{\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}20 {\rBase}%
+Dialogue: 0,0:00:04.30,0:00:04.71,Base,,0,0,0,,{\rBase}es {\rBase}20 {\rHot\t(0,120,\fscx115\fscy115)}%
+Dialogue: 0,0:00:04.66,0:00:04.90,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}su {\rBase}volemia,
+Dialogue: 0,0:00:04.90,0:00:05.02,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}su {\rBase}volemia,
+Dialogue: 0,0:00:05.02,0:00:05.59,Base,,0,0,0,,{\rBase}de {\rBase}su {\rHot\t(0,120,\fscx115\fscy115)}volemia,
+Dialogue: 0,0:00:05.70,0:00:06.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}equivalente {\rBase}a {\rBase}un
+Dialogue: 0,0:00:06.32,0:00:06.46,Base,,0,0,0,,{\rBase}equivalente {\rHot\t(0,120,\fscx115\fscy115)}a {\rBase}un
+Dialogue: 0,0:00:06.46,0:00:06.61,Base,,0,0,0,,{\rBase}equivalente {\rBase}a {\rHot\t(0,120,\fscx115\fscy115)}un
+Dialogue: 0,0:00:06.56,0:00:06.84,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}litro {\rBase}en {\rBase}adulto.
+Dialogue: 0,0:00:06.84,0:00:06.94,Base,,0,0,0,,{\rBase}litro {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}adulto.
+Dialogue: 0,0:00:06.94,0:00:07.43,Base,,0,0,0,,{\rBase}litro {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}adulto.
+Dialogue: 0,0:00:07.52,0:00:07.86,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}El {\rBase}feto {\rBase}a
+Dialogue: 0,0:00:07.86,0:00:08.08,Base,,0,0,0,,{\rBase}El {\rHot\t(0,120,\fscx115\fscy115)}feto {\rBase}a
+Dialogue: 0,0:00:08.08,0:00:08.25,Base,,0,0,0,,{\rBase}El {\rBase}feto {\rHot\t(0,120,\fscx115\fscy115)}a
+Dialogue: 0,0:00:08.20,0:00:08.52,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}término {\rBase}tiene {\rBase}prur
+Dialogue: 0,0:00:08.52,0:00:08.74,Base,,0,0,0,,{\rBase}término {\rHot\t(0,120,\fscx115\fscy115)}tiene {\rBase}prur
+Dialogue: 0,0:00:08.74,0:00:09.27,Base,,0,0,0,,{\rBase}término {\rBase}tiene {\rHot\t(0,120,\fscx115\fscy115)}prur
+Dialogue: 0,0:00:09.22,0:00:09.52,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}80 {\rBase}-85 {\rBase}milulermilic
+Dialogue: 0,0:00:09.52,0:00:10.16,Base,,0,0,0,,{\rBase}80 {\rHot\t(0,120,\fscx115\fscy115)}-85 {\rBase}milulermilic
+Dialogue: 0,0:00:10.16,0:00:11.13,Base,,0,0,0,,{\rBase}80 {\rBase}-85 {\rHot\t(0,120,\fscx115\fscy115)}milulermilic
+Dialogue: 0,0:00:11.08,0:00:11.22,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}volumen {\rBase}sanguíneo
+Dialogue: 0,0:00:11.22,0:00:11.54,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}volumen {\rBase}sanguíneo
+Dialogue: 0,0:00:11.54,0:00:12.15,Base,,0,0,0,,{\rBase}de {\rBase}volumen {\rHot\t(0,120,\fscx115\fscy115)}sanguíneo
+Dialogue: 0,0:00:12.10,0:00:12.66,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}versus {\rBase}ulur {\rBase}65
+Dialogue: 0,0:00:12.66,0:00:13.08,Base,,0,0,0,,{\rBase}versus {\rHot\t(0,120,\fscx115\fscy115)}ulur {\rBase}65
+Dialogue: 0,0:00:13.08,0:00:13.59,Base,,0,0,0,,{\rBase}versus {\rBase}ulur {\rHot\t(0,120,\fscx115\fscy115)}65
+Dialogue: 0,0:00:13.54,0:00:14.18,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}-70 {\rBase}milulkilográfico {\rBase}en
+Dialogue: 0,0:00:14.18,0:00:15.24,Base,,0,0,0,,{\rBase}-70 {\rHot\t(0,120,\fscx115\fscy115)}milulkilográfico {\rBase}en
+Dialogue: 0,0:00:15.24,0:00:15.47,Base,,0,0,0,,{\rBase}-70 {\rBase}milulkilográfico {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:15.42,0:00:16.20,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}adulto. {\rBase}Compensa {\rBase}con
+Dialogue: 0,0:00:16.20,0:00:16.92,Base,,0,0,0,,{\rBase}adulto. {\rHot\t(0,120,\fscx115\fscy115)}Compensa {\rBase}con
+Dialogue: 0,0:00:16.92,0:00:17.13,Base,,0,0,0,,{\rBase}adulto. {\rBase}Compensa {\rHot\t(0,120,\fscx115\fscy115)}con
+Dialogue: 0,0:00:17.08,0:00:17.44,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}frecuencia {\rBase}cardíaca {\rBase}alta
+Dialogue: 0,0:00:17.44,0:00:17.92,Base,,0,0,0,,{\rBase}frecuencia {\rHot\t(0,120,\fscx115\fscy115)}cardíaca {\rBase}alta
+Dialogue: 0,0:00:17.92,0:00:18.31,Base,,0,0,0,,{\rBase}frecuencia {\rBase}cardíaca {\rHot\t(0,120,\fscx115\fscy115)}alta
+Dialogue: 0,0:00:18.26,0:00:19.06,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}110 {\rBase}-160 {\rBase}lpm
+Dialogue: 0,0:00:19.06,0:00:19.98,Base,,0,0,0,,{\rBase}110 {\rHot\t(0,120,\fscx115\fscy115)}-160 {\rBase}lpm
+Dialogue: 0,0:00:19.98,0:00:20.71,Base,,0,0,0,,{\rBase}110 {\rBase}-160 {\rHot\t(0,120,\fscx115\fscy115)}lpm
+Dialogue: 0,0:00:20.66,0:00:21.20,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}Hb {\rBase}alta
+Dialogue: 0,0:00:21.20,0:00:21.52,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}Hb {\rBase}alta
+Dialogue: 0,0:00:21.52,0:00:21.95,Base,,0,0,0,,{\rBase}y {\rBase}Hb {\rHot\t(0,120,\fscx115\fscy115)}alta
+Dialogue: 0,0:00:21.90,0:00:22.58,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}16 {\rBase}-20 {\rBase}gadl,
+Dialogue: 0,0:00:22.58,0:00:23.24,Base,,0,0,0,,{\rBase}16 {\rHot\t(0,120,\fscx115\fscy115)}-20 {\rBase}gadl,
+Dialogue: 0,0:00:23.24,0:00:23.81,Base,,0,0,0,,{\rBase}16 {\rBase}-20 {\rHot\t(0,120,\fscx115\fscy115)}gadl,
+Dialogue: 0,0:00:23.96,0:00:24.20,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}bajo {\rBase}PO2
+Dialogue: 0,0:00:24.20,0:00:24.44,Base,,0,0,0,,{\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}bajo {\rBase}PO2
+Dialogue: 0,0:00:24.44,0:00:24.93,Base,,0,0,0,,{\rBase}el {\rBase}bajo {\rHot\t(0,120,\fscx115\fscy115)}PO2
+Dialogue: 0,0:00:24.88,0:00:25.56,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}intrauterino {\rBase}para {\rBase}mantener
+Dialogue: 0,0:00:25.56,0:00:25.76,Base,,0,0,0,,{\rBase}intrauterino {\rHot\t(0,120,\fscx115\fscy115)}para {\rBase}mantener
+Dialogue: 0,0:00:25.76,0:00:26.21,Base,,0,0,0,,{\rBase}intrauterino {\rBase}para {\rHot\t(0,120,\fscx115\fscy115)}mantener
+Dialogue: 0,0:00:26.16,0:00:26.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}entrega {\rBase}tisular {\rBase}de
+Dialogue: 0,0:00:26.62,0:00:27.02,Base,,0,0,0,,{\rBase}entrega {\rHot\t(0,120,\fscx115\fscy115)}tisular {\rBase}de
+Dialogue: 0,0:00:27.02,0:00:27.25,Base,,0,0,0,,{\rBase}entrega {\rBase}tisular {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:27.20,0:00:27.63,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}O2.

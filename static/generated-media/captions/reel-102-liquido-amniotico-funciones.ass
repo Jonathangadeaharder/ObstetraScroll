@@ -1,0 +1,85 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H001E80FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}El {\rBase}oligohidramnios {\rBase}no
+Dialogue: 0,0:00:00.28,0:00:01.18,Base,,0,0,0,,{\rBase}El {\rHot\t(0,120,\fscx115\fscy115)}oligohidramnios {\rBase}no
+Dialogue: 0,0:00:01.18,0:00:01.53,Base,,0,0,0,,{\rBase}El {\rBase}oligohidramnios {\rHot\t(0,120,\fscx115\fscy115)}no
+Dialogue: 0,0:00:01.48,0:00:01.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}solo {\rBase}un
+Dialogue: 0,0:00:01.64,0:00:01.82,Base,,0,0,0,,{\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}solo {\rBase}un
+Dialogue: 0,0:00:01.82,0:00:02.01,Base,,0,0,0,,{\rBase}es {\rBase}solo {\rHot\t(0,120,\fscx115\fscy115)}un
+Dialogue: 0,0:00:01.96,0:00:02.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}signo {\rBase}radiológico, {\rBase}refleja
+Dialogue: 0,0:00:02.32,0:00:03.24,Base,,0,0,0,,{\rBase}signo {\rHot\t(0,120,\fscx115\fscy115)}radiológico, {\rBase}refleja
+Dialogue: 0,0:00:03.24,0:00:03.69,Base,,0,0,0,,{\rBase}signo {\rBase}radiológico, {\rHot\t(0,120,\fscx115\fscy115)}refleja
+Dialogue: 0,0:00:03.64,0:00:04.14,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}función {\rBase}renal {\rBase}y
+Dialogue: 0,0:00:04.14,0:00:04.62,Base,,0,0,0,,{\rBase}función {\rHot\t(0,120,\fscx115\fscy115)}renal {\rBase}y
+Dialogue: 0,0:00:04.62,0:00:04.83,Base,,0,0,0,,{\rBase}función {\rBase}renal {\rHot\t(0,120,\fscx115\fscy115)}y
+Dialogue: 0,0:00:04.78,0:00:05.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}pulmonar {\rBase}fetal {\rBase}y
+Dialogue: 0,0:00:05.32,0:00:05.84,Base,,0,0,0,,{\rBase}pulmonar {\rHot\t(0,120,\fscx115\fscy115)}fetal {\rBase}y
+Dialogue: 0,0:00:05.84,0:00:06.37,Base,,0,0,0,,{\rBase}pulmonar {\rBase}fetal {\rHot\t(0,120,\fscx115\fscy115)}y
+Dialogue: 0,0:00:06.32,0:00:06.66,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}altera {\rBase}directamente {\rBase}la
+Dialogue: 0,0:00:06.66,0:00:07.12,Base,,0,0,0,,{\rBase}altera {\rHot\t(0,120,\fscx115\fscy115)}directamente {\rBase}la
+Dialogue: 0,0:00:07.12,0:00:07.43,Base,,0,0,0,,{\rBase}altera {\rBase}directamente {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:07.38,0:00:07.88,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}mecánica {\rBase}del {\rBase}trabajo
+Dialogue: 0,0:00:07.88,0:00:08.08,Base,,0,0,0,,{\rBase}mecánica {\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}trabajo
+Dialogue: 0,0:00:08.08,0:00:08.49,Base,,0,0,0,,{\rBase}mecánica {\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}trabajo
+Dialogue: 0,0:00:08.44,0:00:08.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}parto. {\rBase}En
+Dialogue: 0,0:00:08.64,0:00:09.22,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}parto. {\rBase}En
+Dialogue: 0,0:00:09.22,0:00:09.75,Base,,0,0,0,,{\rBase}de {\rBase}parto. {\rHot\t(0,120,\fscx115\fscy115)}En
+Dialogue: 0,0:00:09.70,0:00:09.80,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}segunda {\rBase}mitad
+Dialogue: 0,0:00:09.80,0:00:10.08,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}segunda {\rBase}mitad
+Dialogue: 0,0:00:10.08,0:00:10.47,Base,,0,0,0,,{\rBase}la {\rBase}segunda {\rHot\t(0,120,\fscx115\fscy115)}mitad
+Dialogue: 0,0:00:10.42,0:00:10.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}embarazo, {\rBase}el
+Dialogue: 0,0:00:10.64,0:00:11.36,Base,,0,0,0,,{\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}embarazo, {\rBase}el
+Dialogue: 0,0:00:11.36,0:00:11.83,Base,,0,0,0,,{\rBase}del {\rBase}embarazo, {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:11.78,0:00:12.14,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}líquido {\rBase}amniótico {\rBase}está
+Dialogue: 0,0:00:12.14,0:00:12.70,Base,,0,0,0,,{\rBase}líquido {\rHot\t(0,120,\fscx115\fscy115)}amniótico {\rBase}está
+Dialogue: 0,0:00:12.70,0:00:12.95,Base,,0,0,0,,{\rBase}líquido {\rBase}amniótico {\rHot\t(0,120,\fscx115\fscy115)}está
+Dialogue: 0,0:00:12.90,0:00:13.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}compuesto {\rBase}principalmente {\rBase}por
+Dialogue: 0,0:00:13.36,0:00:14.06,Base,,0,0,0,,{\rBase}compuesto {\rHot\t(0,120,\fscx115\fscy115)}principalmente {\rBase}por
+Dialogue: 0,0:00:14.06,0:00:14.45,Base,,0,0,0,,{\rBase}compuesto {\rBase}principalmente {\rHot\t(0,120,\fscx115\fscy115)}por
+Dialogue: 0,0:00:14.40,0:00:14.72,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}orina {\rBase}fetal {\rBase}y
+Dialogue: 0,0:00:14.72,0:00:15.20,Base,,0,0,0,,{\rBase}orina {\rHot\t(0,120,\fscx115\fscy115)}fetal {\rBase}y
+Dialogue: 0,0:00:15.20,0:00:15.63,Base,,0,0,0,,{\rBase}orina {\rBase}fetal {\rHot\t(0,120,\fscx115\fscy115)}y
+Dialogue: 0,0:00:15.58,0:00:16.16,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}secreción {\rBase}pulmonar. {\rBase}Protege
+Dialogue: 0,0:00:16.16,0:00:17.44,Base,,0,0,0,,{\rBase}secreción {\rHot\t(0,120,\fscx115\fscy115)}pulmonar. {\rBase}Protege
+Dialogue: 0,0:00:17.44,0:00:18.21,Base,,0,0,0,,{\rBase}secreción {\rBase}pulmonar. {\rHot\t(0,120,\fscx115\fscy115)}Protege
+Dialogue: 0,0:00:18.16,0:00:18.30,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}al {\rBase}feto {\rBase}del
+Dialogue: 0,0:00:18.30,0:00:18.60,Base,,0,0,0,,{\rBase}al {\rHot\t(0,120,\fscx115\fscy115)}feto {\rBase}del
+Dialogue: 0,0:00:18.60,0:00:18.83,Base,,0,0,0,,{\rBase}al {\rBase}feto {\rHot\t(0,120,\fscx115\fscy115)}del
+Dialogue: 0,0:00:18.78,0:00:19.20,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}trauma {\rBase}y {\rBase}de
+Dialogue: 0,0:00:19.20,0:00:19.50,Base,,0,0,0,,{\rBase}trauma {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}de
+Dialogue: 0,0:00:19.50,0:00:19.65,Base,,0,0,0,,{\rBase}trauma {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:19.60,0:00:19.70,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}compresión {\rBase}del
+Dialogue: 0,0:00:19.70,0:00:20.22,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}compresión {\rBase}del
+Dialogue: 0,0:00:20.22,0:00:20.45,Base,,0,0,0,,{\rBase}la {\rBase}compresión {\rHot\t(0,120,\fscx115\fscy115)}del
+Dialogue: 0,0:00:20.40,0:00:20.92,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}cordón. {\rBase}permite {\rBase}el
+Dialogue: 0,0:00:20.92,0:00:22.02,Base,,0,0,0,,{\rBase}cordón. {\rHot\t(0,120,\fscx115\fscy115)}permite {\rBase}el
+Dialogue: 0,0:00:22.02,0:00:22.21,Base,,0,0,0,,{\rBase}cordón. {\rBase}permite {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:22.16,0:00:22.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}desarrollo {\rBase}músculo {\rBase}esquelético,
+Dialogue: 0,0:00:22.60,0:00:23.10,Base,,0,0,0,,{\rBase}desarrollo {\rHot\t(0,120,\fscx115\fscy115)}músculo {\rBase}esquelético,
+Dialogue: 0,0:00:23.10,0:00:23.81,Base,,0,0,0,,{\rBase}desarrollo {\rBase}músculo {\rHot\t(0,120,\fscx115\fscy115)}esquelético,
+Dialogue: 0,0:00:24.04,0:00:24.76,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}contiene {\rBase}péptidos {\rBase}antimicrobianos
+Dialogue: 0,0:00:24.76,0:00:25.36,Base,,0,0,0,,{\rBase}contiene {\rHot\t(0,120,\fscx115\fscy115)}péptidos {\rBase}antimicrobianos
+Dialogue: 0,0:00:25.36,0:00:26.49,Base,,0,0,0,,{\rBase}contiene {\rBase}péptidos {\rHot\t(0,120,\fscx115\fscy115)}antimicrobianos
+Dialogue: 0,0:00:26.44,0:00:26.92,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}es {\rBase}esencial
+Dialogue: 0,0:00:26.92,0:00:27.10,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}esencial
+Dialogue: 0,0:00:27.10,0:00:27.61,Base,,0,0,0,,{\rBase}y {\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}esencial
+Dialogue: 0,0:00:27.56,0:00:27.82,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}para {\rBase}la {\rBase}maduración
+Dialogue: 0,0:00:27.82,0:00:27.98,Base,,0,0,0,,{\rBase}para {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}maduración
+Dialogue: 0,0:00:27.98,0:00:28.57,Base,,0,0,0,,{\rBase}para {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}maduración
+Dialogue: 0,0:00:28.52,0:00:29.14,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}pulmonar {\rBase}al {\rBase}ser
+Dialogue: 0,0:00:29.14,0:00:29.44,Base,,0,0,0,,{\rBase}pulmonar {\rHot\t(0,120,\fscx115\fscy115)}al {\rBase}ser
+Dialogue: 0,0:00:29.44,0:00:29.71,Base,,0,0,0,,{\rBase}pulmonar {\rBase}al {\rHot\t(0,120,\fscx115\fscy115)}ser
+Dialogue: 0,0:00:29.66,0:00:30.14,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}inhalado {\rBase}y {\rBase}deglutido.
+Dialogue: 0,0:00:30.14,0:00:30.30,Base,,0,0,0,,{\rBase}inhalado {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}deglutido.
+Dialogue: 0,0:00:30.30,0:00:30.95,Base,,0,0,0,,{\rBase}inhalado {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}deglutido.

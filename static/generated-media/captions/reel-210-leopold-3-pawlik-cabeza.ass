@@ -1,0 +1,17 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0000E5FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.74,0:00:01.44,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}sírate, {\rBase}sírate, {\rBase}sírate.
+Dialogue: 0,0:00:01.44,0:00:01.90,Base,,0,0,0,,{\rBase}sírate, {\rHot\t(0,120,\fscx115\fscy115)}sírate, {\rBase}sírate.
+Dialogue: 0,0:00:01.90,0:00:02.53,Base,,0,0,0,,{\rBase}sírate, {\rBase}sírate, {\rHot\t(0,120,\fscx115\fscy115)}sírate.
+Dialogue: 0,0:01:00.00,0:01:00.77,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}¡Gracias!

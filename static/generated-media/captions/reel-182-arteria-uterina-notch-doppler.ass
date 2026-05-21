@@ -1,0 +1,78 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H001E80FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Si {\rBase}a {\rBase}la
+Dialogue: 0,0:00:00.24,0:00:00.36,Base,,0,0,0,,{\rBase}Si {\rHot\t(0,120,\fscx115\fscy115)}a {\rBase}la
+Dialogue: 0,0:00:00.36,0:00:00.49,Base,,0,0,0,,{\rBase}Si {\rBase}a {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:00.44,0:00:00.72,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}semana {\rBase}24 {\rBase}todavía
+Dialogue: 0,0:00:00.72,0:00:01.22,Base,,0,0,0,,{\rBase}semana {\rHot\t(0,120,\fscx115\fscy115)}24 {\rBase}todavía
+Dialogue: 0,0:00:01.22,0:00:01.97,Base,,0,0,0,,{\rBase}semana {\rBase}24 {\rHot\t(0,120,\fscx115\fscy115)}todavía
+Dialogue: 0,0:00:01.92,0:00:02.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}hay {\rBase}notch {\rBase}bilateral
+Dialogue: 0,0:00:02.32,0:00:02.54,Base,,0,0,0,,{\rBase}hay {\rHot\t(0,120,\fscx115\fscy115)}notch {\rBase}bilateral
+Dialogue: 0,0:00:02.54,0:00:03.17,Base,,0,0,0,,{\rBase}hay {\rBase}notch {\rHot\t(0,120,\fscx115\fscy115)}bilateral
+Dialogue: 0,0:00:03.12,0:00:03.56,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}uterinas, {\rBase}es
+Dialogue: 0,0:00:03.56,0:00:04.16,Base,,0,0,0,,{\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}uterinas, {\rBase}es
+Dialogue: 0,0:00:04.16,0:00:04.79,Base,,0,0,0,,{\rBase}en {\rBase}uterinas, {\rHot\t(0,120,\fscx115\fscy115)}es
+Dialogue: 0,0:00:04.74,0:00:04.90,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}un {\rBase}marcador {\rBase}potente
+Dialogue: 0,0:00:04.90,0:00:05.34,Base,,0,0,0,,{\rBase}un {\rHot\t(0,120,\fscx115\fscy115)}marcador {\rBase}potente
+Dialogue: 0,0:00:05.34,0:00:05.93,Base,,0,0,0,,{\rBase}un {\rBase}marcador {\rHot\t(0,120,\fscx115\fscy115)}potente
+Dialogue: 0,0:00:05.88,0:00:06.04,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}futuro {\rBase}preeclampsia
+Dialogue: 0,0:00:06.04,0:00:06.40,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}futuro {\rBase}preeclampsia
+Dialogue: 0,0:00:06.40,0:00:07.29,Base,,0,0,0,,{\rBase}de {\rBase}futuro {\rHot\t(0,120,\fscx115\fscy115)}preeclampsia
+Dialogue: 0,0:00:07.24,0:00:07.46,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}o {\rBase}RCIU {\rBase}placentaria.
+Dialogue: 0,0:00:07.46,0:00:08.22,Base,,0,0,0,,{\rBase}o {\rHot\t(0,120,\fscx115\fscy115)}RCIU {\rBase}placentaria.
+Dialogue: 0,0:00:08.22,0:00:08.99,Base,,0,0,0,,{\rBase}o {\rBase}RCIU {\rHot\t(0,120,\fscx115\fscy115)}placentaria.
+Dialogue: 0,0:00:09.28,0:00:09.74,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}arteria {\rBase}uterina
+Dialogue: 0,0:00:09.74,0:00:10.16,Base,,0,0,0,,{\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}arteria {\rBase}uterina
+Dialogue: 0,0:00:10.16,0:00:10.73,Base,,0,0,0,,{\rBase}La {\rBase}arteria {\rHot\t(0,120,\fscx115\fscy115)}uterina
+Dialogue: 0,0:00:10.68,0:00:11.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}viene {\rBase}de {\rBase}la
+Dialogue: 0,0:00:11.28,0:00:11.46,Base,,0,0,0,,{\rBase}viene {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}la
+Dialogue: 0,0:00:11.46,0:00:11.63,Base,,0,0,0,,{\rBase}viene {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:11.58,0:00:12.02,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}ilíaca {\rBase}interna {\rBase}y
+Dialogue: 0,0:00:12.02,0:00:12.52,Base,,0,0,0,,{\rBase}ilíaca {\rHot\t(0,120,\fscx115\fscy115)}interna {\rBase}y
+Dialogue: 0,0:00:12.52,0:00:12.71,Base,,0,0,0,,{\rBase}ilíaca {\rBase}interna {\rHot\t(0,120,\fscx115\fscy115)}y
+Dialogue: 0,0:00:12.66,0:00:13.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}anastomosa {\rBase}con {\rBase}la
+Dialogue: 0,0:00:13.34,0:00:13.60,Base,,0,0,0,,{\rBase}anastomosa {\rHot\t(0,120,\fscx115\fscy115)}con {\rBase}la
+Dialogue: 0,0:00:13.60,0:00:13.81,Base,,0,0,0,,{\rBase}anastomosa {\rBase}con {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:13.76,0:00:14.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}ovárica. {\rBase}En {\rBase}no
+Dialogue: 0,0:00:14.62,0:00:14.98,Base,,0,0,0,,{\rBase}ovárica. {\rHot\t(0,120,\fscx115\fscy115)}En {\rBase}no
+Dialogue: 0,0:00:14.98,0:00:15.19,Base,,0,0,0,,{\rBase}ovárica. {\rBase}En {\rHot\t(0,120,\fscx115\fscy115)}no
+Dialogue: 0,0:00:15.14,0:00:15.68,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}gestante {\rBase}hay {\rBase}notch
+Dialogue: 0,0:00:15.68,0:00:16.16,Base,,0,0,0,,{\rBase}gestante {\rHot\t(0,120,\fscx115\fscy115)}hay {\rBase}notch
+Dialogue: 0,0:00:16.16,0:00:16.53,Base,,0,0,0,,{\rBase}gestante {\rBase}hay {\rHot\t(0,120,\fscx115\fscy115)}notch
+Dialogue: 0,0:00:16.48,0:00:17.74,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}protodiastólico {\rBase}y {\rBase}flujo
+Dialogue: 0,0:00:17.74,0:00:17.98,Base,,0,0,0,,{\rBase}protodiastólico {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}flujo
+Dialogue: 0,0:00:17.98,0:00:18.45,Base,,0,0,0,,{\rBase}protodiastólico {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}flujo
+Dialogue: 0,0:00:18.40,0:00:18.52,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}alta {\rBase}resistencia.
+Dialogue: 0,0:00:18.52,0:00:18.76,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}alta {\rBase}resistencia.
+Dialogue: 0,0:00:18.76,0:00:19.67,Base,,0,0,0,,{\rBase}de {\rBase}alta {\rHot\t(0,120,\fscx115\fscy115)}resistencia.
+Dialogue: 0,0:00:19.86,0:00:20.18,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Con {\rBase}la {\rBase}invasión
+Dialogue: 0,0:00:20.18,0:00:20.30,Base,,0,0,0,,{\rBase}Con {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}invasión
+Dialogue: 0,0:00:20.30,0:00:20.73,Base,,0,0,0,,{\rBase}Con {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}invasión
+Dialogue: 0,0:00:20.68,0:00:21.50,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}trofoblástica {\rBase}hacia {\rBase}las
+Dialogue: 0,0:00:21.50,0:00:21.80,Base,,0,0,0,,{\rBase}trofoblástica {\rHot\t(0,120,\fscx115\fscy115)}hacia {\rBase}las
+Dialogue: 0,0:00:21.80,0:00:22.05,Base,,0,0,0,,{\rBase}trofoblástica {\rBase}hacia {\rHot\t(0,120,\fscx115\fscy115)}las
+Dialogue: 0,0:00:22.00,0:00:22.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}semanas {\rBase}20 {\rBase}-24
+Dialogue: 0,0:00:22.32,0:00:22.72,Base,,0,0,0,,{\rBase}semanas {\rHot\t(0,120,\fscx115\fscy115)}20 {\rBase}-24
+Dialogue: 0,0:00:22.72,0:00:23.43,Base,,0,0,0,,{\rBase}semanas {\rBase}20 {\rHot\t(0,120,\fscx115\fscy115)}-24
+Dialogue: 0,0:00:23.38,0:00:23.86,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}notch {\rBase}desaparece
+Dialogue: 0,0:00:23.86,0:00:24.14,Base,,0,0,0,,{\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}notch {\rBase}desaparece
+Dialogue: 0,0:00:24.14,0:00:25.05,Base,,0,0,0,,{\rBase}el {\rBase}notch {\rHot\t(0,120,\fscx115\fscy115)}desaparece
+Dialogue: 0,0:00:25.00,0:00:25.22,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}el {\rBase}flujo
+Dialogue: 0,0:00:25.22,0:00:25.34,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}flujo
+Dialogue: 0,0:00:25.34,0:00:25.73,Base,,0,0,0,,{\rBase}y {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}flujo
+Dialogue: 0,0:00:25.68,0:00:25.84,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}se {\rBase}vuelve {\rBase}de
+Dialogue: 0,0:00:25.84,0:00:26.20,Base,,0,0,0,,{\rBase}se {\rHot\t(0,120,\fscx115\fscy115)}vuelve {\rBase}de
+Dialogue: 0,0:00:26.20,0:00:26.37,Base,,0,0,0,,{\rBase}se {\rBase}vuelve {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:26.32,0:00:26.54,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}baja {\rBase}resistencia.
+Dialogue: 0,0:00:26.54,0:00:27.39,Base,,0,0,0,,{\rBase}baja {\rHot\t(0,120,\fscx115\fscy115)}resistencia.

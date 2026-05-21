@@ -1,0 +1,85 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Helvetica,60,&H00C8C8C8,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Helvetica,92,&H00FFFFFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.30,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}La {\rBase}prematuridad {\rBase}se
+Dialogue: 0,0:00:00.30,0:00:00.96,Base,,0,0,0,,{\rBase}La {\rHot\t(0,150,\fscx120\fscy120)}prematuridad {\rBase}se
+Dialogue: 0,0:00:00.96,0:00:01.17,Base,,0,0,0,,{\rBase}La {\rBase}prematuridad {\rHot\t(0,150,\fscx120\fscy120)}se
+Dialogue: 0,0:00:01.12,0:00:01.50,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}percibe {\rBase}como {\rBase}un
+Dialogue: 0,0:00:01.50,0:00:01.74,Base,,0,0,0,,{\rBase}percibe {\rHot\t(0,150,\fscx120\fscy120)}como {\rBase}un
+Dialogue: 0,0:00:01.74,0:00:01.95,Base,,0,0,0,,{\rBase}percibe {\rBase}como {\rHot\t(0,150,\fscx120\fscy120)}un
+Dialogue: 0,0:00:01.90,0:00:02.34,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}problema {\rBase}de {\rBase}países
+Dialogue: 0,0:00:02.34,0:00:02.50,Base,,0,0,0,,{\rBase}problema {\rHot\t(0,150,\fscx120\fscy120)}de {\rBase}países
+Dialogue: 0,0:00:02.50,0:00:02.93,Base,,0,0,0,,{\rBase}problema {\rBase}de {\rHot\t(0,150,\fscx120\fscy120)}países
+Dialogue: 0,0:00:02.88,0:00:03.10,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}de {\rBase}altos {\rBase}ingresos
+Dialogue: 0,0:00:03.10,0:00:03.48,Base,,0,0,0,,{\rBase}de {\rHot\t(0,150,\fscx120\fscy120)}altos {\rBase}ingresos
+Dialogue: 0,0:00:03.48,0:00:03.99,Base,,0,0,0,,{\rBase}de {\rBase}altos {\rHot\t(0,150,\fscx120\fscy120)}ingresos
+Dialogue: 0,0:00:03.94,0:00:04.12,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}por {\rBase}la {\rBase}tecnología
+Dialogue: 0,0:00:04.12,0:00:04.28,Base,,0,0,0,,{\rBase}por {\rHot\t(0,150,\fscx120\fscy120)}la {\rBase}tecnología
+Dialogue: 0,0:00:04.28,0:00:04.85,Base,,0,0,0,,{\rBase}por {\rBase}la {\rHot\t(0,150,\fscx120\fscy120)}tecnología
+Dialogue: 0,0:00:04.80,0:00:05.74,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}neonatal, {\rBase}pero {\rBase}el
+Dialogue: 0,0:00:05.74,0:00:06.22,Base,,0,0,0,,{\rBase}neonatal, {\rHot\t(0,150,\fscx120\fscy120)}pero {\rBase}el
+Dialogue: 0,0:00:06.22,0:00:06.41,Base,,0,0,0,,{\rBase}neonatal, {\rBase}pero {\rHot\t(0,150,\fscx120\fscy120)}el
+Dialogue: 0,0:00:06.36,0:00:06.92,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}85 {\rBase}% {\rBase}de
+Dialogue: 0,0:00:06.92,0:00:07.28,Base,,0,0,0,,{\rBase}85 {\rHot\t(0,150,\fscx120\fscy120)}% {\rBase}de
+Dialogue: 0,0:00:07.28,0:00:07.83,Base,,0,0,0,,{\rBase}85 {\rBase}% {\rHot\t(0,150,\fscx120\fscy120)}de
+Dialogue: 0,0:00:07.78,0:00:07.94,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}los {\rBase}partos {\rBase}prematuros
+Dialogue: 0,0:00:07.94,0:00:08.26,Base,,0,0,0,,{\rBase}los {\rHot\t(0,150,\fscx120\fscy120)}partos {\rBase}prematuros
+Dialogue: 0,0:00:08.26,0:00:08.87,Base,,0,0,0,,{\rBase}los {\rBase}partos {\rHot\t(0,150,\fscx120\fscy120)}prematuros
+Dialogue: 0,0:00:08.82,0:00:09.62,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}ocurren {\rBase}en {\rBase}países
+Dialogue: 0,0:00:09.62,0:00:09.74,Base,,0,0,0,,{\rBase}ocurren {\rHot\t(0,150,\fscx120\fscy120)}en {\rBase}países
+Dialogue: 0,0:00:09.74,0:00:10.13,Base,,0,0,0,,{\rBase}ocurren {\rBase}en {\rHot\t(0,150,\fscx120\fscy120)}países
+Dialogue: 0,0:00:10.08,0:00:10.30,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}de {\rBase}ingresos {\rBase}bajos
+Dialogue: 0,0:00:10.30,0:00:10.78,Base,,0,0,0,,{\rBase}de {\rHot\t(0,150,\fscx120\fscy120)}ingresos {\rBase}bajos
+Dialogue: 0,0:00:10.78,0:00:11.17,Base,,0,0,0,,{\rBase}de {\rBase}ingresos {\rHot\t(0,150,\fscx120\fscy120)}bajos
+Dialogue: 0,0:00:11.12,0:00:11.28,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}y {\rBase}medios, {\rBase}donde
+Dialogue: 0,0:00:11.28,0:00:11.84,Base,,0,0,0,,{\rBase}y {\rHot\t(0,150,\fscx120\fscy120)}medios, {\rBase}donde
+Dialogue: 0,0:00:11.84,0:00:12.27,Base,,0,0,0,,{\rBase}y {\rBase}medios, {\rHot\t(0,150,\fscx120\fscy120)}donde
+Dialogue: 0,0:00:12.22,0:00:12.36,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}la {\rBase}mortalidad {\rBase}es
+Dialogue: 0,0:00:12.36,0:00:12.92,Base,,0,0,0,,{\rBase}la {\rHot\t(0,150,\fscx120\fscy120)}mortalidad {\rBase}es
+Dialogue: 0,0:00:12.92,0:00:13.29,Base,,0,0,0,,{\rBase}la {\rBase}mortalidad {\rHot\t(0,150,\fscx120\fscy120)}es
+Dialogue: 0,0:00:13.24,0:00:13.46,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}más {\rBase}alta. {\rBase}Las
+Dialogue: 0,0:00:13.46,0:00:14.22,Base,,0,0,0,,{\rBase}más {\rHot\t(0,150,\fscx120\fscy120)}alta. {\rBase}Las
+Dialogue: 0,0:00:14.22,0:00:15.03,Base,,0,0,0,,{\rBase}más {\rBase}alta. {\rHot\t(0,150,\fscx120\fscy120)}Las
+Dialogue: 0,0:00:14.98,0:00:15.60,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}complicaciones {\rBase}del {\rBase}parto
+Dialogue: 0,0:00:15.60,0:00:15.86,Base,,0,0,0,,{\rBase}complicaciones {\rHot\t(0,150,\fscx120\fscy120)}del {\rBase}parto
+Dialogue: 0,0:00:15.86,0:00:16.29,Base,,0,0,0,,{\rBase}complicaciones {\rBase}del {\rHot\t(0,150,\fscx120\fscy120)}parto
+Dialogue: 0,0:00:16.24,0:00:16.82,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}prematuro {\rBase}causan {\rBase}aproximadamente
+Dialogue: 0,0:00:16.82,0:00:17.44,Base,,0,0,0,,{\rBase}prematuro {\rHot\t(0,150,\fscx120\fscy120)}causan {\rBase}aproximadamente
+Dialogue: 0,0:00:17.44,0:00:18.23,Base,,0,0,0,,{\rBase}prematuro {\rBase}causan {\rHot\t(0,150,\fscx120\fscy120)}aproximadamente
+Dialogue: 0,0:00:18.18,0:00:18.86,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}900 {\rBase}.000 {\rBase}muertes
+Dialogue: 0,0:00:18.86,0:00:19.26,Base,,0,0,0,,{\rBase}900 {\rHot\t(0,150,\fscx120\fscy120)}.000 {\rBase}muertes
+Dialogue: 0,0:00:19.26,0:00:19.75,Base,,0,0,0,,{\rBase}900 {\rBase}.000 {\rHot\t(0,150,\fscx120\fscy120)}muertes
+Dialogue: 0,0:00:19.70,0:00:19.88,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}al {\rBase}año {\rBase}en
+Dialogue: 0,0:00:19.88,0:00:20.14,Base,,0,0,0,,{\rBase}al {\rHot\t(0,150,\fscx120\fscy120)}año {\rBase}en
+Dialogue: 0,0:00:20.14,0:00:20.57,Base,,0,0,0,,{\rBase}al {\rBase}año {\rHot\t(0,150,\fscx120\fscy120)}en
+Dialogue: 0,0:00:20.52,0:00:20.80,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}niños {\rBase}menores {\rBase}de
+Dialogue: 0,0:00:20.80,0:00:21.20,Base,,0,0,0,,{\rBase}niños {\rHot\t(0,150,\fscx120\fscy120)}menores {\rBase}de
+Dialogue: 0,0:00:21.20,0:00:21.43,Base,,0,0,0,,{\rBase}niños {\rBase}menores {\rHot\t(0,150,\fscx120\fscy120)}de
+Dialogue: 0,0:00:21.38,0:00:21.76,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}5 {\rBase}años, {\rBase}y
+Dialogue: 0,0:00:21.76,0:00:22.42,Base,,0,0,0,,{\rBase}5 {\rHot\t(0,150,\fscx120\fscy120)}años, {\rBase}y
+Dialogue: 0,0:00:22.42,0:00:22.93,Base,,0,0,0,,{\rBase}5 {\rBase}años, {\rHot\t(0,150,\fscx120\fscy120)}y
+Dialogue: 0,0:00:22.88,0:00:23.00,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}el {\rBase}75 {\rBase}%
+Dialogue: 0,0:00:23.00,0:00:23.54,Base,,0,0,0,,{\rBase}el {\rHot\t(0,150,\fscx120\fscy120)}75 {\rBase}%
+Dialogue: 0,0:00:23.54,0:00:24.07,Base,,0,0,0,,{\rBase}el {\rBase}75 {\rHot\t(0,150,\fscx120\fscy120)}%
+Dialogue: 0,0:00:24.02,0:00:24.32,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}de {\rBase}estas {\rBase}muertes
+Dialogue: 0,0:00:24.32,0:00:24.58,Base,,0,0,0,,{\rBase}de {\rHot\t(0,150,\fscx120\fscy120)}estas {\rBase}muertes
+Dialogue: 0,0:00:24.58,0:00:25.19,Base,,0,0,0,,{\rBase}de {\rBase}estas {\rHot\t(0,150,\fscx120\fscy120)}muertes
+Dialogue: 0,0:00:25.14,0:00:25.84,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}podrían {\rBase}prevenirse {\rBase}con
+Dialogue: 0,0:00:25.84,0:00:26.54,Base,,0,0,0,,{\rBase}podrían {\rHot\t(0,150,\fscx120\fscy120)}prevenirse {\rBase}con
+Dialogue: 0,0:00:26.54,0:00:26.79,Base,,0,0,0,,{\rBase}podrían {\rBase}prevenirse {\rHot\t(0,150,\fscx120\fscy120)}con
+Dialogue: 0,0:00:26.74,0:00:27.62,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}intervenciones {\rBase}costo {\rBase}-efectivas,
+Dialogue: 0,0:00:27.62,0:00:28.26,Base,,0,0,0,,{\rBase}intervenciones {\rHot\t(0,150,\fscx120\fscy120)}costo {\rBase}-efectivas,
+Dialogue: 0,0:00:28.26,0:00:28.93,Base,,0,0,0,,{\rBase}intervenciones {\rBase}costo {\rHot\t(0,150,\fscx120\fscy120)}-efectivas,
+Dialogue: 0,0:00:28.88,0:00:30.52,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}corticoides, {\rBase}canguro, {\rBase}antibióticos.
+Dialogue: 0,0:00:30.52,0:00:31.26,Base,,0,0,0,,{\rBase}corticoides, {\rHot\t(0,150,\fscx120\fscy120)}canguro, {\rBase}antibióticos.
+Dialogue: 0,0:00:31.26,0:00:32.17,Base,,0,0,0,,{\rBase}corticoides, {\rBase}canguro, {\rHot\t(0,150,\fscx120\fscy120)}antibióticos.

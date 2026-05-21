@@ -1,0 +1,64 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Helvetica,60,&H00C8C8C8,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Helvetica,92,&H00FFFFFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.34,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}No {\rBase}basta {\rBase}con
+Dialogue: 0,0:00:00.34,0:00:00.74,Base,,0,0,0,,{\rBase}No {\rHot\t(0,150,\fscx120\fscy120)}basta {\rBase}con
+Dialogue: 0,0:00:00.74,0:00:01.01,Base,,0,0,0,,{\rBase}No {\rBase}basta {\rHot\t(0,150,\fscx120\fscy120)}con
+Dialogue: 0,0:00:00.96,0:00:01.26,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}verla {\rBase}normal {\rBase}en
+Dialogue: 0,0:00:01.26,0:00:01.70,Base,,0,0,0,,{\rBase}verla {\rHot\t(0,150,\fscx120\fscy120)}normal {\rBase}en
+Dialogue: 0,0:00:01.70,0:00:02.17,Base,,0,0,0,,{\rBase}verla {\rBase}normal {\rHot\t(0,150,\fscx120\fscy120)}en
+Dialogue: 0,0:00:02.12,0:00:02.24,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}la {\rBase}pelvimetría. {\rBase}Hay
+Dialogue: 0,0:00:02.24,0:00:03.12,Base,,0,0,0,,{\rBase}la {\rHot\t(0,150,\fscx120\fscy120)}pelvimetría. {\rBase}Hay
+Dialogue: 0,0:00:03.12,0:00:03.35,Base,,0,0,0,,{\rBase}la {\rBase}pelvimetría. {\rHot\t(0,150,\fscx120\fscy120)}Hay
+Dialogue: 0,0:00:03.30,0:00:03.42,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}que {\rBase}comparar {\rBase}contra
+Dialogue: 0,0:00:03.42,0:00:03.90,Base,,0,0,0,,{\rBase}que {\rHot\t(0,150,\fscx120\fscy120)}comparar {\rBase}contra
+Dialogue: 0,0:00:03.90,0:00:04.17,Base,,0,0,0,,{\rBase}que {\rBase}comparar {\rHot\t(0,150,\fscx120\fscy120)}contra
+Dialogue: 0,0:00:04.12,0:00:04.30,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}el {\rBase}peso {\rBase}fetal
+Dialogue: 0,0:00:04.30,0:00:04.62,Base,,0,0,0,,{\rBase}el {\rHot\t(0,150,\fscx120\fscy120)}peso {\rBase}fetal
+Dialogue: 0,0:00:04.62,0:00:05.11,Base,,0,0,0,,{\rBase}el {\rBase}peso {\rHot\t(0,150,\fscx120\fscy120)}fetal
+Dialogue: 0,0:00:05.06,0:00:06.10,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}estimado. {\rBase}Pelvis {\rBase}justo
+Dialogue: 0,0:00:06.10,0:00:06.48,Base,,0,0,0,,{\rBase}estimado. {\rHot\t(0,150,\fscx120\fscy120)}Pelvis {\rBase}justo
+Dialogue: 0,0:00:06.48,0:00:06.83,Base,,0,0,0,,{\rBase}estimado. {\rBase}Pelvis {\rHot\t(0,150,\fscx120\fscy120)}justo
+Dialogue: 0,0:00:06.78,0:00:07.16,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}menor {\rBase}es {\rBase}una
+Dialogue: 0,0:00:07.16,0:00:07.60,Base,,0,0,0,,{\rBase}menor {\rHot\t(0,150,\fscx120\fscy120)}es {\rBase}una
+Dialogue: 0,0:00:07.60,0:00:07.83,Base,,0,0,0,,{\rBase}menor {\rBase}es {\rHot\t(0,150,\fscx120\fscy120)}una
+Dialogue: 0,0:00:07.78,0:00:08.12,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}pelvis {\rBase}ginecoide {\rBase}morfológicamente
+Dialogue: 0,0:00:08.12,0:00:08.66,Base,,0,0,0,,{\rBase}pelvis {\rHot\t(0,150,\fscx120\fscy120)}ginecoide {\rBase}morfológicamente
+Dialogue: 0,0:00:08.66,0:00:09.67,Base,,0,0,0,,{\rBase}pelvis {\rBase}ginecoide {\rHot\t(0,150,\fscx120\fscy120)}morfológicamente
+Dialogue: 0,0:00:09.62,0:00:10.20,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}normal, {\rBase}pero {\rBase}con
+Dialogue: 0,0:00:10.20,0:00:10.64,Base,,0,0,0,,{\rBase}normal, {\rHot\t(0,150,\fscx120\fscy120)}pero {\rBase}con
+Dialogue: 0,0:00:10.64,0:00:10.93,Base,,0,0,0,,{\rBase}normal, {\rBase}pero {\rHot\t(0,150,\fscx120\fscy120)}con
+Dialogue: 0,0:00:10.88,0:00:11.18,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}todos {\rBase}los {\rBase}diámetros
+Dialogue: 0,0:00:11.18,0:00:11.42,Base,,0,0,0,,{\rBase}todos {\rHot\t(0,150,\fscx120\fscy120)}los {\rBase}diámetros
+Dialogue: 0,0:00:11.42,0:00:11.99,Base,,0,0,0,,{\rBase}todos {\rBase}los {\rHot\t(0,150,\fscx120\fscy120)}diámetros
+Dialogue: 0,0:00:11.94,0:00:12.86,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}1 {\rBase}dominátero {\rBase}bajo
+Dialogue: 0,0:00:12.86,0:00:13.40,Base,,0,0,0,,{\rBase}1 {\rHot\t(0,150,\fscx120\fscy120)}dominátero {\rBase}bajo
+Dialogue: 0,0:00:13.40,0:00:13.69,Base,,0,0,0,,{\rBase}1 {\rBase}dominátero {\rHot\t(0,150,\fscx120\fscy120)}bajo
+Dialogue: 0,0:00:13.64,0:00:13.82,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}el {\rBase}promedio. {\rBase}Parto
+Dialogue: 0,0:00:13.82,0:00:14.78,Base,,0,0,0,,{\rBase}el {\rHot\t(0,150,\fscx120\fscy120)}promedio. {\rBase}Parto
+Dialogue: 0,0:00:14.78,0:00:15.17,Base,,0,0,0,,{\rBase}el {\rBase}promedio. {\rHot\t(0,150,\fscx120\fscy120)}Parto
+Dialogue: 0,0:00:15.12,0:00:15.52,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}vaginal {\rBase}posible {\rBase}solo
+Dialogue: 0,0:00:15.52,0:00:15.92,Base,,0,0,0,,{\rBase}vaginal {\rHot\t(0,150,\fscx120\fscy120)}posible {\rBase}solo
+Dialogue: 0,0:00:15.92,0:00:16.27,Base,,0,0,0,,{\rBase}vaginal {\rBase}posible {\rHot\t(0,150,\fscx120\fscy120)}solo
+Dialogue: 0,0:00:16.22,0:00:16.52,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}con {\rBase}feto {\rBase}pequeño.
+Dialogue: 0,0:00:16.52,0:00:16.78,Base,,0,0,0,,{\rBase}con {\rHot\t(0,150,\fscx120\fscy120)}feto {\rBase}pequeño.
+Dialogue: 0,0:00:16.78,0:00:17.27,Base,,0,0,0,,{\rBase}con {\rBase}feto {\rHot\t(0,150,\fscx120\fscy120)}pequeño.
+Dialogue: 0,0:00:17.50,0:00:17.90,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}Con {\rBase}peso {\rBase}normal,
+Dialogue: 0,0:00:17.90,0:00:18.16,Base,,0,0,0,,{\rBase}Con {\rHot\t(0,150,\fscx120\fscy120)}peso {\rBase}normal,
+Dialogue: 0,0:00:18.16,0:00:18.67,Base,,0,0,0,,{\rBase}Con {\rBase}peso {\rHot\t(0,150,\fscx120\fscy120)}normal,
+Dialogue: 0,0:00:18.82,0:00:19.16,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}lo {\rBase}habitual {\rBase}es
+Dialogue: 0,0:00:19.16,0:00:19.48,Base,,0,0,0,,{\rBase}lo {\rHot\t(0,150,\fscx120\fscy120)}habitual {\rBase}es
+Dialogue: 0,0:00:19.48,0:00:19.79,Base,,0,0,0,,{\rBase}lo {\rBase}habitual {\rHot\t(0,150,\fscx120\fscy120)}es
+Dialogue: 0,0:00:19.74,0:00:20.12,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}paro {\rBase}de {\rBase}progreso.
+Dialogue: 0,0:00:20.12,0:00:20.24,Base,,0,0,0,,{\rBase}paro {\rHot\t(0,150,\fscx120\fscy120)}de {\rBase}progreso.
+Dialogue: 0,0:00:20.24,0:00:20.81,Base,,0,0,0,,{\rBase}paro {\rBase}de {\rHot\t(0,150,\fscx120\fscy120)}progreso.

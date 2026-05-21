@@ -1,0 +1,89 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H003C3CE6,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.36,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Los {\rBase}aines, {\rBase}indometasina
+Dialogue: 0,0:00:00.36,0:00:01.10,Base,,0,0,0,,{\rBase}Los {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}aines, {\rBase}indometasina
+Dialogue: 0,0:00:01.10,0:00:01.97,Base,,0,0,0,,{\rBase}Los {\rBase}aines, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}indometasina
+Dialogue: 0,0:00:01.92,0:00:02.18,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}buprofeno {\rBase}cierran
+Dialogue: 0,0:00:02.18,0:00:02.82,Base,,0,0,0,,{\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}buprofeno {\rBase}cierran
+Dialogue: 0,0:00:02.82,0:00:03.75,Base,,0,0,0,,{\rBase}y {\rBase}buprofeno {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cierran
+Dialogue: 0,0:00:03.70,0:00:03.92,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}ductus {\rBase}en
+Dialogue: 0,0:00:03.92,0:00:04.32,Base,,0,0,0,,{\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ductus {\rBase}en
+Dialogue: 0,0:00:04.32,0:00:04.63,Base,,0,0,0,,{\rBase}el {\rBase}ductus {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en
+Dialogue: 0,0:00:04.58,0:00:05.14,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}prematuros {\rBase}precisamente {\rBase}porque
+Dialogue: 0,0:00:05.14,0:00:05.82,Base,,0,0,0,,{\rBase}prematuros {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}precisamente {\rBase}porque
+Dialogue: 0,0:00:05.82,0:00:06.45,Base,,0,0,0,,{\rBase}prematuros {\rBase}precisamente {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}porque
+Dialogue: 0,0:00:06.40,0:00:07.06,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}bloquean {\rBase}PGE2, {\rBase}esa
+Dialogue: 0,0:00:07.06,0:00:08.30,Base,,0,0,0,,{\rBase}bloquean {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}PGE2, {\rBase}esa
+Dialogue: 0,0:00:08.30,0:00:08.81,Base,,0,0,0,,{\rBase}bloquean {\rBase}PGE2, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}esa
+Dialogue: 0,0:00:08.76,0:00:09.06,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}misma {\rBase}vía {\rBase}que
+Dialogue: 0,0:00:09.06,0:00:09.40,Base,,0,0,0,,{\rBase}misma {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}vía {\rBase}que
+Dialogue: 0,0:00:09.40,0:00:09.63,Base,,0,0,0,,{\rBase}misma {\rBase}vía {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}que
+Dialogue: 0,0:00:09.58,0:00:09.70,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}el {\rBase}feto
+Dialogue: 0,0:00:09.70,0:00:09.84,Base,,0,0,0,,{\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}feto
+Dialogue: 0,0:00:09.84,0:00:10.23,Base,,0,0,0,,{\rBase}en {\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}feto
+Dialogue: 0,0:00:10.18,0:00:10.72,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}mantiene {\rBase}el {\rBase}ductus
+Dialogue: 0,0:00:10.72,0:00:10.84,Base,,0,0,0,,{\rBase}mantiene {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}ductus
+Dialogue: 0,0:00:10.84,0:00:11.27,Base,,0,0,0,,{\rBase}mantiene {\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ductus
+Dialogue: 0,0:00:11.22,0:00:12.18,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}abierto. {\rBase}El {\rBase}estímulo
+Dialogue: 0,0:00:12.18,0:00:12.80,Base,,0,0,0,,{\rBase}abierto. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El {\rBase}estímulo
+Dialogue: 0,0:00:12.80,0:00:13.27,Base,,0,0,0,,{\rBase}abierto. {\rBase}El {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}estímulo
+Dialogue: 0,0:00:13.22,0:00:13.78,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}crítico {\rBase}es {\rBase}el
+Dialogue: 0,0:00:13.78,0:00:14.14,Base,,0,0,0,,{\rBase}crítico {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}es {\rBase}el
+Dialogue: 0,0:00:14.14,0:00:14.31,Base,,0,0,0,,{\rBase}crítico {\rBase}es {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el
+Dialogue: 0,0:00:14.26,0:00:14.56,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}salto {\rBase}abrupto {\rBase}de
+Dialogue: 0,0:00:14.56,0:00:15.06,Base,,0,0,0,,{\rBase}salto {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}abrupto {\rBase}de
+Dialogue: 0,0:00:15.06,0:00:15.25,Base,,0,0,0,,{\rBase}salto {\rBase}abrupto {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:15.20,0:00:15.78,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}PO2 {\rBase}arterial, {\rBase}de
+Dialogue: 0,0:00:15.78,0:00:16.52,Base,,0,0,0,,{\rBase}PO2 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}arterial, {\rBase}de
+Dialogue: 0,0:00:16.52,0:00:16.95,Base,,0,0,0,,{\rBase}PO2 {\rBase}arterial, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:16.90,0:00:17.44,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}25 {\rBase}-30 {\rBase}mm
+Dialogue: 0,0:00:17.44,0:00:17.92,Base,,0,0,0,,{\rBase}25 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}-30 {\rBase}mm
+Dialogue: 0,0:00:17.92,0:00:18.23,Base,,0,0,0,,{\rBase}25 {\rBase}-30 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}mm
+Dialogue: 0,0:00:18.84,0:00:19.90,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}a {\rBase}90 {\rBase}mm
+Dialogue: 0,0:00:19.90,0:00:20.36,Base,,0,0,0,,{\rBase}a {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}90 {\rBase}mm
+Dialogue: 0,0:00:20.36,0:00:20.93,Base,,0,0,0,,{\rBase}a {\rBase}90 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}mm
+Dialogue: 0,0:00:20.88,0:00:22.50,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}neonatal, {\rBase}con {\rBase}los
+Dialogue: 0,0:00:22.50,0:00:22.96,Base,,0,0,0,,{\rBase}neonatal, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}los
+Dialogue: 0,0:00:22.96,0:00:23.15,Base,,0,0,0,,{\rBase}neonatal, {\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}los
+Dialogue: 0,0:00:23.10,0:00:23.50,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}primeros {\rBase}respiros. {\rBase}El
+Dialogue: 0,0:00:23.50,0:00:24.04,Base,,0,0,0,,{\rBase}primeros {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}respiros. {\rBase}El
+Dialogue: 0,0:00:24.04,0:00:24.73,Base,,0,0,0,,{\rBase}primeros {\rBase}respiros. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El
+Dialogue: 0,0:00:24.68,0:00:25.04,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}O2 {\rBase}inhibe {\rBase}los
+Dialogue: 0,0:00:25.04,0:00:25.52,Base,,0,0,0,,{\rBase}O2 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}inhibe {\rBase}los
+Dialogue: 0,0:00:25.52,0:00:25.73,Base,,0,0,0,,{\rBase}O2 {\rBase}inhibe {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}los
+Dialogue: 0,0:00:25.68,0:00:26.02,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}canales {\rBase}de {\rBase}potasio
+Dialogue: 0,0:00:26.02,0:00:26.14,Base,,0,0,0,,{\rBase}canales {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}potasio
+Dialogue: 0,0:00:26.14,0:00:26.69,Base,,0,0,0,,{\rBase}canales {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}potasio
+Dialogue: 0,0:00:26.64,0:00:26.78,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}las {\rBase}células
+Dialogue: 0,0:00:26.78,0:00:26.92,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}las {\rBase}células
+Dialogue: 0,0:00:26.92,0:00:27.27,Base,,0,0,0,,{\rBase}de {\rBase}las {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}células
+Dialogue: 0,0:00:27.22,0:00:27.76,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}musculares {\rBase}del {\rBase}ductus.
+Dialogue: 0,0:00:27.76,0:00:27.94,Base,,0,0,0,,{\rBase}musculares {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}del {\rBase}ductus.
+Dialogue: 0,0:00:27.94,0:00:28.51,Base,,0,0,0,,{\rBase}musculares {\rBase}del {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ductus.
+Dialogue: 0,0:00:28.62,0:00:29.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Entra {\rBase}CA2 {\rBase}+,
+Dialogue: 0,0:00:29.26,0:00:30.00,Base,,0,0,0,,{\rBase}Entra {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}CA2 {\rBase}+,
+Dialogue: 0,0:00:30.00,0:00:30.35,Base,,0,0,0,,{\rBase}Entra {\rBase}CA2 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}+,
+Dialogue: 0,0:00:30.30,0:00:30.72,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}vasocontrae {\rBase}intensamente.
+Dialogue: 0,0:00:30.72,0:00:31.50,Base,,0,0,0,,{\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}vasocontrae {\rBase}intensamente.
+Dialogue: 0,0:00:31.50,0:00:32.51,Base,,0,0,0,,{\rBase}y {\rBase}vasocontrae {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}intensamente.
+Dialogue: 0,0:00:32.70,0:00:33.30,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La {\rBase}caída {\rBase}de
+Dialogue: 0,0:00:33.30,0:00:33.60,Base,,0,0,0,,{\rBase}La {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}caída {\rBase}de
+Dialogue: 0,0:00:33.60,0:00:33.79,Base,,0,0,0,,{\rBase}La {\rBase}caída {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:33.74,0:00:34.50,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}prostaglandinas {\rBase}PG2 {\rBase}sin
+Dialogue: 0,0:00:34.50,0:00:35.14,Base,,0,0,0,,{\rBase}prostaglandinas {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}PG2 {\rBase}sin
+Dialogue: 0,0:00:35.14,0:00:35.61,Base,,0,0,0,,{\rBase}prostaglandinas {\rBase}PG2 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sin
+Dialogue: 0,0:00:35.56,0:00:36.12,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}placenta {\rBase}acelera {\rBase}el
+Dialogue: 0,0:00:36.12,0:00:37.02,Base,,0,0,0,,{\rBase}placenta {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}acelera {\rBase}el
+Dialogue: 0,0:00:37.02,0:00:37.17,Base,,0,0,0,,{\rBase}placenta {\rBase}acelera {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el
+Dialogue: 0,0:00:37.12,0:00:37.59,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}proceso.

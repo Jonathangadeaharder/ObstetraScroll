@@ -1,0 +1,67 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0080DE4A,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}El {\rBase}dolor {\rBase}de
+Dialogue: 0,0:00:00.32,0:00:00.58,Base,,0,0,0,,{\rBase}El {\rHot\t(0,120,\fscx115\fscy115)}dolor {\rBase}de
+Dialogue: 0,0:00:00.58,0:00:00.79,Base,,0,0,0,,{\rBase}El {\rBase}dolor {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:00.74,0:00:01.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}entuertos {\rBase}no {\rBase}se
+Dialogue: 0,0:00:01.32,0:00:01.54,Base,,0,0,0,,{\rBase}entuertos {\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}se
+Dialogue: 0,0:00:01.54,0:00:01.73,Base,,0,0,0,,{\rBase}entuertos {\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}se
+Dialogue: 0,0:00:01.68,0:00:02.10,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}aguanta {\rBase}porque {\rBase}sí,
+Dialogue: 0,0:00:02.10,0:00:02.40,Base,,0,0,0,,{\rBase}aguanta {\rHot\t(0,120,\fscx115\fscy115)}porque {\rBase}sí,
+Dialogue: 0,0:00:02.40,0:00:02.75,Base,,0,0,0,,{\rBase}aguanta {\rBase}porque {\rHot\t(0,120,\fscx115\fscy115)}sí,
+Dialogue: 0,0:00:03.12,0:00:03.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}la {\rBase}oxitocina
+Dialogue: 0,0:00:03.36,0:00:03.48,Base,,0,0,0,,{\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}oxitocina
+Dialogue: 0,0:00:03.48,0:00:04.23,Base,,0,0,0,,{\rBase}es {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}oxitocina
+Dialogue: 0,0:00:04.18,0:00:04.58,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}haciendo {\rBase}su {\rBase}trabajo
+Dialogue: 0,0:00:04.58,0:00:04.78,Base,,0,0,0,,{\rBase}haciendo {\rHot\t(0,120,\fscx115\fscy115)}su {\rBase}trabajo
+Dialogue: 0,0:00:04.78,0:00:05.27,Base,,0,0,0,,{\rBase}haciendo {\rBase}su {\rHot\t(0,120,\fscx115\fscy115)}trabajo
+Dialogue: 0,0:00:05.22,0:00:06.50,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}hemostático, {\rBase}analgesia {\rBase}sí,
+Dialogue: 0,0:00:06.50,0:00:07.10,Base,,0,0,0,,{\rBase}hemostático, {\rHot\t(0,120,\fscx115\fscy115)}analgesia {\rBase}sí,
+Dialogue: 0,0:00:07.10,0:00:07.37,Base,,0,0,0,,{\rBase}hemostático, {\rBase}analgesia {\rHot\t(0,120,\fscx115\fscy115)}sí,
+Dialogue: 0,0:00:07.56,0:00:07.96,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}pero {\rBase}no {\rBase}suprimir
+Dialogue: 0,0:00:07.96,0:00:08.12,Base,,0,0,0,,{\rBase}pero {\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}suprimir
+Dialogue: 0,0:00:08.12,0:00:08.67,Base,,0,0,0,,{\rBase}pero {\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}suprimir
+Dialogue: 0,0:00:08.62,0:00:08.78,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}reflejo. {\rBase}La
+Dialogue: 0,0:00:08.78,0:00:09.96,Base,,0,0,0,,{\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}reflejo. {\rBase}La
+Dialogue: 0,0:00:09.96,0:00:10.41,Base,,0,0,0,,{\rBase}el {\rBase}reflejo. {\rHot\t(0,120,\fscx115\fscy115)}La
+Dialogue: 0,0:00:10.36,0:00:10.78,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}succión {\rBase}libera {\rBase}oxitocina
+Dialogue: 0,0:00:10.78,0:00:11.14,Base,,0,0,0,,{\rBase}succión {\rHot\t(0,120,\fscx115\fscy115)}libera {\rBase}oxitocina
+Dialogue: 0,0:00:11.14,0:00:11.89,Base,,0,0,0,,{\rBase}succión {\rBase}libera {\rHot\t(0,120,\fscx115\fscy115)}oxitocina
+Dialogue: 0,0:00:11.84,0:00:12.02,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}desde {\rBase}la {\rBase}neurohipófisis.
+Dialogue: 0,0:00:12.02,0:00:12.24,Base,,0,0,0,,{\rBase}desde {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}neurohipófisis.
+Dialogue: 0,0:00:12.24,0:00:13.41,Base,,0,0,0,,{\rBase}desde {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}neurohipófisis.
+Dialogue: 0,0:00:13.68,0:00:14.10,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Esta {\rBase}oxitocina {\rBase}actúa
+Dialogue: 0,0:00:14.10,0:00:14.88,Base,,0,0,0,,{\rBase}Esta {\rHot\t(0,120,\fscx115\fscy115)}oxitocina {\rBase}actúa
+Dialogue: 0,0:00:14.88,0:00:15.27,Base,,0,0,0,,{\rBase}Esta {\rBase}oxitocina {\rHot\t(0,120,\fscx115\fscy115)}actúa
+Dialogue: 0,0:00:15.22,0:00:15.48,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}sobre {\rBase}los {\rBase}receptores
+Dialogue: 0,0:00:15.48,0:00:15.68,Base,,0,0,0,,{\rBase}sobre {\rHot\t(0,120,\fscx115\fscy115)}los {\rBase}receptores
+Dialogue: 0,0:00:15.68,0:00:16.39,Base,,0,0,0,,{\rBase}sobre {\rBase}los {\rHot\t(0,120,\fscx115\fscy115)}receptores
+Dialogue: 0,0:00:16.34,0:00:17.30,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}miometriales {\rBase}aún {\rBase}hipertrofiados,
+Dialogue: 0,0:00:17.30,0:00:17.76,Base,,0,0,0,,{\rBase}miometriales {\rHot\t(0,120,\fscx115\fscy115)}aún {\rBase}hipertrofiados,
+Dialogue: 0,0:00:17.76,0:00:18.85,Base,,0,0,0,,{\rBase}miometriales {\rBase}aún {\rHot\t(0,120,\fscx115\fscy115)}hipertrofiados,
+Dialogue: 0,0:00:18.94,0:00:19.58,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}generando {\rBase}contracciones {\rBase}intensas,
+Dialogue: 0,0:00:19.58,0:00:20.28,Base,,0,0,0,,{\rBase}generando {\rHot\t(0,120,\fscx115\fscy115)}contracciones {\rBase}intensas,
+Dialogue: 0,0:00:20.28,0:00:21.11,Base,,0,0,0,,{\rBase}generando {\rBase}contracciones {\rHot\t(0,120,\fscx115\fscy115)}intensas,
+Dialogue: 0,0:00:21.28,0:00:22.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}entuertos, {\rBase}comprimen {\rBase}el
+Dialogue: 0,0:00:22.34,0:00:22.88,Base,,0,0,0,,{\rBase}entuertos, {\rHot\t(0,120,\fscx115\fscy115)}comprimen {\rBase}el
+Dialogue: 0,0:00:22.88,0:00:23.05,Base,,0,0,0,,{\rBase}entuertos, {\rBase}comprimen {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:23.00,0:00:23.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}lecho {\rBase}placentario, {\rBase}mejoran
+Dialogue: 0,0:00:23.24,0:00:24.50,Base,,0,0,0,,{\rBase}lecho {\rHot\t(0,120,\fscx115\fscy115)}placentario, {\rBase}mejoran
+Dialogue: 0,0:00:24.50,0:00:24.89,Base,,0,0,0,,{\rBase}lecho {\rBase}placentario, {\rHot\t(0,120,\fscx115\fscy115)}mejoran
+Dialogue: 0,0:00:24.84,0:00:25.42,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}hemostasia {\rBase}y {\rBase}aceleran
+Dialogue: 0,0:00:25.42,0:00:25.60,Base,,0,0,0,,{\rBase}hemostasia {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}aceleran
+Dialogue: 0,0:00:25.60,0:00:26.11,Base,,0,0,0,,{\rBase}hemostasia {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}aceleran
+Dialogue: 0,0:00:26.06,0:00:26.16,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}involución {\rBase}uterina.
+Dialogue: 0,0:00:26.16,0:00:26.62,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}involución {\rBase}uterina.
+Dialogue: 0,0:00:26.62,0:00:27.23,Base,,0,0,0,,{\rBase}la {\rBase}involución {\rHot\t(0,120,\fscx115\fscy115)}uterina.

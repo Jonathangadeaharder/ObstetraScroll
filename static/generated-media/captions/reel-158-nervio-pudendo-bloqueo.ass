@@ -1,0 +1,75 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H001E80FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}El {\rBase}bloqueo {\rBase}del
+Dialogue: 0,0:00:00.32,0:00:00.80,Base,,0,0,0,,{\rBase}El {\rHot\t(0,120,\fscx115\fscy115)}bloqueo {\rBase}del
+Dialogue: 0,0:00:00.80,0:00:01.01,Base,,0,0,0,,{\rBase}El {\rBase}bloqueo {\rHot\t(0,120,\fscx115\fscy115)}del
+Dialogue: 0,0:00:00.96,0:00:01.50,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}pudendo {\rBase}no {\rBase}anestesia
+Dialogue: 0,0:00:01.50,0:00:01.98,Base,,0,0,0,,{\rBase}pudendo {\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}anestesia
+Dialogue: 0,0:00:01.98,0:00:02.63,Base,,0,0,0,,{\rBase}pudendo {\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}anestesia
+Dialogue: 0,0:00:02.58,0:00:03.14,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}útero {\rBase}ni {\rBase}cuello.
+Dialogue: 0,0:00:03.14,0:00:03.40,Base,,0,0,0,,{\rBase}útero {\rHot\t(0,120,\fscx115\fscy115)}ni {\rBase}cuello.
+Dialogue: 0,0:00:03.40,0:00:03.93,Base,,0,0,0,,{\rBase}útero {\rBase}ni {\rHot\t(0,120,\fscx115\fscy115)}cuello.
+Dialogue: 0,0:00:04.06,0:00:04.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Sirve {\rBase}solo {\rBase}para
+Dialogue: 0,0:00:04.62,0:00:04.90,Base,,0,0,0,,{\rBase}Sirve {\rHot\t(0,120,\fscx115\fscy115)}solo {\rBase}para
+Dialogue: 0,0:00:04.90,0:00:05.23,Base,,0,0,0,,{\rBase}Sirve {\rBase}solo {\rHot\t(0,120,\fscx115\fscy115)}para
+Dialogue: 0,0:00:05.18,0:00:05.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}parto {\rBase}instrumental, {\rBase}episiotomía
+Dialogue: 0,0:00:05.64,0:00:06.74,Base,,0,0,0,,{\rBase}parto {\rHot\t(0,120,\fscx115\fscy115)}instrumental, {\rBase}episiotomía
+Dialogue: 0,0:00:06.74,0:00:07.67,Base,,0,0,0,,{\rBase}parto {\rBase}instrumental, {\rHot\t(0,120,\fscx115\fscy115)}episiotomía
+Dialogue: 0,0:00:07.62,0:00:07.92,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}o {\rBase}sutura, {\rBase}no
+Dialogue: 0,0:00:07.92,0:00:08.64,Base,,0,0,0,,{\rBase}o {\rHot\t(0,120,\fscx115\fscy115)}sutura, {\rBase}no
+Dialogue: 0,0:00:08.64,0:00:08.95,Base,,0,0,0,,{\rBase}o {\rBase}sutura, {\rHot\t(0,120,\fscx115\fscy115)}no
+Dialogue: 0,0:00:08.90,0:00:09.18,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}para {\rBase}distensión {\rBase}uterina.
+Dialogue: 0,0:00:09.18,0:00:09.82,Base,,0,0,0,,{\rBase}para {\rHot\t(0,120,\fscx115\fscy115)}distensión {\rBase}uterina.
+Dialogue: 0,0:00:09.82,0:00:10.43,Base,,0,0,0,,{\rBase}para {\rBase}distensión {\rHot\t(0,120,\fscx115\fscy115)}uterina.
+Dialogue: 0,0:00:10.70,0:00:11.06,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}El {\rBase}nervio {\rBase}pudendo,
+Dialogue: 0,0:00:11.06,0:00:11.48,Base,,0,0,0,,{\rBase}El {\rHot\t(0,120,\fscx115\fscy115)}nervio {\rBase}pudendo,
+Dialogue: 0,0:00:11.48,0:00:12.19,Base,,0,0,0,,{\rBase}El {\rBase}nervio {\rHot\t(0,120,\fscx115\fscy115)}pudendo,
+Dialogue: 0,0:00:12.28,0:00:12.96,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}S2 {\rBase}-S4, {\rBase}sale
+Dialogue: 0,0:00:12.96,0:00:13.92,Base,,0,0,0,,{\rBase}S2 {\rHot\t(0,120,\fscx115\fscy115)}-S4, {\rBase}sale
+Dialogue: 0,0:00:13.92,0:00:14.49,Base,,0,0,0,,{\rBase}S2 {\rBase}-S4, {\rHot\t(0,120,\fscx115\fscy115)}sale
+Dialogue: 0,0:00:14.44,0:00:14.66,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}plexo {\rBase}sacro,
+Dialogue: 0,0:00:14.66,0:00:15.12,Base,,0,0,0,,{\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}plexo {\rBase}sacro,
+Dialogue: 0,0:00:15.12,0:00:15.69,Base,,0,0,0,,{\rBase}del {\rBase}plexo {\rHot\t(0,120,\fscx115\fscy115)}sacro,
+Dialogue: 0,0:00:16.00,0:00:16.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}rodea {\rBase}la {\rBase}espina
+Dialogue: 0,0:00:16.34,0:00:16.48,Base,,0,0,0,,{\rBase}rodea {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}espina
+Dialogue: 0,0:00:16.48,0:00:16.93,Base,,0,0,0,,{\rBase}rodea {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}espina
+Dialogue: 0,0:00:16.88,0:00:17.52,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}isquiática {\rBase}y {\rBase}entra
+Dialogue: 0,0:00:17.52,0:00:17.84,Base,,0,0,0,,{\rBase}isquiática {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}entra
+Dialogue: 0,0:00:17.84,0:00:18.17,Base,,0,0,0,,{\rBase}isquiática {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}entra
+Dialogue: 0,0:00:18.12,0:00:18.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}al {\rBase}canal {\rBase}de
+Dialogue: 0,0:00:18.26,0:00:18.58,Base,,0,0,0,,{\rBase}al {\rHot\t(0,120,\fscx115\fscy115)}canal {\rBase}de
+Dialogue: 0,0:00:18.58,0:00:18.81,Base,,0,0,0,,{\rBase}al {\rBase}canal {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:18.76,0:00:19.70,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Alcock. {\rBase}Inerva {\rBase}sensorial
+Dialogue: 0,0:00:19.70,0:00:20.10,Base,,0,0,0,,{\rBase}Alcock. {\rHot\t(0,120,\fscx115\fscy115)}Inerva {\rBase}sensorial
+Dialogue: 0,0:00:20.10,0:00:20.67,Base,,0,0,0,,{\rBase}Alcock. {\rBase}Inerva {\rHot\t(0,120,\fscx115\fscy115)}sensorial
+Dialogue: 0,0:00:20.62,0:00:20.78,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}motoramente {\rBase}la
+Dialogue: 0,0:00:20.78,0:00:21.38,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}motoramente {\rBase}la
+Dialogue: 0,0:00:21.38,0:00:21.61,Base,,0,0,0,,{\rBase}y {\rBase}motoramente {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:21.56,0:00:21.88,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}mayor {\rBase}parte {\rBase}de
+Dialogue: 0,0:00:21.88,0:00:22.32,Base,,0,0,0,,{\rBase}mayor {\rHot\t(0,120,\fscx115\fscy115)}parte {\rBase}de
+Dialogue: 0,0:00:22.32,0:00:22.51,Base,,0,0,0,,{\rBase}mayor {\rBase}parte {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:22.46,0:00:23.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}periné. {\rBase}Para {\rBase}bloquearlo
+Dialogue: 0,0:00:23.28,0:00:23.68,Base,,0,0,0,,{\rBase}periné. {\rHot\t(0,120,\fscx115\fscy115)}Para {\rBase}bloquearlo
+Dialogue: 0,0:00:23.68,0:00:24.29,Base,,0,0,0,,{\rBase}periné. {\rBase}Para {\rHot\t(0,120,\fscx115\fscy115)}bloquearlo
+Dialogue: 0,0:00:24.24,0:00:24.44,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}se {\rBase}inyecta {\rBase}anestésico
+Dialogue: 0,0:00:24.44,0:00:24.84,Base,,0,0,0,,{\rBase}se {\rHot\t(0,120,\fscx115\fscy115)}inyecta {\rBase}anestésico
+Dialogue: 0,0:00:24.84,0:00:25.59,Base,,0,0,0,,{\rBase}se {\rBase}inyecta {\rHot\t(0,120,\fscx115\fscy115)}anestésico
+Dialogue: 0,0:00:25.54,0:00:25.94,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}justo {\rBase}detrás {\rBase}de
+Dialogue: 0,0:00:25.94,0:00:26.36,Base,,0,0,0,,{\rBase}justo {\rHot\t(0,120,\fscx115\fscy115)}detrás {\rBase}de
+Dialogue: 0,0:00:26.36,0:00:26.51,Base,,0,0,0,,{\rBase}justo {\rBase}detrás {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:26.46,0:00:26.56,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}espina {\rBase}isquiática
+Dialogue: 0,0:00:26.56,0:00:26.96,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}espina {\rBase}isquiática
+Dialogue: 0,0:00:26.96,0:00:27.59,Base,,0,0,0,,{\rBase}la {\rBase}espina {\rHot\t(0,120,\fscx115\fscy115)}isquiática
+Dialogue: 0,0:00:27.54,0:00:28.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}palpada {\rBase}vaginalmente.
+Dialogue: 0,0:00:28.08,0:00:28.53,Base,,0,0,0,,{\rBase}palpada {\rHot\t(0,120,\fscx115\fscy115)}vaginalmente.

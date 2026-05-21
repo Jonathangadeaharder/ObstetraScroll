@@ -1,0 +1,87 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Arial Black,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Arial Black,84,&H00FF3CFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.48,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}Cualquier {\rBase}deflexión {\rBase}convierte
+Dialogue: 0,0:00:00.48,0:00:01.02,Base,,0,0,0,,{\rBase}Cualquier {\rHot\frz-3\t(0,200,\frz3)}deflexión {\rBase}convierte
+Dialogue: 0,0:00:01.02,0:00:01.55,Base,,0,0,0,,{\rBase}Cualquier {\rBase}deflexión {\rHot\frz-3\t(0,200,\frz3)}convierte
+Dialogue: 0,0:00:01.50,0:00:01.80,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}9 {\rBase},6 {\rBase}a
+Dialogue: 0,0:00:01.80,0:00:02.38,Base,,0,0,0,,{\rBase}9 {\rHot\frz-3\t(0,200,\frz3)},6 {\rBase}a
+Dialogue: 0,0:00:02.38,0:00:02.59,Base,,0,0,0,,{\rBase}9 {\rBase},6 {\rHot\frz-3\t(0,200,\frz3)}a
+Dialogue: 0,0:00:02.54,0:00:03.14,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}5 {\rBase}en {\rBase}hasta
+Dialogue: 0,0:00:03.14,0:00:03.48,Base,,0,0,0,,{\rBase}5 {\rHot\frz-3\t(0,200,\frz3)}en {\rBase}hasta
+Dialogue: 0,0:00:03.48,0:00:03.77,Base,,0,0,0,,{\rBase}5 {\rBase}en {\rHot\frz-3\t(0,200,\frz3)}hasta
+Dialogue: 0,0:00:03.72,0:00:04.10,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}13 {\rBase},5 {\rBase}cm
+Dialogue: 0,0:00:04.10,0:00:04.72,Base,,0,0,0,,{\rBase}13 {\rHot\frz-3\t(0,200,\frz3)},5 {\rBase}cm
+Dialogue: 0,0:00:04.72,0:00:05.27,Base,,0,0,0,,{\rBase}13 {\rBase},5 {\rHot\frz-3\t(0,200,\frz3)}cm
+Dialogue: 0,0:00:05.22,0:00:06.54,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}over {\rBase}una {\rBase}diferencia
+Dialogue: 0,0:00:06.54,0:00:06.74,Base,,0,0,0,,{\rBase}over {\rHot\frz-3\t(0,200,\frz3)}una {\rBase}diferencia
+Dialogue: 0,0:00:06.74,0:00:07.21,Base,,0,0,0,,{\rBase}over {\rBase}una {\rHot\frz-3\t(0,200,\frz3)}diferencia
+Dialogue: 0,0:00:07.16,0:00:07.34,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}que {\rBase}la {\rBase}pelvis
+Dialogue: 0,0:00:07.34,0:00:07.48,Base,,0,0,0,,{\rBase}que {\rHot\frz-3\t(0,200,\frz3)}la {\rBase}pelvis
+Dialogue: 0,0:00:07.48,0:00:07.83,Base,,0,0,0,,{\rBase}que {\rBase}la {\rHot\frz-3\t(0,200,\frz3)}pelvis
+Dialogue: 0,0:00:07.78,0:00:08.00,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}no {\rBase}perdona. {\rBase}En
+Dialogue: 0,0:00:08.00,0:00:08.74,Base,,0,0,0,,{\rBase}no {\rHot\frz-3\t(0,200,\frz3)}perdona. {\rBase}En
+Dialogue: 0,0:00:08.74,0:00:09.01,Base,,0,0,0,,{\rBase}no {\rBase}perdona. {\rHot\frz-3\t(0,200,\frz3)}En
+Dialogue: 0,0:00:08.96,0:00:09.08,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}la {\rBase}entrada {\rBase}pélvica,
+Dialogue: 0,0:00:09.08,0:00:09.40,Base,,0,0,0,,{\rBase}la {\rHot\frz-3\t(0,200,\frz3)}entrada {\rBase}pélvica,
+Dialogue: 0,0:00:09.40,0:00:10.13,Base,,0,0,0,,{\rBase}la {\rBase}entrada {\rHot\frz-3\t(0,200,\frz3)}pélvica,
+Dialogue: 0,0:00:10.28,0:00:10.60,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}la {\rBase}cabeza {\rBase}fetal
+Dialogue: 0,0:00:10.60,0:00:10.96,Base,,0,0,0,,{\rBase}la {\rHot\frz-3\t(0,200,\frz3)}cabeza {\rBase}fetal
+Dialogue: 0,0:00:10.96,0:00:11.51,Base,,0,0,0,,{\rBase}la {\rBase}cabeza {\rHot\frz-3\t(0,200,\frz3)}fetal
+Dialogue: 0,0:00:11.46,0:00:12.00,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}suele {\rBase}ir {\rBase}indiferente
+Dialogue: 0,0:00:12.00,0:00:12.18,Base,,0,0,0,,{\rBase}suele {\rHot\frz-3\t(0,200,\frz3)}ir {\rBase}indiferente
+Dialogue: 0,0:00:12.18,0:00:12.95,Base,,0,0,0,,{\rBase}suele {\rBase}ir {\rHot\frz-3\t(0,200,\frz3)}indiferente
+Dialogue: 0,0:00:12.90,0:00:13.08,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}o {\rBase}levemente {\rBase}flexionada,
+Dialogue: 0,0:00:13.08,0:00:13.58,Base,,0,0,0,,{\rBase}o {\rHot\frz-3\t(0,200,\frz3)}levemente {\rBase}flexionada,
+Dialogue: 0,0:00:13.58,0:00:14.41,Base,,0,0,0,,{\rBase}o {\rBase}levemente {\rHot\frz-3\t(0,200,\frz3)}flexionada,
+Dialogue: 0,0:00:14.62,0:00:15.04,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}sutura {\rBase}sagital {\rBase}en
+Dialogue: 0,0:00:15.04,0:00:15.60,Base,,0,0,0,,{\rBase}sutura {\rHot\frz-3\t(0,200,\frz3)}sagital {\rBase}en
+Dialogue: 0,0:00:15.60,0:00:15.89,Base,,0,0,0,,{\rBase}sutura {\rBase}sagital {\rHot\frz-3\t(0,200,\frz3)}en
+Dialogue: 0,0:00:15.84,0:00:16.98,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}transverso. {\rBase}Al {\rBase}alcanzar
+Dialogue: 0,0:00:16.98,0:00:17.60,Base,,0,0,0,,{\rBase}transverso. {\rHot\frz-3\t(0,200,\frz3)}Al {\rBase}alcanzar
+Dialogue: 0,0:00:17.60,0:00:18.11,Base,,0,0,0,,{\rBase}transverso. {\rBase}Al {\rHot\frz-3\t(0,200,\frz3)}alcanzar
+Dialogue: 0,0:00:18.06,0:00:18.18,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}el {\rBase}suelo {\rBase}pélvico,
+Dialogue: 0,0:00:18.18,0:00:18.44,Base,,0,0,0,,{\rBase}el {\rHot\frz-3\t(0,200,\frz3)}suelo {\rBase}pélvico,
+Dialogue: 0,0:00:18.44,0:00:19.05,Base,,0,0,0,,{\rBase}el {\rBase}suelo {\rHot\frz-3\t(0,200,\frz3)}pélvico,
+Dialogue: 0,0:00:19.20,0:00:19.38,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}el {\rBase}músculo {\rBase}elevador
+Dialogue: 0,0:00:19.38,0:00:19.80,Base,,0,0,0,,{\rBase}el {\rHot\frz-3\t(0,200,\frz3)}músculo {\rBase}elevador
+Dialogue: 0,0:00:19.80,0:00:20.37,Base,,0,0,0,,{\rBase}el {\rBase}músculo {\rHot\frz-3\t(0,200,\frz3)}elevador
+Dialogue: 0,0:00:20.32,0:00:20.52,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}del {\rBase}ano, {\rBase}fuerza
+Dialogue: 0,0:00:20.52,0:00:21.10,Base,,0,0,0,,{\rBase}del {\rHot\frz-3\t(0,200,\frz3)}ano, {\rBase}fuerza
+Dialogue: 0,0:00:21.10,0:00:21.43,Base,,0,0,0,,{\rBase}del {\rBase}ano, {\rHot\frz-3\t(0,200,\frz3)}fuerza
+Dialogue: 0,0:00:21.38,0:00:21.84,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}flexión {\rBase}máxima, {\rBase}mentón
+Dialogue: 0,0:00:21.84,0:00:22.80,Base,,0,0,0,,{\rBase}flexión {\rHot\frz-3\t(0,200,\frz3)}máxima, {\rBase}mentón
+Dialogue: 0,0:00:22.80,0:00:23.27,Base,,0,0,0,,{\rBase}flexión {\rBase}máxima, {\rHot\frz-3\t(0,200,\frz3)}mentón
+Dialogue: 0,0:00:23.22,0:00:24.02,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}contrapecho. {\rBase}La {\rBase}fontanela
+Dialogue: 0,0:00:24.02,0:00:24.70,Base,,0,0,0,,{\rBase}contrapecho. {\rHot\frz-3\t(0,200,\frz3)}La {\rBase}fontanela
+Dialogue: 0,0:00:24.70,0:00:25.27,Base,,0,0,0,,{\rBase}contrapecho. {\rBase}La {\rHot\frz-3\t(0,200,\frz3)}fontanela
+Dialogue: 0,0:00:25.22,0:00:25.48,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}menor {\rBase}pasa {\rBase}a
+Dialogue: 0,0:00:25.48,0:00:25.80,Base,,0,0,0,,{\rBase}menor {\rHot\frz-3\t(0,200,\frz3)}pasa {\rBase}a
+Dialogue: 0,0:00:25.80,0:00:25.97,Base,,0,0,0,,{\rBase}menor {\rBase}pasa {\rHot\frz-3\t(0,200,\frz3)}a
+Dialogue: 0,0:00:25.92,0:00:26.12,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}ser {\rBase}el {\rBase}punto
+Dialogue: 0,0:00:26.12,0:00:26.28,Base,,0,0,0,,{\rBase}ser {\rHot\frz-3\t(0,200,\frz3)}el {\rBase}punto
+Dialogue: 0,0:00:26.28,0:00:26.63,Base,,0,0,0,,{\rBase}ser {\rBase}el {\rHot\frz-3\t(0,200,\frz3)}punto
+Dialogue: 0,0:00:26.58,0:00:27.02,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}guía {\rBase}y {\rBase}la
+Dialogue: 0,0:00:27.02,0:00:27.24,Base,,0,0,0,,{\rBase}guía {\rHot\frz-3\t(0,200,\frz3)}y {\rBase}la
+Dialogue: 0,0:00:27.24,0:00:27.39,Base,,0,0,0,,{\rBase}guía {\rBase}y {\rHot\frz-3\t(0,200,\frz3)}la
+Dialogue: 0,0:00:27.34,0:00:27.64,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}cabeza {\rBase}entra {\rBase}con
+Dialogue: 0,0:00:27.64,0:00:27.96,Base,,0,0,0,,{\rBase}cabeza {\rHot\frz-3\t(0,200,\frz3)}entra {\rBase}con
+Dialogue: 0,0:00:27.96,0:00:28.21,Base,,0,0,0,,{\rBase}cabeza {\rBase}entra {\rHot\frz-3\t(0,200,\frz3)}con
+Dialogue: 0,0:00:28.16,0:00:28.32,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}el {\rBase}diámetro {\rBase}mínimo,
+Dialogue: 0,0:00:28.32,0:00:28.72,Base,,0,0,0,,{\rBase}el {\rHot\frz-3\t(0,200,\frz3)}diámetro {\rBase}mínimo,
+Dialogue: 0,0:00:28.72,0:00:29.19,Base,,0,0,0,,{\rBase}el {\rBase}diámetro {\rHot\frz-3\t(0,200,\frz3)}mínimo,
+Dialogue: 0,0:00:29.68,0:00:31.74,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}suboccipitobregmático, {\rBase}por {\rBase}9
+Dialogue: 0,0:00:31.74,0:00:32.12,Base,,0,0,0,,{\rBase}suboccipitobregmático, {\rHot\frz-3\t(0,200,\frz3)}por {\rBase}9
+Dialogue: 0,0:00:32.12,0:00:32.49,Base,,0,0,0,,{\rBase}suboccipitobregmático, {\rBase}por {\rHot\frz-3\t(0,200,\frz3)}9
+Dialogue: 0,0:00:32.44,0:00:33.22,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)},5 {\rBase}centitutentru.
+Dialogue: 0,0:00:33.22,0:00:34.29,Base,,0,0,0,,{\rBase},5 {\rHot\frz-3\t(0,200,\frz3)}centitutentru.

@@ -1,0 +1,82 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0080DE4A,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}lactancia {\rBase}beneficia
+Dialogue: 0,0:00:00.24,0:00:00.74,Base,,0,0,0,,{\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}lactancia {\rBase}beneficia
+Dialogue: 0,0:00:00.74,0:00:01.29,Base,,0,0,0,,{\rBase}La {\rBase}lactancia {\rHot\t(0,120,\fscx115\fscy115)}beneficia
+Dialogue: 0,0:00:01.24,0:00:01.84,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}principalmente {\rBase}al {\rBase}bebé
+Dialogue: 0,0:00:01.84,0:00:02.16,Base,,0,0,0,,{\rBase}principalmente {\rHot\t(0,120,\fscx115\fscy115)}al {\rBase}bebé
+Dialogue: 0,0:00:02.16,0:00:02.47,Base,,0,0,0,,{\rBase}principalmente {\rBase}al {\rHot\t(0,120,\fscx115\fscy115)}bebé
+Dialogue: 0,0:00:02.42,0:00:02.58,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}el {\rBase}imaginario
+Dialogue: 0,0:00:02.58,0:00:02.68,Base,,0,0,0,,{\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}imaginario
+Dialogue: 0,0:00:02.68,0:00:03.25,Base,,0,0,0,,{\rBase}en {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}imaginario
+Dialogue: 0,0:00:03.20,0:00:03.94,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}social, {\rBase}pero {\rBase}su
+Dialogue: 0,0:00:03.94,0:00:04.52,Base,,0,0,0,,{\rBase}social, {\rHot\t(0,120,\fscx115\fscy115)}pero {\rBase}su
+Dialogue: 0,0:00:04.52,0:00:04.73,Base,,0,0,0,,{\rBase}social, {\rBase}pero {\rHot\t(0,120,\fscx115\fscy115)}su
+Dialogue: 0,0:00:04.68,0:00:05.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}efecto {\rBase}protector {\rBase}contra
+Dialogue: 0,0:00:05.00,0:00:05.56,Base,,0,0,0,,{\rBase}efecto {\rHot\t(0,120,\fscx115\fscy115)}protector {\rBase}contra
+Dialogue: 0,0:00:05.56,0:00:05.95,Base,,0,0,0,,{\rBase}efecto {\rBase}protector {\rHot\t(0,120,\fscx115\fscy115)}contra
+Dialogue: 0,0:00:05.90,0:00:06.48,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}cánceres {\rBase}hormonales {\rBase}es
+Dialogue: 0,0:00:06.48,0:00:07.08,Base,,0,0,0,,{\rBase}cánceres {\rHot\t(0,120,\fscx115\fscy115)}hormonales {\rBase}es
+Dialogue: 0,0:00:07.08,0:00:07.67,Base,,0,0,0,,{\rBase}cánceres {\rBase}hormonales {\rHot\t(0,120,\fscx115\fscy115)}es
+Dialogue: 0,0:00:07.62,0:00:08.16,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}comparable {\rBase}al {\rBase}de
+Dialogue: 0,0:00:08.16,0:00:08.48,Base,,0,0,0,,{\rBase}comparable {\rHot\t(0,120,\fscx115\fscy115)}al {\rBase}de
+Dialogue: 0,0:00:08.48,0:00:08.65,Base,,0,0,0,,{\rBase}comparable {\rBase}al {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:08.60,0:00:08.78,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}oforectomía {\rBase}profiláctica
+Dialogue: 0,0:00:08.78,0:00:10.10,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}oforectomía {\rBase}profiláctica
+Dialogue: 0,0:00:10.10,0:00:10.85,Base,,0,0,0,,{\rBase}la {\rBase}oforectomía {\rHot\t(0,120,\fscx115\fscy115)}profiláctica
+Dialogue: 0,0:00:10.80,0:00:11.06,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}algunos {\rBase}subgrupos
+Dialogue: 0,0:00:11.06,0:00:11.40,Base,,0,0,0,,{\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}algunos {\rBase}subgrupos
+Dialogue: 0,0:00:11.40,0:00:12.09,Base,,0,0,0,,{\rBase}en {\rBase}algunos {\rHot\t(0,120,\fscx115\fscy115)}subgrupos
+Dialogue: 0,0:00:12.04,0:00:12.16,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}riesgo. {\rBase}Cada
+Dialogue: 0,0:00:12.16,0:00:12.98,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}riesgo. {\rBase}Cada
+Dialogue: 0,0:00:12.98,0:00:13.67,Base,,0,0,0,,{\rBase}de {\rBase}riesgo. {\rHot\t(0,120,\fscx115\fscy115)}Cada
+Dialogue: 0,0:00:13.62,0:00:13.86,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}12 {\rBase}meses {\rBase}acumulados
+Dialogue: 0,0:00:13.86,0:00:14.18,Base,,0,0,0,,{\rBase}12 {\rHot\t(0,120,\fscx115\fscy115)}meses {\rBase}acumulados
+Dialogue: 0,0:00:14.18,0:00:14.93,Base,,0,0,0,,{\rBase}12 {\rBase}meses {\rHot\t(0,120,\fscx115\fscy115)}acumulados
+Dialogue: 0,0:00:14.88,0:00:14.98,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}lactancia {\rBase}materna
+Dialogue: 0,0:00:14.98,0:00:15.48,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}lactancia {\rBase}materna
+Dialogue: 0,0:00:15.48,0:00:16.09,Base,,0,0,0,,{\rBase}de {\rBase}lactancia {\rHot\t(0,120,\fscx115\fscy115)}materna
+Dialogue: 0,0:00:16.04,0:00:16.40,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}reduce {\rBase}el {\rBase}riesgo
+Dialogue: 0,0:00:16.40,0:00:16.64,Base,,0,0,0,,{\rBase}reduce {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}riesgo
+Dialogue: 0,0:00:16.64,0:00:17.01,Base,,0,0,0,,{\rBase}reduce {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}riesgo
+Dialogue: 0,0:00:16.96,0:00:17.10,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}cáncer {\rBase}de
+Dialogue: 0,0:00:17.10,0:00:17.46,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}cáncer {\rBase}de
+Dialogue: 0,0:00:17.46,0:00:17.65,Base,,0,0,0,,{\rBase}de {\rBase}cáncer {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:17.60,0:00:17.80,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}mama {\rBase}invasivo {\rBase}en
+Dialogue: 0,0:00:17.80,0:00:18.40,Base,,0,0,0,,{\rBase}mama {\rHot\t(0,120,\fscx115\fscy115)}invasivo {\rBase}en
+Dialogue: 0,0:00:18.40,0:00:18.59,Base,,0,0,0,,{\rBase}mama {\rBase}invasivo {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:18.54,0:00:18.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}un {\rBase}6%, {\rBase}independientemente
+Dialogue: 0,0:00:18.64,0:00:20.44,Base,,0,0,0,,{\rBase}un {\rHot\t(0,120,\fscx115\fscy115)}6%, {\rBase}independientemente
+Dialogue: 0,0:00:20.44,0:00:21.17,Base,,0,0,0,,{\rBase}un {\rBase}6%, {\rHot\t(0,120,\fscx115\fscy115)}independientemente
+Dialogue: 0,0:00:21.12,0:00:21.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}otros {\rBase}factores
+Dialogue: 0,0:00:21.28,0:00:21.52,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}otros {\rBase}factores
+Dialogue: 0,0:00:21.52,0:00:22.01,Base,,0,0,0,,{\rBase}de {\rBase}otros {\rHot\t(0,120,\fscx115\fscy115)}factores
+Dialogue: 0,0:00:21.96,0:00:22.10,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}riesgo. {\rBase}La
+Dialogue: 0,0:00:22.10,0:00:22.76,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}riesgo. {\rBase}La
+Dialogue: 0,0:00:22.76,0:00:23.19,Base,,0,0,0,,{\rBase}de {\rBase}riesgo. {\rHot\t(0,120,\fscx115\fscy115)}La
+Dialogue: 0,0:00:23.14,0:00:23.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}lactancia {\rBase}de {\rBase}12
+Dialogue: 0,0:00:23.62,0:00:23.76,Base,,0,0,0,,{\rBase}lactancia {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}12
+Dialogue: 0,0:00:23.76,0:00:23.99,Base,,0,0,0,,{\rBase}lactancia {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}12
+Dialogue: 0,0:00:23.94,0:00:24.22,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}meses {\rBase}o {\rBase}más
+Dialogue: 0,0:00:24.22,0:00:24.46,Base,,0,0,0,,{\rBase}meses {\rHot\t(0,120,\fscx115\fscy115)}o {\rBase}más
+Dialogue: 0,0:00:24.46,0:00:24.77,Base,,0,0,0,,{\rBase}meses {\rBase}o {\rHot\t(0,120,\fscx115\fscy115)}más
+Dialogue: 0,0:00:24.72,0:00:25.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}reduce {\rBase}el {\rBase}cáncer
+Dialogue: 0,0:00:25.24,0:00:25.46,Base,,0,0,0,,{\rBase}reduce {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}cáncer
+Dialogue: 0,0:00:25.46,0:00:25.85,Base,,0,0,0,,{\rBase}reduce {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}cáncer
+Dialogue: 0,0:00:25.80,0:00:26.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}ovárico {\rBase}epitelial {\rBase}en
+Dialogue: 0,0:00:26.26,0:00:27.00,Base,,0,0,0,,{\rBase}ovárico {\rHot\t(0,120,\fscx115\fscy115)}epitelial {\rBase}en
+Dialogue: 0,0:00:27.00,0:00:27.55,Base,,0,0,0,,{\rBase}ovárico {\rBase}epitelial {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:27.50,0:00:27.68,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}un {\rBase}30%. {\rBase}Siento.
+Dialogue: 0,0:00:27.68,0:00:28.46,Base,,0,0,0,,{\rBase}un {\rHot\t(0,120,\fscx115\fscy115)}30%. {\rBase}Siento.
+Dialogue: 0,0:00:28.46,0:00:28.85,Base,,0,0,0,,{\rBase}un {\rBase}30%. {\rHot\t(0,120,\fscx115\fscy115)}Siento.

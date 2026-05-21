@@ -1,0 +1,71 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Arial Black,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Arial Black,84,&H00FF3CFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}Por {\rBase}eso {\rBase}embarazos
+Dialogue: 0,0:00:00.26,0:00:00.42,Base,,0,0,0,,{\rBase}Por {\rHot\frz-3\t(0,200,\frz3)}eso {\rBase}embarazos
+Dialogue: 0,0:00:00.42,0:00:00.97,Base,,0,0,0,,{\rBase}Por {\rBase}eso {\rHot\frz-3\t(0,200,\frz3)}embarazos
+Dialogue: 0,0:00:00.92,0:00:01.54,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}múltiples {\rBase}y {\rBase}enfermedad
+Dialogue: 0,0:00:01.54,0:00:01.74,Base,,0,0,0,,{\rBase}múltiples {\rHot\frz-3\t(0,200,\frz3)}y {\rBase}enfermedad
+Dialogue: 0,0:00:01.74,0:00:02.31,Base,,0,0,0,,{\rBase}múltiples {\rBase}y {\rHot\frz-3\t(0,200,\frz3)}enfermedad
+Dialogue: 0,0:00:02.26,0:00:03.58,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}trofoblástica, {\rBase}HCG {\rBase}muy
+Dialogue: 0,0:00:03.58,0:00:04.44,Base,,0,0,0,,{\rBase}trofoblástica, {\rHot\frz-3\t(0,200,\frz3)}HCG {\rBase}muy
+Dialogue: 0,0:00:04.44,0:00:04.73,Base,,0,0,0,,{\rBase}trofoblástica, {\rBase}HCG {\rHot\frz-3\t(0,200,\frz3)}muy
+Dialogue: 0,0:00:04.68,0:00:05.74,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}elevada, {\rBase}cursan {\rBase}con
+Dialogue: 0,0:00:05.74,0:00:06.02,Base,,0,0,0,,{\rBase}elevada, {\rHot\frz-3\t(0,200,\frz3)}cursan {\rBase}con
+Dialogue: 0,0:00:06.02,0:00:06.39,Base,,0,0,0,,{\rBase}elevada, {\rBase}cursan {\rHot\frz-3\t(0,200,\frz3)}con
+Dialogue: 0,0:00:06.34,0:00:06.88,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}náuseas {\rBase}extremas. {\rBase}No
+Dialogue: 0,0:00:06.88,0:00:07.76,Base,,0,0,0,,{\rBase}náuseas {\rHot\frz-3\t(0,200,\frz3)}extremas. {\rBase}No
+Dialogue: 0,0:00:07.76,0:00:08.19,Base,,0,0,0,,{\rBase}náuseas {\rBase}extremas. {\rHot\frz-3\t(0,200,\frz3)}No
+Dialogue: 0,0:00:08.14,0:00:08.30,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}es {\rBase}sensibilidad, {\rBase}sino
+Dialogue: 0,0:00:08.30,0:00:09.30,Base,,0,0,0,,{\rBase}es {\rHot\frz-3\t(0,200,\frz3)}sensibilidad, {\rBase}sino
+Dialogue: 0,0:00:09.30,0:00:09.77,Base,,0,0,0,,{\rBase}es {\rBase}sensibilidad, {\rHot\frz-3\t(0,200,\frz3)}sino
+Dialogue: 0,0:00:09.72,0:00:10.46,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}dosis. {\rBase}Las {\rBase}náuseas
+Dialogue: 0,0:00:10.46,0:00:10.88,Base,,0,0,0,,{\rBase}dosis. {\rHot\frz-3\t(0,200,\frz3)}Las {\rBase}náuseas
+Dialogue: 0,0:00:10.88,0:00:11.39,Base,,0,0,0,,{\rBase}dosis. {\rBase}Las {\rHot\frz-3\t(0,200,\frz3)}náuseas
+Dialogue: 0,0:00:11.34,0:00:12.08,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}correlacionan {\rBase}con {\rBase}el
+Dialogue: 0,0:00:12.08,0:00:12.22,Base,,0,0,0,,{\rBase}correlacionan {\rHot\frz-3\t(0,200,\frz3)}con {\rBase}el
+Dialogue: 0,0:00:12.22,0:00:12.47,Base,,0,0,0,,{\rBase}correlacionan {\rBase}con {\rHot\frz-3\t(0,200,\frz3)}el
+Dialogue: 0,0:00:12.42,0:00:12.78,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}pico {\rBase}de {\rBase}HCG
+Dialogue: 0,0:00:12.78,0:00:12.90,Base,,0,0,0,,{\rBase}pico {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}HCG
+Dialogue: 0,0:00:12.90,0:00:13.59,Base,,0,0,0,,{\rBase}pico {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}HCG
+Dialogue: 0,0:00:13.54,0:00:13.76,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}entre {\rBase}semanas {\rBase}9
+Dialogue: 0,0:00:13.76,0:00:14.30,Base,,0,0,0,,{\rBase}entre {\rHot\frz-3\t(0,200,\frz3)}semanas {\rBase}9
+Dialogue: 0,0:00:14.30,0:00:14.91,Base,,0,0,0,,{\rBase}entre {\rBase}semanas {\rHot\frz-3\t(0,200,\frz3)}9
+Dialogue: 0,0:00:14.86,0:00:15.76,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}-12. {\rBase}Isoformas {\rBase}específicas
+Dialogue: 0,0:00:15.76,0:00:16.68,Base,,0,0,0,,{\rBase}-12. {\rHot\frz-3\t(0,200,\frz3)}Isoformas {\rBase}específicas
+Dialogue: 0,0:00:16.68,0:00:17.61,Base,,0,0,0,,{\rBase}-12. {\rBase}Isoformas {\rHot\frz-3\t(0,200,\frz3)}específicas
+Dialogue: 0,0:00:17.56,0:00:17.86,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}de {\rBase}HCG {\rBase}estimulan
+Dialogue: 0,0:00:17.86,0:00:18.60,Base,,0,0,0,,{\rBase}de {\rHot\frz-3\t(0,200,\frz3)}HCG {\rBase}estimulan
+Dialogue: 0,0:00:18.60,0:00:19.67,Base,,0,0,0,,{\rBase}de {\rBase}HCG {\rHot\frz-3\t(0,200,\frz3)}estimulan
+Dialogue: 0,0:00:19.62,0:00:19.80,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}la {\rBase}zona {\rBase}quimiorreceptora
+Dialogue: 0,0:00:19.80,0:00:20.06,Base,,0,0,0,,{\rBase}la {\rHot\frz-3\t(0,200,\frz3)}zona {\rBase}quimiorreceptora
+Dialogue: 0,0:00:20.06,0:00:21.23,Base,,0,0,0,,{\rBase}la {\rBase}zona {\rHot\frz-3\t(0,200,\frz3)}quimiorreceptora
+Dialogue: 0,0:00:21.18,0:00:21.76,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}gatillo {\rBase}del {\rBase}tronco
+Dialogue: 0,0:00:21.76,0:00:21.96,Base,,0,0,0,,{\rBase}gatillo {\rHot\frz-3\t(0,200,\frz3)}del {\rBase}tronco
+Dialogue: 0,0:00:21.96,0:00:22.39,Base,,0,0,0,,{\rBase}gatillo {\rBase}del {\rHot\frz-3\t(0,200,\frz3)}tronco
+Dialogue: 0,0:00:22.34,0:00:23.66,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}cerebral. {\rBase}Estrógenos {\rBase}suben
+Dialogue: 0,0:00:23.66,0:00:24.30,Base,,0,0,0,,{\rBase}cerebral. {\rHot\frz-3\t(0,200,\frz3)}Estrógenos {\rBase}suben
+Dialogue: 0,0:00:24.30,0:00:24.75,Base,,0,0,0,,{\rBase}cerebral. {\rBase}Estrógenos {\rHot\frz-3\t(0,200,\frz3)}suben
+Dialogue: 0,0:00:24.70,0:00:25.30,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}paralelo {\rBase}y {\rBase}enlentecen
+Dialogue: 0,0:00:25.30,0:00:25.54,Base,,0,0,0,,{\rBase}paralelo {\rHot\frz-3\t(0,200,\frz3)}y {\rBase}enlentecen
+Dialogue: 0,0:00:25.54,0:00:26.31,Base,,0,0,0,,{\rBase}paralelo {\rBase}y {\rHot\frz-3\t(0,200,\frz3)}enlentecen
+Dialogue: 0,0:00:26.26,0:00:26.40,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}el {\rBase}vaciamiento {\rBase}gástrico.
+Dialogue: 0,0:00:26.40,0:00:27.06,Base,,0,0,0,,{\rBase}el {\rHot\frz-3\t(0,200,\frz3)}vaciamiento {\rBase}gástrico.
+Dialogue: 0,0:00:27.06,0:00:27.79,Base,,0,0,0,,{\rBase}el {\rBase}vaciamiento {\rHot\frz-3\t(0,200,\frz3)}gástrico.
+Dialogue: 0,0:00:27.74,0:00:28.52,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}Causa {\rBase}multifactorial {\rBase}pero
+Dialogue: 0,0:00:28.52,0:00:29.64,Base,,0,0,0,,{\rBase}Causa {\rHot\frz-3\t(0,200,\frz3)}multifactorial {\rBase}pero
+Dialogue: 0,0:00:29.64,0:00:30.21,Base,,0,0,0,,{\rBase}Causa {\rBase}multifactorial {\rHot\frz-3\t(0,200,\frz3)}pero
+Dialogue: 0,0:00:30.16,0:00:30.42,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}con {\rBase}HCG {\rBase}como
+Dialogue: 0,0:00:30.42,0:00:31.10,Base,,0,0,0,,{\rBase}con {\rHot\frz-3\t(0,200,\frz3)}HCG {\rBase}como
+Dialogue: 0,0:00:31.10,0:00:31.59,Base,,0,0,0,,{\rBase}con {\rBase}HCG {\rHot\frz-3\t(0,200,\frz3)}como
+Dialogue: 0,0:00:31.54,0:00:31.97,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}motor.

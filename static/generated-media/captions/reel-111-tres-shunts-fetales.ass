@@ -1,0 +1,101 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Helvetica,60,&H00C8C8C8,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Helvetica,92,&H00FFFFFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}La {\rBase}circulación {\rBase}fetal
+Dialogue: 0,0:00:00.26,0:00:00.84,Base,,0,0,0,,{\rBase}La {\rHot\t(0,150,\fscx120\fscy120)}circulación {\rBase}fetal
+Dialogue: 0,0:00:00.84,0:00:01.37,Base,,0,0,0,,{\rBase}La {\rBase}circulación {\rHot\t(0,150,\fscx120\fscy120)}fetal
+Dialogue: 0,0:00:01.32,0:00:01.56,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}es {\rBase}paralela, {\rBase}no
+Dialogue: 0,0:00:01.56,0:00:02.52,Base,,0,0,0,,{\rBase}es {\rHot\t(0,150,\fscx120\fscy120)}paralela, {\rBase}no
+Dialogue: 0,0:00:02.52,0:00:02.75,Base,,0,0,0,,{\rBase}es {\rBase}paralela, {\rHot\t(0,150,\fscx120\fscy120)}no
+Dialogue: 0,0:00:02.70,0:00:03.00,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}serie {\rBase}como {\rBase}la
+Dialogue: 0,0:00:03.00,0:00:03.22,Base,,0,0,0,,{\rBase}serie {\rHot\t(0,150,\fscx120\fscy120)}como {\rBase}la
+Dialogue: 0,0:00:03.22,0:00:03.41,Base,,0,0,0,,{\rBase}serie {\rBase}como {\rHot\t(0,150,\fscx120\fscy120)}la
+Dialogue: 0,0:00:03.36,0:00:03.50,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}del {\rBase}adulto. {\rBase}Una
+Dialogue: 0,0:00:03.50,0:00:04.22,Base,,0,0,0,,{\rBase}del {\rHot\t(0,150,\fscx120\fscy120)}adulto. {\rBase}Una
+Dialogue: 0,0:00:04.22,0:00:04.69,Base,,0,0,0,,{\rBase}del {\rBase}adulto. {\rHot\t(0,150,\fscx120\fscy120)}Una
+Dialogue: 0,0:00:04.64,0:00:04.90,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}sola {\rBase}obstrucción {\rBase}de
+Dialogue: 0,0:00:04.90,0:00:05.58,Base,,0,0,0,,{\rBase}sola {\rHot\t(0,150,\fscx120\fscy120)}obstrucción {\rBase}de
+Dialogue: 0,0:00:05.58,0:00:05.79,Base,,0,0,0,,{\rBase}sola {\rBase}obstrucción {\rHot\t(0,150,\fscx120\fscy120)}de
+Dialogue: 0,0:00:05.74,0:00:05.88,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}un {\rBase}shunt {\rBase}no
+Dialogue: 0,0:00:05.88,0:00:06.30,Base,,0,0,0,,{\rBase}un {\rHot\t(0,150,\fscx120\fscy120)}shunt {\rBase}no
+Dialogue: 0,0:00:06.30,0:00:06.75,Base,,0,0,0,,{\rBase}un {\rBase}shunt {\rHot\t(0,150,\fscx120\fscy120)}no
+Dialogue: 0,0:00:06.70,0:00:07.12,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}produce {\rBase}hipoxia {\rBase}letal
+Dialogue: 0,0:00:07.12,0:00:07.76,Base,,0,0,0,,{\rBase}produce {\rHot\t(0,150,\fscx120\fscy120)}hipoxia {\rBase}letal
+Dialogue: 0,0:00:07.76,0:00:08.29,Base,,0,0,0,,{\rBase}produce {\rBase}hipoxia {\rHot\t(0,150,\fscx120\fscy120)}letal
+Dialogue: 0,0:00:08.24,0:00:08.76,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}mientras {\rBase}los {\rBase}otros
+Dialogue: 0,0:00:08.76,0:00:09.06,Base,,0,0,0,,{\rBase}mientras {\rHot\t(0,150,\fscx120\fscy120)}los {\rBase}otros
+Dialogue: 0,0:00:09.06,0:00:09.39,Base,,0,0,0,,{\rBase}mientras {\rBase}los {\rHot\t(0,150,\fscx120\fscy120)}otros
+Dialogue: 0,0:00:09.34,0:00:10.44,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}funcionen. {\rBase}El {\rBase}ductus
+Dialogue: 0,0:00:10.44,0:00:11.10,Base,,0,0,0,,{\rBase}funcionen. {\rHot\t(0,150,\fscx120\fscy120)}El {\rBase}ductus
+Dialogue: 0,0:00:11.10,0:00:11.55,Base,,0,0,0,,{\rBase}funcionen. {\rBase}El {\rHot\t(0,150,\fscx120\fscy120)}ductus
+Dialogue: 0,0:00:11.50,0:00:12.20,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}venoso, {\rBase}arancio, {\rBase}deriva
+Dialogue: 0,0:00:12.20,0:00:13.36,Base,,0,0,0,,{\rBase}venoso, {\rHot\t(0,150,\fscx120\fscy120)}arancio, {\rBase}deriva
+Dialogue: 0,0:00:13.36,0:00:13.81,Base,,0,0,0,,{\rBase}venoso, {\rBase}arancio, {\rHot\t(0,150,\fscx120\fscy120)}deriva
+Dialogue: 0,0:00:14.28,0:00:14.60,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}cincuenta {\rBase}por {\rBase}ciento
+Dialogue: 0,0:00:14.60,0:00:14.90,Base,,0,0,0,,{\rBase}cincuenta {\rHot\t(0,150,\fscx120\fscy120)}por {\rBase}ciento
+Dialogue: 0,0:00:14.90,0:00:15.07,Base,,0,0,0,,{\rBase}cincuenta {\rBase}por {\rHot\t(0,150,\fscx120\fscy120)}ciento
+Dialogue: 0,0:00:15.02,0:00:15.22,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}de {\rBase}sangre {\rBase}oxigenada
+Dialogue: 0,0:00:15.22,0:00:15.50,Base,,0,0,0,,{\rBase}de {\rHot\t(0,150,\fscx120\fscy120)}sangre {\rBase}oxigenada
+Dialogue: 0,0:00:15.50,0:00:16.29,Base,,0,0,0,,{\rBase}de {\rBase}sangre {\rHot\t(0,150,\fscx120\fscy120)}oxigenada
+Dialogue: 0,0:00:16.24,0:00:16.80,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}de {\rBase}la {\rBase}vena
+Dialogue: 0,0:00:16.80,0:00:16.92,Base,,0,0,0,,{\rBase}de {\rHot\t(0,150,\fscx120\fscy120)}la {\rBase}vena
+Dialogue: 0,0:00:16.92,0:00:17.23,Base,,0,0,0,,{\rBase}de {\rBase}la {\rHot\t(0,150,\fscx120\fscy120)}vena
+Dialogue: 0,0:00:17.18,0:00:17.76,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}umbilical {\rBase}directamente {\rBase}a
+Dialogue: 0,0:00:17.76,0:00:18.46,Base,,0,0,0,,{\rBase}umbilical {\rHot\t(0,150,\fscx120\fscy120)}directamente {\rBase}a
+Dialogue: 0,0:00:18.46,0:00:18.83,Base,,0,0,0,,{\rBase}umbilical {\rBase}directamente {\rHot\t(0,150,\fscx120\fscy120)}a
+Dialogue: 0,0:00:18.78,0:00:18.90,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}la {\rBase}cava {\rBase}inferior,
+Dialogue: 0,0:00:18.90,0:00:19.10,Base,,0,0,0,,{\rBase}la {\rHot\t(0,150,\fscx120\fscy120)}cava {\rBase}inferior,
+Dialogue: 0,0:00:19.10,0:00:19.61,Base,,0,0,0,,{\rBase}la {\rBase}cava {\rHot\t(0,150,\fscx120\fscy120)}inferior,
+Dialogue: 0,0:00:19.88,0:00:20.44,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}evitando {\rBase}el {\rBase}hígado.
+Dialogue: 0,0:00:20.44,0:00:20.58,Base,,0,0,0,,{\rBase}evitando {\rHot\t(0,150,\fscx120\fscy120)}el {\rBase}hígado.
+Dialogue: 0,0:00:20.58,0:00:20.93,Base,,0,0,0,,{\rBase}evitando {\rBase}el {\rHot\t(0,150,\fscx120\fscy120)}hígado.
+Dialogue: 0,0:00:21.28,0:00:21.78,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}El {\rBase}foramen {\rBase}oval
+Dialogue: 0,0:00:21.78,0:00:22.18,Base,,0,0,0,,{\rBase}El {\rHot\t(0,150,\fscx120\fscy120)}foramen {\rBase}oval
+Dialogue: 0,0:00:22.18,0:00:22.57,Base,,0,0,0,,{\rBase}El {\rBase}foramen {\rHot\t(0,150,\fscx120\fscy120)}oval
+Dialogue: 0,0:00:22.52,0:00:23.02,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}conduce {\rBase}sangre {\rBase}rica
+Dialogue: 0,0:00:23.02,0:00:23.44,Base,,0,0,0,,{\rBase}conduce {\rHot\t(0,150,\fscx120\fscy120)}sangre {\rBase}rica
+Dialogue: 0,0:00:23.44,0:00:23.87,Base,,0,0,0,,{\rBase}conduce {\rBase}sangre {\rHot\t(0,150,\fscx120\fscy120)}rica
+Dialogue: 0,0:00:23.82,0:00:23.98,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}en {\rBase}O2 {\rBase}del
+Dialogue: 0,0:00:23.98,0:00:24.46,Base,,0,0,0,,{\rBase}en {\rHot\t(0,150,\fscx120\fscy120)}O2 {\rBase}del
+Dialogue: 0,0:00:24.46,0:00:24.71,Base,,0,0,0,,{\rBase}en {\rBase}O2 {\rHot\t(0,150,\fscx120\fscy120)}del
+Dialogue: 0,0:00:24.66,0:00:24.94,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}atrio {\rBase}derecho {\rBase}al
+Dialogue: 0,0:00:24.94,0:00:25.24,Base,,0,0,0,,{\rBase}atrio {\rHot\t(0,150,\fscx120\fscy120)}derecho {\rBase}al
+Dialogue: 0,0:00:25.24,0:00:25.47,Base,,0,0,0,,{\rBase}atrio {\rBase}derecho {\rHot\t(0,150,\fscx120\fscy120)}al
+Dialogue: 0,0:00:25.42,0:00:25.98,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}izquierdo {\rBase}para {\rBase}irrigar
+Dialogue: 0,0:00:25.98,0:00:26.26,Base,,0,0,0,,{\rBase}izquierdo {\rHot\t(0,150,\fscx120\fscy120)}para {\rBase}irrigar
+Dialogue: 0,0:00:26.26,0:00:26.77,Base,,0,0,0,,{\rBase}izquierdo {\rBase}para {\rHot\t(0,150,\fscx120\fscy120)}irrigar
+Dialogue: 0,0:00:26.72,0:00:27.24,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}cerebro {\rBase}y {\rBase}coronarias.
+Dialogue: 0,0:00:27.24,0:00:27.56,Base,,0,0,0,,{\rBase}cerebro {\rHot\t(0,150,\fscx120\fscy120)}y {\rBase}coronarias.
+Dialogue: 0,0:00:27.56,0:00:28.35,Base,,0,0,0,,{\rBase}cerebro {\rBase}y {\rHot\t(0,150,\fscx120\fscy120)}coronarias.
+Dialogue: 0,0:00:28.30,0:00:29.50,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}El {\rBase}ductus {\rBase}arterioso,
+Dialogue: 0,0:00:29.50,0:00:29.90,Base,,0,0,0,,{\rBase}El {\rHot\t(0,150,\fscx120\fscy120)}ductus {\rBase}arterioso,
+Dialogue: 0,0:00:29.90,0:00:30.59,Base,,0,0,0,,{\rBase}El {\rBase}ductus {\rHot\t(0,150,\fscx120\fscy120)}arterioso,
+Dialogue: 0,0:00:30.74,0:00:32.08,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}botal, {\rBase}deriva {\rBase}un
+Dialogue: 0,0:00:32.08,0:00:32.76,Base,,0,0,0,,{\rBase}botal, {\rHot\t(0,150,\fscx120\fscy120)}deriva {\rBase}un
+Dialogue: 0,0:00:32.76,0:00:32.93,Base,,0,0,0,,{\rBase}botal, {\rBase}deriva {\rHot\t(0,150,\fscx120\fscy120)}un
+Dialogue: 0,0:00:32.88,0:00:33.18,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}tono {\rBase}90 {\rBase}%
+Dialogue: 0,0:00:33.18,0:00:33.34,Base,,0,0,0,,{\rBase}tono {\rHot\t(0,150,\fscx120\fscy120)}90 {\rBase}%
+Dialogue: 0,0:00:33.34,0:00:33.75,Base,,0,0,0,,{\rBase}tono {\rBase}90 {\rHot\t(0,150,\fscx120\fscy120)}%
+Dialogue: 0,0:00:33.70,0:00:34.04,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}del {\rBase}flujo {\rBase}del
+Dialogue: 0,0:00:34.04,0:00:34.40,Base,,0,0,0,,{\rBase}del {\rHot\t(0,150,\fscx120\fscy120)}flujo {\rBase}del
+Dialogue: 0,0:00:34.40,0:00:34.59,Base,,0,0,0,,{\rBase}del {\rBase}flujo {\rHot\t(0,150,\fscx120\fscy120)}del
+Dialogue: 0,0:00:34.54,0:00:35.08,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}ventrículo {\rBase}derecho {\rBase}a
+Dialogue: 0,0:00:35.08,0:00:35.44,Base,,0,0,0,,{\rBase}ventrículo {\rHot\t(0,150,\fscx120\fscy120)}derecho {\rBase}a
+Dialogue: 0,0:00:35.44,0:00:35.65,Base,,0,0,0,,{\rBase}ventrículo {\rBase}derecho {\rHot\t(0,150,\fscx120\fscy120)}a
+Dialogue: 0,0:00:35.60,0:00:35.74,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}la {\rBase}aorta {\rBase}descendente,
+Dialogue: 0,0:00:35.74,0:00:36.00,Base,,0,0,0,,{\rBase}la {\rHot\t(0,150,\fscx120\fscy120)}aorta {\rBase}descendente,
+Dialogue: 0,0:00:36.00,0:00:36.85,Base,,0,0,0,,{\rBase}la {\rBase}aorta {\rHot\t(0,150,\fscx120\fscy120)}descendente,
+Dialogue: 0,0:00:36.96,0:00:37.80,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}evitando {\rBase}el {\rBase}pulmón
+Dialogue: 0,0:00:37.80,0:00:37.92,Base,,0,0,0,,{\rBase}evitando {\rHot\t(0,150,\fscx120\fscy120)}el {\rBase}pulmón
+Dialogue: 0,0:00:37.92,0:00:38.39,Base,,0,0,0,,{\rBase}evitando {\rBase}el {\rHot\t(0,150,\fscx120\fscy120)}pulmón
+Dialogue: 0,0:00:38.34,0:00:39.07,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}comprimido.

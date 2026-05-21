@@ -1,0 +1,85 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H001E80FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}transición {\rBase}no
+Dialogue: 0,0:00:00.28,0:00:00.72,Base,,0,0,0,,{\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}transición {\rBase}no
+Dialogue: 0,0:00:00.72,0:00:00.93,Base,,0,0,0,,{\rBase}La {\rBase}transición {\rHot\t(0,120,\fscx115\fscy115)}no
+Dialogue: 0,0:00:00.88,0:00:00.96,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}pasiva, {\rBase}es
+Dialogue: 0,0:00:00.96,0:00:01.66,Base,,0,0,0,,{\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}pasiva, {\rBase}es
+Dialogue: 0,0:00:01.66,0:00:02.07,Base,,0,0,0,,{\rBase}es {\rBase}pasiva, {\rHot\t(0,120,\fscx115\fscy115)}es
+Dialogue: 0,0:00:02.02,0:00:02.16,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}un {\rBase}evento {\rBase}bioquímico
+Dialogue: 0,0:00:02.16,0:00:02.50,Base,,0,0,0,,{\rBase}un {\rHot\t(0,120,\fscx115\fscy115)}evento {\rBase}bioquímico
+Dialogue: 0,0:00:02.50,0:00:03.17,Base,,0,0,0,,{\rBase}un {\rBase}evento {\rHot\t(0,120,\fscx115\fscy115)}bioquímico
+Dialogue: 0,0:00:03.12,0:00:03.56,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}activo {\rBase}que {\rBase}puede
+Dialogue: 0,0:00:03.56,0:00:03.70,Base,,0,0,0,,{\rBase}activo {\rHot\t(0,120,\fscx115\fscy115)}que {\rBase}puede
+Dialogue: 0,0:00:03.70,0:00:04.01,Base,,0,0,0,,{\rBase}activo {\rBase}que {\rHot\t(0,120,\fscx115\fscy115)}puede
+Dialogue: 0,0:00:03.96,0:00:04.70,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}fallar, {\rBase}hipertensión {\rBase}pulmonar
+Dialogue: 0,0:00:04.70,0:00:05.68,Base,,0,0,0,,{\rBase}fallar, {\rHot\t(0,120,\fscx115\fscy115)}hipertensión {\rBase}pulmonar
+Dialogue: 0,0:00:05.68,0:00:06.17,Base,,0,0,0,,{\rBase}fallar, {\rBase}hipertensión {\rHot\t(0,120,\fscx115\fscy115)}pulmonar
+Dialogue: 0,0:00:06.12,0:00:06.90,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}persistente {\rBase}del {\rBase}recién
+Dialogue: 0,0:00:06.90,0:00:07.12,Base,,0,0,0,,{\rBase}persistente {\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}recién
+Dialogue: 0,0:00:07.12,0:00:07.51,Base,,0,0,0,,{\rBase}persistente {\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}recién
+Dialogue: 0,0:00:07.46,0:00:08.16,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}nacido, {\rBase}si {\rBase}hay
+Dialogue: 0,0:00:08.16,0:00:08.52,Base,,0,0,0,,{\rBase}nacido, {\rHot\t(0,120,\fscx115\fscy115)}si {\rBase}hay
+Dialogue: 0,0:00:08.52,0:00:08.79,Base,,0,0,0,,{\rBase}nacido, {\rBase}si {\rHot\t(0,120,\fscx115\fscy115)}hay
+Dialogue: 0,0:00:08.74,0:00:09.40,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}hipoxia {\rBase}o {\rBase}acidosis
+Dialogue: 0,0:00:09.40,0:00:09.66,Base,,0,0,0,,{\rBase}hipoxia {\rHot\t(0,120,\fscx115\fscy115)}o {\rBase}acidosis
+Dialogue: 0,0:00:09.66,0:00:10.29,Base,,0,0,0,,{\rBase}hipoxia {\rBase}o {\rHot\t(0,120,\fscx115\fscy115)}acidosis
+Dialogue: 0,0:00:10.24,0:00:10.42,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}al {\rBase}nacer. {\rBase}In
+Dialogue: 0,0:00:10.42,0:00:11.22,Base,,0,0,0,,{\rBase}al {\rHot\t(0,120,\fscx115\fscy115)}nacer. {\rBase}In
+Dialogue: 0,0:00:11.22,0:00:11.77,Base,,0,0,0,,{\rBase}al {\rBase}nacer. {\rHot\t(0,120,\fscx115\fscy115)}In
+Dialogue: 0,0:00:11.72,0:00:12.50,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}utero, {\rBase}el {\rBase}pulmón
+Dialogue: 0,0:00:12.50,0:00:12.58,Base,,0,0,0,,{\rBase}utero, {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}pulmón
+Dialogue: 0,0:00:12.58,0:00:12.97,Base,,0,0,0,,{\rBase}utero, {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}pulmón
+Dialogue: 0,0:00:12.92,0:00:13.12,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}está {\rBase}vasocontraído {\rBase}por
+Dialogue: 0,0:00:13.12,0:00:13.86,Base,,0,0,0,,{\rBase}está {\rHot\t(0,120,\fscx115\fscy115)}vasocontraído {\rBase}por
+Dialogue: 0,0:00:13.86,0:00:14.11,Base,,0,0,0,,{\rBase}está {\rBase}vasocontraído {\rHot\t(0,120,\fscx115\fscy115)}por
+Dialogue: 0,0:00:14.06,0:00:15.12,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}hipoxia, {\rBase}Euler {\rBase}-Lilliestrand.
+Dialogue: 0,0:00:15.12,0:00:15.44,Base,,0,0,0,,{\rBase}hipoxia, {\rHot\t(0,120,\fscx115\fscy115)}Euler {\rBase}-Lilliestrand.
+Dialogue: 0,0:00:15.44,0:00:16.31,Base,,0,0,0,,{\rBase}hipoxia, {\rBase}Euler {\rHot\t(0,120,\fscx115\fscy115)}-Lilliestrand.
+Dialogue: 0,0:00:16.70,0:00:17.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}El {\rBase}primer {\rBase}respiro
+Dialogue: 0,0:00:17.28,0:00:17.56,Base,,0,0,0,,{\rBase}El {\rHot\t(0,120,\fscx115\fscy115)}primer {\rBase}respiro
+Dialogue: 0,0:00:17.56,0:00:18.27,Base,,0,0,0,,{\rBase}El {\rBase}primer {\rHot\t(0,120,\fscx115\fscy115)}respiro
+Dialogue: 0,0:00:18.22,0:00:18.70,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}distiende {\rBase}mecánicamente {\rBase}los
+Dialogue: 0,0:00:18.70,0:00:19.42,Base,,0,0,0,,{\rBase}distiende {\rHot\t(0,120,\fscx115\fscy115)}mecánicamente {\rBase}los
+Dialogue: 0,0:00:19.42,0:00:19.67,Base,,0,0,0,,{\rBase}distiende {\rBase}mecánicamente {\rHot\t(0,120,\fscx115\fscy115)}los
+Dialogue: 0,0:00:19.62,0:00:20.42,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}alvéolos {\rBase}y {\rBase}eleva
+Dialogue: 0,0:00:20.42,0:00:20.70,Base,,0,0,0,,{\rBase}alvéolos {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}eleva
+Dialogue: 0,0:00:20.70,0:00:21.01,Base,,0,0,0,,{\rBase}alvéolos {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}eleva
+Dialogue: 0,0:00:20.96,0:00:21.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}PO2 {\rBase}alveolar,
+Dialogue: 0,0:00:21.08,0:00:21.54,Base,,0,0,0,,{\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}PO2 {\rBase}alveolar,
+Dialogue: 0,0:00:21.54,0:00:22.13,Base,,0,0,0,,{\rBase}el {\rBase}PO2 {\rHot\t(0,120,\fscx115\fscy115)}alveolar,
+Dialogue: 0,0:00:22.30,0:00:22.82,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}lo {\rBase}que {\rBase}libera
+Dialogue: 0,0:00:22.82,0:00:22.94,Base,,0,0,0,,{\rBase}lo {\rHot\t(0,120,\fscx115\fscy115)}que {\rBase}libera
+Dialogue: 0,0:00:22.94,0:00:23.43,Base,,0,0,0,,{\rBase}lo {\rBase}que {\rHot\t(0,120,\fscx115\fscy115)}libera
+Dialogue: 0,0:00:23.38,0:00:23.90,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}NO {\rBase}y {\rBase}prostaciclina,
+Dialogue: 0,0:00:23.90,0:00:24.26,Base,,0,0,0,,{\rBase}NO {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}prostaciclina,
+Dialogue: 0,0:00:24.26,0:00:25.27,Base,,0,0,0,,{\rBase}NO {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}prostaciclina,
+Dialogue: 0,0:00:25.66,0:00:26.44,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}PGI2, {\rBase}del {\rBase}endotelio
+Dialogue: 0,0:00:26.44,0:00:26.56,Base,,0,0,0,,{\rBase}PGI2, {\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}endotelio
+Dialogue: 0,0:00:26.56,0:00:27.13,Base,,0,0,0,,{\rBase}PGI2, {\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}endotelio
+Dialogue: 0,0:00:27.08,0:00:27.68,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}pulmonar. {\rBase}Esto {\rBase}produce
+Dialogue: 0,0:00:27.68,0:00:28.78,Base,,0,0,0,,{\rBase}pulmonar. {\rHot\t(0,120,\fscx115\fscy115)}Esto {\rBase}produce
+Dialogue: 0,0:00:28.78,0:00:29.29,Base,,0,0,0,,{\rBase}pulmonar. {\rBase}Esto {\rHot\t(0,120,\fscx115\fscy115)}produce
+Dialogue: 0,0:00:29.24,0:00:30.12,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}vasodilatación {\rBase}masiva {\rBase}que
+Dialogue: 0,0:00:30.12,0:00:30.62,Base,,0,0,0,,{\rBase}vasodilatación {\rHot\t(0,120,\fscx115\fscy115)}masiva {\rBase}que
+Dialogue: 0,0:00:30.62,0:00:31.33,Base,,0,0,0,,{\rBase}vasodilatación {\rBase}masiva {\rHot\t(0,120,\fscx115\fscy115)}que
+Dialogue: 0,0:00:31.28,0:00:31.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}reduce {\rBase}la {\rBase}resistencia
+Dialogue: 0,0:00:31.60,0:00:31.80,Base,,0,0,0,,{\rBase}reduce {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}resistencia
+Dialogue: 0,0:00:31.80,0:00:32.45,Base,,0,0,0,,{\rBase}reduce {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}resistencia
+Dialogue: 0,0:00:32.40,0:00:32.84,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}vascular {\rBase}pulmonar {\rBase}10
+Dialogue: 0,0:00:32.84,0:00:33.46,Base,,0,0,0,,{\rBase}vascular {\rHot\t(0,120,\fscx115\fscy115)}pulmonar {\rBase}10
+Dialogue: 0,0:00:33.46,0:00:33.77,Base,,0,0,0,,{\rBase}vascular {\rBase}pulmonar {\rHot\t(0,120,\fscx115\fscy115)}10
+Dialogue: 0,0:00:33.72,0:00:34.04,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}veces {\rBase}en {\rBase}segundos.
+Dialogue: 0,0:00:34.04,0:00:34.28,Base,,0,0,0,,{\rBase}veces {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}segundos.
+Dialogue: 0,0:00:34.28,0:00:34.81,Base,,0,0,0,,{\rBase}veces {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}segundos.

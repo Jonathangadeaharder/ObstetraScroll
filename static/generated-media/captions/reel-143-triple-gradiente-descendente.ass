@@ -1,0 +1,76 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Helvetica,60,&H00C8C8C8,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Helvetica,92,&H00FFFFFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.38,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}Una {\rBase}onda {\rBase}invertida,
+Dialogue: 0,0:00:00.38,0:00:00.64,Base,,0,0,0,,{\rBase}Una {\rHot\t(0,150,\fscx120\fscy120)}onda {\rBase}invertida,
+Dialogue: 0,0:00:00.64,0:00:01.33,Base,,0,0,0,,{\rBase}Una {\rBase}onda {\rHot\t(0,150,\fscx120\fscy120)}invertida,
+Dialogue: 0,0:00:01.42,0:00:01.84,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}arriba {\rBase}flojo, {\rBase}abajo
+Dialogue: 0,0:00:01.84,0:00:02.50,Base,,0,0,0,,{\rBase}arriba {\rHot\t(0,150,\fscx120\fscy120)}flojo, {\rBase}abajo
+Dialogue: 0,0:00:02.50,0:00:02.81,Base,,0,0,0,,{\rBase}arriba {\rBase}flojo, {\rHot\t(0,150,\fscx120\fscy120)}abajo
+Dialogue: 0,0:00:02.76,0:00:03.44,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}fuerte, {\rBase}no {\rBase}dilata.
+Dialogue: 0,0:00:03.44,0:00:03.60,Base,,0,0,0,,{\rBase}fuerte, {\rHot\t(0,150,\fscx120\fscy120)}no {\rBase}dilata.
+Dialogue: 0,0:00:03.60,0:00:04.09,Base,,0,0,0,,{\rBase}fuerte, {\rBase}no {\rHot\t(0,150,\fscx120\fscy120)}dilata.
+Dialogue: 0,0:00:04.34,0:00:04.88,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}Por {\rBase}eso {\rBase}una
+Dialogue: 0,0:00:04.88,0:00:05.10,Base,,0,0,0,,{\rBase}Por {\rHot\t(0,150,\fscx120\fscy120)}eso {\rBase}una
+Dialogue: 0,0:00:05.10,0:00:05.37,Base,,0,0,0,,{\rBase}Por {\rBase}eso {\rHot\t(0,150,\fscx120\fscy120)}una
+Dialogue: 0,0:00:05.32,0:00:05.78,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}distocia {\rBase}funcional {\rBase}requiere
+Dialogue: 0,0:00:05.78,0:00:06.28,Base,,0,0,0,,{\rBase}distocia {\rHot\t(0,150,\fscx120\fscy120)}funcional {\rBase}requiere
+Dialogue: 0,0:00:06.28,0:00:06.91,Base,,0,0,0,,{\rBase}distocia {\rBase}funcional {\rHot\t(0,150,\fscx120\fscy120)}requiere
+Dialogue: 0,0:00:06.86,0:00:07.62,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}oxitocina {\rBase}y {\rBase}no
+Dialogue: 0,0:00:07.62,0:00:07.90,Base,,0,0,0,,{\rBase}oxitocina {\rHot\t(0,150,\fscx120\fscy120)}y {\rBase}no
+Dialogue: 0,0:00:07.90,0:00:08.07,Base,,0,0,0,,{\rBase}oxitocina {\rBase}y {\rHot\t(0,150,\fscx120\fscy120)}no
+Dialogue: 0,0:00:08.02,0:00:08.20,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}más {\rBase}espera. {\rBase}Una
+Dialogue: 0,0:00:08.20,0:00:09.38,Base,,0,0,0,,{\rBase}más {\rHot\t(0,150,\fscx120\fscy120)}espera. {\rBase}Una
+Dialogue: 0,0:00:09.38,0:00:09.77,Base,,0,0,0,,{\rBase}más {\rBase}espera. {\rHot\t(0,150,\fscx120\fscy120)}Una
+Dialogue: 0,0:00:09.72,0:00:10.42,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}contracción {\rBase}fisiológica {\rBase}empieza
+Dialogue: 0,0:00:10.42,0:00:11.20,Base,,0,0,0,,{\rBase}contracción {\rHot\t(0,150,\fscx120\fscy120)}fisiológica {\rBase}empieza
+Dialogue: 0,0:00:11.20,0:00:11.79,Base,,0,0,0,,{\rBase}contracción {\rBase}fisiológica {\rHot\t(0,150,\fscx120\fscy120)}empieza
+Dialogue: 0,0:00:11.74,0:00:11.92,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}en {\rBase}el {\rBase}fundus,
+Dialogue: 0,0:00:11.92,0:00:12.06,Base,,0,0,0,,{\rBase}en {\rHot\t(0,150,\fscx120\fscy120)}el {\rBase}fundus,
+Dialogue: 0,0:00:12.06,0:00:12.69,Base,,0,0,0,,{\rBase}en {\rBase}el {\rHot\t(0,150,\fscx120\fscy120)}fundus,
+Dialogue: 0,0:00:12.80,0:00:13.36,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}cerca {\rBase}de {\rBase}las
+Dialogue: 0,0:00:13.36,0:00:13.52,Base,,0,0,0,,{\rBase}cerca {\rHot\t(0,150,\fscx120\fscy120)}de {\rBase}las
+Dialogue: 0,0:00:13.52,0:00:13.71,Base,,0,0,0,,{\rBase}cerca {\rBase}de {\rHot\t(0,150,\fscx120\fscy120)}las
+Dialogue: 0,0:00:13.66,0:00:14.38,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}trompas, {\rBase}y {\rBase}desciende.
+Dialogue: 0,0:00:14.38,0:00:14.46,Base,,0,0,0,,{\rBase}trompas, {\rHot\t(0,150,\fscx120\fscy120)}y {\rBase}desciende.
+Dialogue: 0,0:00:14.46,0:00:15.07,Base,,0,0,0,,{\rBase}trompas, {\rBase}y {\rHot\t(0,150,\fscx120\fscy120)}desciende.
+Dialogue: 0,0:00:15.88,0:00:16.54,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}1. {\rBase}Propagación {\rBase}de
+Dialogue: 0,0:00:16.54,0:00:17.26,Base,,0,0,0,,{\rBase}1. {\rHot\t(0,150,\fscx120\fscy120)}Propagación {\rBase}de
+Dialogue: 0,0:00:17.26,0:00:17.45,Base,,0,0,0,,{\rBase}1. {\rBase}Propagación {\rHot\t(0,150,\fscx120\fscy120)}de
+Dialogue: 0,0:00:17.40,0:00:17.64,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}arriba {\rBase}a {\rBase}abajo.
+Dialogue: 0,0:00:17.64,0:00:17.76,Base,,0,0,0,,{\rBase}arriba {\rHot\t(0,150,\fscx120\fscy120)}a {\rBase}abajo.
+Dialogue: 0,0:00:17.76,0:00:18.13,Base,,0,0,0,,{\rBase}arriba {\rBase}a {\rHot\t(0,150,\fscx120\fscy120)}abajo.
+Dialogue: 0,0:00:19.18,0:00:20.22,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}2. {\rBase}Duración {\rBase}mayor
+Dialogue: 0,0:00:20.22,0:00:20.70,Base,,0,0,0,,{\rBase}2. {\rHot\t(0,150,\fscx120\fscy120)}Duración {\rBase}mayor
+Dialogue: 0,0:00:20.70,0:00:21.03,Base,,0,0,0,,{\rBase}2. {\rBase}Duración {\rHot\t(0,150,\fscx120\fscy120)}mayor
+Dialogue: 0,0:00:20.98,0:00:21.18,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}en {\rBase}fundus, {\rBase}menor
+Dialogue: 0,0:00:21.18,0:00:21.84,Base,,0,0,0,,{\rBase}en {\rHot\t(0,150,\fscx120\fscy120)}fundus, {\rBase}menor
+Dialogue: 0,0:00:21.84,0:00:22.21,Base,,0,0,0,,{\rBase}en {\rBase}fundus, {\rHot\t(0,150,\fscx120\fscy120)}menor
+Dialogue: 0,0:00:22.16,0:00:22.30,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}en {\rBase}segmento {\rBase}inferior.
+Dialogue: 0,0:00:22.30,0:00:22.78,Base,,0,0,0,,{\rBase}en {\rHot\t(0,150,\fscx120\fscy120)}segmento {\rBase}inferior.
+Dialogue: 0,0:00:22.78,0:00:23.17,Base,,0,0,0,,{\rBase}en {\rBase}segmento {\rHot\t(0,150,\fscx120\fscy120)}inferior.
+Dialogue: 0,0:00:23.98,0:00:25.06,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}3. {\rBase}Intensidad {\rBase}máxima
+Dialogue: 0,0:00:25.06,0:00:25.74,Base,,0,0,0,,{\rBase}3. {\rHot\t(0,150,\fscx120\fscy120)}Intensidad {\rBase}máxima
+Dialogue: 0,0:00:25.74,0:00:26.23,Base,,0,0,0,,{\rBase}3. {\rBase}Intensidad {\rHot\t(0,150,\fscx120\fscy120)}máxima
+Dialogue: 0,0:00:26.18,0:00:26.88,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}fundus, {\rBase}mínima {\rBase}abajo.
+Dialogue: 0,0:00:26.88,0:00:27.38,Base,,0,0,0,,{\rBase}fundus, {\rHot\t(0,150,\fscx120\fscy120)}mínima {\rBase}abajo.
+Dialogue: 0,0:00:27.38,0:00:27.79,Base,,0,0,0,,{\rBase}fundus, {\rBase}mínima {\rHot\t(0,150,\fscx120\fscy120)}abajo.
+Dialogue: 0,0:00:29.14,0:00:30.20,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}el {\rBase}feto {\rBase}baja
+Dialogue: 0,0:00:30.20,0:00:30.62,Base,,0,0,0,,{\rBase}el {\rHot\t(0,150,\fscx120\fscy120)}feto {\rBase}baja
+Dialogue: 0,0:00:30.62,0:00:30.93,Base,,0,0,0,,{\rBase}el {\rBase}feto {\rHot\t(0,150,\fscx120\fscy120)}baja
+Dialogue: 0,0:00:30.88,0:00:31.44,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}y {\rBase}el {\rBase}cuello
+Dialogue: 0,0:00:31.44,0:00:31.56,Base,,0,0,0,,{\rBase}y {\rHot\t(0,150,\fscx120\fscy120)}el {\rBase}cuello
+Dialogue: 0,0:00:31.56,0:00:31.89,Base,,0,0,0,,{\rBase}y {\rBase}el {\rHot\t(0,150,\fscx120\fscy120)}cuello
+Dialogue: 0,0:00:31.84,0:00:32.00,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}se {\rBase}dilata {\rBase}pasivamente
+Dialogue: 0,0:00:32.00,0:00:32.40,Base,,0,0,0,,{\rBase}se {\rHot\t(0,150,\fscx120\fscy120)}dilata {\rBase}pasivamente
+Dialogue: 0,0:00:32.40,0:00:33.05,Base,,0,0,0,,{\rBase}se {\rBase}dilata {\rHot\t(0,150,\fscx120\fscy120)}pasivamente

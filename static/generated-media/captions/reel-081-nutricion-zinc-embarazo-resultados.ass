@@ -1,0 +1,89 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0080DE4A,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}suplementación {\rBase}con
+Dialogue: 0,0:00:00.28,0:00:00.96,Base,,0,0,0,,{\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}suplementación {\rBase}con
+Dialogue: 0,0:00:00.96,0:00:01.31,Base,,0,0,0,,{\rBase}La {\rBase}suplementación {\rHot\t(0,120,\fscx115\fscy115)}con
+Dialogue: 0,0:00:01.26,0:00:01.54,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}zinc {\rBase}no {\rBase}es
+Dialogue: 0,0:00:01.54,0:00:01.94,Base,,0,0,0,,{\rBase}zinc {\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}es
+Dialogue: 0,0:00:01.94,0:00:02.13,Base,,0,0,0,,{\rBase}zinc {\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}es
+Dialogue: 0,0:00:02.08,0:00:02.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}parte {\rBase}del {\rBase}estándar
+Dialogue: 0,0:00:02.36,0:00:02.56,Base,,0,0,0,,{\rBase}parte {\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}estándar
+Dialogue: 0,0:00:02.56,0:00:03.03,Base,,0,0,0,,{\rBase}parte {\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}estándar
+Dialogue: 0,0:00:02.98,0:00:03.48,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}prenatal {\rBase}en {\rBase}la
+Dialogue: 0,0:00:03.48,0:00:03.60,Base,,0,0,0,,{\rBase}prenatal {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}la
+Dialogue: 0,0:00:03.60,0:00:03.75,Base,,0,0,0,,{\rBase}prenatal {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:03.70,0:00:04.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}mayoría {\rBase}de {\rBase}los
+Dialogue: 0,0:00:04.00,0:00:04.22,Base,,0,0,0,,{\rBase}mayoría {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}los
+Dialogue: 0,0:00:04.22,0:00:04.41,Base,,0,0,0,,{\rBase}mayoría {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}los
+Dialogue: 0,0:00:04.36,0:00:05.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}países. {\rBase}Solo {\rBase}el
+Dialogue: 0,0:00:05.32,0:00:05.52,Base,,0,0,0,,{\rBase}países. {\rHot\t(0,120,\fscx115\fscy115)}Solo {\rBase}el
+Dialogue: 0,0:00:05.52,0:00:05.71,Base,,0,0,0,,{\rBase}países. {\rBase}Solo {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:05.66,0:00:05.88,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}10 {\rBase}% {\rBase}de
+Dialogue: 0,0:00:05.88,0:00:06.18,Base,,0,0,0,,{\rBase}10 {\rHot\t(0,120,\fscx115\fscy115)}% {\rBase}de
+Dialogue: 0,0:00:06.18,0:00:06.63,Base,,0,0,0,,{\rBase}10 {\rBase}% {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:06.58,0:00:06.72,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}los {\rBase}suplementos {\rBase}prenatales
+Dialogue: 0,0:00:06.72,0:00:07.36,Base,,0,0,0,,{\rBase}los {\rHot\t(0,120,\fscx115\fscy115)}suplementos {\rBase}prenatales
+Dialogue: 0,0:00:07.36,0:00:07.99,Base,,0,0,0,,{\rBase}los {\rBase}suplementos {\rHot\t(0,120,\fscx115\fscy115)}prenatales
+Dialogue: 0,0:00:07.94,0:00:08.76,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}comerciales {\rBase}contienen {\rBase}zinc,
+Dialogue: 0,0:00:08.76,0:00:09.52,Base,,0,0,0,,{\rBase}comerciales {\rHot\t(0,120,\fscx115\fscy115)}contienen {\rBase}zinc,
+Dialogue: 0,0:00:09.52,0:00:10.03,Base,,0,0,0,,{\rBase}comerciales {\rBase}contienen {\rHot\t(0,120,\fscx115\fscy115)}zinc,
+Dialogue: 0,0:00:10.24,0:00:10.42,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}a {\rBase}pesar {\rBase}de
+Dialogue: 0,0:00:10.42,0:00:10.66,Base,,0,0,0,,{\rBase}a {\rHot\t(0,120,\fscx115\fscy115)}pesar {\rBase}de
+Dialogue: 0,0:00:10.66,0:00:10.87,Base,,0,0,0,,{\rBase}a {\rBase}pesar {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:10.82,0:00:10.92,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}evidencia {\rBase}de
+Dialogue: 0,0:00:10.92,0:00:11.40,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}evidencia {\rBase}de
+Dialogue: 0,0:00:11.40,0:00:11.57,Base,,0,0,0,,{\rBase}la {\rBase}evidencia {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:11.52,0:00:11.66,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}su {\rBase}beneficio. {\rBase}La
+Dialogue: 0,0:00:11.66,0:00:12.56,Base,,0,0,0,,{\rBase}su {\rHot\t(0,120,\fscx115\fscy115)}beneficio. {\rBase}La
+Dialogue: 0,0:00:12.56,0:00:13.05,Base,,0,0,0,,{\rBase}su {\rBase}beneficio. {\rHot\t(0,120,\fscx115\fscy115)}La
+Dialogue: 0,0:00:13.00,0:00:13.70,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}suplementación {\rBase}con {\rBase}zinc,
+Dialogue: 0,0:00:13.70,0:00:13.90,Base,,0,0,0,,{\rBase}suplementación {\rHot\t(0,120,\fscx115\fscy115)}con {\rBase}zinc,
+Dialogue: 0,0:00:13.90,0:00:14.35,Base,,0,0,0,,{\rBase}suplementación {\rBase}con {\rHot\t(0,120,\fscx115\fscy115)}zinc,
+Dialogue: 0,0:00:14.34,0:00:14.98,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}15 {\rBase}-25 {\rBase}milimilres
+Dialogue: 0,0:00:14.98,0:00:15.82,Base,,0,0,0,,{\rBase}15 {\rHot\t(0,120,\fscx115\fscy115)}-25 {\rBase}milimilres
+Dialogue: 0,0:00:15.82,0:00:16.51,Base,,0,0,0,,{\rBase}15 {\rBase}-25 {\rHot\t(0,120,\fscx115\fscy115)}milimilres
+Dialogue: 0,0:00:16.46,0:00:17.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}día, {\rBase}durante {\rBase}el
+Dialogue: 0,0:00:17.08,0:00:17.50,Base,,0,0,0,,{\rBase}día, {\rHot\t(0,120,\fscx115\fscy115)}durante {\rBase}el
+Dialogue: 0,0:00:17.50,0:00:17.79,Base,,0,0,0,,{\rBase}día, {\rBase}durante {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:17.74,0:00:18.18,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}embarazo {\rBase}reduce {\rBase}el
+Dialogue: 0,0:00:18.18,0:00:18.52,Base,,0,0,0,,{\rBase}embarazo {\rHot\t(0,120,\fscx115\fscy115)}reduce {\rBase}el
+Dialogue: 0,0:00:18.52,0:00:18.77,Base,,0,0,0,,{\rBase}embarazo {\rBase}reduce {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:18.72,0:00:19.04,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}parto {\rBase}prematuro {\rBase}en
+Dialogue: 0,0:00:19.04,0:00:19.58,Base,,0,0,0,,{\rBase}parto {\rHot\t(0,120,\fscx115\fscy115)}prematuro {\rBase}en
+Dialogue: 0,0:00:19.58,0:00:19.83,Base,,0,0,0,,{\rBase}parto {\rBase}prematuro {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:19.78,0:00:19.92,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}un {\rBase}14%, {\rBase}RR
+Dialogue: 0,0:00:19.92,0:00:21.06,Base,,0,0,0,,{\rBase}un {\rHot\t(0,120,\fscx115\fscy115)}14%, {\rBase}RR
+Dialogue: 0,0:00:21.06,0:00:21.71,Base,,0,0,0,,{\rBase}un {\rBase}14%, {\rHot\t(0,120,\fscx115\fscy115)}RR
+Dialogue: 0,0:00:21.66,0:00:22.04,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}0 {\rBase}.86, {\rBase}y
+Dialogue: 0,0:00:22.04,0:00:22.80,Base,,0,0,0,,{\rBase}0 {\rHot\t(0,120,\fscx115\fscy115)}.86, {\rBase}y
+Dialogue: 0,0:00:22.80,0:00:23.71,Base,,0,0,0,,{\rBase}0 {\rBase}.86, {\rHot\t(0,120,\fscx115\fscy115)}y
+Dialogue: 0,0:00:23.66,0:00:23.76,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}C {\rBase}95 {\rBase}%
+Dialogue: 0,0:00:23.76,0:00:24.56,Base,,0,0,0,,{\rBase}C {\rHot\t(0,120,\fscx115\fscy115)}95 {\rBase}%
+Dialogue: 0,0:00:24.56,0:00:25.09,Base,,0,0,0,,{\rBase}C {\rBase}95 {\rHot\t(0,120,\fscx115\fscy115)}%
+Dialogue: 0,0:00:25.04,0:00:25.42,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}0 {\rBase}.76 {\rBase}-0
+Dialogue: 0,0:00:25.42,0:00:26.16,Base,,0,0,0,,{\rBase}0 {\rHot\t(0,120,\fscx115\fscy115)}.76 {\rBase}-0
+Dialogue: 0,0:00:26.16,0:00:26.81,Base,,0,0,0,,{\rBase}0 {\rBase}.76 {\rHot\t(0,120,\fscx115\fscy115)}-0
+Dialogue: 0,0:00:26.76,0:00:28.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}.98, {\rBase}especialmente {\rBase}en
+Dialogue: 0,0:00:28.08,0:00:28.92,Base,,0,0,0,,{\rBase}.98, {\rHot\t(0,120,\fscx115\fscy115)}especialmente {\rBase}en
+Dialogue: 0,0:00:28.92,0:00:29.53,Base,,0,0,0,,{\rBase}.98, {\rBase}especialmente {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:29.48,0:00:30.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}gestantes {\rBase}con {\rBase}bajo
+Dialogue: 0,0:00:30.00,0:00:30.20,Base,,0,0,0,,{\rBase}gestantes {\rHot\t(0,120,\fscx115\fscy115)}con {\rBase}bajo
+Dialogue: 0,0:00:30.20,0:00:30.55,Base,,0,0,0,,{\rBase}gestantes {\rBase}con {\rHot\t(0,120,\fscx115\fscy115)}bajo
+Dialogue: 0,0:00:30.50,0:00:30.78,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}nivel {\rBase}socioeconómico {\rBase}o
+Dialogue: 0,0:00:30.78,0:00:31.66,Base,,0,0,0,,{\rBase}nivel {\rHot\t(0,120,\fscx115\fscy115)}socioeconómico {\rBase}o
+Dialogue: 0,0:00:31.66,0:00:32.15,Base,,0,0,0,,{\rBase}nivel {\rBase}socioeconómico {\rHot\t(0,120,\fscx115\fscy115)}o
+Dialogue: 0,0:00:32.10,0:00:32.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}ingesta {\rBase}inadecuada {\rBase}de
+Dialogue: 0,0:00:32.62,0:00:33.28,Base,,0,0,0,,{\rBase}ingesta {\rHot\t(0,120,\fscx115\fscy115)}inadecuada {\rBase}de
+Dialogue: 0,0:00:33.28,0:00:33.49,Base,,0,0,0,,{\rBase}ingesta {\rBase}inadecuada {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:33.44,0:00:33.81,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}zinc.

@@ -1,0 +1,74 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,84,&H00B4377C,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.36,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El {\rBase}nivel {\rBase}de
+Dialogue: 0,0:00:00.36,0:00:00.64,Base,,0,0,0,,{\rBase}El {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}nivel {\rBase}de
+Dialogue: 0,0:00:00.64,0:00:00.83,Base,,0,0,0,,{\rBase}El {\rBase}nivel {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:00.78,0:00:00.96,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}las {\rBase}espinas, {\rBase}estación
+Dialogue: 0,0:00:00.96,0:00:01.66,Base,,0,0,0,,{\rBase}las {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}espinas, {\rBase}estación
+Dialogue: 0,0:00:01.66,0:00:02.23,Base,,0,0,0,,{\rBase}las {\rBase}espinas, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}estación
+Dialogue: 0,0:00:02.18,0:00:02.82,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cero, {\rBase}es {\rBase}la
+Dialogue: 0,0:00:02.82,0:00:03.12,Base,,0,0,0,,{\rBase}cero, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}es {\rBase}la
+Dialogue: 0,0:00:03.12,0:00:03.29,Base,,0,0,0,,{\rBase}cero, {\rBase}es {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la
+Dialogue: 0,0:00:03.24,0:00:03.78,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}referencia {\rBase}del {\rBase}descenso
+Dialogue: 0,0:00:03.78,0:00:03.96,Base,,0,0,0,,{\rBase}referencia {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}del {\rBase}descenso
+Dialogue: 0,0:00:03.96,0:00:04.45,Base,,0,0,0,,{\rBase}referencia {\rBase}del {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}descenso
+Dialogue: 0,0:00:04.40,0:00:05.08,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}fetal, {\rBase}no {\rBase}porque
+Dialogue: 0,0:00:05.08,0:00:05.42,Base,,0,0,0,,{\rBase}fetal, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}no {\rBase}porque
+Dialogue: 0,0:00:05.42,0:00:05.73,Base,,0,0,0,,{\rBase}fetal, {\rBase}no {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}porque
+Dialogue: 0,0:00:05.68,0:00:05.94,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sea {\rBase}anatómica, {\rBase}sino
+Dialogue: 0,0:00:05.94,0:00:06.84,Base,,0,0,0,,{\rBase}sea {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}anatómica, {\rBase}sino
+Dialogue: 0,0:00:06.84,0:00:07.17,Base,,0,0,0,,{\rBase}sea {\rBase}anatómica, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sino
+Dialogue: 0,0:00:07.12,0:00:07.40,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}porque {\rBase}es {\rBase}el
+Dialogue: 0,0:00:07.40,0:00:07.56,Base,,0,0,0,,{\rBase}porque {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}es {\rBase}el
+Dialogue: 0,0:00:07.56,0:00:07.75,Base,,0,0,0,,{\rBase}porque {\rBase}es {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el
+Dialogue: 0,0:00:07.70,0:00:08.02,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cuello {\rBase}de {\rBase}botella
+Dialogue: 0,0:00:08.02,0:00:08.16,Base,,0,0,0,,{\rBase}cuello {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}botella
+Dialogue: 0,0:00:08.16,0:00:08.55,Base,,0,0,0,,{\rBase}cuello {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}botella
+Dialogue: 0,0:00:08.50,0:00:08.64,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}la {\rBase}pelvis.
+Dialogue: 0,0:00:08.64,0:00:08.76,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}pelvis.
+Dialogue: 0,0:00:08.76,0:00:09.21,Base,,0,0,0,,{\rBase}de {\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pelvis.
+Dialogue: 0,0:00:09.46,0:00:09.98,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La {\rBase}estrechez {\rBase}pélvica,
+Dialogue: 0,0:00:09.98,0:00:10.42,Base,,0,0,0,,{\rBase}La {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}estrechez {\rBase}pélvica,
+Dialogue: 0,0:00:10.42,0:00:11.15,Base,,0,0,0,,{\rBase}La {\rBase}estrechez {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pélvica,
+Dialogue: 0,0:00:11.24,0:00:11.76,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}angustia {\rBase}pelvis, {\rBase}está
+Dialogue: 0,0:00:11.76,0:00:12.72,Base,,0,0,0,,{\rBase}angustia {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pelvis, {\rBase}está
+Dialogue: 0,0:00:12.72,0:00:12.97,Base,,0,0,0,,{\rBase}angustia {\rBase}pelvis, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}está
+Dialogue: 0,0:00:12.92,0:00:13.42,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}limitada {\rBase}por {\rBase}borde
+Dialogue: 0,0:00:13.42,0:00:13.64,Base,,0,0,0,,{\rBase}limitada {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}por {\rBase}borde
+Dialogue: 0,0:00:13.64,0:00:13.95,Base,,0,0,0,,{\rBase}limitada {\rBase}por {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}borde
+Dialogue: 0,0:00:13.90,0:00:14.30,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}inferior {\rBase}de {\rBase}sínfisis,
+Dialogue: 0,0:00:14.30,0:00:14.50,Base,,0,0,0,,{\rBase}inferior {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}sínfisis,
+Dialogue: 0,0:00:14.50,0:00:15.29,Base,,0,0,0,,{\rBase}inferior {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sínfisis,
+Dialogue: 0,0:00:15.38,0:00:16.54,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ventral, {\rBase}espinas {\rBase}isquiáticas,
+Dialogue: 0,0:00:16.54,0:00:16.98,Base,,0,0,0,,{\rBase}ventral, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}espinas {\rBase}isquiáticas,
+Dialogue: 0,0:00:16.98,0:00:17.73,Base,,0,0,0,,{\rBase}ventral, {\rBase}espinas {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}isquiáticas,
+Dialogue: 0,0:00:17.98,0:00:18.52,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}laterales {\rBase}y {\rBase}articulación
+Dialogue: 0,0:00:18.52,0:00:18.92,Base,,0,0,0,,{\rBase}laterales {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}articulación
+Dialogue: 0,0:00:18.92,0:00:19.69,Base,,0,0,0,,{\rBase}laterales {\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}articulación
+Dialogue: 0,0:00:19.64,0:00:20.94,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sacrocoxígea, {\rBase}dorsal. {\rBase}El
+Dialogue: 0,0:00:20.94,0:00:21.54,Base,,0,0,0,,{\rBase}sacrocoxígea, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}dorsal. {\rBase}El
+Dialogue: 0,0:00:21.54,0:00:22.01,Base,,0,0,0,,{\rBase}sacrocoxígea, {\rBase}dorsal. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El
+Dialogue: 0,0:00:21.96,0:00:22.38,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}diámetro {\rBase}interespinoso, {\rBase}10
+Dialogue: 0,0:00:22.38,0:00:23.44,Base,,0,0,0,,{\rBase}diámetro {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}interespinoso, {\rBase}10
+Dialogue: 0,0:00:23.44,0:00:23.85,Base,,0,0,0,,{\rBase}diámetro {\rBase}interespinoso, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}10
+Dialogue: 0,0:00:23.80,0:00:24.82,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}centímetros, {\rBase}es {\rBase}el
+Dialogue: 0,0:00:24.82,0:00:25.32,Base,,0,0,0,,{\rBase}centímetros, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}es {\rBase}el
+Dialogue: 0,0:00:25.32,0:00:25.51,Base,,0,0,0,,{\rBase}centímetros, {\rBase}es {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el
+Dialogue: 0,0:00:25.46,0:00:25.64,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}más {\rBase}crítico {\rBase}para
+Dialogue: 0,0:00:25.64,0:00:26.10,Base,,0,0,0,,{\rBase}más {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}crítico {\rBase}para
+Dialogue: 0,0:00:26.10,0:00:26.35,Base,,0,0,0,,{\rBase}más {\rBase}crítico {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}para
+Dialogue: 0,0:00:26.30,0:00:26.44,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}descenso {\rBase}del
+Dialogue: 0,0:00:26.44,0:00:26.96,Base,,0,0,0,,{\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}descenso {\rBase}del
+Dialogue: 0,0:00:26.96,0:00:27.17,Base,,0,0,0,,{\rBase}el {\rBase}descenso {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}del
+Dialogue: 0,0:00:27.12,0:00:27.61,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}feto.

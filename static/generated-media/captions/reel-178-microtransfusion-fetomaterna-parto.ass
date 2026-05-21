@@ -1,0 +1,70 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0000E5FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.30,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}El {\rBase}test {\rBase}de
+Dialogue: 0,0:00:00.30,0:00:00.56,Base,,0,0,0,,{\rBase}El {\rHot\t(0,120,\fscx115\fscy115)}test {\rBase}de
+Dialogue: 0,0:00:00.56,0:00:00.79,Base,,0,0,0,,{\rBase}El {\rBase}test {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:00.74,0:00:01.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Clayhauer {\rBase}-Betke {\rBase}posparto
+Dialogue: 0,0:00:01.32,0:00:01.72,Base,,0,0,0,,{\rBase}Clayhauer {\rHot\t(0,120,\fscx115\fscy115)}-Betke {\rBase}posparto
+Dialogue: 0,0:00:01.72,0:00:02.51,Base,,0,0,0,,{\rBase}Clayhauer {\rBase}-Betke {\rHot\t(0,120,\fscx115\fscy115)}posparto
+Dialogue: 0,0:00:02.46,0:00:03.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}identifica {\rBase}casos {\rBase}con
+Dialogue: 0,0:00:03.32,0:00:03.68,Base,,0,0,0,,{\rBase}identifica {\rHot\t(0,120,\fscx115\fscy115)}casos {\rBase}con
+Dialogue: 0,0:00:03.68,0:00:03.97,Base,,0,0,0,,{\rBase}identifica {\rBase}casos {\rHot\t(0,120,\fscx115\fscy115)}con
+Dialogue: 0,0:00:03.92,0:00:04.50,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}transfusión {\rBase}mayor {\rBase}de
+Dialogue: 0,0:00:04.50,0:00:04.82,Base,,0,0,0,,{\rBase}transfusión {\rHot\t(0,120,\fscx115\fscy115)}mayor {\rBase}de
+Dialogue: 0,0:00:04.82,0:00:05.07,Base,,0,0,0,,{\rBase}transfusión {\rBase}mayor {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:05.02,0:00:05.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}30 {\rBase}mililitros {\rBase}que
+Dialogue: 0,0:00:05.28,0:00:05.92,Base,,0,0,0,,{\rBase}30 {\rHot\t(0,120,\fscx115\fscy115)}mililitros {\rBase}que
+Dialogue: 0,0:00:05.92,0:00:06.37,Base,,0,0,0,,{\rBase}30 {\rBase}mililitros {\rHot\t(0,120,\fscx115\fscy115)}que
+Dialogue: 0,0:00:06.32,0:00:06.74,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}requieren {\rBase}dosis {\rBase}extra
+Dialogue: 0,0:00:06.74,0:00:07.24,Base,,0,0,0,,{\rBase}requieren {\rHot\t(0,120,\fscx115\fscy115)}dosis {\rBase}extra
+Dialogue: 0,0:00:07.24,0:00:07.67,Base,,0,0,0,,{\rBase}requieren {\rBase}dosis {\rHot\t(0,120,\fscx115\fscy115)}extra
+Dialogue: 0,0:00:07.62,0:00:07.88,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}anti {\rBase}-D.
+Dialogue: 0,0:00:07.88,0:00:08.12,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}anti {\rBase}-D.
+Dialogue: 0,0:00:08.12,0:00:08.33,Base,,0,0,0,,{\rBase}de {\rBase}anti {\rHot\t(0,120,\fscx115\fscy115)}-D.
+Dialogue: 0,0:00:08.82,0:00:09.52,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Pequeñas {\rBase}cantidades {\rBase}de
+Dialogue: 0,0:00:09.52,0:00:10.02,Base,,0,0,0,,{\rBase}Pequeñas {\rHot\t(0,120,\fscx115\fscy115)}cantidades {\rBase}de
+Dialogue: 0,0:00:10.02,0:00:10.27,Base,,0,0,0,,{\rBase}Pequeñas {\rBase}cantidades {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:10.22,0:00:11.02,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}eritrocitos {\rBase}fetales {\rBase}pasan
+Dialogue: 0,0:00:11.02,0:00:11.54,Base,,0,0,0,,{\rBase}eritrocitos {\rHot\t(0,120,\fscx115\fscy115)}fetales {\rBase}pasan
+Dialogue: 0,0:00:11.54,0:00:12.03,Base,,0,0,0,,{\rBase}eritrocitos {\rBase}fetales {\rHot\t(0,120,\fscx115\fscy115)}pasan
+Dialogue: 0,0:00:11.98,0:00:12.06,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}a {\rBase}circulación {\rBase}materna
+Dialogue: 0,0:00:12.06,0:00:12.64,Base,,0,0,0,,{\rBase}a {\rHot\t(0,120,\fscx115\fscy115)}circulación {\rBase}materna
+Dialogue: 0,0:00:12.64,0:00:13.19,Base,,0,0,0,,{\rBase}a {\rBase}circulación {\rHot\t(0,120,\fscx115\fscy115)}materna
+Dialogue: 0,0:00:13.14,0:00:13.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}durante {\rBase}el {\rBase}embarazo,
+Dialogue: 0,0:00:13.36,0:00:13.60,Base,,0,0,0,,{\rBase}durante {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}embarazo,
+Dialogue: 0,0:00:13.60,0:00:14.15,Base,,0,0,0,,{\rBase}durante {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}embarazo,
+Dialogue: 0,0:00:14.26,0:00:14.46,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}pero {\rBase}el {\rBase}grueso
+Dialogue: 0,0:00:14.46,0:00:14.60,Base,,0,0,0,,{\rBase}pero {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}grueso
+Dialogue: 0,0:00:14.60,0:00:15.01,Base,,0,0,0,,{\rBase}pero {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}grueso
+Dialogue: 0,0:00:14.96,0:00:15.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}ocurre {\rBase}en {\rBase}expulsivo
+Dialogue: 0,0:00:15.36,0:00:15.46,Base,,0,0,0,,{\rBase}ocurre {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}expulsivo
+Dialogue: 0,0:00:15.46,0:00:16.25,Base,,0,0,0,,{\rBase}ocurre {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}expulsivo
+Dialogue: 0,0:00:16.20,0:00:16.70,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}alumbramiento {\rBase}por
+Dialogue: 0,0:00:16.70,0:00:17.38,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}alumbramiento {\rBase}por
+Dialogue: 0,0:00:17.38,0:00:17.65,Base,,0,0,0,,{\rBase}y {\rBase}alumbramiento {\rHot\t(0,120,\fscx115\fscy115)}por
+Dialogue: 0,0:00:17.60,0:00:17.74,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}las {\rBase}fuerzas {\rBase}mecánicas.
+Dialogue: 0,0:00:17.74,0:00:18.08,Base,,0,0,0,,{\rBase}las {\rHot\t(0,120,\fscx115\fscy115)}fuerzas {\rBase}mecánicas.
+Dialogue: 0,0:00:18.08,0:00:18.81,Base,,0,0,0,,{\rBase}las {\rBase}fuerzas {\rHot\t(0,120,\fscx115\fscy115)}mecánicas.
+Dialogue: 0,0:00:18.94,0:00:19.52,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Bastan {\rBase}0 {\rBase},1
+Dialogue: 0,0:00:19.52,0:00:19.76,Base,,0,0,0,,{\rBase}Bastan {\rHot\t(0,120,\fscx115\fscy115)}0 {\rBase},1
+Dialogue: 0,0:00:19.76,0:00:20.39,Base,,0,0,0,,{\rBase}Bastan {\rBase}0 {\rHot\t(0,120,\fscx115\fscy115)},1
+Dialogue: 0,0:00:20.84,0:00:21.20,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}sangre {\rBase}fetal
+Dialogue: 0,0:00:21.20,0:00:21.56,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}sangre {\rBase}fetal
+Dialogue: 0,0:00:21.56,0:00:22.13,Base,,0,0,0,,{\rBase}de {\rBase}sangre {\rHot\t(0,120,\fscx115\fscy115)}fetal
+Dialogue: 0,0:00:22.08,0:00:22.50,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}para {\rBase}sensibilizar {\rBase}a
+Dialogue: 0,0:00:22.50,0:00:23.22,Base,,0,0,0,,{\rBase}para {\rHot\t(0,120,\fscx115\fscy115)}sensibilizar {\rBase}a
+Dialogue: 0,0:00:23.22,0:00:23.41,Base,,0,0,0,,{\rBase}para {\rBase}sensibilizar {\rHot\t(0,120,\fscx115\fscy115)}a
+Dialogue: 0,0:00:23.36,0:00:23.58,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}una {\rBase}RH {\rBase}negativa.
+Dialogue: 0,0:00:23.58,0:00:24.08,Base,,0,0,0,,{\rBase}una {\rHot\t(0,120,\fscx115\fscy115)}RH {\rBase}negativa.
+Dialogue: 0,0:00:24.08,0:00:24.81,Base,,0,0,0,,{\rBase}una {\rBase}RH {\rHot\t(0,120,\fscx115\fscy115)}negativa.

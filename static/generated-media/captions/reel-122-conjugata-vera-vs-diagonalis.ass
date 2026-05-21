@@ -1,0 +1,88 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0000E5FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Si {\rBase}la {\rBase}diagonalis
+Dialogue: 0,0:00:00.26,0:00:00.40,Base,,0,0,0,,{\rBase}Si {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}diagonalis
+Dialogue: 0,0:00:00.40,0:00:01.07,Base,,0,0,0,,{\rBase}Si {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}diagonalis
+Dialogue: 0,0:00:01.02,0:00:01.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}11 {\rBase},5
+Dialogue: 0,0:00:01.24,0:00:01.58,Base,,0,0,0,,{\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}11 {\rBase},5
+Dialogue: 0,0:00:01.58,0:00:02.19,Base,,0,0,0,,{\rBase}es {\rBase}11 {\rHot\t(0,120,\fscx115\fscy115)},5
+Dialogue: 0,0:00:02.14,0:00:02.90,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}centímetros, {\rBase}el {\rBase}riesgo
+Dialogue: 0,0:00:02.90,0:00:02.98,Base,,0,0,0,,{\rBase}centímetros, {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}riesgo
+Dialogue: 0,0:00:02.98,0:00:03.33,Base,,0,0,0,,{\rBase}centímetros, {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}riesgo
+Dialogue: 0,0:00:03.28,0:00:03.42,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}desproporción {\rBase}es
+Dialogue: 0,0:00:03.42,0:00:04.12,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}desproporción {\rBase}es
+Dialogue: 0,0:00:04.12,0:00:04.41,Base,,0,0,0,,{\rBase}de {\rBase}desproporción {\rHot\t(0,120,\fscx115\fscy115)}es
+Dialogue: 0,0:00:04.36,0:00:05.18,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}real. {\rBase}Solo {\rBase}medirla
+Dialogue: 0,0:00:05.18,0:00:05.80,Base,,0,0,0,,{\rBase}real. {\rHot\t(0,120,\fscx115\fscy115)}Solo {\rBase}medirla
+Dialogue: 0,0:00:05.80,0:00:06.45,Base,,0,0,0,,{\rBase}real. {\rBase}Solo {\rHot\t(0,120,\fscx115\fscy115)}medirla
+Dialogue: 0,0:00:06.40,0:00:06.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}cuando {\rBase}hay {\rBase}sospecha
+Dialogue: 0,0:00:06.64,0:00:06.80,Base,,0,0,0,,{\rBase}cuando {\rHot\t(0,120,\fscx115\fscy115)}hay {\rBase}sospecha
+Dialogue: 0,0:00:06.80,0:00:07.27,Base,,0,0,0,,{\rBase}cuando {\rBase}hay {\rHot\t(0,120,\fscx115\fscy115)}sospecha
+Dialogue: 0,0:00:07.22,0:00:07.90,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}clínica, {\rBase}no {\rBase}de
+Dialogue: 0,0:00:07.90,0:00:08.16,Base,,0,0,0,,{\rBase}clínica, {\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}de
+Dialogue: 0,0:00:08.16,0:00:08.39,Base,,0,0,0,,{\rBase}clínica, {\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:08.34,0:00:09.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}rutina. {\rBase}La {\rBase}conjugata
+Dialogue: 0,0:00:09.08,0:00:09.66,Base,,0,0,0,,{\rBase}rutina. {\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}conjugata
+Dialogue: 0,0:00:09.66,0:00:10.21,Base,,0,0,0,,{\rBase}rutina. {\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}conjugata
+Dialogue: 0,0:00:10.16,0:00:10.50,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}vera {\rBase}es {\rBase}el
+Dialogue: 0,0:00:10.50,0:00:10.70,Base,,0,0,0,,{\rBase}vera {\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}el
+Dialogue: 0,0:00:10.70,0:00:10.89,Base,,0,0,0,,{\rBase}vera {\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:10.84,0:00:11.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}diámetro {\rBase}recto {\rBase}más
+Dialogue: 0,0:00:11.24,0:00:11.66,Base,,0,0,0,,{\rBase}diámetro {\rHot\t(0,120,\fscx115\fscy115)}recto {\rBase}más
+Dialogue: 0,0:00:11.66,0:00:11.93,Base,,0,0,0,,{\rBase}diámetro {\rBase}recto {\rHot\t(0,120,\fscx115\fscy115)}más
+Dialogue: 0,0:00:11.88,0:00:12.30,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}estrecho {\rBase}de {\rBase}la
+Dialogue: 0,0:00:12.30,0:00:12.44,Base,,0,0,0,,{\rBase}estrecho {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}la
+Dialogue: 0,0:00:12.44,0:00:12.61,Base,,0,0,0,,{\rBase}estrecho {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:12.56,0:00:12.86,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}entrada {\rBase}pélvica, {\rBase}borde
+Dialogue: 0,0:00:12.86,0:00:13.66,Base,,0,0,0,,{\rBase}entrada {\rHot\t(0,120,\fscx115\fscy115)}pélvica, {\rBase}borde
+Dialogue: 0,0:00:13.66,0:00:13.93,Base,,0,0,0,,{\rBase}entrada {\rBase}pélvica, {\rHot\t(0,120,\fscx115\fscy115)}borde
+Dialogue: 0,0:00:13.88,0:00:14.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}posterior {\rBase}de {\rBase}la
+Dialogue: 0,0:00:14.32,0:00:14.50,Base,,0,0,0,,{\rBase}posterior {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}la
+Dialogue: 0,0:00:14.50,0:00:14.67,Base,,0,0,0,,{\rBase}posterior {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:14.62,0:00:15.14,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}sínfisis {\rBase}al {\rBase}promontorio,
+Dialogue: 0,0:00:15.14,0:00:15.32,Base,,0,0,0,,{\rBase}sínfisis {\rHot\t(0,120,\fscx115\fscy115)}al {\rBase}promontorio,
+Dialogue: 0,0:00:15.32,0:00:16.11,Base,,0,0,0,,{\rBase}sínfisis {\rBase}al {\rHot\t(0,120,\fscx115\fscy115)}promontorio,
+Dialogue: 0,0:00:16.36,0:00:16.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}pilón {\rBase}16 {\rBase}centímetros.
+Dialogue: 0,0:00:16.64,0:00:16.86,Base,,0,0,0,,{\rBase}pilón {\rHot\t(0,120,\fscx115\fscy115)}16 {\rBase}centímetros.
+Dialogue: 0,0:00:16.86,0:00:17.35,Base,,0,0,0,,{\rBase}pilón {\rBase}16 {\rHot\t(0,120,\fscx115\fscy115)}centímetros.
+Dialogue: 0,0:00:17.84,0:00:18.44,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}No {\rBase}se {\rBase}palpa
+Dialogue: 0,0:00:18.44,0:00:18.60,Base,,0,0,0,,{\rBase}No {\rHot\t(0,120,\fscx115\fscy115)}se {\rBase}palpa
+Dialogue: 0,0:00:18.60,0:00:19.01,Base,,0,0,0,,{\rBase}No {\rBase}se {\rHot\t(0,120,\fscx115\fscy115)}palpa
+Dialogue: 0,0:00:18.96,0:00:20.04,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}directamente. {\rBase}La {\rBase}conjugata
+Dialogue: 0,0:00:20.04,0:00:20.38,Base,,0,0,0,,{\rBase}directamente. {\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}conjugata
+Dialogue: 0,0:00:20.38,0:00:20.97,Base,,0,0,0,,{\rBase}directamente. {\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}conjugata
+Dialogue: 0,0:00:20.92,0:00:21.66,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}diagonalis {\rBase}se {\rBase}mide
+Dialogue: 0,0:00:21.66,0:00:21.92,Base,,0,0,0,,{\rBase}diagonalis {\rHot\t(0,120,\fscx115\fscy115)}se {\rBase}mide
+Dialogue: 0,0:00:21.92,0:00:22.17,Base,,0,0,0,,{\rBase}diagonalis {\rBase}se {\rHot\t(0,120,\fscx115\fscy115)}mide
+Dialogue: 0,0:00:22.12,0:00:23.66,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}vaginalmente, {\rBase}borde {\rBase}inferior
+Dialogue: 0,0:00:23.66,0:00:23.86,Base,,0,0,0,,{\rBase}vaginalmente, {\rHot\t(0,120,\fscx115\fscy115)}borde {\rBase}inferior
+Dialogue: 0,0:00:23.86,0:00:24.31,Base,,0,0,0,,{\rBase}vaginalmente, {\rBase}borde {\rHot\t(0,120,\fscx115\fscy115)}inferior
+Dialogue: 0,0:00:24.26,0:00:24.46,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}sínfisis {\rBase}al
+Dialogue: 0,0:00:24.46,0:00:25.06,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}sínfisis {\rBase}al
+Dialogue: 0,0:00:25.06,0:00:25.33,Base,,0,0,0,,{\rBase}de {\rBase}sínfisis {\rHot\t(0,120,\fscx115\fscy115)}al
+Dialogue: 0,0:00:25.28,0:00:26.56,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}promontorio, {\rBase}prumpo {\rBase}12
+Dialogue: 0,0:00:26.56,0:00:26.86,Base,,0,0,0,,{\rBase}promontorio, {\rHot\t(0,120,\fscx115\fscy115)}prumpo {\rBase}12
+Dialogue: 0,0:00:26.86,0:00:27.13,Base,,0,0,0,,{\rBase}promontorio, {\rBase}prumpo {\rHot\t(0,120,\fscx115\fscy115)}12
+Dialogue: 0,0:00:27.08,0:00:28.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)},5, {\rBase}13 {\rBase}centímetros.
+Dialogue: 0,0:00:28.00,0:00:28.24,Base,,0,0,0,,{\rBase},5, {\rHot\t(0,120,\fscx115\fscy115)}13 {\rBase}centímetros.
+Dialogue: 0,0:00:28.24,0:00:29.09,Base,,0,0,0,,{\rBase},5, {\rBase}13 {\rHot\t(0,120,\fscx115\fscy115)}centímetros.
+Dialogue: 0,0:00:29.04,0:00:30.52,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}restando {\rBase}1 {\rBase},5
+Dialogue: 0,0:00:30.52,0:00:30.66,Base,,0,0,0,,{\rBase}restando {\rHot\t(0,120,\fscx115\fscy115)}1 {\rBase},5
+Dialogue: 0,0:00:30.66,0:00:31.21,Base,,0,0,0,,{\rBase}restando {\rBase}1 {\rHot\t(0,120,\fscx115\fscy115)},5
+Dialogue: 0,0:00:31.36,0:00:31.56,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}2 {\rBase}centímetros {\rBase}se
+Dialogue: 0,0:00:31.56,0:00:32.26,Base,,0,0,0,,{\rBase}2 {\rHot\t(0,120,\fscx115\fscy115)}centímetros {\rBase}se
+Dialogue: 0,0:00:32.26,0:00:32.81,Base,,0,0,0,,{\rBase}2 {\rBase}centímetros {\rHot\t(0,120,\fscx115\fscy115)}se
+Dialogue: 0,0:00:32.76,0:00:33.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}calcula {\rBase}la {\rBase}vera.
+Dialogue: 0,0:00:33.26,0:00:33.36,Base,,0,0,0,,{\rBase}calcula {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}vera.
+Dialogue: 0,0:00:33.36,0:00:33.79,Base,,0,0,0,,{\rBase}calcula {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}vera.

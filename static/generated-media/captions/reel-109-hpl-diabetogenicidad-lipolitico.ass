@@ -1,0 +1,79 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Arial Black,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Arial Black,84,&H00FF3CFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}La {\rBase}diabetes {\rBase}gestacional
+Dialogue: 0,0:00:00.26,0:00:00.60,Base,,0,0,0,,{\rBase}La {\rHot\frz-3\t(0,200,\frz3)}diabetes {\rBase}gestacional
+Dialogue: 0,0:00:00.60,0:00:01.37,Base,,0,0,0,,{\rBase}La {\rBase}diabetes {\rHot\frz-3\t(0,200,\frz3)}gestacional
+Dialogue: 0,0:00:01.32,0:00:01.76,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}no {\rBase}es {\rBase}un
+Dialogue: 0,0:00:01.76,0:00:01.88,Base,,0,0,0,,{\rBase}no {\rHot\frz-3\t(0,200,\frz3)}es {\rBase}un
+Dialogue: 0,0:00:01.88,0:00:02.07,Base,,0,0,0,,{\rBase}no {\rBase}es {\rHot\frz-3\t(0,200,\frz3)}un
+Dialogue: 0,0:00:02.02,0:00:02.64,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}fallo. {\rBase}Es {\rBase}la
+Dialogue: 0,0:00:02.64,0:00:03.08,Base,,0,0,0,,{\rBase}fallo. {\rHot\frz-3\t(0,200,\frz3)}Es {\rBase}la
+Dialogue: 0,0:00:03.08,0:00:03.25,Base,,0,0,0,,{\rBase}fallo. {\rBase}Es {\rHot\frz-3\t(0,200,\frz3)}la
+Dialogue: 0,0:00:03.20,0:00:03.84,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}consecuencia {\rBase}inevitable {\rBase}cuando
+Dialogue: 0,0:00:03.84,0:00:04.36,Base,,0,0,0,,{\rBase}consecuencia {\rHot\frz-3\t(0,200,\frz3)}inevitable {\rBase}cuando
+Dialogue: 0,0:00:04.36,0:00:04.95,Base,,0,0,0,,{\rBase}consecuencia {\rBase}inevitable {\rHot\frz-3\t(0,200,\frz3)}cuando
+Dialogue: 0,0:00:04.90,0:00:05.08,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}el {\rBase}páncreas {\rBase}materno
+Dialogue: 0,0:00:05.08,0:00:05.56,Base,,0,0,0,,{\rBase}el {\rHot\frz-3\t(0,200,\frz3)}páncreas {\rBase}materno
+Dialogue: 0,0:00:05.56,0:00:06.17,Base,,0,0,0,,{\rBase}el {\rBase}páncreas {\rHot\frz-3\t(0,200,\frz3)}materno
+Dialogue: 0,0:00:06.12,0:00:06.66,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}no {\rBase}puede {\rBase}compensar
+Dialogue: 0,0:00:06.66,0:00:06.90,Base,,0,0,0,,{\rBase}no {\rHot\frz-3\t(0,200,\frz3)}puede {\rBase}compensar
+Dialogue: 0,0:00:06.90,0:00:07.67,Base,,0,0,0,,{\rBase}no {\rBase}puede {\rHot\frz-3\t(0,200,\frz3)}compensar
+Dialogue: 0,0:00:07.62,0:00:07.76,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}la {\rBase}resistencia {\rBase}inducida
+Dialogue: 0,0:00:07.76,0:00:08.38,Base,,0,0,0,,{\rBase}la {\rHot\frz-3\t(0,200,\frz3)}resistencia {\rBase}inducida
+Dialogue: 0,0:00:08.38,0:00:09.11,Base,,0,0,0,,{\rBase}la {\rBase}resistencia {\rHot\frz-3\t(0,200,\frz3)}inducida
+Dialogue: 0,0:00:09.06,0:00:09.34,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}por {\rBase}HPL. {\rBase}El
+Dialogue: 0,0:00:09.34,0:00:10.68,Base,,0,0,0,,{\rBase}por {\rHot\frz-3\t(0,200,\frz3)}HPL. {\rBase}El
+Dialogue: 0,0:00:10.68,0:00:11.25,Base,,0,0,0,,{\rBase}por {\rBase}HPL. {\rHot\frz-3\t(0,200,\frz3)}El
+Dialogue: 0,0:00:11.20,0:00:11.74,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}lactógeno {\rBase}placentario {\rBase}humano,
+Dialogue: 0,0:00:11.74,0:00:12.38,Base,,0,0,0,,{\rBase}lactógeno {\rHot\frz-3\t(0,200,\frz3)}placentario {\rBase}humano,
+Dialogue: 0,0:00:12.38,0:00:12.91,Base,,0,0,0,,{\rBase}lactógeno {\rBase}placentario {\rHot\frz-3\t(0,200,\frz3)}humano,
+Dialogue: 0,0:00:13.12,0:00:14.28,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}HPL, {\rBase}se {\rBase}secreta
+Dialogue: 0,0:00:14.28,0:00:14.66,Base,,0,0,0,,{\rBase}HPL, {\rHot\frz-3\t(0,200,\frz3)}se {\rBase}secreta
+Dialogue: 0,0:00:14.66,0:00:15.13,Base,,0,0,0,,{\rBase}HPL, {\rBase}se {\rHot\frz-3\t(0,200,\frz3)}secreta
+Dialogue: 0,0:00:15.08,0:00:15.66,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}proporcional {\rBase}a {\rBase}la
+Dialogue: 0,0:00:15.66,0:00:15.84,Base,,0,0,0,,{\rBase}proporcional {\rHot\frz-3\t(0,200,\frz3)}a {\rBase}la
+Dialogue: 0,0:00:15.84,0:00:15.99,Base,,0,0,0,,{\rBase}proporcional {\rBase}a {\rHot\frz-3\t(0,200,\frz3)}la
+Dialogue: 0,0:00:15.94,0:00:16.18,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}masa {\rBase}placentaria. {\rBase}Actúa
+Dialogue: 0,0:00:16.18,0:00:17.42,Base,,0,0,0,,{\rBase}masa {\rHot\frz-3\t(0,200,\frz3)}placentaria. {\rBase}Actúa
+Dialogue: 0,0:00:17.42,0:00:18.09,Base,,0,0,0,,{\rBase}masa {\rBase}placentaria. {\rHot\frz-3\t(0,200,\frz3)}Actúa
+Dialogue: 0,0:00:18.04,0:00:18.26,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}como {\rBase}antagonista {\rBase}de
+Dialogue: 0,0:00:18.26,0:00:18.96,Base,,0,0,0,,{\rBase}como {\rHot\frz-3\t(0,200,\frz3)}antagonista {\rBase}de
+Dialogue: 0,0:00:18.96,0:00:19.17,Base,,0,0,0,,{\rBase}como {\rBase}antagonista {\rHot\frz-3\t(0,200,\frz3)}de
+Dialogue: 0,0:00:19.12,0:00:19.22,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}la {\rBase}insulina {\rBase}materna.
+Dialogue: 0,0:00:19.22,0:00:19.68,Base,,0,0,0,,{\rBase}la {\rHot\frz-3\t(0,200,\frz3)}insulina {\rBase}materna.
+Dialogue: 0,0:00:19.68,0:00:20.31,Base,,0,0,0,,{\rBase}la {\rBase}insulina {\rHot\frz-3\t(0,200,\frz3)}materna.
+Dialogue: 0,0:00:20.74,0:00:21.00,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}Reduce {\rBase}la {\rBase}sensibilidad
+Dialogue: 0,0:00:21.00,0:00:21.14,Base,,0,0,0,,{\rBase}Reduce {\rHot\frz-3\t(0,200,\frz3)}la {\rBase}sensibilidad
+Dialogue: 0,0:00:21.14,0:00:21.73,Base,,0,0,0,,{\rBase}Reduce {\rBase}la {\rHot\frz-3\t(0,200,\frz3)}sensibilidad
+Dialogue: 0,0:00:21.68,0:00:22.36,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}insulínica {\rBase}de {\rBase}los
+Dialogue: 0,0:00:22.36,0:00:22.50,Base,,0,0,0,,{\rBase}insulínica {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}los
+Dialogue: 0,0:00:22.50,0:00:22.69,Base,,0,0,0,,{\rBase}insulínica {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}los
+Dialogue: 0,0:00:22.64,0:00:23.04,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}tejidos {\rBase}maternos {\rBase}y
+Dialogue: 0,0:00:23.04,0:00:23.62,Base,,0,0,0,,{\rBase}tejidos {\rHot\frz-3\t(0,200,\frz3)}maternos {\rBase}y
+Dialogue: 0,0:00:23.62,0:00:23.93,Base,,0,0,0,,{\rBase}tejidos {\rBase}maternos {\rHot\frz-3\t(0,200,\frz3)}y
+Dialogue: 0,0:00:23.88,0:00:24.32,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}promueve {\rBase}lipólisis. {\rBase}El
+Dialogue: 0,0:00:24.32,0:00:25.28,Base,,0,0,0,,{\rBase}promueve {\rHot\frz-3\t(0,200,\frz3)}lipólisis. {\rBase}El
+Dialogue: 0,0:00:25.28,0:00:25.63,Base,,0,0,0,,{\rBase}promueve {\rBase}lipólisis. {\rHot\frz-3\t(0,200,\frz3)}El
+Dialogue: 0,0:00:25.58,0:00:25.96,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}objetivo {\rBase}es {\rBase}preservar
+Dialogue: 0,0:00:25.96,0:00:26.22,Base,,0,0,0,,{\rBase}objetivo {\rHot\frz-3\t(0,200,\frz3)}es {\rBase}preservar
+Dialogue: 0,0:00:26.22,0:00:26.79,Base,,0,0,0,,{\rBase}objetivo {\rBase}es {\rHot\frz-3\t(0,200,\frz3)}preservar
+Dialogue: 0,0:00:26.74,0:00:27.18,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}glucosa {\rBase}materna {\rBase}para
+Dialogue: 0,0:00:27.18,0:00:27.68,Base,,0,0,0,,{\rBase}glucosa {\rHot\frz-3\t(0,200,\frz3)}materna {\rBase}para
+Dialogue: 0,0:00:27.68,0:00:27.93,Base,,0,0,0,,{\rBase}glucosa {\rBase}materna {\rHot\frz-3\t(0,200,\frz3)}para
+Dialogue: 0,0:00:27.88,0:00:28.04,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}que {\rBase}pase {\rBase}al
+Dialogue: 0,0:00:28.04,0:00:28.34,Base,,0,0,0,,{\rBase}que {\rHot\frz-3\t(0,200,\frz3)}pase {\rBase}al
+Dialogue: 0,0:00:28.34,0:00:28.57,Base,,0,0,0,,{\rBase}que {\rBase}pase {\rHot\frz-3\t(0,200,\frz3)}al
+Dialogue: 0,0:00:28.52,0:00:28.90,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}feto {\rBase}vía {\rBase}GLUT1.
+Dialogue: 0,0:00:28.90,0:00:29.24,Base,,0,0,0,,{\rBase}feto {\rHot\frz-3\t(0,200,\frz3)}vía {\rBase}GLUT1.
+Dialogue: 0,0:00:29.24,0:00:29.95,Base,,0,0,0,,{\rBase}feto {\rBase}vía {\rHot\frz-3\t(0,200,\frz3)}GLUT1.

@@ -1,0 +1,86 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H001E80FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Esta {\rBase}arquitectura {\rBase}explica
+Dialogue: 0,0:00:00.38,0:00:01.02,Base,,0,0,0,,{\rBase}Esta {\rHot\t(0,120,\fscx115\fscy115)}arquitectura {\rBase}explica
+Dialogue: 0,0:00:01.02,0:00:01.59,Base,,0,0,0,,{\rBase}Esta {\rBase}arquitectura {\rHot\t(0,120,\fscx115\fscy115)}explica
+Dialogue: 0,0:00:01.54,0:00:01.82,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}por {\rBase}qué {\rBase}casi
+Dialogue: 0,0:00:01.82,0:00:01.92,Base,,0,0,0,,{\rBase}por {\rHot\t(0,120,\fscx115\fscy115)}qué {\rBase}casi
+Dialogue: 0,0:00:01.92,0:00:02.21,Base,,0,0,0,,{\rBase}por {\rBase}qué {\rHot\t(0,120,\fscx115\fscy115)}casi
+Dialogue: 0,0:00:02.16,0:00:02.50,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}todas {\rBase}las {\rBase}drogas
+Dialogue: 0,0:00:02.50,0:00:02.76,Base,,0,0,0,,{\rBase}todas {\rHot\t(0,120,\fscx115\fscy115)}las {\rBase}drogas
+Dialogue: 0,0:00:02.76,0:00:03.19,Base,,0,0,0,,{\rBase}todas {\rBase}las {\rHot\t(0,120,\fscx115\fscy115)}drogas
+Dialogue: 0,0:00:03.14,0:00:03.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}pasan {\rBase}al {\rBase}feto.
+Dialogue: 0,0:00:03.62,0:00:03.78,Base,,0,0,0,,{\rBase}pasan {\rHot\t(0,120,\fscx115\fscy115)}al {\rBase}feto.
+Dialogue: 0,0:00:03.78,0:00:04.23,Base,,0,0,0,,{\rBase}pasan {\rBase}al {\rHot\t(0,120,\fscx115\fscy115)}feto.
+Dialogue: 0,0:00:04.36,0:00:04.56,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}barrera {\rBase}es
+Dialogue: 0,0:00:04.56,0:00:04.88,Base,,0,0,0,,{\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}barrera {\rBase}es
+Dialogue: 0,0:00:04.88,0:00:05.05,Base,,0,0,0,,{\rBase}La {\rBase}barrera {\rHot\t(0,120,\fscx115\fscy115)}es
+Dialogue: 0,0:00:05.00,0:00:05.46,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}funcional {\rBase}solo {\rBase}para
+Dialogue: 0,0:00:05.46,0:00:05.74,Base,,0,0,0,,{\rBase}funcional {\rHot\t(0,120,\fscx115\fscy115)}solo {\rBase}para
+Dialogue: 0,0:00:05.74,0:00:06.07,Base,,0,0,0,,{\rBase}funcional {\rBase}solo {\rHot\t(0,120,\fscx115\fscy115)}para
+Dialogue: 0,0:00:06.02,0:00:07.12,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}macromoléculas, {\rBase}no {\rBase}para
+Dialogue: 0,0:00:07.12,0:00:07.24,Base,,0,0,0,,{\rBase}macromoléculas, {\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}para
+Dialogue: 0,0:00:07.24,0:00:07.47,Base,,0,0,0,,{\rBase}macromoléculas, {\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}para
+Dialogue: 0,0:00:07.42,0:00:07.94,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}moléculas {\rBase}pequeñas {\rBase}lipofílicas.
+Dialogue: 0,0:00:07.94,0:00:08.52,Base,,0,0,0,,{\rBase}moléculas {\rHot\t(0,120,\fscx115\fscy115)}pequeñas {\rBase}lipofílicas.
+Dialogue: 0,0:00:08.52,0:00:09.59,Base,,0,0,0,,{\rBase}moléculas {\rBase}pequeñas {\rHot\t(0,120,\fscx115\fscy115)}lipofílicas.
+Dialogue: 0,0:00:09.76,0:00:10.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}En {\rBase}la {\rBase}placenta
+Dialogue: 0,0:00:10.26,0:00:10.36,Base,,0,0,0,,{\rBase}En {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}placenta
+Dialogue: 0,0:00:10.36,0:00:10.79,Base,,0,0,0,,{\rBase}En {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}placenta
+Dialogue: 0,0:00:10.74,0:00:11.14,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}madura {\rBase}del {\rBase}tercer
+Dialogue: 0,0:00:11.14,0:00:11.34,Base,,0,0,0,,{\rBase}madura {\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}tercer
+Dialogue: 0,0:00:11.34,0:00:11.67,Base,,0,0,0,,{\rBase}madura {\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}tercer
+Dialogue: 0,0:00:11.62,0:00:12.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}trimestre, {\rBase}la {\rBase}barrera
+Dialogue: 0,0:00:12.36,0:00:12.42,Base,,0,0,0,,{\rBase}trimestre, {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}barrera
+Dialogue: 0,0:00:12.42,0:00:12.85,Base,,0,0,0,,{\rBase}trimestre, {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}barrera
+Dialogue: 0,0:00:12.80,0:00:12.98,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}entre {\rBase}sangre {\rBase}materna
+Dialogue: 0,0:00:12.98,0:00:13.34,Base,,0,0,0,,{\rBase}entre {\rHot\t(0,120,\fscx115\fscy115)}sangre {\rBase}materna
+Dialogue: 0,0:00:13.34,0:00:13.87,Base,,0,0,0,,{\rBase}entre {\rBase}sangre {\rHot\t(0,120,\fscx115\fscy115)}materna
+Dialogue: 0,0:00:13.82,0:00:13.92,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}fetal {\rBase}son
+Dialogue: 0,0:00:13.92,0:00:14.28,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}fetal {\rBase}son
+Dialogue: 0,0:00:14.28,0:00:14.57,Base,,0,0,0,,{\rBase}y {\rBase}fetal {\rHot\t(0,120,\fscx115\fscy115)}son
+Dialogue: 0,0:00:14.52,0:00:14.82,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}solo {\rBase}cuatro {\rBase}capas
+Dialogue: 0,0:00:14.82,0:00:15.18,Base,,0,0,0,,{\rBase}solo {\rHot\t(0,120,\fscx115\fscy115)}cuatro {\rBase}capas
+Dialogue: 0,0:00:15.18,0:00:15.65,Base,,0,0,0,,{\rBase}solo {\rBase}cuatro {\rHot\t(0,120,\fscx115\fscy115)}capas
+Dialogue: 0,0:00:15.60,0:00:16.74,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}finas. {\rBase}Sin {\rBase}sitio
+Dialogue: 0,0:00:16.74,0:00:17.02,Base,,0,0,0,,{\rBase}finas. {\rHot\t(0,120,\fscx115\fscy115)}Sin {\rBase}sitio
+Dialogue: 0,0:00:17.02,0:00:17.43,Base,,0,0,0,,{\rBase}finas. {\rBase}Sin {\rHot\t(0,120,\fscx115\fscy115)}sitio
+Dialogue: 0,0:00:17.38,0:00:18.22,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}trofoblasto {\rBase}adelgazado. {\rBase}Su
+Dialogue: 0,0:00:18.22,0:00:19.08,Base,,0,0,0,,{\rBase}trofoblasto {\rHot\t(0,120,\fscx115\fscy115)}adelgazado. {\rBase}Su
+Dialogue: 0,0:00:19.08,0:00:19.71,Base,,0,0,0,,{\rBase}trofoblasto {\rBase}adelgazado. {\rHot\t(0,120,\fscx115\fscy115)}Su
+Dialogue: 0,0:00:19.66,0:00:20.06,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}membrana {\rBase}basal, {\rBase}una
+Dialogue: 0,0:00:20.06,0:00:20.94,Base,,0,0,0,,{\rBase}membrana {\rHot\t(0,120,\fscx115\fscy115)}basal, {\rBase}una
+Dialogue: 0,0:00:20.94,0:00:21.25,Base,,0,0,0,,{\rBase}membrana {\rBase}basal, {\rHot\t(0,120,\fscx115\fscy115)}una
+Dialogue: 0,0:00:21.20,0:00:21.48,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}capa {\rBase}mínima {\rBase}de
+Dialogue: 0,0:00:21.48,0:00:21.86,Base,,0,0,0,,{\rBase}capa {\rHot\t(0,120,\fscx115\fscy115)}mínima {\rBase}de
+Dialogue: 0,0:00:21.86,0:00:22.09,Base,,0,0,0,,{\rBase}capa {\rBase}mínima {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:22.04,0:00:22.58,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}estroma {\rBase}y {\rBase}el
+Dialogue: 0,0:00:22.58,0:00:22.90,Base,,0,0,0,,{\rBase}estroma {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}el
+Dialogue: 0,0:00:22.90,0:00:23.07,Base,,0,0,0,,{\rBase}estroma {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:23.02,0:00:23.56,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}endotelio {\rBase}capilar {\rBase}fetal.
+Dialogue: 0,0:00:23.56,0:00:24.00,Base,,0,0,0,,{\rBase}endotelio {\rHot\t(0,120,\fscx115\fscy115)}capilar {\rBase}fetal.
+Dialogue: 0,0:00:24.00,0:00:24.59,Base,,0,0,0,,{\rBase}endotelio {\rBase}capilar {\rHot\t(0,120,\fscx115\fscy115)}fetal.
+Dialogue: 0,0:00:25.04,0:00:25.42,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}El {\rBase}cito {\rBase}trofoblasto
+Dialogue: 0,0:00:25.42,0:00:25.70,Base,,0,0,0,,{\rBase}El {\rHot\t(0,120,\fscx115\fscy115)}cito {\rBase}trofoblasto
+Dialogue: 0,0:00:25.70,0:00:26.67,Base,,0,0,0,,{\rBase}El {\rBase}cito {\rHot\t(0,120,\fscx115\fscy115)}trofoblasto
+Dialogue: 0,0:00:26.62,0:00:26.82,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}se {\rBase}ha {\rBase}disuelto
+Dialogue: 0,0:00:26.82,0:00:26.90,Base,,0,0,0,,{\rBase}se {\rHot\t(0,120,\fscx115\fscy115)}ha {\rBase}disuelto
+Dialogue: 0,0:00:26.90,0:00:27.47,Base,,0,0,0,,{\rBase}se {\rBase}ha {\rHot\t(0,120,\fscx115\fscy115)}disuelto
+Dialogue: 0,0:00:27.42,0:00:27.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}para {\rBase}minimizar {\rBase}la
+Dialogue: 0,0:00:27.64,0:00:28.22,Base,,0,0,0,,{\rBase}para {\rHot\t(0,120,\fscx115\fscy115)}minimizar {\rBase}la
+Dialogue: 0,0:00:28.22,0:00:28.41,Base,,0,0,0,,{\rBase}para {\rBase}minimizar {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:28.36,0:00:28.90,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}distancia {\rBase}de {\rBase}difusión.
+Dialogue: 0,0:00:28.90,0:00:29.08,Base,,0,0,0,,{\rBase}distancia {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}difusión.
+Dialogue: 0,0:00:29.08,0:00:29.81,Base,,0,0,0,,{\rBase}distancia {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}difusión.
+Dialogue: 0,0:00:30.00,0:00:30.13,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Gracias.

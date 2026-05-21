@@ -1,0 +1,75 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Helvetica,60,&H00C8C8C8,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Helvetica,92,&H00FFFFFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.32,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}La {\rBase}preeclampsia {\rBase}no
+Dialogue: 0,0:00:00.32,0:00:01.06,Base,,0,0,0,,{\rBase}La {\rHot\t(0,150,\fscx120\fscy120)}preeclampsia {\rBase}no
+Dialogue: 0,0:00:01.06,0:00:01.39,Base,,0,0,0,,{\rBase}La {\rBase}preeclampsia {\rHot\t(0,150,\fscx120\fscy120)}no
+Dialogue: 0,0:00:01.34,0:00:01.76,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}termina {\rBase}con {\rBase}el
+Dialogue: 0,0:00:01.76,0:00:01.90,Base,,0,0,0,,{\rBase}termina {\rHot\t(0,150,\fscx120\fscy120)}con {\rBase}el
+Dialogue: 0,0:00:01.90,0:00:02.11,Base,,0,0,0,,{\rBase}termina {\rBase}con {\rHot\t(0,150,\fscx120\fscy120)}el
+Dialogue: 0,0:00:02.06,0:00:02.94,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}parto. {\rBase}Es {\rBase}una
+Dialogue: 0,0:00:02.94,0:00:03.34,Base,,0,0,0,,{\rBase}parto. {\rHot\t(0,150,\fscx120\fscy120)}Es {\rBase}una
+Dialogue: 0,0:00:03.34,0:00:03.57,Base,,0,0,0,,{\rBase}parto. {\rBase}Es {\rHot\t(0,150,\fscx120\fscy120)}una
+Dialogue: 0,0:00:03.52,0:00:04.10,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}señal {\rBase}de {\rBase}alerta
+Dialogue: 0,0:00:04.10,0:00:04.26,Base,,0,0,0,,{\rBase}señal {\rHot\t(0,150,\fscx120\fscy120)}de {\rBase}alerta
+Dialogue: 0,0:00:04.26,0:00:04.75,Base,,0,0,0,,{\rBase}señal {\rBase}de {\rHot\t(0,150,\fscx120\fscy120)}alerta
+Dialogue: 0,0:00:04.70,0:00:05.16,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}cardiovascular {\rBase}temprana {\rBase}que
+Dialogue: 0,0:00:05.16,0:00:05.98,Base,,0,0,0,,{\rBase}cardiovascular {\rHot\t(0,150,\fscx120\fscy120)}temprana {\rBase}que
+Dialogue: 0,0:00:05.98,0:00:06.49,Base,,0,0,0,,{\rBase}cardiovascular {\rBase}temprana {\rHot\t(0,150,\fscx120\fscy120)}que
+Dialogue: 0,0:00:06.44,0:00:06.80,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}debería {\rBase}iniciar {\rBase}seguimiento
+Dialogue: 0,0:00:06.80,0:00:07.20,Base,,0,0,0,,{\rBase}debería {\rHot\t(0,150,\fscx120\fscy120)}iniciar {\rBase}seguimiento
+Dialogue: 0,0:00:07.20,0:00:07.77,Base,,0,0,0,,{\rBase}debería {\rBase}iniciar {\rHot\t(0,150,\fscx120\fscy120)}seguimiento
+Dialogue: 0,0:00:07.72,0:00:08.46,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}cardiológico {\rBase}de {\rBase}por
+Dialogue: 0,0:00:08.46,0:00:08.58,Base,,0,0,0,,{\rBase}cardiológico {\rHot\t(0,150,\fscx120\fscy120)}de {\rBase}por
+Dialogue: 0,0:00:08.58,0:00:08.87,Base,,0,0,0,,{\rBase}cardiológico {\rBase}de {\rHot\t(0,150,\fscx120\fscy120)}por
+Dialogue: 0,0:00:08.82,0:00:09.30,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}vida, {\rBase}pero {\rBase}rara
+Dialogue: 0,0:00:09.30,0:00:09.60,Base,,0,0,0,,{\rBase}vida, {\rHot\t(0,150,\fscx120\fscy120)}pero {\rBase}rara
+Dialogue: 0,0:00:09.60,0:00:10.25,Base,,0,0,0,,{\rBase}vida, {\rBase}pero {\rHot\t(0,150,\fscx120\fscy120)}rara
+Dialogue: 0,0:00:10.20,0:00:10.40,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}vez {\rBase}se {\rBase}implementa.
+Dialogue: 0,0:00:10.40,0:00:10.60,Base,,0,0,0,,{\rBase}vez {\rHot\t(0,150,\fscx120\fscy120)}se {\rBase}implementa.
+Dialogue: 0,0:00:10.60,0:00:11.21,Base,,0,0,0,,{\rBase}vez {\rBase}se {\rHot\t(0,150,\fscx120\fscy120)}implementa.
+Dialogue: 0,0:00:11.78,0:00:12.48,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}Las {\rBase}mujeres {\rBase}que
+Dialogue: 0,0:00:12.48,0:00:12.74,Base,,0,0,0,,{\rBase}Las {\rHot\t(0,150,\fscx120\fscy120)}mujeres {\rBase}que
+Dialogue: 0,0:00:12.74,0:00:12.95,Base,,0,0,0,,{\rBase}Las {\rBase}mujeres {\rHot\t(0,150,\fscx120\fscy120)}que
+Dialogue: 0,0:00:12.90,0:00:13.42,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}desarrollan {\rBase}preeclampsia {\rBase}tienen
+Dialogue: 0,0:00:13.42,0:00:14.14,Base,,0,0,0,,{\rBase}desarrollan {\rHot\t(0,150,\fscx120\fscy120)}preeclampsia {\rBase}tienen
+Dialogue: 0,0:00:14.14,0:00:14.63,Base,,0,0,0,,{\rBase}desarrollan {\rBase}preeclampsia {\rHot\t(0,150,\fscx120\fscy120)}tienen
+Dialogue: 0,0:00:14.58,0:00:15.06,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}5 {\rBase}veces {\rBase}más
+Dialogue: 0,0:00:15.06,0:00:15.34,Base,,0,0,0,,{\rBase}5 {\rHot\t(0,150,\fscx120\fscy120)}veces {\rBase}más
+Dialogue: 0,0:00:15.34,0:00:15.67,Base,,0,0,0,,{\rBase}5 {\rBase}veces {\rHot\t(0,150,\fscx120\fscy120)}más
+Dialogue: 0,0:00:15.62,0:00:16.12,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}riesgo {\rBase}de {\rBase}hipertensión
+Dialogue: 0,0:00:16.12,0:00:16.30,Base,,0,0,0,,{\rBase}riesgo {\rHot\t(0,150,\fscx120\fscy120)}de {\rBase}hipertensión
+Dialogue: 0,0:00:16.30,0:00:17.01,Base,,0,0,0,,{\rBase}riesgo {\rBase}de {\rHot\t(0,150,\fscx120\fscy120)}hipertensión
+Dialogue: 0,0:00:16.96,0:00:17.98,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}crónica, {\rBase}2 {\rBase}veces
+Dialogue: 0,0:00:17.98,0:00:18.12,Base,,0,0,0,,{\rBase}crónica, {\rHot\t(0,150,\fscx120\fscy120)}2 {\rBase}veces
+Dialogue: 0,0:00:18.12,0:00:18.49,Base,,0,0,0,,{\rBase}crónica, {\rBase}2 {\rHot\t(0,150,\fscx120\fscy120)}veces
+Dialogue: 0,0:00:18.44,0:00:18.66,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}más {\rBase}riesgo {\rBase}de
+Dialogue: 0,0:00:18.66,0:00:19.10,Base,,0,0,0,,{\rBase}más {\rHot\t(0,150,\fscx120\fscy120)}riesgo {\rBase}de
+Dialogue: 0,0:00:19.10,0:00:19.29,Base,,0,0,0,,{\rBase}más {\rBase}riesgo {\rHot\t(0,150,\fscx120\fscy120)}de
+Dialogue: 0,0:00:19.24,0:00:19.72,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}enfermedad {\rBase}coronaria {\rBase}y
+Dialogue: 0,0:00:19.72,0:00:20.26,Base,,0,0,0,,{\rBase}enfermedad {\rHot\t(0,150,\fscx120\fscy120)}coronaria {\rBase}y
+Dialogue: 0,0:00:20.26,0:00:20.57,Base,,0,0,0,,{\rBase}enfermedad {\rBase}coronaria {\rHot\t(0,150,\fscx120\fscy120)}y
+Dialogue: 0,0:00:20.52,0:00:20.72,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}1 {\rBase}.8 {\rBase}veces
+Dialogue: 0,0:00:20.72,0:00:21.32,Base,,0,0,0,,{\rBase}1 {\rHot\t(0,150,\fscx120\fscy120)}.8 {\rBase}veces
+Dialogue: 0,0:00:21.32,0:00:21.67,Base,,0,0,0,,{\rBase}1 {\rBase}.8 {\rHot\t(0,150,\fscx120\fscy120)}veces
+Dialogue: 0,0:00:21.62,0:00:22.02,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}más {\rBase}riesgo {\rBase}de
+Dialogue: 0,0:00:22.02,0:00:22.54,Base,,0,0,0,,{\rBase}más {\rHot\t(0,150,\fscx120\fscy120)}riesgo {\rBase}de
+Dialogue: 0,0:00:22.54,0:00:22.73,Base,,0,0,0,,{\rBase}más {\rBase}riesgo {\rHot\t(0,150,\fscx120\fscy120)}de
+Dialogue: 0,0:00:22.68,0:00:23.30,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}accidente {\rBase}cerebrovascular {\rBase}en
+Dialogue: 0,0:00:23.30,0:00:24.08,Base,,0,0,0,,{\rBase}accidente {\rHot\t(0,150,\fscx120\fscy120)}cerebrovascular {\rBase}en
+Dialogue: 0,0:00:24.08,0:00:24.71,Base,,0,0,0,,{\rBase}accidente {\rBase}cerebrovascular {\rHot\t(0,150,\fscx120\fscy120)}en
+Dialogue: 0,0:00:24.66,0:00:24.78,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}los {\rBase}10 {\rBase}-20
+Dialogue: 0,0:00:24.78,0:00:25.00,Base,,0,0,0,,{\rBase}los {\rHot\t(0,150,\fscx120\fscy120)}10 {\rBase}-20
+Dialogue: 0,0:00:25.00,0:00:25.41,Base,,0,0,0,,{\rBase}los {\rBase}10 {\rHot\t(0,150,\fscx120\fscy120)}-20
+Dialogue: 0,0:00:25.36,0:00:25.60,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}años {\rBase}posteriores.
+Dialogue: 0,0:00:25.60,0:00:26.29,Base,,0,0,0,,{\rBase}años {\rHot\t(0,150,\fscx120\fscy120)}posteriores.

@@ -1,0 +1,79 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,84,&H00B4377C,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La {\rBase}fiebre {\rBase}materna
+Dialogue: 0,0:00:00.26,0:00:00.58,Base,,0,0,0,,{\rBase}La {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}fiebre {\rBase}materna
+Dialogue: 0,0:00:00.58,0:00:01.15,Base,,0,0,0,,{\rBase}La {\rBase}fiebre {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}materna
+Dialogue: 0,0:00:01.10,0:00:01.20,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}la {\rBase}taquicardia
+Dialogue: 0,0:00:01.20,0:00:01.30,Base,,0,0,0,,{\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}taquicardia
+Dialogue: 0,0:00:01.30,0:00:02.01,Base,,0,0,0,,{\rBase}y {\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}taquicardia
+Dialogue: 0,0:00:01.96,0:00:02.36,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}fetal {\rBase}aparecen {\rBase}tarde.
+Dialogue: 0,0:00:02.36,0:00:02.86,Base,,0,0,0,,{\rBase}fetal {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}aparecen {\rBase}tarde.
+Dialogue: 0,0:00:02.86,0:00:03.29,Base,,0,0,0,,{\rBase}fetal {\rBase}aparecen {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tarde.
+Dialogue: 0,0:00:03.64,0:00:04.06,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Para {\rBase}entonces {\rBase}ya
+Dialogue: 0,0:00:04.06,0:00:04.54,Base,,0,0,0,,{\rBase}Para {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}entonces {\rBase}ya
+Dialogue: 0,0:00:04.54,0:00:05.01,Base,,0,0,0,,{\rBase}Para {\rBase}entonces {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ya
+Dialogue: 0,0:00:04.96,0:00:05.18,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hay {\rBase}activación {\rBase}inflamatoria
+Dialogue: 0,0:00:05.18,0:00:05.76,Base,,0,0,0,,{\rBase}hay {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}activación {\rBase}inflamatoria
+Dialogue: 0,0:00:05.76,0:00:06.51,Base,,0,0,0,,{\rBase}hay {\rBase}activación {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}inflamatoria
+Dialogue: 0,0:00:06.46,0:00:06.60,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}que {\rBase}dispara {\rBase}parto
+Dialogue: 0,0:00:06.60,0:00:07.06,Base,,0,0,0,,{\rBase}que {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}dispara {\rBase}parto
+Dialogue: 0,0:00:07.06,0:00:07.49,Base,,0,0,0,,{\rBase}que {\rBase}dispara {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}parto
+Dialogue: 0,0:00:07.44,0:00:08.48,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pretérmino. {\rBase}En {\rBase}infección
+Dialogue: 0,0:00:08.48,0:00:08.90,Base,,0,0,0,,{\rBase}pretérmino. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}En {\rBase}infección
+Dialogue: 0,0:00:08.90,0:00:09.47,Base,,0,0,0,,{\rBase}pretérmino. {\rBase}En {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}infección
+Dialogue: 0,0:00:09.42,0:00:10.30,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ascendente, {\rBase}típicamente {\rBase}tras
+Dialogue: 0,0:00:10.30,0:00:11.14,Base,,0,0,0,,{\rBase}ascendente, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}típicamente {\rBase}tras
+Dialogue: 0,0:00:11.14,0:00:11.51,Base,,0,0,0,,{\rBase}ascendente, {\rBase}típicamente {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tras
+Dialogue: 0,0:00:11.46,0:00:11.90,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}RPM {\rBase}con {\rBase}flora
+Dialogue: 0,0:00:11.90,0:00:12.40,Base,,0,0,0,,{\rBase}RPM {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}flora
+Dialogue: 0,0:00:12.40,0:00:12.73,Base,,0,0,0,,{\rBase}RPM {\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}flora
+Dialogue: 0,0:00:12.68,0:00:13.38,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}vaginal, {\rBase}las {\rBase}bacterias
+Dialogue: 0,0:00:13.38,0:00:13.90,Base,,0,0,0,,{\rBase}vaginal, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}las {\rBase}bacterias
+Dialogue: 0,0:00:13.90,0:00:14.45,Base,,0,0,0,,{\rBase}vaginal, {\rBase}las {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}bacterias
+Dialogue: 0,0:00:14.40,0:00:14.92,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}penetran {\rBase}corión {\rBase}y
+Dialogue: 0,0:00:14.92,0:00:15.42,Base,,0,0,0,,{\rBase}penetran {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}corión {\rBase}y
+Dialogue: 0,0:00:15.42,0:00:15.65,Base,,0,0,0,,{\rBase}penetran {\rBase}corión {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y
+Dialogue: 0,0:00:15.60,0:00:16.32,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}amnios. {\rBase}Las {\rBase}membranas
+Dialogue: 0,0:00:16.32,0:00:16.70,Base,,0,0,0,,{\rBase}amnios. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Las {\rBase}membranas
+Dialogue: 0,0:00:16.70,0:00:17.33,Base,,0,0,0,,{\rBase}amnios. {\rBase}Las {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}membranas
+Dialogue: 0,0:00:17.28,0:00:17.86,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}liberan {\rBase}IL {\rBase}-1,
+Dialogue: 0,0:00:17.86,0:00:18.30,Base,,0,0,0,,{\rBase}liberan {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}IL {\rBase}-1,
+Dialogue: 0,0:00:18.30,0:00:18.81,Base,,0,0,0,,{\rBase}liberan {\rBase}IL {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}-1,
+Dialogue: 0,0:00:18.96,0:00:19.38,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}IL {\rBase}-6 {\rBase}y
+Dialogue: 0,0:00:19.38,0:00:19.96,Base,,0,0,0,,{\rBase}IL {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}-6 {\rBase}y
+Dialogue: 0,0:00:19.96,0:00:20.37,Base,,0,0,0,,{\rBase}IL {\rBase}-6 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y
+Dialogue: 0,0:00:20.32,0:00:21.28,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}TNF {\rBase}-alfa {\rBase}que
+Dialogue: 0,0:00:21.28,0:00:21.92,Base,,0,0,0,,{\rBase}TNF {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}-alfa {\rBase}que
+Dialogue: 0,0:00:21.92,0:00:22.51,Base,,0,0,0,,{\rBase}TNF {\rBase}-alfa {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}que
+Dialogue: 0,0:00:22.46,0:00:22.90,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}activan {\rBase}prostaglandinas {\rBase}en
+Dialogue: 0,0:00:22.90,0:00:23.88,Base,,0,0,0,,{\rBase}activan {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}prostaglandinas {\rBase}en
+Dialogue: 0,0:00:23.88,0:00:24.15,Base,,0,0,0,,{\rBase}activan {\rBase}prostaglandinas {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en
+Dialogue: 0,0:00:24.10,0:00:24.58,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}decidua {\rBase}y {\rBase}miometrio,
+Dialogue: 0,0:00:24.58,0:00:24.66,Base,,0,0,0,,{\rBase}decidua {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}miometrio,
+Dialogue: 0,0:00:24.66,0:00:25.39,Base,,0,0,0,,{\rBase}decidua {\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}miometrio,
+Dialogue: 0,0:00:25.78,0:00:26.22,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}induciendo {\rBase}maduración {\rBase}cervical
+Dialogue: 0,0:00:26.22,0:00:26.80,Base,,0,0,0,,{\rBase}induciendo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}maduración {\rBase}cervical
+Dialogue: 0,0:00:26.80,0:00:27.27,Base,,0,0,0,,{\rBase}induciendo {\rBase}maduración {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cervical
+Dialogue: 0,0:00:27.22,0:00:27.58,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}contracciones {\rBase}precoces.
+Dialogue: 0,0:00:27.58,0:00:28.24,Base,,0,0,0,,{\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}contracciones {\rBase}precoces.
+Dialogue: 0,0:00:28.24,0:00:28.91,Base,,0,0,0,,{\rBase}y {\rBase}contracciones {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}precoces.
+Dialogue: 0,0:00:28.86,0:00:29.64,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La {\rBase}infiltración {\rBase}leucocitaria
+Dialogue: 0,0:00:29.64,0:00:30.34,Base,,0,0,0,,{\rBase}La {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}infiltración {\rBase}leucocitaria
+Dialogue: 0,0:00:30.34,0:00:31.31,Base,,0,0,0,,{\rBase}La {\rBase}infiltración {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}leucocitaria
+Dialogue: 0,0:00:31.26,0:00:31.44,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}del {\rBase}líquido {\rBase}amniótico
+Dialogue: 0,0:00:31.44,0:00:31.86,Base,,0,0,0,,{\rBase}del {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}líquido {\rBase}amniótico
+Dialogue: 0,0:00:31.86,0:00:32.57,Base,,0,0,0,,{\rBase}del {\rBase}líquido {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}amniótico
+Dialogue: 0,0:00:32.52,0:00:33.04,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}define {\rBase}la {\rBase}corioamnionitis.
+Dialogue: 0,0:00:33.04,0:00:33.26,Base,,0,0,0,,{\rBase}define {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}corioamnionitis.
+Dialogue: 0,0:00:33.26,0:00:34.49,Base,,0,0,0,,{\rBase}define {\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}corioamnionitis.

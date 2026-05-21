@@ -1,0 +1,69 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H001E80FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.30,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}El {\rBase}misoprostol {\rBase}se
+Dialogue: 0,0:00:00.30,0:00:01.06,Base,,0,0,0,,{\rBase}El {\rHot\t(0,120,\fscx115\fscy115)}misoprostol {\rBase}se
+Dialogue: 0,0:00:01.06,0:00:01.29,Base,,0,0,0,,{\rBase}El {\rBase}misoprostol {\rHot\t(0,120,\fscx115\fscy115)}se
+Dialogue: 0,0:00:01.24,0:00:01.56,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}asocia {\rBase}con {\rBase}escalofríos
+Dialogue: 0,0:00:01.56,0:00:01.76,Base,,0,0,0,,{\rBase}asocia {\rHot\t(0,120,\fscx115\fscy115)}con {\rBase}escalofríos
+Dialogue: 0,0:00:01.76,0:00:02.65,Base,,0,0,0,,{\rBase}asocia {\rBase}con {\rHot\t(0,120,\fscx115\fscy115)}escalofríos
+Dialogue: 0,0:00:02.60,0:00:02.76,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}e {\rBase}hipertermia, {\rBase}lo
+Dialogue: 0,0:00:02.76,0:00:03.74,Base,,0,0,0,,{\rBase}e {\rHot\t(0,120,\fscx115\fscy115)}hipertermia, {\rBase}lo
+Dialogue: 0,0:00:03.74,0:00:04.19,Base,,0,0,0,,{\rBase}e {\rBase}hipertermia, {\rHot\t(0,120,\fscx115\fscy115)}lo
+Dialogue: 0,0:00:04.14,0:00:04.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}que {\rBase}genera {\rBase}desconfianza
+Dialogue: 0,0:00:04.26,0:00:04.60,Base,,0,0,0,,{\rBase}que {\rHot\t(0,120,\fscx115\fscy115)}genera {\rBase}desconfianza
+Dialogue: 0,0:00:04.60,0:00:05.31,Base,,0,0,0,,{\rBase}que {\rBase}genera {\rHot\t(0,120,\fscx115\fscy115)}desconfianza
+Dialogue: 0,0:00:05.26,0:00:05.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}equipos {\rBase}clínicos,
+Dialogue: 0,0:00:05.38,0:00:05.80,Base,,0,0,0,,{\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}equipos {\rBase}clínicos,
+Dialogue: 0,0:00:05.80,0:00:06.37,Base,,0,0,0,,{\rBase}en {\rBase}equipos {\rHot\t(0,120,\fscx115\fscy115)}clínicos,
+Dialogue: 0,0:00:06.56,0:00:06.92,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}pero {\rBase}su {\rBase}perfil
+Dialogue: 0,0:00:06.92,0:00:07.08,Base,,0,0,0,,{\rBase}pero {\rHot\t(0,120,\fscx115\fscy115)}su {\rBase}perfil
+Dialogue: 0,0:00:07.08,0:00:07.57,Base,,0,0,0,,{\rBase}pero {\rBase}su {\rHot\t(0,120,\fscx115\fscy115)}perfil
+Dialogue: 0,0:00:07.52,0:00:08.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}beneficio {\rBase}-riesgo {\rBase}es
+Dialogue: 0,0:00:08.08,0:00:08.56,Base,,0,0,0,,{\rBase}beneficio {\rHot\t(0,120,\fscx115\fscy115)}-riesgo {\rBase}es
+Dialogue: 0,0:00:08.56,0:00:08.95,Base,,0,0,0,,{\rBase}beneficio {\rBase}-riesgo {\rHot\t(0,120,\fscx115\fscy115)}es
+Dialogue: 0,0:00:08.90,0:00:09.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}favorable {\rBase}en {\rBase}contextos
+Dialogue: 0,0:00:09.34,0:00:09.88,Base,,0,0,0,,{\rBase}favorable {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}contextos
+Dialogue: 0,0:00:09.88,0:00:10.65,Base,,0,0,0,,{\rBase}favorable {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}contextos
+Dialogue: 0,0:00:10.60,0:00:11.04,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}sin {\rBase}acceso {\rBase}a
+Dialogue: 0,0:00:11.04,0:00:11.54,Base,,0,0,0,,{\rBase}sin {\rHot\t(0,120,\fscx115\fscy115)}acceso {\rBase}a
+Dialogue: 0,0:00:11.54,0:00:11.75,Base,,0,0,0,,{\rBase}sin {\rBase}acceso {\rHot\t(0,120,\fscx115\fscy115)}a
+Dialogue: 0,0:00:11.70,0:00:13.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}oxitocina. {\rBase}El {\rBase}misoprostol
+Dialogue: 0,0:00:13.00,0:00:13.86,Base,,0,0,0,,{\rBase}oxitocina. {\rHot\t(0,120,\fscx115\fscy115)}El {\rBase}misoprostol
+Dialogue: 0,0:00:13.86,0:00:14.61,Base,,0,0,0,,{\rBase}oxitocina. {\rBase}El {\rHot\t(0,120,\fscx115\fscy115)}misoprostol
+Dialogue: 0,0:00:14.56,0:00:15.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}sublingual, {\rBase}800 {\rBase}-MSG,
+Dialogue: 0,0:00:15.36,0:00:16.08,Base,,0,0,0,,{\rBase}sublingual, {\rHot\t(0,120,\fscx115\fscy115)}800 {\rBase}-MSG,
+Dialogue: 0,0:00:16.08,0:00:17.13,Base,,0,0,0,,{\rBase}sublingual, {\rBase}800 {\rHot\t(0,120,\fscx115\fscy115)}-MSG,
+Dialogue: 0,0:00:17.34,0:00:17.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}eficaz {\rBase}como
+Dialogue: 0,0:00:17.62,0:00:18.08,Base,,0,0,0,,{\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}eficaz {\rBase}como
+Dialogue: 0,0:00:18.08,0:00:18.37,Base,,0,0,0,,{\rBase}es {\rBase}eficaz {\rHot\t(0,120,\fscx115\fscy115)}como
+Dialogue: 0,0:00:18.32,0:00:18.82,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}fármaco {\rBase}de {\rBase}segunda
+Dialogue: 0,0:00:18.82,0:00:18.98,Base,,0,0,0,,{\rBase}fármaco {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}segunda
+Dialogue: 0,0:00:18.98,0:00:19.37,Base,,0,0,0,,{\rBase}fármaco {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}segunda
+Dialogue: 0,0:00:19.32,0:00:19.66,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}línea {\rBase}para {\rBase}HPP
+Dialogue: 0,0:00:19.66,0:00:19.92,Base,,0,0,0,,{\rBase}línea {\rHot\t(0,120,\fscx115\fscy115)}para {\rBase}HPP
+Dialogue: 0,0:00:19.92,0:00:20.67,Base,,0,0,0,,{\rBase}línea {\rBase}para {\rHot\t(0,120,\fscx115\fscy115)}HPP
+Dialogue: 0,0:00:20.62,0:00:21.20,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}cuando {\rBase}no {\rBase}hay
+Dialogue: 0,0:00:21.20,0:00:21.40,Base,,0,0,0,,{\rBase}cuando {\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}hay
+Dialogue: 0,0:00:21.40,0:00:21.63,Base,,0,0,0,,{\rBase}cuando {\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}hay
+Dialogue: 0,0:00:21.58,0:00:22.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}oxitocina {\rBase}inyectable {\rBase}disponible,
+Dialogue: 0,0:00:22.24,0:00:22.76,Base,,0,0,0,,{\rBase}oxitocina {\rHot\t(0,120,\fscx115\fscy115)}inyectable {\rBase}disponible,
+Dialogue: 0,0:00:22.76,0:00:23.51,Base,,0,0,0,,{\rBase}oxitocina {\rBase}inyectable {\rHot\t(0,120,\fscx115\fscy115)}disponible,
+Dialogue: 0,0:00:23.68,0:00:24.30,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}reduciendo {\rBase}la {\rBase}necesidad
+Dialogue: 0,0:00:24.30,0:00:24.48,Base,,0,0,0,,{\rBase}reduciendo {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}necesidad
+Dialogue: 0,0:00:24.48,0:00:25.01,Base,,0,0,0,,{\rBase}reduciendo {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}necesidad
+Dialogue: 0,0:00:24.96,0:00:25.10,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}transfusiones {\rBase}en
+Dialogue: 0,0:00:25.10,0:00:25.82,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}transfusiones {\rBase}en
+Dialogue: 0,0:00:25.82,0:00:26.09,Base,,0,0,0,,{\rBase}de {\rBase}transfusiones {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:26.04,0:00:26.14,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}un {\rBase}30%.
+Dialogue: 0,0:00:26.14,0:00:26.85,Base,,0,0,0,,{\rBase}un {\rHot\t(0,120,\fscx115\fscy115)}30%.

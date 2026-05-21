@@ -1,0 +1,85 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H003C3CE6,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.30,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La {\rBase}evaluación {\rBase}de
+Dialogue: 0,0:00:00.30,0:00:00.86,Base,,0,0,0,,{\rBase}La {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}evaluación {\rBase}de
+Dialogue: 0,0:00:00.86,0:00:01.03,Base,,0,0,0,,{\rBase}La {\rBase}evaluación {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:00.98,0:00:01.10,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}asfixia {\rBase}se
+Dialogue: 0,0:00:01.10,0:00:01.60,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}asfixia {\rBase}se
+Dialogue: 0,0:00:01.60,0:00:02.13,Base,,0,0,0,,{\rBase}la {\rBase}asfixia {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}se
+Dialogue: 0,0:00:02.08,0:00:02.36,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}basa {\rBase}principalmente {\rBase}en
+Dialogue: 0,0:00:02.36,0:00:03.02,Base,,0,0,0,,{\rBase}basa {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}principalmente {\rBase}en
+Dialogue: 0,0:00:03.02,0:00:03.65,Base,,0,0,0,,{\rBase}basa {\rBase}principalmente {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en
+Dialogue: 0,0:00:03.60,0:00:03.98,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pH {\rBase}de {\rBase}cordón
+Dialogue: 0,0:00:03.98,0:00:04.34,Base,,0,0,0,,{\rBase}pH {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}cordón
+Dialogue: 0,0:00:04.34,0:00:04.81,Base,,0,0,0,,{\rBase}pH {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cordón
+Dialogue: 0,0:00:04.76,0:00:05.32,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}examen {\rBase}neurológico
+Dialogue: 0,0:00:05.32,0:00:05.80,Base,,0,0,0,,{\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}examen {\rBase}neurológico
+Dialogue: 0,0:00:05.80,0:00:06.59,Base,,0,0,0,,{\rBase}y {\rBase}examen {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}neurológico
+Dialogue: 0,0:00:06.54,0:00:07.22,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}clínico, {\rBase}SAMAT, {\rBase}pero
+Dialogue: 0,0:00:07.22,0:00:08.20,Base,,0,0,0,,{\rBase}clínico, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}SAMAT, {\rBase}pero
+Dialogue: 0,0:00:08.20,0:00:08.63,Base,,0,0,0,,{\rBase}clínico, {\rBase}SAMAT, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pero
+Dialogue: 0,0:00:08.58,0:00:08.76,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}los {\rBase}biomarcadores {\rBase}séricos
+Dialogue: 0,0:00:08.76,0:00:09.50,Base,,0,0,0,,{\rBase}los {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}biomarcadores {\rBase}séricos
+Dialogue: 0,0:00:09.50,0:00:10.19,Base,,0,0,0,,{\rBase}los {\rBase}biomarcadores {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}séricos
+Dialogue: 0,0:00:10.14,0:00:10.68,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tempranos {\rBase}como {\rBase}la
+Dialogue: 0,0:00:10.68,0:00:10.90,Base,,0,0,0,,{\rBase}tempranos {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}como {\rBase}la
+Dialogue: 0,0:00:10.90,0:00:11.13,Base,,0,0,0,,{\rBase}tempranos {\rBase}como {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la
+Dialogue: 0,0:00:11.08,0:00:11.84,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}NSE {\rBase}tienen {\rBase}mayor
+Dialogue: 0,0:00:11.84,0:00:12.56,Base,,0,0,0,,{\rBase}NSE {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tienen {\rBase}mayor
+Dialogue: 0,0:00:12.56,0:00:12.99,Base,,0,0,0,,{\rBase}NSE {\rBase}tienen {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}mayor
+Dialogue: 0,0:00:12.94,0:00:13.50,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}capacidad {\rBase}predictiva {\rBase}que
+Dialogue: 0,0:00:13.50,0:00:14.22,Base,,0,0,0,,{\rBase}capacidad {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}predictiva {\rBase}que
+Dialogue: 0,0:00:14.22,0:00:14.45,Base,,0,0,0,,{\rBase}capacidad {\rBase}predictiva {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}que
+Dialogue: 0,0:00:14.40,0:00:15.04,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ambos. {\rBase}La {\rBase}enolasa
+Dialogue: 0,0:00:15.04,0:00:15.76,Base,,0,0,0,,{\rBase}ambos. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La {\rBase}enolasa
+Dialogue: 0,0:00:15.76,0:00:16.37,Base,,0,0,0,,{\rBase}ambos. {\rBase}La {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}enolasa
+Dialogue: 0,0:00:16.32,0:00:16.88,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}neuronal {\rBase}específica, {\rBase}NSE,
+Dialogue: 0,0:00:16.88,0:00:18.06,Base,,0,0,0,,{\rBase}neuronal {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}específica, {\rBase}NSE,
+Dialogue: 0,0:00:18.06,0:00:18.87,Base,,0,0,0,,{\rBase}neuronal {\rBase}específica, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}NSE,
+Dialogue: 0,0:00:19.32,0:00:19.54,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}suero, {\rBase}a
+Dialogue: 0,0:00:19.54,0:00:20.16,Base,,0,0,0,,{\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}suero, {\rBase}a
+Dialogue: 0,0:00:20.16,0:00:20.25,Base,,0,0,0,,{\rBase}en {\rBase}suero, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}a
+Dialogue: 0,0:00:20.20,0:00:20.36,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}las {\rBase}6 {\rBase}horas
+Dialogue: 0,0:00:20.36,0:00:20.54,Base,,0,0,0,,{\rBase}las {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}6 {\rBase}horas
+Dialogue: 0,0:00:20.54,0:00:20.81,Base,,0,0,0,,{\rBase}las {\rBase}6 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}horas
+Dialogue: 0,0:00:20.76,0:00:20.94,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}vida, {\rBase}tiene
+Dialogue: 0,0:00:20.94,0:00:21.34,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}vida, {\rBase}tiene
+Dialogue: 0,0:00:21.34,0:00:21.53,Base,,0,0,0,,{\rBase}de {\rBase}vida, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tiene
+Dialogue: 0,0:00:21.48,0:00:21.64,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}un {\rBase}área {\rBase}bajo
+Dialogue: 0,0:00:21.64,0:00:21.84,Base,,0,0,0,,{\rBase}un {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}área {\rBase}bajo
+Dialogue: 0,0:00:21.84,0:00:22.17,Base,,0,0,0,,{\rBase}un {\rBase}área {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}bajo
+Dialogue: 0,0:00:22.12,0:00:22.34,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}curva {\rBase}ROC
+Dialogue: 0,0:00:22.34,0:00:22.68,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}curva {\rBase}ROC
+Dialogue: 0,0:00:22.68,0:00:23.05,Base,,0,0,0,,{\rBase}la {\rBase}curva {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ROC
+Dialogue: 0,0:00:23.00,0:00:23.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}0 {\rBase}.91
+Dialogue: 0,0:00:23.26,0:00:23.50,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}0 {\rBase}.91
+Dialogue: 0,0:00:23.50,0:00:24.59,Base,,0,0,0,,{\rBase}de {\rBase}0 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}.91
+Dialogue: 0,0:00:24.54,0:00:25.28,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}para {\rBase}predecir {\rBase}EGI
+Dialogue: 0,0:00:25.28,0:00:26.02,Base,,0,0,0,,{\rBase}para {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}predecir {\rBase}EGI
+Dialogue: 0,0:00:26.02,0:00:26.63,Base,,0,0,0,,{\rBase}para {\rBase}predecir {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}EGI
+Dialogue: 0,0:00:26.58,0:00:27.20,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}moderada {\rBase}severa, {\rBase}superando
+Dialogue: 0,0:00:27.20,0:00:27.88,Base,,0,0,0,,{\rBase}moderada {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}severa, {\rBase}superando
+Dialogue: 0,0:00:27.88,0:00:28.61,Base,,0,0,0,,{\rBase}moderada {\rBase}severa, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}superando
+Dialogue: 0,0:00:28.56,0:00:28.70,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}al {\rBase}muestreo {\rBase}de
+Dialogue: 0,0:00:28.70,0:00:29.14,Base,,0,0,0,,{\rBase}al {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}muestreo {\rBase}de
+Dialogue: 0,0:00:29.14,0:00:29.31,Base,,0,0,0,,{\rBase}al {\rBase}muestreo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:29.26,0:00:29.68,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cordón {\rBase}único {\rBase}y
+Dialogue: 0,0:00:29.68,0:00:29.98,Base,,0,0,0,,{\rBase}cordón {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}único {\rBase}y
+Dialogue: 0,0:00:29.98,0:00:30.33,Base,,0,0,0,,{\rBase}cordón {\rBase}único {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y
+Dialogue: 0,0:00:30.28,0:00:30.42,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}al {\rBase}examen {\rBase}neurológico
+Dialogue: 0,0:00:30.42,0:00:30.86,Base,,0,0,0,,{\rBase}al {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}examen {\rBase}neurológico
+Dialogue: 0,0:00:30.86,0:00:31.61,Base,,0,0,0,,{\rBase}al {\rBase}examen {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}neurológico
+Dialogue: 0,0:00:31.56,0:00:32.14,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}temprano {\rBase}en {\rBase}precisión.
+Dialogue: 0,0:00:32.14,0:00:32.30,Base,,0,0,0,,{\rBase}temprano {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}precisión.
+Dialogue: 0,0:00:32.30,0:00:32.95,Base,,0,0,0,,{\rBase}temprano {\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}precisión.

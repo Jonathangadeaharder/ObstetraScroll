@@ -1,0 +1,80 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0000E5FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Basándose {\rBase}en {\rBase}los
+Dialogue: 0,0:00:00.60,0:00:00.72,Base,,0,0,0,,{\rBase}Basándose {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}los
+Dialogue: 0,0:00:00.72,0:00:00.89,Base,,0,0,0,,{\rBase}Basándose {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}los
+Dialogue: 0,0:00:00.84,0:00:01.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}resultados {\rBase}positivos {\rBase}en
+Dialogue: 0,0:00:01.26,0:00:01.96,Base,,0,0,0,,{\rBase}resultados {\rHot\t(0,120,\fscx115\fscy115)}positivos {\rBase}en
+Dialogue: 0,0:00:01.96,0:00:02.31,Base,,0,0,0,,{\rBase}resultados {\rBase}positivos {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:02.26,0:00:03.06,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}neuroprotección {\rBase}antenatal, {\rBase}muchos
+Dialogue: 0,0:00:03.06,0:00:04.30,Base,,0,0,0,,{\rBase}neuroprotección {\rHot\t(0,120,\fscx115\fscy115)}antenatal, {\rBase}muchos
+Dialogue: 0,0:00:04.30,0:00:04.61,Base,,0,0,0,,{\rBase}neuroprotección {\rBase}antenatal, {\rHot\t(0,120,\fscx115\fscy115)}muchos
+Dialogue: 0,0:00:04.56,0:00:05.30,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}neonatólogos {\rBase}extrapolaron {\rBase}el
+Dialogue: 0,0:00:05.30,0:00:06.18,Base,,0,0,0,,{\rBase}neonatólogos {\rHot\t(0,120,\fscx115\fscy115)}extrapolaron {\rBase}el
+Dialogue: 0,0:00:06.18,0:00:06.37,Base,,0,0,0,,{\rBase}neonatólogos {\rBase}extrapolaron {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:06.32,0:00:06.82,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}beneficio {\rBase}del {\rBase}magnesio
+Dialogue: 0,0:00:06.82,0:00:07.00,Base,,0,0,0,,{\rBase}beneficio {\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}magnesio
+Dialogue: 0,0:00:07.00,0:00:07.69,Base,,0,0,0,,{\rBase}beneficio {\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}magnesio
+Dialogue: 0,0:00:07.64,0:00:07.92,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}al {\rBase}periodo {\rBase}posnatal,
+Dialogue: 0,0:00:07.92,0:00:08.36,Base,,0,0,0,,{\rBase}al {\rHot\t(0,120,\fscx115\fscy115)}periodo {\rBase}posnatal,
+Dialogue: 0,0:00:08.36,0:00:08.97,Base,,0,0,0,,{\rBase}al {\rBase}periodo {\rHot\t(0,120,\fscx115\fscy115)}posnatal,
+Dialogue: 0,0:00:09.12,0:00:09.54,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}pero {\rBase}los {\rBase}ensayos
+Dialogue: 0,0:00:09.54,0:00:09.74,Base,,0,0,0,,{\rBase}pero {\rHot\t(0,120,\fscx115\fscy115)}los {\rBase}ensayos
+Dialogue: 0,0:00:09.74,0:00:10.27,Base,,0,0,0,,{\rBase}pero {\rBase}los {\rHot\t(0,120,\fscx115\fscy115)}ensayos
+Dialogue: 0,0:00:10.22,0:00:10.74,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}clínicos {\rBase}no {\rBase}confirman
+Dialogue: 0,0:00:10.74,0:00:11.08,Base,,0,0,0,,{\rBase}clínicos {\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}confirman
+Dialogue: 0,0:00:11.08,0:00:11.79,Base,,0,0,0,,{\rBase}clínicos {\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}confirman
+Dialogue: 0,0:00:11.74,0:00:12.12,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}esta {\rBase}hipótesis. {\rBase}A
+Dialogue: 0,0:00:12.12,0:00:13.00,Base,,0,0,0,,{\rBase}esta {\rHot\t(0,120,\fscx115\fscy115)}hipótesis. {\rBase}A
+Dialogue: 0,0:00:13.00,0:00:13.47,Base,,0,0,0,,{\rBase}esta {\rBase}hipótesis. {\rHot\t(0,120,\fscx115\fscy115)}A
+Dialogue: 0,0:00:13.42,0:00:13.84,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}diferencia {\rBase}de {\rBase}su
+Dialogue: 0,0:00:13.84,0:00:14.20,Base,,0,0,0,,{\rBase}diferencia {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}su
+Dialogue: 0,0:00:14.20,0:00:14.41,Base,,0,0,0,,{\rBase}diferencia {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}su
+Dialogue: 0,0:00:14.36,0:00:14.66,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}uso {\rBase}antenatal {\rBase}en
+Dialogue: 0,0:00:14.66,0:00:15.24,Base,,0,0,0,,{\rBase}uso {\rHot\t(0,120,\fscx115\fscy115)}antenatal {\rBase}en
+Dialogue: 0,0:00:15.24,0:00:15.47,Base,,0,0,0,,{\rBase}uso {\rBase}antenatal {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:15.42,0:00:16.54,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}prematuros, {\rBase}el {\rBase}sulfato
+Dialogue: 0,0:00:16.54,0:00:16.74,Base,,0,0,0,,{\rBase}prematuros, {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}sulfato
+Dialogue: 0,0:00:16.74,0:00:17.27,Base,,0,0,0,,{\rBase}prematuros, {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}sulfato
+Dialogue: 0,0:00:17.22,0:00:17.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}magnesio {\rBase}administrado
+Dialogue: 0,0:00:17.34,0:00:17.86,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}magnesio {\rBase}administrado
+Dialogue: 0,0:00:17.86,0:00:18.59,Base,,0,0,0,,{\rBase}de {\rBase}magnesio {\rHot\t(0,120,\fscx115\fscy115)}administrado
+Dialogue: 0,0:00:18.54,0:00:18.90,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}después {\rBase}del {\rBase}nacimiento
+Dialogue: 0,0:00:18.90,0:00:19.12,Base,,0,0,0,,{\rBase}después {\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}nacimiento
+Dialogue: 0,0:00:19.12,0:00:19.77,Base,,0,0,0,,{\rBase}después {\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}nacimiento
+Dialogue: 0,0:00:19.72,0:00:19.90,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}neonatos {\rBase}con
+Dialogue: 0,0:00:19.90,0:00:20.44,Base,,0,0,0,,{\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}neonatos {\rBase}con
+Dialogue: 0,0:00:20.44,0:00:20.73,Base,,0,0,0,,{\rBase}en {\rBase}neonatos {\rHot\t(0,120,\fscx115\fscy115)}con
+Dialogue: 0,0:00:20.68,0:00:21.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}asfixia {\rBase}perinatal {\rBase}no
+Dialogue: 0,0:00:21.26,0:00:21.86,Base,,0,0,0,,{\rBase}asfixia {\rHot\t(0,120,\fscx115\fscy115)}perinatal {\rBase}no
+Dialogue: 0,0:00:21.86,0:00:22.79,Base,,0,0,0,,{\rBase}asfixia {\rBase}perinatal {\rHot\t(0,120,\fscx115\fscy115)}no
+Dialogue: 0,0:00:22.74,0:00:23.10,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}reduce {\rBase}la {\rBase}muerte
+Dialogue: 0,0:00:23.10,0:00:23.28,Base,,0,0,0,,{\rBase}reduce {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}muerte
+Dialogue: 0,0:00:23.28,0:00:23.69,Base,,0,0,0,,{\rBase}reduce {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}muerte
+Dialogue: 0,0:00:23.64,0:00:23.82,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}o {\rBase}discapacidad {\rBase}severa
+Dialogue: 0,0:00:23.82,0:00:24.54,Base,,0,0,0,,{\rBase}o {\rHot\t(0,120,\fscx115\fscy115)}discapacidad {\rBase}severa
+Dialogue: 0,0:00:24.54,0:00:25.03,Base,,0,0,0,,{\rBase}o {\rBase}discapacidad {\rHot\t(0,120,\fscx115\fscy115)}severa
+Dialogue: 0,0:00:24.98,0:00:25.10,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}a {\rBase}los {\rBase}18
+Dialogue: 0,0:00:25.10,0:00:25.24,Base,,0,0,0,,{\rBase}a {\rHot\t(0,120,\fscx115\fscy115)}los {\rBase}18
+Dialogue: 0,0:00:25.24,0:00:25.69,Base,,0,0,0,,{\rBase}a {\rBase}los {\rHot\t(0,120,\fscx115\fscy115)}18
+Dialogue: 0,0:00:25.64,0:00:26.10,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}meses. {\rBase}RR1 {\rBase}-01
+Dialogue: 0,0:00:26.10,0:00:27.36,Base,,0,0,0,,{\rBase}meses. {\rHot\t(0,120,\fscx115\fscy115)}RR1 {\rBase}-01
+Dialogue: 0,0:00:27.36,0:00:27.95,Base,,0,0,0,,{\rBase}meses. {\rBase}RR1 {\rHot\t(0,120,\fscx115\fscy115)}-01
+Dialogue: 0,0:00:27.90,0:00:28.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}C95 {\rBase}%
+Dialogue: 0,0:00:28.34,0:00:29.10,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}C95 {\rBase}%
+Dialogue: 0,0:00:29.10,0:00:29.85,Base,,0,0,0,,{\rBase}y {\rBase}C95 {\rHot\t(0,120,\fscx115\fscy115)}%
+Dialogue: 0,0:00:29.80,0:00:30.44,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}0 {\rBase}.92 {\rBase}1
+Dialogue: 0,0:00:30.44,0:00:31.02,Base,,0,0,0,,{\rBase}0 {\rHot\t(0,120,\fscx115\fscy115)}.92 {\rBase}1
+Dialogue: 0,0:00:31.02,0:00:31.65,Base,,0,0,0,,{\rBase}0 {\rBase}.92 {\rHot\t(0,120,\fscx115\fscy115)}1
+Dialogue: 0,0:00:31.60,0:00:32.27,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}.11

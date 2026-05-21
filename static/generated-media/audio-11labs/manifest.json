@@ -1,706 +1,1899 @@
 {
-  "generatedAt": "2026-05-20T23:03:50.069Z",
+  "generatedAt": "2026-05-21T00:58:39.891Z",
   "voiceId": "D6fGRDoSy1WFiaIpAbC7",
   "items": [
     {
-      "slug": "reel-01-hpp-oxitocina-profilaxis-10ui",
-      "title": "10 UI de oxitocina en el 3er periodo reduce HPP un 60%",
-      "tone": "calm",
+      "slug": "reel-001-hpp-oxitocina-profilaxis-10ui",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-01-hpp-oxitocina-profilaxis-10ui.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-001-hpp-oxitocina-profilaxis-10ui.mp3"
     },
     {
-      "slug": "reel-02-hpp-amtsl-vs-expectante",
-      "title": "El manejo activo del 3er periodo duplica la protección contra HPP",
-      "tone": "urgent",
+      "slug": "reel-002-hpp-amtsl-vs-expectante",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-02-hpp-amtsl-vs-expectante.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-002-hpp-amtsl-vs-expectante.mp3"
     },
     {
-      "slug": "reel-03-hpp-acido-tranexamico-woman",
-      "title": "Ácido tranexámico en HPP: cada minuto cuenta",
-      "tone": "mentor",
+      "slug": "reel-003-hpp-acido-tranexamico-woman",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-03-hpp-acido-tranexamico-woman.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-003-hpp-acido-tranexamico-woman.mp3"
     },
     {
-      "slug": "reel-04-hpp-masaje-uterano-post-parto",
-      "title": "El masaje uterino cada 15 minutos no previene HPP",
-      "tone": "calm",
+      "slug": "reel-004-hpp-masaje-uterano-post-parto",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-04-hpp-masaje-uterano-post-parto.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-004-hpp-masaje-uterano-post-parto.mp3"
     },
     {
-      "slug": "reel-05-hpp-carbetocina-paises-ingresos-medios",
-      "title": "Carbetocina estable en temperatura ambiente supera a oxitocina termolábil",
-      "tone": "urgent",
+      "slug": "reel-005-hpp-carbetocina-paises-ingresos-medios",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-05-hpp-carbetocina-paises-ingresos-medios.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-005-hpp-carbetocina-paises-ingresos-medios.mp3"
     },
     {
-      "slug": "reel-06-hpp-misoprostol-segunda-linea",
-      "title": "Misoprostol sublingual salva vidas donde no hay oxitocina",
-      "tone": "mentor",
+      "slug": "reel-006-hpp-misoprostol-segunda-linea",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-06-hpp-misoprostol-segunda-linea.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-006-hpp-misoprostol-segunda-linea.mp3"
     },
     {
-      "slug": "reel-07-hpp-traccion-controlada-cordon",
-      "title": "La tracción controlada del cordón no previene HPP por sí sola",
-      "tone": "calm",
+      "slug": "reel-007-hpp-traccion-controlada-cordon",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-07-hpp-traccion-controlada-cordon.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-007-hpp-traccion-controlada-cordon.mp3"
     },
     {
-      "slug": "reel-08-hpp-compresion-bimanual-uterina",
-      "title": "Compresión bimanual uterina: la maniobra que todos deberían conocer",
-      "tone": "urgent",
+      "slug": "reel-008-hpp-compresion-bimanual-uterina",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-08-hpp-compresion-bimanual-uterina.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-008-hpp-compresion-bimanual-uterina.mp3"
     },
     {
-      "slug": "reel-09-hpp-taponamiento-balón-uterino",
-      "title": "El balón de taponamiento uterino evita cirugías mayores en HPP",
-      "tone": "mentor",
+      "slug": "reel-009-hpp-taponamiento-balón-uterino",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-09-hpp-taponamiento-balón-uterino.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-009-hpp-taponamiento-balón-uterino.mp3"
     },
     {
-      "slug": "reel-10-hpp-ligadura-arterias-uterinas",
-      "title": "Ligadura de arterias uterinas preserva fertilidad en HPP refractaria",
-      "tone": "calm",
+      "slug": "reel-010-hpp-ligadura-arterias-uterinas",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-10-hpp-ligadura-arterias-uterinas.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-010-hpp-ligadura-arterias-uterinas.mp3"
     },
     {
-      "slug": "reel-11-hpp-hemoglobina-predictor-riesgo",
-      "title": "Hemoglobina preparto <11 g/dL triplica riesgo de HPP severa",
-      "tone": "urgent",
+      "slug": "reel-011-hpp-hemoglobina-predictor-riesgo",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-11-hpp-hemoglobina-predictor-riesgo.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-011-hpp-hemoglobina-predictor-riesgo.mp3"
     },
     {
-      "slug": "reel-12-hpp-atonia-causa-principal",
-      "title": "La atonía uterina causa el 80% de las HPP",
-      "tone": "mentor",
+      "slug": "reel-012-hpp-atonia-causa-principal",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-12-hpp-atonia-causa-principal.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-012-hpp-atonia-causa-principal.mp3"
     },
     {
-      "slug": "reel-13-hpp-desgarros-perineales-grado-3-4",
-      "title": "Los desgarros perineales severos duplican el riesgo de HPP tardía",
-      "tone": "calm",
+      "slug": "reel-013-hpp-desgarros-perineales-grado-3-4",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-13-hpp-desgarros-perineales-grado-3-4.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-013-hpp-desgarros-perineales-grado-3-4.mp3"
     },
     {
-      "slug": "reel-14-hpp-acretismo-placentario-mortalidad",
-      "title": "El acretismo placentario quintuplica el riesgo de muerte materna",
-      "tone": "urgent",
+      "slug": "reel-014-hpp-acretismo-placentario-mortalidad",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-14-hpp-acretismo-placentario-mortalidad.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-014-hpp-acretismo-placentario-mortalidad.mp3"
     },
     {
-      "slug": "reel-15-hpp-cesarea-hemorragia-mayor-volumen",
-      "title": "Cesárea duplica la pérdida sanguínea comparada con parto vaginal",
-      "tone": "mentor",
+      "slug": "reel-015-hpp-cesarea-hemorragia-mayor-volumen",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-15-hpp-cesarea-hemorragia-mayor-volumen.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-015-hpp-cesarea-hemorragia-mayor-volumen.mp3"
     },
     {
-      "slug": "reel-16-hpp-fluidos-reanimacion-restrictiva",
-      "title": "La reanimación con líquidos en HPP debe ser restrictiva",
-      "tone": "calm",
+      "slug": "reel-016-hpp-fluidos-reanimacion-restrictiva",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-16-hpp-fluidos-reanimacion-restrictiva.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-016-hpp-fluidos-reanimacion-restrictiva.mp3"
     },
     {
-      "slug": "reel-17-hpp-transfusion-temprana-razon-1-1",
-      "title": "Transfusión 1:1 en HPP mejora supervivencia",
-      "tone": "urgent",
+      "slug": "reel-017-hpp-transfusion-temprana-razon-1-1",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-17-hpp-transfusion-temprana-razon-1-1.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-017-hpp-transfusion-temprana-razon-1-1.mp3"
     },
     {
-      "slug": "reel-18-hpp-simulacion-equipos-resultados",
-      "title": "Simulación clínica en HPP reduce mortalidad un 30%",
-      "tone": "mentor",
+      "slug": "reel-018-hpp-simulacion-equipos-resultados",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-18-hpp-simulacion-equipos-resultados.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-018-hpp-simulacion-equipos-resultados.mp3"
     },
     {
-      "slug": "reel-19-hpp-retencion-restos-placentarios",
-      "title": "Restos placentarios: la causa olvidada de HPP secundaria",
-      "tone": "calm",
+      "slug": "reel-019-hpp-retencion-restos-placentarios",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-19-hpp-retencion-restos-placentarios.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-019-hpp-retencion-restos-placentarios.mp3"
     },
     {
-      "slug": "reel-20-hpp-ecografia-diagnostico-causa",
-      "title": "La ecografía en HPP aguda identifica causa en segundos",
-      "tone": "urgent",
+      "slug": "reel-020-hpp-ecografia-diagnostico-causa",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-20-hpp-ecografia-diagnostico-causa.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-020-hpp-ecografia-diagnostico-causa.mp3"
     },
     {
-      "slug": "reel-21-preeclampsia-aspirina-baja-dosis",
-      "title": "Aspirina 150 mg desde las 12 semanas reduce preeclampsia un 60%",
-      "tone": "mentor",
+      "slug": "reel-021-preeclampsia-aspirina-baja-dosis",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-21-preeclampsia-aspirina-baja-dosis.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-021-preeclampsia-aspirina-baja-dosis.mp3"
     },
     {
-      "slug": "reel-22-preeclampsia-calcio-suplementacion",
-      "title": "Calcio 1-2 g/día reduce preeclampsia un 50% en poblaciones con baja ingesta",
-      "tone": "calm",
+      "slug": "reel-022-preeclampsia-calcio-suplementacion",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-22-preeclampsia-calcio-suplementacion.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-022-preeclampsia-calcio-suplementacion.mp3"
     },
     {
-      "slug": "reel-23-preeclampsia-sulfato-magnesio-eclampsia",
-      "title": "Sulfato de magnesio reduce convulsiones eclámpticas un 50%",
-      "tone": "urgent",
+      "slug": "reel-023-preeclampsia-sulfato-magnesio-eclampsia",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-23-preeclampsia-sulfato-magnesio-eclampsia.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-023-preeclampsia-sulfato-magnesio-eclampsia.mp3"
     },
     {
-      "slug": "reel-24-preeclampsia-parto-electivo-37-semanas",
-      "title": "Parto electivo a las 37 semanas reduce complicaciones en preeclampsia",
-      "tone": "mentor",
+      "slug": "reel-024-preeclampsia-parto-electivo-37-semanas",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-24-preeclampsia-parto-electivo-37-semanas.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-024-preeclampsia-parto-electivo-37-semanas.mp3"
     },
     {
-      "slug": "reel-25-preeclampsia-ecografia-arterias-uterinas",
-      "title": "Ecografía de arterias uterinas predice preeclampsia desde el primer trimestre",
-      "tone": "calm",
+      "slug": "reel-025-preeclampsia-ecografia-arterias-uterinas",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-25-preeclampsia-ecografia-arterias-uterinas.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-025-preeclampsia-ecografia-arterias-uterinas.mp3"
     },
     {
-      "slug": "reel-26-preeclampsia-plgf-sflt1-diagnostico",
-      "title": "Cociente sFlt-1/PlGF descarta preeclampsia con 99% de certeza",
-      "tone": "urgent",
+      "slug": "reel-026-preeclampsia-plgf-sflt1-diagnostico",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-26-preeclampsia-plgf-sflt1-diagnostico.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-026-preeclampsia-plgf-sflt1-diagnostico.mp3"
     },
     {
-      "slug": "reel-27-preeclampsia-pedales-tipico-atipico",
-      "title": "El edema de miembros inferiores no es criterio diagnóstico de preeclampsia",
-      "tone": "mentor",
+      "slug": "reel-027-preeclampsia-pedales-tipico-atipico",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-27-preeclampsia-pedales-tipico-atipico.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-027-preeclampsia-pedales-tipico-atipico.mp3"
     },
     {
-      "slug": "reel-28-preeclampsia-hellp-mortalidad",
-      "title": "Síndrome HELLP tiene mortalidad materna del 1-3%",
-      "tone": "calm",
+      "slug": "reel-028-preeclampsia-hellp-mortalidad",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-28-preeclampsia-hellp-mortalidad.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-028-preeclampsia-hellp-mortalidad.mp3"
     },
     {
-      "slug": "reel-29-preeclampsia-ejercicio-prevencion",
-      "title": "Ejercicio aeróbico en el embarazo reduce riesgo de preeclampsia",
-      "tone": "urgent",
+      "slug": "reel-029-preeclampsia-ejercicio-prevencion",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-29-preeclampsia-ejercicio-prevencion.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-029-preeclampsia-ejercicio-prevencion.mp3"
     },
     {
-      "slug": "reel-30-preeclampsia-obesidad-riesgo-triple",
-      "title": "Obesidad pregestacional triplica riesgo de preeclampsia",
-      "tone": "mentor",
+      "slug": "reel-030-preeclampsia-obesidad-riesgo-triple",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-30-preeclampsia-obesidad-riesgo-triple.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-030-preeclampsia-obesidad-riesgo-triple.mp3"
     },
     {
-      "slug": "reel-31-preeclampsia-seguimiento-posparto-cardiovascular",
-      "title": "Preeclampsia quintuplica riesgo cardiovascular futuro",
-      "tone": "calm",
+      "slug": "reel-031-preeclampsia-seguimiento-posparto-cardiovascular",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-31-preeclampsia-seguimiento-posparto-cardiovascular.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-031-preeclampsia-seguimiento-posparto-cardiovascular.mp3"
     },
     {
-      "slug": "reel-32-preeclampsia-progesterona-no-previene",
-      "title": "La progesterona no previene ni trata la preeclampsia",
-      "tone": "urgent",
+      "slug": "reel-032-preeclampsia-progesterona-no-previene",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-32-preeclampsia-progesterona-no-previene.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-032-preeclampsia-progesterona-no-previene.mp3"
     },
     {
-      "slug": "reel-33-preeclampsia-presion-arterial-135-85",
-      "title": "PA 135/85 mmHg merece vigilancia, no esperar a 140/90",
-      "tone": "mentor",
+      "slug": "reel-033-preeclampsia-presion-arterial-135-85",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-33-preeclampsia-presion-arterial-135-85.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-033-preeclampsia-presion-arterial-135-85.mp3"
     },
     {
-      "slug": "reel-34-preeclampsia-episiotomia-no-recomendada",
-      "title": "La episiotomía no está indicada en preeclampsia severa",
-      "tone": "calm",
+      "slug": "reel-034-preeclampsia-episiotomia-no-recomendada",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-34-preeclampsia-episiotomia-no-recomendada.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-034-preeclampsia-episiotomia-no-recomendada.mp3"
     },
     {
-      "slug": "reel-35-preeclampsia-urale-muerte-evitable",
-      "title": "La preeclampsia sigue siendo una de las principales causas de muerte materna evitable",
-      "tone": "urgent",
+      "slug": "reel-035-preeclampsia-urale-muerte-evitable",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-35-preeclampsia-urale-muerte-evitable.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-035-preeclampsia-urale-muerte-evitable.mp3"
     },
     {
-      "slug": "reel-36-sepsis-neonatal-gbs-profilaxis-intraparto",
-      "title": "Profilaxis intraparto con penicilina reduce sepsis por GBS un 80%",
-      "tone": "mentor",
+      "slug": "reel-036-sepsis-neonatal-gbs-profilaxis-intraparto",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-36-sepsis-neonatal-gbs-profilaxis-intraparto.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-036-sepsis-neonatal-gbs-profilaxis-intraparto.mp3"
     },
     {
-      "slug": "reel-37-sepsis-neonatal-lactobacillus-oral-prematuro",
-      "title": "Lactobacillus oral reduce enterocolitis necrotizante en prematuros",
-      "tone": "calm",
+      "slug": "reel-037-sepsis-neonatal-lactobacillus-oral-prematuro",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-37-sepsis-neonatal-lactobacillus-oral-prematuro.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-037-sepsis-neonatal-lactobacillus-oral-prematuro.mp3"
     },
     {
-      "slug": "reel-38-sepsis-neonatal-pcr-diagnostico",
-      "title": "PCR al nacer no descarta sepsis neonatal",
-      "tone": "urgent",
+      "slug": "reel-038-sepsis-neonatal-pcr-diagnostico",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-38-sepsis-neonatal-pcr-diagnostico.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-038-sepsis-neonatal-pcr-diagnostico.mp3"
     },
     {
-      "slug": "reel-39-sepsis-neonatal-lactancia-materna-prevencion",
-      "title": "Lactancia materna reduce 50% el riesgo de sepsis neonatal tardía",
-      "tone": "mentor",
+      "slug": "reel-039-sepsis-neonatal-lactancia-materna-prevencion",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-39-sepsis-neonatal-lactancia-materna-prevencion.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-039-sepsis-neonatal-lactancia-materna-prevencion.mp3"
     },
     {
-      "slug": "reel-40-sepsis-neonatal-algoritmo-kaiser",
-      "title": "El algoritmo de Kaiser reduce antibioticoterapia innecesaria un 50%",
-      "tone": "calm",
+      "slug": "reel-040-sepsis-neonatal-algoritmo-kaiser",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-40-sepsis-neonatal-algoritmo-kaiser.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-040-sepsis-neonatal-algoritmo-kaiser.mp3"
     },
     {
-      "slug": "reel-41-sepsis-neonatal-liquido-amniotico-meconial",
-      "title": "Líquido meconial no siempre indica infección neonatal",
-      "tone": "urgent",
+      "slug": "reel-041-sepsis-neonatal-liquido-amniotico-meconial",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-41-sepsis-neonatal-liquido-amniotico-meconial.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-041-sepsis-neonatal-liquido-amniotico-meconial.mp3"
     },
     {
-      "slug": "reel-42-sepsis-neonatal-clorhexidina-cordon-oms",
-      "title": "Clorhexidina en el cordón umbilical reduce mortalidad neonatal un 34%",
-      "tone": "mentor",
+      "slug": "reel-042-sepsis-neonatal-clorhexidina-cordon-oms",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-42-sepsis-neonatal-clorhexidina-cordon-oms.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-042-sepsis-neonatal-clorhexidina-cordon-oms.mp3"
     },
     {
-      "slug": "reel-43-sepsis-neonatal-bacterias-multirresistentes-uci",
-      "title": "El 70% de las sepsis neonatales en UCI son por bacterias multirresistentes",
-      "tone": "calm",
+      "slug": "reel-043-sepsis-neonatal-bacterias-multirresistentes-uci",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-43-sepsis-neonatal-bacterias-multirresistentes-uci.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-043-sepsis-neonatal-bacterias-multirresistentes-uci.mp3"
     },
     {
-      "slug": "reel-44-sepsis-neonatal-rmn-pretermino-profilaxis",
-      "title": "RPM pretérmino: 48 horas de latencia reducen sepsis neonatal",
-      "tone": "urgent",
+      "slug": "reel-044-sepsis-neonatal-rmn-pretermino-profilaxis",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-44-sepsis-neonatal-rmn-pretermino-profilaxis.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-044-sepsis-neonatal-rmn-pretermino-profilaxis.mp3"
     },
     {
-      "slug": "reel-45-sepsis-neonatal-piel-con-piel-infeccion",
-      "title": "El contacto piel con piel no aumenta riesgo de sepsis neonatal",
-      "tone": "mentor",
+      "slug": "reel-045-sepsis-neonatal-piel-con-piel-infeccion",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-45-sepsis-neonatal-piel-con-piel-infeccion.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-045-sepsis-neonatal-piel-con-piel-infeccion.mp3"
     },
     {
-      "slug": "reel-46-prematuro-progesterona-vaginal-prevencion",
-      "title": "Progesterona vaginal reduce parto prematuro un 45% en cuello corto",
-      "tone": "calm",
+      "slug": "reel-046-prematuro-progesterona-vaginal-prevencion",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-46-prematuro-progesterona-vaginal-prevencion.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-046-prematuro-progesterona-vaginal-prevencion.mp3"
     },
     {
-      "slug": "reel-47-prematuro-cerclaje-cervical-emergencia",
-      "title": "Cerclaje de emergencia salva embarazos con dilatación cervical",
-      "tone": "urgent",
+      "slug": "reel-047-prematuro-cerclaje-cervical-emergencia",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-47-prematuro-cerclaje-cervical-emergencia.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-047-prematuro-cerclaje-cervical-emergencia.mp3"
     },
     {
-      "slug": "reel-48-prematuro-corticoides-antenatales-sobrevida",
-      "title": "Corticoides antenatales reducen muerte neonatal un 40%",
-      "tone": "mentor",
+      "slug": "reel-048-prematuro-corticoides-antenatales-sobrevida",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-48-prematuro-corticoides-antenatales-sobrevida.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-048-prematuro-corticoides-antenatales-sobrevida.mp3"
     },
     {
-      "slug": "reel-49-prematuro-sulfato-magnesio-neuroproteccion",
-      "title": "Sulfato de magnesio antes del parto prematuro protege el cerebro neonatal",
-      "tone": "calm",
+      "slug": "reel-049-prematuro-sulfato-magnesio-neuroproteccion",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-49-prematuro-sulfato-magnesio-neuroproteccion.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-049-prematuro-sulfato-magnesio-neuroproteccion.mp3"
     },
     {
-      "slug": "reel-50-prematuro-tocoliticos-bloqueo-canales-calcio",
-      "title": "Nifedipina y atosiban son igualmente efectivos como tocolíticos",
-      "tone": "urgent",
+      "slug": "reel-050-prematuro-tocoliticos-bloqueo-canales-calcio",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-50-prematuro-tocoliticos-bloqueo-canales-calcio.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-050-prematuro-tocoliticos-bloqueo-canales-calcio.mp3"
     },
     {
-      "slug": "reel-51-prematuro-longitud-cervical-universal",
-      "title": "Cribado universal de longitud cervical a las 20-24 semanas reduce prematuridad",
-      "tone": "mentor",
+      "slug": "reel-051-prematuro-longitud-cervical-universal",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-51-prematuro-longitud-cervical-universal.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-051-prematuro-longitud-cervical-universal.mp3"
     },
     {
-      "slug": "reel-52-prematuro-fibronectina-fetal-triaje",
-      "title": "Fibronectina fetal negativa descarta parto prematuro en 7-14 días",
-      "tone": "calm",
+      "slug": "reel-052-prematuro-fibronectina-fetal-triaje",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-52-prematuro-fibronectina-fetal-triaje.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-052-prematuro-fibronectina-fetal-triaje.mp3"
     },
     {
-      "slug": "reel-53-prematuro-cesarea-sistematica-no-mejora",
-      "title": "Cesárea sistemática en prematuros no mejora resultados neonatales",
-      "tone": "urgent",
+      "slug": "reel-053-prematuro-cesarea-sistematica-no-mejora",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-53-prematuro-cesarea-sistematica-no-mejora.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-053-prematuro-cesarea-sistematica-no-mejora.mp3"
     },
     {
-      "slug": "reel-54-prematuro-periodontal-enfermedad-riesgo",
-      "title": "Enfermedad periodontal duplica riesgo de parto prematuro",
-      "tone": "mentor",
+      "slug": "reel-054-prematuro-periodontal-enfermedad-riesgo",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-54-prematuro-periodontal-enfermedad-riesgo.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-054-prematuro-periodontal-enfermedad-riesgo.mp3"
     },
     {
-      "slug": "reel-55-prematuro-brecha-global-mortalidad",
-      "title": "El parto prematuro es la principal causa de muerte en menores de 5 años",
-      "tone": "calm",
+      "slug": "reel-055-prematuro-brecha-global-mortalidad",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-55-prematuro-brecha-global-mortalidad.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-055-prematuro-brecha-global-mortalidad.mp3"
     },
     {
-      "slug": "reel-56-asfixia-reanimacion-90-segundos-cordon",
-      "title": "Esperar 60-90 segundos antes de pinzar el cordón en reanimación mejora resultados",
-      "tone": "urgent",
+      "slug": "reel-056-asfixia-reanimacion-90-segundos-cordon",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-56-asfixia-reanimacion-90-segundos-cordon.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-056-asfixia-reanimacion-90-segundos-cordon.mp3"
     },
     {
-      "slug": "reel-57-asfixia-hipotermia-terapeutica-neuroproteccion",
-      "title": "Hipotermia terapéutica reduce muerte y discapacidad en asfixia un 30%",
-      "tone": "mentor",
+      "slug": "reel-057-asfixia-hipotermia-terapeutica-neuroproteccion",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-57-asfixia-hipotermia-terapeutica-neuroproteccion.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-057-asfixia-hipotermia-terapeutica-neuroproteccion.mp3"
     },
     {
-      "slug": "reel-58-asfixia-magnestio-no-neuroproteccion",
-      "title": "El sulfato de magnesio posnatal no es neuroprotector en asfixia",
-      "tone": "calm",
+      "slug": "reel-058-asfixia-magnestio-no-neuroproteccion",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-58-asfixia-magnestio-no-neuroproteccion.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-058-asfixia-magnestio-no-neuroproteccion.mp3"
     },
     {
-      "slug": "reel-59-asfixia-liquido-meconial-aspiracion-no",
-      "title": "La aspiración de vía aérea en meconio NO está recomendada",
-      "tone": "urgent",
+      "slug": "reel-059-asfixia-liquido-meconial-aspiracion-no",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-59-asfixia-liquido-meconial-aspiracion-no.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-059-asfixia-liquido-meconial-aspiracion-no.mp3"
     },
     {
-      "slug": "reel-60-asfixia-pH-arterial-cordon-umbilical",
-      "title": "pH de cordón <7.0 confirma asfixia pero no predice parálisis cerebral",
-      "tone": "mentor",
+      "slug": "reel-060-asfixia-pH-arterial-cordon-umbilical",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-60-asfixia-pH-arterial-cordon-umbilical.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-060-asfixia-pH-arterial-cordon-umbilical.mp3"
     },
     {
-      "slug": "reel-61-asfixia-oxigeno-21porciento-reanimacion",
-      "title": "La reanimación neonatal debe iniciar con aire (21% O2), no oxígeno puro",
-      "tone": "calm",
+      "slug": "reel-061-asfixia-oxigeno-21porciento-reanimacion",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-61-asfixia-oxigeno-21porciento-reanimacion.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-061-asfixia-oxigeno-21porciento-reanimacion.mp3"
     },
     {
-      "slug": "reel-62-asfixia-encefalopatia-grado-leve-secuelas",
-      "title": "La encefalopatía hipóxico-isquémica leve tiene secuelas a largo plazo",
-      "tone": "urgent",
+      "slug": "reel-062-asfixia-encefalopatia-grado-leve-secuelas",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-62-asfixia-encefalopatia-grado-leve-secuelas.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-062-asfixia-encefalopatia-grado-leve-secuelas.mp3"
     },
     {
-      "slug": "reel-63-asfixia-cesarea-no-mejora-asfixia-cronica",
-      "title": "La cesárea no previene la asfixia perinatal crónica",
-      "tone": "mentor",
+      "slug": "reel-063-asfixia-cesarea-no-mejora-asfixia-cronica",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-63-asfixia-cesarea-no-mejora-asfixia-cronica.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-063-asfixia-cesarea-no-mejora-asfixia-cronica.mp3"
     },
     {
-      "slug": "reel-64-asfixia-biomarcadores-tempranos-enol",
-      "title": "La enolasa neuronal sérica a las 6 horas predice severidad de asfixia",
-      "tone": "calm",
+      "slug": "reel-064-asfixia-biomarcadores-tempranos-enol",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-64-asfixia-biomarcadores-tempranos-enol.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-064-asfixia-biomarcadores-tempranos-enol.mp3"
     },
     {
-      "slug": "reel-65-asfixia-cuidados-paliativos-perinatales",
-      "title": "Cuidados paliativos perinatales son una opción válida en asfixia severa",
-      "tone": "urgent",
+      "slug": "reel-065-asfixia-cuidados-paliativos-perinatales",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-65-asfixia-cuidados-paliativos-perinatales.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-065-asfixia-cuidados-paliativos-perinatales.mp3"
     },
     {
-      "slug": "reel-66-infecciones-vih-tar-carga-viral-indetectable",
-      "title": "Carga viral indetectable = 0% de transmisión vertical del VIH",
-      "tone": "mentor",
+      "slug": "reel-066-infecciones-vih-tar-carga-viral-indetectable",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-66-infecciones-vih-tar-carga-viral-indetectable.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-066-infecciones-vih-tar-carga-viral-indetectable.mp3"
     },
     {
-      "slug": "reel-67-infecciones-sifilis-bencilpenicilina-curativa",
-      "title": "Una dosis de penicilina bencílica en sífilis temprana previene sífilis congénita",
-      "tone": "calm",
+      "slug": "reel-067-infecciones-sifilis-bencilpenicilina-curativa",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-67-infecciones-sifilis-bencilpenicilina-curativa.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-067-infecciones-sifilis-bencilpenicilina-curativa.mp3"
     },
     {
-      "slug": "reel-68-infecciones-malaria-iptp-sulfadoxina-pirimetamina",
-      "title": "Sulfadoxina-pirimetamina reduce malaria placentaria un 75%",
-      "tone": "urgent",
+      "slug": "reel-068-infecciones-malaria-iptp-sulfadoxina-pirimetamina",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-68-infecciones-malaria-iptp-sulfadoxina-pirimetamina.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-068-infecciones-malaria-iptp-sulfadoxina-pirimetamina.mp3"
     },
     {
-      "slug": "reel-69-infecciones-vih-lactancia-materna-tar",
-      "title": "Lactancia materna con TAR tiene <1% de transmisión de VIH",
-      "tone": "mentor",
+      "slug": "reel-069-infecciones-vih-lactancia-materna-tar",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-69-infecciones-vih-lactancia-materna-tar.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-069-infecciones-vih-lactancia-materna-tar.mp3"
     },
     {
-      "slug": "reel-70-infecciones-sifilis-cribado-universal-obligatorio",
-      "title": "El cribado universal de sífilis en el primer trimestre es costo-efectivo",
-      "tone": "calm",
+      "slug": "reel-070-infecciones-sifilis-cribado-universal-obligatorio",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-70-infecciones-sifilis-cribado-universal-obligatorio.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-070-infecciones-sifilis-cribado-universal-obligatorio.mp3"
     },
     {
-      "slug": "reel-71-infecciones-malaria-mosquitero-embarazo",
-      "title": "El mosquitero tratado con insecticida reduce malaria gestacional un 40%",
-      "tone": "urgent",
+      "slug": "reel-071-infecciones-malaria-mosquitero-embarazo",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-71-infecciones-malaria-mosquitero-embarazo.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-071-infecciones-malaria-mosquitero-embarazo.mp3"
     },
     {
-      "slug": "reel-72-infecciones-vih-parto-vaginal-seguro",
-      "title": "Parto vaginal en VIH con carga viral indetectable es seguro",
-      "tone": "mentor",
+      "slug": "reel-072-infecciones-vih-parto-vaginal-seguro",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-72-infecciones-vih-parto-vaginal-seguro.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-072-infecciones-vih-parto-vaginal-seguro.mp3"
     },
     {
-      "slug": "reel-73-infecciones-torch-citomegalovirus-valaciclovir",
-      "title": "Valaciclovir reduce transmisión vertical de CMV un 71%",
-      "tone": "calm",
+      "slug": "reel-073-infecciones-torch-citomegalovirus-valaciclovir",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-73-infecciones-torch-citomegalovirus-valaciclovir.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-073-infecciones-torch-citomegalovirus-valaciclovir.mp3"
     },
     {
-      "slug": "reel-74-infecciones-vph-cribado-prenatal-no-recomendado",
-      "title": "El cribado de VPH en el embarazo no está recomendado",
-      "tone": "urgent",
+      "slug": "reel-074-infecciones-vph-cribado-prenatal-no-recomendado",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-74-infecciones-vph-cribado-prenatal-no-recomendado.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-074-infecciones-vph-cribado-prenatal-no-recomendado.mp3"
     },
     {
-      "slug": "reel-75-infecciones-tuberculosis-embarazo-isoniazida",
-      "title": "La isoniacida profiláctica en embarazadas con VIH reduce TB en un 40%",
-      "tone": "mentor",
+      "slug": "reel-075-infecciones-tuberculosis-embarazo-isoniazida",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-75-infecciones-tuberculosis-embarazo-isoniazida.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-075-infecciones-tuberculosis-embarazo-isoniazida.mp3"
     },
     {
-      "slug": "reel-76-nutricion-acido-folico-neurotubo",
-      "title": "Ácido fólico pre-concepcional reduce defectos de tubo neural un 70%",
-      "tone": "calm",
+      "slug": "reel-076-nutricion-acido-folico-neurotubo",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-76-nutricion-acido-folico-neurotubo.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-076-nutricion-acido-folico-neurotubo.mp3"
     },
     {
-      "slug": "reel-77-nutricion-hierro-anemia-materna",
-      "title": "Hierro suplementario reduce anemia materna en un 70%",
-      "tone": "urgent",
+      "slug": "reel-077-nutricion-hierro-anemia-materna",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-77-nutricion-hierro-anemia-materna.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-077-nutricion-hierro-anemia-materna.mp3"
     },
     {
-      "slug": "reel-78-nutricion-yodo-deficiencia-cognitivo",
-      "title": "La deficiencia de yodo en el embarazo reduce el CI infantil 10-15 puntos",
-      "tone": "mentor",
+      "slug": "reel-078-nutricion-yodo-deficiencia-cognitivo",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-78-nutricion-yodo-deficiencia-cognitivo.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-078-nutricion-yodo-deficiencia-cognitivo.mp3"
     },
     {
-      "slug": "reel-79-nutricion-vitamina-d-embarazo",
-      "title": "Vitamina D en el embarazo reduce el riesgo de bajo peso al nacer en un 40%",
-      "tone": "calm",
+      "slug": "reel-079-nutricion-vitamina-d-embarazo",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-79-nutricion-vitamina-d-embarazo.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-079-nutricion-vitamina-d-embarazo.mp3"
     },
     {
-      "slug": "reel-80-nutricion-dieta-mediterranea-gestacional",
-      "title": "La dieta mediterránea reduce diabetes gestacional un 35%",
-      "tone": "urgent",
+      "slug": "reel-080-nutricion-dieta-mediterranea-gestacional",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-80-nutricion-dieta-mediterranea-gestacional.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-080-nutricion-dieta-mediterranea-gestacional.mp3"
     },
     {
-      "slug": "reel-81-nutricion-zinc-embarazo-resultados",
-      "title": "El zinc reduce el parto prematuro en un 14%",
-      "tone": "mentor",
+      "slug": "reel-081-nutricion-zinc-embarazo-resultados",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-81-nutricion-zinc-embarazo-resultados.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-081-nutricion-zinc-embarazo-resultados.mp3"
     },
     {
-      "slug": "reel-82-nutricion-obesidad-materna-riesgo-fetal",
-      "title": "Obesidad materna duplica riesgo de muerte fetal",
-      "tone": "calm",
+      "slug": "reel-082-nutricion-obesidad-materna-riesgo-fetal",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-82-nutricion-obesidad-materna-riesgo-fetal.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-082-nutricion-obesidad-materna-riesgo-fetal.mp3"
     },
     {
-      "slug": "reel-83-nutricion-suplementos-multimicronutrientes",
-      "title": "Suplementos multimicronutrientes reducen bajo peso al nacer un 15%",
-      "tone": "urgent",
+      "slug": "reel-083-nutricion-suplementos-multimicronutrientes",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-83-nutricion-suplementos-multimicronutrientes.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-083-nutricion-suplementos-multimicronutrientes.mp3"
     },
     {
-      "slug": "reel-84-nutricion-proteinas-balance-energetico",
-      "title": "Suplementos proteico-energéticos balanceados reducen muerte fetal",
-      "tone": "mentor",
+      "slug": "reel-084-nutricion-proteinas-balance-energetico",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-84-nutricion-proteinas-balance-energetico.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-084-nutricion-proteinas-balance-energetico.mp3"
     },
     {
-      "slug": "reel-85-nutricion-cafeina-embarazo-límite",
-      "title": "Más de 200 mg/día de cafeína duplica riesgo de restricción de crecimiento fetal",
-      "tone": "calm",
+      "slug": "reel-085-nutricion-cafeina-embarazo-límite",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-85-nutricion-cafeina-embarazo-límite.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-085-nutricion-cafeina-embarazo-límite.mp3"
     },
     {
-      "slug": "reel-86-diversos-lactancia-exclusiva-6-meses",
-      "title": "Lactancia materna exclusiva 6 meses reduce mortalidad infantil un 80%",
-      "tone": "urgent",
+      "slug": "reel-086-diversos-lactancia-exclusiva-6-meses",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-86-diversos-lactancia-exclusiva-6-meses.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-086-diversos-lactancia-exclusiva-6-meses.mp3"
     },
     {
-      "slug": "reel-87-diversos-tabaco-placenta-insuficiencia",
-      "title": "Fumar en el embarazo reduce el peso al nacer 200 gramos en promedio",
-      "tone": "mentor",
+      "slug": "reel-087-diversos-tabaco-placenta-insuficiencia",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-87-diversos-tabaco-placenta-insuficiencia.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-087-diversos-tabaco-placenta-insuficiencia.mp3"
     },
     {
-      "slug": "reel-88-diversos-salud-mental-depresion-posparto-edimburgo",
-      "title": "La escala de Edimburgo detecta depresión posparto con 86% de sensibilidad",
-      "tone": "calm",
+      "slug": "reel-088-diversos-salud-mental-depresion-posparto-edimburgo",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-88-diversos-salud-mental-depresion-posparto-edimburgo.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-088-diversos-salud-mental-depresion-posparto-edimburgo.mp3"
     },
     {
-      "slug": "reel-89-diversos-lactancia-cancer-materno",
-      "title": "Lactancia materna reduce cáncer de mama un 6% por cada año acumulado",
-      "tone": "urgent",
+      "slug": "reel-089-diversos-lactancia-cancer-materno",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-89-diversos-lactancia-cancer-materno.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-089-diversos-lactancia-cancer-materno.mp3"
     },
     {
-      "slug": "reel-90-diversos-alcohol-sindrome-fetal-alcoholico",
-      "title": "No hay umbral seguro de alcohol en el embarazo",
-      "tone": "mentor",
+      "slug": "reel-090-diversos-alcohol-sindrome-fetal-alcoholico",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-90-diversos-alcohol-sindrome-fetal-alcoholico.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-090-diversos-alcohol-sindrome-fetal-alcoholico.mp3"
     },
     {
-      "slug": "reel-91-diversos-ejercicio-piso-pelvico-incontinencia",
-      "title": "Ejercicios de piso pélvico en el embarazo reducen incontinencia urinaria posparto un 50%",
-      "tone": "calm",
+      "slug": "reel-091-diversos-ejercicio-piso-pelvico-incontinencia",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-91-diversos-ejercicio-piso-pelvico-incontinencia.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-091-diversos-ejercicio-piso-pelvico-incontinencia.mp3"
     },
     {
-      "slug": "reel-92-diversos-parto-en-agua-no-mejora-resultados",
-      "title": "El parto en agua no mejora resultados perinatales comparado con parto fuera del agua",
-      "tone": "urgent",
+      "slug": "reel-092-diversos-parto-en-agua-no-mejora-resultados",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-92-diversos-parto-en-agua-no-mejora-resultados.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-092-diversos-parto-en-agua-no-mejora-resultados.mp3"
     },
     {
-      "slug": "reel-93-diversos-continuidad-partera-mortalidad",
-      "title": "Modelo de continuidad de partera reduce mortalidad perinatal un 20%",
-      "tone": "mentor",
+      "slug": "reel-093-diversos-continuidad-partera-mortalidad",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-93-diversos-continuidad-partera-mortalidad.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-093-diversos-continuidad-partera-mortalidad.mp3"
     },
     {
-      "slug": "reel-94-diversos-doulas-resultados-perinatales",
-      "title": "El acompañamiento continuo por doula reduce cesáreas un 30%",
-      "tone": "calm",
+      "slug": "reel-094-diversos-doulas-resultados-perinatales",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-94-diversos-doulas-resultados-perinatales.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-094-diversos-doulas-resultados-perinatales.mp3"
     },
     {
-      "slug": "reel-95-diversos-tamizaje-neonatal-talon",
-      "title": "El tamizaje neonatal metabólico detecta 30+ enfermedades antes de los síntomas",
-      "tone": "urgent",
+      "slug": "reel-095-diversos-tamizaje-neonatal-talon",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-95-diversos-tamizaje-neonatal-talon.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-095-diversos-tamizaje-neonatal-talon.mp3"
     },
     {
-      "slug": "reel-96-diversos-lactancia-farmacos-compatibles",
-      "title": "Más del 90% de los fármacos son compatibles con la lactancia materna",
-      "tone": "mentor",
+      "slug": "reel-096-diversos-lactancia-farmacos-compatibles",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-96-diversos-lactancia-farmacos-compatibles.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-096-diversos-lactancia-farmacos-compatibles.mp3"
     },
     {
-      "slug": "reel-97-diversos-posicion-vertical-parto",
-      "title": "La posición vertical en el parto reduce el segundo período en 25 minutos",
-      "tone": "calm",
+      "slug": "reel-097-diversos-posicion-vertical-parto",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-97-diversos-posicion-vertical-parto.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-097-diversos-posicion-vertical-parto.mp3"
     },
     {
-      "slug": "reel-98-diversos-pinzamiento-tardio-prematuros",
-      "title": "El pinzamiento tardío del cordón en prematuros reduce transfusiones un 40%",
-      "tone": "urgent",
+      "slug": "reel-098-diversos-pinzamiento-tardio-prematuros",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-98-diversos-pinzamiento-tardio-prematuros.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-098-diversos-pinzamiento-tardio-prematuros.mp3"
     },
     {
-      "slug": "reel-99-diversos-mgso4-neuroproteccion-prematuro",
-      "title": "Sulfato de magnesio antenatal reduce parálisis cerebral un 30% en prematuros",
-      "tone": "mentor",
+      "slug": "reel-099-diversos-mgso4-neuroproteccion-prematuro",
       "status": "done",
-      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-99-diversos-mgso4-neuroproteccion-prematuro.mp3"
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-099-diversos-mgso4-neuroproteccion-prematuro.mp3"
     },
     {
       "slug": "reel-100-diversos-induccion-39-semanas-bajo-riesgo",
-      "title": "Inducir a las 39 semanas en bajo riesgo reduce cesáreas sin aumentar riesgos",
-      "tone": "calm",
       "status": "done",
       "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-100-diversos-induccion-39-semanas-bajo-riesgo.mp3"
+    },
+    {
+      "slug": "reel-101-placentacion-invasion-trofoblastica",
+      "title": "Invasión trofoblástica: el cimiento de la placentación normal",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-101-placentacion-invasion-trofoblastica.mp3"
+    },
+    {
+      "slug": "reel-102-liquido-amniotico-funciones",
+      "title": "Líquido amniótico en la 2ª mitad: orina fetal y secreción pulmonar",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-102-liquido-amniotico-funciones.mp3"
+    },
+    {
+      "slug": "reel-103-transporte-igg-fcrn-placenta",
+      "title": "El feto recibe inmunidad pasiva sólo por IgG vía FcRn",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-103-transporte-igg-fcrn-placenta.mp3"
+    },
+    {
+      "slug": "reel-104-trofoblasto-velloso-vs-extravelloso",
+      "title": "Trofoblasto velloso vs extravelloso: dos roles distintos",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-104-trofoblasto-velloso-vs-extravelloso.mp3"
+    },
+    {
+      "slug": "reel-105-intercambio-gases-bohr-haldane",
+      "title": "Doble efecto Bohr y Haldane optimizan el O2 fetal",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-105-intercambio-gases-bohr-haldane.mp3"
+    },
+    {
+      "slug": "reel-106-luteoplacentar-shift-progesterona",
+      "title": "Luteoplacentar shift entre semana 7-9",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-106-luteoplacentar-shift-progesterona.mp3"
+    },
+    {
+      "slug": "reel-107-amnionitis-aszendierende-infektion",
+      "title": "Corioamnionitis: vía ascendente, citoquinas, prostaglandinas",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-107-amnionitis-aszendierende-infektion.mp3"
+    },
+    {
+      "slug": "reel-108-perfusion-uterina-50-vs-800",
+      "title": "Perfusión uterina: de 50 ml/min a 600-800 ml/min al término",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-108-perfusion-uterina-50-vs-800.mp3"
+    },
+    {
+      "slug": "reel-109-hpl-diabetogenicidad-lipolitico",
+      "title": "hPL: lipolítico y diabetogénico para alimentar al feto",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-109-hpl-diabetogenicidad-lipolitico.mp3"
+    },
+    {
+      "slug": "reel-110-barrera-placentaria-madura-3trimestre",
+      "title": "Barrera placentaria al término: 4 capas adelgazadas",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-110-barrera-placentaria-madura-3trimestre.mp3"
+    },
+    {
+      "slug": "reel-111-tres-shunts-fetales",
+      "title": "Tres shunts fetales: ductus venoso, foramen oval, ductus arterioso",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-111-tres-shunts-fetales.mp3"
+    },
+    {
+      "slug": "reel-112-cierre-ductus-arterioso-pO2",
+      "title": "Cierre del ductus arterioso: el pO2 dispara el cierre",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-112-cierre-ductus-arterioso-pO2.mp3"
+    },
+    {
+      "slug": "reel-113-cierre-foramen-oval-presiones",
+      "title": "Foramen oval se cierra por inversión de presiones",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-113-cierre-foramen-oval-presiones.mp3"
+    },
+    {
+      "slug": "reel-114-saturacion-vena-vs-arterias-umbilicales",
+      "title": "Vena umbilical 80% sat; arterias umbilicales 50-55%",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-114-saturacion-vena-vs-arterias-umbilicales.mp3"
+    },
+    {
+      "slug": "reel-115-termogenesis-no-tiritante-grasa-parda",
+      "title": "Termogénesis no-tiritante: grasa parda y UCP-1",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-115-termogenesis-no-tiritante-grasa-parda.mp3"
+    },
+    {
+      "slug": "reel-116-clampeo-tardio-transfusion-placentaria",
+      "title": "Clampeo diferido: 80-100 ml de transfusión placentaria",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-116-clampeo-tardio-transfusion-placentaria.mp3"
+    },
+    {
+      "slug": "reel-117-ttn-resorcion-liquido-pulmonar",
+      "title": "Taquipnea transitoria: ENaC y resorción de líquido pulmonar",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-117-ttn-resorcion-liquido-pulmonar.mp3"
+    },
+    {
+      "slug": "reel-118-primer-respiro-vasodilatacion-pulmonar",
+      "title": "Primer respiro: NO y prostaciclina abren el pulmón",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-118-primer-respiro-vasodilatacion-pulmonar.mp3"
+    },
+    {
+      "slug": "reel-119-surfactante-laplace-prematuro",
+      "title": "Surfactante: la ley de Laplace explica el SDR del prematuro",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-119-surfactante-laplace-prematuro.mp3"
+    },
+    {
+      "slug": "reel-120-vitamina-k-profilaxis-VKMB",
+      "title": "Vitamina K al nacer: previene la enfermedad hemorrágica",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-120-vitamina-k-profilaxis-VKMB.mp3"
+    },
+    {
+      "slug": "reel-121-cuatro-formas-pelvis",
+      "title": "Cuatro pelvis clásicas: la ginecoide es la más favorable",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-121-cuatro-formas-pelvis.mp3"
+    },
+    {
+      "slug": "reel-122-conjugata-vera-vs-diagonalis",
+      "title": "Conjugata vera: 1,5-2 cm menos que la diagonalis",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-122-conjugata-vera-vs-diagonalis.mp3"
+    },
+    {
+      "slug": "reel-123-espinas-isquiaticas-angustia-pelvis",
+      "title": "Espinas isquiáticas: el diámetro crítico de 10 cm",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-123-espinas-isquiaticas-angustia-pelvis.mp3"
+    },
+    {
+      "slug": "reel-124-hipomoclion-occipitoanterior",
+      "title": "Hipomoclion: el punto de pivote bajo la sínfisis",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-124-hipomoclion-occipitoanterior.mp3"
+    },
+    {
+      "slug": "reel-125-flexion-maxima-suboccipitobregmatico",
+      "title": "Flexión máxima: 9,5 cm en lugar de 13 cm",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-125-flexion-maxima-suboccipitobregmatico.mp3"
+    },
+    {
+      "slug": "reel-126-asinclitismo-naegele-litzmann",
+      "title": "Asinclitismo: anterior favorable, posterior patológico",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-126-asinclitismo-naegele-litzmann.mp3"
+    },
+    {
+      "slug": "reel-127-suelo-pelvico-tres-capas",
+      "title": "Suelo pélvico: 3 capas activas en el parto",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-127-suelo-pelvico-tres-capas.mp3"
+    },
+    {
+      "slug": "reel-128-curva-carus-eje-pelvico",
+      "title": "Curva de Carus: trayectoria en J alrededor de la sínfisis",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-128-curva-carus-eje-pelvico.mp3"
+    },
+    {
+      "slug": "reel-129-suturas-fontanelas-parietal",
+      "title": "Suturas del parietal: sagital, coronal, lambdoidea",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-129-suturas-fontanelas-parietal.mp3"
+    },
+    {
+      "slug": "reel-130-presentacion-frente-mentoocipital",
+      "title": "Presentación de frente: cesárea casi obligada",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-130-presentacion-frente-mentoocipital.mp3"
+    },
+    {
+      "slug": "reel-131-tpr-cae-30-40-progesterona",
+      "title": "TA cae en 1º y 2º trimestre pese a más gasto cardíaco",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-131-tpr-cae-30-40-progesterona.mp3"
+    },
+    {
+      "slug": "reel-132-sindrome-vena-cava-supina",
+      "title": "Síndrome de vena cava: decúbito supino reduce retorno venoso",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-132-sindrome-vena-cava-supina.mp3"
+    },
+    {
+      "slug": "reel-133-hipercoagulabilidad-embarazo",
+      "title": "Embarazo: estado hipercoagulable fisiológico (riesgo 4-5x)",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-133-hipercoagulabilidad-embarazo.mp3"
+    },
+    {
+      "slug": "reel-134-alcalosis-respiratoria-progesterona",
+      "title": "Hiperventilación fisiológica: alcalosis respiratoria normal",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-134-alcalosis-respiratoria-progesterona.mp3"
+    },
+    {
+      "slug": "reel-135-resistencia-insulinica-fetal",
+      "title": "Resistencia insulínica: a propósito, para nutrir al feto",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-135-resistencia-insulinica-fetal.mp3"
+    },
+    {
+      "slug": "reel-136-creatinina-gfr-embarazo",
+      "title": "Creatinina 0,9 en embarazo ya puede ser daño renal",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-136-creatinina-gfr-embarazo.mp3"
+    },
+    {
+      "slug": "reel-137-relaxina-sinfisis-laxitud",
+      "title": "Relaxina: ablanda sínfisis y articulaciones sacroilíacas",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-137-relaxina-sinfisis-laxitud.mp3"
+    },
+    {
+      "slug": "reel-138-hcg-tsh-cross-reactivity",
+      "title": "hCG estimula la tiroides: TSH bajo en 1º trimestre",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-138-hcg-tsh-cross-reactivity.mp3"
+    },
+    {
+      "slug": "reel-139-reflujo-estreñimiento-progesterona",
+      "title": "Pirosis y estreñimiento: progesterona relaja músculo liso",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-139-reflujo-estreñimiento-progesterona.mp3"
+    },
+    {
+      "slug": "reel-140-anemia-dilucional-vs-real",
+      "title": "Anemia dilucional vs real: el corte por trimestre",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-140-anemia-dilucional-vs-real.mp3"
+    },
+    {
+      "slug": "reel-141-retirada-funcional-progesterona",
+      "title": "El parto humano: retirada funcional de progesterona, no sistémica",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-141-retirada-funcional-progesterona.mp3"
+    },
+    {
+      "slug": "reel-142-reflejo-ferguson-oxitocina",
+      "title": "Reflejo de Ferguson: el feto que se autopuja",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-142-reflejo-ferguson-oxitocina.mp3"
+    },
+    {
+      "slug": "reel-143-triple-gradiente-descendente",
+      "title": "Onda contráctil: triple gradiente descendente",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-143-triple-gradiente-descendente.mp3"
+    },
+    {
+      "slug": "reel-144-retraccion-miometrio-vs-contraccion",
+      "title": "Retracción miometrial: la fibra no vuelve a su largo",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-144-retraccion-miometrio-vs-contraccion.mp3"
+    },
+    {
+      "slug": "reel-145-maduracion-cervical-inflamacion",
+      "title": "Maduración cervical: una inflamación dirigida",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-145-maduracion-cervical-inflamacion.mp3"
+    },
+    {
+      "slug": "reel-146-gap-junctions-conexina-43",
+      "title": "Gap junctions: el cableado del miometrio coordinado",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-146-gap-junctions-conexina-43.mp3"
+    },
+    {
+      "slug": "reel-147-catecolaminas-estres-frenan-parto",
+      "title": "Estrés y miedo frenan el parto vía beta-2",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-147-catecolaminas-estres-frenan-parto.mp3"
+    },
+    {
+      "slug": "reel-148-alumbramiento-cizalla-uterina",
+      "title": "Alumbramiento: la placenta no se contrae, el útero sí",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-148-alumbramiento-cizalla-uterina.mp3"
+    },
+    {
+      "slug": "reel-149-ligadura-viviente-uterina",
+      "title": "Ligadura viviente: el músculo aprieta los vasos",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-149-ligadura-viviente-uterina.mp3"
+    },
+    {
+      "slug": "reel-150-lactancia-amenorrea-prolactina",
+      "title": "Lactancia amenorrea: prolactina frena GnRH",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-150-lactancia-amenorrea-prolactina.mp3"
+    },
+    {
+      "slug": "reel-151-spatium-perinei-profundum",
+      "title": "Espacio perineal profundo: límites y estructuras",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-151-spatium-perinei-profundum.mp3"
+    },
+    {
+      "slug": "reel-152-linea-jacoby-intercristal",
+      "title": "Línea intercristal (Jacoby): referencia para epidural",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-152-linea-jacoby-intercristal.mp3"
+    },
+    {
+      "slug": "reel-153-sinciput-vorderhauptslage",
+      "title": "Sinciput y bregma: la fontanela mayor guía",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-153-sinciput-vorderhauptslage.mp3"
+    },
+    {
+      "slug": "reel-154-diametros-pelvicos-tres-niveles",
+      "title": "Diámetros pélvicos: ovalado-redondo-ovalado",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-154-diametros-pelvicos-tres-niveles.mp3"
+    },
+    {
+      "slug": "reel-155-ligamento-cardinal-mackenrodt",
+      "title": "Ligamento cardinal: el sostén transversal del útero",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-155-ligamento-cardinal-mackenrodt.mp3"
+    },
+    {
+      "slug": "reel-156-anillo-bandl-ruptura-uterina",
+      "title": "Anillo de Bandl: alarma de rotura uterina",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-156-anillo-bandl-ruptura-uterina.mp3"
+    },
+    {
+      "slug": "reel-157-moldeamiento-cabeza-suturas",
+      "title": "Moldeamiento: las suturas permiten reducir el diámetro",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-157-moldeamiento-cabeza-suturas.mp3"
+    },
+    {
+      "slug": "reel-158-nervio-pudendo-bloqueo",
+      "title": "Bloqueo del pudendo: anestesia para parto instrumental",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-158-nervio-pudendo-bloqueo.mp3"
+    },
+    {
+      "slug": "reel-159-pelvis-justo-minor",
+      "title": "Pelvis justo minor: forma normal pero pequeña",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-159-pelvis-justo-minor.mp3"
+    },
+    {
+      "slug": "reel-160-centro-perineal-tendineum",
+      "title": "Centro perineal: nudo fibroso entre vulva y ano",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-160-centro-perineal-tendineum.mp3"
+    },
+    {
+      "slug": "reel-161-lactancia-nachwehen-oxitocina",
+      "title": "Entuertos durante la lactancia: oxitocina contrae el útero",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-161-lactancia-nachwehen-oxitocina.mp3"
+    },
+    {
+      "slug": "reel-162-supresion-fsh-lh-en-embarazo",
+      "title": "Esteroides placentarios suprimen FSH y LH",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-162-supresion-fsh-lh-en-embarazo.mp3"
+    },
+    {
+      "slug": "reel-163-oxitocina-vida-media-corta",
+      "title": "Oxitocina IV: vida media de 3-5 minutos",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-163-oxitocina-vida-media-corta.mp3"
+    },
+    {
+      "slug": "reel-164-hormona-antimulleriana-fetal",
+      "title": "AMH fetal: induce regresión de los conductos de Müller",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-164-hormona-antimulleriana-fetal.mp3"
+    },
+    {
+      "slug": "reel-165-nauseas-hcg-area-postrema",
+      "title": "Náuseas del 1º trimestre: hCG estimula área postrema",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-165-nauseas-hcg-area-postrema.mp3"
+    },
+    {
+      "slug": "reel-166-cortisol-11bhsd2-placentaria",
+      "title": "11β-HSD2: la placenta protege al feto del cortisol materno",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-166-cortisol-11bhsd2-placentaria.mp3"
+    },
+    {
+      "slug": "reel-167-sflt1-plgf-ratio-preeclampsia",
+      "title": "sFlt-1/PlGF: marcador placentario de preeclampsia e IUGR",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-167-sflt1-plgf-ratio-preeclampsia.mp3"
+    },
+    {
+      "slug": "reel-168-lactogenesis-ii-prolactina-progesterona",
+      "title": "Subida de leche: la caída de progesterona libera prolactina",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-168-lactogenesis-ii-prolactina-progesterona.mp3"
+    },
+    {
+      "slug": "reel-169-hiperinsulinismo-fetal-macrosomia",
+      "title": "Hiperinsulinismo fetal: por qué la diabetes mal controlada hace macrosomía",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-169-hiperinsulinismo-fetal-macrosomia.mp3"
+    },
+    {
+      "slug": "reel-170-cortisol-fetal-madura-organos",
+      "title": "Cortisol fetal: madura pulmón e intestino al término",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-170-cortisol-fetal-madura-organos.mp3"
+    },
+    {
+      "slug": "reel-171-tolerancia-inmune-hla-g",
+      "title": "Tolerancia fetomaterna: HLA-G y T-regs en la interfaz",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-171-tolerancia-inmune-hla-g.mp3"
+    },
+    {
+      "slug": "reel-172-rh-hemolitica-igG-segunda",
+      "title": "Enfermedad hemolítica Rh: IgG ataca al segundo feto Rh+",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-172-rh-hemolitica-igG-segunda.mp3"
+    },
+    {
+      "slug": "reel-173-profilaxis-anti-d-28-72h",
+      "title": "Profilaxis anti-D: 28-30 semanas y dentro de 72h postparto",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-173-profilaxis-anti-d-28-72h.mp3"
+    },
+    {
+      "slug": "reel-174-hbf-cadena-gamma-curva-izquierda",
+      "title": "HbF: cadenas gamma, curva desplazada a la izquierda",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-174-hbf-cadena-gamma-curva-izquierda.mp3"
+    },
+    {
+      "slug": "reel-175-ictericia-praecox-vs-fisiologica",
+      "title": "Ictericia precoz vs fisiológica: las primeras 24 horas mandan",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-175-ictericia-praecox-vs-fisiologica.mp3"
+    },
+    {
+      "slug": "reel-176-leucocitosis-parto-no-infeccion",
+      "title": "Leucocitosis del parto: hasta 25.000 sin ser infección",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-176-leucocitosis-parto-no-infeccion.mp3"
+    },
+    {
+      "slug": "reel-177-volumen-sanguineo-fetal-80ml-kg",
+      "title": "Volumen sanguíneo fetal: 80-85 ml/kg",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-177-volumen-sanguineo-fetal-80ml-kg.mp3"
+    },
+    {
+      "slug": "reel-178-microtransfusion-fetomaterna-parto",
+      "title": "Microtransfusión fetomaterna: pico en alumbramiento",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-178-microtransfusion-fetomaterna-parto.mp3"
+    },
+    {
+      "slug": "reel-179-celulas-madre-cordon",
+      "title": "Sangre de cordón: rica en células madre hematopoyéticas",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-179-celulas-madre-cordon.mp3"
+    },
+    {
+      "slug": "reel-180-anemia-fisiologica-neonato-epo",
+      "title": "Anemia fisiológica del lactante: por caída de EPO",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-180-anemia-fisiologica-neonato-epo.mp3"
+    },
+    {
+      "slug": "reel-181-tres-capas-miometrio",
+      "title": "Miometrio: tres capas con funciones distintas",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-181-tres-capas-miometrio.mp3"
+    },
+    {
+      "slug": "reel-182-arteria-uterina-notch-doppler",
+      "title": "Arteria uterina: el notch debe desaparecer en semana 24",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-182-arteria-uterina-notch-doppler.mp3"
+    },
+    {
+      "slug": "reel-183-plexo-frankenhauser-autonomia",
+      "title": "Plexo de Frankenhäuser: el útero conserva autonomía propia",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-184-laplace-segmento-inferior-ruptura",
+      "title": "Ley de Laplace: el segmento inferior es el más vulnerable",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-185-couvelaire-uterus-apoplejia",
+      "title": "Útero de Couvelaire: apoplejía uteroplacentaria",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-186-progesterona-hiperpolariza-miometrio",
+      "title": "Progesterona: hiperpolariza el miometrio, lo silencia",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-187-drenaje-linfatico-cuerpo-utero",
+      "title": "Linfa del cuerpo uterino: paraaorta directa",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-188-hematoma-retroperitoneal-postparto",
+      "title": "Hematoma retroperitoneal: hemorragia oculta postparto",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-189-magnesio-antagonista-calcio-miometrio",
+      "title": "Sulfato de magnesio: antagonista del calcio en miometrio",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-190-ureter-cruza-arteria-uterina",
+      "title": "El uréter cruza bajo la arteria uterina: 'water under the bridge'",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-191-rombo-michaelis-asimetria",
+      "title": "Rombo de Michaelis: la asimetría delata pelvis anómala",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-192-vagina-hipertrofia-estrogeno-parto",
+      "title": "Vagina embarazada: hipertrofia, elasticidad, hiperemia",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-193-schultze-vs-duncan-alumbramiento",
+      "title": "Alumbramiento: Schultze más limpio, Duncan más sangrante",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-194-desgarro-grado-ii-vs-iii",
+      "title": "Desgarro II vs III: cualquier fibra del esfínter externo cuenta",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-195-perine-rigido-caput-succedaneum",
+      "title": "Periné rígido: caput succedaneum y bolsa serosanguinolenta",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-196-distantia-spinarum-25-26cm",
+      "title": "Distantia spinarum: 25-26 cm normal",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-197-bartolino-secrecion-embarazo",
+      "title": "Glándulas de Bartolino: lubricación reforzada en parto",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-198-coxis-anquilosado-detencion",
+      "title": "Coxis anquilosado: bloqueo al final del descenso",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-199-arterias-espirales-baja-presion-intervelloso",
+      "title": "Espirales abren al intervelloso a 10-15 mmHg",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-200-tapon-mucoso-cervical-kristeller",
+      "title": "Tapón mucoso cervical: barrera mecánica e inmune",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-201-ssl-fechado-1trimestre",
+      "title": "Longitud céfalocaudal (LCC): el patrón oro para fechar",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-202-tsh-bajo-1trimestre-hcg",
+      "title": "TSH bajo en 1er trimestre: cross-reactividad de hCG",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-203-gdm-screening-24-28-semanas",
+      "title": "Screening de diabetes gestacional: 24-28 semanas",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-204-gdm-criterio-ayunas-92",
+      "title": "Corte de glucosa en ayunas: 92 mg/dl es GDM",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-205-rh-anti-d-300mcg-28sem",
+      "title": "Anti-D 300 μg IM en semana 28 a toda Rh-negativa con feto Rh+",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-206-doppler-uterina-2trimestre",
+      "title": "Doppler uterino 2º trimestre: predicción de preeclampsia/RCIU",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-207-doppler-acm-anemia-fetal",
+      "title": "Anemia fetal: medir velocidad sistólica de ACM",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-208-gbs-screening-36-37",
+      "title": "Streptococcus grupo B: hisopado recto-vaginal en 36-37 semanas",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-209-hiperpigmentacion-msh-estrogenos",
+      "title": "Linea nigra y cloasma: estrógenos + MSH placentario",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-210-leopold-3-pawlik-cabeza",
+      "title": "3ª maniobra de Leopold (Pawlik): qué presenta sobre sínfisis",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-211-ganancia-peso-400-500-semana",
+      "title": "Ganancia 400-500 g/semana en 2º y 3er trimestre",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-212-folato-preconcepcional-28dias",
+      "title": "Folato 400 μg/día: empezar antes de concebir",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-213-papp-a-screening-1trimestre",
+      "title": "PAPP-A bajo: aneuploidías + insuficiencia placentaria",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-214-translucencia-nucal-3-5mm",
+      "title": "Translucencia nucal >3,5 mm: cardiopatía y trisomía 21",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-215-plasma-expansion-40-50",
+      "title": "Plasma materno crece 40-50% al término",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-216-leucocitos-15000-fisiologica",
+      "title": "Leucocitos 15.000/μl: normal en embarazo y parto",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-217-hidronefrosis-gestacional-progesterona",
+      "title": "Dilatación de vía urinaria: progesterona relaja músculo liso",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-218-perfil-biofisico-cuatro-parametros",
+      "title": "Perfil biofísico fetal: 4 parámetros ecográficos",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-219-hb-anemia-2trimestre-105",
+      "title": "Anemia 2º trimestre: Hb <10,5 g/dl",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-220-glucosuria-fisiologica-gfr",
+      "title": "Glucosuria fisiológica: GFR alta baja el umbral renal",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-221-ctg-variabilidad-5-25",
+      "title": "Variabilidad CTG 5-25 lpm: ondulatorio y reactivo",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-222-ctg-aceleracion-15bpm-15s",
+      "title": "Aceleración CTG: ≥15 lpm por ≥15 segundos",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-223-imc-30-riesgo-gdm-hta",
+      "title": "IMC pregestacional ≥30: alto riesgo obstétrico",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-224-bacteriuria-asintomatica-screening",
+      "title": "Bacteriuria asintomática: screening + tratamiento siempre",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-225-cervix-25mm-screening-prematuro",
+      "title": "Cuello <25 mm antes de 24 sem: riesgo de prematuridad",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-226-afi-cuatro-cuadrantes",
+      "title": "AFI: suma de profundidades en 4 cuadrantes",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-227-oligohidramnios-dvp-2cm",
+      "title": "Oligohidramnios: bolsillo <2 cm en 3er trimestre",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-228-hta-gestacional-140-90",
+      "title": "HTA gestacional: ≥140/90 en 2 mediciones",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-229-nipt-cffdna-99-trisomy",
+      "title": "NIPT: >99% detección trisomía 21, sin riesgo",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-230-leopold-4-divergente-encajado",
+      "title": "4ª Leopold divergente: cabeza encajada",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-231-sindrome-vena-cava-lateral-izquierdo",
+      "title": "Decúbito lateral izquierdo: profilaxis de vena cava",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-232-vitamina-d-suplementacion-800",
+      "title": "Vitamina D3 600-800 UI/día en embarazo",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-233-altura-uterina-sfa-semanas",
+      "title": "Altura uterina (cm) ≈ semanas entre 20-34",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-234-ctg-bradicardia-110-10min",
+      "title": "Bradicardia fetal: <110 lpm por >10 minutos",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-235-toxoplasmosis-gato-carne-cruda",
+      "title": "Toxoplasmosis: heces de gato y carne mal cocida",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-236-hellp-dolor-epigastrico",
+      "title": "HELLP: dolor epigástrico es alarma, no gastritis",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-237-vitamina-a-teratogena",
+      "title": "Vitamina A en altas dosis: teratógena",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-238-abdomen-fetal-rciu-asimetrico",
+      "title": "Circunferencia abdominal: marcador clave de RCIU asimétrica",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-239-insulina-pancreas-2x-3x",
+      "title": "Páncreas materno secreta 2-3× más insulina al término",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-240-tdap-tos-ferina-28-semanas",
+      "title": "Vacuna Tdap (tos ferina) en 3er trimestre",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-241-occipucio-anterior-fontanela-menor",
+      "title": "Occipital anterior: fontanela menor por delante",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-242-hla-g-tolerancia-fetal",
+      "title": "HLA-G: cómo el trofoblasto evita ser atacado",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-243-ctg-rutina-no-mejora-resultados",
+      "title": "CTG de rutina antes de término: sin beneficio comprobado",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-244-anomalia-presentacion-deflexion",
+      "title": "Anomalía de presentación: deflexión y asinclitismo",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-245-hipomoclion-suboccipital-sinfisis",
+      "title": "Hipomoclion en occipital anterior: nuca contra sínfisis",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-246-yodo-150mcg-suplemento",
+      "title": "Yodo: 150 μg/día suplemento (total ~230 μg/día)",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-247-quickening-20-semanas",
+      "title": "Quickening: primeros movimientos percibidos hacia semana 20",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-248-triple-test-obsolescencia",
+      "title": "Triple test (AFP/hCG/uE3): obsoleto frente a NIPT",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-249-gasto-cardiaco-30-50",
+      "title": "Gasto cardíaco: aumento del 30-50% al 3er trimestre",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-250-proteinuria-300mg-criterio-pe",
+      "title": "Proteinuria significativa: ≥300 mg/24h o PCR ≥0,3",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-251-suboccipitobregmatico-95cm",
+      "title": "Suboccipitobregmático 9,5 cm: diámetro óptimo",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-252-brain-sparing-perfusion-redistribucion",
+      "title": "Brain-sparing: redistribución de flujo a cerebro fetal",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-253-progesterona-bloquea-prolactina-mama",
+      "title": "Progesterona bloquea prolactina en mama hasta parto",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-254-ductus-venoso-a-wave-revertida",
+      "title": "Ductus venoso onda a revertida: hipoxia avanzada",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-255-hierro-30mg-embarazo-dge",
+      "title": "Hierro: 30 mg/día en embarazo (vs 15 mg fuera)",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-256-carus-curve-trayectoria",
+      "title": "Curva de Carus: el feto rota alrededor de la sínfisis",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-257-nipt-positive-confirmacion-invasive",
+      "title": "NIPT positivo: confirmar con amniocentesis o CVS",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-258-placenta-previa-total-cesarea",
+      "title": "Placenta previa total: cesárea obligada",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-259-minute-ventilation-progesterona",
+      "title": "Volumen minuto sube 40% por progesterona",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-260-rpm-liquido-pH-test",
+      "title": "RPM: salida franca + pH alcalino + actim PROM",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-261-hipotiroidismo-1trimestre-fetal",
+      "title": "Hipotiroidismo materno 1er trimestre: daño neurológico fetal",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-262-zeichnen-tapon-mucoso-borrado",
+      "title": "'Zeichnen': salida del tapón mucoso antes del parto",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-263-folato-alto-riesgo-4mg",
+      "title": "Folato 4-5 mg/día en mujeres con antecedente de NTD",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-264-indice-resistencia-vasos",
+      "title": "Índice de resistencia (RI): (S-D)/S",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-265-post-termino-42-semanas",
+      "title": "Post-término: ≥42+0 (≥294 días)",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-266-asinclitismo-litzmann-promontorio",
+      "title": "Asinclitismo posterior (Litzmann): mal pronóstico",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-267-papp-a-bajo-aspirina-prevencion",
+      "title": "PAPP-A bajo en 1er trimestre: aspirina profiláctica",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-268-sindrome-vena-cava-fetal-bradicardia",
+      "title": "Síndrome de vena cava puede manifestarse sólo como bradicardia fetal",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-269-vagina-ph-3-8-4-5-protector",
+      "title": "pH vaginal 3,8-4,5: barrera contra ascensión bacteriana",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-270-lambda-sign-dicorial",
+      "title": "Lambda sign: embarazo gemelar dicoriónico",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-271-liquido-fetal-orina-segunda-mitad",
+      "title": "Líquido amniótico 2ª mitad: principalmente orina fetal",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-272-antikorpersuche-irregular-aks",
+      "title": "Test de Coombs indirecto: detección de aloanticuerpos irregulares",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-273-cervix-15mm-progesterona",
+      "title": "Cuello 15 mm: progesterona vaginal indicada",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-274-bishop-score-induccion",
+      "title": "Score de Bishop ≥8: inducción con alta probabilidad de éxito",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-275-tpr-caida-embarazo-vasodilatacion",
+      "title": "TPR cae por vasodilatación NO+progesterona",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-276-ctg-sinusoidal-anemia-prematerminal",
+      "title": "CTG sinusoidal: signo prematerminal por anemia fetal",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-277-edemas-leves-vespertinos",
+      "title": "Edemas leves vespertinos: fisiológicos por presión venosa",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-278-feindiagnostik-19-22-organos",
+      "title": "Ecografía morfológica 19-22 semanas: screening estructural",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-279-hpl-lipolisis-energia-materna",
+      "title": "hPL induce lipólisis materna para alimentar al feto",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-280-leopold-querlage-fundus-vacio",
+      "title": "Querlage: fundus vacío, partes fetales en flancos",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-281-leitstelle-pequeña-fontanela",
+      "title": "Leitstelle: punto guía en el descenso",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-282-hipertrofia-cardiaca-fisiologica",
+      "title": "Hipertrofia cardíaca excéntrica: adaptación fisiológica",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-283-kleihauer-betke-makrotransfusion",
+      "title": "Kleihauer-Betke: cuantifica transfusión fetomaterna",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-284-deceleracion-tardia-hipoxia",
+      "title": "Desaceleración tardía: hipoxia placentaria",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-285-hemodilucion-hto-32-35",
+      "title": "Hemodilución: hematocrito baja a 32-35% fisiológico",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-286-estrogenos-ductos-mamarios",
+      "title": "Estrógenos: proliferación de ductos mamarios",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-287-funneling-trichter-prematuridad",
+      "title": "Funneling cervical: OCI abierto, OCE cerrado",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-288-gfr-aumento-50",
+      "title": "GFR aumenta 50% en embarazo normal",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-289-membranas-sinciocapilares-difusion",
+      "title": "Membranas sincio-capilares: ultra-finas para difusión",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-290-ctg-taquicardia-160-10min",
+      "title": "Taquicardia fetal: >160 lpm por >10 minutos",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-292-varices-progesterona-presion-pelvica",
+      "title": "Várices: progesterona + presión pélvica del útero",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-293-centralizacion-acm-vasodilatacion",
+      "title": "Centralización fetal: ACM vasodilata para proteger cerebro",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-294-screening-1trim-edad-nt-bioquimica",
+      "title": "Screening 1er trimestre: edad + NT + bioquímica",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-295-sinclitismo-recto-promontorio",
+      "title": "Sinclitismo: sutura sagital centrada en estrecho superior",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-296-afp-defecto-tubo-neural",
+      "title": "AFP elevado: defecto de tubo neural abierto",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-297-volumen-corriente-40-percent",
+      "title": "Volumen corriente sube 40% por progesterona",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-298-monocorial-monoamniotico-cordones",
+      "title": "Monocoriónico monoamniótico: cordones se enredan",
+      "tone": "mentor",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-299-hsd2-cortisol-fetal-proteccion",
+      "title": "11β-HSD2 placentaria: protege al feto del cortisol materno",
+      "tone": "calm",
+      "status": "failed",
+      "error": "401"
+    },
+    {
+      "slug": "reel-300-polihidramnios-dvp-8cm",
+      "title": "Polihidramnios: DVP ≥8 cm o AFI >24-25 cm",
+      "tone": "urgent",
+      "status": "failed",
+      "error": "401"
     }
   ]
 }

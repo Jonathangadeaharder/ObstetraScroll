@@ -1,0 +1,88 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Arial Black,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Arial Black,84,&H00FF3CFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.30,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}La {\rBase}recomendación {\rBase}histórica
+Dialogue: 0,0:00:00.30,0:00:00.88,Base,,0,0,0,,{\rBase}La {\rHot\frz-3\t(0,200,\frz3)}recomendación {\rBase}histórica
+Dialogue: 0,0:00:00.88,0:00:01.43,Base,,0,0,0,,{\rBase}La {\rBase}recomendación {\rHot\frz-3\t(0,200,\frz3)}histórica
+Dialogue: 0,0:00:01.38,0:00:01.62,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}para {\rBase}madres {\rBase}con
+Dialogue: 0,0:00:01.62,0:00:01.96,Base,,0,0,0,,{\rBase}para {\rHot\frz-3\t(0,200,\frz3)}madres {\rBase}con
+Dialogue: 0,0:00:01.96,0:00:02.23,Base,,0,0,0,,{\rBase}para {\rBase}madres {\rHot\frz-3\t(0,200,\frz3)}con
+Dialogue: 0,0:00:02.18,0:00:02.74,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}VIH {\rBase}era {\rBase}no
+Dialogue: 0,0:00:02.74,0:00:03.12,Base,,0,0,0,,{\rBase}VIH {\rHot\frz-3\t(0,200,\frz3)}era {\rBase}no
+Dialogue: 0,0:00:03.12,0:00:03.71,Base,,0,0,0,,{\rBase}VIH {\rBase}era {\rHot\frz-3\t(0,200,\frz3)}no
+Dialogue: 0,0:00:03.66,0:00:04.26,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}amamantar {\rBase}nunca, {\rBase}pero
+Dialogue: 0,0:00:04.26,0:00:05.00,Base,,0,0,0,,{\rBase}amamantar {\rHot\frz-3\t(0,200,\frz3)}nunca, {\rBase}pero
+Dialogue: 0,0:00:05.00,0:00:05.39,Base,,0,0,0,,{\rBase}amamantar {\rBase}nunca, {\rHot\frz-3\t(0,200,\frz3)}pero
+Dialogue: 0,0:00:05.34,0:00:05.46,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}en {\rBase}países {\rBase}de
+Dialogue: 0,0:00:05.46,0:00:05.76,Base,,0,0,0,,{\rBase}en {\rHot\frz-3\t(0,200,\frz3)}países {\rBase}de
+Dialogue: 0,0:00:05.76,0:00:06.01,Base,,0,0,0,,{\rBase}en {\rBase}países {\rHot\frz-3\t(0,200,\frz3)}de
+Dialogue: 0,0:00:05.96,0:00:06.38,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}ingresos {\rBase}bajos {\rBase}y
+Dialogue: 0,0:00:06.38,0:00:06.80,Base,,0,0,0,,{\rBase}ingresos {\rHot\frz-3\t(0,200,\frz3)}bajos {\rBase}y
+Dialogue: 0,0:00:06.80,0:00:06.99,Base,,0,0,0,,{\rBase}ingresos {\rBase}bajos {\rHot\frz-3\t(0,200,\frz3)}y
+Dialogue: 0,0:00:06.94,0:00:07.54,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}medios, {\rBase}la {\rBase}lactancia
+Dialogue: 0,0:00:07.54,0:00:07.80,Base,,0,0,0,,{\rBase}medios, {\rHot\frz-3\t(0,200,\frz3)}la {\rBase}lactancia
+Dialogue: 0,0:00:07.80,0:00:08.35,Base,,0,0,0,,{\rBase}medios, {\rBase}la {\rHot\frz-3\t(0,200,\frz3)}lactancia
+Dialogue: 0,0:00:08.30,0:00:08.78,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}artificial {\rBase}tiene {\rBase}mayor
+Dialogue: 0,0:00:08.78,0:00:09.24,Base,,0,0,0,,{\rBase}artificial {\rHot\frz-3\t(0,200,\frz3)}tiene {\rBase}mayor
+Dialogue: 0,0:00:09.24,0:00:09.65,Base,,0,0,0,,{\rBase}artificial {\rBase}tiene {\rHot\frz-3\t(0,200,\frz3)}mayor
+Dialogue: 0,0:00:09.60,0:00:10.22,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}mortalidad {\rBase}infantil {\rBase}por
+Dialogue: 0,0:00:10.22,0:00:10.84,Base,,0,0,0,,{\rBase}mortalidad {\rHot\frz-3\t(0,200,\frz3)}infantil {\rBase}por
+Dialogue: 0,0:00:10.84,0:00:11.15,Base,,0,0,0,,{\rBase}mortalidad {\rBase}infantil {\rHot\frz-3\t(0,200,\frz3)}por
+Dialogue: 0,0:00:11.10,0:00:11.86,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}desnutrición {\rBase}e {\rBase}infecciones
+Dialogue: 0,0:00:11.86,0:00:12.00,Base,,0,0,0,,{\rBase}desnutrición {\rHot\frz-3\t(0,200,\frz3)}e {\rBase}infecciones
+Dialogue: 0,0:00:12.00,0:00:12.75,Base,,0,0,0,,{\rBase}desnutrición {\rBase}e {\rHot\frz-3\t(0,200,\frz3)}infecciones
+Dialogue: 0,0:00:12.70,0:00:13.28,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}que {\rBase}el {\rBase}riesgo
+Dialogue: 0,0:00:13.28,0:00:13.42,Base,,0,0,0,,{\rBase}que {\rHot\frz-3\t(0,200,\frz3)}el {\rBase}riesgo
+Dialogue: 0,0:00:13.42,0:00:13.85,Base,,0,0,0,,{\rBase}que {\rBase}el {\rHot\frz-3\t(0,200,\frz3)}riesgo
+Dialogue: 0,0:00:13.80,0:00:13.94,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}de {\rBase}transmisión {\rBase}del
+Dialogue: 0,0:00:13.94,0:00:14.62,Base,,0,0,0,,{\rBase}de {\rHot\frz-3\t(0,200,\frz3)}transmisión {\rBase}del
+Dialogue: 0,0:00:14.62,0:00:14.93,Base,,0,0,0,,{\rBase}de {\rBase}transmisión {\rHot\frz-3\t(0,200,\frz3)}del
+Dialogue: 0,0:00:14.88,0:00:15.94,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}VIH. {\rBase}En {\rBase}contextos
+Dialogue: 0,0:00:15.94,0:00:16.32,Base,,0,0,0,,{\rBase}VIH. {\rHot\frz-3\t(0,200,\frz3)}En {\rBase}contextos
+Dialogue: 0,0:00:16.32,0:00:17.11,Base,,0,0,0,,{\rBase}VIH. {\rBase}En {\rHot\frz-3\t(0,200,\frz3)}contextos
+Dialogue: 0,0:00:17.06,0:00:17.34,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}donde {\rBase}la {\rBase}lactancia
+Dialogue: 0,0:00:17.34,0:00:17.52,Base,,0,0,0,,{\rBase}donde {\rHot\frz-3\t(0,200,\frz3)}la {\rBase}lactancia
+Dialogue: 0,0:00:17.52,0:00:18.11,Base,,0,0,0,,{\rBase}donde {\rBase}la {\rHot\frz-3\t(0,200,\frz3)}lactancia
+Dialogue: 0,0:00:18.06,0:00:18.64,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}materna {\rBase}es {\rBase}la
+Dialogue: 0,0:00:18.64,0:00:18.98,Base,,0,0,0,,{\rBase}materna {\rHot\frz-3\t(0,200,\frz3)}es {\rBase}la
+Dialogue: 0,0:00:18.98,0:00:19.15,Base,,0,0,0,,{\rBase}materna {\rBase}es {\rHot\frz-3\t(0,200,\frz3)}la
+Dialogue: 0,0:00:19.10,0:00:19.42,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}opción {\rBase}más {\rBase}segura,
+Dialogue: 0,0:00:19.42,0:00:19.66,Base,,0,0,0,,{\rBase}opción {\rHot\frz-3\t(0,200,\frz3)}más {\rBase}segura,
+Dialogue: 0,0:00:19.66,0:00:20.25,Base,,0,0,0,,{\rBase}opción {\rBase}más {\rHot\frz-3\t(0,200,\frz3)}segura,
+Dialogue: 0,0:00:20.54,0:00:20.94,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}falta {\rBase}de {\rBase}agua
+Dialogue: 0,0:00:20.94,0:00:21.10,Base,,0,0,0,,{\rBase}falta {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}agua
+Dialogue: 0,0:00:21.10,0:00:21.31,Base,,0,0,0,,{\rBase}falta {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}agua
+Dialogue: 0,0:00:21.26,0:00:22.18,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}potable, {\rBase}alta {\rBase}mortalidad
+Dialogue: 0,0:00:22.18,0:00:22.40,Base,,0,0,0,,{\rBase}potable, {\rHot\frz-3\t(0,200,\frz3)}alta {\rBase}mortalidad
+Dialogue: 0,0:00:22.40,0:00:23.05,Base,,0,0,0,,{\rBase}potable, {\rBase}alta {\rHot\frz-3\t(0,200,\frz3)}mortalidad
+Dialogue: 0,0:00:23.00,0:00:23.60,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}infantil {\rBase}por {\rBase}infecciones,
+Dialogue: 0,0:00:23.60,0:00:23.80,Base,,0,0,0,,{\rBase}infantil {\rHot\frz-3\t(0,200,\frz3)}por {\rBase}infecciones,
+Dialogue: 0,0:00:23.80,0:00:24.45,Base,,0,0,0,,{\rBase}infantil {\rBase}por {\rHot\frz-3\t(0,200,\frz3)}infecciones,
+Dialogue: 0,0:00:24.40,0:00:25.12,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}la {\rBase}lactancia {\rBase}materna
+Dialogue: 0,0:00:25.12,0:00:25.60,Base,,0,0,0,,{\rBase}la {\rHot\frz-3\t(0,200,\frz3)}lactancia {\rBase}materna
+Dialogue: 0,0:00:25.60,0:00:26.11,Base,,0,0,0,,{\rBase}la {\rBase}lactancia {\rHot\frz-3\t(0,200,\frz3)}materna
+Dialogue: 0,0:00:26.06,0:00:26.76,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}exclusiva {\rBase}con {\rBase}TAR
+Dialogue: 0,0:00:26.76,0:00:27.04,Base,,0,0,0,,{\rBase}exclusiva {\rHot\frz-3\t(0,200,\frz3)}con {\rBase}TAR
+Dialogue: 0,0:00:27.04,0:00:27.33,Base,,0,0,0,,{\rBase}exclusiva {\rBase}con {\rHot\frz-3\t(0,200,\frz3)}TAR
+Dialogue: 0,0:00:27.28,0:00:27.88,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}materno {\rBase}tiene {\rBase}un
+Dialogue: 0,0:00:27.88,0:00:28.40,Base,,0,0,0,,{\rBase}materno {\rHot\frz-3\t(0,200,\frz3)}tiene {\rBase}un
+Dialogue: 0,0:00:28.40,0:00:28.59,Base,,0,0,0,,{\rBase}materno {\rBase}tiene {\rHot\frz-3\t(0,200,\frz3)}un
+Dialogue: 0,0:00:28.54,0:00:28.94,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}riesgo {\rBase}de {\rBase}transmisión
+Dialogue: 0,0:00:28.94,0:00:29.04,Base,,0,0,0,,{\rBase}riesgo {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}transmisión
+Dialogue: 0,0:00:29.04,0:00:29.71,Base,,0,0,0,,{\rBase}riesgo {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}transmisión
+Dialogue: 0,0:00:29.66,0:00:30.42,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}postnatal {\rBase}del {\rBase}VIH
+Dialogue: 0,0:00:30.42,0:00:30.64,Base,,0,0,0,,{\rBase}postnatal {\rHot\frz-3\t(0,200,\frz3)}del {\rBase}VIH
+Dialogue: 0,0:00:30.64,0:00:31.39,Base,,0,0,0,,{\rBase}postnatal {\rBase}del {\rHot\frz-3\t(0,200,\frz3)}VIH
+Dialogue: 0,0:00:31.34,0:00:31.74,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}menor {\rBase}al {\rBase}1%.
+Dialogue: 0,0:00:31.74,0:00:32.08,Base,,0,0,0,,{\rBase}menor {\rHot\frz-3\t(0,200,\frz3)}al {\rBase}1%.
+Dialogue: 0,0:00:32.08,0:00:32.41,Base,,0,0,0,,{\rBase}menor {\rBase}al {\rHot\frz-3\t(0,200,\frz3)}1%.

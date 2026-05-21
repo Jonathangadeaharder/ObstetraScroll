@@ -1,0 +1,67 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,84,&H00B4377C,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La {\rBase}atmósfera {\rBase}de
+Dialogue: 0,0:00:00.26,0:00:00.78,Base,,0,0,0,,{\rBase}La {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}atmósfera {\rBase}de
+Dialogue: 0,0:00:00.78,0:00:00.95,Base,,0,0,0,,{\rBase}La {\rBase}atmósfera {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:00.90,0:00:01.00,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}sala {\rBase}no
+Dialogue: 0,0:00:01.00,0:00:01.30,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sala {\rBase}no
+Dialogue: 0,0:00:01.30,0:00:01.71,Base,,0,0,0,,{\rBase}la {\rBase}sala {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}no
+Dialogue: 0,0:00:01.66,0:00:01.88,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}es {\rBase}estética, {\rBase}es
+Dialogue: 0,0:00:01.88,0:00:02.70,Base,,0,0,0,,{\rBase}es {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}estética, {\rBase}es
+Dialogue: 0,0:00:02.70,0:00:03.07,Base,,0,0,0,,{\rBase}es {\rBase}estética, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}es
+Dialogue: 0,0:00:03.02,0:00:04.55,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}fisiología. {\rBase}Luz {\rBase}tenue,
+Dialogue: 0,0:00:04.55,0:00:04.98,Base,,0,0,0,,{\rBase}fisiología. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Luz {\rBase}tenue,
+Dialogue: 0,0:00:04.98,0:00:05.61,Base,,0,0,0,,{\rBase}fisiología. {\rBase}Luz {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tenue,
+Dialogue: 0,0:00:05.76,0:00:06.74,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}intimidad, {\rBase}acompañamiento, {\rBase}bajan
+Dialogue: 0,0:00:06.74,0:00:07.98,Base,,0,0,0,,{\rBase}intimidad, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}acompañamiento, {\rBase}bajan
+Dialogue: 0,0:00:07.98,0:00:08.33,Base,,0,0,0,,{\rBase}intimidad, {\rBase}acompañamiento, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}bajan
+Dialogue: 0,0:00:08.28,0:00:09.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}catecolaminas {\rBase}y {\rBase}reanudan
+Dialogue: 0,0:00:09.26,0:00:09.68,Base,,0,0,0,,{\rBase}catecolaminas {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}reanudan
+Dialogue: 0,0:00:09.68,0:00:10.27,Base,,0,0,0,,{\rBase}catecolaminas {\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}reanudan
+Dialogue: 0,0:00:10.22,0:00:10.36,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}parto. {\rBase}El
+Dialogue: 0,0:00:10.36,0:00:11.14,Base,,0,0,0,,{\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}parto. {\rBase}El
+Dialogue: 0,0:00:11.14,0:00:11.61,Base,,0,0,0,,{\rBase}el {\rBase}parto. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El
+Dialogue: 0,0:00:11.56,0:00:11.90,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}estrés {\rBase}sostenido {\rBase}eleva
+Dialogue: 0,0:00:11.90,0:00:12.60,Base,,0,0,0,,{\rBase}estrés {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sostenido {\rBase}eleva
+Dialogue: 0,0:00:12.60,0:00:13.21,Base,,0,0,0,,{\rBase}estrés {\rBase}sostenido {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}eleva
+Dialogue: 0,0:00:13.16,0:00:14.56,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}catecolaminas. {\rBase}Adrenalina {\rBase}actúa
+Dialogue: 0,0:00:14.56,0:00:15.30,Base,,0,0,0,,{\rBase}catecolaminas. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Adrenalina {\rBase}actúa
+Dialogue: 0,0:00:15.30,0:00:15.77,Base,,0,0,0,,{\rBase}catecolaminas. {\rBase}Adrenalina {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}actúa
+Dialogue: 0,0:00:15.72,0:00:15.92,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}receptores {\rBase}B2
+Dialogue: 0,0:00:15.92,0:00:16.62,Base,,0,0,0,,{\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}receptores {\rBase}B2
+Dialogue: 0,0:00:16.62,0:00:17.19,Base,,0,0,0,,{\rBase}en {\rBase}receptores {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}B2
+Dialogue: 0,0:00:17.14,0:00:18.14,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}miometriales {\rBase}y {\rBase}los
+Dialogue: 0,0:00:18.14,0:00:18.58,Base,,0,0,0,,{\rBase}miometriales {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}los
+Dialogue: 0,0:00:18.58,0:00:18.81,Base,,0,0,0,,{\rBase}miometriales {\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}los
+Dialogue: 0,0:00:18.76,0:00:19.36,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}inhibe, {\rBase}efecto {\rBase}tocolítico.
+Dialogue: 0,0:00:19.36,0:00:20.06,Base,,0,0,0,,{\rBase}inhibe, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}efecto {\rBase}tocolítico.
+Dialogue: 0,0:00:20.06,0:00:20.95,Base,,0,0,0,,{\rBase}inhibe, {\rBase}efecto {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tocolítico.
+Dialogue: 0,0:00:21.14,0:00:21.82,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}También {\rBase}vasoconstriña {\rBase}arterias
+Dialogue: 0,0:00:21.82,0:00:22.70,Base,,0,0,0,,{\rBase}También {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}vasoconstriña {\rBase}arterias
+Dialogue: 0,0:00:22.70,0:00:23.21,Base,,0,0,0,,{\rBase}También {\rBase}vasoconstriña {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}arterias
+Dialogue: 0,0:00:23.16,0:00:23.96,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}uterinas, {\rBase}hipoperfunde {\rBase}la
+Dialogue: 0,0:00:23.96,0:00:24.78,Base,,0,0,0,,{\rBase}uterinas, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hipoperfunde {\rBase}la
+Dialogue: 0,0:00:24.78,0:00:24.99,Base,,0,0,0,,{\rBase}uterinas, {\rBase}hipoperfunde {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la
+Dialogue: 0,0:00:24.94,0:00:25.50,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}placenta {\rBase}y {\rBase}favorece
+Dialogue: 0,0:00:25.50,0:00:25.78,Base,,0,0,0,,{\rBase}placenta {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}favorece
+Dialogue: 0,0:00:25.78,0:00:26.31,Base,,0,0,0,,{\rBase}placenta {\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}favorece
+Dialogue: 0,0:00:26.26,0:00:26.78,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hipoxia {\rBase}fetal. {\rBase}El
+Dialogue: 0,0:00:26.78,0:00:27.20,Base,,0,0,0,,{\rBase}hipoxia {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}fetal. {\rBase}El
+Dialogue: 0,0:00:27.20,0:00:27.83,Base,,0,0,0,,{\rBase}hipoxia {\rBase}fetal. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El
+Dialogue: 0,0:00:27.78,0:00:28.06,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}miedo {\rBase}materno {\rBase}literalmente
+Dialogue: 0,0:00:28.06,0:00:28.56,Base,,0,0,0,,{\rBase}miedo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}materno {\rBase}literalmente
+Dialogue: 0,0:00:28.56,0:00:29.31,Base,,0,0,0,,{\rBase}miedo {\rBase}materno {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}literalmente
+Dialogue: 0,0:00:29.26,0:00:29.74,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}paraliza {\rBase}el {\rBase}parto.
+Dialogue: 0,0:00:29.74,0:00:29.92,Base,,0,0,0,,{\rBase}paraliza {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}parto.
+Dialogue: 0,0:00:29.92,0:00:30.37,Base,,0,0,0,,{\rBase}paraliza {\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}parto.

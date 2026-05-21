@@ -1,0 +1,82 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0000E5FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}rotación {\rBase}interna
+Dialogue: 0,0:00:00.26,0:00:00.62,Base,,0,0,0,,{\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}rotación {\rBase}interna
+Dialogue: 0,0:00:00.62,0:00:01.09,Base,,0,0,0,,{\rBase}La {\rBase}rotación {\rHot\t(0,120,\fscx115\fscy115)}interna
+Dialogue: 0,0:00:01.04,0:00:01.18,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}es {\rBase}estética.
+Dialogue: 0,0:00:01.18,0:00:01.32,Base,,0,0,0,,{\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}estética.
+Dialogue: 0,0:00:01.32,0:00:01.81,Base,,0,0,0,,{\rBase}no {\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}estética.
+Dialogue: 0,0:00:01.96,0:00:02.20,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Si {\rBase}la {\rBase}cabeza
+Dialogue: 0,0:00:02.20,0:00:02.30,Base,,0,0,0,,{\rBase}Si {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}cabeza
+Dialogue: 0,0:00:02.30,0:00:02.59,Base,,0,0,0,,{\rBase}Si {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}cabeza
+Dialogue: 0,0:00:02.54,0:00:02.70,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}rota, {\rBase}no
+Dialogue: 0,0:00:02.70,0:00:03.14,Base,,0,0,0,,{\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}rota, {\rBase}no
+Dialogue: 0,0:00:03.14,0:00:03.55,Base,,0,0,0,,{\rBase}no {\rBase}rota, {\rHot\t(0,120,\fscx115\fscy115)}no
+Dialogue: 0,0:00:03.50,0:00:03.72,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}pasa {\rBase}la {\rBase}salida.
+Dialogue: 0,0:00:03.72,0:00:03.84,Base,,0,0,0,,{\rBase}pasa {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}salida.
+Dialogue: 0,0:00:03.84,0:00:04.25,Base,,0,0,0,,{\rBase}pasa {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}salida.
+Dialogue: 0,0:00:04.42,0:00:04.68,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}mecánica {\rBase}es
+Dialogue: 0,0:00:04.68,0:00:05.16,Base,,0,0,0,,{\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}mecánica {\rBase}es
+Dialogue: 0,0:00:05.16,0:00:05.51,Base,,0,0,0,,{\rBase}La {\rBase}mecánica {\rHot\t(0,120,\fscx115\fscy115)}es
+Dialogue: 0,0:00:05.46,0:00:06.20,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}geométrica, {\rBase}no {\rBase}negociable.
+Dialogue: 0,0:00:06.20,0:00:06.38,Base,,0,0,0,,{\rBase}geométrica, {\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}negociable.
+Dialogue: 0,0:00:06.38,0:00:06.99,Base,,0,0,0,,{\rBase}geométrica, {\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}negociable.
+Dialogue: 0,0:00:07.36,0:00:08.04,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Entrada. {\rBase}Transverso. {\rBase}Pítor
+Dialogue: 0,0:00:08.04,0:00:08.88,Base,,0,0,0,,{\rBase}Entrada. {\rHot\t(0,120,\fscx115\fscy115)}Transverso. {\rBase}Pítor
+Dialogue: 0,0:00:08.88,0:00:09.37,Base,,0,0,0,,{\rBase}Entrada. {\rBase}Transverso. {\rHot\t(0,120,\fscx115\fscy115)}Pítor
+Dialogue: 0,0:00:09.32,0:00:09.54,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}0 {\rBase},3 {\rBase}cm.
+Dialogue: 0,0:00:09.54,0:00:09.84,Base,,0,0,0,,{\rBase}0 {\rHot\t(0,120,\fscx115\fscy115)},3 {\rBase}cm.
+Dialogue: 0,0:00:09.84,0:00:10.41,Base,,0,0,0,,{\rBase}0 {\rBase},3 {\rHot\t(0,120,\fscx115\fscy115)}cm.
+Dialogue: 0,0:00:10.76,0:00:11.74,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Sagital. {\rBase}Pítor {\rBase},5
+Dialogue: 0,0:00:11.74,0:00:12.34,Base,,0,0,0,,{\rBase}Sagital. {\rHot\t(0,120,\fscx115\fscy115)}Pítor {\rBase},5
+Dialogue: 0,0:00:12.34,0:00:12.77,Base,,0,0,0,,{\rBase}Sagital. {\rBase}Pítor {\rHot\t(0,120,\fscx115\fscy115)},5
+Dialogue: 0,0:00:12.72,0:00:13.46,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}cm. {\rBase}Forma {\rBase}ovalada
+Dialogue: 0,0:00:13.46,0:00:13.90,Base,,0,0,0,,{\rBase}cm. {\rHot\t(0,120,\fscx115\fscy115)}Forma {\rBase}ovalada
+Dialogue: 0,0:00:13.90,0:00:14.37,Base,,0,0,0,,{\rBase}cm. {\rBase}Forma {\rHot\t(0,120,\fscx115\fscy115)}ovalada
+Dialogue: 0,0:00:14.32,0:00:15.42,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}transversal. {\rBase}Excavación. {\rBase}Pítor
+Dialogue: 0,0:00:15.42,0:00:16.42,Base,,0,0,0,,{\rBase}transversal. {\rHot\t(0,120,\fscx115\fscy115)}Excavación. {\rBase}Pítor
+Dialogue: 0,0:00:16.42,0:00:16.75,Base,,0,0,0,,{\rBase}transversal. {\rBase}Excavación. {\rHot\t(0,120,\fscx115\fscy115)}Pítor
+Dialogue: 0,0:00:16.70,0:00:16.96,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}12 {\rBase},5 {\rBase}cm.
+Dialogue: 0,0:00:16.96,0:00:17.56,Base,,0,0,0,,{\rBase}12 {\rHot\t(0,120,\fscx115\fscy115)},5 {\rBase}cm.
+Dialogue: 0,0:00:17.56,0:00:17.95,Base,,0,0,0,,{\rBase}12 {\rBase},5 {\rHot\t(0,120,\fscx115\fscy115)}cm.
+Dialogue: 0,0:00:18.36,0:00:18.52,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}En {\rBase}ambos, {\rBase}redondeada.
+Dialogue: 0,0:00:18.52,0:00:18.98,Base,,0,0,0,,{\rBase}En {\rHot\t(0,120,\fscx115\fscy115)}ambos, {\rBase}redondeada.
+Dialogue: 0,0:00:18.98,0:00:19.73,Base,,0,0,0,,{\rBase}En {\rBase}ambos, {\rHot\t(0,120,\fscx115\fscy115)}redondeada.
+Dialogue: 0,0:00:19.96,0:00:20.76,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Salida. {\rBase}Sagital {\rBase}alarga
+Dialogue: 0,0:00:20.76,0:00:21.08,Base,,0,0,0,,{\rBase}Salida. {\rHot\t(0,120,\fscx115\fscy115)}Sagital {\rBase}alarga
+Dialogue: 0,0:00:21.08,0:00:21.53,Base,,0,0,0,,{\rBase}Salida. {\rBase}Sagital {\rHot\t(0,120,\fscx115\fscy115)}alarga
+Dialogue: 0,0:00:21.48,0:00:21.66,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}a {\rBase}11 {\rBase},5
+Dialogue: 0,0:00:21.66,0:00:21.88,Base,,0,0,0,,{\rBase}a {\rHot\t(0,120,\fscx115\fscy115)}11 {\rBase},5
+Dialogue: 0,0:00:21.88,0:00:22.41,Base,,0,0,0,,{\rBase}a {\rBase}11 {\rHot\t(0,120,\fscx115\fscy115)},5
+Dialogue: 0,0:00:22.36,0:00:22.66,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}cm {\rBase}por {\rBase}retropulsión
+Dialogue: 0,0:00:22.66,0:00:23.32,Base,,0,0,0,,{\rBase}cm {\rHot\t(0,120,\fscx115\fscy115)}por {\rBase}retropulsión
+Dialogue: 0,0:00:23.32,0:00:24.01,Base,,0,0,0,,{\rBase}cm {\rBase}por {\rHot\t(0,120,\fscx115\fscy115)}retropulsión
+Dialogue: 0,0:00:23.96,0:00:24.12,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}coxis. {\rBase}Transverso.
+Dialogue: 0,0:00:24.12,0:00:24.80,Base,,0,0,0,,{\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}coxis. {\rBase}Transverso.
+Dialogue: 0,0:00:24.80,0:00:25.53,Base,,0,0,0,,{\rBase}del {\rBase}coxis. {\rHot\t(0,120,\fscx115\fscy115)}Transverso.
+Dialogue: 0,0:00:25.80,0:00:26.98,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Intertuberoso. {\rBase}Dúciete {\rBase}10
+Dialogue: 0,0:00:26.98,0:00:27.74,Base,,0,0,0,,{\rBase}Intertuberoso. {\rHot\t(0,120,\fscx115\fscy115)}Dúciete {\rBase}10
+Dialogue: 0,0:00:27.74,0:00:27.93,Base,,0,0,0,,{\rBase}Intertuberoso. {\rBase}Dúciete {\rHot\t(0,120,\fscx115\fscy115)}10
+Dialogue: 0,0:00:27.88,0:00:28.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)},5 {\rBase}cm. {\rBase}la
+Dialogue: 0,0:00:28.60,0:00:29.62,Base,,0,0,0,,{\rBase},5 {\rHot\t(0,120,\fscx115\fscy115)}cm. {\rBase}la
+Dialogue: 0,0:00:29.62,0:00:29.83,Base,,0,0,0,,{\rBase},5 {\rBase}cm. {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:29.78,0:00:30.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}cabeza {\rBase}fetal {\rBase}rota
+Dialogue: 0,0:00:30.08,0:00:30.46,Base,,0,0,0,,{\rBase}cabeza {\rHot\t(0,120,\fscx115\fscy115)}fetal {\rBase}rota
+Dialogue: 0,0:00:30.46,0:00:30.83,Base,,0,0,0,,{\rBase}cabeza {\rBase}fetal {\rHot\t(0,120,\fscx115\fscy115)}rota
+Dialogue: 0,0:00:30.78,0:00:30.94,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}para {\rBase}acomodarse {\rBase}al
+Dialogue: 0,0:00:30.94,0:00:31.56,Base,,0,0,0,,{\rBase}para {\rHot\t(0,120,\fscx115\fscy115)}acomodarse {\rBase}al
+Dialogue: 0,0:00:31.56,0:00:31.73,Base,,0,0,0,,{\rBase}para {\rBase}acomodarse {\rHot\t(0,120,\fscx115\fscy115)}al
+Dialogue: 0,0:00:31.68,0:00:31.96,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}cambio {\rBase}de {\rBase}eje.
+Dialogue: 0,0:00:31.96,0:00:32.14,Base,,0,0,0,,{\rBase}cambio {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}eje.
+Dialogue: 0,0:00:32.14,0:00:32.39,Base,,0,0,0,,{\rBase}cambio {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}eje.

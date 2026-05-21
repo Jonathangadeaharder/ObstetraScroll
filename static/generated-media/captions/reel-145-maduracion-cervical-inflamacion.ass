@@ -1,0 +1,73 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0080DE4A,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Los {\rBase}antiinflamatorios {\rBase}pueden
+Dialogue: 0,0:00:00.32,0:00:01.36,Base,,0,0,0,,{\rBase}Los {\rHot\t(0,120,\fscx115\fscy115)}antiinflamatorios {\rBase}pueden
+Dialogue: 0,0:00:01.36,0:00:01.81,Base,,0,0,0,,{\rBase}Los {\rBase}antiinflamatorios {\rHot\t(0,120,\fscx115\fscy115)}pueden
+Dialogue: 0,0:00:01.76,0:00:02.12,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}frenar {\rBase}la {\rBase}maduración
+Dialogue: 0,0:00:02.12,0:00:02.26,Base,,0,0,0,,{\rBase}frenar {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}maduración
+Dialogue: 0,0:00:02.26,0:00:02.85,Base,,0,0,0,,{\rBase}frenar {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}maduración
+Dialogue: 0,0:00:02.80,0:00:03.58,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}cervical. {\rBase}Por {\rBase}eso
+Dialogue: 0,0:00:03.58,0:00:04.00,Base,,0,0,0,,{\rBase}cervical. {\rHot\t(0,120,\fscx115\fscy115)}Por {\rBase}eso
+Dialogue: 0,0:00:04.00,0:00:04.21,Base,,0,0,0,,{\rBase}cervical. {\rBase}Por {\rHot\t(0,120,\fscx115\fscy115)}eso
+Dialogue: 0,0:00:04.16,0:00:04.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}preparto {\rBase}no
+Dialogue: 0,0:00:04.32,0:00:04.88,Base,,0,0,0,,{\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}preparto {\rBase}no
+Dialogue: 0,0:00:04.88,0:00:05.51,Base,,0,0,0,,{\rBase}en {\rBase}preparto {\rHot\t(0,120,\fscx115\fscy115)}no
+Dialogue: 0,0:00:05.46,0:00:05.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}se {\rBase}usan {\rBase}aines
+Dialogue: 0,0:00:05.64,0:00:05.98,Base,,0,0,0,,{\rBase}se {\rHot\t(0,120,\fscx115\fscy115)}usan {\rBase}aines
+Dialogue: 0,0:00:05.98,0:00:06.39,Base,,0,0,0,,{\rBase}se {\rBase}usan {\rHot\t(0,120,\fscx115\fscy115)}aines
+Dialogue: 0,0:00:06.34,0:00:06.80,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}si {\rBase}se {\rBase}quiere
+Dialogue: 0,0:00:06.80,0:00:06.94,Base,,0,0,0,,{\rBase}si {\rHot\t(0,120,\fscx115\fscy115)}se {\rBase}quiere
+Dialogue: 0,0:00:06.94,0:00:07.21,Base,,0,0,0,,{\rBase}si {\rBase}se {\rHot\t(0,120,\fscx115\fscy115)}quiere
+Dialogue: 0,0:00:07.16,0:00:08.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}progresar. {\rBase}La {\rBase}maduración
+Dialogue: 0,0:00:08.28,0:00:08.82,Base,,0,0,0,,{\rBase}progresar. {\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}maduración
+Dialogue: 0,0:00:08.82,0:00:09.39,Base,,0,0,0,,{\rBase}progresar. {\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}maduración
+Dialogue: 0,0:00:09.34,0:00:09.68,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}cervical {\rBase}es {\rBase}un
+Dialogue: 0,0:00:09.68,0:00:09.98,Base,,0,0,0,,{\rBase}cervical {\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}un
+Dialogue: 0,0:00:09.98,0:00:10.17,Base,,0,0,0,,{\rBase}cervical {\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}un
+Dialogue: 0,0:00:10.12,0:00:10.46,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}proceso {\rBase}inflamatorio {\rBase}controlado.
+Dialogue: 0,0:00:10.46,0:00:11.16,Base,,0,0,0,,{\rBase}proceso {\rHot\t(0,120,\fscx115\fscy115)}inflamatorio {\rBase}controlado.
+Dialogue: 0,0:00:11.16,0:00:11.87,Base,,0,0,0,,{\rBase}proceso {\rBase}inflamatorio {\rHot\t(0,120,\fscx115\fscy115)}controlado.
+Dialogue: 0,0:00:13.56,0:00:14.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Prostaglandinas, {\rBase}PGE2 {\rBase}e
+Dialogue: 0,0:00:14.36,0:00:15.16,Base,,0,0,0,,{\rBase}Prostaglandinas, {\rHot\t(0,120,\fscx115\fscy115)}PGE2 {\rBase}e
+Dialogue: 0,0:00:15.16,0:00:16.05,Base,,0,0,0,,{\rBase}Prostaglandinas, {\rBase}PGE2 {\rHot\t(0,120,\fscx115\fscy115)}e
+Dialogue: 0,0:00:16.00,0:00:16.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}IL {\rBase}-8 {\rBase}atraen
+Dialogue: 0,0:00:16.34,0:00:16.74,Base,,0,0,0,,{\rBase}IL {\rHot\t(0,120,\fscx115\fscy115)}-8 {\rBase}atraen
+Dialogue: 0,0:00:16.74,0:00:17.77,Base,,0,0,0,,{\rBase}IL {\rBase}-8 {\rHot\t(0,120,\fscx115\fscy115)}atraen
+Dialogue: 0,0:00:17.72,0:00:18.46,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}neutrófilos {\rBase}al {\rBase}estroma
+Dialogue: 0,0:00:18.46,0:00:18.64,Base,,0,0,0,,{\rBase}neutrófilos {\rHot\t(0,120,\fscx115\fscy115)}al {\rBase}estroma
+Dialogue: 0,0:00:18.64,0:00:19.13,Base,,0,0,0,,{\rBase}neutrófilos {\rBase}al {\rHot\t(0,120,\fscx115\fscy115)}estroma
+Dialogue: 0,0:00:19.08,0:00:20.46,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}cervical. {\rBase}Estos {\rBase}liberan
+Dialogue: 0,0:00:20.46,0:00:20.86,Base,,0,0,0,,{\rBase}cervical. {\rHot\t(0,120,\fscx115\fscy115)}Estos {\rBase}liberan
+Dialogue: 0,0:00:20.86,0:00:21.29,Base,,0,0,0,,{\rBase}cervical. {\rBase}Estos {\rHot\t(0,120,\fscx115\fscy115)}liberan
+Dialogue: 0,0:00:21.24,0:00:22.02,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}colagenasas {\rBase}y {\rBase}MMPs
+Dialogue: 0,0:00:22.02,0:00:22.34,Base,,0,0,0,,{\rBase}colagenasas {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}MMPs
+Dialogue: 0,0:00:22.34,0:00:23.21,Base,,0,0,0,,{\rBase}colagenasas {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}MMPs
+Dialogue: 0,0:00:23.16,0:00:23.68,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}que {\rBase}rompen {\rBase}la
+Dialogue: 0,0:00:23.68,0:00:24.06,Base,,0,0,0,,{\rBase}que {\rHot\t(0,120,\fscx115\fscy115)}rompen {\rBase}la
+Dialogue: 0,0:00:24.06,0:00:24.27,Base,,0,0,0,,{\rBase}que {\rBase}rompen {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:24.22,0:00:24.48,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}malla {\rBase}colágena {\rBase}rígida.
+Dialogue: 0,0:00:24.48,0:00:25.04,Base,,0,0,0,,{\rBase}malla {\rHot\t(0,120,\fscx115\fscy115)}colágena {\rBase}rígida.
+Dialogue: 0,0:00:25.04,0:00:25.49,Base,,0,0,0,,{\rBase}malla {\rBase}colágena {\rHot\t(0,120,\fscx115\fscy115)}rígida.
+Dialogue: 0,0:00:26.00,0:00:26.80,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Suben {\rBase}glicosaminoglicanos {\rBase}y
+Dialogue: 0,0:00:26.80,0:00:28.22,Base,,0,0,0,,{\rBase}Suben {\rHot\t(0,120,\fscx115\fscy115)}glicosaminoglicanos {\rBase}y
+Dialogue: 0,0:00:28.22,0:00:28.61,Base,,0,0,0,,{\rBase}Suben {\rBase}glicosaminoglicanos {\rHot\t(0,120,\fscx115\fscy115)}y
+Dialogue: 0,0:00:28.56,0:00:29.20,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}alurónico. {\rBase}Entra {\rBase}agua,
+Dialogue: 0,0:00:29.20,0:00:30.30,Base,,0,0,0,,{\rBase}alurónico. {\rHot\t(0,120,\fscx115\fscy115)}Entra {\rBase}agua,
+Dialogue: 0,0:00:30.30,0:00:30.69,Base,,0,0,0,,{\rBase}alurónico. {\rBase}Entra {\rHot\t(0,120,\fscx115\fscy115)}agua,
+Dialogue: 0,0:00:31.14,0:00:31.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}cuello {\rBase}se
+Dialogue: 0,0:00:31.24,0:00:31.54,Base,,0,0,0,,{\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}cuello {\rBase}se
+Dialogue: 0,0:00:31.54,0:00:31.71,Base,,0,0,0,,{\rBase}el {\rBase}cuello {\rHot\t(0,120,\fscx115\fscy115)}se
+Dialogue: 0,0:00:31.66,0:00:32.18,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}ablanda {\rBase}y {\rBase}dilata
+Dialogue: 0,0:00:32.18,0:00:32.48,Base,,0,0,0,,{\rBase}ablanda {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}dilata
+Dialogue: 0,0:00:32.48,0:00:32.95,Base,,0,0,0,,{\rBase}ablanda {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}dilata

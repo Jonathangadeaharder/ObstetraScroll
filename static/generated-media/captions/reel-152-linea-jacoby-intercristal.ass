@@ -1,0 +1,76 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H003C3CE6,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Si {\rBase}la {\rBase}mujer
+Dialogue: 0,0:00:00.26,0:00:00.38,Base,,0,0,0,,{\rBase}Si {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}mujer
+Dialogue: 0,0:00:00.38,0:00:00.67,Base,,0,0,0,,{\rBase}Si {\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}mujer
+Dialogue: 0,0:00:00.62,0:00:00.82,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}está {\rBase}muy {\rBase}obesa
+Dialogue: 0,0:00:00.82,0:00:01.00,Base,,0,0,0,,{\rBase}está {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}muy {\rBase}obesa
+Dialogue: 0,0:00:01.00,0:00:01.43,Base,,0,0,0,,{\rBase}está {\rBase}muy {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}obesa
+Dialogue: 0,0:00:01.38,0:00:01.54,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}o {\rBase}lordótica, {\rBase}la
+Dialogue: 0,0:00:01.54,0:00:02.38,Base,,0,0,0,,{\rBase}o {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}lordótica, {\rBase}la
+Dialogue: 0,0:00:02.38,0:00:02.49,Base,,0,0,0,,{\rBase}o {\rBase}lordótica, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la
+Dialogue: 0,0:00:02.44,0:00:02.90,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}palpación {\rBase}puede {\rBase}engañar
+Dialogue: 0,0:00:02.90,0:00:03.16,Base,,0,0,0,,{\rBase}palpación {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}puede {\rBase}engañar
+Dialogue: 0,0:00:03.16,0:00:03.73,Base,,0,0,0,,{\rBase}palpación {\rBase}puede {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}engañar
+Dialogue: 0,0:00:03.68,0:00:03.98,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}uno {\rBase}o {\rBase}dos
+Dialogue: 0,0:00:03.98,0:00:04.10,Base,,0,0,0,,{\rBase}uno {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}o {\rBase}dos
+Dialogue: 0,0:00:04.10,0:00:04.27,Base,,0,0,0,,{\rBase}uno {\rBase}o {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}dos
+Dialogue: 0,0:00:04.22,0:00:04.64,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}niveles {\rBase}arriba {\rBase}o
+Dialogue: 0,0:00:04.64,0:00:05.04,Base,,0,0,0,,{\rBase}niveles {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}arriba {\rBase}o
+Dialogue: 0,0:00:05.04,0:00:05.35,Base,,0,0,0,,{\rBase}niveles {\rBase}arriba {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}o
+Dialogue: 0,0:00:05.30,0:00:05.96,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}abajo, {\rBase}más {\rBase}riesgo
+Dialogue: 0,0:00:05.96,0:00:06.32,Base,,0,0,0,,{\rBase}abajo, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}más {\rBase}riesgo
+Dialogue: 0,0:00:06.32,0:00:06.65,Base,,0,0,0,,{\rBase}abajo, {\rBase}más {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}riesgo
+Dialogue: 0,0:00:06.60,0:00:06.70,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}punción {\rBase}dural.
+Dialogue: 0,0:00:06.70,0:00:07.02,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}punción {\rBase}dural.
+Dialogue: 0,0:00:07.02,0:00:07.37,Base,,0,0,0,,{\rBase}de {\rBase}punción {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}dural.
+Dialogue: 0,0:00:08.04,0:00:08.58,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La {\rBase}línea {\rBase}intercristal
+Dialogue: 0,0:00:08.58,0:00:08.82,Base,,0,0,0,,{\rBase}La {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}línea {\rBase}intercristal
+Dialogue: 0,0:00:08.82,0:00:09.75,Base,,0,0,0,,{\rBase}La {\rBase}línea {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}intercristal
+Dialogue: 0,0:00:09.70,0:00:09.94,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}une {\rBase}los {\rBase}puntos
+Dialogue: 0,0:00:09.94,0:00:10.10,Base,,0,0,0,,{\rBase}une {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}los {\rBase}puntos
+Dialogue: 0,0:00:10.10,0:00:10.43,Base,,0,0,0,,{\rBase}une {\rBase}los {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}puntos
+Dialogue: 0,0:00:10.38,0:00:10.58,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}más {\rBase}altos {\rBase}de
+Dialogue: 0,0:00:10.58,0:00:11.02,Base,,0,0,0,,{\rBase}más {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}altos {\rBase}de
+Dialogue: 0,0:00:11.02,0:00:11.17,Base,,0,0,0,,{\rBase}más {\rBase}altos {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:11.12,0:00:11.28,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}las {\rBase}crestas {\rBase}ilíacas
+Dialogue: 0,0:00:11.28,0:00:11.68,Base,,0,0,0,,{\rBase}las {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}crestas {\rBase}ilíacas
+Dialogue: 0,0:00:11.68,0:00:12.27,Base,,0,0,0,,{\rBase}las {\rBase}crestas {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ilíacas
+Dialogue: 0,0:00:12.22,0:00:12.82,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}cruza {\rBase}la
+Dialogue: 0,0:00:12.82,0:00:13.18,Base,,0,0,0,,{\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cruza {\rBase}la
+Dialogue: 0,0:00:13.18,0:00:13.37,Base,,0,0,0,,{\rBase}y {\rBase}cruza {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la
+Dialogue: 0,0:00:13.32,0:00:13.76,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}columna {\rBase}a {\rBase}nivel
+Dialogue: 0,0:00:13.76,0:00:13.88,Base,,0,0,0,,{\rBase}columna {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}a {\rBase}nivel
+Dialogue: 0,0:00:13.88,0:00:14.17,Base,,0,0,0,,{\rBase}columna {\rBase}a {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}nivel
+Dialogue: 0,0:00:14.12,0:00:14.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}L4 {\rBase}o
+Dialogue: 0,0:00:14.26,0:00:14.84,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}L4 {\rBase}o
+Dialogue: 0,0:00:14.84,0:00:15.23,Base,,0,0,0,,{\rBase}de {\rBase}L4 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}o
+Dialogue: 0,0:00:15.18,0:00:15.32,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}del {\rBase}espacio {\rBase}L4
+Dialogue: 0,0:00:15.32,0:00:15.72,Base,,0,0,0,,{\rBase}del {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}espacio {\rBase}L4
+Dialogue: 0,0:00:15.72,0:00:16.67,Base,,0,0,0,,{\rBase}del {\rBase}espacio {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}L4
+Dialogue: 0,0:00:16.62,0:00:17.86,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}-L5. {\rBase}Es {\rBase}el
+Dialogue: 0,0:00:17.86,0:00:18.46,Base,,0,0,0,,{\rBase}-L5. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Es {\rBase}el
+Dialogue: 0,0:00:18.46,0:00:18.65,Base,,0,0,0,,{\rBase}-L5. {\rBase}Es {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el
+Dialogue: 0,0:00:18.60,0:00:18.86,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}punto {\rBase}anatómico {\rBase}de
+Dialogue: 0,0:00:18.86,0:00:19.46,Base,,0,0,0,,{\rBase}punto {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}anatómico {\rBase}de
+Dialogue: 0,0:00:19.46,0:00:19.63,Base,,0,0,0,,{\rBase}punto {\rBase}anatómico {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:19.58,0:00:20.14,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}referencia {\rBase}para {\rBase}colocar
+Dialogue: 0,0:00:20.14,0:00:20.46,Base,,0,0,0,,{\rBase}referencia {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}para {\rBase}colocar
+Dialogue: 0,0:00:20.46,0:00:20.97,Base,,0,0,0,,{\rBase}referencia {\rBase}para {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}colocar
+Dialogue: 0,0:00:20.92,0:00:21.68,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}epidural {\rBase}o {\rBase}raquídea
+Dialogue: 0,0:00:21.68,0:00:21.98,Base,,0,0,0,,{\rBase}epidural {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}o {\rBase}raquídea
+Dialogue: 0,0:00:21.98,0:00:22.65,Base,,0,0,0,,{\rBase}epidural {\rBase}o {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}raquídea
+Dialogue: 0,0:00:22.60,0:00:22.90,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}durante {\rBase}el {\rBase}parto.
+Dialogue: 0,0:00:22.90,0:00:23.26,Base,,0,0,0,,{\rBase}durante {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}parto.
+Dialogue: 0,0:00:23.26,0:00:23.73,Base,,0,0,0,,{\rBase}durante {\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}parto.

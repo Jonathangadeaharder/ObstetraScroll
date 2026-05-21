@@ -1,0 +1,83 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,84,&H00B4377C,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La {\rBase}incontinencia {\rBase}urinaria
+Dialogue: 0,0:00:00.26,0:00:00.90,Base,,0,0,0,,{\rBase}La {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}incontinencia {\rBase}urinaria
+Dialogue: 0,0:00:00.90,0:00:01.39,Base,,0,0,0,,{\rBase}La {\rBase}incontinencia {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}urinaria
+Dialogue: 0,0:00:01.34,0:00:02.06,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}postparto {\rBase}se {\rBase}considera
+Dialogue: 0,0:00:02.06,0:00:02.38,Base,,0,0,0,,{\rBase}postparto {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}se {\rBase}considera
+Dialogue: 0,0:00:02.38,0:00:02.99,Base,,0,0,0,,{\rBase}postparto {\rBase}se {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}considera
+Dialogue: 0,0:00:02.94,0:00:03.12,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}una {\rBase}consecuencia {\rBase}inevitable
+Dialogue: 0,0:00:03.12,0:00:04.08,Base,,0,0,0,,{\rBase}una {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}consecuencia {\rBase}inevitable
+Dialogue: 0,0:00:04.08,0:00:04.85,Base,,0,0,0,,{\rBase}una {\rBase}consecuencia {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}inevitable
+Dialogue: 0,0:00:04.80,0:00:05.48,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}del {\rBase}embarazo {\rBase}y
+Dialogue: 0,0:00:05.48,0:00:05.94,Base,,0,0,0,,{\rBase}del {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}embarazo {\rBase}y
+Dialogue: 0,0:00:05.94,0:00:06.13,Base,,0,0,0,,{\rBase}del {\rBase}embarazo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y
+Dialogue: 0,0:00:06.08,0:00:06.28,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}parto, {\rBase}pero
+Dialogue: 0,0:00:06.28,0:00:06.84,Base,,0,0,0,,{\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}parto, {\rBase}pero
+Dialogue: 0,0:00:06.84,0:00:07.39,Base,,0,0,0,,{\rBase}el {\rBase}parto, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pero
+Dialogue: 0,0:00:07.34,0:00:07.50,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}es {\rBase}prevenible {\rBase}con
+Dialogue: 0,0:00:07.50,0:00:08.12,Base,,0,0,0,,{\rBase}es {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}prevenible {\rBase}con
+Dialogue: 0,0:00:08.12,0:00:08.43,Base,,0,0,0,,{\rBase}es {\rBase}prevenible {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con
+Dialogue: 0,0:00:08.38,0:00:08.54,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}un {\rBase}programa {\rBase}de
+Dialogue: 0,0:00:08.54,0:00:08.90,Base,,0,0,0,,{\rBase}un {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}programa {\rBase}de
+Dialogue: 0,0:00:08.90,0:00:09.15,Base,,0,0,0,,{\rBase}un {\rBase}programa {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:09.10,0:00:09.76,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}entrenamiento {\rBase}simple {\rBase}y
+Dialogue: 0,0:00:09.76,0:00:10.26,Base,,0,0,0,,{\rBase}entrenamiento {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}simple {\rBase}y
+Dialogue: 0,0:00:10.26,0:00:10.77,Base,,0,0,0,,{\rBase}entrenamiento {\rBase}simple {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y
+Dialogue: 0,0:00:10.72,0:00:10.88,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}bajo {\rBase}costo
+Dialogue: 0,0:00:10.88,0:00:11.10,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}bajo {\rBase}costo
+Dialogue: 0,0:00:11.10,0:00:11.73,Base,,0,0,0,,{\rBase}de {\rBase}bajo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}costo
+Dialogue: 0,0:00:11.68,0:00:12.10,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}durante {\rBase}el {\rBase}control
+Dialogue: 0,0:00:12.10,0:00:12.36,Base,,0,0,0,,{\rBase}durante {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}control
+Dialogue: 0,0:00:12.36,0:00:12.79,Base,,0,0,0,,{\rBase}durante {\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}control
+Dialogue: 0,0:00:12.74,0:00:14.00,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}prenatal. {\rBase}El {\rBase}entrenamiento
+Dialogue: 0,0:00:14.00,0:00:14.38,Base,,0,0,0,,{\rBase}prenatal. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El {\rBase}entrenamiento
+Dialogue: 0,0:00:14.38,0:00:15.07,Base,,0,0,0,,{\rBase}prenatal. {\rBase}El {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}entrenamiento
+Dialogue: 0,0:00:15.02,0:00:15.86,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}supervisado {\rBase}de {\rBase}los
+Dialogue: 0,0:00:15.86,0:00:16.00,Base,,0,0,0,,{\rBase}supervisado {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}los
+Dialogue: 0,0:00:16.00,0:00:16.21,Base,,0,0,0,,{\rBase}supervisado {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}los
+Dialogue: 0,0:00:16.16,0:00:16.58,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}músculos {\rBase}del {\rBase}piso
+Dialogue: 0,0:00:16.58,0:00:16.74,Base,,0,0,0,,{\rBase}músculos {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}del {\rBase}piso
+Dialogue: 0,0:00:16.74,0:00:17.07,Base,,0,0,0,,{\rBase}músculos {\rBase}del {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}piso
+Dialogue: 0,0:00:17.02,0:00:17.78,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pélvico, {\rBase}tres {\rBase}series
+Dialogue: 0,0:00:17.78,0:00:18.26,Base,,0,0,0,,{\rBase}pélvico, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tres {\rBase}series
+Dialogue: 0,0:00:18.26,0:00:18.63,Base,,0,0,0,,{\rBase}pélvico, {\rBase}tres {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}series
+Dialogue: 0,0:00:18.58,0:00:18.82,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}8 {\rBase}-12
+Dialogue: 0,0:00:18.82,0:00:19.12,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}8 {\rBase}-12
+Dialogue: 0,0:00:19.12,0:00:19.55,Base,,0,0,0,,{\rBase}de {\rBase}8 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}-12
+Dialogue: 0,0:00:19.50,0:00:20.20,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}contracciones {\rBase}máximas {\rBase}por
+Dialogue: 0,0:00:20.20,0:00:20.70,Base,,0,0,0,,{\rBase}contracciones {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}máximas {\rBase}por
+Dialogue: 0,0:00:20.70,0:00:20.93,Base,,0,0,0,,{\rBase}contracciones {\rBase}máximas {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}por
+Dialogue: 0,0:00:20.88,0:00:21.38,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}día, {\rBase}iniciado {\rBase}en
+Dialogue: 0,0:00:21.38,0:00:22.18,Base,,0,0,0,,{\rBase}día, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}iniciado {\rBase}en
+Dialogue: 0,0:00:22.18,0:00:22.39,Base,,0,0,0,,{\rBase}día, {\rBase}iniciado {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en
+Dialogue: 0,0:00:22.34,0:00:22.46,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}segundo {\rBase}trimestre,
+Dialogue: 0,0:00:22.46,0:00:22.76,Base,,0,0,0,,{\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}segundo {\rBase}trimestre,
+Dialogue: 0,0:00:22.76,0:00:23.45,Base,,0,0,0,,{\rBase}el {\rBase}segundo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}trimestre,
+Dialogue: 0,0:00:23.88,0:00:24.18,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}reduce {\rBase}la {\rBase}incontinencia
+Dialogue: 0,0:00:24.18,0:00:24.38,Base,,0,0,0,,{\rBase}reduce {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}incontinencia
+Dialogue: 0,0:00:24.38,0:00:25.15,Base,,0,0,0,,{\rBase}reduce {\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}incontinencia
+Dialogue: 0,0:00:25.10,0:00:25.62,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}urinaria {\rBase}postparto {\rBase}en
+Dialogue: 0,0:00:25.62,0:00:26.26,Base,,0,0,0,,{\rBase}urinaria {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}postparto {\rBase}en
+Dialogue: 0,0:00:26.26,0:00:26.45,Base,,0,0,0,,{\rBase}urinaria {\rBase}postparto {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en
+Dialogue: 0,0:00:26.40,0:00:26.48,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}un {\rBase}50 {\rBase}%
+Dialogue: 0,0:00:26.48,0:00:26.94,Base,,0,0,0,,{\rBase}un {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}50 {\rBase}%
+Dialogue: 0,0:00:26.94,0:00:27.53,Base,,0,0,0,,{\rBase}un {\rBase}50 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}%
+Dialogue: 0,0:00:27.48,0:00:29.06,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}NNT4, {\rBase}con {\rBase}beneficio
+Dialogue: 0,0:00:29.06,0:00:29.90,Base,,0,0,0,,{\rBase}NNT4, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}beneficio
+Dialogue: 0,0:00:29.90,0:00:30.57,Base,,0,0,0,,{\rBase}NNT4, {\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}beneficio
+Dialogue: 0,0:00:30.52,0:00:31.14,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}mantenido {\rBase}a {\rBase}12
+Dialogue: 0,0:00:31.14,0:00:31.44,Base,,0,0,0,,{\rBase}mantenido {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}a {\rBase}12
+Dialogue: 0,0:00:31.44,0:00:31.77,Base,,0,0,0,,{\rBase}mantenido {\rBase}a {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}12
+Dialogue: 0,0:00:31.72,0:00:32.13,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}meses.

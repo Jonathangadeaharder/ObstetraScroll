@@ -1,0 +1,83 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Helvetica,60,&H00C8C8C8,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Helvetica,92,&H00FFFFFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.24,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}La {\rBase}nicotina {\rBase}es
+Dialogue: 0,0:00:00.24,0:00:00.68,Base,,0,0,0,,{\rBase}La {\rHot\t(0,150,\fscx120\fscy120)}nicotina {\rBase}es
+Dialogue: 0,0:00:00.68,0:00:00.89,Base,,0,0,0,,{\rBase}La {\rBase}nicotina {\rHot\t(0,150,\fscx120\fscy120)}es
+Dialogue: 0,0:00:00.84,0:00:02.02,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}vasoconstrictora {\rBase}placentaria {\rBase}potente,
+Dialogue: 0,0:00:02.02,0:00:02.70,Base,,0,0,0,,{\rBase}vasoconstrictora {\rHot\t(0,150,\fscx120\fscy120)}placentaria {\rBase}potente,
+Dialogue: 0,0:00:02.70,0:00:03.41,Base,,0,0,0,,{\rBase}vasoconstrictora {\rBase}placentaria {\rHot\t(0,150,\fscx120\fscy120)}potente,
+Dialogue: 0,0:00:03.54,0:00:03.92,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}pero {\rBase}muchas {\rBase}gestantes
+Dialogue: 0,0:00:03.92,0:00:04.22,Base,,0,0,0,,{\rBase}pero {\rHot\t(0,150,\fscx120\fscy120)}muchas {\rBase}gestantes
+Dialogue: 0,0:00:04.22,0:00:04.87,Base,,0,0,0,,{\rBase}pero {\rBase}muchas {\rHot\t(0,150,\fscx120\fscy120)}gestantes
+Dialogue: 0,0:00:04.82,0:00:05.16,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}creen {\rBase}que {\rBase}un
+Dialogue: 0,0:00:05.16,0:00:05.26,Base,,0,0,0,,{\rBase}creen {\rHot\t(0,150,\fscx120\fscy120)}que {\rBase}un
+Dialogue: 0,0:00:05.26,0:00:05.47,Base,,0,0,0,,{\rBase}creen {\rBase}que {\rHot\t(0,150,\fscx120\fscy120)}un
+Dialogue: 0,0:00:05.42,0:00:05.92,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}cigarrillo {\rBase}menos {\rBase}es
+Dialogue: 0,0:00:05.92,0:00:06.24,Base,,0,0,0,,{\rBase}cigarrillo {\rHot\t(0,150,\fscx120\fscy120)}menos {\rBase}es
+Dialogue: 0,0:00:06.24,0:00:06.67,Base,,0,0,0,,{\rBase}cigarrillo {\rBase}menos {\rHot\t(0,150,\fscx120\fscy120)}es
+Dialogue: 0,0:00:06.62,0:00:07.84,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}suficiente. {\rBase}No {\rBase}hay
+Dialogue: 0,0:00:07.84,0:00:08.32,Base,,0,0,0,,{\rBase}suficiente. {\rHot\t(0,150,\fscx120\fscy120)}No {\rBase}hay
+Dialogue: 0,0:00:08.32,0:00:08.55,Base,,0,0,0,,{\rBase}suficiente. {\rBase}No {\rHot\t(0,150,\fscx120\fscy120)}hay
+Dialogue: 0,0:00:08.50,0:00:08.80,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}umbral {\rBase}seguro, {\rBase}incluso
+Dialogue: 0,0:00:08.80,0:00:09.70,Base,,0,0,0,,{\rBase}umbral {\rHot\t(0,150,\fscx120\fscy120)}seguro, {\rBase}incluso
+Dialogue: 0,0:00:09.70,0:00:10.15,Base,,0,0,0,,{\rBase}umbral {\rBase}seguro, {\rHot\t(0,150,\fscx120\fscy120)}incluso
+Dialogue: 0,0:00:10.10,0:00:10.50,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}1 {\rBase}o {\rBase}4
+Dialogue: 0,0:00:10.50,0:00:10.64,Base,,0,0,0,,{\rBase}1 {\rHot\t(0,150,\fscx120\fscy120)}o {\rBase}4
+Dialogue: 0,0:00:10.64,0:00:10.89,Base,,0,0,0,,{\rBase}1 {\rBase}o {\rHot\t(0,150,\fscx120\fscy120)}4
+Dialogue: 0,0:00:10.84,0:00:11.64,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}cigarrillos {\rBase}día {\rBase}reducen
+Dialogue: 0,0:00:11.64,0:00:12.16,Base,,0,0,0,,{\rBase}cigarrillos {\rHot\t(0,150,\fscx120\fscy120)}día {\rBase}reducen
+Dialogue: 0,0:00:12.16,0:00:12.79,Base,,0,0,0,,{\rBase}cigarrillos {\rBase}día {\rHot\t(0,150,\fscx120\fscy120)}reducen
+Dialogue: 0,0:00:12.74,0:00:13.88,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}significativamente {\rBase}el {\rBase}peso
+Dialogue: 0,0:00:13.88,0:00:14.18,Base,,0,0,0,,{\rBase}significativamente {\rHot\t(0,150,\fscx120\fscy120)}el {\rBase}peso
+Dialogue: 0,0:00:14.18,0:00:14.53,Base,,0,0,0,,{\rBase}significativamente {\rBase}el {\rHot\t(0,150,\fscx120\fscy120)}peso
+Dialogue: 0,0:00:14.48,0:00:15.00,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}fetal. {\rBase}El {\rBase}tabaquismo
+Dialogue: 0,0:00:15.00,0:00:15.76,Base,,0,0,0,,{\rBase}fetal. {\rHot\t(0,150,\fscx120\fscy120)}El {\rBase}tabaquismo
+Dialogue: 0,0:00:15.76,0:00:16.37,Base,,0,0,0,,{\rBase}fetal. {\rBase}El {\rHot\t(0,150,\fscx120\fscy120)}tabaquismo
+Dialogue: 0,0:00:16.32,0:00:16.82,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}materno {\rBase}durante {\rBase}el
+Dialogue: 0,0:00:16.82,0:00:17.08,Base,,0,0,0,,{\rBase}materno {\rHot\t(0,150,\fscx120\fscy120)}durante {\rBase}el
+Dialogue: 0,0:00:17.08,0:00:17.37,Base,,0,0,0,,{\rBase}materno {\rBase}durante {\rHot\t(0,150,\fscx120\fscy120)}el
+Dialogue: 0,0:00:17.32,0:00:17.80,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}embarazo {\rBase}reduce {\rBase}el
+Dialogue: 0,0:00:17.80,0:00:18.18,Base,,0,0,0,,{\rBase}embarazo {\rHot\t(0,150,\fscx120\fscy120)}reduce {\rBase}el
+Dialogue: 0,0:00:18.18,0:00:18.47,Base,,0,0,0,,{\rBase}embarazo {\rBase}reduce {\rHot\t(0,150,\fscx120\fscy120)}el
+Dialogue: 0,0:00:18.42,0:00:18.74,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}peso {\rBase}al {\rBase}nacer
+Dialogue: 0,0:00:18.74,0:00:18.96,Base,,0,0,0,,{\rBase}peso {\rHot\t(0,150,\fscx120\fscy120)}al {\rBase}nacer
+Dialogue: 0,0:00:18.96,0:00:19.35,Base,,0,0,0,,{\rBase}peso {\rBase}al {\rHot\t(0,150,\fscx120\fscy120)}nacer
+Dialogue: 0,0:00:19.30,0:00:19.80,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}en {\rBase}150 {\rBase}-250
+Dialogue: 0,0:00:19.80,0:00:20.56,Base,,0,0,0,,{\rBase}en {\rHot\t(0,150,\fscx120\fscy120)}150 {\rBase}-250
+Dialogue: 0,0:00:20.56,0:00:22.05,Base,,0,0,0,,{\rBase}en {\rBase}150 {\rHot\t(0,150,\fscx120\fscy120)}-250
+Dialogue: 0,0:00:22.00,0:00:22.70,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}gramos {\rBase}en {\rBase}promedio
+Dialogue: 0,0:00:22.70,0:00:22.96,Base,,0,0,0,,{\rBase}gramos {\rHot\t(0,150,\fscx120\fscy120)}en {\rBase}promedio
+Dialogue: 0,0:00:22.96,0:00:23.57,Base,,0,0,0,,{\rBase}gramos {\rBase}en {\rHot\t(0,150,\fscx120\fscy120)}promedio
+Dialogue: 0,0:00:23.52,0:00:23.94,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}y {\rBase}duplica {\rBase}el
+Dialogue: 0,0:00:23.94,0:00:24.40,Base,,0,0,0,,{\rBase}y {\rHot\t(0,150,\fscx120\fscy120)}duplica {\rBase}el
+Dialogue: 0,0:00:24.40,0:00:24.61,Base,,0,0,0,,{\rBase}y {\rBase}duplica {\rHot\t(0,150,\fscx120\fscy120)}el
+Dialogue: 0,0:00:24.56,0:00:24.94,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}riesgo {\rBase}de {\rBase}parto
+Dialogue: 0,0:00:24.94,0:00:25.06,Base,,0,0,0,,{\rBase}riesgo {\rHot\t(0,150,\fscx120\fscy120)}de {\rBase}parto
+Dialogue: 0,0:00:25.06,0:00:25.47,Base,,0,0,0,,{\rBase}riesgo {\rBase}de {\rHot\t(0,150,\fscx120\fscy120)}parto
+Dialogue: 0,0:00:25.42,0:00:26.04,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}prematuro {\rBase}y {\rBase}bajo
+Dialogue: 0,0:00:26.04,0:00:26.34,Base,,0,0,0,,{\rBase}prematuro {\rHot\t(0,150,\fscx120\fscy120)}y {\rBase}bajo
+Dialogue: 0,0:00:26.34,0:00:26.59,Base,,0,0,0,,{\rBase}prematuro {\rBase}y {\rHot\t(0,150,\fscx120\fscy120)}bajo
+Dialogue: 0,0:00:26.54,0:00:26.90,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}peso {\rBase}al {\rBase}nacer
+Dialogue: 0,0:00:26.90,0:00:27.06,Base,,0,0,0,,{\rBase}peso {\rHot\t(0,150,\fscx120\fscy120)}al {\rBase}nacer
+Dialogue: 0,0:00:27.06,0:00:27.49,Base,,0,0,0,,{\rBase}peso {\rBase}al {\rHot\t(0,150,\fscx120\fscy120)}nacer
+Dialogue: 0,0:00:27.44,0:00:27.94,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}con {\rBase}un {\rBase}efecto
+Dialogue: 0,0:00:27.94,0:00:28.10,Base,,0,0,0,,{\rBase}con {\rHot\t(0,150,\fscx120\fscy120)}un {\rBase}efecto
+Dialogue: 0,0:00:28.10,0:00:28.51,Base,,0,0,0,,{\rBase}con {\rBase}un {\rHot\t(0,150,\fscx120\fscy120)}efecto
+Dialogue: 0,0:00:28.46,0:00:28.94,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}dosis {\rBase}dependiente {\rBase}a
+Dialogue: 0,0:00:28.94,0:00:29.66,Base,,0,0,0,,{\rBase}dosis {\rHot\t(0,150,\fscx120\fscy120)}dependiente {\rBase}a
+Dialogue: 0,0:00:29.66,0:00:30.09,Base,,0,0,0,,{\rBase}dosis {\rBase}dependiente {\rHot\t(0,150,\fscx120\fscy120)}a
+Dialogue: 0,0:00:30.04,0:00:30.20,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}más {\rBase}cigarrillos {\rBase}menor
+Dialogue: 0,0:00:30.20,0:00:30.86,Base,,0,0,0,,{\rBase}más {\rHot\t(0,150,\fscx120\fscy120)}cigarrillos {\rBase}menor
+Dialogue: 0,0:00:30.86,0:00:31.25,Base,,0,0,0,,{\rBase}más {\rBase}cigarrillos {\rHot\t(0,150,\fscx120\fscy120)}menor
+Dialogue: 0,0:00:31.20,0:00:31.67,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}peso.

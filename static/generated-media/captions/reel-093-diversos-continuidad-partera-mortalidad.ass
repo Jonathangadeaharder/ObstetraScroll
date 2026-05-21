@@ -1,0 +1,90 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Arial Black,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Arial Black,84,&H00FF3CFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}La {\rBase}atención {\rBase}obstétrica
+Dialogue: 0,0:00:00.26,0:00:00.66,Base,,0,0,0,,{\rBase}La {\rHot\frz-3\t(0,200,\frz3)}atención {\rBase}obstétrica
+Dialogue: 0,0:00:00.66,0:00:01.43,Base,,0,0,0,,{\rBase}La {\rBase}atención {\rHot\frz-3\t(0,200,\frz3)}obstétrica
+Dialogue: 0,0:00:01.38,0:00:01.74,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}se {\rBase}organiza {\rBase}crecientemente
+Dialogue: 0,0:00:01.74,0:00:02.22,Base,,0,0,0,,{\rBase}se {\rHot\frz-3\t(0,200,\frz3)}organiza {\rBase}crecientemente
+Dialogue: 0,0:00:02.22,0:00:03.11,Base,,0,0,0,,{\rBase}se {\rBase}organiza {\rHot\frz-3\t(0,200,\frz3)}crecientemente
+Dialogue: 0,0:00:03.06,0:00:03.24,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}en {\rBase}equipos {\rBase}médicos
+Dialogue: 0,0:00:03.24,0:00:03.60,Base,,0,0,0,,{\rBase}en {\rHot\frz-3\t(0,200,\frz3)}equipos {\rBase}médicos
+Dialogue: 0,0:00:03.60,0:00:04.07,Base,,0,0,0,,{\rBase}en {\rBase}equipos {\rHot\frz-3\t(0,200,\frz3)}médicos
+Dialogue: 0,0:00:04.02,0:00:04.66,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}rotativos {\rBase}por {\rBase}eficiencia
+Dialogue: 0,0:00:04.66,0:00:05.22,Base,,0,0,0,,{\rBase}rotativos {\rHot\frz-3\t(0,200,\frz3)}por {\rBase}eficiencia
+Dialogue: 0,0:00:05.22,0:00:05.87,Base,,0,0,0,,{\rBase}rotativos {\rBase}por {\rHot\frz-3\t(0,200,\frz3)}eficiencia
+Dialogue: 0,0:00:05.82,0:00:06.96,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}hospitalaria, {\rBase}pero {\rBase}el
+Dialogue: 0,0:00:06.96,0:00:07.44,Base,,0,0,0,,{\rBase}hospitalaria, {\rHot\frz-3\t(0,200,\frz3)}pero {\rBase}el
+Dialogue: 0,0:00:07.44,0:00:07.65,Base,,0,0,0,,{\rBase}hospitalaria, {\rBase}pero {\rHot\frz-3\t(0,200,\frz3)}el
+Dialogue: 0,0:00:07.60,0:00:07.96,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}vínculo {\rBase}continuo {\rBase}con
+Dialogue: 0,0:00:07.96,0:00:08.58,Base,,0,0,0,,{\rBase}vínculo {\rHot\frz-3\t(0,200,\frz3)}continuo {\rBase}con
+Dialogue: 0,0:00:08.58,0:00:08.79,Base,,0,0,0,,{\rBase}vínculo {\rBase}continuo {\rHot\frz-3\t(0,200,\frz3)}con
+Dialogue: 0,0:00:08.74,0:00:08.94,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}una {\rBase}partera {\rBase}conocida
+Dialogue: 0,0:00:08.94,0:00:09.38,Base,,0,0,0,,{\rBase}una {\rHot\frz-3\t(0,200,\frz3)}partera {\rBase}conocida
+Dialogue: 0,0:00:09.38,0:00:10.15,Base,,0,0,0,,{\rBase}una {\rBase}partera {\rHot\frz-3\t(0,200,\frz3)}conocida
+Dialogue: 0,0:00:10.10,0:00:10.88,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}mejora {\rBase}resultados {\rBase}perinatales
+Dialogue: 0,0:00:10.88,0:00:11.42,Base,,0,0,0,,{\rBase}mejora {\rHot\frz-3\t(0,200,\frz3)}resultados {\rBase}perinatales
+Dialogue: 0,0:00:11.42,0:00:12.33,Base,,0,0,0,,{\rBase}mejora {\rBase}resultados {\rHot\frz-3\t(0,200,\frz3)}perinatales
+Dialogue: 0,0:00:12.28,0:00:12.80,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}más {\rBase}que {\rBase}muchas
+Dialogue: 0,0:00:12.80,0:00:12.96,Base,,0,0,0,,{\rBase}más {\rHot\frz-3\t(0,200,\frz3)}que {\rBase}muchas
+Dialogue: 0,0:00:12.96,0:00:13.39,Base,,0,0,0,,{\rBase}más {\rBase}que {\rHot\frz-3\t(0,200,\frz3)}muchas
+Dialogue: 0,0:00:13.34,0:00:14.06,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}tecnologías {\rBase}de {\rBase}alto
+Dialogue: 0,0:00:14.06,0:00:14.20,Base,,0,0,0,,{\rBase}tecnologías {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}alto
+Dialogue: 0,0:00:14.20,0:00:14.47,Base,,0,0,0,,{\rBase}tecnologías {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}alto
+Dialogue: 0,0:00:14.42,0:00:15.18,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}costo. {\rBase}El {\rBase}modelo
+Dialogue: 0,0:00:15.18,0:00:16.06,Base,,0,0,0,,{\rBase}costo. {\rHot\frz-3\t(0,200,\frz3)}El {\rBase}modelo
+Dialogue: 0,0:00:16.06,0:00:16.41,Base,,0,0,0,,{\rBase}costo. {\rBase}El {\rHot\frz-3\t(0,200,\frz3)}modelo
+Dialogue: 0,0:00:16.36,0:00:16.54,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}de {\rBase}atención {\rBase}con
+Dialogue: 0,0:00:16.54,0:00:16.90,Base,,0,0,0,,{\rBase}de {\rHot\frz-3\t(0,200,\frz3)}atención {\rBase}con
+Dialogue: 0,0:00:16.90,0:00:17.39,Base,,0,0,0,,{\rBase}de {\rBase}atención {\rHot\frz-3\t(0,200,\frz3)}con
+Dialogue: 0,0:00:17.34,0:00:18.06,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}continuidad {\rBase}de {\rBase}partera,
+Dialogue: 0,0:00:18.06,0:00:18.22,Base,,0,0,0,,{\rBase}continuidad {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}partera,
+Dialogue: 0,0:00:18.22,0:00:18.79,Base,,0,0,0,,{\rBase}continuidad {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}partera,
+Dialogue: 0,0:00:19.02,0:00:19.60,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}misma {\rBase}partera {\rBase}durante
+Dialogue: 0,0:00:19.60,0:00:20.14,Base,,0,0,0,,{\rBase}misma {\rHot\frz-3\t(0,200,\frz3)}partera {\rBase}durante
+Dialogue: 0,0:00:20.14,0:00:20.45,Base,,0,0,0,,{\rBase}misma {\rBase}partera {\rHot\frz-3\t(0,200,\frz3)}durante
+Dialogue: 0,0:00:20.40,0:00:20.90,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}todo {\rBase}el {\rBase}embarazo,
+Dialogue: 0,0:00:20.90,0:00:21.08,Base,,0,0,0,,{\rBase}todo {\rHot\frz-3\t(0,200,\frz3)}el {\rBase}embarazo,
+Dialogue: 0,0:00:21.08,0:00:21.71,Base,,0,0,0,,{\rBase}todo {\rBase}el {\rHot\frz-3\t(0,200,\frz3)}embarazo,
+Dialogue: 0,0:00:22.14,0:00:22.40,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}parto {\rBase}y {\rBase}puerperio,
+Dialogue: 0,0:00:22.40,0:00:22.52,Base,,0,0,0,,{\rBase}parto {\rHot\frz-3\t(0,200,\frz3)}y {\rBase}puerperio,
+Dialogue: 0,0:00:22.52,0:00:23.13,Base,,0,0,0,,{\rBase}parto {\rBase}y {\rHot\frz-3\t(0,200,\frz3)}puerperio,
+Dialogue: 0,0:00:23.08,0:00:23.92,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}reduce {\rBase}la {\rBase}mortalidad
+Dialogue: 0,0:00:23.92,0:00:24.14,Base,,0,0,0,,{\rBase}reduce {\rHot\frz-3\t(0,200,\frz3)}la {\rBase}mortalidad
+Dialogue: 0,0:00:24.14,0:00:24.77,Base,,0,0,0,,{\rBase}reduce {\rBase}la {\rHot\frz-3\t(0,200,\frz3)}mortalidad
+Dialogue: 0,0:00:24.72,0:00:25.22,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}perinatal {\rBase}en {\rBase}un
+Dialogue: 0,0:00:25.22,0:00:25.44,Base,,0,0,0,,{\rBase}perinatal {\rHot\frz-3\t(0,200,\frz3)}en {\rBase}un
+Dialogue: 0,0:00:25.44,0:00:25.59,Base,,0,0,0,,{\rBase}perinatal {\rBase}en {\rHot\frz-3\t(0,200,\frz3)}un
+Dialogue: 0,0:00:25.54,0:00:25.82,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}20 {\rBase}% {\rBase}y
+Dialogue: 0,0:00:25.82,0:00:26.14,Base,,0,0,0,,{\rBase}20 {\rHot\frz-3\t(0,200,\frz3)}% {\rBase}y
+Dialogue: 0,0:00:26.14,0:00:27.11,Base,,0,0,0,,{\rBase}20 {\rBase}% {\rHot\frz-3\t(0,200,\frz3)}y
+Dialogue: 0,0:00:27.06,0:00:27.24,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}las {\rBase}intervenciones {\rBase}obstétricas,
+Dialogue: 0,0:00:27.24,0:00:27.96,Base,,0,0,0,,{\rBase}las {\rHot\frz-3\t(0,200,\frz3)}intervenciones {\rBase}obstétricas,
+Dialogue: 0,0:00:27.96,0:00:28.95,Base,,0,0,0,,{\rBase}las {\rBase}intervenciones {\rHot\frz-3\t(0,200,\frz3)}obstétricas,
+Dialogue: 0,0:00:28.98,0:00:30.18,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}episiotomía, {\rBase}parto {\rBase}instrumental,
+Dialogue: 0,0:00:30.18,0:00:30.52,Base,,0,0,0,,{\rBase}episiotomía, {\rHot\frz-3\t(0,200,\frz3)}parto {\rBase}instrumental,
+Dialogue: 0,0:00:30.52,0:00:31.07,Base,,0,0,0,,{\rBase}episiotomía, {\rBase}parto {\rHot\frz-3\t(0,200,\frz3)}instrumental,
+Dialogue: 0,0:00:31.56,0:00:31.64,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}en {\rBase}un {\rBase}30%,
+Dialogue: 0,0:00:31.64,0:00:31.76,Base,,0,0,0,,{\rBase}en {\rHot\frz-3\t(0,200,\frz3)}un {\rBase}30%,
+Dialogue: 0,0:00:31.76,0:00:32.65,Base,,0,0,0,,{\rBase}en {\rBase}un {\rHot\frz-3\t(0,200,\frz3)}30%,
+Dialogue: 0,0:00:32.60,0:00:33.78,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}comparado {\rBase}con {\rBase}el
+Dialogue: 0,0:00:33.78,0:00:33.96,Base,,0,0,0,,{\rBase}comparado {\rHot\frz-3\t(0,200,\frz3)}con {\rBase}el
+Dialogue: 0,0:00:33.96,0:00:34.15,Base,,0,0,0,,{\rBase}comparado {\rBase}con {\rHot\frz-3\t(0,200,\frz3)}el
+Dialogue: 0,0:00:34.10,0:00:34.42,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}modelo {\rBase}médico {\rBase}fragmentado
+Dialogue: 0,0:00:34.42,0:00:34.78,Base,,0,0,0,,{\rBase}modelo {\rHot\frz-3\t(0,200,\frz3)}médico {\rBase}fragmentado
+Dialogue: 0,0:00:34.78,0:00:35.59,Base,,0,0,0,,{\rBase}modelo {\rBase}médico {\rHot\frz-3\t(0,200,\frz3)}fragmentado
+Dialogue: 0,0:00:35.54,0:00:35.70,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}de {\rBase}baja {\rBase}y
+Dialogue: 0,0:00:35.70,0:00:36.04,Base,,0,0,0,,{\rBase}de {\rHot\frz-3\t(0,200,\frz3)}baja {\rBase}y
+Dialogue: 0,0:00:36.04,0:00:36.23,Base,,0,0,0,,{\rBase}de {\rBase}baja {\rHot\frz-3\t(0,200,\frz3)}y
+Dialogue: 0,0:00:36.18,0:00:36.54,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}mediana {\rBase}complejidad.
+Dialogue: 0,0:00:36.54,0:00:37.31,Base,,0,0,0,,{\rBase}mediana {\rHot\frz-3\t(0,200,\frz3)}complejidad.

@@ -1,0 +1,85 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H003C3CE6,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.46,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Usar {\rBase}los {\rBase}rangos
+Dialogue: 0,0:00:00.46,0:00:00.66,Base,,0,0,0,,{\rBase}Usar {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}los {\rBase}rangos
+Dialogue: 0,0:00:00.66,0:00:01.11,Base,,0,0,0,,{\rBase}Usar {\rBase}los {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}rangos
+Dialogue: 0,0:00:01.06,0:00:01.22,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}no {\rBase}embarazada
+Dialogue: 0,0:00:01.22,0:00:01.44,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}no {\rBase}embarazada
+Dialogue: 0,0:00:01.44,0:00:02.23,Base,,0,0,0,,{\rBase}de {\rBase}no {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}embarazada
+Dialogue: 0,0:00:02.18,0:00:02.38,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}gestantes {\rBase}hace
+Dialogue: 0,0:00:02.38,0:00:03.08,Base,,0,0,0,,{\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}gestantes {\rBase}hace
+Dialogue: 0,0:00:03.08,0:00:03.85,Base,,0,0,0,,{\rBase}en {\rBase}gestantes {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hace
+Dialogue: 0,0:00:03.80,0:00:03.98,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}que {\rBase}se {\rBase}ignoren
+Dialogue: 0,0:00:03.98,0:00:04.14,Base,,0,0,0,,{\rBase}que {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}se {\rBase}ignoren
+Dialogue: 0,0:00:04.14,0:00:04.67,Base,,0,0,0,,{\rBase}que {\rBase}se {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ignoren
+Dialogue: 0,0:00:04.62,0:00:05.34,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}disfunciones {\rBase}renales {\rBase}reales.
+Dialogue: 0,0:00:05.34,0:00:05.84,Base,,0,0,0,,{\rBase}disfunciones {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}renales {\rBase}reales.
+Dialogue: 0,0:00:05.84,0:00:06.55,Base,,0,0,0,,{\rBase}disfunciones {\rBase}renales {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}reales.
+Dialogue: 0,0:00:06.66,0:00:07.16,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Es {\rBase}necesario {\rBase}el
+Dialogue: 0,0:00:07.16,0:00:07.70,Base,,0,0,0,,{\rBase}Es {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}necesario {\rBase}el
+Dialogue: 0,0:00:07.70,0:00:07.99,Base,,0,0,0,,{\rBase}Es {\rBase}necesario {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el
+Dialogue: 0,0:00:07.94,0:00:08.22,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}rango {\rBase}gestacional. {\rBase}El
+Dialogue: 0,0:00:08.22,0:00:09.28,Base,,0,0,0,,{\rBase}rango {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}gestacional. {\rBase}El
+Dialogue: 0,0:00:09.28,0:00:09.83,Base,,0,0,0,,{\rBase}rango {\rBase}gestacional. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El
+Dialogue: 0,0:00:09.78,0:00:10.28,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}filtrado {\rBase}glomerular {\rBase}aumenta
+Dialogue: 0,0:00:10.28,0:00:10.94,Base,,0,0,0,,{\rBase}filtrado {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}glomerular {\rBase}aumenta
+Dialogue: 0,0:00:10.94,0:00:11.71,Base,,0,0,0,,{\rBase}filtrado {\rBase}glomerular {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}aumenta
+Dialogue: 0,0:00:11.66,0:00:11.96,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pulo {\rBase}50 {\rBase}%
+Dialogue: 0,0:00:11.96,0:00:12.40,Base,,0,0,0,,{\rBase}pulo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}50 {\rBase}%
+Dialogue: 0,0:00:12.40,0:00:12.87,Base,,0,0,0,,{\rBase}pulo {\rBase}50 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}%
+Dialogue: 0,0:00:12.82,0:00:13.40,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}por {\rBase}la {\rBase}expansión
+Dialogue: 0,0:00:13.40,0:00:13.52,Base,,0,0,0,,{\rBase}por {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}expansión
+Dialogue: 0,0:00:13.52,0:00:14.01,Base,,0,0,0,,{\rBase}por {\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}expansión
+Dialogue: 0,0:00:13.96,0:00:15.10,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}volémica. {\rBase}Creatinina {\rBase}y
+Dialogue: 0,0:00:15.10,0:00:15.74,Base,,0,0,0,,{\rBase}volémica. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Creatinina {\rBase}y
+Dialogue: 0,0:00:15.74,0:00:16.09,Base,,0,0,0,,{\rBase}volémica. {\rBase}Creatinina {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y
+Dialogue: 0,0:00:16.04,0:00:16.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}urea {\rBase}bajan. {\rBase}El
+Dialogue: 0,0:00:16.26,0:00:17.00,Base,,0,0,0,,{\rBase}urea {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}bajan. {\rBase}El
+Dialogue: 0,0:00:17.00,0:00:17.45,Base,,0,0,0,,{\rBase}urea {\rBase}bajan. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El
+Dialogue: 0,0:00:17.40,0:00:17.68,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}valor {\rBase}normal {\rBase}de
+Dialogue: 0,0:00:17.68,0:00:18.10,Base,,0,0,0,,{\rBase}valor {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}normal {\rBase}de
+Dialogue: 0,0:00:18.10,0:00:18.31,Base,,0,0,0,,{\rBase}valor {\rBase}normal {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:18.26,0:00:18.92,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}creatinina {\rBase}puede {\rBase}caer
+Dialogue: 0,0:00:18.92,0:00:19.26,Base,,0,0,0,,{\rBase}creatinina {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}puede {\rBase}caer
+Dialogue: 0,0:00:19.26,0:00:19.71,Base,,0,0,0,,{\rBase}creatinina {\rBase}puede {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}caer
+Dialogue: 0,0:00:19.66,0:00:19.94,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}a {\rBase}0 {\rBase},4
+Dialogue: 0,0:00:19.94,0:00:20.16,Base,,0,0,0,,{\rBase}a {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}0 {\rBase},4
+Dialogue: 0,0:00:20.16,0:00:20.79,Base,,0,0,0,,{\rBase}a {\rBase}0 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)},4
+Dialogue: 0,0:00:20.74,0:00:21.06,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}-0 {\rBase},7 {\rBase}de
+Dialogue: 0,0:00:21.06,0:00:22.20,Base,,0,0,0,,{\rBase}-0 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)},7 {\rBase}de
+Dialogue: 0,0:00:22.20,0:00:22.95,Base,,0,0,0,,{\rBase}-0 {\rBase},7 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:22.90,0:00:24.44,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}L. {\rBase}Una {\rBase}creatinina
+Dialogue: 0,0:00:24.44,0:00:25.12,Base,,0,0,0,,{\rBase}L. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Una {\rBase}creatinina
+Dialogue: 0,0:00:25.12,0:00:25.81,Base,,0,0,0,,{\rBase}L. {\rBase}Una {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}creatinina
+Dialogue: 0,0:00:25.76,0:00:26.06,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}0 {\rBase},9000
+Dialogue: 0,0:00:26.06,0:00:26.34,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}0 {\rBase},9000
+Dialogue: 0,0:00:26.34,0:00:27.29,Base,,0,0,0,,{\rBase}de {\rBase}0 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)},9000
+Dialogue: 0,0:00:27.24,0:00:27.60,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}grigal {\rBase}de {\rBase}L
+Dialogue: 0,0:00:27.60,0:00:27.86,Base,,0,0,0,,{\rBase}grigal {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}L
+Dialogue: 0,0:00:27.86,0:00:28.25,Base,,0,0,0,,{\rBase}grigal {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}L
+Dialogue: 0,0:00:28.20,0:00:28.52,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}gestación {\rBase}es
+Dialogue: 0,0:00:28.52,0:00:29.10,Base,,0,0,0,,{\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}gestación {\rBase}es
+Dialogue: 0,0:00:29.10,0:00:29.47,Base,,0,0,0,,{\rBase}en {\rBase}gestación {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}es
+Dialogue: 0,0:00:29.42,0:00:30.06,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}relativamente {\rBase}alta {\rBase}y
+Dialogue: 0,0:00:30.06,0:00:30.36,Base,,0,0,0,,{\rBase}relativamente {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}alta {\rBase}y
+Dialogue: 0,0:00:30.36,0:00:30.91,Base,,0,0,0,,{\rBase}relativamente {\rBase}alta {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y
+Dialogue: 0,0:00:30.86,0:00:31.10,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}puede {\rBase}indicar {\rBase}daño
+Dialogue: 0,0:00:31.10,0:00:31.52,Base,,0,0,0,,{\rBase}puede {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}indicar {\rBase}daño
+Dialogue: 0,0:00:31.52,0:00:31.83,Base,,0,0,0,,{\rBase}puede {\rBase}indicar {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}daño
+Dialogue: 0,0:00:31.78,0:00:32.12,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}renal {\rBase}subclínico, {\rBase}por
+Dialogue: 0,0:00:32.12,0:00:33.00,Base,,0,0,0,,{\rBase}renal {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}subclínico, {\rBase}por
+Dialogue: 0,0:00:33.00,0:00:33.27,Base,,0,0,0,,{\rBase}renal {\rBase}subclínico, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}por
+Dialogue: 0,0:00:33.22,0:00:33.60,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ejemplo {\rBase}en {\rBase}preeclampsia.
+Dialogue: 0,0:00:33.60,0:00:33.98,Base,,0,0,0,,{\rBase}ejemplo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}preeclampsia.
+Dialogue: 0,0:00:33.98,0:00:34.71,Base,,0,0,0,,{\rBase}ejemplo {\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}preeclampsia.

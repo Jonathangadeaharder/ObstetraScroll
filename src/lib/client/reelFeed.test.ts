@@ -231,9 +231,9 @@ describe("buildInfoItems", () => {
 		};
 		const infoItems = buildInfoItems(feedItem, fact);
 		expect(infoItems.some((i) => i.author === "Detalle clínico")).toBe(true);
-		expect(infoItems.some((i) => i.author === "Por qué no es obvio")).toBe(
-			true,
-		);
+		expect(
+			infoItems.some((i) => i.author === "Lo que se suele pasar por alto"),
+		).toBe(true);
 		expect(infoItems.some((i) => i.author === "Fuente")).toBe(true);
 	});
 });

@@ -1,0 +1,81 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H003C3CE6,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.28,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El {\rBase}protocolo {\rBase}de
+Dialogue: 0,0:00:00.28,0:00:00.78,Base,,0,0,0,,{\rBase}El {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}protocolo {\rBase}de
+Dialogue: 0,0:00:00.78,0:00:00.91,Base,,0,0,0,,{\rBase}El {\rBase}protocolo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:00.86,0:00:01.40,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}reanimación {\rBase}neonatal, {\rBase}NRP,
+Dialogue: 0,0:00:01.40,0:00:02.12,Base,,0,0,0,,{\rBase}reanimación {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}neonatal, {\rBase}NRP,
+Dialogue: 0,0:00:02.12,0:00:02.77,Base,,0,0,0,,{\rBase}reanimación {\rBase}neonatal, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}NRP,
+Dialogue: 0,0:00:02.98,0:00:03.74,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tradicional, {\rBase}separa {\rBase}al
+Dialogue: 0,0:00:03.74,0:00:04.06,Base,,0,0,0,,{\rBase}tradicional, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}separa {\rBase}al
+Dialogue: 0,0:00:04.06,0:00:04.23,Base,,0,0,0,,{\rBase}tradicional, {\rBase}separa {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}al
+Dialogue: 0,0:00:04.18,0:00:04.60,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}neonato {\rBase}inmediatamente {\rBase}para
+Dialogue: 0,0:00:04.60,0:00:05.22,Base,,0,0,0,,{\rBase}neonato {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}inmediatamente {\rBase}para
+Dialogue: 0,0:00:05.22,0:00:05.57,Base,,0,0,0,,{\rBase}neonato {\rBase}inmediatamente {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}para
+Dialogue: 0,0:00:05.52,0:00:05.70,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}reanimación {\rBase}en
+Dialogue: 0,0:00:05.70,0:00:06.30,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}reanimación {\rBase}en
+Dialogue: 0,0:00:06.30,0:00:06.49,Base,,0,0,0,,{\rBase}la {\rBase}reanimación {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en
+Dialogue: 0,0:00:06.44,0:00:06.52,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}cuna {\rBase}cálida,
+Dialogue: 0,0:00:06.52,0:00:06.78,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cuna {\rBase}cálida,
+Dialogue: 0,0:00:06.78,0:00:07.31,Base,,0,0,0,,{\rBase}la {\rBase}cuna {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cálida,
+Dialogue: 0,0:00:07.46,0:00:08.04,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pero {\rBase}mantener {\rBase}el
+Dialogue: 0,0:00:08.04,0:00:08.46,Base,,0,0,0,,{\rBase}pero {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}mantener {\rBase}el
+Dialogue: 0,0:00:08.46,0:00:08.69,Base,,0,0,0,,{\rBase}pero {\rBase}mantener {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el
+Dialogue: 0,0:00:08.64,0:00:08.98,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cordón {\rBase}intacto {\rBase}durante
+Dialogue: 0,0:00:08.98,0:00:09.54,Base,,0,0,0,,{\rBase}cordón {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}intacto {\rBase}durante
+Dialogue: 0,0:00:09.54,0:00:09.83,Base,,0,0,0,,{\rBase}cordón {\rBase}intacto {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}durante
+Dialogue: 0,0:00:09.78,0:00:10.02,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}los {\rBase}primeros {\rBase}pasos
+Dialogue: 0,0:00:10.02,0:00:10.42,Base,,0,0,0,,{\rBase}los {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}primeros {\rBase}pasos
+Dialogue: 0,0:00:10.42,0:00:10.79,Base,,0,0,0,,{\rBase}los {\rBase}primeros {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pasos
+Dialogue: 0,0:00:10.74,0:00:10.88,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}reanimación {\rBase}tiene
+Dialogue: 0,0:00:10.88,0:00:11.62,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}reanimación {\rBase}tiene
+Dialogue: 0,0:00:11.62,0:00:12.03,Base,,0,0,0,,{\rBase}de {\rBase}reanimación {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tiene
+Dialogue: 0,0:00:11.98,0:00:12.56,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}beneficios {\rBase}hemodinámicos. {\rBase}En
+Dialogue: 0,0:00:12.56,0:00:13.72,Base,,0,0,0,,{\rBase}beneficios {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hemodinámicos. {\rBase}En
+Dialogue: 0,0:00:13.72,0:00:14.53,Base,,0,0,0,,{\rBase}beneficios {\rBase}hemodinámicos. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}En
+Dialogue: 0,0:00:14.48,0:00:15.06,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}neonatos {\rBase}que {\rBase}requieren
+Dialogue: 0,0:00:15.06,0:00:15.24,Base,,0,0,0,,{\rBase}neonatos {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}que {\rBase}requieren
+Dialogue: 0,0:00:15.24,0:00:15.73,Base,,0,0,0,,{\rBase}neonatos {\rBase}que {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}requieren
+Dialogue: 0,0:00:15.68,0:00:16.98,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}reanimación, {\rBase}la {\rBase}espera
+Dialogue: 0,0:00:16.98,0:00:17.20,Base,,0,0,0,,{\rBase}reanimación, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}espera
+Dialogue: 0,0:00:17.20,0:00:17.61,Base,,0,0,0,,{\rBase}reanimación, {\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}espera
+Dialogue: 0,0:00:17.56,0:00:17.72,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}60 {\rBase}-90
+Dialogue: 0,0:00:17.72,0:00:18.22,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}60 {\rBase}-90
+Dialogue: 0,0:00:18.22,0:00:18.73,Base,,0,0,0,,{\rBase}de {\rBase}60 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}-90
+Dialogue: 0,0:00:18.68,0:00:19.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}segundos {\rBase}antes {\rBase}del
+Dialogue: 0,0:00:19.26,0:00:20.14,Base,,0,0,0,,{\rBase}segundos {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}antes {\rBase}del
+Dialogue: 0,0:00:20.14,0:00:20.47,Base,,0,0,0,,{\rBase}segundos {\rBase}antes {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}del
+Dialogue: 0,0:00:20.42,0:00:21.10,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pinzamiento {\rBase}del {\rBase}cordón
+Dialogue: 0,0:00:21.10,0:00:21.32,Base,,0,0,0,,{\rBase}pinzamiento {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}del {\rBase}cordón
+Dialogue: 0,0:00:21.32,0:00:21.77,Base,,0,0,0,,{\rBase}pinzamiento {\rBase}del {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cordón
+Dialogue: 0,0:00:21.72,0:00:22.32,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}combinada {\rBase}con {\rBase}reanimación
+Dialogue: 0,0:00:22.32,0:00:22.56,Base,,0,0,0,,{\rBase}combinada {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}reanimación
+Dialogue: 0,0:00:22.56,0:00:23.35,Base,,0,0,0,,{\rBase}combinada {\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}reanimación
+Dialogue: 0,0:00:23.30,0:00:23.80,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}inicial {\rBase}con {\rBase}el
+Dialogue: 0,0:00:23.80,0:00:24.08,Base,,0,0,0,,{\rBase}inicial {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}el
+Dialogue: 0,0:00:24.08,0:00:24.29,Base,,0,0,0,,{\rBase}inicial {\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el
+Dialogue: 0,0:00:24.24,0:00:24.62,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cordón {\rBase}intacto, {\rBase}resucitación
+Dialogue: 0,0:00:24.62,0:00:25.28,Base,,0,0,0,,{\rBase}cordón {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}intacto, {\rBase}resucitación
+Dialogue: 0,0:00:25.28,0:00:26.83,Base,,0,0,0,,{\rBase}cordón {\rBase}intacto, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}resucitación
+Dialogue: 0,0:00:26.78,0:00:27.06,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}cordón, {\rBase}mejora
+Dialogue: 0,0:00:27.06,0:00:27.74,Base,,0,0,0,,{\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cordón, {\rBase}mejora
+Dialogue: 0,0:00:27.74,0:00:28.71,Base,,0,0,0,,{\rBase}con {\rBase}cordón, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}mejora
+Dialogue: 0,0:00:28.66,0:00:28.76,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}estabilidad {\rBase}hemodinámica
+Dialogue: 0,0:00:28.76,0:00:29.42,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}estabilidad {\rBase}hemodinámica
+Dialogue: 0,0:00:29.42,0:00:30.35,Base,,0,0,0,,{\rBase}la {\rBase}estabilidad {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hemodinámica
+Dialogue: 0,0:00:30.30,0:00:30.94,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}reduce {\rBase}la
+Dialogue: 0,0:00:30.94,0:00:31.38,Base,,0,0,0,,{\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}reduce {\rBase}la
+Dialogue: 0,0:00:31.38,0:00:31.65,Base,,0,0,0,,{\rBase}y {\rBase}reduce {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la
+Dialogue: 0,0:00:31.60,0:00:32.22,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hemorragia {\rBase}intraventricular.
+Dialogue: 0,0:00:32.22,0:00:33.17,Base,,0,0,0,,{\rBase}hemorragia {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}intraventricular.

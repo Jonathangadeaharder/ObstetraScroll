@@ -1,0 +1,75 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0000E5FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Sin {\rBase}GAP {\rBase}Junctions
+Dialogue: 0,0:00:00.36,0:00:00.56,Base,,0,0,0,,{\rBase}Sin {\rHot\t(0,120,\fscx115\fscy115)}GAP {\rBase}Junctions
+Dialogue: 0,0:00:00.56,0:00:01.15,Base,,0,0,0,,{\rBase}Sin {\rBase}GAP {\rHot\t(0,120,\fscx115\fscy115)}Junctions
+Dialogue: 0,0:00:01.10,0:00:01.46,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}hay {\rBase}contracciones, {\rBase}pero
+Dialogue: 0,0:00:01.46,0:00:02.40,Base,,0,0,0,,{\rBase}hay {\rHot\t(0,120,\fscx115\fscy115)}contracciones, {\rBase}pero
+Dialogue: 0,0:00:02.40,0:00:02.83,Base,,0,0,0,,{\rBase}hay {\rBase}contracciones, {\rHot\t(0,120,\fscx115\fscy115)}pero
+Dialogue: 0,0:00:02.78,0:00:02.92,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}parto. {\rBase}Por
+Dialogue: 0,0:00:02.92,0:00:03.54,Base,,0,0,0,,{\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}parto. {\rBase}Por
+Dialogue: 0,0:00:03.54,0:00:03.89,Base,,0,0,0,,{\rBase}no {\rBase}parto. {\rHot\t(0,120,\fscx115\fscy115)}Por
+Dialogue: 0,0:00:03.84,0:00:04.46,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}eso, {\rBase}una {\rBase}inducción
+Dialogue: 0,0:00:04.46,0:00:04.58,Base,,0,0,0,,{\rBase}eso, {\rHot\t(0,120,\fscx115\fscy115)}una {\rBase}inducción
+Dialogue: 0,0:00:04.58,0:00:05.15,Base,,0,0,0,,{\rBase}eso, {\rBase}una {\rHot\t(0,120,\fscx115\fscy115)}inducción
+Dialogue: 0,0:00:05.10,0:00:05.92,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}farmacológica {\rBase}a {\rBase}veces
+Dialogue: 0,0:00:05.92,0:00:06.12,Base,,0,0,0,,{\rBase}farmacológica {\rHot\t(0,120,\fscx115\fscy115)}a {\rBase}veces
+Dialogue: 0,0:00:06.12,0:00:06.39,Base,,0,0,0,,{\rBase}farmacológica {\rBase}a {\rHot\t(0,120,\fscx115\fscy115)}veces
+Dialogue: 0,0:00:06.34,0:00:06.70,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}tarda {\rBase}en {\rBase}enganchar.
+Dialogue: 0,0:00:06.70,0:00:07.00,Base,,0,0,0,,{\rBase}tarda {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}enganchar.
+Dialogue: 0,0:00:07.00,0:00:07.85,Base,,0,0,0,,{\rBase}tarda {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}enganchar.
+Dialogue: 0,0:00:08.06,0:00:08.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}GAP {\rBase}Junctions {\rBase}con
+Dialogue: 0,0:00:08.64,0:00:09.24,Base,,0,0,0,,{\rBase}GAP {\rHot\t(0,120,\fscx115\fscy115)}Junctions {\rBase}con
+Dialogue: 0,0:00:09.24,0:00:09.55,Base,,0,0,0,,{\rBase}GAP {\rBase}Junctions {\rHot\t(0,120,\fscx115\fscy115)}con
+Dialogue: 0,0:00:09.50,0:00:09.88,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Exina {\rBase}43 {\rBase}acoplan
+Dialogue: 0,0:00:09.88,0:00:10.46,Base,,0,0,0,,{\rBase}Exina {\rHot\t(0,120,\fscx115\fscy115)}43 {\rBase}acoplan
+Dialogue: 0,0:00:10.46,0:00:11.47,Base,,0,0,0,,{\rBase}Exina {\rBase}43 {\rHot\t(0,120,\fscx115\fscy115)}acoplan
+Dialogue: 0,0:00:11.42,0:00:12.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}eléctrica {\rBase}y {\rBase}metabólicamente
+Dialogue: 0,0:00:12.08,0:00:12.34,Base,,0,0,0,,{\rBase}eléctrica {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}metabólicamente
+Dialogue: 0,0:00:12.34,0:00:13.27,Base,,0,0,0,,{\rBase}eléctrica {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}metabólicamente
+Dialogue: 0,0:00:13.22,0:00:13.42,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}las {\rBase}células {\rBase}miometriales.
+Dialogue: 0,0:00:13.42,0:00:13.80,Base,,0,0,0,,{\rBase}las {\rHot\t(0,120,\fscx115\fscy115)}células {\rBase}miometriales.
+Dialogue: 0,0:00:13.80,0:00:14.77,Base,,0,0,0,,{\rBase}las {\rBase}células {\rHot\t(0,120,\fscx115\fscy115)}miometriales.
+Dialogue: 0,0:00:14.96,0:00:15.42,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Casi {\rBase}ausentes {\rBase}en
+Dialogue: 0,0:00:15.42,0:00:15.92,Base,,0,0,0,,{\rBase}Casi {\rHot\t(0,120,\fscx115\fscy115)}ausentes {\rBase}en
+Dialogue: 0,0:00:15.92,0:00:16.17,Base,,0,0,0,,{\rBase}Casi {\rBase}ausentes {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:16.12,0:00:17.12,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}embarazo, {\rBase}contracciones {\rBase}aisladas,
+Dialogue: 0,0:00:17.12,0:00:17.76,Base,,0,0,0,,{\rBase}embarazo, {\rHot\t(0,120,\fscx115\fscy115)}contracciones {\rBase}aisladas,
+Dialogue: 0,0:00:17.76,0:00:18.43,Base,,0,0,0,,{\rBase}embarazo, {\rBase}contracciones {\rHot\t(0,120,\fscx115\fscy115)}aisladas,
+Dialogue: 0,0:00:18.68,0:00:18.98,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Braxton {\rBase}Hicks. {\rBase}Justo
+Dialogue: 0,0:00:18.98,0:00:20.04,Base,,0,0,0,,{\rBase}Braxton {\rHot\t(0,120,\fscx115\fscy115)}Hicks. {\rBase}Justo
+Dialogue: 0,0:00:20.04,0:00:20.61,Base,,0,0,0,,{\rBase}Braxton {\rBase}Hicks. {\rHot\t(0,120,\fscx115\fscy115)}Justo
+Dialogue: 0,0:00:20.56,0:00:20.76,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}antes {\rBase}del {\rBase}parto,
+Dialogue: 0,0:00:20.76,0:00:21.00,Base,,0,0,0,,{\rBase}antes {\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}parto,
+Dialogue: 0,0:00:21.00,0:00:21.57,Base,,0,0,0,,{\rBase}antes {\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}parto,
+Dialogue: 0,0:00:21.68,0:00:22.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}los {\rBase}estrógenos {\rBase}elevan
+Dialogue: 0,0:00:22.08,0:00:22.68,Base,,0,0,0,,{\rBase}los {\rHot\t(0,120,\fscx115\fscy115)}estrógenos {\rBase}elevan
+Dialogue: 0,0:00:22.68,0:00:23.19,Base,,0,0,0,,{\rBase}los {\rBase}estrógenos {\rHot\t(0,120,\fscx115\fscy115)}elevan
+Dialogue: 0,0:00:23.14,0:00:23.92,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}masivamente {\rBase}su {\rBase}expresión.
+Dialogue: 0,0:00:23.92,0:00:24.18,Base,,0,0,0,,{\rBase}masivamente {\rHot\t(0,120,\fscx115\fscy115)}su {\rBase}expresión.
+Dialogue: 0,0:00:24.18,0:00:24.87,Base,,0,0,0,,{\rBase}masivamente {\rBase}su {\rHot\t(0,120,\fscx115\fscy115)}expresión.
+Dialogue: 0,0:00:25.12,0:00:25.58,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Los {\rBase}potenciales {\rBase}de
+Dialogue: 0,0:00:25.58,0:00:26.28,Base,,0,0,0,,{\rBase}Los {\rHot\t(0,120,\fscx115\fscy115)}potenciales {\rBase}de
+Dialogue: 0,0:00:26.28,0:00:26.43,Base,,0,0,0,,{\rBase}Los {\rBase}potenciales {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:26.38,0:00:26.80,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}acción {\rBase}se {\rBase}propagan
+Dialogue: 0,0:00:26.80,0:00:27.00,Base,,0,0,0,,{\rBase}acción {\rHot\t(0,120,\fscx115\fscy115)}se {\rBase}propagan
+Dialogue: 0,0:00:27.00,0:00:27.53,Base,,0,0,0,,{\rBase}acción {\rBase}se {\rHot\t(0,120,\fscx115\fscy115)}propagan
+Dialogue: 0,0:00:27.48,0:00:27.70,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}por {\rBase}todo {\rBase}el
+Dialogue: 0,0:00:27.70,0:00:28.02,Base,,0,0,0,,{\rBase}por {\rHot\t(0,120,\fscx115\fscy115)}todo {\rBase}el
+Dialogue: 0,0:00:28.02,0:00:28.23,Base,,0,0,0,,{\rBase}por {\rBase}todo {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:28.18,0:00:28.90,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}miometrio. {\rBase}contracciones {\rBase}sincronizadas
+Dialogue: 0,0:00:28.90,0:00:30.30,Base,,0,0,0,,{\rBase}miometrio. {\rHot\t(0,120,\fscx115\fscy115)}contracciones {\rBase}sincronizadas
+Dialogue: 0,0:00:30.30,0:00:31.35,Base,,0,0,0,,{\rBase}miometrio. {\rBase}contracciones {\rHot\t(0,120,\fscx115\fscy115)}sincronizadas
+Dialogue: 0,0:00:31.30,0:00:31.56,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}eficaces.
+Dialogue: 0,0:00:31.56,0:00:32.27,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}eficaces.

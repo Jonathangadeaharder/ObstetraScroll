@@ -1,0 +1,67 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,88,&H00F4E000,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}ecografía {\rBase}no
+Dialogue: 0,0:00:00.26,0:00:00.94,Base,,0,0,0,,{\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}ecografía {\rBase}no
+Dialogue: 0,0:00:00.94,0:00:01.57,Base,,0,0,0,,{\rBase}La {\rBase}ecografía {\rHot\t(0,120,\fscx115\fscy115)}no
+Dialogue: 0,0:00:01.52,0:00:01.82,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}forma {\rBase}parte {\rBase}del
+Dialogue: 0,0:00:01.82,0:00:02.14,Base,,0,0,0,,{\rBase}forma {\rHot\t(0,120,\fscx115\fscy115)}parte {\rBase}del
+Dialogue: 0,0:00:02.14,0:00:02.45,Base,,0,0,0,,{\rBase}forma {\rBase}parte {\rHot\t(0,120,\fscx115\fscy115)}del
+Dialogue: 0,0:00:02.40,0:00:02.92,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}algoritmo {\rBase}estándar {\rBase}de
+Dialogue: 0,0:00:02.92,0:00:03.42,Base,,0,0,0,,{\rBase}algoritmo {\rHot\t(0,120,\fscx115\fscy115)}estándar {\rBase}de
+Dialogue: 0,0:00:03.42,0:00:03.63,Base,,0,0,0,,{\rBase}algoritmo {\rBase}estándar {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:03.58,0:00:04.12,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}HPP {\rBase}aguda {\rBase}en
+Dialogue: 0,0:00:04.12,0:00:04.58,Base,,0,0,0,,{\rBase}HPP {\rHot\t(0,120,\fscx115\fscy115)}aguda {\rBase}en
+Dialogue: 0,0:00:04.58,0:00:04.77,Base,,0,0,0,,{\rBase}HPP {\rBase}aguda {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:04.72,0:00:04.82,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}mayoría {\rBase}de
+Dialogue: 0,0:00:04.82,0:00:05.14,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}mayoría {\rBase}de
+Dialogue: 0,0:00:05.14,0:00:05.45,Base,,0,0,0,,{\rBase}la {\rBase}mayoría {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:05.40,0:00:06.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}protocolos, {\rBase}donde {\rBase}el
+Dialogue: 0,0:00:06.26,0:00:06.76,Base,,0,0,0,,{\rBase}protocolos, {\rHot\t(0,120,\fscx115\fscy115)}donde {\rBase}el
+Dialogue: 0,0:00:06.76,0:00:06.97,Base,,0,0,0,,{\rBase}protocolos, {\rBase}donde {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:06.92,0:00:07.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}manejo {\rBase}es {\rBase}predominantemente
+Dialogue: 0,0:00:07.28,0:00:07.44,Base,,0,0,0,,{\rBase}manejo {\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}predominantemente
+Dialogue: 0,0:00:07.44,0:00:08.51,Base,,0,0,0,,{\rBase}manejo {\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}predominantemente
+Dialogue: 0,0:00:08.46,0:00:08.96,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}clínico {\rBase}hasta {\rBase}fases
+Dialogue: 0,0:00:08.96,0:00:09.20,Base,,0,0,0,,{\rBase}clínico {\rHot\t(0,120,\fscx115\fscy115)}hasta {\rBase}fases
+Dialogue: 0,0:00:09.20,0:00:09.63,Base,,0,0,0,,{\rBase}clínico {\rBase}hasta {\rHot\t(0,120,\fscx115\fscy115)}fases
+Dialogue: 0,0:00:09.58,0:00:10.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}avanzadas. {\rBase}La {\rBase}ecografía
+Dialogue: 0,0:00:10.64,0:00:11.36,Base,,0,0,0,,{\rBase}avanzadas. {\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}ecografía
+Dialogue: 0,0:00:11.36,0:00:12.09,Base,,0,0,0,,{\rBase}avanzadas. {\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}ecografía
+Dialogue: 0,0:00:12.04,0:00:12.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Point {\rBase}of {\rBase}Care
+Dialogue: 0,0:00:12.38,0:00:12.58,Base,,0,0,0,,{\rBase}Point {\rHot\t(0,120,\fscx115\fscy115)}of {\rBase}Care
+Dialogue: 0,0:00:12.58,0:00:12.93,Base,,0,0,0,,{\rBase}Point {\rBase}of {\rHot\t(0,120,\fscx115\fscy115)}Care
+Dialogue: 0,0:00:12.88,0:00:13.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}HPP {\rBase}permite
+Dialogue: 0,0:00:13.08,0:00:13.68,Base,,0,0,0,,{\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}HPP {\rBase}permite
+Dialogue: 0,0:00:13.68,0:00:14.45,Base,,0,0,0,,{\rBase}en {\rBase}HPP {\rHot\t(0,120,\fscx115\fscy115)}permite
+Dialogue: 0,0:00:14.40,0:00:15.10,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}identificar {\rBase}en {\rBase}menos
+Dialogue: 0,0:00:15.10,0:00:15.26,Base,,0,0,0,,{\rBase}identificar {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}menos
+Dialogue: 0,0:00:15.26,0:00:15.55,Base,,0,0,0,,{\rBase}identificar {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}menos
+Dialogue: 0,0:00:15.50,0:00:15.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}60 {\rBase}segundos
+Dialogue: 0,0:00:15.64,0:00:16.10,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}60 {\rBase}segundos
+Dialogue: 0,0:00:16.10,0:00:16.67,Base,,0,0,0,,{\rBase}de {\rBase}60 {\rHot\t(0,120,\fscx115\fscy115)}segundos
+Dialogue: 0,0:00:16.62,0:00:17.20,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}si {\rBase}la {\rBase}causa
+Dialogue: 0,0:00:17.20,0:00:17.32,Base,,0,0,0,,{\rBase}si {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}causa
+Dialogue: 0,0:00:17.32,0:00:17.69,Base,,0,0,0,,{\rBase}si {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}causa
+Dialogue: 0,0:00:17.64,0:00:17.86,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}atonía, {\rBase}útero
+Dialogue: 0,0:00:17.86,0:00:18.56,Base,,0,0,0,,{\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}atonía, {\rBase}útero
+Dialogue: 0,0:00:18.56,0:00:19.15,Base,,0,0,0,,{\rBase}es {\rBase}atonía, {\rHot\t(0,120,\fscx115\fscy115)}útero
+Dialogue: 0,0:00:19.10,0:00:20.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}hipocontráctil, {\rBase}restos {\rBase}placentarios,
+Dialogue: 0,0:00:20.38,0:00:20.84,Base,,0,0,0,,{\rBase}hipocontráctil, {\rHot\t(0,120,\fscx115\fscy115)}restos {\rBase}placentarios,
+Dialogue: 0,0:00:20.84,0:00:21.63,Base,,0,0,0,,{\rBase}hipocontráctil, {\rBase}restos {\rHot\t(0,120,\fscx115\fscy115)}placentarios,
+Dialogue: 0,0:00:21.74,0:00:22.30,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}imagen {\rBase}heterogénea {\rBase}intracavitaria
+Dialogue: 0,0:00:22.30,0:00:23.06,Base,,0,0,0,,{\rBase}imagen {\rHot\t(0,120,\fscx115\fscy115)}heterogénea {\rBase}intracavitaria
+Dialogue: 0,0:00:23.06,0:00:24.05,Base,,0,0,0,,{\rBase}imagen {\rBase}heterogénea {\rHot\t(0,120,\fscx115\fscy115)}intracavitaria
+Dialogue: 0,0:00:24.00,0:00:24.52,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}o {\rBase}hematoma {\rBase}pélvico.
+Dialogue: 0,0:00:24.52,0:00:24.98,Base,,0,0,0,,{\rBase}o {\rHot\t(0,120,\fscx115\fscy115)}hematoma {\rBase}pélvico.
+Dialogue: 0,0:00:24.98,0:00:25.55,Base,,0,0,0,,{\rBase}o {\rBase}hematoma {\rHot\t(0,120,\fscx115\fscy115)}pélvico.

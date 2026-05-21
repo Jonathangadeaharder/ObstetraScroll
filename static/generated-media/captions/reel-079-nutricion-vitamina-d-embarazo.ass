@@ -1,0 +1,83 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Helvetica,60,&H00C8C8C8,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Helvetica,92,&H00FFFFFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}La {\rBase}vitamina {\rBase}D
+Dialogue: 0,0:00:00.26,0:00:00.72,Base,,0,0,0,,{\rBase}La {\rHot\t(0,150,\fscx120\fscy120)}vitamina {\rBase}D
+Dialogue: 0,0:00:00.72,0:00:00.91,Base,,0,0,0,,{\rBase}La {\rBase}vitamina {\rHot\t(0,150,\fscx120\fscy120)}D
+Dialogue: 0,0:00:00.86,0:00:01.08,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}se {\rBase}asocia {\rBase}principalmente
+Dialogue: 0,0:00:01.08,0:00:01.42,Base,,0,0,0,,{\rBase}se {\rHot\t(0,150,\fscx120\fscy120)}asocia {\rBase}principalmente
+Dialogue: 0,0:00:01.42,0:00:02.01,Base,,0,0,0,,{\rBase}se {\rBase}asocia {\rHot\t(0,150,\fscx120\fscy120)}principalmente
+Dialogue: 0,0:00:01.96,0:00:02.24,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}con {\rBase}la {\rBase}salud
+Dialogue: 0,0:00:02.24,0:00:02.38,Base,,0,0,0,,{\rBase}con {\rHot\t(0,150,\fscx120\fscy120)}la {\rBase}salud
+Dialogue: 0,0:00:02.38,0:00:02.67,Base,,0,0,0,,{\rBase}con {\rBase}la {\rHot\t(0,150,\fscx120\fscy120)}salud
+Dialogue: 0,0:00:02.62,0:00:03.16,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}ósea, {\rBase}pero {\rBase}sus
+Dialogue: 0,0:00:03.16,0:00:03.66,Base,,0,0,0,,{\rBase}ósea, {\rHot\t(0,150,\fscx120\fscy120)}pero {\rBase}sus
+Dialogue: 0,0:00:03.66,0:00:03.89,Base,,0,0,0,,{\rBase}ósea, {\rBase}pero {\rHot\t(0,150,\fscx120\fscy120)}sus
+Dialogue: 0,0:00:03.84,0:00:04.36,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}receptores {\rBase}están {\rBase}presentes
+Dialogue: 0,0:00:04.36,0:00:04.60,Base,,0,0,0,,{\rBase}receptores {\rHot\t(0,150,\fscx120\fscy120)}están {\rBase}presentes
+Dialogue: 0,0:00:04.60,0:00:05.13,Base,,0,0,0,,{\rBase}receptores {\rBase}están {\rHot\t(0,150,\fscx120\fscy120)}presentes
+Dialogue: 0,0:00:05.08,0:00:05.18,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}en {\rBase}la {\rBase}placenta
+Dialogue: 0,0:00:05.18,0:00:05.28,Base,,0,0,0,,{\rBase}en {\rHot\t(0,150,\fscx120\fscy120)}la {\rBase}placenta
+Dialogue: 0,0:00:05.28,0:00:05.87,Base,,0,0,0,,{\rBase}en {\rBase}la {\rHot\t(0,150,\fscx120\fscy120)}placenta
+Dialogue: 0,0:00:05.82,0:00:06.16,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}y {\rBase}modulan {\rBase}la
+Dialogue: 0,0:00:06.16,0:00:06.56,Base,,0,0,0,,{\rBase}y {\rHot\t(0,150,\fscx120\fscy120)}modulan {\rBase}la
+Dialogue: 0,0:00:06.56,0:00:06.75,Base,,0,0,0,,{\rBase}y {\rBase}modulan {\rHot\t(0,150,\fscx120\fscy120)}la
+Dialogue: 0,0:00:06.70,0:00:07.08,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}respuesta {\rBase}inmunológica, {\rBase}la
+Dialogue: 0,0:00:07.08,0:00:08.08,Base,,0,0,0,,{\rBase}respuesta {\rHot\t(0,150,\fscx120\fscy120)}inmunológica, {\rBase}la
+Dialogue: 0,0:00:08.08,0:00:08.43,Base,,0,0,0,,{\rBase}respuesta {\rBase}inmunológica, {\rHot\t(0,150,\fscx120\fscy120)}la
+Dialogue: 0,0:00:08.38,0:00:09.14,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}angiogénesis {\rBase}y {\rBase}la
+Dialogue: 0,0:00:09.14,0:00:09.38,Base,,0,0,0,,{\rBase}angiogénesis {\rHot\t(0,150,\fscx120\fscy120)}y {\rBase}la
+Dialogue: 0,0:00:09.38,0:00:09.55,Base,,0,0,0,,{\rBase}angiogénesis {\rBase}y {\rHot\t(0,150,\fscx120\fscy120)}la
+Dialogue: 0,0:00:09.50,0:00:09.78,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}función {\rBase}endotelial. {\rBase}La
+Dialogue: 0,0:00:09.78,0:00:10.80,Base,,0,0,0,,{\rBase}función {\rHot\t(0,150,\fscx120\fscy120)}endotelial. {\rBase}La
+Dialogue: 0,0:00:10.80,0:00:11.33,Base,,0,0,0,,{\rBase}función {\rBase}endotelial. {\rHot\t(0,150,\fscx120\fscy120)}La
+Dialogue: 0,0:00:11.28,0:00:11.92,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}suplementación {\rBase}con {\rBase}vitamina
+Dialogue: 0,0:00:11.92,0:00:12.12,Base,,0,0,0,,{\rBase}suplementación {\rHot\t(0,150,\fscx120\fscy120)}con {\rBase}vitamina
+Dialogue: 0,0:00:12.12,0:00:12.57,Base,,0,0,0,,{\rBase}suplementación {\rBase}con {\rHot\t(0,150,\fscx120\fscy120)}vitamina
+Dialogue: 0,0:00:12.52,0:00:12.90,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}D, {\rBase}604 {\rBase}.000
+Dialogue: 0,0:00:12.90,0:00:13.84,Base,,0,0,0,,{\rBase}D, {\rHot\t(0,150,\fscx120\fscy120)}604 {\rBase}.000
+Dialogue: 0,0:00:13.84,0:00:14.23,Base,,0,0,0,,{\rBase}D, {\rBase}604 {\rHot\t(0,150,\fscx120\fscy120)}.000
+Dialogue: 0,0:00:14.18,0:00:14.98,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}uidía, {\rBase}durante {\rBase}el
+Dialogue: 0,0:00:14.98,0:00:15.42,Base,,0,0,0,,{\rBase}uidía, {\rHot\t(0,150,\fscx120\fscy120)}durante {\rBase}el
+Dialogue: 0,0:00:15.42,0:00:15.71,Base,,0,0,0,,{\rBase}uidía, {\rBase}durante {\rHot\t(0,150,\fscx120\fscy120)}el
+Dialogue: 0,0:00:15.66,0:00:16.04,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}embarazo {\rBase}reduce {\rBase}la
+Dialogue: 0,0:00:16.04,0:00:16.38,Base,,0,0,0,,{\rBase}embarazo {\rHot\t(0,150,\fscx120\fscy120)}reduce {\rBase}la
+Dialogue: 0,0:00:16.38,0:00:16.61,Base,,0,0,0,,{\rBase}embarazo {\rBase}reduce {\rHot\t(0,150,\fscx120\fscy120)}la
+Dialogue: 0,0:00:16.56,0:00:17.12,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}incidencia {\rBase}de {\rBase}bajo
+Dialogue: 0,0:00:17.12,0:00:17.26,Base,,0,0,0,,{\rBase}incidencia {\rHot\t(0,150,\fscx120\fscy120)}de {\rBase}bajo
+Dialogue: 0,0:00:17.26,0:00:17.49,Base,,0,0,0,,{\rBase}incidencia {\rBase}de {\rHot\t(0,150,\fscx120\fscy120)}bajo
+Dialogue: 0,0:00:17.44,0:00:17.76,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}peso {\rBase}al {\rBase}nacer
+Dialogue: 0,0:00:17.76,0:00:17.94,Base,,0,0,0,,{\rBase}peso {\rHot\t(0,150,\fscx120\fscy120)}al {\rBase}nacer
+Dialogue: 0,0:00:17.94,0:00:18.31,Base,,0,0,0,,{\rBase}peso {\rBase}al {\rHot\t(0,150,\fscx120\fscy120)}nacer
+Dialogue: 0,0:00:18.26,0:00:18.44,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}en {\rBase}un {\rBase}40%,
+Dialogue: 0,0:00:18.44,0:00:18.56,Base,,0,0,0,,{\rBase}en {\rHot\t(0,150,\fscx120\fscy120)}un {\rBase}40%,
+Dialogue: 0,0:00:18.56,0:00:19.43,Base,,0,0,0,,{\rBase}en {\rBase}un {\rHot\t(0,150,\fscx120\fscy120)}40%,
+Dialogue: 0,0:00:19.38,0:00:20.00,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}la {\rBase}preclampsia {\rBase}en
+Dialogue: 0,0:00:20.00,0:00:20.76,Base,,0,0,0,,{\rBase}la {\rHot\t(0,150,\fscx120\fscy120)}preclampsia {\rBase}en
+Dialogue: 0,0:00:20.76,0:00:21.03,Base,,0,0,0,,{\rBase}la {\rBase}preclampsia {\rHot\t(0,150,\fscx120\fscy120)}en
+Dialogue: 0,0:00:20.98,0:00:21.10,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}un {\rBase}30 {\rBase}%
+Dialogue: 0,0:00:21.10,0:00:21.42,Base,,0,0,0,,{\rBase}un {\rHot\t(0,150,\fscx120\fscy120)}30 {\rBase}%
+Dialogue: 0,0:00:21.42,0:00:21.81,Base,,0,0,0,,{\rBase}un {\rBase}30 {\rHot\t(0,150,\fscx120\fscy120)}%
+Dialogue: 0,0:00:21.76,0:00:22.20,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}y {\rBase}la {\rBase}diabetes
+Dialogue: 0,0:00:22.20,0:00:22.30,Base,,0,0,0,,{\rBase}y {\rHot\t(0,150,\fscx120\fscy120)}la {\rBase}diabetes
+Dialogue: 0,0:00:22.30,0:00:22.75,Base,,0,0,0,,{\rBase}y {\rBase}la {\rHot\t(0,150,\fscx120\fscy120)}diabetes
+Dialogue: 0,0:00:22.70,0:00:23.50,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}gestacional {\rBase}en {\rBase}un
+Dialogue: 0,0:00:23.50,0:00:24.22,Base,,0,0,0,,{\rBase}gestacional {\rHot\t(0,150,\fscx120\fscy120)}en {\rBase}un
+Dialogue: 0,0:00:24.22,0:00:24.39,Base,,0,0,0,,{\rBase}gestacional {\rBase}en {\rHot\t(0,150,\fscx120\fscy120)}un
+Dialogue: 0,0:00:24.34,0:00:24.64,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}15 {\rBase}% {\rBase}en
+Dialogue: 0,0:00:24.64,0:00:24.94,Base,,0,0,0,,{\rBase}15 {\rHot\t(0,150,\fscx120\fscy120)}% {\rBase}en
+Dialogue: 0,0:00:24.94,0:00:25.31,Base,,0,0,0,,{\rBase}15 {\rBase}% {\rHot\t(0,150,\fscx120\fscy120)}en
+Dialogue: 0,0:00:25.26,0:00:25.78,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}poblaciones {\rBase}con {\rBase}deficiencia
+Dialogue: 0,0:00:25.78,0:00:26.00,Base,,0,0,0,,{\rBase}poblaciones {\rHot\t(0,150,\fscx120\fscy120)}con {\rBase}deficiencia
+Dialogue: 0,0:00:26.00,0:00:26.65,Base,,0,0,0,,{\rBase}poblaciones {\rBase}con {\rHot\t(0,150,\fscx120\fscy120)}deficiencia
+Dialogue: 0,0:00:26.60,0:00:27.11,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}basal.

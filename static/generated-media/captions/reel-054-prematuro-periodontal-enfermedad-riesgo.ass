@@ -1,0 +1,79 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H001E80FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.30,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}salud {\rBase}bucal
+Dialogue: 0,0:00:00.30,0:00:00.64,Base,,0,0,0,,{\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}salud {\rBase}bucal
+Dialogue: 0,0:00:00.64,0:00:01.15,Base,,0,0,0,,{\rBase}La {\rBase}salud {\rHot\t(0,120,\fscx115\fscy115)}bucal
+Dialogue: 0,0:00:01.10,0:00:01.56,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}se {\rBase}considera
+Dialogue: 0,0:00:01.56,0:00:01.70,Base,,0,0,0,,{\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}se {\rBase}considera
+Dialogue: 0,0:00:01.70,0:00:02.25,Base,,0,0,0,,{\rBase}no {\rBase}se {\rHot\t(0,120,\fscx115\fscy115)}considera
+Dialogue: 0,0:00:02.20,0:00:02.50,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}parte {\rBase}del {\rBase}control
+Dialogue: 0,0:00:02.50,0:00:02.74,Base,,0,0,0,,{\rBase}parte {\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}control
+Dialogue: 0,0:00:02.74,0:00:03.19,Base,,0,0,0,,{\rBase}parte {\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}control
+Dialogue: 0,0:00:03.14,0:00:03.72,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}prenatal {\rBase}rutinario, {\rBase}pero
+Dialogue: 0,0:00:03.72,0:00:04.62,Base,,0,0,0,,{\rBase}prenatal {\rHot\t(0,120,\fscx115\fscy115)}rutinario, {\rBase}pero
+Dialogue: 0,0:00:04.62,0:00:05.07,Base,,0,0,0,,{\rBase}prenatal {\rBase}rutinario, {\rHot\t(0,120,\fscx115\fscy115)}pero
+Dialogue: 0,0:00:05.02,0:00:05.16,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}inflamación {\rBase}periodontal
+Dialogue: 0,0:00:05.16,0:00:05.72,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}inflamación {\rBase}periodontal
+Dialogue: 0,0:00:05.72,0:00:06.69,Base,,0,0,0,,{\rBase}la {\rBase}inflamación {\rHot\t(0,120,\fscx115\fscy115)}periodontal
+Dialogue: 0,0:00:06.64,0:00:07.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}genera {\rBase}mediadores {\rBase}inflamatorios
+Dialogue: 0,0:00:07.32,0:00:07.88,Base,,0,0,0,,{\rBase}genera {\rHot\t(0,120,\fscx115\fscy115)}mediadores {\rBase}inflamatorios
+Dialogue: 0,0:00:07.88,0:00:08.73,Base,,0,0,0,,{\rBase}genera {\rBase}mediadores {\rHot\t(0,120,\fscx115\fscy115)}inflamatorios
+Dialogue: 0,0:00:08.68,0:00:09.58,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}sistémicos {\rBase}que {\rBase}pueden
+Dialogue: 0,0:00:09.58,0:00:10.06,Base,,0,0,0,,{\rBase}sistémicos {\rHot\t(0,120,\fscx115\fscy115)}que {\rBase}pueden
+Dialogue: 0,0:00:10.06,0:00:10.43,Base,,0,0,0,,{\rBase}sistémicos {\rBase}que {\rHot\t(0,120,\fscx115\fscy115)}pueden
+Dialogue: 0,0:00:10.38,0:00:11.12,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}desencadenar {\rBase}trabajo {\rBase}de
+Dialogue: 0,0:00:11.12,0:00:11.60,Base,,0,0,0,,{\rBase}desencadenar {\rHot\t(0,120,\fscx115\fscy115)}trabajo {\rBase}de
+Dialogue: 0,0:00:11.60,0:00:11.83,Base,,0,0,0,,{\rBase}desencadenar {\rBase}trabajo {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:11.78,0:00:12.18,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}parto {\rBase}prematuro. {\rBase}La
+Dialogue: 0,0:00:12.18,0:00:12.78,Base,,0,0,0,,{\rBase}parto {\rHot\t(0,120,\fscx115\fscy115)}prematuro. {\rBase}La
+Dialogue: 0,0:00:12.78,0:00:13.89,Base,,0,0,0,,{\rBase}parto {\rBase}prematuro. {\rHot\t(0,120,\fscx115\fscy115)}La
+Dialogue: 0,0:00:13.84,0:00:14.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}periodontitis {\rBase}materna {\rBase}moderada
+Dialogue: 0,0:00:14.60,0:00:15.14,Base,,0,0,0,,{\rBase}periodontitis {\rHot\t(0,120,\fscx115\fscy115)}materna {\rBase}moderada
+Dialogue: 0,0:00:15.14,0:00:15.75,Base,,0,0,0,,{\rBase}periodontitis {\rBase}materna {\rHot\t(0,120,\fscx115\fscy115)}moderada
+Dialogue: 0,0:00:15.70,0:00:15.88,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}a {\rBase}severa {\rBase}se
+Dialogue: 0,0:00:15.88,0:00:16.40,Base,,0,0,0,,{\rBase}a {\rHot\t(0,120,\fscx115\fscy115)}severa {\rBase}se
+Dialogue: 0,0:00:16.40,0:00:16.95,Base,,0,0,0,,{\rBase}a {\rBase}severa {\rHot\t(0,120,\fscx115\fscy115)}se
+Dialogue: 0,0:00:16.90,0:00:17.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}asocia {\rBase}con {\rBase}un
+Dialogue: 0,0:00:17.34,0:00:17.58,Base,,0,0,0,,{\rBase}asocia {\rHot\t(0,120,\fscx115\fscy115)}con {\rBase}un
+Dialogue: 0,0:00:17.58,0:00:17.79,Base,,0,0,0,,{\rBase}asocia {\rBase}con {\rHot\t(0,120,\fscx115\fscy115)}un
+Dialogue: 0,0:00:17.74,0:00:18.12,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}riesgo {\rBase}2 {\rBase}.2
+Dialogue: 0,0:00:18.12,0:00:18.40,Base,,0,0,0,,{\rBase}riesgo {\rHot\t(0,120,\fscx115\fscy115)}2 {\rBase}.2
+Dialogue: 0,0:00:18.40,0:00:19.09,Base,,0,0,0,,{\rBase}riesgo {\rBase}2 {\rHot\t(0,120,\fscx115\fscy115)}.2
+Dialogue: 0,0:00:19.04,0:00:19.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}veces {\rBase}mayor {\rBase}de
+Dialogue: 0,0:00:19.34,0:00:19.78,Base,,0,0,0,,{\rBase}veces {\rHot\t(0,120,\fscx115\fscy115)}mayor {\rBase}de
+Dialogue: 0,0:00:19.78,0:00:20.03,Base,,0,0,0,,{\rBase}veces {\rBase}mayor {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:19.98,0:00:20.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}parto {\rBase}prematuro {\rBase}antes
+Dialogue: 0,0:00:20.36,0:00:20.92,Base,,0,0,0,,{\rBase}parto {\rHot\t(0,120,\fscx115\fscy115)}prematuro {\rBase}antes
+Dialogue: 0,0:00:20.92,0:00:21.75,Base,,0,0,0,,{\rBase}parto {\rBase}prematuro {\rHot\t(0,120,\fscx115\fscy115)}antes
+Dialogue: 0,0:00:21.70,0:00:21.86,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}las {\rBase}37
+Dialogue: 0,0:00:21.86,0:00:22.00,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}las {\rBase}37
+Dialogue: 0,0:00:22.00,0:00:22.53,Base,,0,0,0,,{\rBase}de {\rBase}las {\rHot\t(0,120,\fscx115\fscy115)}37
+Dialogue: 0,0:00:22.48,0:00:23.10,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}semanas {\rBase}y {\rBase}2
+Dialogue: 0,0:00:23.10,0:00:23.72,Base,,0,0,0,,{\rBase}semanas {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}2
+Dialogue: 0,0:00:23.72,0:00:23.95,Base,,0,0,0,,{\rBase}semanas {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}2
+Dialogue: 0,0:00:23.90,0:00:24.54,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}.5 {\rBase}veces {\rBase}mayor
+Dialogue: 0,0:00:24.54,0:00:24.84,Base,,0,0,0,,{\rBase}.5 {\rHot\t(0,120,\fscx115\fscy115)}veces {\rBase}mayor
+Dialogue: 0,0:00:24.84,0:00:25.29,Base,,0,0,0,,{\rBase}.5 {\rBase}veces {\rHot\t(0,120,\fscx115\fscy115)}mayor
+Dialogue: 0,0:00:25.24,0:00:25.44,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}bajo {\rBase}peso
+Dialogue: 0,0:00:25.44,0:00:25.64,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}bajo {\rBase}peso
+Dialogue: 0,0:00:25.64,0:00:26.09,Base,,0,0,0,,{\rBase}de {\rBase}bajo {\rHot\t(0,120,\fscx115\fscy115)}peso
+Dialogue: 0,0:00:26.04,0:00:26.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}al {\rBase}nacer, {\rBase}independientemente
+Dialogue: 0,0:00:26.38,0:00:27.10,Base,,0,0,0,,{\rBase}al {\rHot\t(0,120,\fscx115\fscy115)}nacer, {\rBase}independientemente
+Dialogue: 0,0:00:27.10,0:00:28.33,Base,,0,0,0,,{\rBase}al {\rBase}nacer, {\rHot\t(0,120,\fscx115\fscy115)}independientemente
+Dialogue: 0,0:00:28.28,0:00:28.44,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}otros {\rBase}factores
+Dialogue: 0,0:00:28.44,0:00:28.66,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}otros {\rBase}factores
+Dialogue: 0,0:00:28.66,0:00:29.17,Base,,0,0,0,,{\rBase}de {\rBase}otros {\rHot\t(0,120,\fscx115\fscy115)}factores
+Dialogue: 0,0:00:29.12,0:00:29.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}riesgo {\rBase}conocidos.
+Dialogue: 0,0:00:29.24,0:00:29.62,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}riesgo {\rBase}conocidos.
+Dialogue: 0,0:00:29.62,0:00:30.31,Base,,0,0,0,,{\rBase}de {\rBase}riesgo {\rHot\t(0,120,\fscx115\fscy115)}conocidos.

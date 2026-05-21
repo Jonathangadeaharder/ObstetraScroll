@@ -1,0 +1,78 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,88,&H00F4E000,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Ante {\rBase}una {\rBase}amenaza
+Dialogue: 0,0:00:00.36,0:00:00.50,Base,,0,0,0,,{\rBase}Ante {\rHot\t(0,120,\fscx115\fscy115)}una {\rBase}amenaza
+Dialogue: 0,0:00:00.50,0:00:00.97,Base,,0,0,0,,{\rBase}Ante {\rBase}una {\rHot\t(0,120,\fscx115\fscy115)}amenaza
+Dialogue: 0,0:00:00.92,0:00:01.12,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}parto {\rBase}prematuro,
+Dialogue: 0,0:00:01.12,0:00:01.48,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}parto {\rBase}prematuro,
+Dialogue: 0,0:00:01.48,0:00:02.17,Base,,0,0,0,,{\rBase}de {\rBase}parto {\rHot\t(0,120,\fscx115\fscy115)}prematuro,
+Dialogue: 0,0:00:02.34,0:00:02.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}mayoría {\rBase}de
+Dialogue: 0,0:00:02.64,0:00:02.90,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}mayoría {\rBase}de
+Dialogue: 0,0:00:02.90,0:00:03.13,Base,,0,0,0,,{\rBase}la {\rBase}mayoría {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:03.08,0:00:03.20,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}los {\rBase}protocolos {\rBase}indican
+Dialogue: 0,0:00:03.20,0:00:03.78,Base,,0,0,0,,{\rBase}los {\rHot\t(0,120,\fscx115\fscy115)}protocolos {\rBase}indican
+Dialogue: 0,0:00:03.78,0:00:04.21,Base,,0,0,0,,{\rBase}los {\rBase}protocolos {\rHot\t(0,120,\fscx115\fscy115)}indican
+Dialogue: 0,0:00:04.16,0:00:04.56,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}ingreso {\rBase}y {\rBase}corticoides
+Dialogue: 0,0:00:04.56,0:00:04.68,Base,,0,0,0,,{\rBase}ingreso {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}corticoides
+Dialogue: 0,0:00:04.68,0:00:05.45,Base,,0,0,0,,{\rBase}ingreso {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}corticoides
+Dialogue: 0,0:00:05.40,0:00:06.70,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}independientemente {\rBase}del {\rBase}riesgo
+Dialogue: 0,0:00:06.70,0:00:06.90,Base,,0,0,0,,{\rBase}independientemente {\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}riesgo
+Dialogue: 0,0:00:06.90,0:00:07.35,Base,,0,0,0,,{\rBase}independientemente {\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}riesgo
+Dialogue: 0,0:00:07.30,0:00:08.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}real. {\rBase}La {\rBase}FBFN
+Dialogue: 0,0:00:08.36,0:00:08.76,Base,,0,0,0,,{\rBase}real. {\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}FBFN
+Dialogue: 0,0:00:08.76,0:00:09.59,Base,,0,0,0,,{\rBase}real. {\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}FBFN
+Dialogue: 0,0:00:09.54,0:00:10.02,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}permite {\rBase}ser {\rBase}más
+Dialogue: 0,0:00:10.02,0:00:10.22,Base,,0,0,0,,{\rBase}permite {\rHot\t(0,120,\fscx115\fscy115)}ser {\rBase}más
+Dialogue: 0,0:00:10.22,0:00:10.45,Base,,0,0,0,,{\rBase}permite {\rBase}ser {\rHot\t(0,120,\fscx115\fscy115)}más
+Dialogue: 0,0:00:10.40,0:00:11.04,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}selectivo {\rBase}y {\rBase}reducir
+Dialogue: 0,0:00:11.04,0:00:11.26,Base,,0,0,0,,{\rBase}selectivo {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}reducir
+Dialogue: 0,0:00:11.26,0:00:11.73,Base,,0,0,0,,{\rBase}selectivo {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}reducir
+Dialogue: 0,0:00:11.68,0:00:12.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}intervenciones {\rBase}innecesarias. {\rBase}La
+Dialogue: 0,0:00:12.38,0:00:13.48,Base,,0,0,0,,{\rBase}intervenciones {\rHot\t(0,120,\fscx115\fscy115)}innecesarias. {\rBase}La
+Dialogue: 0,0:00:13.48,0:00:13.99,Base,,0,0,0,,{\rBase}intervenciones {\rBase}innecesarias. {\rHot\t(0,120,\fscx115\fscy115)}La
+Dialogue: 0,0:00:13.94,0:00:14.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}fibronectina {\rBase}fetal {\rBase}FBFN
+Dialogue: 0,0:00:14.64,0:00:15.14,Base,,0,0,0,,{\rBase}fibronectina {\rHot\t(0,120,\fscx115\fscy115)}fetal {\rBase}FBFN
+Dialogue: 0,0:00:15.14,0:00:16.17,Base,,0,0,0,,{\rBase}fibronectina {\rBase}fetal {\rHot\t(0,120,\fscx115\fscy115)}FBFN
+Dialogue: 0,0:00:16.12,0:00:16.40,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}flujo {\rBase}vaginal
+Dialogue: 0,0:00:16.40,0:00:16.72,Base,,0,0,0,,{\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}flujo {\rBase}vaginal
+Dialogue: 0,0:00:16.72,0:00:17.31,Base,,0,0,0,,{\rBase}en {\rBase}flujo {\rHot\t(0,120,\fscx115\fscy115)}vaginal
+Dialogue: 0,0:00:17.26,0:00:17.98,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}tiene {\rBase}un {\rBase}valor
+Dialogue: 0,0:00:17.98,0:00:18.10,Base,,0,0,0,,{\rBase}tiene {\rHot\t(0,120,\fscx115\fscy115)}un {\rBase}valor
+Dialogue: 0,0:00:18.10,0:00:18.39,Base,,0,0,0,,{\rBase}tiene {\rBase}un {\rHot\t(0,120,\fscx115\fscy115)}valor
+Dialogue: 0,0:00:18.34,0:00:19.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}predictivo {\rBase}negativo {\rBase}del
+Dialogue: 0,0:00:19.00,0:00:19.52,Base,,0,0,0,,{\rBase}predictivo {\rHot\t(0,120,\fscx115\fscy115)}negativo {\rBase}del
+Dialogue: 0,0:00:19.52,0:00:19.73,Base,,0,0,0,,{\rBase}predictivo {\rBase}negativo {\rHot\t(0,120,\fscx115\fscy115)}del
+Dialogue: 0,0:00:19.68,0:00:20.30,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}97 {\rBase}-99 {\rBase}%
+Dialogue: 0,0:00:20.30,0:00:21.12,Base,,0,0,0,,{\rBase}97 {\rHot\t(0,120,\fscx115\fscy115)}-99 {\rBase}%
+Dialogue: 0,0:00:21.12,0:00:21.53,Base,,0,0,0,,{\rBase}97 {\rBase}-99 {\rHot\t(0,120,\fscx115\fscy115)}%
+Dialogue: 0,0:00:21.48,0:00:22.40,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}para {\rBase}parto {\rBase}prematuro
+Dialogue: 0,0:00:22.40,0:00:22.76,Base,,0,0,0,,{\rBase}para {\rHot\t(0,120,\fscx115\fscy115)}parto {\rBase}prematuro
+Dialogue: 0,0:00:22.76,0:00:23.35,Base,,0,0,0,,{\rBase}para {\rBase}parto {\rHot\t(0,120,\fscx115\fscy115)}prematuro
+Dialogue: 0,0:00:23.30,0:00:23.40,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}los {\rBase}siguientes
+Dialogue: 0,0:00:23.40,0:00:23.52,Base,,0,0,0,,{\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}los {\rBase}siguientes
+Dialogue: 0,0:00:23.52,0:00:24.13,Base,,0,0,0,,{\rBase}en {\rBase}los {\rHot\t(0,120,\fscx115\fscy115)}siguientes
+Dialogue: 0,0:00:24.08,0:00:24.54,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}7 {\rBase}-14 {\rBase}días,
+Dialogue: 0,0:00:24.54,0:00:24.98,Base,,0,0,0,,{\rBase}7 {\rHot\t(0,120,\fscx115\fscy115)}-14 {\rBase}días,
+Dialogue: 0,0:00:24.98,0:00:25.37,Base,,0,0,0,,{\rBase}7 {\rBase}-14 {\rHot\t(0,120,\fscx115\fscy115)}días,
+Dialogue: 0,0:00:25.64,0:00:26.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}permitiendo {\rBase}evitar {\rBase}hospitalizaciones
+Dialogue: 0,0:00:26.62,0:00:26.92,Base,,0,0,0,,{\rBase}permitiendo {\rHot\t(0,120,\fscx115\fscy115)}evitar {\rBase}hospitalizaciones
+Dialogue: 0,0:00:26.92,0:00:27.89,Base,,0,0,0,,{\rBase}permitiendo {\rBase}evitar {\rHot\t(0,120,\fscx115\fscy115)}hospitalizaciones
+Dialogue: 0,0:00:27.84,0:00:28.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}innecesarias {\rBase}y {\rBase}administrar
+Dialogue: 0,0:00:28.62,0:00:29.08,Base,,0,0,0,,{\rBase}innecesarias {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}administrar
+Dialogue: 0,0:00:29.08,0:00:29.81,Base,,0,0,0,,{\rBase}innecesarias {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}administrar
+Dialogue: 0,0:00:29.76,0:00:30.66,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}tocolíticos {\rBase}sólo {\rBase}cuando
+Dialogue: 0,0:00:30.66,0:00:31.14,Base,,0,0,0,,{\rBase}tocolíticos {\rHot\t(0,120,\fscx115\fscy115)}sólo {\rBase}cuando
+Dialogue: 0,0:00:31.14,0:00:31.47,Base,,0,0,0,,{\rBase}tocolíticos {\rBase}sólo {\rHot\t(0,120,\fscx115\fscy115)}cuando
+Dialogue: 0,0:00:31.42,0:00:31.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}necesario.
+Dialogue: 0,0:00:31.60,0:00:32.15,Base,,0,0,0,,{\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}necesario.
