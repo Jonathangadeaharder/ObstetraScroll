@@ -1,0 +1,94 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Arial Black,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Arial Black,84,&H00FF3CFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.30,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}El {\rBase}café {\rBase}y
+Dialogue: 0,0:00:00.30,0:00:00.62,Base,,0,0,0,,{\rBase}El {\rHot\frz-3\t(0,200,\frz3)}café {\rBase}y
+Dialogue: 0,0:00:00.62,0:00:00.81,Base,,0,0,0,,{\rBase}El {\rBase}café {\rHot\frz-3\t(0,200,\frz3)}y
+Dialogue: 0,0:00:00.76,0:00:00.90,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}los {\rBase}energizantes {\rBase}se
+Dialogue: 0,0:00:00.90,0:00:01.66,Base,,0,0,0,,{\rBase}los {\rHot\frz-3\t(0,200,\frz3)}energizantes {\rBase}se
+Dialogue: 0,0:00:01.66,0:00:02.13,Base,,0,0,0,,{\rBase}los {\rBase}energizantes {\rHot\frz-3\t(0,200,\frz3)}se
+Dialogue: 0,0:00:02.08,0:00:02.58,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}consideran {\rBase}sustancias {\rBase}de
+Dialogue: 0,0:00:02.58,0:00:03.10,Base,,0,0,0,,{\rBase}consideran {\rHot\frz-3\t(0,200,\frz3)}sustancias {\rBase}de
+Dialogue: 0,0:00:03.10,0:00:03.29,Base,,0,0,0,,{\rBase}consideran {\rBase}sustancias {\rHot\frz-3\t(0,200,\frz3)}de
+Dialogue: 0,0:00:03.24,0:00:03.42,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}bajo {\rBase}riesgo {\rBase}durante
+Dialogue: 0,0:00:03.42,0:00:03.94,Base,,0,0,0,,{\rBase}bajo {\rHot\frz-3\t(0,200,\frz3)}riesgo {\rBase}durante
+Dialogue: 0,0:00:03.94,0:00:04.33,Base,,0,0,0,,{\rBase}bajo {\rBase}riesgo {\rHot\frz-3\t(0,200,\frz3)}durante
+Dialogue: 0,0:00:04.28,0:00:04.50,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}el {\rBase}embarazo, {\rBase}pero
+Dialogue: 0,0:00:04.50,0:00:05.18,Base,,0,0,0,,{\rBase}el {\rHot\frz-3\t(0,200,\frz3)}embarazo, {\rBase}pero
+Dialogue: 0,0:00:05.18,0:00:05.51,Base,,0,0,0,,{\rBase}el {\rBase}embarazo, {\rHot\frz-3\t(0,200,\frz3)}pero
+Dialogue: 0,0:00:05.46,0:00:05.62,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}la {\rBase}cafeína {\rBase}atraviesa
+Dialogue: 0,0:00:05.62,0:00:06.12,Base,,0,0,0,,{\rBase}la {\rHot\frz-3\t(0,200,\frz3)}cafeína {\rBase}atraviesa
+Dialogue: 0,0:00:06.12,0:00:06.77,Base,,0,0,0,,{\rBase}la {\rBase}cafeína {\rHot\frz-3\t(0,200,\frz3)}atraviesa
+Dialogue: 0,0:00:06.72,0:00:06.84,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}la {\rBase}barrera {\rBase}placentaria
+Dialogue: 0,0:00:06.84,0:00:07.22,Base,,0,0,0,,{\rBase}la {\rHot\frz-3\t(0,200,\frz3)}barrera {\rBase}placentaria
+Dialogue: 0,0:00:07.22,0:00:07.89,Base,,0,0,0,,{\rBase}la {\rBase}barrera {\rHot\frz-3\t(0,200,\frz3)}placentaria
+Dialogue: 0,0:00:07.84,0:00:08.16,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}sin {\rBase}metabolizarse. {\rBase}El
+Dialogue: 0,0:00:08.16,0:00:09.24,Base,,0,0,0,,{\rBase}sin {\rHot\frz-3\t(0,200,\frz3)}metabolizarse. {\rBase}El
+Dialogue: 0,0:00:09.24,0:00:09.65,Base,,0,0,0,,{\rBase}sin {\rBase}metabolizarse. {\rHot\frz-3\t(0,200,\frz3)}El
+Dialogue: 0,0:00:09.60,0:00:09.94,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}feto {\rBase}carece {\rBase}de
+Dialogue: 0,0:00:09.94,0:00:10.40,Base,,0,0,0,,{\rBase}feto {\rHot\frz-3\t(0,200,\frz3)}carece {\rBase}de
+Dialogue: 0,0:00:10.40,0:00:10.67,Base,,0,0,0,,{\rBase}feto {\rBase}carece {\rHot\frz-3\t(0,200,\frz3)}de
+Dialogue: 0,0:00:10.62,0:00:10.94,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}Cipe {\rBase}1 {\rBase}a
+Dialogue: 0,0:00:10.94,0:00:11.18,Base,,0,0,0,,{\rBase}Cipe {\rHot\frz-3\t(0,200,\frz3)}1 {\rBase}a
+Dialogue: 0,0:00:11.18,0:00:11.43,Base,,0,0,0,,{\rBase}Cipe {\rBase}1 {\rHot\frz-3\t(0,200,\frz3)}a
+Dialogue: 0,0:00:11.38,0:00:11.88,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}2, {\rBase}acumulándose {\rBase}en
+Dialogue: 0,0:00:11.88,0:00:12.82,Base,,0,0,0,,{\rBase}2, {\rHot\frz-3\t(0,200,\frz3)}acumulándose {\rBase}en
+Dialogue: 0,0:00:12.82,0:00:13.03,Base,,0,0,0,,{\rBase}2, {\rBase}acumulándose {\rHot\frz-3\t(0,200,\frz3)}en
+Dialogue: 0,0:00:12.98,0:00:13.08,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}el {\rBase}compartimento {\rBase}fetal.
+Dialogue: 0,0:00:13.08,0:00:13.82,Base,,0,0,0,,{\rBase}el {\rHot\frz-3\t(0,200,\frz3)}compartimento {\rBase}fetal.
+Dialogue: 0,0:00:13.82,0:00:14.33,Base,,0,0,0,,{\rBase}el {\rBase}compartimento {\rHot\frz-3\t(0,200,\frz3)}fetal.
+Dialogue: 0,0:00:14.66,0:00:15.10,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}El {\rBase}consumo {\rBase}materno
+Dialogue: 0,0:00:15.10,0:00:15.50,Base,,0,0,0,,{\rBase}El {\rHot\frz-3\t(0,200,\frz3)}consumo {\rBase}materno
+Dialogue: 0,0:00:15.50,0:00:16.05,Base,,0,0,0,,{\rBase}El {\rBase}consumo {\rHot\frz-3\t(0,200,\frz3)}materno
+Dialogue: 0,0:00:16.00,0:00:16.12,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}de {\rBase}cafeína {\rBase}200
+Dialogue: 0,0:00:16.12,0:00:16.62,Base,,0,0,0,,{\rBase}de {\rHot\frz-3\t(0,200,\frz3)}cafeína {\rBase}200
+Dialogue: 0,0:00:16.62,0:00:17.17,Base,,0,0,0,,{\rBase}de {\rBase}cafeína {\rHot\frz-3\t(0,200,\frz3)}200
+Dialogue: 0,0:00:18.22,0:00:18.38,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}a {\rBase}día, {\rBase}equivalente
+Dialogue: 0,0:00:18.38,0:00:18.88,Base,,0,0,0,,{\rBase}a {\rHot\frz-3\t(0,200,\frz3)}día, {\rBase}equivalente
+Dialogue: 0,0:00:18.88,0:00:19.67,Base,,0,0,0,,{\rBase}a {\rBase}día, {\rHot\frz-3\t(0,200,\frz3)}equivalente
+Dialogue: 0,0:00:19.62,0:00:19.74,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}a {\rBase}dos {\rBase}tazas
+Dialogue: 0,0:00:19.74,0:00:19.90,Base,,0,0,0,,{\rBase}a {\rHot\frz-3\t(0,200,\frz3)}dos {\rBase}tazas
+Dialogue: 0,0:00:19.90,0:00:20.27,Base,,0,0,0,,{\rBase}a {\rBase}dos {\rHot\frz-3\t(0,200,\frz3)}tazas
+Dialogue: 0,0:00:20.22,0:00:20.32,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}de {\rBase}café, {\rBase}se
+Dialogue: 0,0:00:20.32,0:00:20.84,Base,,0,0,0,,{\rBase}de {\rHot\frz-3\t(0,200,\frz3)}café, {\rBase}se
+Dialogue: 0,0:00:20.84,0:00:21.45,Base,,0,0,0,,{\rBase}de {\rBase}café, {\rHot\frz-3\t(0,200,\frz3)}se
+Dialogue: 0,0:00:21.40,0:00:21.72,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}asocia {\rBase}con {\rBase}un
+Dialogue: 0,0:00:21.72,0:00:21.92,Base,,0,0,0,,{\rBase}asocia {\rHot\frz-3\t(0,200,\frz3)}con {\rBase}un
+Dialogue: 0,0:00:21.92,0:00:22.13,Base,,0,0,0,,{\rBase}asocia {\rBase}con {\rHot\frz-3\t(0,200,\frz3)}un
+Dialogue: 0,0:00:22.08,0:00:22.48,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}riesgo {\rBase}dos {\rBase}veces
+Dialogue: 0,0:00:22.48,0:00:22.72,Base,,0,0,0,,{\rBase}riesgo {\rHot\frz-3\t(0,200,\frz3)}dos {\rBase}veces
+Dialogue: 0,0:00:22.72,0:00:23.09,Base,,0,0,0,,{\rBase}riesgo {\rBase}dos {\rHot\frz-3\t(0,200,\frz3)}veces
+Dialogue: 0,0:00:23.04,0:00:23.42,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}mayor {\rBase}de {\rBase}restricción
+Dialogue: 0,0:00:23.42,0:00:23.66,Base,,0,0,0,,{\rBase}mayor {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}restricción
+Dialogue: 0,0:00:23.66,0:00:24.33,Base,,0,0,0,,{\rBase}mayor {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}restricción
+Dialogue: 0,0:00:24.28,0:00:24.42,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}de {\rBase}crecimiento {\rBase}fetal
+Dialogue: 0,0:00:24.42,0:00:25.02,Base,,0,0,0,,{\rBase}de {\rHot\frz-3\t(0,200,\frz3)}crecimiento {\rBase}fetal
+Dialogue: 0,0:00:25.02,0:00:25.55,Base,,0,0,0,,{\rBase}de {\rBase}crecimiento {\rHot\frz-3\t(0,200,\frz3)}fetal
+Dialogue: 0,0:00:25.50,0:00:25.92,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}y {\rBase}un {\rBase}20
+Dialogue: 0,0:00:25.92,0:00:26.06,Base,,0,0,0,,{\rBase}y {\rHot\frz-3\t(0,200,\frz3)}un {\rBase}20
+Dialogue: 0,0:00:26.06,0:00:26.37,Base,,0,0,0,,{\rBase}y {\rBase}un {\rHot\frz-3\t(0,200,\frz3)}20
+Dialogue: 0,0:00:26.32,0:00:26.64,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}% {\rBase}más {\rBase}de
+Dialogue: 0,0:00:26.64,0:00:27.16,Base,,0,0,0,,{\rBase}% {\rHot\frz-3\t(0,200,\frz3)}más {\rBase}de
+Dialogue: 0,0:00:27.16,0:00:27.37,Base,,0,0,0,,{\rBase}% {\rBase}más {\rHot\frz-3\t(0,200,\frz3)}de
+Dialogue: 0,0:00:27.32,0:00:27.70,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}riesgo {\rBase}de {\rBase}bajo
+Dialogue: 0,0:00:27.70,0:00:27.84,Base,,0,0,0,,{\rBase}riesgo {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}bajo
+Dialogue: 0,0:00:27.84,0:00:28.13,Base,,0,0,0,,{\rBase}riesgo {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}bajo
+Dialogue: 0,0:00:28.08,0:00:28.40,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}peso {\rBase}al {\rBase}nacer,
+Dialogue: 0,0:00:28.40,0:00:28.58,Base,,0,0,0,,{\rBase}peso {\rHot\frz-3\t(0,200,\frz3)}al {\rBase}nacer,
+Dialogue: 0,0:00:28.58,0:00:29.03,Base,,0,0,0,,{\rBase}peso {\rBase}al {\rHot\frz-3\t(0,200,\frz3)}nacer,
+Dialogue: 0,0:00:28.98,0:00:29.62,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}con {\rBase}una {\rBase}relación
+Dialogue: 0,0:00:29.62,0:00:29.84,Base,,0,0,0,,{\rBase}con {\rHot\frz-3\t(0,200,\frz3)}una {\rBase}relación
+Dialogue: 0,0:00:29.84,0:00:30.43,Base,,0,0,0,,{\rBase}con {\rBase}una {\rHot\frz-3\t(0,200,\frz3)}relación
+Dialogue: 0,0:00:30.38,0:00:31.04,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}dosis {\rBase}-respuesta {\rBase}lineal.
+Dialogue: 0,0:00:31.04,0:00:31.68,Base,,0,0,0,,{\rBase}dosis {\rHot\frz-3\t(0,200,\frz3)}-respuesta {\rBase}lineal.
+Dialogue: 0,0:00:31.68,0:00:32.35,Base,,0,0,0,,{\rBase}dosis {\rBase}-respuesta {\rHot\frz-3\t(0,200,\frz3)}lineal.

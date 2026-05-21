@@ -1,0 +1,99 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,88,&H00F4E000,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}El {\rBase}50 {\rBase}%
+Dialogue: 0,0:00:00.32,0:00:00.76,Base,,0,0,0,,{\rBase}El {\rHot\t(0,120,\fscx115\fscy115)}50 {\rBase}%
+Dialogue: 0,0:00:00.76,0:00:01.13,Base,,0,0,0,,{\rBase}El {\rBase}50 {\rHot\t(0,120,\fscx115\fscy115)}%
+Dialogue: 0,0:00:01.08,0:00:01.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}los {\rBase}embarazos
+Dialogue: 0,0:00:01.36,0:00:01.50,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}los {\rBase}embarazos
+Dialogue: 0,0:00:01.50,0:00:02.13,Base,,0,0,0,,{\rBase}de {\rBase}los {\rHot\t(0,120,\fscx115\fscy115)}embarazos
+Dialogue: 0,0:00:02.08,0:00:02.48,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}son {\rBase}planificados,
+Dialogue: 0,0:00:02.48,0:00:02.70,Base,,0,0,0,,{\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}son {\rBase}planificados,
+Dialogue: 0,0:00:02.70,0:00:03.57,Base,,0,0,0,,{\rBase}no {\rBase}son {\rHot\t(0,120,\fscx115\fscy115)}planificados,
+Dialogue: 0,0:00:03.68,0:00:04.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}por {\rBase}lo {\rBase}que
+Dialogue: 0,0:00:04.00,0:00:04.14,Base,,0,0,0,,{\rBase}por {\rHot\t(0,120,\fscx115\fscy115)}lo {\rBase}que
+Dialogue: 0,0:00:04.14,0:00:04.29,Base,,0,0,0,,{\rBase}por {\rBase}lo {\rHot\t(0,120,\fscx115\fscy115)}que
+Dialogue: 0,0:00:04.24,0:00:04.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}suplementación {\rBase}comienza
+Dialogue: 0,0:00:04.36,0:00:05.08,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}suplementación {\rBase}comienza
+Dialogue: 0,0:00:05.08,0:00:05.63,Base,,0,0,0,,{\rBase}la {\rBase}suplementación {\rHot\t(0,120,\fscx115\fscy115)}comienza
+Dialogue: 0,0:00:05.58,0:00:06.04,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}cuando {\rBase}ya {\rBase}se
+Dialogue: 0,0:00:06.04,0:00:06.24,Base,,0,0,0,,{\rBase}cuando {\rHot\t(0,120,\fscx115\fscy115)}ya {\rBase}se
+Dialogue: 0,0:00:06.24,0:00:06.43,Base,,0,0,0,,{\rBase}cuando {\rBase}ya {\rHot\t(0,120,\fscx115\fscy115)}se
+Dialogue: 0,0:00:06.38,0:00:06.74,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}cerró {\rBase}el {\rBase}tubo
+Dialogue: 0,0:00:06.74,0:00:06.88,Base,,0,0,0,,{\rBase}cerró {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}tubo
+Dialogue: 0,0:00:06.88,0:00:07.21,Base,,0,0,0,,{\rBase}cerró {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}tubo
+Dialogue: 0,0:00:07.16,0:00:07.84,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}neural, {\rBase}días {\rBase}22
+Dialogue: 0,0:00:07.84,0:00:08.36,Base,,0,0,0,,{\rBase}neural, {\rHot\t(0,120,\fscx115\fscy115)}días {\rBase}22
+Dialogue: 0,0:00:08.36,0:00:09.05,Base,,0,0,0,,{\rBase}neural, {\rBase}días {\rHot\t(0,120,\fscx115\fscy115)}22
+Dialogue: 0,0:00:09.00,0:00:09.66,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}-28 {\rBase}pos {\rBase}-concepción.
+Dialogue: 0,0:00:09.66,0:00:10.04,Base,,0,0,0,,{\rBase}-28 {\rHot\t(0,120,\fscx115\fscy115)}pos {\rBase}-concepción.
+Dialogue: 0,0:00:10.04,0:00:10.81,Base,,0,0,0,,{\rBase}-28 {\rBase}pos {\rHot\t(0,120,\fscx115\fscy115)}-concepción.
+Dialogue: 0,0:00:11.40,0:00:12.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}fortificación {\rBase}de
+Dialogue: 0,0:00:12.00,0:00:12.58,Base,,0,0,0,,{\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}fortificación {\rBase}de
+Dialogue: 0,0:00:12.58,0:00:12.85,Base,,0,0,0,,{\rBase}La {\rBase}fortificación {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:12.80,0:00:13.22,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}harinas {\rBase}es {\rBase}la
+Dialogue: 0,0:00:13.22,0:00:13.56,Base,,0,0,0,,{\rBase}harinas {\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}la
+Dialogue: 0,0:00:13.56,0:00:13.73,Base,,0,0,0,,{\rBase}harinas {\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:13.68,0:00:14.18,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}estrategia {\rBase}poblacional {\rBase}más
+Dialogue: 0,0:00:14.18,0:00:14.78,Base,,0,0,0,,{\rBase}estrategia {\rHot\t(0,120,\fscx115\fscy115)}poblacional {\rBase}más
+Dialogue: 0,0:00:14.78,0:00:15.33,Base,,0,0,0,,{\rBase}estrategia {\rBase}poblacional {\rHot\t(0,120,\fscx115\fscy115)}más
+Dialogue: 0,0:00:15.28,0:00:15.94,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}efectiva. {\rBase}La {\rBase}suplementación
+Dialogue: 0,0:00:15.94,0:00:16.60,Base,,0,0,0,,{\rBase}efectiva. {\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}suplementación
+Dialogue: 0,0:00:16.60,0:00:17.39,Base,,0,0,0,,{\rBase}efectiva. {\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}suplementación
+Dialogue: 0,0:00:17.34,0:00:17.54,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}con {\rBase}ácido {\rBase}fólico
+Dialogue: 0,0:00:17.54,0:00:17.88,Base,,0,0,0,,{\rBase}con {\rHot\t(0,120,\fscx115\fscy115)}ácido {\rBase}fólico
+Dialogue: 0,0:00:17.88,0:00:18.55,Base,,0,0,0,,{\rBase}con {\rBase}ácido {\rHot\t(0,120,\fscx115\fscy115)}fólico
+Dialogue: 0,0:00:18.50,0:00:19.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}400 {\rBase}-800 {\rBase}MSG
+Dialogue: 0,0:00:19.00,0:00:20.08,Base,,0,0,0,,{\rBase}400 {\rHot\t(0,120,\fscx115\fscy115)}-800 {\rBase}MSG
+Dialogue: 0,0:00:20.08,0:00:21.11,Base,,0,0,0,,{\rBase}400 {\rBase}-800 {\rHot\t(0,120,\fscx115\fscy115)}MSG
+Dialogue: 0,0:00:21.06,0:00:21.88,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}día, {\rBase}desde {\rBase}al
+Dialogue: 0,0:00:21.88,0:00:22.42,Base,,0,0,0,,{\rBase}día, {\rHot\t(0,120,\fscx115\fscy115)}desde {\rBase}al
+Dialogue: 0,0:00:22.42,0:00:22.67,Base,,0,0,0,,{\rBase}día, {\rBase}desde {\rHot\t(0,120,\fscx115\fscy115)}al
+Dialogue: 0,0:00:22.62,0:00:22.86,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}menos {\rBase}un {\rBase}mes
+Dialogue: 0,0:00:22.86,0:00:23.20,Base,,0,0,0,,{\rBase}menos {\rHot\t(0,120,\fscx115\fscy115)}un {\rBase}mes
+Dialogue: 0,0:00:23.20,0:00:23.45,Base,,0,0,0,,{\rBase}menos {\rBase}un {\rHot\t(0,120,\fscx115\fscy115)}mes
+Dialogue: 0,0:00:23.40,0:00:23.72,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}antes {\rBase}de {\rBase}la
+Dialogue: 0,0:00:23.72,0:00:23.86,Base,,0,0,0,,{\rBase}antes {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}la
+Dialogue: 0,0:00:23.86,0:00:24.03,Base,,0,0,0,,{\rBase}antes {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:23.98,0:00:24.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}concepción {\rBase}hasta {\rBase}las
+Dialogue: 0,0:00:24.60,0:00:25.16,Base,,0,0,0,,{\rBase}concepción {\rHot\t(0,120,\fscx115\fscy115)}hasta {\rBase}las
+Dialogue: 0,0:00:25.16,0:00:25.41,Base,,0,0,0,,{\rBase}concepción {\rBase}hasta {\rHot\t(0,120,\fscx115\fscy115)}las
+Dialogue: 0,0:00:25.36,0:00:25.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}12 {\rBase}semanas, {\rBase}reduce
+Dialogue: 0,0:00:25.62,0:00:26.46,Base,,0,0,0,,{\rBase}12 {\rHot\t(0,120,\fscx115\fscy115)}semanas, {\rBase}reduce
+Dialogue: 0,0:00:26.46,0:00:27.03,Base,,0,0,0,,{\rBase}12 {\rBase}semanas, {\rHot\t(0,120,\fscx115\fscy115)}reduce
+Dialogue: 0,0:00:26.98,0:00:27.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}incidencia {\rBase}de
+Dialogue: 0,0:00:27.24,0:00:27.88,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}incidencia {\rBase}de
+Dialogue: 0,0:00:27.88,0:00:28.09,Base,,0,0,0,,{\rBase}la {\rBase}incidencia {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:28.04,0:00:28.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}defectos {\rBase}del {\rBase}tubo
+Dialogue: 0,0:00:28.62,0:00:28.80,Base,,0,0,0,,{\rBase}defectos {\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}tubo
+Dialogue: 0,0:00:28.80,0:00:29.17,Base,,0,0,0,,{\rBase}defectos {\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}tubo
+Dialogue: 0,0:00:29.12,0:00:29.74,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}neural, {\rBase}DTN, {\rBase}en
+Dialogue: 0,0:00:29.74,0:00:30.88,Base,,0,0,0,,{\rBase}neural, {\rHot\t(0,120,\fscx115\fscy115)}DTN, {\rBase}en
+Dialogue: 0,0:00:30.88,0:00:31.19,Base,,0,0,0,,{\rBase}neural, {\rBase}DTN, {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:31.14,0:00:31.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}un {\rBase}70%. {\rBase}Dosis
+Dialogue: 0,0:00:31.26,0:00:32.32,Base,,0,0,0,,{\rBase}un {\rHot\t(0,120,\fscx115\fscy115)}70%. {\rBase}Dosis
+Dialogue: 0,0:00:32.32,0:00:33.19,Base,,0,0,0,,{\rBase}un {\rBase}70%. {\rHot\t(0,120,\fscx115\fscy115)}Dosis
+Dialogue: 0,0:00:33.14,0:00:33.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}más {\rBase}altas, {\rBase}4
+Dialogue: 0,0:00:33.36,0:00:34.06,Base,,0,0,0,,{\rBase}más {\rHot\t(0,120,\fscx115\fscy115)}altas, {\rBase}4
+Dialogue: 0,0:00:34.06,0:00:34.59,Base,,0,0,0,,{\rBase}más {\rBase}altas, {\rHot\t(0,120,\fscx115\fscy115)}4
+Dialogue: 0,0:00:34.54,0:00:35.14,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}-5 {\rBase}migramar {\rBase}día,
+Dialogue: 0,0:00:35.14,0:00:36.10,Base,,0,0,0,,{\rBase}-5 {\rHot\t(0,120,\fscx115\fscy115)}migramar {\rBase}día,
+Dialogue: 0,0:00:36.10,0:00:36.41,Base,,0,0,0,,{\rBase}-5 {\rBase}migramar {\rHot\t(0,120,\fscx115\fscy115)}día,
+Dialogue: 0,0:00:36.80,0:00:37.04,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}están {\rBase}indicadas {\rBase}en
+Dialogue: 0,0:00:37.04,0:00:37.64,Base,,0,0,0,,{\rBase}están {\rHot\t(0,120,\fscx115\fscy115)}indicadas {\rBase}en
+Dialogue: 0,0:00:37.64,0:00:37.91,Base,,0,0,0,,{\rBase}están {\rBase}indicadas {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:37.86,0:00:38.56,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}antecedente {\rBase}de {\rBase}DTN
+Dialogue: 0,0:00:38.56,0:00:38.68,Base,,0,0,0,,{\rBase}antecedente {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}DTN
+Dialogue: 0,0:00:38.68,0:00:39.29,Base,,0,0,0,,{\rBase}antecedente {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}DTN
+Dialogue: 0,0:00:39.24,0:00:39.48,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}o {\rBase}epilepsia.
+Dialogue: 0,0:00:39.48,0:00:40.17,Base,,0,0,0,,{\rBase}o {\rHot\t(0,120,\fscx115\fscy115)}epilepsia.

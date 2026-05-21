@@ -1,0 +1,78 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0080DE4A,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}El {\rBase}CMV {\rBase}congénito
+Dialogue: 0,0:00:00.34,0:00:00.90,Base,,0,0,0,,{\rBase}El {\rHot\t(0,120,\fscx115\fscy115)}CMV {\rBase}congénito
+Dialogue: 0,0:00:00.90,0:00:01.65,Base,,0,0,0,,{\rBase}El {\rBase}CMV {\rHot\t(0,120,\fscx115\fscy115)}congénito
+Dialogue: 0,0:00:01.60,0:00:01.86,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}tenía {\rBase}tratamiento
+Dialogue: 0,0:00:01.86,0:00:02.18,Base,,0,0,0,,{\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}tenía {\rBase}tratamiento
+Dialogue: 0,0:00:02.18,0:00:02.79,Base,,0,0,0,,{\rBase}no {\rBase}tenía {\rHot\t(0,120,\fscx115\fscy115)}tratamiento
+Dialogue: 0,0:00:02.74,0:00:03.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}prenatal {\rBase}disponible {\rBase}hasta
+Dialogue: 0,0:00:03.24,0:00:03.80,Base,,0,0,0,,{\rBase}prenatal {\rHot\t(0,120,\fscx115\fscy115)}disponible {\rBase}hasta
+Dialogue: 0,0:00:03.80,0:00:04.07,Base,,0,0,0,,{\rBase}prenatal {\rBase}disponible {\rHot\t(0,120,\fscx115\fscy115)}hasta
+Dialogue: 0,0:00:04.02,0:00:04.30,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}hace {\rBase}pocos {\rBase}años.
+Dialogue: 0,0:00:04.30,0:00:04.64,Base,,0,0,0,,{\rBase}hace {\rHot\t(0,120,\fscx115\fscy115)}pocos {\rBase}años.
+Dialogue: 0,0:00:04.64,0:00:05.03,Base,,0,0,0,,{\rBase}hace {\rBase}pocos {\rHot\t(0,120,\fscx115\fscy115)}años.
+Dialogue: 0,0:00:05.40,0:00:06.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Tradicionalmente {\rBase}se {\rBase}ofrecía
+Dialogue: 0,0:00:06.08,0:00:06.22,Base,,0,0,0,,{\rBase}Tradicionalmente {\rHot\t(0,120,\fscx115\fscy115)}se {\rBase}ofrecía
+Dialogue: 0,0:00:06.22,0:00:06.69,Base,,0,0,0,,{\rBase}Tradicionalmente {\rBase}se {\rHot\t(0,120,\fscx115\fscy115)}ofrecía
+Dialogue: 0,0:00:06.64,0:00:06.96,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}solo {\rBase}consejería {\rBase}y
+Dialogue: 0,0:00:06.96,0:00:07.70,Base,,0,0,0,,{\rBase}solo {\rHot\t(0,120,\fscx115\fscy115)}consejería {\rBase}y
+Dialogue: 0,0:00:07.70,0:00:07.91,Base,,0,0,0,,{\rBase}solo {\rBase}consejería {\rHot\t(0,120,\fscx115\fscy115)}y
+Dialogue: 0,0:00:07.86,0:00:08.20,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}opción {\rBase}de {\rBase}interrupción,
+Dialogue: 0,0:00:08.20,0:00:08.36,Base,,0,0,0,,{\rBase}opción {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}interrupción,
+Dialogue: 0,0:00:08.36,0:00:09.17,Base,,0,0,0,,{\rBase}opción {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}interrupción,
+Dialogue: 0,0:00:09.32,0:00:09.78,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}pero {\rBase}el {\rBase}balaciclovir
+Dialogue: 0,0:00:09.78,0:00:09.92,Base,,0,0,0,,{\rBase}pero {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}balaciclovir
+Dialogue: 0,0:00:09.92,0:00:10.77,Base,,0,0,0,,{\rBase}pero {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}balaciclovir
+Dialogue: 0,0:00:10.72,0:00:11.18,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}cambió {\rBase}el {\rBase}panorama
+Dialogue: 0,0:00:11.18,0:00:11.30,Base,,0,0,0,,{\rBase}cambió {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}panorama
+Dialogue: 0,0:00:11.30,0:00:11.77,Base,,0,0,0,,{\rBase}cambió {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}panorama
+Dialogue: 0,0:00:11.72,0:00:12.76,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}terapéutico. {\rBase}La {\rBase}administración
+Dialogue: 0,0:00:12.76,0:00:13.04,Base,,0,0,0,,{\rBase}terapéutico. {\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}administración
+Dialogue: 0,0:00:13.04,0:00:13.89,Base,,0,0,0,,{\rBase}terapéutico. {\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}administración
+Dialogue: 0,0:00:13.84,0:00:13.96,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}balaciclovir {\rBase}oral,
+Dialogue: 0,0:00:13.96,0:00:14.72,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}balaciclovir {\rBase}oral,
+Dialogue: 0,0:00:14.72,0:00:15.11,Base,,0,0,0,,{\rBase}de {\rBase}balaciclovir {\rHot\t(0,120,\fscx115\fscy115)}oral,
+Dialogue: 0,0:00:15.20,0:00:16.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}8HA {\rBase}-DIA, {\rBase}a
+Dialogue: 0,0:00:16.00,0:00:16.64,Base,,0,0,0,,{\rBase}8HA {\rHot\t(0,120,\fscx115\fscy115)}-DIA, {\rBase}a
+Dialogue: 0,0:00:16.64,0:00:17.11,Base,,0,0,0,,{\rBase}8HA {\rBase}-DIA, {\rHot\t(0,120,\fscx115\fscy115)}a
+Dialogue: 0,0:00:17.06,0:00:17.54,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}gestantes {\rBase}con {\rBase}infección
+Dialogue: 0,0:00:17.54,0:00:17.74,Base,,0,0,0,,{\rBase}gestantes {\rHot\t(0,120,\fscx115\fscy115)}con {\rBase}infección
+Dialogue: 0,0:00:17.74,0:00:18.21,Base,,0,0,0,,{\rBase}gestantes {\rBase}con {\rHot\t(0,120,\fscx115\fscy115)}infección
+Dialogue: 0,0:00:18.16,0:00:18.66,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}primaria {\rBase}por {\rBase}citomegalovirus,
+Dialogue: 0,0:00:18.66,0:00:18.88,Base,,0,0,0,,{\rBase}primaria {\rHot\t(0,120,\fscx115\fscy115)}por {\rBase}citomegalovirus,
+Dialogue: 0,0:00:18.88,0:00:19.91,Base,,0,0,0,,{\rBase}primaria {\rBase}por {\rHot\t(0,120,\fscx115\fscy115)}citomegalovirus,
+Dialogue: 0,0:00:20.02,0:00:20.96,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}CMV, {\rBase}en {\rBase}el
+Dialogue: 0,0:00:20.96,0:00:21.46,Base,,0,0,0,,{\rBase}CMV, {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}el
+Dialogue: 0,0:00:21.46,0:00:21.61,Base,,0,0,0,,{\rBase}CMV, {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:21.56,0:00:21.80,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}primer {\rBase}trimestre {\rBase}reduce
+Dialogue: 0,0:00:21.80,0:00:22.36,Base,,0,0,0,,{\rBase}primer {\rHot\t(0,120,\fscx115\fscy115)}trimestre {\rBase}reduce
+Dialogue: 0,0:00:22.36,0:00:22.79,Base,,0,0,0,,{\rBase}primer {\rBase}trimestre {\rHot\t(0,120,\fscx115\fscy115)}reduce
+Dialogue: 0,0:00:22.74,0:00:22.92,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}transmisión {\rBase}vertical
+Dialogue: 0,0:00:22.92,0:00:23.40,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}transmisión {\rBase}vertical
+Dialogue: 0,0:00:23.40,0:00:23.73,Base,,0,0,0,,{\rBase}la {\rBase}transmisión {\rHot\t(0,120,\fscx115\fscy115)}vertical
+Dialogue: 0,0:00:23.68,0:00:24.02,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}un {\rBase}71%,
+Dialogue: 0,0:00:24.02,0:00:24.14,Base,,0,0,0,,{\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}un {\rBase}71%,
+Dialogue: 0,0:00:24.14,0:00:25.17,Base,,0,0,0,,{\rBase}en {\rBase}un {\rHot\t(0,120,\fscx115\fscy115)}71%,
+Dialogue: 0,0:00:25.12,0:00:25.86,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}40 {\rBase}%
+Dialogue: 0,0:00:25.86,0:00:26.34,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}40 {\rBase}%
+Dialogue: 0,0:00:26.34,0:00:26.85,Base,,0,0,0,,{\rBase}de {\rBase}40 {\rHot\t(0,120,\fscx115\fscy115)}%
+Dialogue: 0,0:00:26.80,0:00:27.18,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}a {\rBase}11 {\rBase}%
+Dialogue: 0,0:00:27.18,0:00:27.52,Base,,0,0,0,,{\rBase}a {\rHot\t(0,120,\fscx115\fscy115)}11 {\rBase}%
+Dialogue: 0,0:00:27.52,0:00:28.15,Base,,0,0,0,,{\rBase}a {\rBase}11 {\rHot\t(0,120,\fscx115\fscy115)}%
+Dialogue: 0,0:00:28.10,0:00:28.72,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}sin {\rBase}efectos {\rBase}adversos
+Dialogue: 0,0:00:28.72,0:00:29.18,Base,,0,0,0,,{\rBase}sin {\rHot\t(0,120,\fscx115\fscy115)}efectos {\rBase}adversos
+Dialogue: 0,0:00:29.18,0:00:29.79,Base,,0,0,0,,{\rBase}sin {\rBase}efectos {\rHot\t(0,120,\fscx115\fscy115)}adversos
+Dialogue: 0,0:00:29.74,0:00:30.18,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}maternos {\rBase}severos.
+Dialogue: 0,0:00:30.18,0:00:30.79,Base,,0,0,0,,{\rBase}maternos {\rHot\t(0,120,\fscx115\fscy115)}severos.

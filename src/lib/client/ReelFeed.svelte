@@ -8,6 +8,13 @@ import {
 	virtualizePages,
 	virtualizeReels,
 } from "$lib/client/reelFeed";
+import {
+	type ReviewMap,
+	loadReviewState,
+	pickNextQuizFactId,
+	recordAnswer,
+	saveReviewState,
+} from "$lib/client/spacedRepetition";
 import type { Fact, ReelFeedItem } from "$lib/types";
 
 type Props = {
@@ -39,8 +46,34 @@ const _highRiskCount = $derived(
 );
 const factMap = $derived(Object.fromEntries(facts.map((f) => [f.id, f])));
 
+let reviewState = $state<ReviewMap>({});
+
+const itemByFactId = $derived(
+	Object.fromEntries(feedItems.map((f) => [f.factId, f])),
+);
+const allFactIds = $derived(feedItems.map((f) => f.factId));
+
 const loopedFeedItems = $derived(buildLoopedFeedItems(feedItems));
-const mobilePages = $derived(buildReelPages(feedItems));
+const mobilePages = $derived(
+	buildReelPages(feedItems, undefined, {
+		quizPicker: (_pos) => {
+			const id = pickNextQuizFactId(allFactIds, reviewState);
+			return id ? (itemByFactId[id] ?? null) : null;
+		},
+	}),
+);
+
+function handleQuizAnswered(factId: string, optionIndex: number) {
+	const item = itemByFactId[factId];
+	if (!item) return;
+	const correct = optionIndex === item.quiz.answerIndex ? 1 : 0;
+	reviewState = recordAnswer(reviewState, factId, correct);
+	saveReviewState(reviewState);
+}
+
+$effect(() => {
+	reviewState = loadReviewState();
+});
 const _activePageType = $derived(
 	mobilePages[activeReelIndex]?.pageType ?? "video",
 );
@@ -198,7 +231,12 @@ function _handleTouchEnd() {
 }
 
 function _answerQuiz(answerKey: string, optionIndex: number) {
+	if (selectedAnswers[answerKey] !== undefined) return;
 	selectedAnswers[answerKey] = optionIndex;
+	const page = mobilePages.find((p) => p.key === answerKey);
+	if (page?.pageType === "quiz") {
+		handleQuizAnswered(page.item.factId, optionIndex);
+	}
 }
 
 function _bindVideo(node: HTMLVideoElement, key: string) {

@@ -1,10 +1,14 @@
 import type { Fact, InfoItem, ReelFeedItem } from "$lib/types";
+import { findTermsInText } from "./glossary";
 
 export const REEL_REPEAT_CYCLES = 12;
 export const VISIBLE_WINDOW = 2;
 export const PRELOAD_AHEAD = 3;
+export const QUIZ_EVERY_N_VIDEOS = 5;
 
 export type PageType = "video" | "quiz";
+
+export type QuizPicker = (position: number) => ReelFeedItem | null;
 
 export type LoopedReel = {
 	item: ReelFeedItem;
@@ -50,30 +54,46 @@ export function buildLoopedFeedItems(
 export function buildReelPages(
 	feedItems: ReelFeedItem[],
 	cycles = REEL_REPEAT_CYCLES,
+	opts: { quizEveryN?: number; quizPicker?: QuizPicker } = {},
 ): ReelPage[] {
 	if (feedItems.length === 0) return [];
 
-	return Array.from({ length: cycles }, (_, cycleIndex) =>
-		feedItems.map((item, itemIndex) => {
-			const base = cycleIndex * feedItems.length * 2 + itemIndex * 2;
-			return [
-				{
-					item,
-					loopIndex: base,
+	const quizEveryN = opts.quizEveryN ?? QUIZ_EVERY_N_VIDEOS;
+	const quizPicker: QuizPicker =
+		opts.quizPicker ??
+		((pos) => feedItems[Math.floor(pos / quizEveryN) % feedItems.length]);
+
+	const pages: ReelPage[] = [];
+	let videoCount = 0;
+	let quizCount = 0;
+
+	for (let cycleIndex = 0; cycleIndex < cycles; cycleIndex++) {
+		for (let itemIndex = 0; itemIndex < feedItems.length; itemIndex++) {
+			const item = feedItems[itemIndex];
+			pages.push({
+				item,
+				loopIndex: pages.length,
+				reelNumber: itemIndex + 1,
+				key: `${item.id}-c${cycleIndex}-v`,
+				pageType: "video",
+			});
+			videoCount++;
+
+			if (videoCount % quizEveryN === 0) {
+				const quizItem = quizPicker(videoCount) ?? item;
+				pages.push({
+					item: quizItem,
+					loopIndex: pages.length,
 					reelNumber: itemIndex + 1,
-					key: `${item.id}-c${cycleIndex}-v`,
-					pageType: "video" as const,
-				},
-				{
-					item,
-					loopIndex: base + 1,
-					reelNumber: itemIndex + 1,
-					key: `${item.id}-c${cycleIndex}-q`,
-					pageType: "quiz" as const,
-				},
-			];
-		}),
-	).flat(2);
+					key: `quiz-${quizItem.id}-n${quizCount}`,
+					pageType: "quiz",
+				});
+				quizCount++;
+			}
+		}
+	}
+
+	return pages;
 }
 
 export type VirtualPage = ReelPage & {
@@ -104,47 +124,51 @@ export function virtualizePages(
 export function buildInfoItems(item: ReelFeedItem, fact?: Fact): InfoItem[] {
 	const items: InfoItem[] = [];
 
-	for (const [i, check] of item.brief.editorialChecks.entries()) {
+	if (!fact) return items;
+
+	// Term clarifications first — what jargon means in the video.
+	const text = `${fact.insight} ${fact.whyNonObvious} ${fact.title}`;
+	const terms = findTermsInText(text);
+	for (const [i, entry] of terms.entries()) {
 		items.push({
-			id: `check-${i}`,
-			icon: "📋",
-			author: "Check editorial",
-			text: check,
+			id: `term-${i}-${entry.term}`,
+			icon: "🔎",
+			author: entry.term,
+			badge: entry.short,
+			text: entry.full,
 			likes: 0,
 			replies: [],
 		});
 	}
 
-	for (const [i, beat] of item.brief.beats.entries()) {
-		items.push({
-			id: `beat-${i}`,
-			icon: "🎬",
-			author: `Momento ${i + 1}`,
-			text: `${beat.visual} — ${beat.voiceover}`,
-			likes: 0,
-			replies: [],
-		});
-	}
+	// Expanded clinical context that goes beyond the spoken reel.
+	items.push({
+		id: "insight",
+		icon: "💡",
+		author: "Detalle clínico",
+		text: fact.insight,
+		likes: 0,
+		replies: [],
+	});
 
-	if (fact) {
-		items.push({
-			id: "insight",
-			icon: "💡",
-			author: "Dato clave",
-			text: fact.insight,
-			likes: 0,
-			replies: [],
-		});
-		items.push({
-			id: "source",
-			icon: "📖",
-			author: "Fuente",
-			badge: "Demo",
-			text: fact.sourceNote,
-			likes: 0,
-			replies: [],
-		});
-	}
+	items.push({
+		id: "why",
+		icon: "⚠️",
+		author: "Por qué no es obvio",
+		text: fact.whyNonObvious,
+		likes: 0,
+		replies: [],
+	});
+
+	items.push({
+		id: "source",
+		icon: "📖",
+		author: "Fuente",
+		badge: fact.evidenceStatus,
+		text: fact.sourceNote,
+		likes: 0,
+		replies: [],
+	});
 
 	return items;
 }

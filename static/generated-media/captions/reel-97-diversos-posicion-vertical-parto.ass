@@ -1,0 +1,107 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0080DE4A,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}A {\rBase}pesar {\rBase}de
+Dialogue: 0,0:00:00.24,0:00:00.50,Base,,0,0,0,,{\rBase}A {\rHot\t(0,120,\fscx115\fscy115)}pesar {\rBase}de
+Dialogue: 0,0:00:00.50,0:00:00.73,Base,,0,0,0,,{\rBase}A {\rBase}pesar {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:00.68,0:00:00.80,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}evidencia {\rBase}abrumadora,
+Dialogue: 0,0:00:00.80,0:00:01.28,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}evidencia {\rBase}abrumadora,
+Dialogue: 0,0:00:01.28,0:00:01.95,Base,,0,0,0,,{\rBase}la {\rBase}evidencia {\rHot\t(0,120,\fscx115\fscy115)}abrumadora,
+Dialogue: 0,0:00:02.34,0:00:02.40,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}litotomía {\rBase}sigue
+Dialogue: 0,0:00:02.40,0:00:03.08,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}litotomía {\rBase}sigue
+Dialogue: 0,0:00:03.08,0:00:03.39,Base,,0,0,0,,{\rBase}la {\rBase}litotomía {\rHot\t(0,120,\fscx115\fscy115)}sigue
+Dialogue: 0,0:00:03.34,0:00:03.68,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}siendo {\rBase}la {\rBase}posición
+Dialogue: 0,0:00:03.68,0:00:03.86,Base,,0,0,0,,{\rBase}siendo {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}posición
+Dialogue: 0,0:00:03.86,0:00:04.31,Base,,0,0,0,,{\rBase}siendo {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}posición
+Dialogue: 0,0:00:04.26,0:00:04.88,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}estándar {\rBase}en {\rBase}la
+Dialogue: 0,0:00:04.88,0:00:05.00,Base,,0,0,0,,{\rBase}estándar {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}la
+Dialogue: 0,0:00:05.00,0:00:05.15,Base,,0,0,0,,{\rBase}estándar {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:05.10,0:00:05.42,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}mayoría {\rBase}de {\rBase}los
+Dialogue: 0,0:00:05.42,0:00:05.62,Base,,0,0,0,,{\rBase}mayoría {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}los
+Dialogue: 0,0:00:05.62,0:00:05.83,Base,,0,0,0,,{\rBase}mayoría {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}los
+Dialogue: 0,0:00:05.78,0:00:06.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}hospitales {\rBase}por {\rBase}comodidad
+Dialogue: 0,0:00:06.36,0:00:06.56,Base,,0,0,0,,{\rBase}hospitales {\rHot\t(0,120,\fscx115\fscy115)}por {\rBase}comodidad
+Dialogue: 0,0:00:06.56,0:00:07.25,Base,,0,0,0,,{\rBase}hospitales {\rBase}por {\rHot\t(0,120,\fscx115\fscy115)}comodidad
+Dialogue: 0,0:00:07.20,0:00:07.40,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}personal, {\rBase}facilidad
+Dialogue: 0,0:00:07.40,0:00:08.50,Base,,0,0,0,,{\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}personal, {\rBase}facilidad
+Dialogue: 0,0:00:08.50,0:00:09.09,Base,,0,0,0,,{\rBase}del {\rBase}personal, {\rHot\t(0,120,\fscx115\fscy115)}facilidad
+Dialogue: 0,0:00:09.04,0:00:09.20,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}monitoreo {\rBase}y
+Dialogue: 0,0:00:09.20,0:00:09.84,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}monitoreo {\rBase}y
+Dialogue: 0,0:00:09.84,0:00:10.03,Base,,0,0,0,,{\rBase}de {\rBase}monitoreo {\rHot\t(0,120,\fscx115\fscy115)}y
+Dialogue: 0,0:00:09.98,0:00:10.78,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}tradición, {\rBase}no {\rBase}por
+Dialogue: 0,0:00:10.78,0:00:11.18,Base,,0,0,0,,{\rBase}tradición, {\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}por
+Dialogue: 0,0:00:11.18,0:00:11.43,Base,,0,0,0,,{\rBase}tradición, {\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}por
+Dialogue: 0,0:00:11.38,0:00:11.94,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}beneficio {\rBase}materno {\rBase}fetal.
+Dialogue: 0,0:00:11.94,0:00:12.44,Base,,0,0,0,,{\rBase}beneficio {\rHot\t(0,120,\fscx115\fscy115)}materno {\rBase}fetal.
+Dialogue: 0,0:00:12.44,0:00:13.01,Base,,0,0,0,,{\rBase}beneficio {\rBase}materno {\rHot\t(0,120,\fscx115\fscy115)}fetal.
+Dialogue: 0,0:00:12.96,0:00:14.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Adoptar {\rBase}posiciones {\rBase}verticales,
+Dialogue: 0,0:00:14.08,0:00:14.60,Base,,0,0,0,,{\rBase}Adoptar {\rHot\t(0,120,\fscx115\fscy115)}posiciones {\rBase}verticales,
+Dialogue: 0,0:00:14.60,0:00:15.55,Base,,0,0,0,,{\rBase}Adoptar {\rBase}posiciones {\rHot\t(0,120,\fscx115\fscy115)}verticales,
+Dialogue: 0,0:00:15.56,0:00:16.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}bipedestación, {\rBase}cuclillas, {\rBase}sentada,
+Dialogue: 0,0:00:16.64,0:00:17.38,Base,,0,0,0,,{\rBase}bipedestación, {\rHot\t(0,120,\fscx115\fscy115)}cuclillas, {\rBase}sentada,
+Dialogue: 0,0:00:17.38,0:00:17.95,Base,,0,0,0,,{\rBase}bipedestación, {\rBase}cuclillas, {\rHot\t(0,120,\fscx115\fscy115)}sentada,
+Dialogue: 0,0:00:18.14,0:00:18.50,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}durante {\rBase}el {\rBase}trabajo
+Dialogue: 0,0:00:18.50,0:00:18.70,Base,,0,0,0,,{\rBase}durante {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}trabajo
+Dialogue: 0,0:00:18.70,0:00:19.09,Base,,0,0,0,,{\rBase}durante {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}trabajo
+Dialogue: 0,0:00:19.04,0:00:19.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}parto, {\rBase}reduce
+Dialogue: 0,0:00:19.24,0:00:19.88,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}parto, {\rBase}reduce
+Dialogue: 0,0:00:19.88,0:00:20.49,Base,,0,0,0,,{\rBase}de {\rBase}parto, {\rHot\t(0,120,\fscx115\fscy115)}reduce
+Dialogue: 0,0:00:20.44,0:00:20.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}duración {\rBase}del
+Dialogue: 0,0:00:20.62,0:00:21.06,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}duración {\rBase}del
+Dialogue: 0,0:00:21.06,0:00:21.29,Base,,0,0,0,,{\rBase}la {\rBase}duración {\rHot\t(0,120,\fscx115\fscy115)}del
+Dialogue: 0,0:00:21.24,0:00:21.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}segundo {\rBase}periodo {\rBase}en
+Dialogue: 0,0:00:21.60,0:00:22.12,Base,,0,0,0,,{\rBase}segundo {\rHot\t(0,120,\fscx115\fscy115)}periodo {\rBase}en
+Dialogue: 0,0:00:22.12,0:00:22.41,Base,,0,0,0,,{\rBase}segundo {\rBase}periodo {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:22.36,0:00:23.02,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}aproximadamente {\rBase}25 {\rBase}minutos,
+Dialogue: 0,0:00:23.02,0:00:23.72,Base,,0,0,0,,{\rBase}aproximadamente {\rHot\t(0,120,\fscx115\fscy115)}25 {\rBase}minutos,
+Dialogue: 0,0:00:23.72,0:00:24.51,Base,,0,0,0,,{\rBase}aproximadamente {\rBase}25 {\rHot\t(0,120,\fscx115\fscy115)}minutos,
+Dialogue: 0,0:00:24.86,0:00:25.54,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}disminuye {\rBase}un {\rBase}25
+Dialogue: 0,0:00:25.54,0:00:25.80,Base,,0,0,0,,{\rBase}disminuye {\rHot\t(0,120,\fscx115\fscy115)}un {\rBase}25
+Dialogue: 0,0:00:25.80,0:00:26.29,Base,,0,0,0,,{\rBase}disminuye {\rBase}un {\rHot\t(0,120,\fscx115\fscy115)}25
+Dialogue: 0,0:00:26.24,0:00:26.78,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}% {\rBase}la {\rBase}probabilidad
+Dialogue: 0,0:00:26.78,0:00:27.26,Base,,0,0,0,,{\rBase}% {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}probabilidad
+Dialogue: 0,0:00:27.26,0:00:28.01,Base,,0,0,0,,{\rBase}% {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}probabilidad
+Dialogue: 0,0:00:27.96,0:00:28.10,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}episiotomía {\rBase}y
+Dialogue: 0,0:00:28.10,0:00:28.88,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}episiotomía {\rBase}y
+Dialogue: 0,0:00:28.88,0:00:29.49,Base,,0,0,0,,{\rBase}de {\rBase}episiotomía {\rHot\t(0,120,\fscx115\fscy115)}y
+Dialogue: 0,0:00:29.44,0:00:29.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}un {\rBase}30 {\rBase}%
+Dialogue: 0,0:00:29.60,0:00:29.92,Base,,0,0,0,,{\rBase}un {\rHot\t(0,120,\fscx115\fscy115)}30 {\rBase}%
+Dialogue: 0,0:00:29.92,0:00:30.59,Base,,0,0,0,,{\rBase}un {\rBase}30 {\rHot\t(0,120,\fscx115\fscy115)}%
+Dialogue: 0,0:00:30.54,0:00:30.76,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}de {\rBase}parto
+Dialogue: 0,0:00:30.76,0:00:30.92,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}parto
+Dialogue: 0,0:00:30.92,0:00:31.27,Base,,0,0,0,,{\rBase}la {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}parto
+Dialogue: 0,0:00:31.22,0:00:32.22,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}instrumental, {\rBase}sin {\rBase}aumentar
+Dialogue: 0,0:00:32.22,0:00:32.72,Base,,0,0,0,,{\rBase}instrumental, {\rHot\t(0,120,\fscx115\fscy115)}sin {\rBase}aumentar
+Dialogue: 0,0:00:32.72,0:00:33.21,Base,,0,0,0,,{\rBase}instrumental, {\rBase}sin {\rHot\t(0,120,\fscx115\fscy115)}aumentar
+Dialogue: 0,0:00:33.16,0:00:33.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}riesgos {\rBase}perinatales, {\rBase}en
+Dialogue: 0,0:00:33.60,0:00:34.60,Base,,0,0,0,,{\rBase}riesgos {\rHot\t(0,120,\fscx115\fscy115)}perinatales, {\rBase}en
+Dialogue: 0,0:00:34.60,0:00:34.91,Base,,0,0,0,,{\rBase}riesgos {\rBase}perinatales, {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:34.86,0:00:35.40,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}comparación {\rBase}con {\rBase}la
+Dialogue: 0,0:00:35.40,0:00:35.58,Base,,0,0,0,,{\rBase}comparación {\rHot\t(0,120,\fscx115\fscy115)}con {\rBase}la
+Dialogue: 0,0:00:35.58,0:00:35.75,Base,,0,0,0,,{\rBase}comparación {\rBase}con {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:35.70,0:00:36.12,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}posición {\rBase}de {\rBase}litotomía,
+Dialogue: 0,0:00:36.12,0:00:36.32,Base,,0,0,0,,{\rBase}posición {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}litotomía,
+Dialogue: 0,0:00:36.32,0:00:37.07,Base,,0,0,0,,{\rBase}posición {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}litotomía,
+Dialogue: 0,0:00:37.18,0:00:37.86,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}acostada. {\rBase}La {\rBase}gravedad
+Dialogue: 0,0:00:37.86,0:00:39.16,Base,,0,0,0,,{\rBase}acostada. {\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}gravedad
+Dialogue: 0,0:00:39.16,0:00:39.65,Base,,0,0,0,,{\rBase}acostada. {\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}gravedad
+Dialogue: 0,0:00:39.60,0:00:40.20,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}favorece {\rBase}el {\rBase}descenso
+Dialogue: 0,0:00:40.20,0:00:40.38,Base,,0,0,0,,{\rBase}favorece {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}descenso
+Dialogue: 0,0:00:40.38,0:00:40.89,Base,,0,0,0,,{\rBase}favorece {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}descenso
+Dialogue: 0,0:00:40.84,0:00:41.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}fetal {\rBase}y {\rBase}las
+Dialogue: 0,0:00:41.34,0:00:41.60,Base,,0,0,0,,{\rBase}fetal {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}las
+Dialogue: 0,0:00:41.60,0:00:41.79,Base,,0,0,0,,{\rBase}fetal {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}las
+Dialogue: 0,0:00:41.74,0:00:42.40,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}contracciones {\rBase}son {\rBase}más
+Dialogue: 0,0:00:42.40,0:00:42.70,Base,,0,0,0,,{\rBase}contracciones {\rHot\t(0,120,\fscx115\fscy115)}son {\rBase}más
+Dialogue: 0,0:00:42.70,0:00:43.03,Base,,0,0,0,,{\rBase}contracciones {\rBase}son {\rHot\t(0,120,\fscx115\fscy115)}más
+Dialogue: 0,0:00:42.98,0:00:43.71,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}eficaces.

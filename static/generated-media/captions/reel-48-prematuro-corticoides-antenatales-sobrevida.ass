@@ -1,0 +1,80 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H003C3CE6,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.30,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Los {\rBase}corticoides {\rBase}se
+Dialogue: 0,0:00:00.30,0:00:01.08,Base,,0,0,0,,{\rBase}Los {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}corticoides {\rBase}se
+Dialogue: 0,0:00:01.08,0:00:01.59,Base,,0,0,0,,{\rBase}Los {\rBase}corticoides {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}se
+Dialogue: 0,0:00:01.54,0:00:01.94,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}asocian {\rBase}con {\rBase}efectos
+Dialogue: 0,0:00:01.94,0:00:02.06,Base,,0,0,0,,{\rBase}asocian {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}efectos
+Dialogue: 0,0:00:02.06,0:00:02.55,Base,,0,0,0,,{\rBase}asocian {\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}efectos
+Dialogue: 0,0:00:02.50,0:00:03.02,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}adversos {\rBase}a {\rBase}largo
+Dialogue: 0,0:00:03.02,0:00:03.16,Base,,0,0,0,,{\rBase}adversos {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}a {\rBase}largo
+Dialogue: 0,0:00:03.16,0:00:03.45,Base,,0,0,0,,{\rBase}adversos {\rBase}a {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}largo
+Dialogue: 0,0:00:03.40,0:00:04.16,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}plazo, {\rBase}pero {\rBase}un
+Dialogue: 0,0:00:04.16,0:00:04.24,Base,,0,0,0,,{\rBase}plazo, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pero {\rBase}un
+Dialogue: 0,0:00:04.24,0:00:04.43,Base,,0,0,0,,{\rBase}plazo, {\rBase}pero {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}un
+Dialogue: 0,0:00:04.38,0:00:04.62,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}solo {\rBase}curso {\rBase}antenatal
+Dialogue: 0,0:00:04.62,0:00:04.94,Base,,0,0,0,,{\rBase}solo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}curso {\rBase}antenatal
+Dialogue: 0,0:00:04.94,0:00:05.53,Base,,0,0,0,,{\rBase}solo {\rBase}curso {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}antenatal
+Dialogue: 0,0:00:05.48,0:00:05.72,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tiene {\rBase}un {\rBase}perfil
+Dialogue: 0,0:00:05.72,0:00:05.86,Base,,0,0,0,,{\rBase}tiene {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}un {\rBase}perfil
+Dialogue: 0,0:00:05.86,0:00:06.29,Base,,0,0,0,,{\rBase}tiene {\rBase}un {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}perfil
+Dialogue: 0,0:00:06.24,0:00:06.80,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}beneficio {\rBase}-riesgo {\rBase}abrumadoramente
+Dialogue: 0,0:00:06.80,0:00:07.26,Base,,0,0,0,,{\rBase}beneficio {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}-riesgo {\rBase}abrumadoramente
+Dialogue: 0,0:00:07.26,0:00:08.27,Base,,0,0,0,,{\rBase}beneficio {\rBase}-riesgo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}abrumadoramente
+Dialogue: 0,0:00:08.22,0:00:08.72,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}favorable {\rBase}que {\rBase}salva
+Dialogue: 0,0:00:08.72,0:00:09.36,Base,,0,0,0,,{\rBase}favorable {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}que {\rBase}salva
+Dialogue: 0,0:00:09.36,0:00:09.73,Base,,0,0,0,,{\rBase}favorable {\rBase}que {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}salva
+Dialogue: 0,0:00:09.68,0:00:09.98,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}vidas {\rBase}neonatales. {\rBase}Una
+Dialogue: 0,0:00:09.98,0:00:10.70,Base,,0,0,0,,{\rBase}vidas {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}neonatales. {\rBase}Una
+Dialogue: 0,0:00:10.70,0:00:11.87,Base,,0,0,0,,{\rBase}vidas {\rBase}neonatales. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Una
+Dialogue: 0,0:00:11.82,0:00:12.18,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}única {\rBase}tanda {\rBase}de
+Dialogue: 0,0:00:12.18,0:00:12.58,Base,,0,0,0,,{\rBase}única {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tanda {\rBase}de
+Dialogue: 0,0:00:12.58,0:00:12.79,Base,,0,0,0,,{\rBase}única {\rBase}tanda {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:12.74,0:00:13.64,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}corticosteroides {\rBase}antenatales, {\rBase}betametasona
+Dialogue: 0,0:00:13.64,0:00:14.58,Base,,0,0,0,,{\rBase}corticosteroides {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}antenatales, {\rBase}betametasona
+Dialogue: 0,0:00:14.58,0:00:15.63,Base,,0,0,0,,{\rBase}corticosteroides {\rBase}antenatales, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}betametasona
+Dialogue: 0,0:00:15.58,0:00:16.10,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}24 {\rBase}-migrins {\rBase}o
+Dialogue: 0,0:00:16.10,0:00:16.82,Base,,0,0,0,,{\rBase}24 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}-migrins {\rBase}o
+Dialogue: 0,0:00:16.82,0:00:17.15,Base,,0,0,0,,{\rBase}24 {\rBase}-migrins {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}o
+Dialogue: 0,0:00:17.10,0:00:17.84,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}dexametasona {\rBase}24 {\rBase}-migrins,
+Dialogue: 0,0:00:17.84,0:00:18.22,Base,,0,0,0,,{\rBase}dexametasona {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}24 {\rBase}-migrins,
+Dialogue: 0,0:00:18.22,0:00:18.95,Base,,0,0,0,,{\rBase}dexametasona {\rBase}24 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}-migrins,
+Dialogue: 0,0:00:19.20,0:00:19.74,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}entre {\rBase}las {\rBase}24
+Dialogue: 0,0:00:19.74,0:00:19.92,Base,,0,0,0,,{\rBase}entre {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}las {\rBase}24
+Dialogue: 0,0:00:19.92,0:00:20.41,Base,,0,0,0,,{\rBase}entre {\rBase}las {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}24
+Dialogue: 0,0:00:20.36,0:00:20.62,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}34 {\rBase}semanas
+Dialogue: 0,0:00:20.62,0:00:21.18,Base,,0,0,0,,{\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}34 {\rBase}semanas
+Dialogue: 0,0:00:21.18,0:00:21.87,Base,,0,0,0,,{\rBase}y {\rBase}34 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}semanas
+Dialogue: 0,0:00:22.50,0:00:22.74,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}mortalidad {\rBase}neonatal
+Dialogue: 0,0:00:22.74,0:00:23.32,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}mortalidad {\rBase}neonatal
+Dialogue: 0,0:00:23.32,0:00:23.85,Base,,0,0,0,,{\rBase}la {\rBase}mortalidad {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}neonatal
+Dialogue: 0,0:00:23.80,0:00:23.98,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}un {\rBase}40%,
+Dialogue: 0,0:00:23.98,0:00:24.12,Base,,0,0,0,,{\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}un {\rBase}40%,
+Dialogue: 0,0:00:24.12,0:00:25.01,Base,,0,0,0,,{\rBase}en {\rBase}un {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}40%,
+Dialogue: 0,0:00:24.96,0:00:25.86,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}síndrome {\rBase}de
+Dialogue: 0,0:00:25.86,0:00:26.28,Base,,0,0,0,,{\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}síndrome {\rBase}de
+Dialogue: 0,0:00:26.28,0:00:26.47,Base,,0,0,0,,{\rBase}el {\rBase}síndrome {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:26.42,0:00:27.00,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}dificultad {\rBase}respiratoria {\rBase}en
+Dialogue: 0,0:00:27.00,0:00:27.74,Base,,0,0,0,,{\rBase}dificultad {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}respiratoria {\rBase}en
+Dialogue: 0,0:00:27.74,0:00:28.03,Base,,0,0,0,,{\rBase}dificultad {\rBase}respiratoria {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en
+Dialogue: 0,0:00:27.98,0:00:28.10,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}un {\rBase}35 {\rBase}%
+Dialogue: 0,0:00:28.10,0:00:28.80,Base,,0,0,0,,{\rBase}un {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}35 {\rBase}%
+Dialogue: 0,0:00:28.80,0:00:29.27,Base,,0,0,0,,{\rBase}un {\rBase}35 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}%
+Dialogue: 0,0:00:29.22,0:00:30.18,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}la {\rBase}hemorragia
+Dialogue: 0,0:00:30.18,0:00:30.30,Base,,0,0,0,,{\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}hemorragia
+Dialogue: 0,0:00:30.30,0:00:30.93,Base,,0,0,0,,{\rBase}y {\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hemorragia
+Dialogue: 0,0:00:30.88,0:00:31.72,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}intraventricular {\rBase}en {\rBase}un
+Dialogue: 0,0:00:31.72,0:00:32.14,Base,,0,0,0,,{\rBase}intraventricular {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}un
+Dialogue: 0,0:00:32.14,0:00:32.33,Base,,0,0,0,,{\rBase}intraventricular {\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}un
+Dialogue: 0,0:00:32.28,0:00:33.41,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}45%.

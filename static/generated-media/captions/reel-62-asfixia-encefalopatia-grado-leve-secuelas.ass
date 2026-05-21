@@ -1,0 +1,77 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H001E80FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}EHAI {\rBase}leve
+Dialogue: 0,0:00:00.32,0:00:00.94,Base,,0,0,0,,{\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}EHAI {\rBase}leve
+Dialogue: 0,0:00:00.94,0:00:01.37,Base,,0,0,0,,{\rBase}La {\rBase}EHAI {\rHot\t(0,120,\fscx115\fscy115)}leve
+Dialogue: 0,0:00:01.32,0:00:01.48,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}se {\rBase}considera {\rBase}un
+Dialogue: 0,0:00:01.48,0:00:02.00,Base,,0,0,0,,{\rBase}se {\rHot\t(0,120,\fscx115\fscy115)}considera {\rBase}un
+Dialogue: 0,0:00:02.00,0:00:02.15,Base,,0,0,0,,{\rBase}se {\rBase}considera {\rHot\t(0,120,\fscx115\fscy115)}un
+Dialogue: 0,0:00:02.10,0:00:02.46,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}cuadro {\rBase}autolimitado {\rBase}que
+Dialogue: 0,0:00:02.46,0:00:03.28,Base,,0,0,0,,{\rBase}cuadro {\rHot\t(0,120,\fscx115\fscy115)}autolimitado {\rBase}que
+Dialogue: 0,0:00:03.28,0:00:03.55,Base,,0,0,0,,{\rBase}cuadro {\rBase}autolimitado {\rHot\t(0,120,\fscx115\fscy115)}que
+Dialogue: 0,0:00:03.50,0:00:03.72,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}deja {\rBase}secuelas,
+Dialogue: 0,0:00:03.72,0:00:04.02,Base,,0,0,0,,{\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}deja {\rBase}secuelas,
+Dialogue: 0,0:00:04.02,0:00:04.69,Base,,0,0,0,,{\rBase}no {\rBase}deja {\rHot\t(0,120,\fscx115\fscy115)}secuelas,
+Dialogue: 0,0:00:04.80,0:00:05.16,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}pero {\rBase}estudios {\rBase}longitudinales
+Dialogue: 0,0:00:05.16,0:00:05.60,Base,,0,0,0,,{\rBase}pero {\rHot\t(0,120,\fscx115\fscy115)}estudios {\rBase}longitudinales
+Dialogue: 0,0:00:05.60,0:00:06.69,Base,,0,0,0,,{\rBase}pero {\rBase}estudios {\rHot\t(0,120,\fscx115\fscy115)}longitudinales
+Dialogue: 0,0:00:06.64,0:00:07.12,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}muestran {\rBase}que {\rBase}afecta
+Dialogue: 0,0:00:07.12,0:00:07.28,Base,,0,0,0,,{\rBase}muestran {\rHot\t(0,120,\fscx115\fscy115)}que {\rBase}afecta
+Dialogue: 0,0:00:07.28,0:00:07.73,Base,,0,0,0,,{\rBase}muestran {\rBase}que {\rHot\t(0,120,\fscx115\fscy115)}afecta
+Dialogue: 0,0:00:07.68,0:00:08.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}funciones {\rBase}ejecutivas {\rBase}y
+Dialogue: 0,0:00:08.26,0:00:08.96,Base,,0,0,0,,{\rBase}funciones {\rHot\t(0,120,\fscx115\fscy115)}ejecutivas {\rBase}y
+Dialogue: 0,0:00:08.96,0:00:09.19,Base,,0,0,0,,{\rBase}funciones {\rBase}ejecutivas {\rHot\t(0,120,\fscx115\fscy115)}y
+Dialogue: 0,0:00:09.14,0:00:09.74,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}rendimiento {\rBase}escolar {\rBase}que
+Dialogue: 0,0:00:09.74,0:00:10.22,Base,,0,0,0,,{\rBase}rendimiento {\rHot\t(0,120,\fscx115\fscy115)}escolar {\rBase}que
+Dialogue: 0,0:00:10.22,0:00:10.79,Base,,0,0,0,,{\rBase}rendimiento {\rBase}escolar {\rHot\t(0,120,\fscx115\fscy115)}que
+Dialogue: 0,0:00:10.74,0:00:10.88,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}se {\rBase}manifiestan {\rBase}años
+Dialogue: 0,0:00:10.88,0:00:11.46,Base,,0,0,0,,{\rBase}se {\rHot\t(0,120,\fscx115\fscy115)}manifiestan {\rBase}años
+Dialogue: 0,0:00:11.46,0:00:11.77,Base,,0,0,0,,{\rBase}se {\rBase}manifiestan {\rHot\t(0,120,\fscx115\fscy115)}años
+Dialogue: 0,0:00:11.72,0:00:12.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}después. {\rBase}Los {\rBase}neonatos
+Dialogue: 0,0:00:12.38,0:00:12.92,Base,,0,0,0,,{\rBase}después. {\rHot\t(0,120,\fscx115\fscy115)}Los {\rBase}neonatos
+Dialogue: 0,0:00:12.92,0:00:13.51,Base,,0,0,0,,{\rBase}después. {\rBase}Los {\rHot\t(0,120,\fscx115\fscy115)}neonatos
+Dialogue: 0,0:00:13.46,0:00:13.76,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}con {\rBase}encefalopatía {\rBase}hipóxico
+Dialogue: 0,0:00:13.76,0:00:14.74,Base,,0,0,0,,{\rBase}con {\rHot\t(0,120,\fscx115\fscy115)}encefalopatía {\rBase}hipóxico
+Dialogue: 0,0:00:14.74,0:00:15.87,Base,,0,0,0,,{\rBase}con {\rBase}encefalopatía {\rHot\t(0,120,\fscx115\fscy115)}hipóxico
+Dialogue: 0,0:00:15.82,0:00:16.82,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}-isquémica, {\rBase}EHAI, {\rBase}leve,
+Dialogue: 0,0:00:16.82,0:00:17.86,Base,,0,0,0,,{\rBase}-isquémica, {\rHot\t(0,120,\fscx115\fscy115)}EHAI, {\rBase}leve,
+Dialogue: 0,0:00:17.86,0:00:18.47,Base,,0,0,0,,{\rBase}-isquémica, {\rBase}EHAI, {\rHot\t(0,120,\fscx115\fscy115)}leve,
+Dialogue: 0,0:00:18.64,0:00:19.10,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}tienen {\rBase}dos {\rBase}o
+Dialogue: 0,0:00:19.10,0:00:19.38,Base,,0,0,0,,{\rBase}tienen {\rHot\t(0,120,\fscx115\fscy115)}dos {\rBase}o
+Dialogue: 0,0:00:19.38,0:00:19.65,Base,,0,0,0,,{\rBase}tienen {\rBase}dos {\rHot\t(0,120,\fscx115\fscy115)}o
+Dialogue: 0,0:00:19.60,0:00:19.72,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}tres {\rBase}veces {\rBase}más
+Dialogue: 0,0:00:19.72,0:00:20.08,Base,,0,0,0,,{\rBase}tres {\rHot\t(0,120,\fscx115\fscy115)}veces {\rBase}más
+Dialogue: 0,0:00:20.08,0:00:20.43,Base,,0,0,0,,{\rBase}tres {\rBase}veces {\rHot\t(0,120,\fscx115\fscy115)}más
+Dialogue: 0,0:00:20.38,0:00:20.76,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}riesgo {\rBase}de {\rBase}presentar
+Dialogue: 0,0:00:20.76,0:00:20.88,Base,,0,0,0,,{\rBase}riesgo {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}presentar
+Dialogue: 0,0:00:20.88,0:00:21.47,Base,,0,0,0,,{\rBase}riesgo {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}presentar
+Dialogue: 0,0:00:21.42,0:00:22.04,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}alteraciones {\rBase}cognitivas, {\rBase}conductuales
+Dialogue: 0,0:00:22.04,0:00:22.84,Base,,0,0,0,,{\rBase}alteraciones {\rHot\t(0,120,\fscx115\fscy115)}cognitivas, {\rBase}conductuales
+Dialogue: 0,0:00:22.84,0:00:24.15,Base,,0,0,0,,{\rBase}alteraciones {\rBase}cognitivas, {\rHot\t(0,120,\fscx115\fscy115)}conductuales
+Dialogue: 0,0:00:24.10,0:00:24.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}de {\rBase}aprendizaje
+Dialogue: 0,0:00:24.28,0:00:24.40,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}aprendizaje
+Dialogue: 0,0:00:24.40,0:00:25.17,Base,,0,0,0,,{\rBase}y {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}aprendizaje
+Dialogue: 0,0:00:25.12,0:00:25.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}a {\rBase}los {\rBase}5
+Dialogue: 0,0:00:25.24,0:00:25.38,Base,,0,0,0,,{\rBase}a {\rHot\t(0,120,\fscx115\fscy115)}los {\rBase}5
+Dialogue: 0,0:00:25.38,0:00:25.83,Base,,0,0,0,,{\rBase}a {\rBase}los {\rHot\t(0,120,\fscx115\fscy115)}5
+Dialogue: 0,0:00:25.78,0:00:26.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}-7 {\rBase}años {\rBase}comparados
+Dialogue: 0,0:00:26.26,0:00:26.82,Base,,0,0,0,,{\rBase}-7 {\rHot\t(0,120,\fscx115\fscy115)}años {\rBase}comparados
+Dialogue: 0,0:00:26.82,0:00:27.79,Base,,0,0,0,,{\rBase}-7 {\rBase}años {\rHot\t(0,120,\fscx115\fscy115)}comparados
+Dialogue: 0,0:00:27.74,0:00:27.96,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}con {\rBase}neonatos {\rBase}sanos
+Dialogue: 0,0:00:27.96,0:00:28.52,Base,,0,0,0,,{\rBase}con {\rHot\t(0,120,\fscx115\fscy115)}neonatos {\rBase}sanos
+Dialogue: 0,0:00:28.52,0:00:29.01,Base,,0,0,0,,{\rBase}con {\rBase}neonatos {\rHot\t(0,120,\fscx115\fscy115)}sanos
+Dialogue: 0,0:00:28.96,0:00:29.12,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}similar {\rBase}edad
+Dialogue: 0,0:00:29.12,0:00:29.50,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}similar {\rBase}edad
+Dialogue: 0,0:00:29.50,0:00:29.87,Base,,0,0,0,,{\rBase}de {\rBase}similar {\rHot\t(0,120,\fscx115\fscy115)}edad
+Dialogue: 0,0:00:29.82,0:00:30.47,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}gestacional.

@@ -1,0 +1,66 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Arial Black,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Arial Black,84,&H00FF3CFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.52,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}Existe {\rBase}la {\rBase}creencia
+Dialogue: 0,0:00:00.52,0:00:00.66,Base,,0,0,0,,{\rBase}Existe {\rHot\frz-3\t(0,200,\frz3)}la {\rBase}creencia
+Dialogue: 0,0:00:00.66,0:00:01.09,Base,,0,0,0,,{\rBase}Existe {\rBase}la {\rHot\frz-3\t(0,200,\frz3)}creencia
+Dialogue: 0,0:00:01.04,0:00:01.20,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}de {\rBase}que {\rBase}separar
+Dialogue: 0,0:00:01.20,0:00:01.34,Base,,0,0,0,,{\rBase}de {\rHot\frz-3\t(0,200,\frz3)}que {\rBase}separar
+Dialogue: 0,0:00:01.34,0:00:01.87,Base,,0,0,0,,{\rBase}de {\rBase}que {\rHot\frz-3\t(0,200,\frz3)}separar
+Dialogue: 0,0:00:01.82,0:00:01.94,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}al {\rBase}neonato {\rBase}para
+Dialogue: 0,0:00:01.94,0:00:02.42,Base,,0,0,0,,{\rBase}al {\rHot\frz-3\t(0,200,\frz3)}neonato {\rBase}para
+Dialogue: 0,0:00:02.42,0:00:02.75,Base,,0,0,0,,{\rBase}al {\rBase}neonato {\rHot\frz-3\t(0,200,\frz3)}para
+Dialogue: 0,0:00:02.70,0:00:03.54,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}asepsia {\rBase}y {\rBase}procedimientos
+Dialogue: 0,0:00:03.54,0:00:03.74,Base,,0,0,0,,{\rBase}asepsia {\rHot\frz-3\t(0,200,\frz3)}y {\rBase}procedimientos
+Dialogue: 0,0:00:03.74,0:00:04.71,Base,,0,0,0,,{\rBase}asepsia {\rBase}y {\rHot\frz-3\t(0,200,\frz3)}procedimientos
+Dialogue: 0,0:00:04.66,0:00:05.26,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}reduce {\rBase}infecciones, {\rBase}pero
+Dialogue: 0,0:00:05.26,0:00:06.24,Base,,0,0,0,,{\rBase}reduce {\rHot\frz-3\t(0,200,\frz3)}infecciones, {\rBase}pero
+Dialogue: 0,0:00:06.24,0:00:06.65,Base,,0,0,0,,{\rBase}reduce {\rBase}infecciones, {\rHot\frz-3\t(0,200,\frz3)}pero
+Dialogue: 0,0:00:06.60,0:00:06.74,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}la {\rBase}colonización {\rBase}temprana
+Dialogue: 0,0:00:06.74,0:00:07.28,Base,,0,0,0,,{\rBase}la {\rHot\frz-3\t(0,200,\frz3)}colonización {\rBase}temprana
+Dialogue: 0,0:00:07.28,0:00:07.91,Base,,0,0,0,,{\rBase}la {\rBase}colonización {\rHot\frz-3\t(0,200,\frz3)}temprana
+Dialogue: 0,0:00:07.86,0:00:08.04,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}con {\rBase}la {\rBase}microbiota
+Dialogue: 0,0:00:08.04,0:00:08.18,Base,,0,0,0,,{\rBase}con {\rHot\frz-3\t(0,200,\frz3)}la {\rBase}microbiota
+Dialogue: 0,0:00:08.18,0:00:08.85,Base,,0,0,0,,{\rBase}con {\rBase}la {\rHot\frz-3\t(0,200,\frz3)}microbiota
+Dialogue: 0,0:00:08.80,0:00:09.34,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}materna {\rBase}es {\rBase}protectora,
+Dialogue: 0,0:00:09.34,0:00:09.68,Base,,0,0,0,,{\rBase}materna {\rHot\frz-3\t(0,200,\frz3)}es {\rBase}protectora,
+Dialogue: 0,0:00:09.68,0:00:10.47,Base,,0,0,0,,{\rBase}materna {\rBase}es {\rHot\frz-3\t(0,200,\frz3)}protectora,
+Dialogue: 0,0:00:10.62,0:00:10.92,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}no {\rBase}riesgosa. {\rBase}El
+Dialogue: 0,0:00:10.92,0:00:11.90,Base,,0,0,0,,{\rBase}no {\rHot\frz-3\t(0,200,\frz3)}riesgosa. {\rBase}El
+Dialogue: 0,0:00:11.90,0:00:12.45,Base,,0,0,0,,{\rBase}no {\rBase}riesgosa. {\rHot\frz-3\t(0,200,\frz3)}El
+Dialogue: 0,0:00:12.40,0:00:12.90,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}contacto {\rBase}piel {\rBase}con
+Dialogue: 0,0:00:12.90,0:00:13.16,Base,,0,0,0,,{\rBase}contacto {\rHot\frz-3\t(0,200,\frz3)}piel {\rBase}con
+Dialogue: 0,0:00:13.16,0:00:13.41,Base,,0,0,0,,{\rBase}contacto {\rBase}piel {\rHot\frz-3\t(0,200,\frz3)}con
+Dialogue: 0,0:00:13.36,0:00:13.62,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}piel {\rBase}inmediato {\rBase}posparto
+Dialogue: 0,0:00:13.62,0:00:14.22,Base,,0,0,0,,{\rBase}piel {\rHot\frz-3\t(0,200,\frz3)}inmediato {\rBase}posparto
+Dialogue: 0,0:00:14.22,0:00:15.05,Base,,0,0,0,,{\rBase}piel {\rBase}inmediato {\rHot\frz-3\t(0,200,\frz3)}posparto
+Dialogue: 0,0:00:15.00,0:00:15.48,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}no {\rBase}aumenta {\rBase}la
+Dialogue: 0,0:00:15.48,0:00:15.96,Base,,0,0,0,,{\rBase}no {\rHot\frz-3\t(0,200,\frz3)}aumenta {\rBase}la
+Dialogue: 0,0:00:15.96,0:00:16.11,Base,,0,0,0,,{\rBase}no {\rBase}aumenta {\rHot\frz-3\t(0,200,\frz3)}la
+Dialogue: 0,0:00:16.06,0:00:16.64,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}incidencia {\rBase}de {\rBase}sepsis
+Dialogue: 0,0:00:16.64,0:00:16.74,Base,,0,0,0,,{\rBase}incidencia {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}sepsis
+Dialogue: 0,0:00:16.74,0:00:17.27,Base,,0,0,0,,{\rBase}incidencia {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}sepsis
+Dialogue: 0,0:00:17.22,0:00:17.76,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}neonatal {\rBase}confirmada {\rBase}ni
+Dialogue: 0,0:00:17.76,0:00:18.54,Base,,0,0,0,,{\rBase}neonatal {\rHot\frz-3\t(0,200,\frz3)}confirmada {\rBase}ni
+Dialogue: 0,0:00:18.54,0:00:18.75,Base,,0,0,0,,{\rBase}neonatal {\rBase}confirmada {\rHot\frz-3\t(0,200,\frz3)}ni
+Dialogue: 0,0:00:18.70,0:00:19.64,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}sospechada, {\rBase}incluso {\rBase}en
+Dialogue: 0,0:00:19.64,0:00:20.32,Base,,0,0,0,,{\rBase}sospechada, {\rHot\frz-3\t(0,200,\frz3)}incluso {\rBase}en
+Dialogue: 0,0:00:20.32,0:00:20.65,Base,,0,0,0,,{\rBase}sospechada, {\rBase}incluso {\rHot\frz-3\t(0,200,\frz3)}en
+Dialogue: 0,0:00:20.60,0:00:21.18,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}neonatos {\rBase}prematuros {\rBase}o
+Dialogue: 0,0:00:21.18,0:00:21.88,Base,,0,0,0,,{\rBase}neonatos {\rHot\frz-3\t(0,200,\frz3)}prematuros {\rBase}o
+Dialogue: 0,0:00:21.88,0:00:22.29,Base,,0,0,0,,{\rBase}neonatos {\rBase}prematuros {\rHot\frz-3\t(0,200,\frz3)}o
+Dialogue: 0,0:00:22.24,0:00:22.38,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}de {\rBase}bajo {\rBase}peso
+Dialogue: 0,0:00:22.38,0:00:22.58,Base,,0,0,0,,{\rBase}de {\rHot\frz-3\t(0,200,\frz3)}bajo {\rBase}peso
+Dialogue: 0,0:00:22.58,0:00:22.95,Base,,0,0,0,,{\rBase}de {\rBase}bajo {\rHot\frz-3\t(0,200,\frz3)}peso
+Dialogue: 0,0:00:22.90,0:00:23.10,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}al {\rBase}nacer.
+Dialogue: 0,0:00:23.10,0:00:23.57,Base,,0,0,0,,{\rBase}al {\rHot\frz-3\t(0,200,\frz3)}nacer.

@@ -1,4 +1,3 @@
-import { execSync } from "node:child_process";
 import { existsSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import type { Fact, ReelFeedItem } from "$lib/types";
@@ -25,55 +24,19 @@ type GeneratedManifest = {
 		durationSec?: number;
 		videoPath?: string;
 		audioPath?: string;
-		backgroundPath?: string;
 		posterPath?: string;
 	}>;
 };
 
 function readGeneratedManifest(): GeneratedManifest {
-	const candidates = [
-		resolve(process.cwd(), "static", "generated-media", "manifest.json"),
-		resolve(
-			process.cwd(),
-			"build",
-			"client",
-			"generated-media",
-			"manifest.json",
-		),
-	];
-	for (const manifestPath of candidates) {
-		if (existsSync(manifestPath)) {
-			return JSON.parse(
-				readFileSync(manifestPath, "utf8"),
-			) as GeneratedManifest;
-		}
-	}
-	return {};
-}
-
-const audioDurations = new Map<string, number>();
-
-function getAudioDuration(slug: string): number {
-	if (audioDurations.has(slug)) return audioDurations.get(slug) ?? 8;
-	const audioPath = resolve(
+	const path = resolve(
 		process.cwd(),
 		"static",
 		"generated-media",
-		"audio",
-		`${slug}.wav`,
+		"manifest.json",
 	);
-	if (!existsSync(audioPath)) return 8;
-	try {
-		const dur = execSync(
-			`ffprobe -v error -show_entries format=duration -of csv=p=0 "${audioPath}"`,
-			{ encoding: "utf8" },
-		).trim();
-		const sec = Math.round(Number.parseFloat(dur) || 8);
-		audioDurations.set(slug, sec);
-		return sec;
-	} catch {
-		return 8;
-	}
+	if (!existsSync(path)) return {};
+	return JSON.parse(readFileSync(path, "utf8")) as GeneratedManifest;
 }
 
 function feedItem(
@@ -92,15 +55,14 @@ function feedItem(
 	const slug = `reel-${String(index + 1).padStart(2, "0")}-${fact.id}`;
 	const generated = manifest.items?.find((item) => item.slug === slug);
 
-	const isPocReel = generated?.videoPath?.includes("/reel-poc/");
 	return {
 		id: slug,
 		factId: fact.id,
 		title: fact.title,
 		videoPath: generated?.videoPath ?? `/generated-media/reels/${slug}.mp4`,
-		audioPath: generated?.audioPath ?? `/generated-media/audio/${slug}.wav`,
-		posterPath: generated?.posterPath ?? `/generated-media/posters/${slug}.png`,
-		durationSec: generated?.durationSec ?? getAudioDuration(slug),
+		audioPath: generated?.audioPath ?? `/generated-media/audio/${slug}.mp3`,
+		posterPath: generated?.posterPath ?? `/generated-media/posters/${slug}.jpg`,
+		durationSec: generated?.durationSec ?? 30,
 		generatedAt,
 		brief,
 		assets: [
@@ -108,17 +70,17 @@ function feedItem(
 				kind: "video",
 				path: generated?.videoPath ?? `/generated-media/reels/${slug}.mp4`,
 				prompt: brief.imagePrompts[0],
-				provider: isPocReel ? "kling-v1-6" : "text2video",
+				provider: "elevenlabs",
 			},
 			{
 				kind: "audio",
-				path: generated?.audioPath ?? `/generated-media/audio/${slug}.wav`,
+				path: generated?.audioPath ?? `/generated-media/audio/${slug}.mp3`,
 				prompt: brief.beats[0].voiceover,
-				provider: isPocReel ? "elevenlabs" : "text2audio",
+				provider: "elevenlabs",
 			},
 			{
 				kind: "image",
-				path: generated?.posterPath ?? `/generated-media/posters/${slug}.png`,
+				path: generated?.posterPath ?? `/generated-media/posters/${slug}.jpg`,
 				prompt: brief.imagePrompts[1],
 				provider: "text2image",
 			},

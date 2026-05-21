@@ -1,0 +1,120 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H003C3CE6,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.44,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Muchos {\rBase}profesionales {\rBase}indican
+Dialogue: 0,0:00:00.44,0:00:01.04,Base,,0,0,0,,{\rBase}Muchos {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}profesionales {\rBase}indican
+Dialogue: 0,0:00:01.04,0:00:01.55,Base,,0,0,0,,{\rBase}Muchos {\rBase}profesionales {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}indican
+Dialogue: 0,0:00:01.50,0:00:01.96,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cortar {\rBase}lactancia {\rBase}ante
+Dialogue: 0,0:00:01.96,0:00:02.72,Base,,0,0,0,,{\rBase}cortar {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}lactancia {\rBase}ante
+Dialogue: 0,0:00:02.72,0:00:03.07,Base,,0,0,0,,{\rBase}cortar {\rBase}lactancia {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ante
+Dialogue: 0,0:00:03.02,0:00:03.52,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cualquier {\rBase}medicación {\rBase}por
+Dialogue: 0,0:00:03.52,0:00:04.20,Base,,0,0,0,,{\rBase}cualquier {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}medicación {\rBase}por
+Dialogue: 0,0:00:04.20,0:00:04.47,Base,,0,0,0,,{\rBase}cualquier {\rBase}medicación {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}por
+Dialogue: 0,0:00:04.42,0:00:05.04,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}precaución {\rBase}excesiva, {\rBase}cuando
+Dialogue: 0,0:00:05.04,0:00:05.88,Base,,0,0,0,,{\rBase}precaución {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}excesiva, {\rBase}cuando
+Dialogue: 0,0:00:05.88,0:00:06.37,Base,,0,0,0,,{\rBase}precaución {\rBase}excesiva, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cuando
+Dialogue: 0,0:00:06.32,0:00:06.52,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}las {\rBase}guías {\rBase}internacionales,
+Dialogue: 0,0:00:06.52,0:00:06.78,Base,,0,0,0,,{\rBase}las {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}guías {\rBase}internacionales,
+Dialogue: 0,0:00:06.78,0:00:07.95,Base,,0,0,0,,{\rBase}las {\rBase}guías {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}internacionales,
+Dialogue: 0,0:00:07.98,0:00:08.92,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Lactmed, {\rBase}AAP, {\rBase}BWHO,
+Dialogue: 0,0:00:08.92,0:00:09.98,Base,,0,0,0,,{\rBase}Lactmed, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}AAP, {\rBase}BWHO,
+Dialogue: 0,0:00:09.98,0:00:11.03,Base,,0,0,0,,{\rBase}Lactmed, {\rBase}AAP, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}BWHO,
+Dialogue: 0,0:00:11.20,0:00:11.74,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}muestran {\rBase}que {\rBase}la
+Dialogue: 0,0:00:11.74,0:00:11.86,Base,,0,0,0,,{\rBase}muestran {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}que {\rBase}la
+Dialogue: 0,0:00:11.86,0:00:12.03,Base,,0,0,0,,{\rBase}muestran {\rBase}que {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la
+Dialogue: 0,0:00:11.98,0:00:12.16,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}gran {\rBase}mayoría {\rBase}de
+Dialogue: 0,0:00:12.16,0:00:12.50,Base,,0,0,0,,{\rBase}gran {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}mayoría {\rBase}de
+Dialogue: 0,0:00:12.50,0:00:12.75,Base,,0,0,0,,{\rBase}gran {\rBase}mayoría {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:12.70,0:00:12.86,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}los {\rBase}fármacos {\rBase}tienen
+Dialogue: 0,0:00:12.86,0:00:13.46,Base,,0,0,0,,{\rBase}los {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}fármacos {\rBase}tienen
+Dialogue: 0,0:00:13.46,0:00:14.05,Base,,0,0,0,,{\rBase}los {\rBase}fármacos {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tienen
+Dialogue: 0,0:00:14.00,0:00:14.50,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}perfil {\rBase}de {\rBase}seguridad
+Dialogue: 0,0:00:14.50,0:00:14.62,Base,,0,0,0,,{\rBase}perfil {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}seguridad
+Dialogue: 0,0:00:14.62,0:00:15.07,Base,,0,0,0,,{\rBase}perfil {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}seguridad
+Dialogue: 0,0:00:15.02,0:00:15.66,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}favorable {\rBase}y {\rBase}el
+Dialogue: 0,0:00:15.66,0:00:16.44,Base,,0,0,0,,{\rBase}favorable {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}el
+Dialogue: 0,0:00:16.44,0:00:16.63,Base,,0,0,0,,{\rBase}favorable {\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el
+Dialogue: 0,0:00:16.58,0:00:16.98,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}riesgo {\rBase}de {\rBase}no
+Dialogue: 0,0:00:16.98,0:00:17.10,Base,,0,0,0,,{\rBase}riesgo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}no
+Dialogue: 0,0:00:17.10,0:00:17.33,Base,,0,0,0,,{\rBase}riesgo {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}no
+Dialogue: 0,0:00:17.28,0:00:17.90,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}amamantar {\rBase}supera {\rBase}el
+Dialogue: 0,0:00:17.90,0:00:18.70,Base,,0,0,0,,{\rBase}amamantar {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}supera {\rBase}el
+Dialogue: 0,0:00:18.70,0:00:18.87,Base,,0,0,0,,{\rBase}amamantar {\rBase}supera {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el
+Dialogue: 0,0:00:18.82,0:00:19.22,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}riesgo {\rBase}de {\rBase}la
+Dialogue: 0,0:00:19.22,0:00:19.34,Base,,0,0,0,,{\rBase}riesgo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}la
+Dialogue: 0,0:00:19.34,0:00:19.51,Base,,0,0,0,,{\rBase}riesgo {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la
+Dialogue: 0,0:00:19.46,0:00:21.28,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}medicación. {\rBase}Menos {\rBase}del
+Dialogue: 0,0:00:21.28,0:00:21.70,Base,,0,0,0,,{\rBase}medicación. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Menos {\rBase}del
+Dialogue: 0,0:00:21.70,0:00:21.93,Base,,0,0,0,,{\rBase}medicación. {\rBase}Menos {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}del
+Dialogue: 0,0:00:21.88,0:00:22.12,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}10 {\rBase}% {\rBase}de
+Dialogue: 0,0:00:22.12,0:00:22.52,Base,,0,0,0,,{\rBase}10 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}% {\rBase}de
+Dialogue: 0,0:00:22.52,0:00:22.81,Base,,0,0,0,,{\rBase}10 {\rBase}% {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:22.76,0:00:22.90,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}los {\rBase}fármacos {\rBase}prescritos
+Dialogue: 0,0:00:22.90,0:00:23.46,Base,,0,0,0,,{\rBase}los {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}fármacos {\rBase}prescritos
+Dialogue: 0,0:00:23.46,0:00:24.17,Base,,0,0,0,,{\rBase}los {\rBase}fármacos {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}prescritos
+Dialogue: 0,0:00:24.12,0:00:24.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}el {\rBase}puerperio
+Dialogue: 0,0:00:24.26,0:00:24.36,Base,,0,0,0,,{\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}puerperio
+Dialogue: 0,0:00:24.36,0:00:24.97,Base,,0,0,0,,{\rBase}en {\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}puerperio
+Dialogue: 0,0:00:24.92,0:00:25.50,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}son {\rBase}realmente {\rBase}incompatibles
+Dialogue: 0,0:00:25.50,0:00:26.10,Base,,0,0,0,,{\rBase}son {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}realmente {\rBase}incompatibles
+Dialogue: 0,0:00:26.10,0:00:27.03,Base,,0,0,0,,{\rBase}son {\rBase}realmente {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}incompatibles
+Dialogue: 0,0:00:26.98,0:00:27.20,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}la {\rBase}lactancia
+Dialogue: 0,0:00:27.20,0:00:27.34,Base,,0,0,0,,{\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}lactancia
+Dialogue: 0,0:00:27.34,0:00:27.91,Base,,0,0,0,,{\rBase}con {\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}lactancia
+Dialogue: 0,0:00:27.86,0:00:28.38,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}materna. {\rBase}La {\rBase}mayoría
+Dialogue: 0,0:00:28.38,0:00:29.26,Base,,0,0,0,,{\rBase}materna. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La {\rBase}mayoría
+Dialogue: 0,0:00:29.26,0:00:29.65,Base,,0,0,0,,{\rBase}materna. {\rBase}La {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}mayoría
+Dialogue: 0,0:00:29.60,0:00:29.82,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}los {\rBase}antibióticos,
+Dialogue: 0,0:00:29.82,0:00:29.96,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}los {\rBase}antibióticos,
+Dialogue: 0,0:00:29.96,0:00:30.89,Base,,0,0,0,,{\rBase}de {\rBase}los {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}antibióticos,
+Dialogue: 0,0:00:30.96,0:00:32.48,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}amoxicilina, {\rBase}cefalexina, {\rBase}analgésicos,
+Dialogue: 0,0:00:32.48,0:00:33.74,Base,,0,0,0,,{\rBase}amoxicilina, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cefalexina, {\rBase}analgésicos,
+Dialogue: 0,0:00:33.74,0:00:34.59,Base,,0,0,0,,{\rBase}amoxicilina, {\rBase}cefalexina, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}analgésicos,
+Dialogue: 0,0:00:34.66,0:00:35.56,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}paracetamol {\rBase}y {\rBase}buprofeno,
+Dialogue: 0,0:00:35.56,0:00:35.78,Base,,0,0,0,,{\rBase}paracetamol {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}buprofeno,
+Dialogue: 0,0:00:35.78,0:00:36.45,Base,,0,0,0,,{\rBase}paracetamol {\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}buprofeno,
+Dialogue: 0,0:00:36.60,0:00:36.96,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}antidepresivos, {\rBase}sertralina,
+Dialogue: 0,0:00:36.96,0:00:38.36,Base,,0,0,0,,{\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}antidepresivos, {\rBase}sertralina,
+Dialogue: 0,0:00:38.36,0:00:39.05,Base,,0,0,0,,{\rBase}y {\rBase}antidepresivos, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sertralina,
+Dialogue: 0,0:00:39.24,0:00:40.10,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}paroxetina, {\rBase}pasan {\rBase}a
+Dialogue: 0,0:00:40.10,0:00:40.76,Base,,0,0,0,,{\rBase}paroxetina, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pasan {\rBase}a
+Dialogue: 0,0:00:40.76,0:00:40.89,Base,,0,0,0,,{\rBase}paroxetina, {\rBase}pasan {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}a
+Dialogue: 0,0:00:40.84,0:00:40.92,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}leche {\rBase}en
+Dialogue: 0,0:00:40.92,0:00:41.18,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}leche {\rBase}en
+Dialogue: 0,0:00:41.18,0:00:41.41,Base,,0,0,0,,{\rBase}la {\rBase}leche {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en
+Dialogue: 0,0:00:41.36,0:00:42.12,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}concentraciones {\rBase}insignificantes, {\rBase}2
+Dialogue: 0,0:00:42.12,0:00:43.44,Base,,0,0,0,,{\rBase}concentraciones {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}insignificantes, {\rBase}2
+Dialogue: 0,0:00:43.44,0:00:43.99,Base,,0,0,0,,{\rBase}concentraciones {\rBase}insignificantes, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}2
+Dialogue: 0,0:00:43.94,0:00:44.38,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}% {\rBase}de {\rBase}la
+Dialogue: 0,0:00:44.38,0:00:44.68,Base,,0,0,0,,{\rBase}% {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}la
+Dialogue: 0,0:00:44.68,0:00:44.87,Base,,0,0,0,,{\rBase}% {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la
+Dialogue: 0,0:00:44.82,0:00:45.16,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}dosis {\rBase}materna, {\rBase}y
+Dialogue: 0,0:00:45.16,0:00:45.82,Base,,0,0,0,,{\rBase}dosis {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}materna, {\rBase}y
+Dialogue: 0,0:00:45.82,0:00:46.25,Base,,0,0,0,,{\rBase}dosis {\rBase}materna, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y
+Dialogue: 0,0:00:46.20,0:00:46.42,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}son {\rBase}seguros {\rBase}para
+Dialogue: 0,0:00:46.42,0:00:46.86,Base,,0,0,0,,{\rBase}son {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}seguros {\rBase}para
+Dialogue: 0,0:00:46.86,0:00:47.13,Base,,0,0,0,,{\rBase}son {\rBase}seguros {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}para
+Dialogue: 0,0:00:47.08,0:00:47.24,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}lactante. {\rBase}El
+Dialogue: 0,0:00:47.24,0:00:48.00,Base,,0,0,0,,{\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}lactante. {\rBase}El
+Dialogue: 0,0:00:48.00,0:00:48.59,Base,,0,0,0,,{\rBase}el {\rBase}lactante. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El
+Dialogue: 0,0:00:48.54,0:00:48.88,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}mito {\rBase}del {\rBase}corte
+Dialogue: 0,0:00:48.88,0:00:49.06,Base,,0,0,0,,{\rBase}mito {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}del {\rBase}corte
+Dialogue: 0,0:00:49.06,0:00:49.49,Base,,0,0,0,,{\rBase}mito {\rBase}del {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}corte
+Dialogue: 0,0:00:49.44,0:00:49.54,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}lactancia {\rBase}por
+Dialogue: 0,0:00:49.54,0:00:50.08,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}lactancia {\rBase}por
+Dialogue: 0,0:00:50.08,0:00:50.35,Base,,0,0,0,,{\rBase}de {\rBase}lactancia {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}por
+Dialogue: 0,0:00:50.30,0:00:51.02,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}medicación {\rBase}lleva {\rBase}a
+Dialogue: 0,0:00:51.02,0:00:51.72,Base,,0,0,0,,{\rBase}medicación {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}lleva {\rBase}a
+Dialogue: 0,0:00:51.72,0:00:52.03,Base,,0,0,0,,{\rBase}medicación {\rBase}lleva {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}a
+Dialogue: 0,0:00:51.98,0:00:52.84,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}abandonos {\rBase}innecesarios.
+Dialogue: 0,0:00:52.84,0:00:53.43,Base,,0,0,0,,{\rBase}abandonos {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}innecesarios.

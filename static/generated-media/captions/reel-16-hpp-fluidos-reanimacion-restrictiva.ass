@@ -1,0 +1,64 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H003C3CE6,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.28,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La {\rBase}respuesta {\rBase}instintiva
+Dialogue: 0,0:00:00.28,0:00:00.60,Base,,0,0,0,,{\rBase}La {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}respuesta {\rBase}instintiva
+Dialogue: 0,0:00:00.60,0:00:01.31,Base,,0,0,0,,{\rBase}La {\rBase}respuesta {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}instintiva
+Dialogue: 0,0:00:01.26,0:00:01.48,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ante {\rBase}una {\rBase}HPP
+Dialogue: 0,0:00:01.48,0:00:01.74,Base,,0,0,0,,{\rBase}ante {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}una {\rBase}HPP
+Dialogue: 0,0:00:01.74,0:00:02.39,Base,,0,0,0,,{\rBase}ante {\rBase}una {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}HPP
+Dialogue: 0,0:00:02.34,0:00:02.76,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}es {\rBase}llenar {\rBase}al
+Dialogue: 0,0:00:02.76,0:00:03.48,Base,,0,0,0,,{\rBase}es {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}llenar {\rBase}al
+Dialogue: 0,0:00:03.48,0:00:03.65,Base,,0,0,0,,{\rBase}es {\rBase}llenar {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}al
+Dialogue: 0,0:00:03.60,0:00:04.42,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}paciente, {\rBase}pero {\rBase}el
+Dialogue: 0,0:00:04.42,0:00:04.76,Base,,0,0,0,,{\rBase}paciente, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pero {\rBase}el
+Dialogue: 0,0:00:04.76,0:00:04.95,Base,,0,0,0,,{\rBase}paciente, {\rBase}pero {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el
+Dialogue: 0,0:00:04.90,0:00:05.34,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}exceso {\rBase}de {\rBase}cristaloides
+Dialogue: 0,0:00:05.34,0:00:05.46,Base,,0,0,0,,{\rBase}exceso {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}cristaloides
+Dialogue: 0,0:00:05.46,0:00:06.29,Base,,0,0,0,,{\rBase}exceso {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cristaloides
+Dialogue: 0,0:00:06.24,0:00:06.90,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}empeora {\rBase}la {\rBase}coagulopatía
+Dialogue: 0,0:00:06.90,0:00:07.06,Base,,0,0,0,,{\rBase}empeora {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}coagulopatía
+Dialogue: 0,0:00:07.06,0:00:08.03,Base,,0,0,0,,{\rBase}empeora {\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}coagulopatía
+Dialogue: 0,0:00:07.98,0:00:08.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}la {\rBase}acidosis
+Dialogue: 0,0:00:08.26,0:00:08.38,Base,,0,0,0,,{\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}acidosis
+Dialogue: 0,0:00:08.38,0:00:08.91,Base,,0,0,0,,{\rBase}y {\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}acidosis
+Dialogue: 0,0:00:08.86,0:00:09.78,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}metabólica. {\rBase}La {\rBase}reanimación
+Dialogue: 0,0:00:09.78,0:00:10.56,Base,,0,0,0,,{\rBase}metabólica. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La {\rBase}reanimación
+Dialogue: 0,0:00:10.56,0:00:11.19,Base,,0,0,0,,{\rBase}metabólica. {\rBase}La {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}reanimación
+Dialogue: 0,0:00:11.14,0:00:11.32,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}cristaloides {\rBase}en
+Dialogue: 0,0:00:11.32,0:00:11.96,Base,,0,0,0,,{\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cristaloides {\rBase}en
+Dialogue: 0,0:00:11.96,0:00:12.19,Base,,0,0,0,,{\rBase}con {\rBase}cristaloides {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en
+Dialogue: 0,0:00:12.14,0:00:12.74,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}HPP {\rBase}debe {\rBase}limitarse
+Dialogue: 0,0:00:12.74,0:00:13.24,Base,,0,0,0,,{\rBase}HPP {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}debe {\rBase}limitarse
+Dialogue: 0,0:00:13.24,0:00:13.89,Base,,0,0,0,,{\rBase}HPP {\rBase}debe {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}limitarse
+Dialogue: 0,0:00:13.84,0:00:14.00,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}a {\rBase}1 {\rBase},2L
+Dialogue: 0,0:00:14.00,0:00:14.38,Base,,0,0,0,,{\rBase}a {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}1 {\rBase},2L
+Dialogue: 0,0:00:14.38,0:00:15.15,Base,,0,0,0,,{\rBase}a {\rBase}1 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)},2L
+Dialogue: 0,0:00:15.10,0:00:15.54,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}antes {\rBase}de {\rBase}iniciar
+Dialogue: 0,0:00:15.54,0:00:15.72,Base,,0,0,0,,{\rBase}antes {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}iniciar
+Dialogue: 0,0:00:15.72,0:00:16.29,Base,,0,0,0,,{\rBase}antes {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}iniciar
+Dialogue: 0,0:00:16.24,0:00:17.84,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hemoderivados. {\rBase}La {\rBase}administración
+Dialogue: 0,0:00:17.84,0:00:18.40,Base,,0,0,0,,{\rBase}hemoderivados. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La {\rBase}administración
+Dialogue: 0,0:00:18.40,0:00:19.13,Base,,0,0,0,,{\rBase}hemoderivados. {\rBase}La {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}administración
+Dialogue: 0,0:00:19.08,0:00:19.62,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}excesiva {\rBase}de {\rBase}cristaloides,
+Dialogue: 0,0:00:19.62,0:00:19.76,Base,,0,0,0,,{\rBase}excesiva {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}cristaloides,
+Dialogue: 0,0:00:19.76,0:00:20.57,Base,,0,0,0,,{\rBase}excesiva {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cristaloides,
+Dialogue: 0,0:00:20.64,0:00:21.58,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}3L, {\rBase}se {\rBase}asocia
+Dialogue: 0,0:00:21.58,0:00:21.98,Base,,0,0,0,,{\rBase}3L, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}se {\rBase}asocia
+Dialogue: 0,0:00:21.98,0:00:22.41,Base,,0,0,0,,{\rBase}3L, {\rBase}se {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}asocia
+Dialogue: 0,0:00:22.36,0:00:22.60,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}coagulopatía {\rBase}dilucional
+Dialogue: 0,0:00:22.60,0:00:23.52,Base,,0,0,0,,{\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}coagulopatía {\rBase}dilucional
+Dialogue: 0,0:00:23.52,0:00:24.19,Base,,0,0,0,,{\rBase}con {\rBase}coagulopatía {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}dilucional
+Dialogue: 0,0:00:24.14,0:00:24.48,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}mayor {\rBase}mortalidad.
+Dialogue: 0,0:00:24.48,0:00:24.84,Base,,0,0,0,,{\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}mayor {\rBase}mortalidad.
+Dialogue: 0,0:00:24.84,0:00:25.57,Base,,0,0,0,,{\rBase}y {\rBase}mayor {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}mortalidad.

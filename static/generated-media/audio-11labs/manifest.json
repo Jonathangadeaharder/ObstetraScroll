@@ -1,0 +1,706 @@
+{
+  "generatedAt": "2026-05-20T23:03:50.069Z",
+  "voiceId": "D6fGRDoSy1WFiaIpAbC7",
+  "items": [
+    {
+      "slug": "reel-01-hpp-oxitocina-profilaxis-10ui",
+      "title": "10 UI de oxitocina en el 3er periodo reduce HPP un 60%",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-01-hpp-oxitocina-profilaxis-10ui.mp3"
+    },
+    {
+      "slug": "reel-02-hpp-amtsl-vs-expectante",
+      "title": "El manejo activo del 3er periodo duplica la protección contra HPP",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-02-hpp-amtsl-vs-expectante.mp3"
+    },
+    {
+      "slug": "reel-03-hpp-acido-tranexamico-woman",
+      "title": "Ácido tranexámico en HPP: cada minuto cuenta",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-03-hpp-acido-tranexamico-woman.mp3"
+    },
+    {
+      "slug": "reel-04-hpp-masaje-uterano-post-parto",
+      "title": "El masaje uterino cada 15 minutos no previene HPP",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-04-hpp-masaje-uterano-post-parto.mp3"
+    },
+    {
+      "slug": "reel-05-hpp-carbetocina-paises-ingresos-medios",
+      "title": "Carbetocina estable en temperatura ambiente supera a oxitocina termolábil",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-05-hpp-carbetocina-paises-ingresos-medios.mp3"
+    },
+    {
+      "slug": "reel-06-hpp-misoprostol-segunda-linea",
+      "title": "Misoprostol sublingual salva vidas donde no hay oxitocina",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-06-hpp-misoprostol-segunda-linea.mp3"
+    },
+    {
+      "slug": "reel-07-hpp-traccion-controlada-cordon",
+      "title": "La tracción controlada del cordón no previene HPP por sí sola",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-07-hpp-traccion-controlada-cordon.mp3"
+    },
+    {
+      "slug": "reel-08-hpp-compresion-bimanual-uterina",
+      "title": "Compresión bimanual uterina: la maniobra que todos deberían conocer",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-08-hpp-compresion-bimanual-uterina.mp3"
+    },
+    {
+      "slug": "reel-09-hpp-taponamiento-balón-uterino",
+      "title": "El balón de taponamiento uterino evita cirugías mayores en HPP",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-09-hpp-taponamiento-balón-uterino.mp3"
+    },
+    {
+      "slug": "reel-10-hpp-ligadura-arterias-uterinas",
+      "title": "Ligadura de arterias uterinas preserva fertilidad en HPP refractaria",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-10-hpp-ligadura-arterias-uterinas.mp3"
+    },
+    {
+      "slug": "reel-11-hpp-hemoglobina-predictor-riesgo",
+      "title": "Hemoglobina preparto <11 g/dL triplica riesgo de HPP severa",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-11-hpp-hemoglobina-predictor-riesgo.mp3"
+    },
+    {
+      "slug": "reel-12-hpp-atonia-causa-principal",
+      "title": "La atonía uterina causa el 80% de las HPP",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-12-hpp-atonia-causa-principal.mp3"
+    },
+    {
+      "slug": "reel-13-hpp-desgarros-perineales-grado-3-4",
+      "title": "Los desgarros perineales severos duplican el riesgo de HPP tardía",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-13-hpp-desgarros-perineales-grado-3-4.mp3"
+    },
+    {
+      "slug": "reel-14-hpp-acretismo-placentario-mortalidad",
+      "title": "El acretismo placentario quintuplica el riesgo de muerte materna",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-14-hpp-acretismo-placentario-mortalidad.mp3"
+    },
+    {
+      "slug": "reel-15-hpp-cesarea-hemorragia-mayor-volumen",
+      "title": "Cesárea duplica la pérdida sanguínea comparada con parto vaginal",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-15-hpp-cesarea-hemorragia-mayor-volumen.mp3"
+    },
+    {
+      "slug": "reel-16-hpp-fluidos-reanimacion-restrictiva",
+      "title": "La reanimación con líquidos en HPP debe ser restrictiva",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-16-hpp-fluidos-reanimacion-restrictiva.mp3"
+    },
+    {
+      "slug": "reel-17-hpp-transfusion-temprana-razon-1-1",
+      "title": "Transfusión 1:1 en HPP mejora supervivencia",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-17-hpp-transfusion-temprana-razon-1-1.mp3"
+    },
+    {
+      "slug": "reel-18-hpp-simulacion-equipos-resultados",
+      "title": "Simulación clínica en HPP reduce mortalidad un 30%",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-18-hpp-simulacion-equipos-resultados.mp3"
+    },
+    {
+      "slug": "reel-19-hpp-retencion-restos-placentarios",
+      "title": "Restos placentarios: la causa olvidada de HPP secundaria",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-19-hpp-retencion-restos-placentarios.mp3"
+    },
+    {
+      "slug": "reel-20-hpp-ecografia-diagnostico-causa",
+      "title": "La ecografía en HPP aguda identifica causa en segundos",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-20-hpp-ecografia-diagnostico-causa.mp3"
+    },
+    {
+      "slug": "reel-21-preeclampsia-aspirina-baja-dosis",
+      "title": "Aspirina 150 mg desde las 12 semanas reduce preeclampsia un 60%",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-21-preeclampsia-aspirina-baja-dosis.mp3"
+    },
+    {
+      "slug": "reel-22-preeclampsia-calcio-suplementacion",
+      "title": "Calcio 1-2 g/día reduce preeclampsia un 50% en poblaciones con baja ingesta",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-22-preeclampsia-calcio-suplementacion.mp3"
+    },
+    {
+      "slug": "reel-23-preeclampsia-sulfato-magnesio-eclampsia",
+      "title": "Sulfato de magnesio reduce convulsiones eclámpticas un 50%",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-23-preeclampsia-sulfato-magnesio-eclampsia.mp3"
+    },
+    {
+      "slug": "reel-24-preeclampsia-parto-electivo-37-semanas",
+      "title": "Parto electivo a las 37 semanas reduce complicaciones en preeclampsia",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-24-preeclampsia-parto-electivo-37-semanas.mp3"
+    },
+    {
+      "slug": "reel-25-preeclampsia-ecografia-arterias-uterinas",
+      "title": "Ecografía de arterias uterinas predice preeclampsia desde el primer trimestre",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-25-preeclampsia-ecografia-arterias-uterinas.mp3"
+    },
+    {
+      "slug": "reel-26-preeclampsia-plgf-sflt1-diagnostico",
+      "title": "Cociente sFlt-1/PlGF descarta preeclampsia con 99% de certeza",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-26-preeclampsia-plgf-sflt1-diagnostico.mp3"
+    },
+    {
+      "slug": "reel-27-preeclampsia-pedales-tipico-atipico",
+      "title": "El edema de miembros inferiores no es criterio diagnóstico de preeclampsia",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-27-preeclampsia-pedales-tipico-atipico.mp3"
+    },
+    {
+      "slug": "reel-28-preeclampsia-hellp-mortalidad",
+      "title": "Síndrome HELLP tiene mortalidad materna del 1-3%",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-28-preeclampsia-hellp-mortalidad.mp3"
+    },
+    {
+      "slug": "reel-29-preeclampsia-ejercicio-prevencion",
+      "title": "Ejercicio aeróbico en el embarazo reduce riesgo de preeclampsia",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-29-preeclampsia-ejercicio-prevencion.mp3"
+    },
+    {
+      "slug": "reel-30-preeclampsia-obesidad-riesgo-triple",
+      "title": "Obesidad pregestacional triplica riesgo de preeclampsia",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-30-preeclampsia-obesidad-riesgo-triple.mp3"
+    },
+    {
+      "slug": "reel-31-preeclampsia-seguimiento-posparto-cardiovascular",
+      "title": "Preeclampsia quintuplica riesgo cardiovascular futuro",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-31-preeclampsia-seguimiento-posparto-cardiovascular.mp3"
+    },
+    {
+      "slug": "reel-32-preeclampsia-progesterona-no-previene",
+      "title": "La progesterona no previene ni trata la preeclampsia",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-32-preeclampsia-progesterona-no-previene.mp3"
+    },
+    {
+      "slug": "reel-33-preeclampsia-presion-arterial-135-85",
+      "title": "PA 135/85 mmHg merece vigilancia, no esperar a 140/90",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-33-preeclampsia-presion-arterial-135-85.mp3"
+    },
+    {
+      "slug": "reel-34-preeclampsia-episiotomia-no-recomendada",
+      "title": "La episiotomía no está indicada en preeclampsia severa",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-34-preeclampsia-episiotomia-no-recomendada.mp3"
+    },
+    {
+      "slug": "reel-35-preeclampsia-urale-muerte-evitable",
+      "title": "La preeclampsia sigue siendo una de las principales causas de muerte materna evitable",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-35-preeclampsia-urale-muerte-evitable.mp3"
+    },
+    {
+      "slug": "reel-36-sepsis-neonatal-gbs-profilaxis-intraparto",
+      "title": "Profilaxis intraparto con penicilina reduce sepsis por GBS un 80%",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-36-sepsis-neonatal-gbs-profilaxis-intraparto.mp3"
+    },
+    {
+      "slug": "reel-37-sepsis-neonatal-lactobacillus-oral-prematuro",
+      "title": "Lactobacillus oral reduce enterocolitis necrotizante en prematuros",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-37-sepsis-neonatal-lactobacillus-oral-prematuro.mp3"
+    },
+    {
+      "slug": "reel-38-sepsis-neonatal-pcr-diagnostico",
+      "title": "PCR al nacer no descarta sepsis neonatal",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-38-sepsis-neonatal-pcr-diagnostico.mp3"
+    },
+    {
+      "slug": "reel-39-sepsis-neonatal-lactancia-materna-prevencion",
+      "title": "Lactancia materna reduce 50% el riesgo de sepsis neonatal tardía",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-39-sepsis-neonatal-lactancia-materna-prevencion.mp3"
+    },
+    {
+      "slug": "reel-40-sepsis-neonatal-algoritmo-kaiser",
+      "title": "El algoritmo de Kaiser reduce antibioticoterapia innecesaria un 50%",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-40-sepsis-neonatal-algoritmo-kaiser.mp3"
+    },
+    {
+      "slug": "reel-41-sepsis-neonatal-liquido-amniotico-meconial",
+      "title": "Líquido meconial no siempre indica infección neonatal",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-41-sepsis-neonatal-liquido-amniotico-meconial.mp3"
+    },
+    {
+      "slug": "reel-42-sepsis-neonatal-clorhexidina-cordon-oms",
+      "title": "Clorhexidina en el cordón umbilical reduce mortalidad neonatal un 34%",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-42-sepsis-neonatal-clorhexidina-cordon-oms.mp3"
+    },
+    {
+      "slug": "reel-43-sepsis-neonatal-bacterias-multirresistentes-uci",
+      "title": "El 70% de las sepsis neonatales en UCI son por bacterias multirresistentes",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-43-sepsis-neonatal-bacterias-multirresistentes-uci.mp3"
+    },
+    {
+      "slug": "reel-44-sepsis-neonatal-rmn-pretermino-profilaxis",
+      "title": "RPM pretérmino: 48 horas de latencia reducen sepsis neonatal",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-44-sepsis-neonatal-rmn-pretermino-profilaxis.mp3"
+    },
+    {
+      "slug": "reel-45-sepsis-neonatal-piel-con-piel-infeccion",
+      "title": "El contacto piel con piel no aumenta riesgo de sepsis neonatal",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-45-sepsis-neonatal-piel-con-piel-infeccion.mp3"
+    },
+    {
+      "slug": "reel-46-prematuro-progesterona-vaginal-prevencion",
+      "title": "Progesterona vaginal reduce parto prematuro un 45% en cuello corto",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-46-prematuro-progesterona-vaginal-prevencion.mp3"
+    },
+    {
+      "slug": "reel-47-prematuro-cerclaje-cervical-emergencia",
+      "title": "Cerclaje de emergencia salva embarazos con dilatación cervical",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-47-prematuro-cerclaje-cervical-emergencia.mp3"
+    },
+    {
+      "slug": "reel-48-prematuro-corticoides-antenatales-sobrevida",
+      "title": "Corticoides antenatales reducen muerte neonatal un 40%",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-48-prematuro-corticoides-antenatales-sobrevida.mp3"
+    },
+    {
+      "slug": "reel-49-prematuro-sulfato-magnesio-neuroproteccion",
+      "title": "Sulfato de magnesio antes del parto prematuro protege el cerebro neonatal",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-49-prematuro-sulfato-magnesio-neuroproteccion.mp3"
+    },
+    {
+      "slug": "reel-50-prematuro-tocoliticos-bloqueo-canales-calcio",
+      "title": "Nifedipina y atosiban son igualmente efectivos como tocolíticos",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-50-prematuro-tocoliticos-bloqueo-canales-calcio.mp3"
+    },
+    {
+      "slug": "reel-51-prematuro-longitud-cervical-universal",
+      "title": "Cribado universal de longitud cervical a las 20-24 semanas reduce prematuridad",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-51-prematuro-longitud-cervical-universal.mp3"
+    },
+    {
+      "slug": "reel-52-prematuro-fibronectina-fetal-triaje",
+      "title": "Fibronectina fetal negativa descarta parto prematuro en 7-14 días",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-52-prematuro-fibronectina-fetal-triaje.mp3"
+    },
+    {
+      "slug": "reel-53-prematuro-cesarea-sistematica-no-mejora",
+      "title": "Cesárea sistemática en prematuros no mejora resultados neonatales",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-53-prematuro-cesarea-sistematica-no-mejora.mp3"
+    },
+    {
+      "slug": "reel-54-prematuro-periodontal-enfermedad-riesgo",
+      "title": "Enfermedad periodontal duplica riesgo de parto prematuro",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-54-prematuro-periodontal-enfermedad-riesgo.mp3"
+    },
+    {
+      "slug": "reel-55-prematuro-brecha-global-mortalidad",
+      "title": "El parto prematuro es la principal causa de muerte en menores de 5 años",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-55-prematuro-brecha-global-mortalidad.mp3"
+    },
+    {
+      "slug": "reel-56-asfixia-reanimacion-90-segundos-cordon",
+      "title": "Esperar 60-90 segundos antes de pinzar el cordón en reanimación mejora resultados",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-56-asfixia-reanimacion-90-segundos-cordon.mp3"
+    },
+    {
+      "slug": "reel-57-asfixia-hipotermia-terapeutica-neuroproteccion",
+      "title": "Hipotermia terapéutica reduce muerte y discapacidad en asfixia un 30%",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-57-asfixia-hipotermia-terapeutica-neuroproteccion.mp3"
+    },
+    {
+      "slug": "reel-58-asfixia-magnestio-no-neuroproteccion",
+      "title": "El sulfato de magnesio posnatal no es neuroprotector en asfixia",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-58-asfixia-magnestio-no-neuroproteccion.mp3"
+    },
+    {
+      "slug": "reel-59-asfixia-liquido-meconial-aspiracion-no",
+      "title": "La aspiración de vía aérea en meconio NO está recomendada",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-59-asfixia-liquido-meconial-aspiracion-no.mp3"
+    },
+    {
+      "slug": "reel-60-asfixia-pH-arterial-cordon-umbilical",
+      "title": "pH de cordón <7.0 confirma asfixia pero no predice parálisis cerebral",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-60-asfixia-pH-arterial-cordon-umbilical.mp3"
+    },
+    {
+      "slug": "reel-61-asfixia-oxigeno-21porciento-reanimacion",
+      "title": "La reanimación neonatal debe iniciar con aire (21% O2), no oxígeno puro",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-61-asfixia-oxigeno-21porciento-reanimacion.mp3"
+    },
+    {
+      "slug": "reel-62-asfixia-encefalopatia-grado-leve-secuelas",
+      "title": "La encefalopatía hipóxico-isquémica leve tiene secuelas a largo plazo",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-62-asfixia-encefalopatia-grado-leve-secuelas.mp3"
+    },
+    {
+      "slug": "reel-63-asfixia-cesarea-no-mejora-asfixia-cronica",
+      "title": "La cesárea no previene la asfixia perinatal crónica",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-63-asfixia-cesarea-no-mejora-asfixia-cronica.mp3"
+    },
+    {
+      "slug": "reel-64-asfixia-biomarcadores-tempranos-enol",
+      "title": "La enolasa neuronal sérica a las 6 horas predice severidad de asfixia",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-64-asfixia-biomarcadores-tempranos-enol.mp3"
+    },
+    {
+      "slug": "reel-65-asfixia-cuidados-paliativos-perinatales",
+      "title": "Cuidados paliativos perinatales son una opción válida en asfixia severa",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-65-asfixia-cuidados-paliativos-perinatales.mp3"
+    },
+    {
+      "slug": "reel-66-infecciones-vih-tar-carga-viral-indetectable",
+      "title": "Carga viral indetectable = 0% de transmisión vertical del VIH",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-66-infecciones-vih-tar-carga-viral-indetectable.mp3"
+    },
+    {
+      "slug": "reel-67-infecciones-sifilis-bencilpenicilina-curativa",
+      "title": "Una dosis de penicilina bencílica en sífilis temprana previene sífilis congénita",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-67-infecciones-sifilis-bencilpenicilina-curativa.mp3"
+    },
+    {
+      "slug": "reel-68-infecciones-malaria-iptp-sulfadoxina-pirimetamina",
+      "title": "Sulfadoxina-pirimetamina reduce malaria placentaria un 75%",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-68-infecciones-malaria-iptp-sulfadoxina-pirimetamina.mp3"
+    },
+    {
+      "slug": "reel-69-infecciones-vih-lactancia-materna-tar",
+      "title": "Lactancia materna con TAR tiene <1% de transmisión de VIH",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-69-infecciones-vih-lactancia-materna-tar.mp3"
+    },
+    {
+      "slug": "reel-70-infecciones-sifilis-cribado-universal-obligatorio",
+      "title": "El cribado universal de sífilis en el primer trimestre es costo-efectivo",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-70-infecciones-sifilis-cribado-universal-obligatorio.mp3"
+    },
+    {
+      "slug": "reel-71-infecciones-malaria-mosquitero-embarazo",
+      "title": "El mosquitero tratado con insecticida reduce malaria gestacional un 40%",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-71-infecciones-malaria-mosquitero-embarazo.mp3"
+    },
+    {
+      "slug": "reel-72-infecciones-vih-parto-vaginal-seguro",
+      "title": "Parto vaginal en VIH con carga viral indetectable es seguro",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-72-infecciones-vih-parto-vaginal-seguro.mp3"
+    },
+    {
+      "slug": "reel-73-infecciones-torch-citomegalovirus-valaciclovir",
+      "title": "Valaciclovir reduce transmisión vertical de CMV un 71%",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-73-infecciones-torch-citomegalovirus-valaciclovir.mp3"
+    },
+    {
+      "slug": "reel-74-infecciones-vph-cribado-prenatal-no-recomendado",
+      "title": "El cribado de VPH en el embarazo no está recomendado",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-74-infecciones-vph-cribado-prenatal-no-recomendado.mp3"
+    },
+    {
+      "slug": "reel-75-infecciones-tuberculosis-embarazo-isoniazida",
+      "title": "La isoniacida profiláctica en embarazadas con VIH reduce TB en un 40%",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-75-infecciones-tuberculosis-embarazo-isoniazida.mp3"
+    },
+    {
+      "slug": "reel-76-nutricion-acido-folico-neurotubo",
+      "title": "Ácido fólico pre-concepcional reduce defectos de tubo neural un 70%",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-76-nutricion-acido-folico-neurotubo.mp3"
+    },
+    {
+      "slug": "reel-77-nutricion-hierro-anemia-materna",
+      "title": "Hierro suplementario reduce anemia materna en un 70%",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-77-nutricion-hierro-anemia-materna.mp3"
+    },
+    {
+      "slug": "reel-78-nutricion-yodo-deficiencia-cognitivo",
+      "title": "La deficiencia de yodo en el embarazo reduce el CI infantil 10-15 puntos",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-78-nutricion-yodo-deficiencia-cognitivo.mp3"
+    },
+    {
+      "slug": "reel-79-nutricion-vitamina-d-embarazo",
+      "title": "Vitamina D en el embarazo reduce el riesgo de bajo peso al nacer en un 40%",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-79-nutricion-vitamina-d-embarazo.mp3"
+    },
+    {
+      "slug": "reel-80-nutricion-dieta-mediterranea-gestacional",
+      "title": "La dieta mediterránea reduce diabetes gestacional un 35%",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-80-nutricion-dieta-mediterranea-gestacional.mp3"
+    },
+    {
+      "slug": "reel-81-nutricion-zinc-embarazo-resultados",
+      "title": "El zinc reduce el parto prematuro en un 14%",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-81-nutricion-zinc-embarazo-resultados.mp3"
+    },
+    {
+      "slug": "reel-82-nutricion-obesidad-materna-riesgo-fetal",
+      "title": "Obesidad materna duplica riesgo de muerte fetal",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-82-nutricion-obesidad-materna-riesgo-fetal.mp3"
+    },
+    {
+      "slug": "reel-83-nutricion-suplementos-multimicronutrientes",
+      "title": "Suplementos multimicronutrientes reducen bajo peso al nacer un 15%",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-83-nutricion-suplementos-multimicronutrientes.mp3"
+    },
+    {
+      "slug": "reel-84-nutricion-proteinas-balance-energetico",
+      "title": "Suplementos proteico-energéticos balanceados reducen muerte fetal",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-84-nutricion-proteinas-balance-energetico.mp3"
+    },
+    {
+      "slug": "reel-85-nutricion-cafeina-embarazo-límite",
+      "title": "Más de 200 mg/día de cafeína duplica riesgo de restricción de crecimiento fetal",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-85-nutricion-cafeina-embarazo-límite.mp3"
+    },
+    {
+      "slug": "reel-86-diversos-lactancia-exclusiva-6-meses",
+      "title": "Lactancia materna exclusiva 6 meses reduce mortalidad infantil un 80%",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-86-diversos-lactancia-exclusiva-6-meses.mp3"
+    },
+    {
+      "slug": "reel-87-diversos-tabaco-placenta-insuficiencia",
+      "title": "Fumar en el embarazo reduce el peso al nacer 200 gramos en promedio",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-87-diversos-tabaco-placenta-insuficiencia.mp3"
+    },
+    {
+      "slug": "reel-88-diversos-salud-mental-depresion-posparto-edimburgo",
+      "title": "La escala de Edimburgo detecta depresión posparto con 86% de sensibilidad",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-88-diversos-salud-mental-depresion-posparto-edimburgo.mp3"
+    },
+    {
+      "slug": "reel-89-diversos-lactancia-cancer-materno",
+      "title": "Lactancia materna reduce cáncer de mama un 6% por cada año acumulado",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-89-diversos-lactancia-cancer-materno.mp3"
+    },
+    {
+      "slug": "reel-90-diversos-alcohol-sindrome-fetal-alcoholico",
+      "title": "No hay umbral seguro de alcohol en el embarazo",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-90-diversos-alcohol-sindrome-fetal-alcoholico.mp3"
+    },
+    {
+      "slug": "reel-91-diversos-ejercicio-piso-pelvico-incontinencia",
+      "title": "Ejercicios de piso pélvico en el embarazo reducen incontinencia urinaria posparto un 50%",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-91-diversos-ejercicio-piso-pelvico-incontinencia.mp3"
+    },
+    {
+      "slug": "reel-92-diversos-parto-en-agua-no-mejora-resultados",
+      "title": "El parto en agua no mejora resultados perinatales comparado con parto fuera del agua",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-92-diversos-parto-en-agua-no-mejora-resultados.mp3"
+    },
+    {
+      "slug": "reel-93-diversos-continuidad-partera-mortalidad",
+      "title": "Modelo de continuidad de partera reduce mortalidad perinatal un 20%",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-93-diversos-continuidad-partera-mortalidad.mp3"
+    },
+    {
+      "slug": "reel-94-diversos-doulas-resultados-perinatales",
+      "title": "El acompañamiento continuo por doula reduce cesáreas un 30%",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-94-diversos-doulas-resultados-perinatales.mp3"
+    },
+    {
+      "slug": "reel-95-diversos-tamizaje-neonatal-talon",
+      "title": "El tamizaje neonatal metabólico detecta 30+ enfermedades antes de los síntomas",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-95-diversos-tamizaje-neonatal-talon.mp3"
+    },
+    {
+      "slug": "reel-96-diversos-lactancia-farmacos-compatibles",
+      "title": "Más del 90% de los fármacos son compatibles con la lactancia materna",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-96-diversos-lactancia-farmacos-compatibles.mp3"
+    },
+    {
+      "slug": "reel-97-diversos-posicion-vertical-parto",
+      "title": "La posición vertical en el parto reduce el segundo período en 25 minutos",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-97-diversos-posicion-vertical-parto.mp3"
+    },
+    {
+      "slug": "reel-98-diversos-pinzamiento-tardio-prematuros",
+      "title": "El pinzamiento tardío del cordón en prematuros reduce transfusiones un 40%",
+      "tone": "urgent",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-98-diversos-pinzamiento-tardio-prematuros.mp3"
+    },
+    {
+      "slug": "reel-99-diversos-mgso4-neuroproteccion-prematuro",
+      "title": "Sulfato de magnesio antenatal reduce parálisis cerebral un 30% en prematuros",
+      "tone": "mentor",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-99-diversos-mgso4-neuroproteccion-prematuro.mp3"
+    },
+    {
+      "slug": "reel-100-diversos-induccion-39-semanas-bajo-riesgo",
+      "title": "Inducir a las 39 semanas en bajo riesgo reduce cesáreas sin aumentar riesgos",
+      "tone": "calm",
+      "status": "done",
+      "file": "/Users/jonathangadeaharder/projects/ObstetraScroll/static/generated-media/audio-11labs/reel-100-diversos-induccion-39-semanas-bajo-riesgo.mp3"
+    }
+  ]
+}

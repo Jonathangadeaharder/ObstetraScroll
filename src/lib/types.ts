@@ -47,19 +47,13 @@ export type ReelBrief = {
 	status: "draft" | "review_required" | "ready_for_pipeline";
 };
 
-export type AIServicesOperation =
-	| "text2video"
-	| "image2video"
-	| "text2image"
-	| "text2audio"
-	| "kling-v1-6"
-	| "elevenlabs";
+export type MediaProvider = "elevenlabs" | "text2image";
 
 export type MediaAsset = {
 	kind: "video" | "audio" | "image";
 	path: string;
 	prompt: string;
-	provider: AIServicesOperation | "ffmpeg-poc";
+	provider: MediaProvider;
 };
 
 export type QuizQuestion = {

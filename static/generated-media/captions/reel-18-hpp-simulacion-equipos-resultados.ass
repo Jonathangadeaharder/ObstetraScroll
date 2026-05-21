@@ -1,0 +1,72 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0000E5FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.24,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}simulación {\rBase}se
+Dialogue: 0,0:00:00.24,0:00:00.76,Base,,0,0,0,,{\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}simulación {\rBase}se
+Dialogue: 0,0:00:00.76,0:00:00.99,Base,,0,0,0,,{\rBase}La {\rBase}simulación {\rHot\t(0,120,\fscx115\fscy115)}se
+Dialogue: 0,0:00:00.94,0:00:01.44,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}considera {\rBase}un {\rBase}gasto
+Dialogue: 0,0:00:01.44,0:00:01.54,Base,,0,0,0,,{\rBase}considera {\rHot\t(0,120,\fscx115\fscy115)}un {\rBase}gasto
+Dialogue: 0,0:00:01.54,0:00:01.87,Base,,0,0,0,,{\rBase}considera {\rBase}un {\rHot\t(0,120,\fscx115\fscy115)}gasto
+Dialogue: 0,0:00:01.82,0:00:02.40,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}operativo, {\rBase}no {\rBase}una
+Dialogue: 0,0:00:02.40,0:00:02.50,Base,,0,0,0,,{\rBase}operativo, {\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}una
+Dialogue: 0,0:00:02.50,0:00:02.73,Base,,0,0,0,,{\rBase}operativo, {\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}una
+Dialogue: 0,0:00:02.68,0:00:03.14,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}inversión {\rBase}en {\rBase}resultados,
+Dialogue: 0,0:00:03.14,0:00:03.26,Base,,0,0,0,,{\rBase}inversión {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}resultados,
+Dialogue: 0,0:00:03.26,0:00:03.79,Base,,0,0,0,,{\rBase}inversión {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}resultados,
+Dialogue: 0,0:00:04.02,0:00:04.20,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}pero {\rBase}cada {\rBase}hora
+Dialogue: 0,0:00:04.20,0:00:04.48,Base,,0,0,0,,{\rBase}pero {\rHot\t(0,120,\fscx115\fscy115)}cada {\rBase}hora
+Dialogue: 0,0:00:04.48,0:00:04.83,Base,,0,0,0,,{\rBase}pero {\rBase}cada {\rHot\t(0,120,\fscx115\fscy115)}hora
+Dialogue: 0,0:00:04.78,0:00:04.94,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}simulación {\rBase}programada
+Dialogue: 0,0:00:04.94,0:00:05.48,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}simulación {\rBase}programada
+Dialogue: 0,0:00:05.48,0:00:06.21,Base,,0,0,0,,{\rBase}de {\rBase}simulación {\rHot\t(0,120,\fscx115\fscy115)}programada
+Dialogue: 0,0:00:06.16,0:00:06.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}se {\rBase}traduce {\rBase}en
+Dialogue: 0,0:00:06.38,0:00:06.82,Base,,0,0,0,,{\rBase}se {\rHot\t(0,120,\fscx115\fscy115)}traduce {\rBase}en
+Dialogue: 0,0:00:06.82,0:00:06.99,Base,,0,0,0,,{\rBase}se {\rBase}traduce {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:06.94,0:00:07.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}vidas {\rBase}salvadas {\rBase}en
+Dialogue: 0,0:00:07.28,0:00:07.86,Base,,0,0,0,,{\rBase}vidas {\rHot\t(0,120,\fscx115\fscy115)}salvadas {\rBase}en
+Dialogue: 0,0:00:07.86,0:00:08.11,Base,,0,0,0,,{\rBase}vidas {\rBase}salvadas {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:08.06,0:00:08.18,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}mundo {\rBase}real.
+Dialogue: 0,0:00:08.18,0:00:08.46,Base,,0,0,0,,{\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}mundo {\rBase}real.
+Dialogue: 0,0:00:08.46,0:00:08.87,Base,,0,0,0,,{\rBase}el {\rBase}mundo {\rHot\t(0,120,\fscx115\fscy115)}real.
+Dialogue: 0,0:00:09.10,0:00:09.58,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}implementación {\rBase}de
+Dialogue: 0,0:00:09.58,0:00:10.18,Base,,0,0,0,,{\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}implementación {\rBase}de
+Dialogue: 0,0:00:10.18,0:00:10.35,Base,,0,0,0,,{\rBase}La {\rBase}implementación {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:10.30,0:00:10.90,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}simulaciones {\rBase}periódicas {\rBase}de
+Dialogue: 0,0:00:10.90,0:00:11.60,Base,,0,0,0,,{\rBase}simulaciones {\rHot\t(0,120,\fscx115\fscy115)}periódicas {\rBase}de
+Dialogue: 0,0:00:11.60,0:00:11.81,Base,,0,0,0,,{\rBase}simulaciones {\rBase}periódicas {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:11.76,0:00:12.30,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}HPP {\rBase}en {\rBase}equipos
+Dialogue: 0,0:00:12.30,0:00:12.54,Base,,0,0,0,,{\rBase}HPP {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}equipos
+Dialogue: 0,0:00:12.54,0:00:12.95,Base,,0,0,0,,{\rBase}HPP {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}equipos
+Dialogue: 0,0:00:12.90,0:00:13.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}sala {\rBase}de
+Dialogue: 0,0:00:13.00,0:00:13.24,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}sala {\rBase}de
+Dialogue: 0,0:00:13.24,0:00:13.45,Base,,0,0,0,,{\rBase}de {\rBase}sala {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:13.40,0:00:13.88,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}parto {\rBase}reduce {\rBase}la
+Dialogue: 0,0:00:13.88,0:00:14.32,Base,,0,0,0,,{\rBase}parto {\rHot\t(0,120,\fscx115\fscy115)}reduce {\rBase}la
+Dialogue: 0,0:00:14.32,0:00:14.57,Base,,0,0,0,,{\rBase}parto {\rBase}reduce {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:14.52,0:00:15.04,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}mortalidad {\rBase}materna {\rBase}por
+Dialogue: 0,0:00:15.04,0:00:15.54,Base,,0,0,0,,{\rBase}mortalidad {\rHot\t(0,120,\fscx115\fscy115)}materna {\rBase}por
+Dialogue: 0,0:00:15.54,0:00:15.77,Base,,0,0,0,,{\rBase}mortalidad {\rBase}materna {\rHot\t(0,120,\fscx115\fscy115)}por
+Dialogue: 0,0:00:15.72,0:00:16.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}HPP {\rBase}en {\rBase}un
+Dialogue: 0,0:00:16.28,0:00:16.56,Base,,0,0,0,,{\rBase}HPP {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}un
+Dialogue: 0,0:00:16.56,0:00:16.75,Base,,0,0,0,,{\rBase}HPP {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}un
+Dialogue: 0,0:00:16.70,0:00:17.10,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}30 {\rBase}% {\rBase}y
+Dialogue: 0,0:00:17.10,0:00:17.48,Base,,0,0,0,,{\rBase}30 {\rHot\t(0,120,\fscx115\fscy115)}% {\rBase}y
+Dialogue: 0,0:00:17.48,0:00:18.39,Base,,0,0,0,,{\rBase}30 {\rBase}% {\rHot\t(0,120,\fscx115\fscy115)}y
+Dialogue: 0,0:00:18.34,0:00:18.74,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}mejora {\rBase}el {\rBase}cumplimiento
+Dialogue: 0,0:00:18.74,0:00:18.86,Base,,0,0,0,,{\rBase}mejora {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}cumplimiento
+Dialogue: 0,0:00:18.86,0:00:19.47,Base,,0,0,0,,{\rBase}mejora {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}cumplimiento
+Dialogue: 0,0:00:19.42,0:00:19.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}protocolos {\rBase}en
+Dialogue: 0,0:00:19.62,0:00:20.28,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}protocolos {\rBase}en
+Dialogue: 0,0:00:20.28,0:00:20.57,Base,,0,0,0,,{\rBase}de {\rBase}protocolos {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:20.52,0:00:20.66,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}un {\rBase}50%.
+Dialogue: 0,0:00:20.66,0:00:21.51,Base,,0,0,0,,{\rBase}un {\rHot\t(0,120,\fscx115\fscy115)}50%.

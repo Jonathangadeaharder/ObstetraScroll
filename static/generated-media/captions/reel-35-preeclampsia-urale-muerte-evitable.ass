@@ -1,0 +1,75 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,84,&H00B4377C,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.28,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}En {\rBase}países {\rBase}de
+Dialogue: 0,0:00:00.28,0:00:00.54,Base,,0,0,0,,{\rBase}En {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}países {\rBase}de
+Dialogue: 0,0:00:00.54,0:00:00.77,Base,,0,0,0,,{\rBase}En {\rBase}países {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:00.72,0:00:01.00,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}altos {\rBase}ingresos {\rBase}la
+Dialogue: 0,0:00:01.00,0:00:01.44,Base,,0,0,0,,{\rBase}altos {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ingresos {\rBase}la
+Dialogue: 0,0:00:01.44,0:00:01.63,Base,,0,0,0,,{\rBase}altos {\rBase}ingresos {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la
+Dialogue: 0,0:00:01.58,0:00:02.04,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}mortalidad {\rBase}por {\rBase}preeclampsia
+Dialogue: 0,0:00:02.04,0:00:02.22,Base,,0,0,0,,{\rBase}mortalidad {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}por {\rBase}preeclampsia
+Dialogue: 0,0:00:02.22,0:00:02.93,Base,,0,0,0,,{\rBase}mortalidad {\rBase}por {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}preeclampsia
+Dialogue: 0,0:00:02.88,0:00:03.14,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}es {\rBase}casi {\rBase}nula,
+Dialogue: 0,0:00:03.14,0:00:03.40,Base,,0,0,0,,{\rBase}es {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}casi {\rBase}nula,
+Dialogue: 0,0:00:03.40,0:00:03.79,Base,,0,0,0,,{\rBase}es {\rBase}casi {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}nula,
+Dialogue: 0,0:00:03.98,0:00:04.38,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pero {\rBase}las {\rBase}brechas
+Dialogue: 0,0:00:04.38,0:00:04.54,Base,,0,0,0,,{\rBase}pero {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}las {\rBase}brechas
+Dialogue: 0,0:00:04.54,0:00:04.91,Base,,0,0,0,,{\rBase}pero {\rBase}las {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}brechas
+Dialogue: 0,0:00:04.86,0:00:05.04,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}detección {\rBase}temprana,
+Dialogue: 0,0:00:05.04,0:00:05.48,Base,,0,0,0,,{\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}detección {\rBase}temprana,
+Dialogue: 0,0:00:05.48,0:00:06.13,Base,,0,0,0,,{\rBase}en {\rBase}detección {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}temprana,
+Dialogue: 0,0:00:06.24,0:00:06.82,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}acceso {\rBase}a {\rBase}sulfato
+Dialogue: 0,0:00:06.82,0:00:07.02,Base,,0,0,0,,{\rBase}acceso {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}a {\rBase}sulfato
+Dialogue: 0,0:00:07.02,0:00:07.47,Base,,0,0,0,,{\rBase}acceso {\rBase}a {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sulfato
+Dialogue: 0,0:00:07.42,0:00:07.54,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}magnesio {\rBase}y
+Dialogue: 0,0:00:07.54,0:00:08.04,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}magnesio {\rBase}y
+Dialogue: 0,0:00:08.04,0:00:08.21,Base,,0,0,0,,{\rBase}de {\rBase}magnesio {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y
+Dialogue: 0,0:00:08.16,0:00:08.50,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}parto {\rBase}oportuno {\rBase}perpetúan
+Dialogue: 0,0:00:08.50,0:00:09.14,Base,,0,0,0,,{\rBase}parto {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}oportuno {\rBase}perpetúan
+Dialogue: 0,0:00:09.14,0:00:09.91,Base,,0,0,0,,{\rBase}parto {\rBase}oportuno {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}perpetúan
+Dialogue: 0,0:00:09.86,0:00:09.98,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}inequidad {\rBase}sanitaria.
+Dialogue: 0,0:00:09.98,0:00:10.46,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}inequidad {\rBase}sanitaria.
+Dialogue: 0,0:00:10.46,0:00:11.15,Base,,0,0,0,,{\rBase}la {\rBase}inequidad {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sanitaria.
+Dialogue: 0,0:00:11.30,0:00:11.76,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}A {\rBase}pesar {\rBase}de
+Dialogue: 0,0:00:11.76,0:00:12.00,Base,,0,0,0,,{\rBase}A {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pesar {\rBase}de
+Dialogue: 0,0:00:12.00,0:00:12.21,Base,,0,0,0,,{\rBase}A {\rBase}pesar {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:12.16,0:00:12.28,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}los {\rBase}avances {\rBase}en
+Dialogue: 0,0:00:12.28,0:00:12.66,Base,,0,0,0,,{\rBase}los {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}avances {\rBase}en
+Dialogue: 0,0:00:12.66,0:00:12.91,Base,,0,0,0,,{\rBase}los {\rBase}avances {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en
+Dialogue: 0,0:00:12.86,0:00:13.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}prevención {\rBase}y {\rBase}tratamiento,
+Dialogue: 0,0:00:13.26,0:00:13.36,Base,,0,0,0,,{\rBase}prevención {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}tratamiento,
+Dialogue: 0,0:00:13.36,0:00:14.01,Base,,0,0,0,,{\rBase}prevención {\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tratamiento,
+Dialogue: 0,0:00:14.40,0:00:14.46,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}preeclampsia {\rBase}-eclampsia
+Dialogue: 0,0:00:14.46,0:00:15.14,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}preeclampsia {\rBase}-eclampsia
+Dialogue: 0,0:00:15.14,0:00:15.85,Base,,0,0,0,,{\rBase}la {\rBase}preeclampsia {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}-eclampsia
+Dialogue: 0,0:00:15.80,0:00:16.18,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}causa {\rBase}46 {\rBase}.000
+Dialogue: 0,0:00:16.18,0:00:16.70,Base,,0,0,0,,{\rBase}causa {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}46 {\rBase}.000
+Dialogue: 0,0:00:16.70,0:00:17.03,Base,,0,0,0,,{\rBase}causa {\rBase}46 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}.000
+Dialogue: 0,0:00:16.98,0:00:17.38,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}muertes {\rBase}maternas {\rBase}al
+Dialogue: 0,0:00:17.38,0:00:17.94,Base,,0,0,0,,{\rBase}muertes {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}maternas {\rBase}al
+Dialogue: 0,0:00:17.94,0:00:18.29,Base,,0,0,0,,{\rBase}muertes {\rBase}maternas {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}al
+Dialogue: 0,0:00:18.24,0:00:18.44,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}año {\rBase}globalmente {\rBase}y
+Dialogue: 0,0:00:18.44,0:00:19.22,Base,,0,0,0,,{\rBase}año {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}globalmente {\rBase}y
+Dialogue: 0,0:00:19.22,0:00:19.89,Base,,0,0,0,,{\rBase}año {\rBase}globalmente {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y
+Dialogue: 0,0:00:19.84,0:00:19.96,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}90 {\rBase}%
+Dialogue: 0,0:00:19.96,0:00:20.26,Base,,0,0,0,,{\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}90 {\rBase}%
+Dialogue: 0,0:00:20.26,0:00:20.67,Base,,0,0,0,,{\rBase}el {\rBase}90 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}%
+Dialogue: 0,0:00:20.62,0:00:21.42,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ocurren {\rBase}en {\rBase}países
+Dialogue: 0,0:00:21.42,0:00:21.54,Base,,0,0,0,,{\rBase}ocurren {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}países
+Dialogue: 0,0:00:21.54,0:00:21.91,Base,,0,0,0,,{\rBase}ocurren {\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}países
+Dialogue: 0,0:00:21.86,0:00:22.06,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}ingresos {\rBase}bajos
+Dialogue: 0,0:00:22.06,0:00:22.48,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ingresos {\rBase}bajos
+Dialogue: 0,0:00:22.48,0:00:23.01,Base,,0,0,0,,{\rBase}de {\rBase}ingresos {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}bajos
+Dialogue: 0,0:00:22.96,0:00:23.14,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}medios.
+Dialogue: 0,0:00:23.14,0:00:23.53,Base,,0,0,0,,{\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}medios.

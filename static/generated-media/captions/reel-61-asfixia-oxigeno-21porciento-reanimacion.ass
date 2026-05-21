@@ -1,0 +1,80 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Arial Black,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Arial Black,84,&H00FF3CFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.28,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}El {\rBase}oxígeno {\rBase}puro
+Dialogue: 0,0:00:00.28,0:00:00.82,Base,,0,0,0,,{\rBase}El {\rHot\frz-3\t(0,200,\frz3)}oxígeno {\rBase}puro
+Dialogue: 0,0:00:00.82,0:00:01.23,Base,,0,0,0,,{\rBase}El {\rBase}oxígeno {\rHot\frz-3\t(0,200,\frz3)}puro
+Dialogue: 0,0:00:01.18,0:00:01.46,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}se {\rBase}consideró {\rBase}esencial
+Dialogue: 0,0:00:01.46,0:00:02.02,Base,,0,0,0,,{\rBase}se {\rHot\frz-3\t(0,200,\frz3)}consideró {\rBase}esencial
+Dialogue: 0,0:00:02.02,0:00:02.55,Base,,0,0,0,,{\rBase}se {\rBase}consideró {\rHot\frz-3\t(0,200,\frz3)}esencial
+Dialogue: 0,0:00:02.50,0:00:02.84,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}para {\rBase}la {\rBase}reanimación
+Dialogue: 0,0:00:02.84,0:00:03.08,Base,,0,0,0,,{\rBase}para {\rHot\frz-3\t(0,200,\frz3)}la {\rBase}reanimación
+Dialogue: 0,0:00:03.08,0:00:03.71,Base,,0,0,0,,{\rBase}para {\rBase}la {\rHot\frz-3\t(0,200,\frz3)}reanimación
+Dialogue: 0,0:00:03.66,0:00:04.28,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}neonatal {\rBase}desde {\rBase}los
+Dialogue: 0,0:00:04.28,0:00:04.62,Base,,0,0,0,,{\rBase}neonatal {\rHot\frz-3\t(0,200,\frz3)}desde {\rBase}los
+Dialogue: 0,0:00:04.62,0:00:04.87,Base,,0,0,0,,{\rBase}neonatal {\rBase}desde {\rHot\frz-3\t(0,200,\frz3)}los
+Dialogue: 0,0:00:04.82,0:00:05.06,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}años {\rBase}80, {\rBase}pero
+Dialogue: 0,0:00:05.06,0:00:05.92,Base,,0,0,0,,{\rBase}años {\rHot\frz-3\t(0,200,\frz3)}80, {\rBase}pero
+Dialogue: 0,0:00:05.92,0:00:06.41,Base,,0,0,0,,{\rBase}años {\rBase}80, {\rHot\frz-3\t(0,200,\frz3)}pero
+Dialogue: 0,0:00:06.36,0:00:06.52,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}la {\rBase}evidencia {\rBase}demostró
+Dialogue: 0,0:00:06.52,0:00:07.00,Base,,0,0,0,,{\rBase}la {\rHot\frz-3\t(0,200,\frz3)}evidencia {\rBase}demostró
+Dialogue: 0,0:00:07.00,0:00:07.49,Base,,0,0,0,,{\rBase}la {\rBase}evidencia {\rHot\frz-3\t(0,200,\frz3)}demostró
+Dialogue: 0,0:00:07.44,0:00:07.56,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}que {\rBase}la {\rBase}hiperoxia
+Dialogue: 0,0:00:07.56,0:00:07.70,Base,,0,0,0,,{\rBase}que {\rHot\frz-3\t(0,200,\frz3)}la {\rBase}hiperoxia
+Dialogue: 0,0:00:07.70,0:00:08.37,Base,,0,0,0,,{\rBase}que {\rBase}la {\rHot\frz-3\t(0,200,\frz3)}hiperoxia
+Dialogue: 0,0:00:08.32,0:00:08.48,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}es {\rBase}más {\rBase}dañina
+Dialogue: 0,0:00:08.48,0:00:08.68,Base,,0,0,0,,{\rBase}es {\rHot\frz-3\t(0,200,\frz3)}más {\rBase}dañina
+Dialogue: 0,0:00:08.68,0:00:09.23,Base,,0,0,0,,{\rBase}es {\rBase}más {\rHot\frz-3\t(0,200,\frz3)}dañina
+Dialogue: 0,0:00:09.18,0:00:09.34,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}que {\rBase}la {\rBase}hipoxia
+Dialogue: 0,0:00:09.34,0:00:09.48,Base,,0,0,0,,{\rBase}que {\rHot\frz-3\t(0,200,\frz3)}la {\rBase}hipoxia
+Dialogue: 0,0:00:09.48,0:00:10.07,Base,,0,0,0,,{\rBase}que {\rBase}la {\rHot\frz-3\t(0,200,\frz3)}hipoxia
+Dialogue: 0,0:00:10.02,0:00:10.38,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}breve {\rBase}en {\rBase}el
+Dialogue: 0,0:00:10.38,0:00:10.70,Base,,0,0,0,,{\rBase}breve {\rHot\frz-3\t(0,200,\frz3)}en {\rBase}el
+Dialogue: 0,0:00:10.70,0:00:10.87,Base,,0,0,0,,{\rBase}breve {\rBase}en {\rHot\frz-3\t(0,200,\frz3)}el
+Dialogue: 0,0:00:10.82,0:00:11.32,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}neonato {\rBase}asfíctico. {\rBase}Iniciar
+Dialogue: 0,0:00:11.32,0:00:12.72,Base,,0,0,0,,{\rBase}neonato {\rHot\frz-3\t(0,200,\frz3)}asfíctico. {\rBase}Iniciar
+Dialogue: 0,0:00:12.72,0:00:13.51,Base,,0,0,0,,{\rBase}neonato {\rBase}asfíctico. {\rHot\frz-3\t(0,200,\frz3)}Iniciar
+Dialogue: 0,0:00:13.46,0:00:13.58,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}la {\rBase}reanimación {\rBase}neonatal
+Dialogue: 0,0:00:13.58,0:00:14.22,Base,,0,0,0,,{\rBase}la {\rHot\frz-3\t(0,200,\frz3)}reanimación {\rBase}neonatal
+Dialogue: 0,0:00:14.22,0:00:14.89,Base,,0,0,0,,{\rBase}la {\rBase}reanimación {\rHot\frz-3\t(0,200,\frz3)}neonatal
+Dialogue: 0,0:00:14.84,0:00:15.12,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}con {\rBase}aire {\rBase}ambiente,
+Dialogue: 0,0:00:15.12,0:00:15.40,Base,,0,0,0,,{\rBase}con {\rHot\frz-3\t(0,200,\frz3)}aire {\rBase}ambiente,
+Dialogue: 0,0:00:15.40,0:00:16.01,Base,,0,0,0,,{\rBase}con {\rBase}aire {\rHot\frz-3\t(0,200,\frz3)}ambiente,
+Dialogue: 0,0:00:16.00,0:00:16.74,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}21 {\rBase}% {\rBase}de
+Dialogue: 0,0:00:16.74,0:00:17.14,Base,,0,0,0,,{\rBase}21 {\rHot\frz-3\t(0,200,\frz3)}% {\rBase}de
+Dialogue: 0,0:00:17.14,0:00:17.41,Base,,0,0,0,,{\rBase}21 {\rBase}% {\rHot\frz-3\t(0,200,\frz3)}de
+Dialogue: 0,0:00:17.36,0:00:18.06,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}oxígeno, {\rBase}comparado {\rBase}con
+Dialogue: 0,0:00:18.06,0:00:18.56,Base,,0,0,0,,{\rBase}oxígeno, {\rHot\frz-3\t(0,200,\frz3)}comparado {\rBase}con
+Dialogue: 0,0:00:18.56,0:00:18.75,Base,,0,0,0,,{\rBase}oxígeno, {\rBase}comparado {\rHot\frz-3\t(0,200,\frz3)}con
+Dialogue: 0,0:00:18.70,0:00:19.20,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}oxígeno {\rBase}al {\rBase}100%,
+Dialogue: 0,0:00:19.20,0:00:19.30,Base,,0,0,0,,{\rBase}oxígeno {\rHot\frz-3\t(0,200,\frz3)}al {\rBase}100%,
+Dialogue: 0,0:00:19.30,0:00:20.25,Base,,0,0,0,,{\rBase}oxígeno {\rBase}al {\rHot\frz-3\t(0,200,\frz3)}100%,
+Dialogue: 0,0:00:20.20,0:00:20.88,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}reduce {\rBase}la {\rBase}mortalidad
+Dialogue: 0,0:00:20.88,0:00:21.08,Base,,0,0,0,,{\rBase}reduce {\rHot\frz-3\t(0,200,\frz3)}la {\rBase}mortalidad
+Dialogue: 0,0:00:21.08,0:00:21.67,Base,,0,0,0,,{\rBase}reduce {\rBase}la {\rHot\frz-3\t(0,200,\frz3)}mortalidad
+Dialogue: 0,0:00:21.62,0:00:22.24,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}neonatal {\rBase}en {\rBase}un
+Dialogue: 0,0:00:22.24,0:00:22.56,Base,,0,0,0,,{\rBase}neonatal {\rHot\frz-3\t(0,200,\frz3)}en {\rBase}un
+Dialogue: 0,0:00:22.56,0:00:22.73,Base,,0,0,0,,{\rBase}neonatal {\rBase}en {\rHot\frz-3\t(0,200,\frz3)}un
+Dialogue: 0,0:00:22.68,0:00:23.04,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}30 {\rBase}% {\rBase}en
+Dialogue: 0,0:00:23.04,0:00:23.42,Base,,0,0,0,,{\rBase}30 {\rHot\frz-3\t(0,200,\frz3)}% {\rBase}en
+Dialogue: 0,0:00:23.42,0:00:23.89,Base,,0,0,0,,{\rBase}30 {\rBase}% {\rHot\frz-3\t(0,200,\frz3)}en
+Dialogue: 0,0:00:23.84,0:00:24.44,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}neonatos {\rBase}a {\rBase}término
+Dialogue: 0,0:00:24.44,0:00:24.72,Base,,0,0,0,,{\rBase}neonatos {\rHot\frz-3\t(0,200,\frz3)}a {\rBase}término
+Dialogue: 0,0:00:24.72,0:00:25.33,Base,,0,0,0,,{\rBase}neonatos {\rBase}a {\rHot\frz-3\t(0,200,\frz3)}término
+Dialogue: 0,0:00:25.28,0:00:25.66,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}y {\rBase}en {\rBase}un
+Dialogue: 0,0:00:25.66,0:00:25.80,Base,,0,0,0,,{\rBase}y {\rHot\frz-3\t(0,200,\frz3)}en {\rBase}un
+Dialogue: 0,0:00:25.80,0:00:25.95,Base,,0,0,0,,{\rBase}y {\rBase}en {\rHot\frz-3\t(0,200,\frz3)}un
+Dialogue: 0,0:00:25.90,0:00:26.18,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}20 {\rBase}% {\rBase}en
+Dialogue: 0,0:00:26.18,0:00:26.52,Base,,0,0,0,,{\rBase}20 {\rHot\frz-3\t(0,200,\frz3)}% {\rBase}en
+Dialogue: 0,0:00:26.52,0:00:26.95,Base,,0,0,0,,{\rBase}20 {\rBase}% {\rHot\frz-3\t(0,200,\frz3)}en
+Dialogue: 0,0:00:26.90,0:00:27.61,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}prematuros.

@@ -1,0 +1,86 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,88,&H00F4E000,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}No {\rBase}todas {\rBase}las
+Dialogue: 0,0:00:00.32,0:00:00.54,Base,,0,0,0,,{\rBase}No {\rHot\t(0,120,\fscx115\fscy115)}todas {\rBase}las
+Dialogue: 0,0:00:00.54,0:00:00.77,Base,,0,0,0,,{\rBase}No {\rBase}todas {\rHot\t(0,120,\fscx115\fscy115)}las
+Dialogue: 0,0:00:00.72,0:00:01.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}proteínas {\rBase}son {\rBase}iguales.
+Dialogue: 0,0:00:01.28,0:00:01.56,Base,,0,0,0,,{\rBase}proteínas {\rHot\t(0,120,\fscx115\fscy115)}son {\rBase}iguales.
+Dialogue: 0,0:00:01.56,0:00:02.15,Base,,0,0,0,,{\rBase}proteínas {\rBase}son {\rHot\t(0,120,\fscx115\fscy115)}iguales.
+Dialogue: 0,0:00:02.26,0:00:02.74,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Los {\rBase}suplementos {\rBase}con
+Dialogue: 0,0:00:02.74,0:00:03.36,Base,,0,0,0,,{\rBase}Los {\rHot\t(0,120,\fscx115\fscy115)}suplementos {\rBase}con
+Dialogue: 0,0:00:03.36,0:00:03.61,Base,,0,0,0,,{\rBase}Los {\rBase}suplementos {\rHot\t(0,120,\fscx115\fscy115)}con
+Dialogue: 0,0:00:03.56,0:00:04.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}25 {\rBase}% {\rBase}de
+Dialogue: 0,0:00:04.00,0:00:04.50,Base,,0,0,0,,{\rBase}25 {\rHot\t(0,120,\fscx115\fscy115)}% {\rBase}de
+Dialogue: 0,0:00:04.50,0:00:04.89,Base,,0,0,0,,{\rBase}25 {\rBase}% {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:04.84,0:00:05.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}calorías {\rBase}provenientes {\rBase}de
+Dialogue: 0,0:00:05.34,0:00:05.90,Base,,0,0,0,,{\rBase}calorías {\rHot\t(0,120,\fscx115\fscy115)}provenientes {\rBase}de
+Dialogue: 0,0:00:05.90,0:00:06.13,Base,,0,0,0,,{\rBase}calorías {\rBase}provenientes {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:06.08,0:00:06.66,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}proteínas {\rBase}sin {\rBase}suficiente
+Dialogue: 0,0:00:06.66,0:00:07.00,Base,,0,0,0,,{\rBase}proteínas {\rHot\t(0,120,\fscx115\fscy115)}sin {\rBase}suficiente
+Dialogue: 0,0:00:07.00,0:00:07.55,Base,,0,0,0,,{\rBase}proteínas {\rBase}sin {\rHot\t(0,120,\fscx115\fscy115)}suficiente
+Dialogue: 0,0:00:07.50,0:00:07.84,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}energía {\rBase}total {\rBase}se
+Dialogue: 0,0:00:07.84,0:00:08.26,Base,,0,0,0,,{\rBase}energía {\rHot\t(0,120,\fscx115\fscy115)}total {\rBase}se
+Dialogue: 0,0:00:08.26,0:00:08.89,Base,,0,0,0,,{\rBase}energía {\rBase}total {\rHot\t(0,120,\fscx115\fscy115)}se
+Dialogue: 0,0:00:08.84,0:00:09.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}asocian {\rBase}con {\rBase}restricción
+Dialogue: 0,0:00:09.26,0:00:09.44,Base,,0,0,0,,{\rBase}asocian {\rHot\t(0,120,\fscx115\fscy115)}con {\rBase}restricción
+Dialogue: 0,0:00:09.44,0:00:10.01,Base,,0,0,0,,{\rBase}asocian {\rBase}con {\rHot\t(0,120,\fscx115\fscy115)}restricción
+Dialogue: 0,0:00:09.96,0:00:10.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}crecimiento {\rBase}fetal,
+Dialogue: 0,0:00:10.08,0:00:10.60,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}crecimiento {\rBase}fetal,
+Dialogue: 0,0:00:10.60,0:00:11.09,Base,,0,0,0,,{\rBase}de {\rBase}crecimiento {\rHot\t(0,120,\fscx115\fscy115)}fetal,
+Dialogue: 0,0:00:11.22,0:00:12.06,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}posiblemente {\rBase}por {\rBase}toxicidad
+Dialogue: 0,0:00:12.06,0:00:12.32,Base,,0,0,0,,{\rBase}posiblemente {\rHot\t(0,120,\fscx115\fscy115)}por {\rBase}toxicidad
+Dialogue: 0,0:00:12.32,0:00:13.03,Base,,0,0,0,,{\rBase}posiblemente {\rBase}por {\rHot\t(0,120,\fscx115\fscy115)}toxicidad
+Dialogue: 0,0:00:12.98,0:00:13.20,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}por {\rBase}nitrógeno. {\rBase}Los
+Dialogue: 0,0:00:13.20,0:00:14.02,Base,,0,0,0,,{\rBase}por {\rHot\t(0,120,\fscx115\fscy115)}nitrógeno. {\rBase}Los
+Dialogue: 0,0:00:14.02,0:00:14.79,Base,,0,0,0,,{\rBase}por {\rBase}nitrógeno. {\rHot\t(0,120,\fscx115\fscy115)}Los
+Dialogue: 0,0:00:14.74,0:00:15.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}suplementos {\rBase}proteico {\rBase}-energéticos
+Dialogue: 0,0:00:15.32,0:00:15.82,Base,,0,0,0,,{\rBase}suplementos {\rHot\t(0,120,\fscx115\fscy115)}proteico {\rBase}-energéticos
+Dialogue: 0,0:00:15.82,0:00:16.55,Base,,0,0,0,,{\rBase}suplementos {\rBase}proteico {\rHot\t(0,120,\fscx115\fscy115)}-energéticos
+Dialogue: 0,0:00:16.50,0:00:17.12,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}balanceados {\rBase}en {\rBase}gestantes
+Dialogue: 0,0:00:17.12,0:00:17.34,Base,,0,0,0,,{\rBase}balanceados {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}gestantes
+Dialogue: 0,0:00:17.34,0:00:17.93,Base,,0,0,0,,{\rBase}balanceados {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}gestantes
+Dialogue: 0,0:00:17.88,0:00:18.70,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}desnutridas {\rBase}reducen {\rBase}el
+Dialogue: 0,0:00:18.70,0:00:19.54,Base,,0,0,0,,{\rBase}desnutridas {\rHot\t(0,120,\fscx115\fscy115)}reducen {\rBase}el
+Dialogue: 0,0:00:19.54,0:00:19.77,Base,,0,0,0,,{\rBase}desnutridas {\rBase}reducen {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:19.72,0:00:20.10,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}riesgo {\rBase}de {\rBase}muerte
+Dialogue: 0,0:00:20.10,0:00:20.22,Base,,0,0,0,,{\rBase}riesgo {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}muerte
+Dialogue: 0,0:00:20.22,0:00:20.57,Base,,0,0,0,,{\rBase}riesgo {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}muerte
+Dialogue: 0,0:00:20.52,0:00:21.08,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}fetal {\rBase}en {\rBase}un
+Dialogue: 0,0:00:21.08,0:00:21.38,Base,,0,0,0,,{\rBase}fetal {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}un
+Dialogue: 0,0:00:21.38,0:00:21.55,Base,,0,0,0,,{\rBase}fetal {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}un
+Dialogue: 0,0:00:21.50,0:00:22.06,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}31 {\rBase}% {\rBase}y
+Dialogue: 0,0:00:22.06,0:00:22.42,Base,,0,0,0,,{\rBase}31 {\rHot\t(0,120,\fscx115\fscy115)}% {\rBase}y
+Dialogue: 0,0:00:22.42,0:00:23.29,Base,,0,0,0,,{\rBase}31 {\rBase}% {\rHot\t(0,120,\fscx115\fscy115)}y
+Dialogue: 0,0:00:23.24,0:00:23.36,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}bajo {\rBase}peso
+Dialogue: 0,0:00:23.36,0:00:23.58,Base,,0,0,0,,{\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}bajo {\rBase}peso
+Dialogue: 0,0:00:23.58,0:00:23.95,Base,,0,0,0,,{\rBase}el {\rBase}bajo {\rHot\t(0,120,\fscx115\fscy115)}peso
+Dialogue: 0,0:00:23.90,0:00:24.06,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}al {\rBase}nacer {\rBase}en
+Dialogue: 0,0:00:24.06,0:00:24.36,Base,,0,0,0,,{\rBase}al {\rHot\t(0,120,\fscx115\fscy115)}nacer {\rBase}en
+Dialogue: 0,0:00:24.36,0:00:24.59,Base,,0,0,0,,{\rBase}al {\rBase}nacer {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:24.54,0:00:24.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}un {\rBase}32%, {\rBase}mientras
+Dialogue: 0,0:00:24.64,0:00:25.60,Base,,0,0,0,,{\rBase}un {\rHot\t(0,120,\fscx115\fscy115)}32%, {\rBase}mientras
+Dialogue: 0,0:00:25.60,0:00:26.79,Base,,0,0,0,,{\rBase}un {\rBase}32%, {\rHot\t(0,120,\fscx115\fscy115)}mientras
+Dialogue: 0,0:00:26.74,0:00:27.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}que {\rBase}los {\rBase}suplementos
+Dialogue: 0,0:00:27.00,0:00:27.18,Base,,0,0,0,,{\rBase}que {\rHot\t(0,120,\fscx115\fscy115)}los {\rBase}suplementos
+Dialogue: 0,0:00:27.18,0:00:27.87,Base,,0,0,0,,{\rBase}que {\rBase}los {\rHot\t(0,120,\fscx115\fscy115)}suplementos
+Dialogue: 0,0:00:27.82,0:00:28.04,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}con {\rBase}alto {\rBase}contenido
+Dialogue: 0,0:00:28.04,0:00:28.26,Base,,0,0,0,,{\rBase}con {\rHot\t(0,120,\fscx115\fscy115)}alto {\rBase}contenido
+Dialogue: 0,0:00:28.26,0:00:28.87,Base,,0,0,0,,{\rBase}con {\rBase}alto {\rHot\t(0,120,\fscx115\fscy115)}contenido
+Dialogue: 0,0:00:28.82,0:00:29.46,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}proteico {\rBase}sin {\rBase}balance
+Dialogue: 0,0:00:29.46,0:00:29.74,Base,,0,0,0,,{\rBase}proteico {\rHot\t(0,120,\fscx115\fscy115)}sin {\rBase}balance
+Dialogue: 0,0:00:29.74,0:00:30.19,Base,,0,0,0,,{\rBase}proteico {\rBase}sin {\rHot\t(0,120,\fscx115\fscy115)}balance
+Dialogue: 0,0:00:30.14,0:00:30.88,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}energético {\rBase}pueden {\rBase}ser
+Dialogue: 0,0:00:30.88,0:00:31.50,Base,,0,0,0,,{\rBase}energético {\rHot\t(0,120,\fscx115\fscy115)}pueden {\rBase}ser
+Dialogue: 0,0:00:31.50,0:00:31.83,Base,,0,0,0,,{\rBase}energético {\rBase}pueden {\rHot\t(0,120,\fscx115\fscy115)}ser
+Dialogue: 0,0:00:31.78,0:00:32.85,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}perjudiciales.

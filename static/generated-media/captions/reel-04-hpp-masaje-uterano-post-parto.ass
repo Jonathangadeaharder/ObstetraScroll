@@ -1,0 +1,70 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,88,&H00F4E000,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}El {\rBase}masaje {\rBase}uterino
+Dialogue: 0,0:00:00.26,0:00:00.62,Base,,0,0,0,,{\rBase}El {\rHot\t(0,120,\fscx115\fscy115)}masaje {\rBase}uterino
+Dialogue: 0,0:00:00.62,0:00:01.21,Base,,0,0,0,,{\rBase}El {\rBase}masaje {\rHot\t(0,120,\fscx115\fscy115)}uterino
+Dialogue: 0,0:00:01.16,0:00:01.76,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}una {\rBase}práctica
+Dialogue: 0,0:00:01.76,0:00:01.96,Base,,0,0,0,,{\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}una {\rBase}práctica
+Dialogue: 0,0:00:01.96,0:00:02.55,Base,,0,0,0,,{\rBase}es {\rBase}una {\rHot\t(0,120,\fscx115\fscy115)}práctica
+Dialogue: 0,0:00:02.50,0:00:03.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}estandarizada {\rBase}en {\rBase}muchos
+Dialogue: 0,0:00:03.32,0:00:03.66,Base,,0,0,0,,{\rBase}estandarizada {\rHot\t(0,120,\fscx115\fscy115)}en {\rBase}muchos
+Dialogue: 0,0:00:03.66,0:00:04.05,Base,,0,0,0,,{\rBase}estandarizada {\rBase}en {\rHot\t(0,120,\fscx115\fscy115)}muchos
+Dialogue: 0,0:00:04.00,0:00:04.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}protocolos {\rBase}posparto {\rBase}inmediato,
+Dialogue: 0,0:00:04.62,0:00:05.18,Base,,0,0,0,,{\rBase}protocolos {\rHot\t(0,120,\fscx115\fscy115)}posparto {\rBase}inmediato,
+Dialogue: 0,0:00:05.18,0:00:05.89,Base,,0,0,0,,{\rBase}protocolos {\rBase}posparto {\rHot\t(0,120,\fscx115\fscy115)}inmediato,
+Dialogue: 0,0:00:06.02,0:00:06.50,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}pero {\rBase}la {\rBase}evidencia
+Dialogue: 0,0:00:06.50,0:00:06.64,Base,,0,0,0,,{\rBase}pero {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}evidencia
+Dialogue: 0,0:00:06.64,0:00:07.19,Base,,0,0,0,,{\rBase}pero {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}evidencia
+Dialogue: 0,0:00:07.14,0:00:07.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}respalda {\rBase}su
+Dialogue: 0,0:00:07.28,0:00:07.88,Base,,0,0,0,,{\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}respalda {\rBase}su
+Dialogue: 0,0:00:07.88,0:00:08.15,Base,,0,0,0,,{\rBase}no {\rBase}respalda {\rHot\t(0,120,\fscx115\fscy115)}su
+Dialogue: 0,0:00:08.10,0:00:08.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}realización {\rBase}programada {\rBase}en
+Dialogue: 0,0:00:08.64,0:00:09.28,Base,,0,0,0,,{\rBase}realización {\rHot\t(0,120,\fscx115\fscy115)}programada {\rBase}en
+Dialogue: 0,0:00:09.28,0:00:09.89,Base,,0,0,0,,{\rBase}realización {\rBase}programada {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:09.84,0:00:10.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}ausencia {\rBase}de {\rBase}signos
+Dialogue: 0,0:00:10.32,0:00:10.46,Base,,0,0,0,,{\rBase}ausencia {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}signos
+Dialogue: 0,0:00:10.46,0:00:10.89,Base,,0,0,0,,{\rBase}ausencia {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}signos
+Dialogue: 0,0:00:10.84,0:00:10.94,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}alerta. {\rBase}El
+Dialogue: 0,0:00:10.94,0:00:11.66,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}alerta. {\rBase}El
+Dialogue: 0,0:00:11.66,0:00:12.21,Base,,0,0,0,,{\rBase}de {\rBase}alerta. {\rHot\t(0,120,\fscx115\fscy115)}El
+Dialogue: 0,0:00:12.16,0:00:12.52,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}masaje {\rBase}uterino {\rBase}rutinario
+Dialogue: 0,0:00:12.52,0:00:12.96,Base,,0,0,0,,{\rBase}masaje {\rHot\t(0,120,\fscx115\fscy115)}uterino {\rBase}rutinario
+Dialogue: 0,0:00:12.96,0:00:13.57,Base,,0,0,0,,{\rBase}masaje {\rBase}uterino {\rHot\t(0,120,\fscx115\fscy115)}rutinario
+Dialogue: 0,0:00:13.52,0:00:14.46,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}programado, {\rBase}cada {\rBase}15
+Dialogue: 0,0:00:14.46,0:00:14.88,Base,,0,0,0,,{\rBase}programado, {\rHot\t(0,120,\fscx115\fscy115)}cada {\rBase}15
+Dialogue: 0,0:00:14.88,0:00:15.25,Base,,0,0,0,,{\rBase}programado, {\rBase}cada {\rHot\t(0,120,\fscx115\fscy115)}15
+Dialogue: 0,0:00:15.20,0:00:15.64,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}minutos {\rBase}durante {\rBase}las
+Dialogue: 0,0:00:15.64,0:00:15.94,Base,,0,0,0,,{\rBase}minutos {\rHot\t(0,120,\fscx115\fscy115)}durante {\rBase}las
+Dialogue: 0,0:00:15.94,0:00:16.23,Base,,0,0,0,,{\rBase}minutos {\rBase}durante {\rHot\t(0,120,\fscx115\fscy115)}las
+Dialogue: 0,0:00:16.18,0:00:16.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}primeras {\rBase}dos {\rBase}horas,
+Dialogue: 0,0:00:16.62,0:00:16.80,Base,,0,0,0,,{\rBase}primeras {\rHot\t(0,120,\fscx115\fscy115)}dos {\rBase}horas,
+Dialogue: 0,0:00:16.80,0:00:17.29,Base,,0,0,0,,{\rBase}primeras {\rBase}dos {\rHot\t(0,120,\fscx115\fscy115)}horas,
+Dialogue: 0,0:00:17.60,0:00:17.76,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}reduce {\rBase}significativamente
+Dialogue: 0,0:00:17.76,0:00:18.16,Base,,0,0,0,,{\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}reduce {\rBase}significativamente
+Dialogue: 0,0:00:18.16,0:00:19.33,Base,,0,0,0,,{\rBase}no {\rBase}reduce {\rHot\t(0,120,\fscx115\fscy115)}significativamente
+Dialogue: 0,0:00:19.28,0:00:19.46,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}incidencia {\rBase}de
+Dialogue: 0,0:00:19.46,0:00:20.00,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}incidencia {\rBase}de
+Dialogue: 0,0:00:20.00,0:00:20.17,Base,,0,0,0,,{\rBase}la {\rBase}incidencia {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:20.12,0:00:20.70,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}HPP {\rBase}ni {\rBase}la
+Dialogue: 0,0:00:20.70,0:00:20.98,Base,,0,0,0,,{\rBase}HPP {\rHot\t(0,120,\fscx115\fscy115)}ni {\rBase}la
+Dialogue: 0,0:00:20.98,0:00:21.17,Base,,0,0,0,,{\rBase}HPP {\rBase}ni {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:21.12,0:00:21.52,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}pérdida {\rBase}sanguínea {\rBase}comparado
+Dialogue: 0,0:00:21.52,0:00:22.16,Base,,0,0,0,,{\rBase}pérdida {\rHot\t(0,120,\fscx115\fscy115)}sanguínea {\rBase}comparado
+Dialogue: 0,0:00:22.16,0:00:23.03,Base,,0,0,0,,{\rBase}pérdida {\rBase}sanguínea {\rHot\t(0,120,\fscx115\fscy115)}comparado
+Dialogue: 0,0:00:22.98,0:00:23.16,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}con {\rBase}la {\rBase}evaluación
+Dialogue: 0,0:00:23.16,0:00:23.32,Base,,0,0,0,,{\rBase}con {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}evaluación
+Dialogue: 0,0:00:23.32,0:00:23.97,Base,,0,0,0,,{\rBase}con {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}evaluación
+Dialogue: 0,0:00:23.92,0:00:24.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}clínica {\rBase}a {\rBase}demanda.
+Dialogue: 0,0:00:24.34,0:00:24.50,Base,,0,0,0,,{\rBase}clínica {\rHot\t(0,120,\fscx115\fscy115)}a {\rBase}demanda.
+Dialogue: 0,0:00:24.50,0:00:25.03,Base,,0,0,0,,{\rBase}clínica {\rBase}a {\rHot\t(0,120,\fscx115\fscy115)}demanda.

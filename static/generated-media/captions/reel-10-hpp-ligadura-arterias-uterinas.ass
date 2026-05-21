@@ -1,0 +1,69 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0000E5FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.44,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}Ante {\rBase}una {\rBase}HPP
+Dialogue: 0,0:00:00.44,0:00:00.60,Base,,0,0,0,,{\rBase}Ante {\rHot\t(0,120,\fscx115\fscy115)}una {\rBase}HPP
+Dialogue: 0,0:00:00.60,0:00:01.19,Base,,0,0,0,,{\rBase}Ante {\rBase}una {\rHot\t(0,120,\fscx115\fscy115)}HPP
+Dialogue: 0,0:00:01.14,0:00:01.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}que {\rBase}no {\rBase}responde
+Dialogue: 0,0:00:01.28,0:00:01.42,Base,,0,0,0,,{\rBase}que {\rHot\t(0,120,\fscx115\fscy115)}no {\rBase}responde
+Dialogue: 0,0:00:01.42,0:00:01.91,Base,,0,0,0,,{\rBase}que {\rBase}no {\rHot\t(0,120,\fscx115\fscy115)}responde
+Dialogue: 0,0:00:01.86,0:00:01.94,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}a {\rBase}uterotónicos, {\rBase}la
+Dialogue: 0,0:00:01.94,0:00:03.04,Base,,0,0,0,,{\rBase}a {\rHot\t(0,120,\fscx115\fscy115)}uterotónicos, {\rBase}la
+Dialogue: 0,0:00:03.04,0:00:03.37,Base,,0,0,0,,{\rBase}a {\rBase}uterotónicos, {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:03.32,0:00:03.82,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}tendencia {\rBase}es {\rBase}considerar
+Dialogue: 0,0:00:03.82,0:00:03.96,Base,,0,0,0,,{\rBase}tendencia {\rHot\t(0,120,\fscx115\fscy115)}es {\rBase}considerar
+Dialogue: 0,0:00:03.96,0:00:04.61,Base,,0,0,0,,{\rBase}tendencia {\rBase}es {\rHot\t(0,120,\fscx115\fscy115)}considerar
+Dialogue: 0,0:00:04.56,0:00:05.42,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}histerectomía {\rBase}rápidamente, {\rBase}pero
+Dialogue: 0,0:00:05.42,0:00:06.46,Base,,0,0,0,,{\rBase}histerectomía {\rHot\t(0,120,\fscx115\fscy115)}rápidamente, {\rBase}pero
+Dialogue: 0,0:00:06.46,0:00:06.89,Base,,0,0,0,,{\rBase}histerectomía {\rBase}rápidamente, {\rHot\t(0,120,\fscx115\fscy115)}pero
+Dialogue: 0,0:00:06.84,0:00:07.04,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}las {\rBase}técnicas {\rBase}de
+Dialogue: 0,0:00:07.04,0:00:07.46,Base,,0,0,0,,{\rBase}las {\rHot\t(0,120,\fscx115\fscy115)}técnicas {\rBase}de
+Dialogue: 0,0:00:07.46,0:00:07.67,Base,,0,0,0,,{\rBase}las {\rBase}técnicas {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:07.62,0:00:08.56,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}devascularización {\rBase}uterina {\rBase}son
+Dialogue: 0,0:00:08.56,0:00:09.10,Base,,0,0,0,,{\rBase}devascularización {\rHot\t(0,120,\fscx115\fscy115)}uterina {\rBase}son
+Dialogue: 0,0:00:09.10,0:00:09.37,Base,,0,0,0,,{\rBase}devascularización {\rBase}uterina {\rHot\t(0,120,\fscx115\fscy115)}son
+Dialogue: 0,0:00:09.32,0:00:09.72,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}opciones {\rBase}efectivas {\rBase}y
+Dialogue: 0,0:00:09.72,0:00:10.40,Base,,0,0,0,,{\rBase}opciones {\rHot\t(0,120,\fscx115\fscy115)}efectivas {\rBase}y
+Dialogue: 0,0:00:10.40,0:00:10.61,Base,,0,0,0,,{\rBase}opciones {\rBase}efectivas {\rHot\t(0,120,\fscx115\fscy115)}y
+Dialogue: 0,0:00:10.56,0:00:11.84,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}conservadoras. {\rBase}La {\rBase}ligadura
+Dialogue: 0,0:00:11.84,0:00:12.50,Base,,0,0,0,,{\rBase}conservadoras. {\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}ligadura
+Dialogue: 0,0:00:12.50,0:00:13.03,Base,,0,0,0,,{\rBase}conservadoras. {\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}ligadura
+Dialogue: 0,0:00:12.98,0:00:13.44,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}bilateral {\rBase}de {\rBase}arterias
+Dialogue: 0,0:00:13.44,0:00:13.68,Base,,0,0,0,,{\rBase}bilateral {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}arterias
+Dialogue: 0,0:00:13.68,0:00:14.15,Base,,0,0,0,,{\rBase}bilateral {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}arterias
+Dialogue: 0,0:00:14.10,0:00:14.84,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}uterinas, {\rBase}técnica {\rBase}de
+Dialogue: 0,0:00:14.84,0:00:15.22,Base,,0,0,0,,{\rBase}uterinas, {\rHot\t(0,120,\fscx115\fscy115)}técnica {\rBase}de
+Dialogue: 0,0:00:15.22,0:00:15.43,Base,,0,0,0,,{\rBase}uterinas, {\rBase}técnica {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:15.38,0:00:15.50,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}O {\rBase}'Leary, {\rBase}tiene
+Dialogue: 0,0:00:15.50,0:00:16.22,Base,,0,0,0,,{\rBase}O {\rHot\t(0,120,\fscx115\fscy115)}'Leary, {\rBase}tiene
+Dialogue: 0,0:00:16.22,0:00:16.47,Base,,0,0,0,,{\rBase}O {\rBase}'Leary, {\rHot\t(0,120,\fscx115\fscy115)}tiene
+Dialogue: 0,0:00:16.42,0:00:16.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}una {\rBase}tasa {\rBase}de
+Dialogue: 0,0:00:16.60,0:00:16.92,Base,,0,0,0,,{\rBase}una {\rHot\t(0,120,\fscx115\fscy115)}tasa {\rBase}de
+Dialogue: 0,0:00:16.92,0:00:17.09,Base,,0,0,0,,{\rBase}una {\rBase}tasa {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:17.04,0:00:17.44,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}éxito {\rBase}del {\rBase}80
+Dialogue: 0,0:00:17.44,0:00:17.62,Base,,0,0,0,,{\rBase}éxito {\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}80
+Dialogue: 0,0:00:17.62,0:00:18.15,Base,,0,0,0,,{\rBase}éxito {\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}80
+Dialogue: 0,0:00:18.10,0:00:18.54,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}-90 {\rBase}% {\rBase}para
+Dialogue: 0,0:00:18.54,0:00:18.90,Base,,0,0,0,,{\rBase}-90 {\rHot\t(0,120,\fscx115\fscy115)}% {\rBase}para
+Dialogue: 0,0:00:18.90,0:00:19.41,Base,,0,0,0,,{\rBase}-90 {\rBase}% {\rHot\t(0,120,\fscx115\fscy115)}para
+Dialogue: 0,0:00:19.36,0:00:19.82,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}controlar {\rBase}HP {\rBase}por
+Dialogue: 0,0:00:19.82,0:00:20.44,Base,,0,0,0,,{\rBase}controlar {\rHot\t(0,120,\fscx115\fscy115)}HP {\rBase}por
+Dialogue: 0,0:00:20.44,0:00:20.87,Base,,0,0,0,,{\rBase}controlar {\rBase}HP {\rHot\t(0,120,\fscx115\fscy115)}por
+Dialogue: 0,0:00:20.82,0:00:21.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}atonía, {\rBase}preservando {\rBase}el
+Dialogue: 0,0:00:21.60,0:00:22.40,Base,,0,0,0,,{\rBase}atonía, {\rHot\t(0,120,\fscx115\fscy115)}preservando {\rBase}el
+Dialogue: 0,0:00:22.40,0:00:22.61,Base,,0,0,0,,{\rBase}atonía, {\rBase}preservando {\rHot\t(0,120,\fscx115\fscy115)}el
+Dialogue: 0,0:00:22.56,0:00:22.86,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}útero {\rBase}y {\rBase}la
+Dialogue: 0,0:00:22.86,0:00:22.94,Base,,0,0,0,,{\rBase}útero {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}la
+Dialogue: 0,0:00:22.94,0:00:23.09,Base,,0,0,0,,{\rBase}útero {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}la
+Dialogue: 0,0:00:23.04,0:00:23.62,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}fertilidad {\rBase}futura.
+Dialogue: 0,0:00:23.62,0:00:24.17,Base,,0,0,0,,{\rBase}fertilidad {\rHot\t(0,120,\fscx115\fscy115)}futura.

@@ -1,0 +1,88 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,84,&H00B4377C,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.30,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La {\rBase}OMS {\rBase}recomienda
+Dialogue: 0,0:00:00.30,0:00:00.54,Base,,0,0,0,,{\rBase}La {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}OMS {\rBase}recomienda
+Dialogue: 0,0:00:00.54,0:00:01.27,Base,,0,0,0,,{\rBase}La {\rBase}OMS {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}recomienda
+Dialogue: 0,0:00:01.22,0:00:01.50,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}solo {\rBase}hierro {\rBase}y
+Dialogue: 0,0:00:01.50,0:00:01.92,Base,,0,0,0,,{\rBase}solo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hierro {\rBase}y
+Dialogue: 0,0:00:01.92,0:00:02.09,Base,,0,0,0,,{\rBase}solo {\rBase}hierro {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y
+Dialogue: 0,0:00:02.04,0:00:02.34,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ácido {\rBase}fólico {\rBase}en
+Dialogue: 0,0:00:02.34,0:00:02.94,Base,,0,0,0,,{\rBase}ácido {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}fólico {\rBase}en
+Dialogue: 0,0:00:02.94,0:00:03.13,Base,,0,0,0,,{\rBase}ácido {\rBase}fólico {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en
+Dialogue: 0,0:00:03.08,0:00:03.20,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}embarazo, {\rBase}pero
+Dialogue: 0,0:00:03.20,0:00:03.84,Base,,0,0,0,,{\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}embarazo, {\rBase}pero
+Dialogue: 0,0:00:03.84,0:00:03.97,Base,,0,0,0,,{\rBase}el {\rBase}embarazo, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pero
+Dialogue: 0,0:00:03.92,0:00:04.08,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}metanálisis {\rBase}más
+Dialogue: 0,0:00:04.08,0:00:04.78,Base,,0,0,0,,{\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}metanálisis {\rBase}más
+Dialogue: 0,0:00:04.78,0:00:05.01,Base,,0,0,0,,{\rBase}el {\rBase}metanálisis {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}más
+Dialogue: 0,0:00:04.96,0:00:05.40,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}grande {\rBase}de {\rBase}23
+Dialogue: 0,0:00:05.40,0:00:05.56,Base,,0,0,0,,{\rBase}grande {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}23
+Dialogue: 0,0:00:05.56,0:00:06.15,Base,,0,0,0,,{\rBase}grande {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}23
+Dialogue: 0,0:00:06.10,0:00:07.08,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ensayos, {\rBase}140 {\rBase}.000
+Dialogue: 0,0:00:07.08,0:00:07.82,Base,,0,0,0,,{\rBase}ensayos, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}140 {\rBase}.000
+Dialogue: 0,0:00:07.82,0:00:08.21,Base,,0,0,0,,{\rBase}ensayos, {\rBase}140 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}.000
+Dialogue: 0,0:00:08.16,0:00:09.10,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}gestantes, {\rBase}muestra {\rBase}que
+Dialogue: 0,0:00:09.10,0:00:09.80,Base,,0,0,0,,{\rBase}gestantes, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}muestra {\rBase}que
+Dialogue: 0,0:00:09.80,0:00:10.05,Base,,0,0,0,,{\rBase}gestantes, {\rBase}muestra {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}que
+Dialogue: 0,0:00:10.00,0:00:10.22,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}los {\rBase}multimicronutrientes {\rBase}tienen
+Dialogue: 0,0:00:10.22,0:00:11.46,Base,,0,0,0,,{\rBase}los {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}multimicronutrientes {\rBase}tienen
+Dialogue: 0,0:00:11.46,0:00:11.93,Base,,0,0,0,,{\rBase}los {\rBase}multimicronutrientes {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tienen
+Dialogue: 0,0:00:11.88,0:00:12.54,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}beneficios {\rBase}adicionales {\rBase}sobre
+Dialogue: 0,0:00:12.54,0:00:13.32,Base,,0,0,0,,{\rBase}beneficios {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}adicionales {\rBase}sobre
+Dialogue: 0,0:00:13.32,0:00:13.63,Base,,0,0,0,,{\rBase}beneficios {\rBase}adicionales {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sobre
+Dialogue: 0,0:00:13.58,0:00:13.76,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}dupla {\rBase}tradicional.
+Dialogue: 0,0:00:13.76,0:00:14.14,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}dupla {\rBase}tradicional.
+Dialogue: 0,0:00:14.14,0:00:14.75,Base,,0,0,0,,{\rBase}la {\rBase}dupla {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tradicional.
+Dialogue: 0,0:00:14.70,0:00:15.52,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La {\rBase}suplementación {\rBase}prenatal
+Dialogue: 0,0:00:15.52,0:00:16.30,Base,,0,0,0,,{\rBase}La {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}suplementación {\rBase}prenatal
+Dialogue: 0,0:00:16.30,0:00:16.89,Base,,0,0,0,,{\rBase}La {\rBase}suplementación {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}prenatal
+Dialogue: 0,0:00:16.84,0:00:17.08,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}multimicronutrientes, {\rBase}15
+Dialogue: 0,0:00:17.08,0:00:18.58,Base,,0,0,0,,{\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}multimicronutrientes, {\rBase}15
+Dialogue: 0,0:00:18.58,0:00:18.91,Base,,0,0,0,,{\rBase}con {\rBase}multimicronutrientes, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}15
+Dialogue: 0,0:00:18.86,0:00:19.46,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}vitaminas {\rBase}y {\rBase}minerales,
+Dialogue: 0,0:00:19.46,0:00:19.62,Base,,0,0,0,,{\rBase}vitaminas {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}minerales,
+Dialogue: 0,0:00:19.62,0:00:20.31,Base,,0,0,0,,{\rBase}vitaminas {\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}minerales,
+Dialogue: 0,0:00:20.36,0:00:21.08,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}incluyendo {\rBase}hierro, {\rBase}ácido
+Dialogue: 0,0:00:21.08,0:00:21.78,Base,,0,0,0,,{\rBase}incluyendo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hierro, {\rBase}ácido
+Dialogue: 0,0:00:21.78,0:00:22.11,Base,,0,0,0,,{\rBase}incluyendo {\rBase}hierro, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ácido
+Dialogue: 0,0:00:22.06,0:00:23.10,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}fólico, {\rBase}zinc, {\rBase}yodo,
+Dialogue: 0,0:00:23.10,0:00:23.82,Base,,0,0,0,,{\rBase}fólico, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}zinc, {\rBase}yodo,
+Dialogue: 0,0:00:23.82,0:00:24.19,Base,,0,0,0,,{\rBase}fólico, {\rBase}zinc, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}yodo,
+Dialogue: 0,0:00:24.54,0:00:25.10,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cobre, {\rBase}selenio, {\rBase}reduce
+Dialogue: 0,0:00:25.10,0:00:26.32,Base,,0,0,0,,{\rBase}cobre, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}selenio, {\rBase}reduce
+Dialogue: 0,0:00:26.32,0:00:26.65,Base,,0,0,0,,{\rBase}cobre, {\rBase}selenio, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}reduce
+Dialogue: 0,0:00:26.60,0:00:26.80,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}bajo {\rBase}peso
+Dialogue: 0,0:00:26.80,0:00:27.00,Base,,0,0,0,,{\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}bajo {\rBase}peso
+Dialogue: 0,0:00:27.00,0:00:27.37,Base,,0,0,0,,{\rBase}el {\rBase}bajo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}peso
+Dialogue: 0,0:00:27.32,0:00:27.50,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}al {\rBase}nacer {\rBase}en
+Dialogue: 0,0:00:27.50,0:00:27.80,Base,,0,0,0,,{\rBase}al {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}nacer {\rBase}en
+Dialogue: 0,0:00:27.80,0:00:28.03,Base,,0,0,0,,{\rBase}al {\rBase}nacer {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en
+Dialogue: 0,0:00:27.98,0:00:28.12,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}un {\rBase}15 {\rBase}%
+Dialogue: 0,0:00:28.12,0:00:28.52,Base,,0,0,0,,{\rBase}un {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}15 {\rBase}%
+Dialogue: 0,0:00:28.52,0:00:28.99,Base,,0,0,0,,{\rBase}un {\rBase}15 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}%
+Dialogue: 0,0:00:28.94,0:00:29.50,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}la {\rBase}mortalidad
+Dialogue: 0,0:00:29.50,0:00:29.64,Base,,0,0,0,,{\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}mortalidad
+Dialogue: 0,0:00:29.64,0:00:30.37,Base,,0,0,0,,{\rBase}y {\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}mortalidad
+Dialogue: 0,0:00:30.32,0:00:31.04,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}neonatal {\rBase}en {\rBase}un
+Dialogue: 0,0:00:31.04,0:00:31.42,Base,,0,0,0,,{\rBase}neonatal {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}un
+Dialogue: 0,0:00:31.42,0:00:31.59,Base,,0,0,0,,{\rBase}neonatal {\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}un
+Dialogue: 0,0:00:31.54,0:00:31.78,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}10 {\rBase}% {\rBase}comparada
+Dialogue: 0,0:00:31.78,0:00:32.26,Base,,0,0,0,,{\rBase}10 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}% {\rBase}comparada
+Dialogue: 0,0:00:32.26,0:00:33.01,Base,,0,0,0,,{\rBase}10 {\rBase}% {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}comparada
+Dialogue: 0,0:00:32.96,0:00:33.20,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}solo {\rBase}hierro
+Dialogue: 0,0:00:33.20,0:00:33.48,Base,,0,0,0,,{\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}solo {\rBase}hierro
+Dialogue: 0,0:00:33.48,0:00:34.03,Base,,0,0,0,,{\rBase}con {\rBase}solo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hierro
+Dialogue: 0,0:00:33.98,0:00:34.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}ácido {\rBase}fólico.
+Dialogue: 0,0:00:34.26,0:00:34.60,Base,,0,0,0,,{\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ácido {\rBase}fólico.
+Dialogue: 0,0:00:34.60,0:00:35.23,Base,,0,0,0,,{\rBase}y {\rBase}ácido {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}fólico.

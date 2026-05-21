@@ -1,0 +1,83 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,84,&H00B4377C,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El {\rBase}embarazo {\rBase}se
+Dialogue: 0,0:00:00.26,0:00:00.72,Base,,0,0,0,,{\rBase}El {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}embarazo {\rBase}se
+Dialogue: 0,0:00:00.72,0:00:00.95,Base,,0,0,0,,{\rBase}El {\rBase}embarazo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}se
+Dialogue: 0,0:00:00.90,0:00:01.54,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}consideró {\rBase}históricamente {\rBase}una
+Dialogue: 0,0:00:01.54,0:00:02.32,Base,,0,0,0,,{\rBase}consideró {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}históricamente {\rBase}una
+Dialogue: 0,0:00:02.32,0:00:02.57,Base,,0,0,0,,{\rBase}consideró {\rBase}históricamente {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}una
+Dialogue: 0,0:00:02.52,0:00:03.50,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}contraindicación {\rBase}para {\rBase}isoniazida
+Dialogue: 0,0:00:03.50,0:00:03.72,Base,,0,0,0,,{\rBase}contraindicación {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}para {\rBase}isoniazida
+Dialogue: 0,0:00:03.72,0:00:04.37,Base,,0,0,0,,{\rBase}contraindicación {\rBase}para {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}isoniazida
+Dialogue: 0,0:00:04.32,0:00:05.04,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}profiláctica {\rBase}por {\rBase}temor
+Dialogue: 0,0:00:05.04,0:00:05.38,Base,,0,0,0,,{\rBase}profiláctica {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}por {\rBase}temor
+Dialogue: 0,0:00:05.38,0:00:05.89,Base,,0,0,0,,{\rBase}profiláctica {\rBase}por {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}temor
+Dialogue: 0,0:00:05.84,0:00:05.92,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}a {\rBase}hepatotoxicidad, {\rBase}pero
+Dialogue: 0,0:00:05.92,0:00:07.36,Base,,0,0,0,,{\rBase}a {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hepatotoxicidad, {\rBase}pero
+Dialogue: 0,0:00:07.36,0:00:07.95,Base,,0,0,0,,{\rBase}a {\rBase}hepatotoxicidad, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pero
+Dialogue: 0,0:00:07.90,0:00:08.08,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}riesgo {\rBase}de
+Dialogue: 0,0:00:08.08,0:00:08.42,Base,,0,0,0,,{\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}riesgo {\rBase}de
+Dialogue: 0,0:00:08.42,0:00:08.59,Base,,0,0,0,,{\rBase}el {\rBase}riesgo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:08.54,0:00:08.86,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}TB {\rBase}diseminada {\rBase}en
+Dialogue: 0,0:00:08.86,0:00:09.62,Base,,0,0,0,,{\rBase}TB {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}diseminada {\rBase}en
+Dialogue: 0,0:00:09.62,0:00:09.77,Base,,0,0,0,,{\rBase}TB {\rBase}diseminada {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en
+Dialogue: 0,0:00:09.72,0:00:10.42,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}gestantes {\rBase}VIH {\rBase}positivas
+Dialogue: 0,0:00:10.42,0:00:11.16,Base,,0,0,0,,{\rBase}gestantes {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}VIH {\rBase}positivas
+Dialogue: 0,0:00:11.16,0:00:12.03,Base,,0,0,0,,{\rBase}gestantes {\rBase}VIH {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}positivas
+Dialogue: 0,0:00:11.98,0:00:12.90,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}supera {\rBase}ampliamente {\rBase}el
+Dialogue: 0,0:00:12.90,0:00:13.58,Base,,0,0,0,,{\rBase}supera {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ampliamente {\rBase}el
+Dialogue: 0,0:00:13.58,0:00:13.85,Base,,0,0,0,,{\rBase}supera {\rBase}ampliamente {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el
+Dialogue: 0,0:00:13.80,0:00:14.16,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}riesgo {\rBase}de {\rBase}hepatotoxicidad.
+Dialogue: 0,0:00:14.16,0:00:14.32,Base,,0,0,0,,{\rBase}riesgo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}hepatotoxicidad.
+Dialogue: 0,0:00:14.32,0:00:15.59,Base,,0,0,0,,{\rBase}riesgo {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}hepatotoxicidad.
+Dialogue: 0,0:00:15.84,0:00:16.54,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La {\rBase}terapia {\rBase}preventiva
+Dialogue: 0,0:00:16.54,0:00:16.94,Base,,0,0,0,,{\rBase}La {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}terapia {\rBase}preventiva
+Dialogue: 0,0:00:16.94,0:00:17.65,Base,,0,0,0,,{\rBase}La {\rBase}terapia {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}preventiva
+Dialogue: 0,0:00:17.60,0:00:17.84,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}isoniazida, {\rBase}300
+Dialogue: 0,0:00:17.84,0:00:18.70,Base,,0,0,0,,{\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}isoniazida, {\rBase}300
+Dialogue: 0,0:00:18.70,0:00:19.21,Base,,0,0,0,,{\rBase}con {\rBase}isoniazida, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}300
+Dialogue: 0,0:00:19.16,0:00:19.94,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}migracoladia {\rBase}durante {\rBase}6
+Dialogue: 0,0:00:19.94,0:00:20.26,Base,,0,0,0,,{\rBase}migracoladia {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}durante {\rBase}6
+Dialogue: 0,0:00:20.26,0:00:20.61,Base,,0,0,0,,{\rBase}migracoladia {\rBase}durante {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}6
+Dialogue: 0,0:00:20.56,0:00:21.32,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}meses, {\rBase}en {\rBase}gestantes
+Dialogue: 0,0:00:21.32,0:00:21.68,Base,,0,0,0,,{\rBase}meses, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}gestantes
+Dialogue: 0,0:00:21.68,0:00:22.21,Base,,0,0,0,,{\rBase}meses, {\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}gestantes
+Dialogue: 0,0:00:22.16,0:00:22.36,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}VIH {\rBase}que
+Dialogue: 0,0:00:22.36,0:00:22.92,Base,,0,0,0,,{\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}VIH {\rBase}que
+Dialogue: 0,0:00:22.92,0:00:23.19,Base,,0,0,0,,{\rBase}con {\rBase}VIH {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}que
+Dialogue: 0,0:00:23.14,0:00:23.44,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}viven {\rBase}en {\rBase}áreas
+Dialogue: 0,0:00:23.44,0:00:23.58,Base,,0,0,0,,{\rBase}viven {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}áreas
+Dialogue: 0,0:00:23.58,0:00:23.93,Base,,0,0,0,,{\rBase}viven {\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}áreas
+Dialogue: 0,0:00:23.88,0:00:24.08,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}alta {\rBase}prevalencia
+Dialogue: 0,0:00:24.08,0:00:24.28,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}alta {\rBase}prevalencia
+Dialogue: 0,0:00:24.28,0:00:25.05,Base,,0,0,0,,{\rBase}de {\rBase}alta {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}prevalencia
+Dialogue: 0,0:00:25.00,0:00:25.16,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}tuberculosis, {\rBase}reduce
+Dialogue: 0,0:00:25.16,0:00:25.86,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tuberculosis, {\rBase}reduce
+Dialogue: 0,0:00:25.86,0:00:26.81,Base,,0,0,0,,{\rBase}de {\rBase}tuberculosis, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}reduce
+Dialogue: 0,0:00:26.76,0:00:26.98,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}incidencia {\rBase}de
+Dialogue: 0,0:00:26.98,0:00:27.58,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}incidencia {\rBase}de
+Dialogue: 0,0:00:27.58,0:00:27.77,Base,,0,0,0,,{\rBase}la {\rBase}incidencia {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:27.72,0:00:27.94,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}TV {\rBase}activa {\rBase}en
+Dialogue: 0,0:00:27.94,0:00:28.38,Base,,0,0,0,,{\rBase}TV {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}activa {\rBase}en
+Dialogue: 0,0:00:28.38,0:00:28.51,Base,,0,0,0,,{\rBase}TV {\rBase}activa {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en
+Dialogue: 0,0:00:28.46,0:00:28.56,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}un {\rBase}40 {\rBase}%
+Dialogue: 0,0:00:28.56,0:00:28.96,Base,,0,0,0,,{\rBase}un {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}40 {\rBase}%
+Dialogue: 0,0:00:28.96,0:00:29.43,Base,,0,0,0,,{\rBase}un {\rBase}40 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}%
+Dialogue: 0,0:00:29.38,0:00:30.08,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}la {\rBase}mortalidad
+Dialogue: 0,0:00:30.08,0:00:30.20,Base,,0,0,0,,{\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}mortalidad
+Dialogue: 0,0:00:30.20,0:00:30.83,Base,,0,0,0,,{\rBase}y {\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}mortalidad
+Dialogue: 0,0:00:30.78,0:00:31.20,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}global {\rBase}en {\rBase}un
+Dialogue: 0,0:00:31.20,0:00:31.60,Base,,0,0,0,,{\rBase}global {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}un
+Dialogue: 0,0:00:31.60,0:00:31.73,Base,,0,0,0,,{\rBase}global {\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}un
+Dialogue: 0,0:00:31.68,0:00:32.77,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}35%.

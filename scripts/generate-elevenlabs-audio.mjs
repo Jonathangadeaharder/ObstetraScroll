@@ -6,28 +6,11 @@ const projectRoot = resolve(import.meta.dirname, "..");
 const outDir = join(projectRoot, "static", "generated-media", "audio-11labs");
 mkdirSync(outDir, { recursive: true });
 
-const VOICE_ID = "D6fGRDoSy1WFiaIpAbC7";
+const VOICE_ID = process.env.ELEVENLABS_VOICE_ID || "D6fGRDoSy1WFiaIpAbC7";
 const API_KEY = process.env.ELEVENLABS_TOKEN;
 if (!API_KEY) throw new Error("ELEVENLABS_TOKEN not set");
 
 const TONES = ["calm", "urgent", "mentor"];
-
-const EXTRA_OPENERS = [
-  "Esto es algo que no te enseñan en el libro pero aparece en sala:",
-  "Si hay un detalle clínico que suele pasarse por alto, es este:",
-  "Hacé una pausa y repasá esto con tu equipo:",
-  "No es teoría, es lo que la evidencia dice hoy:",
-  "En la práctica diaria este punto se olvida con frecuencia:",
-  "Vale la pena tenerlo claro antes del próximo turno:",
-];
-
-function shuffle(arr) {
-  for (let i = arr.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [arr[i], arr[j]] = [arr[j], arr[i]];
-  }
-  return arr;
-}
 
 // Generate briefs from facts with varied tones and shuffled order
 const factsJson = execSync(
@@ -35,30 +18,25 @@ const factsJson = execSync(
   { encoding: "utf8", maxBuffer: 50 * 1024 * 1024 },
 );
 
-let items = JSON.parse(factsJson);
+const items = JSON.parse(factsJson);
 
-// Shuffle items
-items = shuffle(items);
-
-// Renumber slugs after shuffle
-items.forEach((item, i) => {
-  item.slug = item.slug.replace(/^reel-\d+/, `reel-${String(i + 1).padStart(2, "0")}`);
-});
-
-console.log(`Total items: ${items.length} (shuffled, varied tones)`);
+// Stable order: slug index = fact rank. Pipeline matches by slug.
+console.log(`Total items: ${items.length} (stable order, varied tones)`);
 
 const manifest = [];
 
 for (const [idx, item] of items.entries()) {
   const slug = item.slug;
-  let text = item.script;
   const outPath = join(outDir, `${slug}.mp3`);
 
-  // Replace first line with a varied opener for extra diversity
-  const lines = text.split("\n");
-  const extraIdx = idx % EXTRA_OPENERS.length;
-  lines[0] = `${EXTRA_OPENERS[extraIdx]} ${item.title}.`;
-  text = lines.join("\n");
+  // Keep only beats 1 (reframe) + 2 (clinical insight) — those are unique
+  // per fact. Beats 0 (opener), 3 ("Para la práctica..."), 4 (safety) are
+  // identical across all 100 reels and would feel monotonous.
+  const paragraphs = item.script.split("\n\n");
+  const text =
+    paragraphs.length >= 3
+      ? paragraphs.slice(1, 3).join("\n\n").trim()
+      : paragraphs.join("\n\n").trim();
 
   console.log(`[${idx + 1}/${items.length}] ${slug} (tone: ${item.tone})...`);
 

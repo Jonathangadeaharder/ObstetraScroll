@@ -1,0 +1,74 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Helvetica,60,&H00C8C8C8,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Helvetica,92,&H00FFFFFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.30,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}El {\rBase}diazepam {\rBase}y
+Dialogue: 0,0:00:00.30,0:00:00.84,Base,,0,0,0,,{\rBase}El {\rHot\t(0,150,\fscx120\fscy120)}diazepam {\rBase}y
+Dialogue: 0,0:00:00.84,0:00:00.99,Base,,0,0,0,,{\rBase}El {\rBase}diazepam {\rHot\t(0,150,\fscx120\fscy120)}y
+Dialogue: 0,0:00:00.94,0:00:01.02,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}la {\rBase}fenitoína {\rBase}se
+Dialogue: 0,0:00:01.02,0:00:01.54,Base,,0,0,0,,{\rBase}la {\rHot\t(0,150,\fscx120\fscy120)}fenitoína {\rBase}se
+Dialogue: 0,0:00:01.54,0:00:01.77,Base,,0,0,0,,{\rBase}la {\rBase}fenitoína {\rHot\t(0,150,\fscx120\fscy120)}se
+Dialogue: 0,0:00:01.72,0:00:02.10,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}usaron {\rBase}históricamente {\rBase}para
+Dialogue: 0,0:00:02.10,0:00:02.88,Base,,0,0,0,,{\rBase}usaron {\rHot\t(0,150,\fscx120\fscy120)}históricamente {\rBase}para
+Dialogue: 0,0:00:02.88,0:00:03.17,Base,,0,0,0,,{\rBase}usaron {\rBase}históricamente {\rHot\t(0,150,\fscx120\fscy120)}para
+Dialogue: 0,0:00:03.12,0:00:03.54,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}prevenir {\rBase}convulsiones, {\rBase}pero
+Dialogue: 0,0:00:03.54,0:00:04.50,Base,,0,0,0,,{\rBase}prevenir {\rHot\t(0,150,\fscx120\fscy120)}convulsiones, {\rBase}pero
+Dialogue: 0,0:00:04.50,0:00:05.11,Base,,0,0,0,,{\rBase}prevenir {\rBase}convulsiones, {\rHot\t(0,150,\fscx120\fscy120)}pero
+Dialogue: 0,0:00:05.06,0:00:05.20,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}el {\rBase}sulfato {\rBase}de
+Dialogue: 0,0:00:05.20,0:00:05.66,Base,,0,0,0,,{\rBase}el {\rHot\t(0,150,\fscx120\fscy120)}sulfato {\rBase}de
+Dialogue: 0,0:00:05.66,0:00:05.83,Base,,0,0,0,,{\rBase}el {\rBase}sulfato {\rHot\t(0,150,\fscx120\fscy120)}de
+Dialogue: 0,0:00:05.78,0:00:06.22,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}magnesio {\rBase}es {\rBase}superior
+Dialogue: 0,0:00:06.22,0:00:06.38,Base,,0,0,0,,{\rBase}magnesio {\rHot\t(0,150,\fscx120\fscy120)}es {\rBase}superior
+Dialogue: 0,0:00:06.38,0:00:06.91,Base,,0,0,0,,{\rBase}magnesio {\rBase}es {\rHot\t(0,150,\fscx120\fscy120)}superior
+Dialogue: 0,0:00:06.86,0:00:07.08,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}en {\rBase}eficacia {\rBase}con
+Dialogue: 0,0:00:07.08,0:00:07.66,Base,,0,0,0,,{\rBase}en {\rHot\t(0,150,\fscx120\fscy120)}eficacia {\rBase}con
+Dialogue: 0,0:00:07.66,0:00:08.01,Base,,0,0,0,,{\rBase}en {\rBase}eficacia {\rHot\t(0,150,\fscx120\fscy120)}con
+Dialogue: 0,0:00:07.96,0:00:08.30,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}menor {\rBase}depresión {\rBase}respiratoria
+Dialogue: 0,0:00:08.30,0:00:08.78,Base,,0,0,0,,{\rBase}menor {\rHot\t(0,150,\fscx120\fscy120)}depresión {\rBase}respiratoria
+Dialogue: 0,0:00:08.78,0:00:09.53,Base,,0,0,0,,{\rBase}menor {\rBase}depresión {\rHot\t(0,150,\fscx120\fscy120)}respiratoria
+Dialogue: 0,0:00:09.48,0:00:10.48,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}neonatal. {\rBase}El {\rBase}sulfato
+Dialogue: 0,0:00:10.48,0:00:11.06,Base,,0,0,0,,{\rBase}neonatal. {\rHot\t(0,150,\fscx120\fscy120)}El {\rBase}sulfato
+Dialogue: 0,0:00:11.06,0:00:11.53,Base,,0,0,0,,{\rBase}neonatal. {\rBase}El {\rHot\t(0,150,\fscx120\fscy120)}sulfato
+Dialogue: 0,0:00:11.48,0:00:11.60,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}de {\rBase}magnesio, {\rBase}dosis
+Dialogue: 0,0:00:11.60,0:00:12.30,Base,,0,0,0,,{\rBase}de {\rHot\t(0,150,\fscx120\fscy120)}magnesio, {\rBase}dosis
+Dialogue: 0,0:00:12.30,0:00:12.75,Base,,0,0,0,,{\rBase}de {\rBase}magnesio, {\rHot\t(0,150,\fscx120\fscy120)}dosis
+Dialogue: 0,0:00:12.70,0:00:12.80,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}de {\rBase}carga {\rBase}4
+Dialogue: 0,0:00:12.80,0:00:13.10,Base,,0,0,0,,{\rBase}de {\rHot\t(0,150,\fscx120\fscy120)}carga {\rBase}4
+Dialogue: 0,0:00:13.10,0:00:13.49,Base,,0,0,0,,{\rBase}de {\rBase}carga {\rHot\t(0,150,\fscx120\fscy120)}4
+Dialogue: 0,0:00:13.80,0:00:14.08,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}cubo {\rBase}plus, {\rBase}mantenimiento
+Dialogue: 0,0:00:14.08,0:00:14.76,Base,,0,0,0,,{\rBase}cubo {\rHot\t(0,150,\fscx120\fscy120)}plus, {\rBase}mantenimiento
+Dialogue: 0,0:00:14.76,0:00:15.69,Base,,0,0,0,,{\rBase}cubo {\rBase}plus, {\rHot\t(0,150,\fscx120\fscy120)}mantenimiento
+Dialogue: 0,0:00:15.64,0:00:16.32,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}1 {\rBase}-HOOC {\rBase}H
+Dialogue: 0,0:00:16.32,0:00:16.80,Base,,0,0,0,,{\rBase}1 {\rHot\t(0,150,\fscx120\fscy120)}-HOOC {\rBase}H
+Dialogue: 0,0:00:16.80,0:00:17.05,Base,,0,0,0,,{\rBase}1 {\rBase}-HOOC {\rHot\t(0,150,\fscx120\fscy120)}H
+Dialogue: 0,0:00:17.00,0:00:17.40,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}durante {\rBase}24 {\rBase}horas,
+Dialogue: 0,0:00:17.40,0:00:17.94,Base,,0,0,0,,{\rBase}durante {\rHot\t(0,150,\fscx120\fscy120)}24 {\rBase}horas,
+Dialogue: 0,0:00:17.94,0:00:18.51,Base,,0,0,0,,{\rBase}durante {\rBase}24 {\rHot\t(0,150,\fscx120\fscy120)}horas,
+Dialogue: 0,0:00:18.68,0:00:19.48,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}reduce {\rBase}el {\rBase}riesgo
+Dialogue: 0,0:00:19.48,0:00:19.68,Base,,0,0,0,,{\rBase}reduce {\rHot\t(0,150,\fscx120\fscy120)}el {\rBase}riesgo
+Dialogue: 0,0:00:19.68,0:00:20.11,Base,,0,0,0,,{\rBase}reduce {\rBase}el {\rHot\t(0,150,\fscx120\fscy120)}riesgo
+Dialogue: 0,0:00:20.06,0:00:20.18,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}de {\rBase}eclampsia {\rBase}en
+Dialogue: 0,0:00:20.18,0:00:20.80,Base,,0,0,0,,{\rBase}de {\rHot\t(0,150,\fscx120\fscy120)}eclampsia {\rBase}en
+Dialogue: 0,0:00:20.80,0:00:21.07,Base,,0,0,0,,{\rBase}de {\rBase}eclampsia {\rHot\t(0,150,\fscx120\fscy120)}en
+Dialogue: 0,0:00:21.02,0:00:21.12,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}un {\rBase}52 {\rBase}%
+Dialogue: 0,0:00:21.12,0:00:21.66,Base,,0,0,0,,{\rBase}un {\rHot\t(0,150,\fscx120\fscy120)}52 {\rBase}%
+Dialogue: 0,0:00:21.66,0:00:22.09,Base,,0,0,0,,{\rBase}un {\rBase}52 {\rHot\t(0,150,\fscx120\fscy120)}%
+Dialogue: 0,0:00:22.04,0:00:22.70,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}en {\rBase}mujeres {\rBase}con
+Dialogue: 0,0:00:22.70,0:00:23.12,Base,,0,0,0,,{\rBase}en {\rHot\t(0,150,\fscx120\fscy120)}mujeres {\rBase}con
+Dialogue: 0,0:00:23.12,0:00:23.53,Base,,0,0,0,,{\rBase}en {\rBase}mujeres {\rHot\t(0,150,\fscx120\fscy120)}con
+Dialogue: 0,0:00:23.48,0:00:24.04,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}preeclampsia {\rBase}severa {\rBase}comparado
+Dialogue: 0,0:00:24.04,0:00:24.50,Base,,0,0,0,,{\rBase}preeclampsia {\rHot\t(0,150,\fscx120\fscy120)}severa {\rBase}comparado
+Dialogue: 0,0:00:24.50,0:00:25.07,Base,,0,0,0,,{\rBase}preeclampsia {\rBase}severa {\rHot\t(0,150,\fscx120\fscy120)}comparado
+Dialogue: 0,0:00:25.02,0:00:25.20,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}con {\rBase}placebo {\rBase}o
+Dialogue: 0,0:00:25.20,0:00:25.72,Base,,0,0,0,,{\rBase}con {\rHot\t(0,150,\fscx120\fscy120)}placebo {\rBase}o
+Dialogue: 0,0:00:25.72,0:00:26.11,Base,,0,0,0,,{\rBase}con {\rBase}placebo {\rHot\t(0,150,\fscx120\fscy120)}o
+Dialogue: 0,0:00:26.06,0:00:26.69,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}diazepam.

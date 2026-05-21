@@ -122,7 +122,7 @@ export function planReel(fact: Fact, request: ReelRequest): ReelBrief {
 				label: "Voz en off",
 				status: fact.riskLevel === "high" ? "blocked" : "queued",
 				detail:
-					"En facts high-risk, text2audio queda bloqueado hasta la revisión clínica.",
+					"En facts high-risk, la generación de voz queda bloqueada hasta la revisión clínica.",
 			},
 			{
 				id: "assemble",

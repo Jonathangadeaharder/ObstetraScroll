@@ -1,0 +1,67 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,84,&H00B4377C,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.28,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El {\rBase}edema {\rBase}de
+Dialogue: 0,0:00:00.28,0:00:00.52,Base,,0,0,0,,{\rBase}El {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}edema {\rBase}de
+Dialogue: 0,0:00:00.52,0:00:00.71,Base,,0,0,0,,{\rBase}El {\rBase}edema {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:00.66,0:00:01.10,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}piernas {\rBase}es {\rBase}casi
+Dialogue: 0,0:00:01.10,0:00:01.30,Base,,0,0,0,,{\rBase}piernas {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}es {\rBase}casi
+Dialogue: 0,0:00:01.30,0:00:01.63,Base,,0,0,0,,{\rBase}piernas {\rBase}es {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}casi
+Dialogue: 0,0:00:01.58,0:00:02.04,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}universal {\rBase}en {\rBase}el
+Dialogue: 0,0:00:02.04,0:00:02.40,Base,,0,0,0,,{\rBase}universal {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}el
+Dialogue: 0,0:00:02.40,0:00:02.57,Base,,0,0,0,,{\rBase}universal {\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el
+Dialogue: 0,0:00:02.52,0:00:02.78,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tercer {\rBase}trimestre, {\rBase}80
+Dialogue: 0,0:00:02.78,0:00:03.78,Base,,0,0,0,,{\rBase}tercer {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}trimestre, {\rBase}80
+Dialogue: 0,0:00:03.78,0:00:04.23,Base,,0,0,0,,{\rBase}tercer {\rBase}trimestre, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}80
+Dialogue: 0,0:00:04.18,0:00:04.52,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}% {\rBase}de {\rBase}gestantes
+Dialogue: 0,0:00:04.52,0:00:04.80,Base,,0,0,0,,{\rBase}% {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}gestantes
+Dialogue: 0,0:00:04.80,0:00:05.37,Base,,0,0,0,,{\rBase}% {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}gestantes
+Dialogue: 0,0:00:05.32,0:00:05.74,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sanas {\rBase}lo {\rBase}presentan,
+Dialogue: 0,0:00:05.74,0:00:05.86,Base,,0,0,0,,{\rBase}sanas {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}lo {\rBase}presentan,
+Dialogue: 0,0:00:05.86,0:00:06.59,Base,,0,0,0,,{\rBase}sanas {\rBase}lo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}presentan,
+Dialogue: 0,0:00:06.72,0:00:07.16,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}no {\rBase}predice
+Dialogue: 0,0:00:07.16,0:00:07.30,Base,,0,0,0,,{\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}no {\rBase}predice
+Dialogue: 0,0:00:07.30,0:00:07.81,Base,,0,0,0,,{\rBase}y {\rBase}no {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}predice
+Dialogue: 0,0:00:07.76,0:00:08.68,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}preeclampsia, {\rBase}pero {\rBase}sigue
+Dialogue: 0,0:00:08.68,0:00:08.90,Base,,0,0,0,,{\rBase}preeclampsia, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pero {\rBase}sigue
+Dialogue: 0,0:00:08.90,0:00:09.25,Base,,0,0,0,,{\rBase}preeclampsia, {\rBase}pero {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sigue
+Dialogue: 0,0:00:09.20,0:00:09.70,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}generando {\rBase}consultas {\rBase}de
+Dialogue: 0,0:00:09.70,0:00:10.30,Base,,0,0,0,,{\rBase}generando {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}consultas {\rBase}de
+Dialogue: 0,0:00:10.30,0:00:10.45,Base,,0,0,0,,{\rBase}generando {\rBase}consultas {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:10.40,0:00:10.90,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}urgencia {\rBase}innecesarias. {\rBase}El
+Dialogue: 0,0:00:10.90,0:00:12.08,Base,,0,0,0,,{\rBase}urgencia {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}innecesarias. {\rBase}El
+Dialogue: 0,0:00:12.08,0:00:12.65,Base,,0,0,0,,{\rBase}urgencia {\rBase}innecesarias. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El
+Dialogue: 0,0:00:12.60,0:00:12.88,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}edema {\rBase}generalizado {\rBase}fue
+Dialogue: 0,0:00:12.88,0:00:13.68,Base,,0,0,0,,{\rBase}edema {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}generalizado {\rBase}fue
+Dialogue: 0,0:00:13.68,0:00:14.03,Base,,0,0,0,,{\rBase}edema {\rBase}generalizado {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}fue
+Dialogue: 0,0:00:13.98,0:00:14.56,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}eliminado {\rBase}como {\rBase}criterio
+Dialogue: 0,0:00:14.56,0:00:14.78,Base,,0,0,0,,{\rBase}eliminado {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}como {\rBase}criterio
+Dialogue: 0,0:00:14.78,0:00:15.35,Base,,0,0,0,,{\rBase}eliminado {\rBase}como {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}criterio
+Dialogue: 0,0:00:15.30,0:00:15.98,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}diagnóstico {\rBase}de {\rBase}preeclampsia
+Dialogue: 0,0:00:15.98,0:00:16.12,Base,,0,0,0,,{\rBase}diagnóstico {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}preeclampsia
+Dialogue: 0,0:00:16.12,0:00:16.91,Base,,0,0,0,,{\rBase}diagnóstico {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}preeclampsia
+Dialogue: 0,0:00:16.86,0:00:17.12,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}2013. {\rBase}El
+Dialogue: 0,0:00:17.12,0:00:18.10,Base,,0,0,0,,{\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}2013. {\rBase}El
+Dialogue: 0,0:00:18.10,0:00:18.43,Base,,0,0,0,,{\rBase}en {\rBase}2013. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El
+Dialogue: 0,0:00:18.38,0:00:18.98,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}diagnóstico {\rBase}requiere {\rBase}presión
+Dialogue: 0,0:00:18.98,0:00:19.34,Base,,0,0,0,,{\rBase}diagnóstico {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}requiere {\rBase}presión
+Dialogue: 0,0:00:19.34,0:00:19.77,Base,,0,0,0,,{\rBase}diagnóstico {\rBase}requiere {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}presión
+Dialogue: 0,0:00:19.72,0:00:20.66,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}arterial, {\rBase}más {\rBase}proteinuria
+Dialogue: 0,0:00:20.66,0:00:20.86,Base,,0,0,0,,{\rBase}arterial, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}más {\rBase}proteinuria
+Dialogue: 0,0:00:20.86,0:00:24.93,Base,,0,0,0,,{\rBase}arterial, {\rBase}más {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}proteinuria
+Dialogue: 0,0:00:24.88,0:00:25.42,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}u {\rBase}otro {\rBase}marcador
+Dialogue: 0,0:00:25.42,0:00:25.68,Base,,0,0,0,,{\rBase}u {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}otro {\rBase}marcador
+Dialogue: 0,0:00:25.68,0:00:26.27,Base,,0,0,0,,{\rBase}u {\rBase}otro {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}marcador
+Dialogue: 0,0:00:26.22,0:00:26.38,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}daño {\rBase}orgánico.
+Dialogue: 0,0:00:26.38,0:00:26.68,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}daño {\rBase}orgánico.
+Dialogue: 0,0:00:26.68,0:00:27.31,Base,,0,0,0,,{\rBase}de {\rBase}daño {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}orgánico.

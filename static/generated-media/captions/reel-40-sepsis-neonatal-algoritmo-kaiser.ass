@@ -1,0 +1,78 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H003C3CE6,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.28,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}La {\rBase}práctica {\rBase}habitual
+Dialogue: 0,0:00:00.28,0:00:00.72,Base,,0,0,0,,{\rBase}La {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}práctica {\rBase}habitual
+Dialogue: 0,0:00:00.72,0:00:01.23,Base,,0,0,0,,{\rBase}La {\rBase}práctica {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}habitual
+Dialogue: 0,0:00:01.18,0:00:01.92,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}es {\rBase}iniciar {\rBase}antibióticos
+Dialogue: 0,0:00:01.92,0:00:02.38,Base,,0,0,0,,{\rBase}es {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}iniciar {\rBase}antibióticos
+Dialogue: 0,0:00:02.38,0:00:03.17,Base,,0,0,0,,{\rBase}es {\rBase}iniciar {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}antibióticos
+Dialogue: 0,0:00:03.12,0:00:03.38,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ante {\rBase}cualquier {\rBase}factor
+Dialogue: 0,0:00:03.38,0:00:03.84,Base,,0,0,0,,{\rBase}ante {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cualquier {\rBase}factor
+Dialogue: 0,0:00:03.84,0:00:04.29,Base,,0,0,0,,{\rBase}ante {\rBase}cualquier {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}factor
+Dialogue: 0,0:00:04.24,0:00:04.50,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}riesgo, {\rBase}corioamnionitis,
+Dialogue: 0,0:00:04.50,0:00:05.54,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}riesgo, {\rBase}corioamnionitis,
+Dialogue: 0,0:00:05.54,0:00:06.53,Base,,0,0,0,,{\rBase}de {\rBase}riesgo, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}corioamnionitis,
+Dialogue: 0,0:00:06.68,0:00:07.80,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}RPM. {\rBase}Pero {\rBase}la
+Dialogue: 0,0:00:07.80,0:00:08.26,Base,,0,0,0,,{\rBase}RPM. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Pero {\rBase}la
+Dialogue: 0,0:00:08.26,0:00:08.49,Base,,0,0,0,,{\rBase}RPM. {\rBase}Pero {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la
+Dialogue: 0,0:00:08.44,0:00:09.02,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}observación {\rBase}clínica {\rBase}seriada
+Dialogue: 0,0:00:09.02,0:00:09.50,Base,,0,0,0,,{\rBase}observación {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}clínica {\rBase}seriada
+Dialogue: 0,0:00:09.50,0:00:09.99,Base,,0,0,0,,{\rBase}observación {\rBase}clínica {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}seriada
+Dialogue: 0,0:00:09.94,0:00:10.22,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}este {\rBase}algoritmo
+Dialogue: 0,0:00:10.22,0:00:10.46,Base,,0,0,0,,{\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}este {\rBase}algoritmo
+Dialogue: 0,0:00:10.46,0:00:11.09,Base,,0,0,0,,{\rBase}con {\rBase}este {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}algoritmo
+Dialogue: 0,0:00:11.04,0:00:11.66,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}es {\rBase}igual {\rBase}de
+Dialogue: 0,0:00:11.66,0:00:11.96,Base,,0,0,0,,{\rBase}es {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}igual {\rBase}de
+Dialogue: 0,0:00:11.96,0:00:12.17,Base,,0,0,0,,{\rBase}es {\rBase}igual {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:12.12,0:00:12.56,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}segura {\rBase}y {\rBase}reduce
+Dialogue: 0,0:00:12.56,0:00:12.88,Base,,0,0,0,,{\rBase}segura {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}y {\rBase}reduce
+Dialogue: 0,0:00:12.88,0:00:13.33,Base,,0,0,0,,{\rBase}segura {\rBase}y {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}reduce
+Dialogue: 0,0:00:13.28,0:00:14.04,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}resistencias {\rBase}bacterianas. {\rBase}El
+Dialogue: 0,0:00:14.04,0:00:15.06,Base,,0,0,0,,{\rBase}resistencias {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}bacterianas. {\rBase}El
+Dialogue: 0,0:00:15.06,0:00:15.81,Base,,0,0,0,,{\rBase}resistencias {\rBase}bacterianas. {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}El
+Dialogue: 0,0:00:15.76,0:00:15.96,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}uso {\rBase}del {\rBase}algoritmo
+Dialogue: 0,0:00:15.96,0:00:16.14,Base,,0,0,0,,{\rBase}uso {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}del {\rBase}algoritmo
+Dialogue: 0,0:00:16.14,0:00:16.69,Base,,0,0,0,,{\rBase}uso {\rBase}del {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}algoritmo
+Dialogue: 0,0:00:16.64,0:00:16.78,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}sepsis {\rBase}neonatal
+Dialogue: 0,0:00:16.78,0:00:17.28,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sepsis {\rBase}neonatal
+Dialogue: 0,0:00:17.28,0:00:17.87,Base,,0,0,0,,{\rBase}de {\rBase}sepsis {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}neonatal
+Dialogue: 0,0:00:17.82,0:00:18.00,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}Kaiser {\rBase}Permanente,
+Dialogue: 0,0:00:18.00,0:00:18.32,Base,,0,0,0,,{\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Kaiser {\rBase}Permanente,
+Dialogue: 0,0:00:18.32,0:00:19.17,Base,,0,0,0,,{\rBase}de {\rBase}Kaiser {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Permanente,
+Dialogue: 0,0:00:19.24,0:00:19.84,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}evaluación {\rBase}seriada {\rBase}con
+Dialogue: 0,0:00:19.84,0:00:20.36,Base,,0,0,0,,{\rBase}evaluación {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}seriada {\rBase}con
+Dialogue: 0,0:00:20.36,0:00:20.65,Base,,0,0,0,,{\rBase}evaluación {\rBase}seriada {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con
+Dialogue: 0,0:00:20.60,0:00:21.00,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}examen {\rBase}físico, {\rBase}plus
+Dialogue: 0,0:00:21.00,0:00:21.72,Base,,0,0,0,,{\rBase}examen {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}físico, {\rBase}plus
+Dialogue: 0,0:00:21.72,0:00:22.13,Base,,0,0,0,,{\rBase}examen {\rBase}físico, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}plus
+Dialogue: 0,0:00:22.08,0:00:22.88,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}signos {\rBase}vitales, {\rBase}plus
+Dialogue: 0,0:00:22.88,0:00:23.58,Base,,0,0,0,,{\rBase}signos {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}vitales, {\rBase}plus
+Dialogue: 0,0:00:23.58,0:00:23.97,Base,,0,0,0,,{\rBase}signos {\rBase}vitales, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}plus
+Dialogue: 0,0:00:23.92,0:00:25.44,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}biomarcadores {\rBase}cada {\rBase}cuatro
+Dialogue: 0,0:00:25.44,0:00:25.74,Base,,0,0,0,,{\rBase}biomarcadores {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cada {\rBase}cuatro
+Dialogue: 0,0:00:25.74,0:00:26.17,Base,,0,0,0,,{\rBase}biomarcadores {\rBase}cada {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cuatro
+Dialogue: 0,0:00:26.12,0:00:26.76,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}horas, {\rBase}reduce {\rBase}la
+Dialogue: 0,0:00:26.76,0:00:27.60,Base,,0,0,0,,{\rBase}horas, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}reduce {\rBase}la
+Dialogue: 0,0:00:27.60,0:00:27.89,Base,,0,0,0,,{\rBase}horas, {\rBase}reduce {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la
+Dialogue: 0,0:00:27.84,0:00:28.50,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}exposición {\rBase}a {\rBase}antibióticos,
+Dialogue: 0,0:00:28.50,0:00:28.64,Base,,0,0,0,,{\rBase}exposición {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}a {\rBase}antibióticos,
+Dialogue: 0,0:00:28.64,0:00:29.59,Base,,0,0,0,,{\rBase}exposición {\rBase}a {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}antibióticos,
+Dialogue: 0,0:00:29.54,0:00:30.06,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}un {\rBase}50
+Dialogue: 0,0:00:30.06,0:00:30.24,Base,,0,0,0,,{\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}un {\rBase}50
+Dialogue: 0,0:00:30.24,0:00:30.81,Base,,0,0,0,,{\rBase}en {\rBase}un {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}50
+Dialogue: 0,0:00:30.76,0:00:31.30,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}% {\rBase}sin {\rBase}aumentar
+Dialogue: 0,0:00:31.30,0:00:31.96,Base,,0,0,0,,{\rBase}% {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sin {\rBase}aumentar
+Dialogue: 0,0:00:31.96,0:00:32.51,Base,,0,0,0,,{\rBase}% {\rBase}sin {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}aumentar
+Dialogue: 0,0:00:32.46,0:00:33.16,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sepsis {\rBase}confirmada.
+Dialogue: 0,0:00:33.16,0:00:33.89,Base,,0,0,0,,{\rBase}sepsis {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}confirmada.

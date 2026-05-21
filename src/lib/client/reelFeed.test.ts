@@ -138,40 +138,49 @@ describe("reel feed helpers", () => {
 });
 
 describe("buildReelPages", () => {
-	it("interleaves video and quiz pages", () => {
-		const pages = buildReelPages([item("a"), item("b")], 1);
+	it("inserts a quiz after every Nth video", () => {
+		const items = Array.from({ length: 10 }, (_, i) => item(`v${i}`));
+		const pages = buildReelPages(items, 1, { quizEveryN: 5 });
 
-		expect(pages).toHaveLength(4);
-		expect(pages[0].pageType).toBe("video");
-		expect(pages[0].item.id).toBe("a");
-		expect(pages[1].pageType).toBe("quiz");
-		expect(pages[1].item.id).toBe("a");
-		expect(pages[2].pageType).toBe("video");
-		expect(pages[2].item.id).toBe("b");
-		expect(pages[3].pageType).toBe("quiz");
-		expect(pages[3].item.id).toBe("b");
+		// 10 videos + 2 quizzes (after v4 and v9).
+		expect(pages).toHaveLength(12);
+		expect(pages.slice(0, 5).every((p) => p.pageType === "video")).toBe(true);
+		expect(pages[5].pageType).toBe("quiz");
+		expect(pages.slice(6, 11).every((p) => p.pageType === "video")).toBe(true);
+		expect(pages[11].pageType).toBe("quiz");
 	});
 
-	it("assigns correct reel numbers", () => {
-		const pages = buildReelPages([item("a"), item("b")], 1);
-		expect(pages[0].reelNumber).toBe(1);
-		expect(pages[1].reelNumber).toBe(1);
-		expect(pages[2].reelNumber).toBe(2);
-		expect(pages[3].reelNumber).toBe(2);
+	it("uses quizPicker to choose quiz fact (spaced repetition hook)", () => {
+		const items = Array.from({ length: 5 }, (_, i) => item(`v${i}`));
+		const calls: number[] = [];
+		const pages = buildReelPages(items, 1, {
+			quizEveryN: 5,
+			quizPicker: (pos) => {
+				calls.push(pos);
+				return items[2];
+			},
+		});
+
+		expect(calls).toEqual([5]);
+		expect(pages[5].pageType).toBe("quiz");
+		expect(pages[5].item.id).toBe("v2");
+	});
+
+	it("falls back to current item when picker returns null", () => {
+		const items = [item("a"), item("b"), item("c"), item("d"), item("e")];
+		const pages = buildReelPages(items, 1, {
+			quizEveryN: 5,
+			quizPicker: () => null,
+		});
+		expect(pages[5].pageType).toBe("quiz");
+		expect(pages[5].item.id).toBe("e");
 	});
 
 	it("generates unique keys per page", () => {
-		const pages = buildReelPages([item("a"), item("b")], 2);
+		const items = Array.from({ length: 5 }, (_, i) => item(`v${i}`));
+		const pages = buildReelPages(items, 2, { quizEveryN: 5 });
 		const keys = pages.map((p) => p.key);
-		expect(new Set(keys).size).toBe(8);
-	});
-
-	it("cycles through pages", () => {
-		const pages = buildReelPages([item("a")], 3);
-		expect(pages).toHaveLength(6);
-		expect(pages[0].key).toContain("c0");
-		expect(pages[2].key).toContain("c1");
-		expect(pages[4].key).toContain("c2");
+		expect(new Set(keys).size).toBe(pages.length);
 	});
 
 	it("returns empty array for empty feed", () => {
@@ -180,29 +189,33 @@ describe("buildReelPages", () => {
 });
 
 describe("buildInfoItems", () => {
-	it("builds items from editorial checks and beats", () => {
+	it("returns empty when no fact provided", () => {
 		const feedItem = item("test");
-		feedItem.brief.editorialChecks = ["Verify OMS data"];
-		feedItem.brief.beats = [
-			{
-				id: "b1",
-				startSec: 0,
-				durationSec: 10,
-				visual: "Animation",
-				voiceover: "Voice",
-				overlay: "",
-				camera: "",
-			},
-		];
-
-		const infoItems = buildInfoItems(feedItem);
-
-		expect(infoItems.length).toBeGreaterThanOrEqual(2);
-		expect(infoItems.some((i) => i.author === "Check editorial")).toBe(true);
-		expect(infoItems.some((i) => i.author.startsWith("Momento"))).toBe(true);
+		expect(buildInfoItems(feedItem)).toEqual([]);
 	});
 
-	it("includes fact data when fact is provided", () => {
+	it("includes glossary terms found in fact text", () => {
+		const feedItem = item("hpp-test");
+		const fact = {
+			id: "hpp-test",
+			rank: 1,
+			title: "HPP y oxitocina",
+			insight: "10 UI de oxitocina IM reducen HPP 60%.",
+			whyNonObvious: "Muchos equipos esperan.",
+			audience: "Midwives",
+			sourceNote: "Cochrane",
+			evidenceStatus: "approved" as const,
+			riskLevel: "high" as const,
+			tags: [],
+		};
+
+		const infoItems = buildInfoItems(feedItem, fact);
+		const terms = infoItems.filter((i) => i.icon === "🔎");
+		expect(terms.some((t) => t.author === "HPP")).toBe(true);
+		expect(terms.some((t) => t.author === "UI")).toBe(true);
+	});
+
+	it("includes detail, why-non-obvious, and source", () => {
 		const feedItem = item("test-id");
 		const fact = {
 			id: "test-id",
@@ -216,16 +229,11 @@ describe("buildInfoItems", () => {
 			riskLevel: "low" as const,
 			tags: [],
 		};
-
 		const infoItems = buildInfoItems(feedItem, fact);
-
-		expect(infoItems.some((i) => i.author === "Dato clave")).toBe(true);
+		expect(infoItems.some((i) => i.author === "Detalle clínico")).toBe(true);
+		expect(infoItems.some((i) => i.author === "Por qué no es obvio")).toBe(
+			true,
+		);
 		expect(infoItems.some((i) => i.author === "Fuente")).toBe(true);
-	});
-
-	it("returns empty array for item with no data", () => {
-		const feedItem = item("empty");
-		const infoItems = buildInfoItems(feedItem);
-		expect(infoItems).toEqual([]);
 	});
 });

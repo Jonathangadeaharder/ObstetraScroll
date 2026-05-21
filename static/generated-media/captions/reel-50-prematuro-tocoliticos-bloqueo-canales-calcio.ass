@@ -1,0 +1,84 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0000E5FF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}terbutalina {\rBase}y
+Dialogue: 0,0:00:00.34,0:00:01.14,Base,,0,0,0,,{\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}terbutalina {\rBase}y
+Dialogue: 0,0:00:01.14,0:00:01.33,Base,,0,0,0,,{\rBase}La {\rBase}terbutalina {\rHot\t(0,120,\fscx115\fscy115)}y
+Dialogue: 0,0:00:01.28,0:00:01.56,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}otros {\rBase}betamiméticos {\rBase}se
+Dialogue: 0,0:00:01.56,0:00:02.70,Base,,0,0,0,,{\rBase}otros {\rHot\t(0,120,\fscx115\fscy115)}betamiméticos {\rBase}se
+Dialogue: 0,0:00:02.70,0:00:03.27,Base,,0,0,0,,{\rBase}otros {\rBase}betamiméticos {\rHot\t(0,120,\fscx115\fscy115)}se
+Dialogue: 0,0:00:03.22,0:00:03.58,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}usaron {\rBase}como {\rBase}tocolíticos
+Dialogue: 0,0:00:03.58,0:00:03.82,Base,,0,0,0,,{\rBase}usaron {\rHot\t(0,120,\fscx115\fscy115)}como {\rBase}tocolíticos
+Dialogue: 0,0:00:03.82,0:00:04.65,Base,,0,0,0,,{\rBase}usaron {\rBase}como {\rHot\t(0,120,\fscx115\fscy115)}tocolíticos
+Dialogue: 0,0:00:04.60,0:00:04.74,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}primera {\rBase}línea
+Dialogue: 0,0:00:04.74,0:00:05.06,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}primera {\rBase}línea
+Dialogue: 0,0:00:05.06,0:00:05.43,Base,,0,0,0,,{\rBase}de {\rBase}primera {\rHot\t(0,120,\fscx115\fscy115)}línea
+Dialogue: 0,0:00:05.38,0:00:05.78,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}durante {\rBase}décadas, {\rBase}pero
+Dialogue: 0,0:00:05.78,0:00:06.54,Base,,0,0,0,,{\rBase}durante {\rHot\t(0,120,\fscx115\fscy115)}décadas, {\rBase}pero
+Dialogue: 0,0:00:06.54,0:00:07.05,Base,,0,0,0,,{\rBase}durante {\rBase}décadas, {\rHot\t(0,120,\fscx115\fscy115)}pero
+Dialogue: 0,0:00:07.00,0:00:07.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}tienen {\rBase}tasas {\rBase}de
+Dialogue: 0,0:00:07.32,0:00:07.74,Base,,0,0,0,,{\rBase}tienen {\rHot\t(0,120,\fscx115\fscy115)}tasas {\rBase}de
+Dialogue: 0,0:00:07.74,0:00:07.91,Base,,0,0,0,,{\rBase}tienen {\rBase}tasas {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:07.86,0:00:08.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}efectos {\rBase}adversos {\rBase}maternos,
+Dialogue: 0,0:00:08.28,0:00:08.86,Base,,0,0,0,,{\rBase}efectos {\rHot\t(0,120,\fscx115\fscy115)}adversos {\rBase}maternos,
+Dialogue: 0,0:00:08.86,0:00:09.67,Base,,0,0,0,,{\rBase}efectos {\rBase}adversos {\rHot\t(0,120,\fscx115\fscy115)}maternos,
+Dialogue: 0,0:00:09.76,0:00:10.70,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}taquicardia, {\rBase}hipocalemia, {\rBase}hiperglucemia,
+Dialogue: 0,0:00:10.70,0:00:11.60,Base,,0,0,0,,{\rBase}taquicardia, {\rHot\t(0,120,\fscx115\fscy115)}hipocalemia, {\rBase}hiperglucemia,
+Dialogue: 0,0:00:11.60,0:00:12.51,Base,,0,0,0,,{\rBase}taquicardia, {\rBase}hipocalemia, {\rHot\t(0,120,\fscx115\fscy115)}hiperglucemia,
+Dialogue: 0,0:00:12.70,0:00:12.96,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}del {\rBase}40%, {\rBase}comparadas
+Dialogue: 0,0:00:12.96,0:00:13.80,Base,,0,0,0,,{\rBase}del {\rHot\t(0,120,\fscx115\fscy115)}40%, {\rBase}comparadas
+Dialogue: 0,0:00:13.80,0:00:15.03,Base,,0,0,0,,{\rBase}del {\rBase}40%, {\rHot\t(0,120,\fscx115\fscy115)}comparadas
+Dialogue: 0,0:00:14.98,0:00:15.22,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}con {\rBase}5 {\rBase}%
+Dialogue: 0,0:00:15.22,0:00:15.56,Base,,0,0,0,,{\rBase}con {\rHot\t(0,120,\fscx115\fscy115)}5 {\rBase}%
+Dialogue: 0,0:00:15.56,0:00:16.13,Base,,0,0,0,,{\rBase}con {\rBase}5 {\rHot\t(0,120,\fscx115\fscy115)}%
+Dialogue: 0,0:00:16.08,0:00:16.34,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}para {\rBase}nifedipina. {\rBase}El
+Dialogue: 0,0:00:16.34,0:00:17.32,Base,,0,0,0,,{\rBase}para {\rHot\t(0,120,\fscx115\fscy115)}nifedipina. {\rBase}El
+Dialogue: 0,0:00:17.32,0:00:18.07,Base,,0,0,0,,{\rBase}para {\rBase}nifedipina. {\rHot\t(0,120,\fscx115\fscy115)}El
+Dialogue: 0,0:00:18.02,0:00:18.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}bloqueante {\rBase}de {\rBase}canales
+Dialogue: 0,0:00:18.60,0:00:18.76,Base,,0,0,0,,{\rBase}bloqueante {\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}canales
+Dialogue: 0,0:00:18.76,0:00:19.19,Base,,0,0,0,,{\rBase}bloqueante {\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}canales
+Dialogue: 0,0:00:19.14,0:00:19.26,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}calcio, {\rBase}nifedipina,
+Dialogue: 0,0:00:19.26,0:00:19.92,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}calcio, {\rBase}nifedipina,
+Dialogue: 0,0:00:19.92,0:00:20.91,Base,,0,0,0,,{\rBase}de {\rBase}calcio, {\rHot\t(0,120,\fscx115\fscy115)}nifedipina,
+Dialogue: 0,0:00:21.00,0:00:21.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}el {\rBase}antagonista
+Dialogue: 0,0:00:21.38,0:00:21.50,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}antagonista
+Dialogue: 0,0:00:21.50,0:00:22.17,Base,,0,0,0,,{\rBase}y {\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}antagonista
+Dialogue: 0,0:00:22.12,0:00:22.30,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}oxitocina, {\rBase}atosiban,
+Dialogue: 0,0:00:22.30,0:00:23.48,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}oxitocina, {\rBase}atosiban,
+Dialogue: 0,0:00:23.48,0:00:24.09,Base,,0,0,0,,{\rBase}de {\rBase}oxitocina, {\rHot\t(0,120,\fscx115\fscy115)}atosiban,
+Dialogue: 0,0:00:24.04,0:00:24.82,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}tienen {\rBase}la {\rBase}misma
+Dialogue: 0,0:00:24.82,0:00:25.00,Base,,0,0,0,,{\rBase}tienen {\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}misma
+Dialogue: 0,0:00:25.00,0:00:25.33,Base,,0,0,0,,{\rBase}tienen {\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}misma
+Dialogue: 0,0:00:25.28,0:00:26.06,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}eficacia {\rBase}para {\rBase}prolongar
+Dialogue: 0,0:00:26.06,0:00:26.34,Base,,0,0,0,,{\rBase}eficacia {\rHot\t(0,120,\fscx115\fscy115)}para {\rBase}prolongar
+Dialogue: 0,0:00:26.34,0:00:26.91,Base,,0,0,0,,{\rBase}eficacia {\rBase}para {\rHot\t(0,120,\fscx115\fscy115)}prolongar
+Dialogue: 0,0:00:26.86,0:00:26.98,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}el {\rBase}embarazo {\rBase}48
+Dialogue: 0,0:00:26.98,0:00:27.40,Base,,0,0,0,,{\rBase}el {\rHot\t(0,120,\fscx115\fscy115)}embarazo {\rBase}48
+Dialogue: 0,0:00:27.40,0:00:28.03,Base,,0,0,0,,{\rBase}el {\rBase}embarazo {\rHot\t(0,120,\fscx115\fscy115)}48
+Dialogue: 0,0:00:27.98,0:00:28.88,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}horas, {\rBase}tasa {\rBase}de
+Dialogue: 0,0:00:28.88,0:00:29.46,Base,,0,0,0,,{\rBase}horas, {\rHot\t(0,120,\fscx115\fscy115)}tasa {\rBase}de
+Dialogue: 0,0:00:29.46,0:00:29.61,Base,,0,0,0,,{\rBase}horas, {\rBase}tasa {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:29.56,0:00:30.06,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}éxito {\rBase}86 {\rBase}-90%,
+Dialogue: 0,0:00:30.06,0:00:30.90,Base,,0,0,0,,{\rBase}éxito {\rHot\t(0,120,\fscx115\fscy115)}86 {\rBase}-90%,
+Dialogue: 0,0:00:30.90,0:00:32.43,Base,,0,0,0,,{\rBase}éxito {\rBase}86 {\rHot\t(0,120,\fscx115\fscy115)}-90%,
+Dialogue: 0,0:00:32.38,0:00:33.50,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}con {\rBase}menor {\rBase}riesgo
+Dialogue: 0,0:00:33.50,0:00:33.80,Base,,0,0,0,,{\rBase}con {\rHot\t(0,120,\fscx115\fscy115)}menor {\rBase}riesgo
+Dialogue: 0,0:00:33.80,0:00:34.33,Base,,0,0,0,,{\rBase}con {\rBase}menor {\rHot\t(0,120,\fscx115\fscy115)}riesgo
+Dialogue: 0,0:00:34.28,0:00:34.42,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}de {\rBase}efectos {\rBase}adversos
+Dialogue: 0,0:00:34.42,0:00:34.90,Base,,0,0,0,,{\rBase}de {\rHot\t(0,120,\fscx115\fscy115)}efectos {\rBase}adversos
+Dialogue: 0,0:00:34.90,0:00:35.51,Base,,0,0,0,,{\rBase}de {\rBase}efectos {\rHot\t(0,120,\fscx115\fscy115)}adversos
+Dialogue: 0,0:00:35.46,0:00:36.06,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}maternos {\rBase}que {\rBase}los
+Dialogue: 0,0:00:36.06,0:00:36.56,Base,,0,0,0,,{\rBase}maternos {\rHot\t(0,120,\fscx115\fscy115)}que {\rBase}los
+Dialogue: 0,0:00:36.56,0:00:36.83,Base,,0,0,0,,{\rBase}maternos {\rBase}que {\rHot\t(0,120,\fscx115\fscy115)}los
+Dialogue: 0,0:00:36.78,0:00:38.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}betamiméticos, {\rBase}terbutalina.
+Dialogue: 0,0:00:38.28,0:00:39.03,Base,,0,0,0,,{\rBase}betamiméticos, {\rHot\t(0,120,\fscx115\fscy115)}terbutalina.

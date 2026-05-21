@@ -1,0 +1,77 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H0080DE4A,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}La {\rBase}tendencia {\rBase}en
+Dialogue: 0,0:00:00.28,0:00:00.70,Base,,0,0,0,,{\rBase}La {\rHot\t(0,120,\fscx115\fscy115)}tendencia {\rBase}en
+Dialogue: 0,0:00:00.70,0:00:00.91,Base,,0,0,0,,{\rBase}La {\rBase}tendencia {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:00.86,0:00:01.32,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}medicina {\rBase}perinatal {\rBase}es
+Dialogue: 0,0:00:01.32,0:00:01.80,Base,,0,0,0,,{\rBase}medicina {\rHot\t(0,120,\fscx115\fscy115)}perinatal {\rBase}es
+Dialogue: 0,0:00:01.80,0:00:02.23,Base,,0,0,0,,{\rBase}medicina {\rBase}perinatal {\rHot\t(0,120,\fscx115\fscy115)}es
+Dialogue: 0,0:00:02.18,0:00:02.60,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}hacer {\rBase}todo {\rBase}lo
+Dialogue: 0,0:00:02.60,0:00:02.94,Base,,0,0,0,,{\rBase}hacer {\rHot\t(0,120,\fscx115\fscy115)}todo {\rBase}lo
+Dialogue: 0,0:00:02.94,0:00:03.13,Base,,0,0,0,,{\rBase}hacer {\rBase}todo {\rHot\t(0,120,\fscx115\fscy115)}lo
+Dialogue: 0,0:00:03.08,0:00:03.86,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}posible. {\rBase}Pero {\rBase}los
+Dialogue: 0,0:00:03.86,0:00:04.46,Base,,0,0,0,,{\rBase}posible. {\rHot\t(0,120,\fscx115\fscy115)}Pero {\rBase}los
+Dialogue: 0,0:00:04.46,0:00:04.71,Base,,0,0,0,,{\rBase}posible. {\rBase}Pero {\rHot\t(0,120,\fscx115\fscy115)}los
+Dialogue: 0,0:00:04.66,0:00:05.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}cuidados {\rBase}paliativos {\rBase}en
+Dialogue: 0,0:00:05.00,0:00:05.58,Base,,0,0,0,,{\rBase}cuidados {\rHot\t(0,120,\fscx115\fscy115)}paliativos {\rBase}en
+Dialogue: 0,0:00:05.58,0:00:05.79,Base,,0,0,0,,{\rBase}cuidados {\rBase}paliativos {\rHot\t(0,120,\fscx115\fscy115)}en
+Dialogue: 0,0:00:05.74,0:00:06.30,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}asfixia {\rBase}severa {\rBase}con
+Dialogue: 0,0:00:06.30,0:00:06.74,Base,,0,0,0,,{\rBase}asfixia {\rHot\t(0,120,\fscx115\fscy115)}severa {\rBase}con
+Dialogue: 0,0:00:06.74,0:00:07.01,Base,,0,0,0,,{\rBase}asfixia {\rBase}severa {\rHot\t(0,120,\fscx115\fscy115)}con
+Dialogue: 0,0:00:06.96,0:00:07.50,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}pronóstico {\rBase}neurológico {\rBase}devastador
+Dialogue: 0,0:00:07.50,0:00:08.20,Base,,0,0,0,,{\rBase}pronóstico {\rHot\t(0,120,\fscx115\fscy115)}neurológico {\rBase}devastador
+Dialogue: 0,0:00:08.20,0:00:08.89,Base,,0,0,0,,{\rBase}pronóstico {\rBase}neurológico {\rHot\t(0,120,\fscx115\fscy115)}devastador
+Dialogue: 0,0:00:08.84,0:00:09.58,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}pueden {\rBase}prevenir {\rBase}sufrimiento
+Dialogue: 0,0:00:09.58,0:00:09.98,Base,,0,0,0,,{\rBase}pueden {\rHot\t(0,120,\fscx115\fscy115)}prevenir {\rBase}sufrimiento
+Dialogue: 0,0:00:09.98,0:00:10.67,Base,,0,0,0,,{\rBase}pueden {\rBase}prevenir {\rHot\t(0,120,\fscx115\fscy115)}sufrimiento
+Dialogue: 0,0:00:10.62,0:00:11.28,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}innecesario {\rBase}y {\rBase}respetar
+Dialogue: 0,0:00:11.28,0:00:11.52,Base,,0,0,0,,{\rBase}innecesario {\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}respetar
+Dialogue: 0,0:00:11.52,0:00:12.11,Base,,0,0,0,,{\rBase}innecesario {\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}respetar
+Dialogue: 0,0:00:12.06,0:00:12.18,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}la {\rBase}autonomía {\rBase}familiar.
+Dialogue: 0,0:00:12.18,0:00:12.74,Base,,0,0,0,,{\rBase}la {\rHot\t(0,120,\fscx115\fscy115)}autonomía {\rBase}familiar.
+Dialogue: 0,0:00:12.74,0:00:13.25,Base,,0,0,0,,{\rBase}la {\rBase}autonomía {\rHot\t(0,120,\fscx115\fscy115)}familiar.
+Dialogue: 0,0:00:13.70,0:00:14.22,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}En {\rBase}casos {\rBase}de
+Dialogue: 0,0:00:14.22,0:00:14.48,Base,,0,0,0,,{\rBase}En {\rHot\t(0,120,\fscx115\fscy115)}casos {\rBase}de
+Dialogue: 0,0:00:14.48,0:00:14.69,Base,,0,0,0,,{\rBase}En {\rBase}casos {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:14.64,0:00:15.14,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}asfixia {\rBase}perinatal {\rBase}con
+Dialogue: 0,0:00:15.14,0:00:15.74,Base,,0,0,0,,{\rBase}asfixia {\rHot\t(0,120,\fscx115\fscy115)}perinatal {\rBase}con
+Dialogue: 0,0:00:15.74,0:00:16.07,Base,,0,0,0,,{\rBase}asfixia {\rBase}perinatal {\rHot\t(0,120,\fscx115\fscy115)}con
+Dialogue: 0,0:00:16.02,0:00:16.58,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}pronóstico {\rBase}neurológico {\rBase}catastrófico
+Dialogue: 0,0:00:16.58,0:00:17.30,Base,,0,0,0,,{\rBase}pronóstico {\rHot\t(0,120,\fscx115\fscy115)}neurológico {\rBase}catastrófico
+Dialogue: 0,0:00:17.30,0:00:18.15,Base,,0,0,0,,{\rBase}pronóstico {\rBase}neurológico {\rHot\t(0,120,\fscx115\fscy115)}catastrófico
+Dialogue: 0,0:00:18.10,0:00:19.00,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}confirmado, {\rBase}ausencia {\rBase}de
+Dialogue: 0,0:00:19.00,0:00:19.42,Base,,0,0,0,,{\rBase}confirmado, {\rHot\t(0,120,\fscx115\fscy115)}ausencia {\rBase}de
+Dialogue: 0,0:00:19.42,0:00:19.59,Base,,0,0,0,,{\rBase}confirmado, {\rBase}ausencia {\rHot\t(0,120,\fscx115\fscy115)}de
+Dialogue: 0,0:00:19.54,0:00:19.96,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}actividad {\rBase}eléctrica {\rBase}cerebral
+Dialogue: 0,0:00:19.96,0:00:20.50,Base,,0,0,0,,{\rBase}actividad {\rHot\t(0,120,\fscx115\fscy115)}eléctrica {\rBase}cerebral
+Dialogue: 0,0:00:20.50,0:00:20.93,Base,,0,0,0,,{\rBase}actividad {\rBase}eléctrica {\rHot\t(0,120,\fscx115\fscy115)}cerebral
+Dialogue: 0,0:00:20.88,0:00:22.06,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}sostenida, {\rBase}lactato {\rBase}elevado
+Dialogue: 0,0:00:22.06,0:00:22.44,Base,,0,0,0,,{\rBase}sostenida, {\rHot\t(0,120,\fscx115\fscy115)}lactato {\rBase}elevado
+Dialogue: 0,0:00:22.44,0:00:22.87,Base,,0,0,0,,{\rBase}sostenida, {\rBase}lactato {\rHot\t(0,120,\fscx115\fscy115)}elevado
+Dialogue: 0,0:00:22.82,0:00:23.80,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}persistente, {\rBase}los {\rBase}cuidados
+Dialogue: 0,0:00:23.80,0:00:24.42,Base,,0,0,0,,{\rBase}persistente, {\rHot\t(0,120,\fscx115\fscy115)}los {\rBase}cuidados
+Dialogue: 0,0:00:24.42,0:00:24.85,Base,,0,0,0,,{\rBase}persistente, {\rBase}los {\rHot\t(0,120,\fscx115\fscy115)}cuidados
+Dialogue: 0,0:00:24.80,0:00:25.38,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}paliativos {\rBase}perinatales {\rBase}son
+Dialogue: 0,0:00:25.38,0:00:26.06,Base,,0,0,0,,{\rBase}paliativos {\rHot\t(0,120,\fscx115\fscy115)}perinatales {\rBase}son
+Dialogue: 0,0:00:26.06,0:00:26.61,Base,,0,0,0,,{\rBase}paliativos {\rBase}perinatales {\rHot\t(0,120,\fscx115\fscy115)}son
+Dialogue: 0,0:00:26.56,0:00:26.74,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}una {\rBase}alternativa {\rBase}ética
+Dialogue: 0,0:00:26.74,0:00:27.38,Base,,0,0,0,,{\rBase}una {\rHot\t(0,120,\fscx115\fscy115)}alternativa {\rBase}ética
+Dialogue: 0,0:00:27.38,0:00:27.93,Base,,0,0,0,,{\rBase}una {\rBase}alternativa {\rHot\t(0,120,\fscx115\fscy115)}ética
+Dialogue: 0,0:00:27.88,0:00:28.14,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}y {\rBase}clínicamente {\rBase}válida
+Dialogue: 0,0:00:28.14,0:00:28.90,Base,,0,0,0,,{\rBase}y {\rHot\t(0,120,\fscx115\fscy115)}clínicamente {\rBase}válida
+Dialogue: 0,0:00:28.90,0:00:29.41,Base,,0,0,0,,{\rBase}y {\rBase}clínicamente {\rHot\t(0,120,\fscx115\fscy115)}válida
+Dialogue: 0,0:00:29.36,0:00:29.78,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}al {\rBase}soporte {\rBase}vital
+Dialogue: 0,0:00:29.78,0:00:30.26,Base,,0,0,0,,{\rBase}al {\rHot\t(0,120,\fscx115\fscy115)}soporte {\rBase}vital
+Dialogue: 0,0:00:30.26,0:00:30.55,Base,,0,0,0,,{\rBase}al {\rBase}soporte {\rHot\t(0,120,\fscx115\fscy115)}vital
+Dialogue: 0,0:00:30.50,0:00:31.27,Base,,0,0,0,,{\rHot\t(0,120,\fscx115\fscy115)}intensivo.

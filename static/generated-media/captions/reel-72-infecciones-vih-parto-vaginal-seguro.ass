@@ -1,0 +1,76 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Impact,64,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Impact,86,&H003C3CE6,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.68,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Múltiples {\rBase}guías {\rBase}aún
+Dialogue: 0,0:00:00.68,0:00:01.00,Base,,0,0,0,,{\rBase}Múltiples {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}guías {\rBase}aún
+Dialogue: 0,0:00:01.00,0:00:01.33,Base,,0,0,0,,{\rBase}Múltiples {\rBase}guías {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}aún
+Dialogue: 0,0:00:01.28,0:00:02.04,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}recomiendan {\rBase}cesárea {\rBase}electiva
+Dialogue: 0,0:00:02.04,0:00:02.62,Base,,0,0,0,,{\rBase}recomiendan {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cesárea {\rBase}electiva
+Dialogue: 0,0:00:02.62,0:00:03.19,Base,,0,0,0,,{\rBase}recomiendan {\rBase}cesárea {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}electiva
+Dialogue: 0,0:00:03.14,0:00:03.28,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}gestantes {\rBase}con
+Dialogue: 0,0:00:03.28,0:00:03.74,Base,,0,0,0,,{\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}gestantes {\rBase}con
+Dialogue: 0,0:00:03.74,0:00:04.01,Base,,0,0,0,,{\rBase}en {\rBase}gestantes {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con
+Dialogue: 0,0:00:03.96,0:00:04.56,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}VIH {\rBase}independientemente {\rBase}de
+Dialogue: 0,0:00:04.56,0:00:05.70,Base,,0,0,0,,{\rBase}VIH {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}independientemente {\rBase}de
+Dialogue: 0,0:00:05.70,0:00:05.87,Base,,0,0,0,,{\rBase}VIH {\rBase}independientemente {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:05.82,0:00:05.94,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}carga {\rBase}viral,
+Dialogue: 0,0:00:05.94,0:00:06.20,Base,,0,0,0,,{\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}carga {\rBase}viral,
+Dialogue: 0,0:00:06.20,0:00:06.61,Base,,0,0,0,,{\rBase}la {\rBase}carga {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}viral,
+Dialogue: 0,0:00:06.78,0:00:07.12,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cuando {\rBase}la {\rBase}evidencia
+Dialogue: 0,0:00:07.12,0:00:07.28,Base,,0,0,0,,{\rBase}cuando {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}evidencia
+Dialogue: 0,0:00:07.28,0:00:07.87,Base,,0,0,0,,{\rBase}cuando {\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}evidencia
+Dialogue: 0,0:00:07.82,0:00:08.18,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}muestra {\rBase}que {\rBase}con
+Dialogue: 0,0:00:08.18,0:00:08.36,Base,,0,0,0,,{\rBase}muestra {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}que {\rBase}con
+Dialogue: 0,0:00:08.36,0:00:08.63,Base,,0,0,0,,{\rBase}muestra {\rBase}que {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con
+Dialogue: 0,0:00:08.58,0:00:08.84,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}carga {\rBase}viral {\rBase}indetectable,
+Dialogue: 0,0:00:08.84,0:00:09.16,Base,,0,0,0,,{\rBase}carga {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}viral {\rBase}indetectable,
+Dialogue: 0,0:00:09.16,0:00:10.09,Base,,0,0,0,,{\rBase}carga {\rBase}viral {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}indetectable,
+Dialogue: 0,0:00:10.22,0:00:10.58,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}parto {\rBase}vaginal
+Dialogue: 0,0:00:10.58,0:00:10.92,Base,,0,0,0,,{\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}parto {\rBase}vaginal
+Dialogue: 0,0:00:10.92,0:00:11.45,Base,,0,0,0,,{\rBase}el {\rBase}parto {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}vaginal
+Dialogue: 0,0:00:11.40,0:00:11.70,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}tiene {\rBase}el {\rBase}mismo
+Dialogue: 0,0:00:11.70,0:00:11.84,Base,,0,0,0,,{\rBase}tiene {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}el {\rBase}mismo
+Dialogue: 0,0:00:11.84,0:00:12.13,Base,,0,0,0,,{\rBase}tiene {\rBase}el {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}mismo
+Dialogue: 0,0:00:12.08,0:00:12.50,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}riesgo {\rBase}de {\rBase}transmisión.
+Dialogue: 0,0:00:12.50,0:00:12.62,Base,,0,0,0,,{\rBase}riesgo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de {\rBase}transmisión.
+Dialogue: 0,0:00:12.62,0:00:13.37,Base,,0,0,0,,{\rBase}riesgo {\rBase}de {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}transmisión.
+Dialogue: 0,0:00:14.10,0:00:14.78,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}Gestantes {\rBase}con {\rBase}VIH
+Dialogue: 0,0:00:14.78,0:00:15.00,Base,,0,0,0,,{\rBase}Gestantes {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}VIH
+Dialogue: 0,0:00:15.00,0:00:15.41,Base,,0,0,0,,{\rBase}Gestantes {\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}VIH
+Dialogue: 0,0:00:15.36,0:00:15.60,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}carga {\rBase}viral,
+Dialogue: 0,0:00:15.60,0:00:15.86,Base,,0,0,0,,{\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}carga {\rBase}viral,
+Dialogue: 0,0:00:15.86,0:00:16.31,Base,,0,0,0,,{\rBase}con {\rBase}carga {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}viral,
+Dialogue: 0,0:00:16.42,0:00:16.92,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}400 {\rBase}copias {\rBase}ML
+Dialogue: 0,0:00:16.92,0:00:17.68,Base,,0,0,0,,{\rBase}400 {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}copias {\rBase}ML
+Dialogue: 0,0:00:17.68,0:00:18.33,Base,,0,0,0,,{\rBase}400 {\rBase}copias {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}ML
+Dialogue: 0,0:00:18.28,0:00:18.50,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}en {\rBase}la {\rBase}semana
+Dialogue: 0,0:00:18.50,0:00:18.58,Base,,0,0,0,,{\rBase}en {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}la {\rBase}semana
+Dialogue: 0,0:00:18.58,0:00:18.91,Base,,0,0,0,,{\rBase}en {\rBase}la {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}semana
+Dialogue: 0,0:00:18.86,0:00:19.82,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}36, {\rBase}pueden {\rBase}planificar
+Dialogue: 0,0:00:19.82,0:00:20.30,Base,,0,0,0,,{\rBase}36, {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}pueden {\rBase}planificar
+Dialogue: 0,0:00:20.30,0:00:20.89,Base,,0,0,0,,{\rBase}36, {\rBase}pueden {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}planificar
+Dialogue: 0,0:00:20.84,0:00:21.06,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}un {\rBase}parto {\rBase}vaginal
+Dialogue: 0,0:00:21.06,0:00:21.42,Base,,0,0,0,,{\rBase}un {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}parto {\rBase}vaginal
+Dialogue: 0,0:00:21.42,0:00:21.91,Base,,0,0,0,,{\rBase}un {\rBase}parto {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}vaginal
+Dialogue: 0,0:00:21.86,0:00:22.38,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}electivo {\rBase}sin {\rBase}aumento
+Dialogue: 0,0:00:22.38,0:00:22.64,Base,,0,0,0,,{\rBase}electivo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}sin {\rBase}aumento
+Dialogue: 0,0:00:22.64,0:00:23.13,Base,,0,0,0,,{\rBase}electivo {\rBase}sin {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}aumento
+Dialogue: 0,0:00:23.08,0:00:23.30,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}del {\rBase}riesgo {\rBase}de
+Dialogue: 0,0:00:23.30,0:00:23.64,Base,,0,0,0,,{\rBase}del {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}riesgo {\rBase}de
+Dialogue: 0,0:00:23.64,0:00:23.81,Base,,0,0,0,,{\rBase}del {\rBase}riesgo {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}de
+Dialogue: 0,0:00:23.76,0:00:24.32,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}transmisión {\rBase}vertical {\rBase}comparado
+Dialogue: 0,0:00:24.32,0:00:24.72,Base,,0,0,0,,{\rBase}transmisión {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}vertical {\rBase}comparado
+Dialogue: 0,0:00:24.72,0:00:25.47,Base,,0,0,0,,{\rBase}transmisión {\rBase}vertical {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}comparado
+Dialogue: 0,0:00:25.42,0:00:25.60,Base,,0,0,0,,{\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}con {\rBase}cesárea {\rBase}electiva.
+Dialogue: 0,0:00:25.60,0:00:26.06,Base,,0,0,0,,{\rBase}con {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}cesárea {\rBase}electiva.
+Dialogue: 0,0:00:26.06,0:00:26.71,Base,,0,0,0,,{\rBase}con {\rBase}cesárea {\rHot\t(0,80,\frz-4)\t(80,160,\frz4)\t(160,240,\frz0)}electiva.

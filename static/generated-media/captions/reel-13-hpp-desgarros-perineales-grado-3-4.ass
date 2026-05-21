@@ -1,0 +1,62 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Arial Black,62,&H00FFFFFF,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Arial Black,84,&H00FF3CFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.28,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}La {\rBase}HPP {\rBase}tardía
+Dialogue: 0,0:00:00.28,0:00:00.86,Base,,0,0,0,,{\rBase}La {\rHot\frz-3\t(0,200,\frz3)}HPP {\rBase}tardía
+Dialogue: 0,0:00:00.86,0:00:01.39,Base,,0,0,0,,{\rBase}La {\rBase}HPP {\rHot\frz-3\t(0,200,\frz3)}tardía
+Dialogue: 0,0:00:01.34,0:00:01.78,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}se {\rBase}asocia {\rBase}principalmente
+Dialogue: 0,0:00:01.78,0:00:02.16,Base,,0,0,0,,{\rBase}se {\rHot\frz-3\t(0,200,\frz3)}asocia {\rBase}principalmente
+Dialogue: 0,0:00:02.16,0:00:02.85,Base,,0,0,0,,{\rBase}se {\rBase}asocia {\rHot\frz-3\t(0,200,\frz3)}principalmente
+Dialogue: 0,0:00:02.80,0:00:03.18,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}con {\rBase}retención {\rBase}de
+Dialogue: 0,0:00:03.18,0:00:03.74,Base,,0,0,0,,{\rBase}con {\rHot\frz-3\t(0,200,\frz3)}retención {\rBase}de
+Dialogue: 0,0:00:03.74,0:00:03.93,Base,,0,0,0,,{\rBase}con {\rBase}retención {\rHot\frz-3\t(0,200,\frz3)}de
+Dialogue: 0,0:00:03.88,0:00:04.20,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}restos {\rBase}placentarios, {\rBase}pero
+Dialogue: 0,0:00:04.20,0:00:05.20,Base,,0,0,0,,{\rBase}restos {\rHot\frz-3\t(0,200,\frz3)}placentarios, {\rBase}pero
+Dialogue: 0,0:00:05.20,0:00:05.71,Base,,0,0,0,,{\rBase}restos {\rBase}placentarios, {\rHot\frz-3\t(0,200,\frz3)}pero
+Dialogue: 0,0:00:05.66,0:00:05.86,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}los {\rBase}desgarros {\rBase}no
+Dialogue: 0,0:00:05.86,0:00:06.40,Base,,0,0,0,,{\rBase}los {\rHot\frz-3\t(0,200,\frz3)}desgarros {\rBase}no
+Dialogue: 0,0:00:06.40,0:00:06.65,Base,,0,0,0,,{\rBase}los {\rBase}desgarros {\rHot\frz-3\t(0,200,\frz3)}no
+Dialogue: 0,0:00:06.60,0:00:07.26,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}reparados {\rBase}o {\rBase}mal
+Dialogue: 0,0:00:07.26,0:00:07.46,Base,,0,0,0,,{\rBase}reparados {\rHot\frz-3\t(0,200,\frz3)}o {\rBase}mal
+Dialogue: 0,0:00:07.46,0:00:07.71,Base,,0,0,0,,{\rBase}reparados {\rBase}o {\rHot\frz-3\t(0,200,\frz3)}mal
+Dialogue: 0,0:00:07.66,0:00:08.28,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}reparados {\rBase}son {\rBase}una
+Dialogue: 0,0:00:08.28,0:00:08.80,Base,,0,0,0,,{\rBase}reparados {\rHot\frz-3\t(0,200,\frz3)}son {\rBase}una
+Dialogue: 0,0:00:08.80,0:00:09.05,Base,,0,0,0,,{\rBase}reparados {\rBase}son {\rHot\frz-3\t(0,200,\frz3)}una
+Dialogue: 0,0:00:09.00,0:00:09.36,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}causa {\rBase}subdiagnosticada. {\rBase}Los
+Dialogue: 0,0:00:09.36,0:00:11.24,Base,,0,0,0,,{\rBase}causa {\rHot\frz-3\t(0,200,\frz3)}subdiagnosticada. {\rBase}Los
+Dialogue: 0,0:00:11.24,0:00:11.67,Base,,0,0,0,,{\rBase}causa {\rBase}subdiagnosticada. {\rHot\frz-3\t(0,200,\frz3)}Los
+Dialogue: 0,0:00:11.62,0:00:12.06,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}desgarros {\rBase}de {\rBase}tercer
+Dialogue: 0,0:00:12.06,0:00:12.20,Base,,0,0,0,,{\rBase}desgarros {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}tercer
+Dialogue: 0,0:00:12.20,0:00:12.49,Base,,0,0,0,,{\rBase}desgarros {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}tercer
+Dialogue: 0,0:00:12.44,0:00:12.62,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}y {\rBase}cuarto {\rBase}grado
+Dialogue: 0,0:00:12.62,0:00:12.86,Base,,0,0,0,,{\rBase}y {\rHot\frz-3\t(0,200,\frz3)}cuarto {\rBase}grado
+Dialogue: 0,0:00:12.86,0:00:13.25,Base,,0,0,0,,{\rBase}y {\rBase}cuarto {\rHot\frz-3\t(0,200,\frz3)}grado
+Dialogue: 0,0:00:13.20,0:00:13.72,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}duplican {\rBase}el {\rBase}riesgo
+Dialogue: 0,0:00:13.72,0:00:13.84,Base,,0,0,0,,{\rBase}duplican {\rHot\frz-3\t(0,200,\frz3)}el {\rBase}riesgo
+Dialogue: 0,0:00:13.84,0:00:14.25,Base,,0,0,0,,{\rBase}duplican {\rBase}el {\rHot\frz-3\t(0,200,\frz3)}riesgo
+Dialogue: 0,0:00:14.20,0:00:14.32,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}de {\rBase}HPP {\rBase}secundaria,
+Dialogue: 0,0:00:14.32,0:00:14.84,Base,,0,0,0,,{\rBase}de {\rHot\frz-3\t(0,200,\frz3)}HPP {\rBase}secundaria,
+Dialogue: 0,0:00:14.84,0:00:15.53,Base,,0,0,0,,{\rBase}de {\rBase}HPP {\rHot\frz-3\t(0,200,\frz3)}secundaria,
+Dialogue: 0,0:00:15.68,0:00:16.30,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}24 {\rBase}horas {\rBase}a
+Dialogue: 0,0:00:16.30,0:00:16.86,Base,,0,0,0,,{\rBase}24 {\rHot\frz-3\t(0,200,\frz3)}horas {\rBase}a
+Dialogue: 0,0:00:16.86,0:00:17.45,Base,,0,0,0,,{\rBase}24 {\rBase}horas {\rHot\frz-3\t(0,200,\frz3)}a
+Dialogue: 0,0:00:17.40,0:00:17.56,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}6 {\rBase}semanas {\rBase}posparto,
+Dialogue: 0,0:00:17.56,0:00:17.98,Base,,0,0,0,,{\rBase}6 {\rHot\frz-3\t(0,200,\frz3)}semanas {\rBase}posparto,
+Dialogue: 0,0:00:17.98,0:00:18.69,Base,,0,0,0,,{\rBase}6 {\rBase}semanas {\rHot\frz-3\t(0,200,\frz3)}posparto,
+Dialogue: 0,0:00:18.88,0:00:19.32,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}y {\rBase}quintuplican {\rBase}el
+Dialogue: 0,0:00:19.32,0:00:20.06,Base,,0,0,0,,{\rBase}y {\rHot\frz-3\t(0,200,\frz3)}quintuplican {\rBase}el
+Dialogue: 0,0:00:20.06,0:00:20.23,Base,,0,0,0,,{\rBase}y {\rBase}quintuplican {\rHot\frz-3\t(0,200,\frz3)}el
+Dialogue: 0,0:00:20.18,0:00:20.54,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}riesgo {\rBase}de {\rBase}hematomas
+Dialogue: 0,0:00:20.54,0:00:20.66,Base,,0,0,0,,{\rBase}riesgo {\rHot\frz-3\t(0,200,\frz3)}de {\rBase}hematomas
+Dialogue: 0,0:00:20.66,0:00:21.21,Base,,0,0,0,,{\rBase}riesgo {\rBase}de {\rHot\frz-3\t(0,200,\frz3)}hematomas
+Dialogue: 0,0:00:21.16,0:00:21.75,Base,,0,0,0,,{\rHot\frz-3\t(0,200,\frz3)}pélvicos.

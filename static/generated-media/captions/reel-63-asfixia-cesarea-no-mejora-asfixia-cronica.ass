@@ -1,0 +1,86 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV, Encoding
+Style: Base,Helvetica,60,&H00C8C8C8,&H00000000,&H00000000,1,0,1,4,0,2,260,1
+Style: Hot,Helvetica,92,&H00FFFFFF,&H00000000,&H00000000,1,0,1,5,0,2,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.28,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}La {\rBase}cesárea {\rBase}de
+Dialogue: 0,0:00:00.28,0:00:00.64,Base,,0,0,0,,{\rBase}La {\rHot\t(0,150,\fscx120\fscy120)}cesárea {\rBase}de
+Dialogue: 0,0:00:00.64,0:00:00.85,Base,,0,0,0,,{\rBase}La {\rBase}cesárea {\rHot\t(0,150,\fscx120\fscy120)}de
+Dialogue: 0,0:00:00.80,0:00:01.42,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}emergencia {\rBase}se {\rBase}percibe
+Dialogue: 0,0:00:01.42,0:00:01.60,Base,,0,0,0,,{\rBase}emergencia {\rHot\t(0,150,\fscx120\fscy120)}se {\rBase}percibe
+Dialogue: 0,0:00:01.60,0:00:02.09,Base,,0,0,0,,{\rBase}emergencia {\rBase}se {\rHot\t(0,150,\fscx120\fscy120)}percibe
+Dialogue: 0,0:00:02.04,0:00:02.26,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}como {\rBase}la {\rBase}solución
+Dialogue: 0,0:00:02.26,0:00:02.42,Base,,0,0,0,,{\rBase}como {\rHot\t(0,150,\fscx120\fscy120)}la {\rBase}solución
+Dialogue: 0,0:00:02.42,0:00:02.95,Base,,0,0,0,,{\rBase}como {\rBase}la {\rHot\t(0,150,\fscx120\fscy120)}solución
+Dialogue: 0,0:00:02.90,0:00:03.12,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}para {\rBase}cualquier {\rBase}asfixia,
+Dialogue: 0,0:00:03.12,0:00:03.58,Base,,0,0,0,,{\rBase}para {\rHot\t(0,150,\fscx120\fscy120)}cualquier {\rBase}asfixia,
+Dialogue: 0,0:00:03.58,0:00:04.41,Base,,0,0,0,,{\rBase}para {\rBase}cualquier {\rHot\t(0,150,\fscx120\fscy120)}asfixia,
+Dialogue: 0,0:00:04.56,0:00:04.98,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}pero {\rBase}la {\rBase}mayoría
+Dialogue: 0,0:00:04.98,0:00:05.12,Base,,0,0,0,,{\rBase}pero {\rHot\t(0,150,\fscx120\fscy120)}la {\rBase}mayoría
+Dialogue: 0,0:00:05.12,0:00:05.49,Base,,0,0,0,,{\rBase}pero {\rBase}la {\rHot\t(0,150,\fscx120\fscy120)}mayoría
+Dialogue: 0,0:00:05.44,0:00:05.62,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}de {\rBase}los {\rBase}casos
+Dialogue: 0,0:00:05.62,0:00:05.76,Base,,0,0,0,,{\rBase}de {\rHot\t(0,150,\fscx120\fscy120)}los {\rBase}casos
+Dialogue: 0,0:00:05.76,0:00:06.15,Base,,0,0,0,,{\rBase}de {\rBase}los {\rHot\t(0,150,\fscx120\fscy120)}casos
+Dialogue: 0,0:00:06.10,0:00:06.28,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}de {\rBase}encefalopatía {\rBase}neonatal
+Dialogue: 0,0:00:06.28,0:00:07.12,Base,,0,0,0,,{\rBase}de {\rHot\t(0,150,\fscx120\fscy120)}encefalopatía {\rBase}neonatal
+Dialogue: 0,0:00:07.12,0:00:07.77,Base,,0,0,0,,{\rBase}de {\rBase}encefalopatía {\rHot\t(0,150,\fscx120\fscy120)}neonatal
+Dialogue: 0,0:00:07.72,0:00:08.36,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}se {\rBase}originan {\rBase}antes
+Dialogue: 0,0:00:08.36,0:00:08.84,Base,,0,0,0,,{\rBase}se {\rHot\t(0,150,\fscx120\fscy120)}originan {\rBase}antes
+Dialogue: 0,0:00:08.84,0:00:09.37,Base,,0,0,0,,{\rBase}se {\rBase}originan {\rHot\t(0,150,\fscx120\fscy120)}antes
+Dialogue: 0,0:00:09.32,0:00:09.56,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}del {\rBase}trabajo {\rBase}de
+Dialogue: 0,0:00:09.56,0:00:09.96,Base,,0,0,0,,{\rBase}del {\rHot\t(0,150,\fscx120\fscy120)}trabajo {\rBase}de
+Dialogue: 0,0:00:09.96,0:00:10.23,Base,,0,0,0,,{\rBase}del {\rBase}trabajo {\rHot\t(0,150,\fscx120\fscy120)}de
+Dialogue: 0,0:00:10.18,0:00:10.72,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}parto, {\rBase}eventos {\rBase}antenatales,
+Dialogue: 0,0:00:10.72,0:00:11.16,Base,,0,0,0,,{\rBase}parto, {\rHot\t(0,150,\fscx120\fscy120)}eventos {\rBase}antenatales,
+Dialogue: 0,0:00:11.16,0:00:11.93,Base,,0,0,0,,{\rBase}parto, {\rBase}eventos {\rHot\t(0,150,\fscx120\fscy120)}antenatales,
+Dialogue: 0,0:00:12.02,0:00:12.42,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}y {\rBase}no {\rBase}son
+Dialogue: 0,0:00:12.42,0:00:12.58,Base,,0,0,0,,{\rBase}y {\rHot\t(0,150,\fscx120\fscy120)}no {\rBase}son
+Dialogue: 0,0:00:12.58,0:00:12.85,Base,,0,0,0,,{\rBase}y {\rBase}no {\rHot\t(0,150,\fscx120\fscy120)}son
+Dialogue: 0,0:00:12.80,0:00:13.46,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}prevenibles {\rBase}por {\rBase}la
+Dialogue: 0,0:00:13.46,0:00:13.70,Base,,0,0,0,,{\rBase}prevenibles {\rHot\t(0,150,\fscx120\fscy120)}por {\rBase}la
+Dialogue: 0,0:00:13.70,0:00:13.91,Base,,0,0,0,,{\rBase}prevenibles {\rBase}por {\rHot\t(0,150,\fscx120\fscy120)}la
+Dialogue: 0,0:00:13.86,0:00:14.08,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}vía {\rBase}del {\rBase}parto.
+Dialogue: 0,0:00:14.08,0:00:14.26,Base,,0,0,0,,{\rBase}vía {\rHot\t(0,150,\fscx120\fscy120)}del {\rBase}parto.
+Dialogue: 0,0:00:14.26,0:00:14.79,Base,,0,0,0,,{\rBase}vía {\rBase}del {\rHot\t(0,150,\fscx120\fscy120)}parto.
+Dialogue: 0,0:00:14.86,0:00:15.28,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}Las {\rBase}asfixias {\rBase}perinatales
+Dialogue: 0,0:00:15.28,0:00:15.94,Base,,0,0,0,,{\rBase}Las {\rHot\t(0,150,\fscx120\fscy120)}asfixias {\rBase}perinatales
+Dialogue: 0,0:00:15.94,0:00:16.79,Base,,0,0,0,,{\rBase}Las {\rBase}asfixias {\rHot\t(0,150,\fscx120\fscy120)}perinatales
+Dialogue: 0,0:00:16.74,0:00:16.98,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}de {\rBase}origen {\rBase}crónico,
+Dialogue: 0,0:00:16.98,0:00:17.34,Base,,0,0,0,,{\rBase}de {\rHot\t(0,150,\fscx120\fscy120)}origen {\rBase}crónico,
+Dialogue: 0,0:00:17.34,0:00:17.95,Base,,0,0,0,,{\rBase}de {\rBase}origen {\rHot\t(0,150,\fscx120\fscy120)}crónico,
+Dialogue: 0,0:00:18.14,0:00:18.96,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}insuficiencia {\rBase}placentaria, {\rBase}restricción
+Dialogue: 0,0:00:18.96,0:00:20.08,Base,,0,0,0,,{\rBase}insuficiencia {\rHot\t(0,150,\fscx120\fscy120)}placentaria, {\rBase}restricción
+Dialogue: 0,0:00:20.08,0:00:20.67,Base,,0,0,0,,{\rBase}insuficiencia {\rBase}placentaria, {\rHot\t(0,150,\fscx120\fscy120)}restricción
+Dialogue: 0,0:00:20.62,0:00:20.74,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}de {\rBase}crecimiento {\rBase}intrauterino,
+Dialogue: 0,0:00:20.74,0:00:21.30,Base,,0,0,0,,{\rBase}de {\rHot\t(0,150,\fscx120\fscy120)}crecimiento {\rBase}intrauterino,
+Dialogue: 0,0:00:21.30,0:00:22.19,Base,,0,0,0,,{\rBase}de {\rBase}crecimiento {\rHot\t(0,150,\fscx120\fscy120)}intrauterino,
+Dialogue: 0,0:00:22.36,0:00:23.26,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}preeclampsia, {\rBase}no {\rBase}se
+Dialogue: 0,0:00:23.26,0:00:23.72,Base,,0,0,0,,{\rBase}preeclampsia, {\rHot\t(0,150,\fscx120\fscy120)}no {\rBase}se
+Dialogue: 0,0:00:23.72,0:00:23.93,Base,,0,0,0,,{\rBase}preeclampsia, {\rBase}no {\rHot\t(0,150,\fscx120\fscy120)}se
+Dialogue: 0,0:00:23.88,0:00:24.36,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}previenen {\rBase}con {\rBase}la
+Dialogue: 0,0:00:24.36,0:00:24.58,Base,,0,0,0,,{\rBase}previenen {\rHot\t(0,150,\fscx120\fscy120)}con {\rBase}la
+Dialogue: 0,0:00:24.58,0:00:24.77,Base,,0,0,0,,{\rBase}previenen {\rBase}con {\rHot\t(0,150,\fscx120\fscy120)}la
+Dialogue: 0,0:00:24.72,0:00:25.18,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}cesárea {\rBase}de {\rBase}urgencia,
+Dialogue: 0,0:00:25.18,0:00:25.34,Base,,0,0,0,,{\rBase}cesárea {\rHot\t(0,150,\fscx120\fscy120)}de {\rBase}urgencia,
+Dialogue: 0,0:00:25.34,0:00:25.95,Base,,0,0,0,,{\rBase}cesárea {\rBase}de {\rHot\t(0,150,\fscx120\fscy120)}urgencia,
+Dialogue: 0,0:00:25.90,0:00:26.46,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}ya {\rBase}que {\rBase}el
+Dialogue: 0,0:00:26.46,0:00:26.62,Base,,0,0,0,,{\rBase}ya {\rHot\t(0,150,\fscx120\fscy120)}que {\rBase}el
+Dialogue: 0,0:00:26.62,0:00:26.79,Base,,0,0,0,,{\rBase}ya {\rBase}que {\rHot\t(0,150,\fscx120\fscy120)}el
+Dialogue: 0,0:00:26.74,0:00:26.98,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}daño {\rBase}cerebral {\rBase}ocurrió
+Dialogue: 0,0:00:26.98,0:00:27.38,Base,,0,0,0,,{\rBase}daño {\rHot\t(0,150,\fscx120\fscy120)}cerebral {\rBase}ocurrió
+Dialogue: 0,0:00:27.38,0:00:28.13,Base,,0,0,0,,{\rBase}daño {\rBase}cerebral {\rHot\t(0,150,\fscx120\fscy120)}ocurrió
+Dialogue: 0,0:00:28.08,0:00:28.32,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}antes {\rBase}del {\rBase}inicio
+Dialogue: 0,0:00:28.32,0:00:28.56,Base,,0,0,0,,{\rBase}antes {\rHot\t(0,150,\fscx120\fscy120)}del {\rBase}inicio
+Dialogue: 0,0:00:28.56,0:00:28.97,Base,,0,0,0,,{\rBase}antes {\rBase}del {\rHot\t(0,150,\fscx120\fscy120)}inicio
+Dialogue: 0,0:00:28.92,0:00:29.12,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}del {\rBase}trabajo {\rBase}de
+Dialogue: 0,0:00:29.12,0:00:29.48,Base,,0,0,0,,{\rBase}del {\rHot\t(0,150,\fscx120\fscy120)}trabajo {\rBase}de
+Dialogue: 0,0:00:29.48,0:00:29.75,Base,,0,0,0,,{\rBase}del {\rBase}trabajo {\rHot\t(0,150,\fscx120\fscy120)}de
+Dialogue: 0,0:00:29.70,0:00:30.17,Base,,0,0,0,,{\rHot\t(0,150,\fscx120\fscy120)}parto.
