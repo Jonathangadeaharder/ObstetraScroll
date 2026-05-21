@@ -16,6 +16,9 @@ import {
 	saveReviewState,
 } from "$lib/client/spacedRepetition";
 import type { Fact, ReelFeedItem } from "$lib/types";
+import { Sparkles } from "lucide-svelte";
+import InfoOverlay from "./InfoOverlay.svelte";
+import ReelCard from "./ReelCard.svelte";
 
 type Props = {
 	facts: Fact[];
@@ -29,7 +32,7 @@ let activeReelIndex = $state(0);
 let scrollDirection = $state<"up" | "down">("down");
 let isPaused = $state<Record<string, boolean>>({});
 let hasInteracted = $state(false);
-let _swipeOffset = $state(0);
+let swipeOffset = $state(0);
 let openInfoKey = $state<string | null>(null);
 
 let feedEl: HTMLElement | undefined = $state();
@@ -40,8 +43,8 @@ let lastActiveIndex = 0;
 let touchStartY = 0;
 let isMobile = $state(false);
 
-const _totalFacts = $derived(facts.length);
-const _highRiskCount = $derived(
+const totalFacts = $derived(facts.length);
+const highRiskCount = $derived(
 	facts.filter((fact) => fact.riskLevel === "high").length,
 );
 const factMap = $derived(Object.fromEntries(facts.map((f) => [f.id, f])));
@@ -74,18 +77,18 @@ function handleQuizAnswered(factId: string, optionIndex: number) {
 $effect(() => {
 	reviewState = loadReviewState();
 });
-const _activePageType = $derived(
+const activePageType = $derived(
 	mobilePages[activeReelIndex]?.pageType ?? "video",
 );
 
-const _virtualItems = $derived(
+const virtualItems = $derived(
 	virtualizeReels(loopedFeedItems, activeReelIndex, scrollDirection),
 );
-const _virtualPages = $derived(
+const virtualPages = $derived(
 	virtualizePages(mobilePages, activeReelIndex, scrollDirection),
 );
 
-const _openInfoItems = $derived.by(() => {
+const openInfoItems = $derived.by(() => {
 	if (!openInfoKey) return [];
 	const page = mobilePages.find((p) => p.key === openInfoKey);
 	if (!page) return [];
@@ -108,7 +111,6 @@ $effect(() => {
 		root: feedEl,
 		threshold: [0.6],
 	});
-	const _items = isMobile ? mobilePages : loopedFeedItems;
 	for (const key of Object.keys(reelElements)) {
 		const el = reelElements[key];
 		if (el) observer.observe(el);
@@ -185,7 +187,7 @@ function skipToNext() {
 	scrollToReel(safeNext);
 }
 
-function _handleKeydown(e: KeyboardEvent) {
+function handleKeydown(e: KeyboardEvent) {
 	if (e.target instanceof HTMLButtonElement) return;
 	if (e.target instanceof HTMLInputElement) return;
 	switch (e.key) {
@@ -217,20 +219,20 @@ function _handleKeydown(e: KeyboardEvent) {
 	}
 }
 
-function _handleTouchStart(e: TouchEvent) {
+function handleTouchStart(e: TouchEvent) {
 	touchStartY = e.touches[0].clientY;
 }
 
-function _handleTouchMove(e: TouchEvent) {
+function handleTouchMove(e: TouchEvent) {
 	const delta = e.touches[0].clientY - touchStartY;
-	_swipeOffset = Math.max(-60, Math.min(60, delta));
+	swipeOffset = Math.max(-60, Math.min(60, delta));
 }
 
-function _handleTouchEnd() {
-	_swipeOffset = 0;
+function handleTouchEnd() {
+	swipeOffset = 0;
 }
 
-function _answerQuiz(answerKey: string, optionIndex: number) {
+function answerQuiz(answerKey: string, optionIndex: number) {
 	if (selectedAnswers[answerKey] !== undefined) return;
 	selectedAnswers[answerKey] = optionIndex;
 	const page = mobilePages.find((p) => p.key === answerKey);
@@ -239,7 +241,7 @@ function _answerQuiz(answerKey: string, optionIndex: number) {
 	}
 }
 
-function _bindVideo(node: HTMLVideoElement, key: string) {
+function bindVideo(node: HTMLVideoElement, key: string) {
 	videoRefs[key] = node;
 	if (hasInteracted && node.muted) {
 		node.muted = false;
@@ -251,7 +253,7 @@ function _bindVideo(node: HTMLVideoElement, key: string) {
 	};
 }
 
-function _bindReel(node: HTMLElement, key: string) {
+function bindReel(node: HTMLElement, key: string) {
 	reelElements[key] = node;
 	if (observer) observer.observe(node);
 	return {
@@ -262,7 +264,7 @@ function _bindReel(node: HTMLElement, key: string) {
 	};
 }
 
-function _displayCounter(items: (LoopedReel | ReelPage)[]) {
+function displayCounter(items: (LoopedReel | ReelPage)[]) {
 	const current = items[activeReelIndex];
 	if (!current) return "0/0";
 	return `${current.reelNumber}/${feedItems.length}`;

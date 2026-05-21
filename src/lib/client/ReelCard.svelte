@@ -1,6 +1,15 @@
 <script lang="ts">
 import type { PageType, ReelPage, VirtualReel } from "$lib/client/reelFeed";
-import { FileAudio, FileVideo, Images } from "lucide-svelte";
+import {
+	BadgeCheck,
+	BookOpenCheck,
+	ChevronDown,
+	Clapperboard,
+	FileAudio,
+	FileVideo,
+	Images,
+	MessageCircle,
+} from "lucide-svelte";
 
 type ActionReturn = {
 	destroy?: () => void;
@@ -38,8 +47,8 @@ let {
 	onFirstInteraction,
 }: Props = $props();
 
-const _item = $derived(reel.item);
-let _videoProgress = $state(0);
+const item = $derived(reel.item);
+let videoProgress = $state(0);
 let videoError = $state(false);
 let isMuted = $state(true);
 const END_THRESHOLD = 0.3;
@@ -50,10 +59,10 @@ $effect(() => {
 	}
 });
 
-function _handleTimeUpdate(e: Event) {
+function handleTimeUpdate(e: Event) {
 	const video = e.currentTarget as HTMLVideoElement;
 	if (video.duration > 0) {
-		_videoProgress = (video.currentTime / video.duration) * 100;
+		videoProgress = (video.currentTime / video.duration) * 100;
 		if (video.duration - video.currentTime <= END_THRESHOLD) {
 			onNextReel(reel.key);
 		}
@@ -63,11 +72,11 @@ function _handleTimeUpdate(e: Event) {
 	}
 }
 
-function _handleVideoError() {
+function handleVideoError() {
 	videoError = true;
 }
 
-function _assetIcon(kind: "audio" | "image" | "video") {
+function assetIcon(kind: "audio" | "image" | "video") {
 	if (kind === "audio") return FileAudio;
 	if (kind === "image") return Images;
 	return FileVideo;

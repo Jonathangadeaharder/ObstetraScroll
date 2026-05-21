@@ -1,8 +1,9 @@
 <script lang="ts">
 import { page } from "$app/stores";
+import { Sparkles } from "lucide-svelte";
 
-const _status = $derived($page.status);
-const _errorMessage = $derived($page.error?.message);
+const status = $derived($page.status);
+const errorMessage = $derived($page.error?.message);
 </script>
 
 <svelte:head>

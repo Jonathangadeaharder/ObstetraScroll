@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { injectAxe, checkA11y } from "@axe-core/playwright";
+import AxeBuilder from "@axe-core/playwright";
 
 test.describe("Home Page E2E", () => {
 	test.beforeEach(async ({ page }) => {
@@ -13,8 +13,8 @@ test.describe("Home Page E2E", () => {
 		await expect(heading).toBeVisible();
 
 		// WCAG Accessibility Audit
-		await injectAxe(page);
-		await checkA11y(page);
+		const accessibilityScanResults = await new AxeBuilder({ page }).analyze();
+		expect(accessibilityScanResults.violations).toEqual([]);
 	});
 
 	test("should allow navigation to the reel planner", async ({ page }) => {
