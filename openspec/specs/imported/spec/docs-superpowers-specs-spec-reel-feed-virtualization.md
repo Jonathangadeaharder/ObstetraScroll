@@ -1,7 +1,7 @@
 ---
 id: SPEC-REEL
 kind: spec
-title: 'SPEC: Reel Feed Virtualization'
+title: "SPEC: Reel Feed Virtualization"
 status: draft
 authors: []
 reviewers: []
@@ -20,8 +20,8 @@ checksum: 494c17edf762d1fd08fdab5ea8485674e1dbe4159a02382497e0656924b475e1
 > Imported legacy SPEC artifact from `docs/superpowers/specs/SPEC-reel-feed-virtualization.md`. Keep future lifecycle work in OpenSpec.
 
 ---
-checksum: 0298be4ccc8b86e61c89a5fbf24fc3dcfab15e11fad4dd184858e4bfdc5853c9
----
+
+## checksum: 0298be4ccc8b86e61c89a5fbf24fc3dcfab15e11fad4dd184858e4bfdc5853c9
 
 **Date:** 2026-05-17  
 **Component:** `src/lib/client/reelFeed.ts`, `ReelFeed.svelte`, `ReelCard.svelte`
@@ -48,21 +48,21 @@ TikTok-style vertical feed with infinite scroll, video preloading, and quiz page
 
 ### Virtualization Strategy
 
-| Parameter | Value | Purpose |
-|-----------|-------|---------|
-| `REEL_REPEAT_CYCLES` | 12 | How many times each item loops |
-| `VISIBLE_WINDOW` | 2 | Items rendered on each side of active |
-| `PRELOAD_AHEAD` | 3 | Videos preloaded ahead of scroll |
+| Parameter            | Value | Purpose                               |
+| -------------------- | ----- | ------------------------------------- |
+| `REEL_REPEAT_CYCLES` | 12    | How many times each item loops        |
+| `VISIBLE_WINDOW`     | 2     | Items rendered on each side of active |
+| `PRELOAD_AHEAD`      | 3     | Videos preloaded ahead of scroll      |
 
 ### Keyboard Navigation
 
-| Key | Action |
-|-----|--------|
-| ArrowDown / j / n | Next reel |
-| ArrowUp / k | Previous reel |
-| Space | Toggle pause |
-| Home | First reel |
-| End | Last reel |
+| Key               | Action        |
+| ----------------- | ------------- |
+| ArrowDown / j / n | Next reel     |
+| ArrowUp / k       | Previous reel |
+| Space             | Toggle pause  |
+| Home              | First reel    |
+| End               | Last reel     |
 
 ### Quiz Flow
 

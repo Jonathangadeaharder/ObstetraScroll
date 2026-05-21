@@ -22,18 +22,19 @@ Hay 6 reals en producción. Escalar a 100 requiere 94 más.
 
 94 temas adicionales, priorizados por:
 
-| Lote | # | Tema | Ejemplos |
-|------|---|------|----------|
-| 1 | 20 | Hemorragia postparto | Prevención, oxitocina, masaje uterino, ácido tranexámico |
-| 2 | 15 | Preeclampsia/eclampsia | Prevención con calcio, MgSO4, criterios diagnósticos |
-| 3 | 10 | Sepsis neonatal | Prevención, clorhexidina, antibióticos intraparto |
-| 4 | 10 | Parto prematuro | Betametasona, sulfato de magnesio, prevención |
-| 5 | 10 | Asfixia perinatal | Reanimación neonatal, hipotermia terapéutica |
-| 6 | 10 | Infecciones | VIH, sífilis, estreptococo B, malaria en embarazo |
-| 7 | 10 | Nutrición materna | Suplementación, anemia, yodo, ácido fólico |
-| 8 | 9 | Temas diversos | LM, tabaco, ejercicio, salud mental perinatal |
+| Lote | #   | Tema                   | Ejemplos                                                 |
+| ---- | --- | ---------------------- | -------------------------------------------------------- |
+| 1    | 20  | Hemorragia postparto   | Prevención, oxitocina, masaje uterino, ácido tranexámico |
+| 2    | 15  | Preeclampsia/eclampsia | Prevención con calcio, MgSO4, criterios diagnósticos     |
+| 3    | 10  | Sepsis neonatal        | Prevención, clorhexidina, antibióticos intraparto        |
+| 4    | 10  | Parto prematuro        | Betametasona, sulfato de magnesio, prevención            |
+| 5    | 10  | Asfixia perinatal      | Reanimación neonatal, hipotermia terapéutica             |
+| 6    | 10  | Infecciones            | VIH, sífilis, estreptococo B, malaria en embarazo        |
+| 7    | 10  | Nutrición materna      | Suplementación, anemia, yodo, ácido fólico               |
+| 8    | 9   | Temas diversos         | LM, tabaco, ejercicio, salud mental perinatal            |
 
 **Formato de cada fact:**
+
 - `id`: slug corto (kebab-case)
 - `rank`: 1-100 por impacto clínico
 - `title`: título gancho ≤80 chars
@@ -59,6 +60,7 @@ for fact in facts[6..99]:
 ```
 
 Cada brief produce:
+
 - `hook`: frase inicial que engancha
 - `script`: narración completa (60-400 palabras según duración)
 - `beats`: 5-10 segmentos (visual + voiceover)
@@ -77,12 +79,14 @@ Cada brief produce:
 **Stack:** `AIServices/packages/text2audio/` con Edge TTS.
 
 Parámetros por reel:
+
 ```
 voice = "es-AR-ElenaNeural" o "es-MX-DaliaNeural"
 speed = 0.95  # ligeramente más lento que natural
 ```
 
 Pipeline batch:
+
 ```
 for each brief:
     text = brief.script
@@ -99,6 +103,7 @@ for each brief:
 **Stack:** `AIServices/packages/text2image/` con modelo local FLUX / SDXL.
 
 Por reel:
+
 - 5-12 imágenes según duración (1 cada ~8s de video)
 - Resolución: 1080×1920 (9:16 reel)
 - Prompt desde `imagePrompts[i]`
@@ -116,14 +121,15 @@ Por reel:
 
 Dos enfoques:
 
-| Opción | Pros | Contras | Tiempo/reel |
-|--------|------|---------|-------------|
+| Opción             | Pros                         | Contras                 | Tiempo/reel    |
+| ------------------ | ---------------------------- | ----------------------- | -------------- |
 | **A) image2video** | Cada beat es imagen + motion | Más assets, compilación | ~1-2x duración |
-| **B) text2video** | Pipeline directo | Control fino limitado | ~2-3x duración |
+| **B) text2video**  | Pipeline directo             | Control fino limitado   | ~2-3x duración |
 
 **Opción recomendada:** A) image2video para reels finales. Usar B como fallback.
 
 Pipeline:
+
 ```
 input: 5-12 images (1080×1920) + audio WAV (30-180s)
 output: MP4 (1080×1920, 30fps, duración completa)
@@ -137,6 +143,7 @@ params: fade transitions, Ken Burns zoom, subtitles opcionales
 ## Fase 6: Post-producción
 
 Por reel generado:
+
 1. Verificar sincronía labial/audio
 2. Validar contenido clínico vs brief
 3. Generar poster PNG (frame 0 del video)
@@ -144,6 +151,7 @@ Por reel generado:
 5. Prueba visual en la app (iPhone + desktop)
 
 **Control de calidad por lote de 10 reels:**
+
 - Revisión clínica de facts
 - Escuchar audio (pronunciación, entonación)
 - Ver video completo en la app
@@ -152,6 +160,7 @@ Por reel generado:
 ## Fase 7: Quiz
 
 Cada reel necesita un quiz:
+
 ```
 question: (pregunta sobre el fact)
 options: [4 opciones]
@@ -165,13 +174,13 @@ Generar junto con el brief en Fase 2.
 
 ### Requisitos de almacenamiento
 
-| Asset | Cantidad | Tamaño unitario | Total |
-|-------|----------|-----------------|-------|
-| Audio WAV | 100 | ~200KB-5MB | ~20-500MB |
-| Imágenes PNG | 500-1200 | ~500KB | ~250-600MB |
-| Videos MP4 | 100 | ~5-50MB | ~500-5000MB |
-| Posters PNG | 100 | ~100KB | ~10MB |
-| **Total** | | | **~800MB-6GB** |
+| Asset        | Cantidad | Tamaño unitario | Total          |
+| ------------ | -------- | --------------- | -------------- |
+| Audio WAV    | 100      | ~200KB-5MB      | ~20-500MB      |
+| Imágenes PNG | 500-1200 | ~500KB          | ~250-600MB     |
+| Videos MP4   | 100      | ~5-50MB         | ~500-5000MB    |
+| Posters PNG  | 100      | ~100KB          | ~10MB          |
+| **Total**    |          |                 | **~800MB-6GB** |
 
 ### Cómputo
 
@@ -195,16 +204,16 @@ Batch 10: facts 94-100 → ...
 
 ## Timeline estimado
 
-| Fase | Tiempo | Dependencias |
-|------|--------|--------------|
-| 1. Facts (94) | 2 días | Investigación bibliográfica |
-| 2. Briefs (94) | 1-2 horas | Fase 1 |
-| 3. Audio (94) | 45min-4.5h | Fase 2 |
-| 4. Imágenes (500-1200) | 40min-1.5h (4 workers) | Fase 2 |
-| 5. Video (94) | 1-5h | Fase 3 + 4 |
-| 6. QA | 6 horas | Fase 5 |
-| 7. Quiz (94) | automático con brief | Fase 2 |
-| **Total** | **~3-5 días** | |
+| Fase                   | Tiempo                 | Dependencias                |
+| ---------------------- | ---------------------- | --------------------------- |
+| 1. Facts (94)          | 2 días                 | Investigación bibliográfica |
+| 2. Briefs (94)         | 1-2 horas              | Fase 1                      |
+| 3. Audio (94)          | 45min-4.5h             | Fase 2                      |
+| 4. Imágenes (500-1200) | 40min-1.5h (4 workers) | Fase 2                      |
+| 5. Video (94)          | 1-5h                   | Fase 3 + 4                  |
+| 6. QA                  | 6 horas                | Fase 5                      |
+| 7. Quiz (94)           | automático con brief   | Fase 2                      |
+| **Total**              | **~3-5 días**          |                             |
 
 ## Archivos a modificar
 

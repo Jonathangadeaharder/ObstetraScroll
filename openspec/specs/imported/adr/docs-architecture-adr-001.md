@@ -20,7 +20,7 @@ checksum: b8cdb0102a3c793c79bb4a3064e9edc4453803dcb13157e3336ab7aef6344a75
 
 > Imported legacy ADR artifact from `docs/architecture/ADR-001.md`. Keep future lifecycle work in OpenSpec.
 
-**Deciders:** Architecture Team  
+**Deciders:** Architecture Team
 
 ## Context
 

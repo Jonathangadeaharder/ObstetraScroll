@@ -2,32 +2,32 @@ import { sveltekit } from "@sveltejs/kit/vite";
 import { defineConfig } from "vitest/config";
 
 export default defineConfig({
-	plugins: [sveltekit()],
-	test: {
-		environment: "jsdom",
-		globals: true,
-		include: ["src/**/*.{test,spec}.{js,ts}"],
-		setupFiles: ["./vitest.setup.ts"],
-		coverage: {
-			provider: "v8",
-			reporter: ["text", "html"],
-			include: ["src/lib/**/*.ts"],
-			exclude: [
-				"src/**/*.test.ts",
-				"src/**/*.spec.ts",
-				"src/app.d.ts",
-				"src/lib/types.ts",
-			],
-			thresholds: {
-				branches: 80,
-				functions: 70,
-				lines: 80,
-				statements: 80,
-			},
-		},
-	},
-	server: {
-		port: 5173,
-		strictPort: false,
-	},
+  plugins: [sveltekit()],
+  test: {
+    environment: "jsdom",
+    globals: true,
+    include: ["src/**/*.{test,spec}.{js,ts}"],
+    setupFiles: ["./vitest.setup.ts"],
+    coverage: {
+      provider: "v8",
+      reporter: ["text", "html"],
+      include: ["src/lib/**/*.ts"],
+      exclude: [
+        "src/**/*.test.ts",
+        "src/**/*.spec.ts",
+        "src/app.d.ts",
+        "src/lib/types.ts",
+      ],
+      thresholds: {
+        branches: 80,
+        functions: 70,
+        lines: 80,
+        statements: 80,
+      },
+    },
+  },
+  server: {
+    port: 5173,
+    strictPort: false,
+  },
 });

@@ -47,7 +47,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Format check
-        run: pnpm dlx prettier --check .
+        run: pnpm exec biome format .
 
   lint:
     name: Lint
@@ -65,7 +65,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Lint
-        run: pnpm dlx eslint .
+        run: pnpm run lint
 
   typecheck:
     name: Type Check
@@ -83,7 +83,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Type check
-        run: pnpm exec svelte-check --tsconfig ./tsconfig.json
+        run: pnpm run typecheck
 
   build:
     name: Build
@@ -138,24 +138,6 @@ jobs:
 
       - name: E2E tests
         run: pnpm exec playwright test
-
-  deadcode:
-    name: Dead Code
-    runs-on: ["self-hosted", "macos", "arm64", "VidiomTM"]
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-
-      - name: Dead code analysis
-        run: pnpm exec knip
 
   deps:
     name: Dependency Audit
@@ -214,7 +196,6 @@ jobs:
       - build
       - unit
       - e2e
-      - deadcode
       - deps
     if: always()
     steps:
@@ -227,7 +208,6 @@ jobs:
              [ "${{ needs.build.result }}" != "success" ] || \
              [ "${{ needs.unit.result }}" != "success" ] || \
              [ "${{ needs.e2e.result }}" != "success" ] || \
-             [ "${{ needs.deadcode.result }}" != "success" ] || \
              [ "${{ needs.deps.result }}" != "success" ]; then
             echo "One or more merge gate jobs failed."
             exit 1

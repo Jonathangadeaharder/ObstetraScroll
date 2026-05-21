@@ -66,15 +66,15 @@ Six runtime deps (fonts, icons, devalue, zod) plus AI provider SDKs loaded at ru
 
 ## Risks
 
-| Risk | Likelihood | Impact | Mitigation |
-|------|-----------|--------|------------|
-| Only 6 test files for full-stack AI app -- high regression risk | High | High | Add client component tests, set coverage thresholds at 80% |
-| Stryker break: null -- mutation testing is advisory only | High | Medium | Set break threshold to 60 to enforce minimum mutation score |
-| Empty vitest.setup.ts -- client tests run in unreliable environment | High | Medium | Add SvelteKit store/env mocks to vitest setup |
-| AI provider unreachable produces empty content | Medium | High | Add fallback content or graceful error UI |
-| No README blocks developer onboarding | High | Low | Write README with setup, architecture, and deployment docs |
-| No rate limiting on AI generation -- cost explosion risk | Medium | High | Add rate limiting to API endpoints |
-| No caching -- every page load regenerates AI content | High | Medium | Add in-memory or filesystem cache with TTL |
+| Risk                                                                | Likelihood | Impact | Mitigation                                                  |
+| ------------------------------------------------------------------- | ---------- | ------ | ----------------------------------------------------------- |
+| Only 6 test files for full-stack AI app -- high regression risk     | High       | High   | Add client component tests, set coverage thresholds at 80%  |
+| Stryker break: null -- mutation testing is advisory only            | High       | Medium | Set break threshold to 60 to enforce minimum mutation score |
+| Empty vitest.setup.ts -- client tests run in unreliable environment | High       | Medium | Add SvelteKit store/env mocks to vitest setup               |
+| AI provider unreachable produces empty content                      | Medium     | High   | Add fallback content or graceful error UI                   |
+| No README blocks developer onboarding                               | High       | Low    | Write README with setup, architecture, and deployment docs  |
+| No rate limiting on AI generation -- cost explosion risk            | Medium     | High   | Add rate limiting to API endpoints                          |
+| No caching -- every page load regenerates AI content                | High       | Medium | Add in-memory or filesystem cache with TTL                  |
 
 ## Recommendations
 

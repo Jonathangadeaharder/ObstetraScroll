@@ -1,7 +1,7 @@
 ---
 id: SPEC-REEL
 kind: spec
-title: 'SPEC: Reel Planning & Medi Pipeline'
+title: "SPEC: Reel Planning & Medi Pipeline"
 status: draft
 authors: []
 reviewers: []
@@ -20,11 +20,12 @@ checksum: 258c38f035758eb5e4cadba519f6bb60bbe606ffc48a24ecdc464ebcf9b0281a
 > Imported legacy SPEC artifact from `docs/superpowers/specs/SPEC-reel-pipeline.md`. Keep future lifecycle work in OpenSpec.
 
 ---
-checksum: bf6be49e430e9eb32644c83e55ecaa47811ddacfedcc950a683973b1844e642f
----
+
+## checksum: bf6be49e430e9eb32644c83e55ecaa47811ddacfedcc950a683973b1844e642f
 
 **Date:** 2026-05-17  
 **Components:**
+
 - `src/lib/server/reelPlanner.ts` (brief generation)
 - `src/lib/server/feed.ts` (feed assembly)
 - `scripts/reel1-10-pipeline.mjs` (orchestration)
@@ -40,21 +41,21 @@ Output: `ReelBrief` with 5 beats
 
 ### Beats
 
-| ID | Duration | Purpose |
-|----|----------|---------|
-| `b00_hook` | 4s | Attention-grabbing opener |
-| `b01_reframe` | 6s | Why this contradicts common belief |
-| `b02_clinical_point` | 8s | The evidence-based insight |
-| `b03_action` | 5-137s | Practical checklist for practice |
-| `b04_safety` | 5s | Safety disclaimer + review notice |
+| ID                   | Duration | Purpose                            |
+| -------------------- | -------- | ---------------------------------- |
+| `b00_hook`           | 4s       | Attention-grabbing opener          |
+| `b01_reframe`        | 6s       | Why this contradicts common belief |
+| `b02_clinical_point` | 8s       | The evidence-based insight         |
+| `b03_action`         | 5-137s   | Practical checklist for practice   |
+| `b04_safety`         | 5s       | Safety disclaimer + review notice  |
 
 ### Tone Variants
 
-| Tone | Opener |
-|------|--------|
-| `calm` | "Mirá esto con calma, pero sin dejarlo pasar:" |
+| Tone     | Opener                                               |
+| -------- | ---------------------------------------------------- |
+| `calm`   | "Mirá esto con calma, pero sin dejarlo pasar:"       |
 | `urgent` | "Este momento en sala no conviene pasarlo por alto:" |
-| `mentor` | "Un detalle de partería que se aprende con cancha:" |
+| `mentor` | "Un detalle de partería que se aprende con cancha:"  |
 
 ### Render Plan
 
@@ -77,10 +78,10 @@ Takes facts + generated media manifest → `ReelFeedItem[]`.
 
 ## Media Generation Scripts
 
-| Script | Mode | AI Providers |
-|--------|------|-------------|
-| `generate-poc-media.mjs` | POC | Kling v1.6 (video), ElevenLabs (audio) |
-| `generate-ai-media.mjs` | Production | AIServices/MLX (all) |
+| Script                   | Mode       | AI Providers                           |
+| ------------------------ | ---------- | -------------------------------------- |
+| `generate-poc-media.mjs` | POC        | Kling v1.6 (video), ElevenLabs (audio) |
+| `generate-ai-media.mjs`  | Production | AIServices/MLX (all)                   |
 
 ### Pipeline Steps
 

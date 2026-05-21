@@ -12,13 +12,13 @@ Curated dataset of 100 evidence-based obstetric facts across 8 clinical domains.
 
 ```typescript
 type Fact = {
-  id: string;           // Unique kebab-case ID
-  rank: number;         // 1-100, display order
-  title: string;        // Headline (Instagram-ready)
-  insight: string;      // Key clinical insight (body)
+  id: string; // Unique kebab-case ID
+  rank: number; // 1-100, display order
+  title: string; // Headline (Instagram-ready)
+  insight: string; // Key clinical insight (body)
   whyNonObvious: string; // Why this contradicts common belief
-  audience: string;     // Target professional audience
-  sourceNote: string;   // Citation with Cochrane/WHO/Lancet refs
+  audience: string; // Target professional audience
+  sourceNote: string; // Citation with Cochrane/WHO/Lancet refs
   evidenceStatus: "seeded" | "needs_review" | "approved";
   riskLevel: "low" | "medium" | "high";
   tags: string[];
@@ -27,16 +27,16 @@ type Fact = {
 
 ## Clinical Domains
 
-| Lot | Ranks | Topic | Count |
-|-----|-------|-------|-------|
-| 1 | 1-20 | Postpartum Hemorrhage (HPP) | 20 |
-| 2 | 21-35 | Preeclampsia/Eclampsia | 15 |
-| 3 | 36-45 | Neonatal Sepsis | 10 |
-| 4 | 46-55 | Preterm Birth | 10 |
-| 5 | 56-65 | Perinatal Asphyxia | 10 |
-| 6 | 66-75 | Infections (HIV, Syphilis, Malaria) | 10 |
-| 7 | 76-85 | Maternal Nutrition | 10 |
-| 8 | 86-100 | Diverse (Lactation, Smoking, Mental Health) | 15 |
+| Lot | Ranks  | Topic                                       | Count |
+| --- | ------ | ------------------------------------------- | ----- |
+| 1   | 1-20   | Postpartum Hemorrhage (HPP)                 | 20    |
+| 2   | 21-35  | Preeclampsia/Eclampsia                      | 15    |
+| 3   | 36-45  | Neonatal Sepsis                             | 10    |
+| 4   | 46-55  | Preterm Birth                               | 10    |
+| 5   | 56-65  | Perinatal Asphyxia                          | 10    |
+| 6   | 66-75  | Infections (HIV, Syphilis, Malaria)         | 10    |
+| 7   | 76-85  | Maternal Nutrition                          | 10    |
+| 8   | 86-100 | Diverse (Lactation, Smoking, Mental Health) | 15    |
 
 ## Safety Gates
 
@@ -54,6 +54,7 @@ type Fact = {
 ## Maintenance
 
 Adding a new fact:
+
 1. Append to `facts` array (follow existing structure)
 2. Set `evidenceStatus` to `seeded`
 3. Assign rank within appropriate domain

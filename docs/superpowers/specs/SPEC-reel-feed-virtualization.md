@@ -26,21 +26,21 @@ TikTok-style vertical feed with infinite scroll, video preloading, and quiz page
 
 ### Virtualization Strategy
 
-| Parameter | Value | Purpose |
-|-----------|-------|---------|
-| `REEL_REPEAT_CYCLES` | 12 | How many times each item loops |
-| `VISIBLE_WINDOW` | 2 | Items rendered on each side of active |
-| `PRELOAD_AHEAD` | 3 | Videos preloaded ahead of scroll |
+| Parameter            | Value | Purpose                               |
+| -------------------- | ----- | ------------------------------------- |
+| `REEL_REPEAT_CYCLES` | 12    | How many times each item loops        |
+| `VISIBLE_WINDOW`     | 2     | Items rendered on each side of active |
+| `PRELOAD_AHEAD`      | 3     | Videos preloaded ahead of scroll      |
 
 ### Keyboard Navigation
 
-| Key | Action |
-|-----|--------|
-| ArrowDown / j / n | Next reel |
-| ArrowUp / k | Previous reel |
-| Space | Toggle pause |
-| Home | First reel |
-| End | Last reel |
+| Key               | Action        |
+| ----------------- | ------------- |
+| ArrowDown / j / n | Next reel     |
+| ArrowUp / k       | Previous reel |
+| Space             | Toggle pause  |
+| Home              | First reel    |
+| End               | Last reel     |
 
 ### Quiz Flow
 

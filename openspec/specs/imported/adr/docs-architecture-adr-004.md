@@ -20,11 +20,12 @@ checksum: 73ebe9f973f68c3e3e9ac1e7a9e511e0b03f75a502e0031c49e3459d1a932a1e
 
 > Imported legacy ADR artifact from `docs/architecture/ADR-004.md`. Keep future lifecycle work in OpenSpec.
 
-**Deciders:** Architecture Team  
+**Deciders:** Architecture Team
 
 ## Context
 
 The project generates evidence-based medical content where correctness is critical. Tests must ensure:
+
 1. Clinical facts are accurately transformed into quiz questions
 2. Reel planning logic produces valid briefs
 3. AI service commands are constructed correctly
@@ -43,12 +44,12 @@ The project generates evidence-based medical content where correctness is critic
 
 Configured in `vite.config.ts`:
 
-| Metric | Threshold |
-|--------|-----------|
-| Branches | 90% |
-| Functions | 70% |
-| Lines | 90% |
-| Statements | 90% |
+| Metric     | Threshold |
+| ---------- | --------- |
+| Branches   | 90%       |
+| Functions  | 70%       |
+| Lines      | 90%       |
+| Statements | 90%       |
 
 Coverage scope: `src/lib/**/*.ts` (core logic, not routes/app files).
 
@@ -62,16 +63,16 @@ Coverage scope: `src/lib/**/*.ts` (core logic, not routes/app files).
 
 ### Test Scope by Module
 
-| Module | File(s) | What We Test |
-|--------|---------|--------------|
-| Facts | `facts.ts` | Data integrity (all 100 facts have required fields) |
-| Reel Planner | `reelPlanner.ts` | Brief generation for each tone, duration calc, Zod validation |
-| Enrich Quiz | `enrichQuiz.ts` | Question generation, option shuffling, answer correctness |
-| AI Services | `aiservices.ts` | Command building for each operation, environment variables |
-| Feed | `feed.ts` | Feed item construction, manifest parsing, fallback paths |
-| reelFeed | `reelFeed.ts` | Virtualization math, page building, scroll direction handling |
-| Components | `.svelte` files | Stryker mutation coverage (no dedicated component tests yet) |
-| API Routes | `api/reels/+server.ts` | Endpoint validation, error handling |
+| Module       | File(s)                | What We Test                                                  |
+| ------------ | ---------------------- | ------------------------------------------------------------- |
+| Facts        | `facts.ts`             | Data integrity (all 100 facts have required fields)           |
+| Reel Planner | `reelPlanner.ts`       | Brief generation for each tone, duration calc, Zod validation |
+| Enrich Quiz  | `enrichQuiz.ts`        | Question generation, option shuffling, answer correctness     |
+| AI Services  | `aiservices.ts`        | Command building for each operation, environment variables    |
+| Feed         | `feed.ts`              | Feed item construction, manifest parsing, fallback paths      |
+| reelFeed     | `reelFeed.ts`          | Virtualization math, page building, scroll direction handling |
+| Components   | `.svelte` files        | Stryker mutation coverage (no dedicated component tests yet)  |
+| API Routes   | `api/reels/+server.ts` | Endpoint validation, error handling                           |
 
 ### Test Files
 

@@ -21,12 +21,12 @@ Algorithmic quiz generator that creates 4-option multiple choice questions from 
 
 ### Answer Construction
 
-| Option | Source |
-|--------|--------|
-| Correct | `fact.insight` (truncated to 140 chars) |
+| Option   | Source                                                                             |
+| -------- | ---------------------------------------------------------------------------------- |
+| Correct  | `fact.insight` (truncated to 140 chars)                                            |
 | Wrong #1 | `fact.whyNonObvious` (truncated to 120 chars) — describes the common misconception |
-| Wrong #2 | Negated `fact.insight` — the inverse claim |
-| Wrong #3 | Generic wrong answer pool — rotates based on `fact.rank` |
+| Wrong #2 | Negated `fact.insight` — the inverse claim                                         |
+| Wrong #3 | Generic wrong answer pool — rotates based on `fact.rank`                           |
 
 ### Shuffling
 
@@ -49,11 +49,11 @@ The entire process is deterministic (no randomness). Same fact + same seed produ
 
 ```typescript
 type QuizQuestion = {
-  id: string;           // quiz-{fact.id}
-  question: string;     // The question text
-  options: string[4];   // Shuffled options
-  answerIndex: number;  // Index of correct answer (0-3)
-  explanation: string;  // Full explanation with source
+  id: string; // quiz-{fact.id}
+  question: string; // The question text
+  options: string[4]; // Shuffled options
+  answerIndex: number; // Index of correct answer (0-3)
+  explanation: string; // Full explanation with source
   optionNotes: string[4]; // Per-option explanations
 };
 ```

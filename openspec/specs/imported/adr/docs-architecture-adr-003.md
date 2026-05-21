@@ -20,7 +20,7 @@ checksum: 9c6bafd7ab380e4eab5488070b492cc8395a4c1c182fd7c8dcf7afc0ba1f42ce
 
 > Imported legacy ADR artifact from `docs/architecture/ADR-003.md`. Keep future lifecycle work in OpenSpec.
 
-**Deciders:** Architecture Team  
+**Deciders:** Architecture Team
 
 ## Context
 
@@ -32,23 +32,23 @@ We need automated quality gates that run on every PR and merge to `main`. The pr
 
 Runs on every pull request. Jobs:
 
-| Job | Runner | Tool |
-|-----|--------|------|
-| Repo Hygiene | ubuntu-latest | Custom script (iCloud conflict check) |
-| Node Quality | ubuntu-latest | `biome check`, `svelte-check`, `vitest --coverage`, `vite build` |
-| Dependency Scan | ubuntu-latest | Trivy filesystem (HIGH/CRITICAL) |
-| Secret Scanning | ubuntu-latest | Gitleaks |
-| Infra Validation | ubuntu-latest | Dockerfile/compose checks, PostHog region check |
-| Mutation Testing | ubuntu-latest | Stryker (incremental mode) |
-| Repo Structure | ubuntu-latest | Custom Go tool `structurelint` built from source |
-| Required Checks (PR) | ubuntu-latest | Aggregator — fails if any above fails |
+| Job                  | Runner        | Tool                                                             |
+| -------------------- | ------------- | ---------------------------------------------------------------- |
+| Repo Hygiene         | ubuntu-latest | Custom script (iCloud conflict check)                            |
+| Node Quality         | ubuntu-latest | `biome check`, `svelte-check`, `vitest --coverage`, `vite build` |
+| Dependency Scan      | ubuntu-latest | Trivy filesystem (HIGH/CRITICAL)                                 |
+| Secret Scanning      | ubuntu-latest | Gitleaks                                                         |
+| Infra Validation     | ubuntu-latest | Dockerfile/compose checks, PostHog region check                  |
+| Mutation Testing     | ubuntu-latest | Stryker (incremental mode)                                       |
+| Repo Structure       | ubuntu-latest | Custom Go tool `structurelint` built from source                 |
+| Required Checks (PR) | ubuntu-latest | Aggregator — fails if any above fails                            |
 
 ### Merge Gate (`merge-gate.yml`)
 
 Runs on push to `main`/`master`. Same as PR Gate plus:
 
-| Job | Runner | Tool |
-|-----|--------|------|
+| Job             | Runner        | Tool                                  |
+| --------------- | ------------- | ------------------------------------- |
 | CodeQL Security | ubuntu-latest | GitHub CodeQL (javascript-typescript) |
 
 ### PR Agent (`pr-agent.yml`)

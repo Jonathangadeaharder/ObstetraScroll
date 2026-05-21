@@ -73,7 +73,13 @@ for (const [idx, item] of items.entries()) {
   if (!response.ok) {
     const err = await response.text();
     console.error(`FAILED ${slug}: ${response.status} - ${err.slice(0, 100)}`);
-    manifest.push({ slug, title: item.title, tone: item.tone, status: "failed", error: `${response.status}` });
+    manifest.push({
+      slug,
+      title: item.title,
+      tone: item.tone,
+      status: "failed",
+      error: `${response.status}`,
+    });
     continue;
   }
 
@@ -81,14 +87,28 @@ for (const [idx, item] of items.entries()) {
   writeFileSync(outPath, buffer);
   console.log(`  OK (${(buffer.length / 1024).toFixed(0)} KB)`);
 
-  manifest.push({ slug, title: item.title, tone: item.tone, status: "done", file: outPath });
+  manifest.push({
+    slug,
+    title: item.title,
+    tone: item.tone,
+    status: "done",
+    file: outPath,
+  });
 
   await new Promise((r) => setTimeout(r, 1100));
 }
 
 writeFileSync(
   join(outDir, "manifest.json"),
-  JSON.stringify({ generatedAt: new Date().toISOString(), voiceId: VOICE_ID, items: manifest }, null, 2),
+  JSON.stringify(
+    {
+      generatedAt: new Date().toISOString(),
+      voiceId: VOICE_ID,
+      items: manifest,
+    },
+    null,
+    2,
+  ),
 );
 
 const ok = manifest.filter((m) => m.status === "done").length;
