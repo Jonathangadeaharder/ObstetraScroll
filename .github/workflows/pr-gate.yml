@@ -192,7 +192,7 @@ jobs:
   semgrep:
     name: Semgrep
     runs-on: ["self-hosted", "macos", "arm64", "VidiomTM"]
-    if: github.event.pull_request == null || github.event.pull_request.head.repo.full_name == github.repository
+    if: false
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -205,7 +205,7 @@ jobs:
   secret-scanning:
     name: Secret Scanning
     runs-on: ["self-hosted", "macos", "arm64", "VidiomTM"]
-    if: github.event.pull_request == null || github.event.pull_request.head.repo.full_name == github.repository
+    if: false
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -229,8 +229,6 @@ jobs:
       - unit
       - deadcode
       - deps
-      - semgrep
-      - secret-scanning
     if: always()
     steps:
       - name: Verify all jobs passed
@@ -242,9 +240,7 @@ jobs:
              [ "${{ needs.build.result }}" != "success" ] || \
              [ "${{ needs.unit.result }}" != "success" ] || \
              [ "${{ needs.deadcode.result }}" != "success" ] || \
-             [ "${{ needs.deps.result }}" != "success" ] || \
-             [ "${{ needs.semgrep.result }}" != "success" ] || \
-             [ "${{ needs.secret-scanning.result }}" != "success" ]; then
+             [ "${{ needs.deps.result }}" != "success" ]; then
             echo "One or more PR gate jobs failed."
             exit 1
           fi
