@@ -682,11 +682,13 @@ function assetIcon(kind: "audio" | "image" | "video") {
 	.quiz-full {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		justify-content: flex-start;
 		height: 100dvh;
 		padding: 32px 24px;
 		background: var(--paper);
 		gap: 24px;
+		overflow-y: auto;
+		-webkit-overflow-scrolling: touch;
 	}
 
 	.quiz-header h2 {
@@ -756,6 +758,43 @@ function assetIcon(kind: "audio" | "image" | "video") {
 
 		.page-placeholder {
 			height: 100dvh;
+		}
+
+		.quiz-full {
+			padding: 24px 16px 40px;
+			gap: 16px;
+		}
+
+		.quiz-header h2 {
+			font-size: 1.4rem;
+			line-height: 1.1;
+		}
+
+		.question h2 {
+			font-size: 1.15rem;
+			line-height: 1.15;
+		}
+
+		.answers {
+			gap: 8px;
+		}
+
+		.answers button {
+			min-height: 48px;
+			padding: 8px 10px;
+			font-size: 0.88rem;
+			gap: 8px;
+			grid-template-columns: 28px minmax(0, 1fr);
+		}
+
+		.answers .mono {
+			height: 28px;
+			font-size: 0.75rem;
+		}
+
+		.explanation {
+			font-size: 0.88rem;
+			margin: 10px 0 0;
 		}
 	}
 </style>

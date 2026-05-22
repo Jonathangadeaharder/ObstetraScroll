@@ -20,29 +20,83 @@ function mutateValue(value: number): number {
 	return next >= 1 ? Math.round(next) : Math.round(next * 10) / 10;
 }
 
-// Replace the FIRST numeric token in insight with a mutated value.
-// Used to produce a hard distractor that flips a key magnitude.
+function getFirstSentence(text: string): string {
+	const first = text.split(/[.!?]\s/)[0];
+	if (
+		first &&
+		!first.endsWith(".") &&
+		!first.endsWith("!") &&
+		!first.endsWith("?")
+	) {
+		return `${first}.`;
+	}
+	return first || text;
+}
+
+function cleanText(text: string): string {
+	// Strip parentheses and their content
+	let clean = text.replace(/\s*\([^)]+\)/g, "").trim();
+	// Strip trailing periods so we can format options cleanly without random punctuation
+	if (clean.endsWith(".")) {
+		clean = clean.slice(0, -1).trim();
+	}
+	return clean;
+}
+
+function toLowerAcronymSafe(text: string): string {
+	return text
+		.split(/\s+/)
+		.map((word) => {
+			if (
+				word === "hCG" ||
+				word === "FcRn" ||
+				(word.length > 1 && word === word.toUpperCase())
+			) {
+				return word;
+			}
+			return word.toLowerCase();
+		})
+		.join(" ");
+}
+
+function getQuestionTopic(fact: Fact): string {
+	if (fact.tags && fact.tags.length > 0) {
+		const t1 = fact.tags[0];
+		const t2 = fact.tags[1];
+		if (t2) {
+			if (t1.toLowerCase().includes(t2.toLowerCase())) return t1;
+			if (t2.toLowerCase().includes(t1.toLowerCase())) return t2;
+			const t2Formatted = t2 === t2.toUpperCase() ? t2 : t2.toLowerCase();
+			return `${t1} y ${t2Formatted}`;
+		}
+		return t1;
+	}
+	return fact.title;
+}
+
+// Replace the FIRST numeric token in title with a mutated value.
 function distractorWithMutatedNumber(
-	insight: string,
+	title: string,
 	seed: number,
 ): string | null {
-	const matches = Array.from(insight.matchAll(NUMERIC_RE));
+	const cleanTitle = cleanText(title);
+	const matches = Array.from(cleanTitle.matchAll(NUMERIC_RE));
 	if (matches.length === 0) return null;
 	const pick = matches[seed % matches.length];
 	const raw = pick[1].replace(",", ".");
 	const value = Number.parseFloat(raw);
 	if (!Number.isFinite(value)) return null;
 	const next = mutateValue(value);
-	const replaced = insight.replace(
+	const replaced = cleanTitle.replace(
 		pick[0],
 		`${next}${pick[0].includes(" ") ? " " : ""}${pick[2]}`,
 	);
-	return cap(trunc(replaced, 140));
+	return cap(trunc(replaced, 90));
 }
 
-// Invert a directional verb ("reduce" -> "no modifica", "aumenta" -> "reduce").
-// Produces a distractor that sounds plausible but contradicts the evidence.
-function distractorWithInvertedDirection(insight: string): string | null {
+// Invert a directional verb in the title.
+function distractorWithInvertedDirection(title: string): string | null {
+	const cleanTitle = cleanText(title);
 	const swaps: [RegExp, string][] = [
 		[/\breduce\b/i, "no modifica"],
 		[/\breduc(en|ió|ido|ida)/i, "no modific$1"],
@@ -53,10 +107,12 @@ function distractorWithInvertedDirection(insight: string): string | null {
 		[/\bprevien(e|en)\b/i, "no afect$1"],
 		[/\bmayor\b/i, "menor"],
 		[/\bmenor\b/i, "mayor"],
+		[/\bse\s+asocia\s+con\s+un\s+incremento\b/i, "disminuye"],
+		[/\bse\s+asocia\s+con\s+una\s+reducción\b/i, "aumenta"],
 	];
 	for (const [re, sub] of swaps) {
-		if (re.test(insight)) {
-			return cap(trunc(insight.replace(re, sub), 140));
+		if (re.test(cleanTitle)) {
+			return cap(trunc(cleanTitle.replace(re, sub), 90));
 		}
 	}
 	return null;
@@ -64,8 +120,8 @@ function distractorWithInvertedDirection(insight: string): string | null {
 
 // Build a "common misconception" distractor from why-non-obvious context.
 function distractorFromMisconception(why: string): string {
-	// whyNonObvious usually describes the wrong but widespread belief.
-	return cap(trunc(why, 140));
+	const first = getFirstSentence(why);
+	return cap(trunc(cleanText(first), 90));
 }
 
 const fallbackWrong = [
@@ -88,23 +144,23 @@ function uniq(items: string[]): string[] {
 }
 
 const questionTemplates = [
-	(t: string) => `¿Qué dice la evidencia sobre ${t.toLowerCase()}?`,
+	(t: string) => `¿Qué dice la evidencia sobre ${toLowerAcronymSafe(t)}?`,
 	(t: string) =>
-		`Frente a ${t.toLowerCase()}, ¿cuál es la conducta respaldada?`,
+		`Frente a ${toLowerAcronymSafe(t)}, ¿cuál es la conducta respaldada?`,
 	(t: string) =>
-		`Sobre ${t.toLowerCase()}, ¿cuál afirmación refleja la mejor evidencia?`,
-	(t: string) => `¿Qué es correcto respecto a ${t.toLowerCase()}?`,
+		`Sobre ${toLowerAcronymSafe(t)}, ¿cuál afirmación refleja la mejor evidencia?`,
+	(t: string) => `¿Qué es correcto respecto a ${toLowerAcronymSafe(t)}?`,
 ];
 
 export function enrichQuiz(fact: Fact): QuizQuestion {
-	const correct = cap(trunc(fact.insight, 160));
+	const correct = cap(trunc(cleanText(fact.title), 90));
 
 	const candidates: string[] = [];
-	const mut1 = distractorWithMutatedNumber(fact.insight, fact.rank);
+	const mut1 = distractorWithMutatedNumber(fact.title, fact.rank);
 	if (mut1) candidates.push(mut1);
-	const mut2 = distractorWithMutatedNumber(fact.insight, fact.rank + 1);
+	const mut2 = distractorWithMutatedNumber(fact.title, fact.rank + 1);
 	if (mut2 && mut2 !== mut1) candidates.push(mut2);
-	const inv = distractorWithInvertedDirection(fact.insight);
+	const inv = distractorWithInvertedDirection(fact.title);
 	if (inv) candidates.push(inv);
 	candidates.push(distractorFromMisconception(fact.whyNonObvious));
 
@@ -128,9 +184,9 @@ export function enrichQuiz(fact: Fact): QuizQuestion {
 	options.splice(answerIndex, 0, correct);
 	options.length = 4;
 
-	const question = questionTemplates[fact.rank % questionTemplates.length](
-		fact.title,
-	);
+	const topic = getQuestionTopic(fact);
+	const question =
+		questionTemplates[fact.rank % questionTemplates.length](topic);
 
 	const explanation = `${cap(trunc(fact.insight, 280))}\n\nPor qué no es obvio: ${cap(trunc(fact.whyNonObvious, 200))}\n\nFuente: ${fact.sourceNote}`;
 
