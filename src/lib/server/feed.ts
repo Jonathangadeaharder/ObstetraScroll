@@ -30,13 +30,18 @@ type GeneratedManifest = {
 };
 
 function readGeneratedManifest(): GeneratedManifest {
-	const path = resolve(
-		process.cwd(),
-		"static",
-		"generated-media",
-		"manifest.json",
-	);
-	if (!existsSync(path)) return {};
+	const paths = [
+		resolve(process.cwd(), "static", "generated-media", "manifest.json"),
+		resolve(
+			process.cwd(),
+			"build",
+			"client",
+			"generated-media",
+			"manifest.json",
+		),
+	];
+	const path = paths.find((candidate) => existsSync(candidate));
+	if (!path) return {};
 	return JSON.parse(readFileSync(path, "utf8")) as GeneratedManifest;
 }
 
