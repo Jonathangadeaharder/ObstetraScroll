@@ -8,7 +8,10 @@ export const QUIZ_EVERY_N_VIDEOS = 5;
 
 export type PageType = "video" | "quiz";
 
-export type QuizPicker = (position: number) => ReelFeedItem | null;
+export type QuizPicker = (
+	position: number,
+	seenFactIds: string[],
+) => ReelFeedItem | null;
 
 export type LoopedReel = {
 	item: ReelFeedItem;
@@ -64,6 +67,7 @@ export function buildReelPages(
 		((pos) => feedItems[Math.floor(pos / quizEveryN) % feedItems.length]);
 
 	const pages: ReelPage[] = [];
+	const seenFactIds: string[] = [];
 	let videoCount = 0;
 	let quizCount = 0;
 
@@ -77,10 +81,11 @@ export function buildReelPages(
 				key: `${item.id}-c${cycleIndex}-v`,
 				pageType: "video",
 			});
+			seenFactIds.push(item.factId);
 			videoCount++;
 
 			if (videoCount % quizEveryN === 0) {
-				const quizItem = quizPicker(videoCount) ?? item;
+				const quizItem = quizPicker(videoCount, [...seenFactIds]) ?? item;
 				pages.push({
 					item: quizItem,
 					loopIndex: pages.length,

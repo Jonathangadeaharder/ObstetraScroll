@@ -3,7 +3,9 @@ import { listFeedItems } from "$lib/server/feed";
 import { planReel, reelRequestSchema } from "$lib/server/reelPlanner";
 
 export function load() {
-	const facts = listFacts();
+	const feedItems = listFeedItems();
+	const feedFactIds = new Set(feedItems.map((item) => item.factId));
+	const facts = listFacts().filter((fact) => feedFactIds.has(fact.id));
 	const request = reelRequestSchema.parse({
 		factId: facts[0]?.id ?? "",
 		tone: "mentor",
@@ -12,7 +14,7 @@ export function load() {
 
 	return {
 		facts,
-		feedItems: listFeedItems(),
+		feedItems,
 		initialBrief: facts[0] ? planReel(facts[0], request) : null,
 	};
 }

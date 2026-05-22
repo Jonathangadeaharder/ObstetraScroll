@@ -88,4 +88,57 @@ describe("listFeedItems", () => {
 			}
 		}
 	});
+
+	it("quiz options do not contain ellipses and are complete sentences", () => {
+		const items = listFeedItems();
+		const stopWords = new Set([
+			"de",
+			"la",
+			"el",
+			"para",
+			"las",
+			"los",
+			"un",
+			"una",
+			"y",
+			"o",
+			"en",
+			"con",
+			"del",
+			"al",
+			"a",
+			"su",
+			"sus",
+			"que",
+			"se",
+			"por",
+			"como",
+			"no",
+			"si",
+			"sin",
+			"post",
+			"pre",
+			"e",
+			"u",
+			"lo",
+		]);
+		for (const item of items) {
+			for (const option of item.quiz.options) {
+				expect(option).not.toContain("…");
+				expect(option).not.toContain("...");
+				expect(option.endsWith(".")).toBe(true);
+
+				// Strip trailing period and check that it doesn't end with a stop word
+				const baseOption = option.slice(0, -1).trim();
+				const words = baseOption.split(/\s+/);
+				const lastWord = words[words.length - 1].toLowerCase();
+				if (stopWords.has(lastWord)) {
+					console.log(
+						`FAILING OPTION: "${option}" -> lastWord: "${lastWord}" for factId: ${item.factId}`,
+					);
+				}
+				expect(stopWords.has(lastWord)).toBe(false);
+			}
+		}
+	});
 });

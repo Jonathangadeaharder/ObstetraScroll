@@ -51,7 +51,6 @@ const item = $derived(reel.item);
 let videoProgress = $state(0);
 let videoError = $state(false);
 let isMuted = $state(true);
-const END_THRESHOLD = 0.3;
 
 $effect(() => {
 	if (hasInteracted && isMuted) {
@@ -63,9 +62,6 @@ function handleTimeUpdate(e: Event) {
 	const video = e.currentTarget as HTMLVideoElement;
 	if (video.duration > 0) {
 		videoProgress = (video.currentTime / video.duration) * 100;
-		if (video.duration - video.currentTime <= END_THRESHOLD) {
-			onNextReel(reel.key);
-		}
 	}
 	if (videoError) {
 		videoError = false;
@@ -242,68 +238,70 @@ function assetIcon(kind: "audio" | "image" | "video") {
 			{/if}
 		</div>
 
-		<aside class="lesson">
-			<div class="lesson-head">
-				<div>
-					<p class="eyebrow">Video {reel.reelNumber} · {item.durationSec}s</p>
-					<h1>{item.title}</h1>
+		{#if !pageType}
+			<aside class="lesson">
+				<div class="lesson-head">
+					<div>
+						<p class="eyebrow">Video {reel.reelNumber} · {item.durationSec}s</p>
+						<h1>{item.title}</h1>
+					</div>
+					<BookOpenCheck size={24} />
 				</div>
-				<BookOpenCheck size={24} />
-			</div>
 
-			<div class="question">
-				<h2>{item.quiz.question}</h2>
-				<div class="answers">
-					{#each item.quiz.options as option, optionIndex}
-						<button
-							type="button"
-							class:chosen={selectedAnswer === optionIndex}
-							class:correct={selectedAnswer !== undefined &&
-								optionIndex === item.quiz.answerIndex}
-							class:wrong={selectedAnswer === optionIndex &&
-								optionIndex !== item.quiz.answerIndex}
-							onclick={() => onAnswerQuiz(reel.key, optionIndex)}
-						>
-							<span class="mono">{String.fromCharCode(65 + optionIndex)}</span>
-							{option}
+				<div class="question">
+					<h2>{item.quiz.question}</h2>
+					<div class="answers">
+						{#each item.quiz.options as option, optionIndex}
+							<button
+								type="button"
+								class:chosen={selectedAnswer === optionIndex}
+								class:correct={selectedAnswer !== undefined &&
+									optionIndex === item.quiz.answerIndex}
+								class:wrong={selectedAnswer === optionIndex &&
+									optionIndex !== item.quiz.answerIndex}
+								onclick={() => onAnswerQuiz(reel.key, optionIndex)}
+							>
+								<span class="mono">{String.fromCharCode(65 + optionIndex)}</span>
+								{option}
+							</button>
+						{/each}
+					</div>
+
+					{#if selectedAnswer !== undefined}
+						<button type="button" class="explanation" onclick={() => onNextReel(reel.key)}>
+							<BadgeCheck size={18} />
+							{item.quiz.explanation}
 						</button>
+					{/if}
+				</div>
+
+				<div class="pipeline">
+					<div class="lesson-head compact">
+						<div>
+							<p class="eyebrow">AIServices</p>
+							<h2>Cadena de medios</h2>
+						</div>
+						<Clapperboard size={22} />
+					</div>
+
+					{#each item.assets as asset}
+						{@const Icon = assetIcon(asset.kind)}
+						<a class="asset" href={asset.path} target="_blank" rel="noreferrer">
+							<Icon size={19} />
+							<span>
+								<strong>{asset.provider}</strong>
+								<small>{asset.path}</small>
+							</span>
+						</a>
 					{/each}
 				</div>
 
-				{#if selectedAnswer !== undefined}
-					<button type="button" class="explanation" onclick={() => onNextReel(reel.key)}>
-						<BadgeCheck size={18} />
-						{item.quiz.explanation}
-					</button>
-				{/if}
-			</div>
-
-			<div class="pipeline">
-				<div class="lesson-head compact">
-					<div>
-						<p class="eyebrow">AIServices</p>
-						<h2>Cadena de medios</h2>
-					</div>
-					<Clapperboard size={22} />
+				<div class="brief">
+					<p class="eyebrow">Guion de voz</p>
+					<p>{item.brief.script}</p>
 				</div>
-
-				{#each item.assets as asset}
-					{@const Icon = assetIcon(asset.kind)}
-					<a class="asset" href={asset.path} target="_blank" rel="noreferrer">
-						<Icon size={19} />
-						<span>
-							<strong>{asset.provider}</strong>
-							<small>{asset.path}</small>
-						</span>
-					</a>
-				{/each}
-			</div>
-
-			<div class="brief">
-				<p class="eyebrow">Guion de voz</p>
-				<p>{item.brief.script}</p>
-			</div>
-		</aside>
+			</aside>
+		{/if}
 	{/if}
 </article>
 

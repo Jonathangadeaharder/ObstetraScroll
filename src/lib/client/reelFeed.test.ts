@@ -183,6 +183,43 @@ describe("buildReelPages", () => {
 		expect(new Set(keys).size).toBe(pages.length);
 	});
 
+	it("passes seenFactIds to the quizPicker containing only already seen fact ids", () => {
+		const items = Array.from({ length: 10 }, (_, i) => {
+			const it = item(`v${i}`);
+			it.factId = `fact-${i}`;
+			return it;
+		});
+		const seenHistory: string[][] = [];
+		buildReelPages(items, 1, {
+			quizEveryN: 5,
+			quizPicker: (pos, seen) => {
+				seenHistory.push(seen);
+				return items[0];
+			},
+		});
+
+		expect(seenHistory).toHaveLength(2);
+		expect(seenHistory[0]).toEqual([
+			"fact-0",
+			"fact-1",
+			"fact-2",
+			"fact-3",
+			"fact-4",
+		]);
+		expect(seenHistory[1]).toEqual([
+			"fact-0",
+			"fact-1",
+			"fact-2",
+			"fact-3",
+			"fact-4",
+			"fact-5",
+			"fact-6",
+			"fact-7",
+			"fact-8",
+			"fact-9",
+		]);
+	});
+
 	it("returns empty array for empty feed", () => {
 		expect(buildReelPages([])).toEqual([]);
 	});

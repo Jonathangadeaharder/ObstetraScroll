@@ -103,16 +103,19 @@ export function pickNextQuizFactId(
 	_now = Date.now(),
 	rng: () => number = Math.random,
 ): string | null {
-	if (factIds.length === 0) return null;
+	const uniqueFactIds = [...new Set(factIds)];
+	if (uniqueFactIds.length === 0) return null;
 
-	const weights = factIds.map((id) => quizWeight(state[id]));
+	const weights = uniqueFactIds.map((id) => quizWeight(state[id]));
 	const total = weights.reduce((a, b) => a + b, 0);
-	if (total <= 0) return factIds[Math.floor(rng() * factIds.length)];
+	if (total <= 0) {
+		return uniqueFactIds[Math.floor(rng() * uniqueFactIds.length)];
+	}
 
 	let r = rng() * total;
-	for (let i = 0; i < factIds.length; i++) {
+	for (let i = 0; i < uniqueFactIds.length; i++) {
 		r -= weights[i];
-		if (r <= 0) return factIds[i];
+		if (r <= 0) return uniqueFactIds[i];
 	}
-	return factIds[factIds.length - 1];
+	return uniqueFactIds[uniqueFactIds.length - 1];
 }

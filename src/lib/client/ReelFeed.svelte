@@ -54,13 +54,12 @@ let reviewState = $state<ReviewMap>({});
 const itemByFactId = $derived(
 	Object.fromEntries(feedItems.map((f) => [f.factId, f])),
 );
-const allFactIds = $derived(feedItems.map((f) => f.factId));
 
 const loopedFeedItems = $derived(buildLoopedFeedItems(feedItems));
 const mobilePages = $derived(
-	buildReelPages(feedItems, undefined, {
-		quizPicker: (_pos) => {
-			const id = pickNextQuizFactId(allFactIds, reviewState);
+	buildReelPages(feedItems, 1, {
+		quizPicker: (_pos, seenFactIds) => {
+			const id = pickNextQuizFactId(seenFactIds, reviewState);
 			return id ? (itemByFactId[id] ?? null) : null;
 		},
 	}),

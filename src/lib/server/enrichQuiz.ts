@@ -12,6 +12,79 @@ function trunc(text: string, max: number): string {
 	return text.length <= max ? text : `${text.slice(0, max - 1).trim()}…`;
 }
 
+function cleanSentenceEnding(text: string): string {
+	let str = text.trim();
+	const stopWords = new Set([
+		"de",
+		"la",
+		"el",
+		"para",
+		"las",
+		"los",
+		"un",
+		"una",
+		"y",
+		"o",
+		"en",
+		"con",
+		"del",
+		"al",
+		"a",
+		"su",
+		"sus",
+		"que",
+		"se",
+		"por",
+		"como",
+		"no",
+		"si",
+		"sin",
+		"post",
+		"pre",
+		"e",
+		"u",
+		"lo",
+	]);
+
+	while (true) {
+		str = str.replace(/[,;:\-\s]+$/, "").trim();
+		const words = str.split(/\s+/);
+		if (words.length === 0 || words[0] === "") break;
+		const lastWord = words[words.length - 1].toLowerCase();
+		if (stopWords.has(lastWord)) {
+			words.pop();
+			str = words.join(" ");
+		} else {
+			break;
+		}
+	}
+	return str;
+}
+
+function truncOption(text: string, max: number): string {
+	let clean = text.trim();
+	if (clean.length > max) {
+		let sliced = clean.slice(0, max).trim();
+		const lastSpace = sliced.lastIndexOf(" ");
+		if (lastSpace > 0) {
+			sliced = sliced.slice(0, lastSpace).trim();
+		}
+		clean = sliced;
+	}
+
+	clean = cleanSentenceEnding(clean);
+
+	if (
+		clean &&
+		!clean.endsWith(".") &&
+		!clean.endsWith("!") &&
+		!clean.endsWith("?")
+	) {
+		clean += ".";
+	}
+	return clean;
+}
+
 function mutateValue(value: number): number {
 	// Pick clinically plausible offset: half or third or double.
 	const factors = [0.5, 0.33, 2];
@@ -91,7 +164,7 @@ function distractorWithMutatedNumber(
 		pick[0],
 		`${next}${pick[0].includes(" ") ? " " : ""}${pick[2]}`,
 	);
-	return cap(trunc(replaced, 90));
+	return cap(truncOption(replaced, 90));
 }
 
 // Invert a directional verb in the title.
@@ -112,7 +185,7 @@ function distractorWithInvertedDirection(title: string): string | null {
 	];
 	for (const [re, sub] of swaps) {
 		if (re.test(cleanTitle)) {
-			return cap(trunc(cleanTitle.replace(re, sub), 90));
+			return cap(truncOption(cleanTitle.replace(re, sub), 90));
 		}
 	}
 	return null;
@@ -121,7 +194,12 @@ function distractorWithInvertedDirection(title: string): string | null {
 // Build a "common misconception" distractor from why-non-obvious context.
 function distractorFromMisconception(why: string): string {
 	const first = getFirstSentence(why);
-	return cap(trunc(cleanText(first), 90));
+	const cleaned = cleanText(first);
+	const splitConjunctionsRe =
+		/,?\s+(?:pero|aunque|sin\s+embargo|por\s+lo\s+que|ya\s+que|porque|a\s+pesar\s+de\s+que|con\s+el\s+fin\s+de\s+que|para\s+evitar\s+que|lo\s+cual|lo\s+que\s+lleva\s+a|lo\s+que\s+causa|cuando|donde|como|ya\s+sea|por\s+comodidad|de\s+manera|con\s+el\s+fin|para\s+evitar|lo\s+que\s+lleva|lo\s+que\s+causa)\b|;|\b-\b|—/i;
+	const parts = cleaned.split(splitConjunctionsRe);
+	const firstPart = parts[0].trim();
+	return cap(truncOption(firstPart, 115));
 }
 
 const fallbackWrong = [
@@ -153,7 +231,7 @@ const questionTemplates = [
 ];
 
 export function enrichQuiz(fact: Fact): QuizQuestion {
-	const correct = cap(trunc(cleanText(fact.title), 90));
+	const correct = cap(truncOption(cleanText(fact.title), 90));
 
 	const candidates: string[] = [];
 	const mut1 = distractorWithMutatedNumber(fact.title, fact.rank);

@@ -76,4 +76,11 @@ describe("pickNextQuizFactId (weighted)", () => {
 		// 'b' should be reachable.
 		expect(["a", "b"]).toContain(pick);
 	});
+
+	it("deduplicates repeated seen ids before weighted picking", () => {
+		const state: ReviewMap = {};
+		const rng = () => 0.99;
+		const pick = pickNextQuizFactId(["a", "a", "a", "b"], state, now, rng);
+		expect(pick).toBe("b");
+	});
 });

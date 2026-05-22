@@ -1609,10 +1609,20 @@ export const facts: Fact[] = [
 	},
 ];
 
+import { facts2, facts2Block6to10 } from "./facts2";
+import { facts3 } from "./facts3";
+
+export const allFacts: Fact[] = [
+	...facts,
+	...facts2,
+	...facts2Block6to10,
+	...facts3,
+];
+
 export function listFacts() {
-	return facts;
+	return allFacts;
 }
 
 export function findFact(id: string) {
-	return facts.find((fact) => fact.id === id);
+	return allFacts.find((fact) => fact.id === id);
 }

@@ -2,11 +2,8 @@ import { existsSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import type { Fact, ReelFeedItem } from "$lib/types";
 import { enrichQuiz } from "./enrichQuiz";
-import { facts } from "./facts";
-import { facts2, facts2Block6to10 } from "./facts2";
-import { facts3 } from "./facts3";
+import { allFacts } from "./facts";
 
-const allFacts = [...facts, ...facts2, ...facts2Block6to10, ...facts3];
 import { planReel, reelRequestSchema } from "./reelPlanner";
 
 const generatedAt = "2026-05-08T10:04:00+02:00";
