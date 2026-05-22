@@ -109,12 +109,12 @@ function assetIcon(kind: "audio" | "image" | "video") {
 	{:else if pageType === "quiz"}
 		<div class="quiz-full">
 			<div class="quiz-header">
-				<p class="eyebrow">Después del video</p>
-				<h2>Pregunta rápida</h2>
+				<p class="eyebrow">Video {reel.reelNumber} · {item.durationSec}s</p>
+				<h2>{item.title}</h2>
 			</div>
 
 			<div class="question">
-				<h3>{item.quiz.question}</h3>
+				<h2>{item.quiz.question}</h2>
 				<div class="answers">
 					{#each item.quiz.options as option, optionIndex}
 						<button
@@ -203,10 +203,6 @@ function assetIcon(kind: "audio" | "image" | "video") {
 			</div>
 
 			<div class="video-overlay">
-				<div>
-					<p class="eyebrow">Video {reel.reelNumber} · {item.durationSec}s</p>
-					<h1>{item.title}</h1>
-				</div>
 				<div class="swipe-hint">
 					{#if swipeOffset !== 0}
 						<span class:flipped={swipeOffset > 0}>
@@ -249,14 +245,14 @@ function assetIcon(kind: "audio" | "image" | "video") {
 		<aside class="lesson">
 			<div class="lesson-head">
 				<div>
-					<p class="eyebrow">Después del video</p>
-					<h2>Pregunta rápida</h2>
+					<p class="eyebrow">Video {reel.reelNumber} · {item.durationSec}s</p>
+					<h1>{item.title}</h1>
 				</div>
 				<BookOpenCheck size={24} />
 			</div>
 
 			<div class="question">
-				<h3>{item.quiz.question}</h3>
+				<h2>{item.quiz.question}</h2>
 				<div class="answers">
 					{#each item.quiz.options as option, optionIndex}
 						<button
@@ -455,7 +451,6 @@ function assetIcon(kind: "audio" | "image" | "video") {
 
 	h1,
 	h2,
-	h3,
 	p {
 		margin-top: 0;
 	}
@@ -474,9 +469,17 @@ function assetIcon(kind: "audio" | "image" | "video") {
 		line-height: 1;
 	}
 
-	h3 {
+	.lesson-head h1 {
+		font-size: clamp(1.5rem, 3.2vw, 2.2rem);
+		line-height: 1.1;
+		max-width: none;
+		margin-top: 4px;
+	}
+
+	.question h2 {
 		font-size: 1.35rem;
 		line-height: 1.08;
+		margin: 0;
 	}
 
 	.swipe-hint {
