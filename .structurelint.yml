@@ -1,3 +1,5 @@
+root: true
+
 rules:
-  exclude:
-    - github-workflows
+  ci-gates: true
+  fallow-gate: true
