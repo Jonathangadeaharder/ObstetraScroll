@@ -23,7 +23,7 @@ import re
 import subprocess
 from pathlib import Path
 
-import mlx_whisper  # pyright: ignore[reportMissingImports]
+
 
 ROOT = Path(__file__).resolve().parent.parent
 MEDIA = ROOT / "static" / "generated-media"
@@ -325,28 +325,12 @@ def filter_hallucinations(words: list[dict], audio_dur: float) -> list[dict]:
 
 
 def transcribe(audio_path: Path) -> list[dict]:
-    result = mlx_whisper.transcribe(
-        str(audio_path),
-        path_or_hf_repo=WHISPER_MODEL,
-        word_timestamps=True,
-        language=LANG,
-        condition_on_previous_text=False,
-        no_speech_threshold=0.6,
-        compression_ratio_threshold=2.4,
-        temperature=0.0,
-    )
-    words: list[dict] = []
-    for seg in result["segments"]:
-        if seg.get("no_speech_prob", 0.0) > 0.6:
-            continue
-        for w in seg.get("words", []):
-            words.append({
-                "word": w["word"],
-                "start": float(w["start"]),
-                "end": float(w["end"]),
-                "probability": float(w.get("probability", 1.0)),
-            })
-    return filter_hallucinations(words, duration(audio_path))
+    from aiservices.transcribe import transcribe as _transcribe
+    result = _transcribe(str(audio_path))
+    return [
+        {"start": s.start, "end": s.end, "text": s.text, "words": []}
+        for s in result.segments
+    ]
 
 
 # Per-reel caption themes — cycled by reel index so users see variety.

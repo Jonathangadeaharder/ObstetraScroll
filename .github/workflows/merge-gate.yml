@@ -44,7 +44,7 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --frozen-lockfile --store-dir "$RUNNER_TEMP/pnpm-store-${GITHUB_RUN_ID}-${GITHUB_JOB}"
 
       - name: Format check
         run: pnpm exec biome format .
@@ -62,7 +62,7 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --frozen-lockfile --store-dir "$RUNNER_TEMP/pnpm-store-${GITHUB_RUN_ID}-${GITHUB_JOB}"
 
       - name: Lint
         run: pnpm run lint
@@ -80,7 +80,7 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --frozen-lockfile --store-dir "$RUNNER_TEMP/pnpm-store-${GITHUB_RUN_ID}-${GITHUB_JOB}"
 
       - name: Type check
         run: pnpm run typecheck
@@ -98,7 +98,7 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --frozen-lockfile --store-dir "$RUNNER_TEMP/pnpm-store-${GITHUB_RUN_ID}-${GITHUB_JOB}"
 
       - name: Build
         run: pnpm build
@@ -116,7 +116,7 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --frozen-lockfile --store-dir "$RUNNER_TEMP/pnpm-store-${GITHUB_RUN_ID}-${GITHUB_JOB}"
 
       - name: Unit tests with coverage
         run: pnpm exec vitest run --coverage
@@ -134,7 +134,10 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --frozen-lockfile --store-dir "$RUNNER_TEMP/pnpm-store-${GITHUB_RUN_ID}-${GITHUB_JOB}"
+
+      - name: Choose E2E port
+        run: echo "PLAYWRIGHT_PORT=$((45000 + RANDOM % 10000))" >> "$GITHUB_ENV"
 
       - name: E2E tests
         run: pnpm exec playwright test
@@ -152,7 +155,7 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --frozen-lockfile --store-dir "$RUNNER_TEMP/pnpm-store-${GITHUB_RUN_ID}-${GITHUB_JOB}"
 
       - name: Dependency audit
         run: pnpm audit --audit-level=high
