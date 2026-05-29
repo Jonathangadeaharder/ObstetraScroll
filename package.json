@@ -71,6 +71,10 @@
     "onlyBuiltDependencies": [
       "@biomejs/biome",
       "esbuild"
-    ]
+    ],
+    "overrides": {
+      "cookie": ">=0.7.0",
+      "qs": ">=6.15.2"
+    }
   }
 }
