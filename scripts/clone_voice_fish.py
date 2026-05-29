@@ -21,8 +21,8 @@ import subprocess
 import sys
 from pathlib import Path
 
-import mlx_whisper  # pyright: ignore[reportMissingImports]
-from mlx_audio.tts.generate import generate_audio  # pyright: ignore[reportMissingImports]
+from aiservices.transcribe import transcribe
+from aiservices.generate import AudioGenerator
 
 ROOT = Path(__file__).resolve().parent.parent
 MEDIA = ROOT / "static" / "generated-media"
@@ -81,14 +81,8 @@ def pick_reference() -> tuple[Path, float]:
 
 
 def transcribe_reference(ref_audio: Path) -> str:
-    r = mlx_whisper.transcribe(
-        str(ref_audio),
-        path_or_hf_repo=WHISPER_MODEL,
-        language="es",
-        condition_on_previous_text=False,
-        temperature=0.0,
-    )
-    text = " ".join(seg["text"].strip() for seg in r["segments"])
+    r = transcribe(str(ref_audio), language="es")
+    text = " ".join(seg.text.strip() for seg in r.segments)
     return text.strip()
 
 
@@ -149,15 +143,9 @@ def main() -> None:
             continue
 
         try:
-            generate_audio(
+            AudioGenerator().generate(
                 text=text,
-                model=FISH_MODEL,
-                ref_audio=str(ref_audio),
-                ref_text=ref_text,
-                file_prefix=str(out_path.with_suffix("")),
-                audio_format="mp3",
-                lang_code="es",
-                verbose=False,
+                output=str(out_path),
             )
             print(f"[{i+1:3d}/{len(briefs)}] {slug} OK")
         except Exception as exc:

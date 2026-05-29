@@ -12,7 +12,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-import mlx_whisper  # pyright: ignore[reportMissingImports]
+from aiservices.transcribe import transcribe
 
 ROOT = Path(__file__).resolve().parent.parent
 MEDIA = ROOT / "static" / "generated-media"
@@ -28,30 +28,20 @@ OPENER_END_FALLBACK = ["pasarse", "pausa", "teoría", "olvida", "tenerlo"]
 
 
 def find_cut_seconds(audio: Path) -> float | None:
-    r = mlx_whisper.transcribe(
-        str(audio),
-        path_or_hf_repo="mlx-community/whisper-large-v3-mlx",
-        word_timestamps=True,
-        language="es",
-        condition_on_previous_text=False,
-        no_speech_threshold=0.6,
-        compression_ratio_threshold=2.4,
-        temperature=0.0,
-    )
+    r = transcribe(str(audio))
     # Look only in first segment — opener is always there.
-    if not r["segments"]:
+    if not r.segments:
         return None
-    first = r["segments"][0]
-    end_of_first = float(first["end"])
-    for w in first.get("words", []):
-        token = w["word"].strip().lower().rstrip(",.;:")
-        if token in OPENER_END_TOKENS:
-            # Add ~0.15s pad so we don't clip the consonant tail.
-            return float(w["end"]) + 0.15
-    for w in first.get("words", []):
-        token = w["word"].strip().lower().rstrip(",.;:")
-        if token in OPENER_END_FALLBACK:
-            return float(w["start"])
+    first = r.segments[0]
+    end_of_first = float(first.end)
+    # Check segment text for opener end markers (no word-level timestamps in new API).
+    text_lower = first.text.strip().lower()
+    for token in OPENER_END_TOKENS:
+        if token in text_lower:
+            return end_of_first + 0.15
+    for token in OPENER_END_FALLBACK:
+        if token in text_lower:
+            return end_of_first
     # If first segment is itself just the opener, cut right after it.
     if end_of_first < 12.0:
         return end_of_first + 0.05
