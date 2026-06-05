@@ -11,3 +11,4 @@ output
 .superpowers/
 test-results/
 playwright-report/
+static/generated-media/.work/
