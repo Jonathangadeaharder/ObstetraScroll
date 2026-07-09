@@ -55,8 +55,8 @@
     "svelte-check": "^4.1.1",
     "tsx": "^4.22.0",
     "typescript": "^5.7.2",
-    "vite": "^6.0.5",
-    "vitest": "^3.2.4"
+    "vite": "^6.4.3",
+    "vitest": "^3.2.6"
   },
   "lint-staged": {
     "src/**/*.{js,ts,svelte}": [
